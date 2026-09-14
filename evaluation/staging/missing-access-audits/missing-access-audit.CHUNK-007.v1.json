@@ -233,9 +233,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-37D10C6E432B",
         "EVID-913E492E1E24",
@@ -558,9 +556,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-307A165970F8",
         "EVID-7C63FDCBE51A",
@@ -856,7 +852,7 @@
       "coverage": "complete",
       "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "partly",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-3EDA0E0DCE3E"
       ],
@@ -924,10 +920,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "STA",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-2F166B56C936",
         "EVID-35A773442BDD",
@@ -1022,9 +1015,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-1D43AD75A64E",
         "EVID-D2D07E584431",
@@ -1113,9 +1104,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-6C6EA03AE0E8",
         "EVID-86DC3F498E72"
@@ -1329,7 +1318,7 @@
       "coverage": "complete",
       "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "partly",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-89E393279602"
       ],
@@ -1390,10 +1379,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "STA",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-32A052E039B3",
         "EVID-A3A1C8A580FF"
@@ -1418,7 +1404,7 @@
       "coverage": "complete",
       "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "partly",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-9303575171AF"
       ],
@@ -1486,10 +1472,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "STA",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-4AC201CE1175",
         "EVID-5875D3B90404",
@@ -1701,9 +1684,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-4373B388A19F",
         "EVID-B30F4100BF85"
@@ -1727,7 +1708,7 @@
       "coverage": "complete",
       "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "partly",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-EDE9FE43A1B3"
       ],
@@ -1795,10 +1776,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "STA",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-2B9769FD0E15",
         "EVID-516D7FCA0785",
@@ -1826,7 +1804,7 @@
       "coverage": "complete",
       "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "partly",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-8E1B67536FED",
         "PATH-C5DD4C116A93"
@@ -1893,10 +1871,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "STA",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-12207E8E0BB7",
         "EVID-212DE69A64A3",
@@ -1984,9 +1959,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-CB080A3AF430",
         "EVID-F69374C363A5"
@@ -2010,7 +1983,7 @@
       "coverage": "complete",
       "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "partly",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-A2978CD87E12"
       ],
@@ -2070,10 +2043,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "STA",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-322E830FA6DD",
         "EVID-E5B15E3203A8"
@@ -2158,9 +2128,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-AB2172697EC4",
         "EVID-F6B9927BB647"
@@ -2185,7 +2153,7 @@
       "coverage": "complete",
       "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "partly",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-B7DA2266F8AD"
       ],
@@ -2245,10 +2213,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "STA",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-25CD381253ED",
         "EVID-E6199424B902"
@@ -2340,9 +2305,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-3918A8FE7826",
         "EVID-4D46C7EF27E7",
@@ -2431,9 +2394,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-72B30E1A4792",
         "EVID-ADA151DAC0F9"
@@ -2519,9 +2480,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-34F414248282",
         "EVID-8AD4C8F3BCC2"
@@ -2690,7 +2649,7 @@
       "coverage": "complete",
       "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "partly",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-9303575171AF"
       ],
@@ -2758,10 +2717,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "STA",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-0AE395737A83",
         "EVID-45D9BC90FAB5",
@@ -3248,9 +3204,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-01547C6FB39E",
         "EVID-909E3EF54953",
@@ -3340,9 +3294,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-8077888EA7AB",
         "EVID-A3CCEE8B31FE"
@@ -3367,7 +3319,7 @@
       "coverage": "complete",
       "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "partly",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-3EDA0E0DCE3E"
       ],
@@ -3435,10 +3387,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "STA",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-2F166B56C936",
         "EVID-70B842E8E126",
@@ -3723,9 +3672,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-6D21AC84AD36",
         "EVID-6E181FA159C6",
@@ -3822,9 +3769,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-56463CA56291",
         "EVID-7F913B5D8273",
@@ -3913,9 +3858,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-3D93C58B2DCB",
         "EVID-CCF2B7873758"
@@ -4001,9 +3944,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-21E78797A3B7",
         "EVID-F498537CBF39"
@@ -4338,9 +4279,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-C500FEE65001",
         "EVID-CB6BEBAC453C"
@@ -4434,9 +4373,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-2019468DE580",
         "EVID-7DAD1D4C1C10",
@@ -4525,9 +4462,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-00802329E28A",
         "EVID-B7B2299698B0"
@@ -4620,9 +4555,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-2085871F0075",
         "EVID-70A6579ED261",
@@ -4711,9 +4644,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-BCDF0555ECE2",
         "EVID-C570D54C2E09"
@@ -4738,7 +4669,7 @@
       "coverage": "complete",
       "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "partly",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-3EDA0E0DCE3E"
       ],
@@ -4799,10 +4730,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "STA",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-3657E9D22B41",
         "EVID-70B842E8E126"
@@ -5923,9 +5851,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-0CF1388B6E76",
         "EVID-527A7A1B0BCF"
@@ -6185,9 +6111,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-8813E56B4AFA",
         "EVID-AF6EB4737830"
@@ -6216,7 +6140,7 @@
         "SUBJ-B3361A88EC5F",
         "SUBJ-F80219EBE645"
       ],
-      "result": "partially_succeeds",
+      "result": "succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-0760D0F531C7",
@@ -6224,7 +6148,7 @@
         "PATH-4E8391484033",
         "PATH-D6736A1D3BA7"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "medium",
       "evidence_ids": [
         "EVID-2085871F0075",
@@ -6317,7 +6241,7 @@
         "SUBJ-78830C16A72A",
         "SUBJ-A513146CACAF"
       ],
-      "result": "partially_succeeds",
+      "result": "succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-10A0CAD425C1",
@@ -6328,7 +6252,7 @@
         "PATH-8E1B67536FED",
         "PATH-C5DD4C116A93"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "medium",
       "evidence_ids": [
         "EVID-212DE69A64A3",
@@ -6572,14 +6496,14 @@
         "SUBJ-C6F3C427C89B",
         "SUBJ-CB4AC85E0D26"
       ],
-      "result": "partially_succeeds",
+      "result": "succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-0E2EF28403D1",
         "PATH-A71196BFF9CD",
         "PATH-E57804506A82"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "medium",
       "evidence_ids": [
         "EVID-12391A1D9056",
@@ -6602,12 +6526,12 @@
       "subject_ids": [
         "SUBJ-6D5AB9581B8F"
       ],
-      "result": "partially_succeeds",
+      "result": "succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-DCAA0C7DE9EB"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "medium",
       "evidence_ids": [
         "EVID-246BAB9AF253",
@@ -6789,6 +6713,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-F15ABAE3A8F7"
+      ],
+      "matched_locator_ids": [
+        "LOC-CB6BEBAC453C"
       ]
     },
     {
@@ -6949,6 +6876,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-97E0B7981535"
+      ],
+      "matched_locator_ids": [
+        "LOC-089B4F69D6EB"
       ]
     },
     {
@@ -6972,6 +6902,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-10A0CAD425C1"
+      ],
+      "matched_locator_ids": [
+        "LOC-6C6EA03AE0E8"
       ]
     },
     {
@@ -6995,6 +6928,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-8E1B67536FED"
+      ],
+      "matched_locator_ids": [
+        "LOC-12207E8E0BB7"
       ]
     },
     {
@@ -7018,6 +6954,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-08FA4C180199"
+      ],
+      "matched_locator_ids": [
+        "LOC-AC05F77D899F"
       ]
     },
     {
@@ -7041,6 +6980,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-144D6DFD5B67"
+      ],
+      "matched_locator_ids": [
+        "LOC-F9C701C2DC54"
       ]
     },
     {
@@ -7104,6 +7046,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-D6736A1D3BA7"
+      ],
+      "matched_locator_ids": [
+        "LOC-21E78797A3B7"
       ]
     },
     {
@@ -7127,6 +7072,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-B99CD9720A01"
+      ],
+      "matched_locator_ids": [
+        "LOC-F69374C363A5"
       ]
     },
     {
@@ -7187,6 +7135,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-EDE9FE43A1B3"
+      ],
+      "matched_locator_ids": [
+        "LOC-516D7FCA0785"
       ]
     },
     {
@@ -7210,6 +7161,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-0E2EF28403D1"
+      ],
+      "matched_locator_ids": [
+        "LOC-00802329E28A"
       ]
     },
     {
@@ -7233,6 +7187,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-33D165E7DE32"
+      ],
+      "matched_locator_ids": [
+        "LOC-527A7A1B0BCF"
       ]
     },
     {
@@ -7256,6 +7213,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-9303575171AF"
+      ],
+      "matched_locator_ids": [
+        "LOC-5875D3B90404"
       ]
     },
     {
@@ -7340,6 +7300,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-C3F01EE70627"
+      ],
+      "matched_locator_ids": [
+        "LOC-4373B388A19F"
       ]
     },
     {
@@ -7363,6 +7326,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-5152B50C11EA"
+      ],
+      "matched_locator_ids": [
+        "LOC-B08B04D4AD91"
       ]
     },
     {
@@ -7386,6 +7352,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-1F68F03A39EC"
+      ],
+      "matched_locator_ids": [
+        "LOC-AB2172697EC4"
       ]
     },
     {
@@ -7409,6 +7378,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-DCAA0C7DE9EB"
+      ],
+      "matched_locator_ids": [
+        "LOC-10EBCAF70D5F"
       ]
     },
     {
@@ -7432,6 +7404,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-DCAA0C7DE9EB"
+      ],
+      "matched_locator_ids": [
+        "LOC-62372EA59C1C"
       ]
     },
     {
@@ -7455,6 +7430,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-DF0FCCCA970C"
+      ],
+      "matched_locator_ids": [
+        "LOC-56463CA56291"
       ]
     },
     {
@@ -7548,6 +7526,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-4CD5578102F0"
+      ],
+      "matched_locator_ids": [
+        "LOC-3D93C58B2DCB"
       ]
     },
     {
@@ -7681,6 +7662,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-9303575171AF"
+      ],
+      "matched_locator_ids": [
+        "LOC-5875D3B90404"
       ]
     },
     {
@@ -7704,6 +7688,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-F15ABAE3A8F7"
+      ],
+      "matched_locator_ids": [
+        "LOC-CB6BEBAC453C"
       ]
     },
     {
@@ -7727,6 +7714,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-89E393279602"
+      ],
+      "matched_locator_ids": [
+        "LOC-A3A1C8A580FF"
       ]
     },
     {
@@ -7750,6 +7740,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-3EDA0E0DCE3E"
+      ],
+      "matched_locator_ids": [
+        "LOC-70B842E8E126"
       ]
     },
     {
@@ -7828,6 +7821,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-9303575171AF"
+      ],
+      "matched_locator_ids": [
+        "LOC-0AE395737A83"
       ]
     },
     {
@@ -7851,6 +7847,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-3EDA0E0DCE3E"
+      ],
+      "matched_locator_ids": [
+        "LOC-70B842E8E126"
       ]
     },
     {
@@ -7935,6 +7934,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-9303575171AF"
+      ],
+      "matched_locator_ids": [
+        "LOC-6646F5BDC968"
       ]
     },
     {
@@ -7958,6 +7960,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-80273749F6C6"
+      ],
+      "matched_locator_ids": [
+        "LOC-89B68D29355F"
       ]
     },
     {
@@ -7981,6 +7986,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-6D33CAD8FC2E"
+      ],
+      "matched_locator_ids": [
+        "LOC-FB1256EEAD4C"
       ]
     },
     {
@@ -8004,6 +8012,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-87BA5625A4F4"
+      ],
+      "matched_locator_ids": [
+        "LOC-BAB72BF95E46"
       ]
     },
     {
@@ -8027,6 +8038,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-0760D0F531C7"
+      ],
+      "matched_locator_ids": [
+        "LOC-8D546695D1C7"
       ]
     },
     {
@@ -8050,6 +8064,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-DB44A6FB2868"
+      ],
+      "matched_locator_ids": [
+        "LOC-7C63FDCBE51A"
       ]
     },
     {
@@ -8073,6 +8090,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-0760D0F531C7"
+      ],
+      "matched_locator_ids": [
+        "LOC-70A6579ED261"
       ]
     },
     {
@@ -8163,6 +8183,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-1E68EBAAE974"
+      ],
+      "matched_locator_ids": [
+        "LOC-2019468DE580"
       ]
     },
     {
@@ -8186,6 +8209,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-1E68EBAAE974"
+      ],
+      "matched_locator_ids": [
+        "LOC-2019468DE580"
       ]
     },
     {
@@ -8209,6 +8235,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-DB44A6FB2868"
+      ],
+      "matched_locator_ids": [
+        "LOC-307A165970F8"
       ]
     },
     {
@@ -8232,6 +8261,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-E57804506A82"
+      ],
+      "matched_locator_ids": [
+        "LOC-AB3B6A375B05"
       ]
     },
     {
@@ -8346,6 +8378,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-A2978CD87E12"
+      ],
+      "matched_locator_ids": [
+        "LOC-322E830FA6DD"
       ]
     },
     {
@@ -8369,6 +8404,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-AF6EB4737830"
       ]
     },
     {
@@ -8392,6 +8430,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-B6EA543F613D"
+      ],
+      "matched_locator_ids": [
+        "LOC-301AFEF94AD2"
       ]
     },
     {
@@ -8452,6 +8493,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-F64F7B6A582E"
+      ],
+      "matched_locator_ids": [
+        "LOC-8AD4C8F3BCC2"
       ]
     },
     {
@@ -8465,6 +8509,7 @@
         "EVID-52F71AF46FC1"
       ],
       "matched_path_ids": [
+        "PATH-8E1B67536FED",
         "PATH-C5DD4C116A93"
       ],
       "supporting_locator_ids": [
@@ -8475,6 +8520,10 @@
       ],
       "reviewed_path_ids": [
         "PATH-C5DD4C116A93"
+      ],
+      "matched_locator_ids": [
+        "LOC-52F71AF46FC1",
+        "LOC-8D0267A3840A"
       ]
     },
     {
@@ -8528,6 +8577,7 @@
         "EVID-913E492E1E24"
       ],
       "matched_path_ids": [
+        "PATH-08FA4C180199",
         "PATH-BEB10E2D3583"
       ],
       "supporting_locator_ids": [
@@ -8538,6 +8588,10 @@
       ],
       "reviewed_path_ids": [
         "PATH-BEB10E2D3583"
+      ],
+      "matched_locator_ids": [
+        "LOC-37D10C6E432B",
+        "LOC-A58424646B9F"
       ]
     },
     {
@@ -8613,6 +8667,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-EDE9FE43A1B3"
+      ],
+      "matched_locator_ids": [
+        "LOC-9F1ACF5202E7"
       ]
     },
     {
@@ -8731,6 +8788,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-80273749F6C6"
+      ],
+      "matched_locator_ids": [
+        "LOC-B40049BB0055"
       ]
     },
     {
@@ -8857,6 +8917,7 @@
         "EVID-B4D05553C3D9"
       ],
       "matched_path_ids": [
+        "PATH-144D6DFD5B67",
         "PATH-65F05762E126"
       ],
       "supporting_locator_ids": [
@@ -8867,6 +8928,10 @@
       ],
       "reviewed_path_ids": [
         "PATH-65F05762E126"
+      ],
+      "matched_locator_ids": [
+        "LOC-01547C6FB39E",
+        "LOC-1ECE32EB7DF9"
       ]
     },
     {
@@ -8954,6 +9019,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-3ED071BC6B85"
+      ],
+      "matched_locator_ids": [
+        "LOC-8077888EA7AB"
       ]
     },
     {
@@ -8977,6 +9045,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-3EDA0E0DCE3E"
+      ],
+      "matched_locator_ids": [
+        "LOC-2F166B56C936"
       ]
     },
     {
@@ -9000,6 +9071,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-1E68EBAAE974"
+      ],
+      "matched_locator_ids": [
+        "LOC-8A6522F33599"
       ]
     },
     {
@@ -9023,6 +9097,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-ED9C39BD03D2"
+      ],
+      "matched_locator_ids": [
+        "LOC-ADA151DAC0F9"
       ]
     },
     {
@@ -9046,6 +9123,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-3EDA0E0DCE3E"
+      ],
+      "matched_locator_ids": [
+        "LOC-2F166B56C936"
       ]
     },
     {
@@ -9069,6 +9149,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-A71196BFF9CD"
+      ],
+      "matched_locator_ids": [
+        "LOC-8FD784364F7A"
       ]
     },
     {
@@ -9223,6 +9306,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-B7DA2266F8AD"
+      ],
+      "matched_locator_ids": [
+        "LOC-E6199424B902"
       ]
     },
     {
@@ -9246,6 +9332,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-3EDA0E0DCE3E"
+      ],
+      "matched_locator_ids": [
+        "LOC-70B842E8E126"
       ]
     },
     {
@@ -9259,6 +9348,7 @@
         "EVID-B9BE8BB34A8D"
       ],
       "matched_path_ids": [
+        "PATH-1E68EBAAE974",
         "PATH-28356BC66F94"
       ],
       "supporting_locator_ids": [
@@ -9269,6 +9359,10 @@
       ],
       "reviewed_path_ids": [
         "PATH-28356BC66F94"
+      ],
+      "matched_locator_ids": [
+        "LOC-7DAD1D4C1C10",
+        "LOC-8A6522F33599"
       ]
     },
     {
@@ -9332,6 +9426,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-87BA5625A4F4"
+      ],
+      "matched_locator_ids": [
+        "LOC-6E181FA159C6"
       ]
     },
     {
@@ -9355,6 +9452,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-6D33CAD8FC2E"
+      ],
+      "matched_locator_ids": [
+        "LOC-D2D07E584431"
       ]
     },
     {
@@ -9482,6 +9582,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-AD1954BB416C"
+      ],
+      "matched_locator_ids": [
+        "LOC-BCDF0555ECE2"
       ]
     },
     {
@@ -9505,6 +9608,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-5152B50C11EA"
+      ],
+      "matched_locator_ids": [
+        "LOC-F2088DE5DA3B"
       ]
     },
     {
@@ -9528,6 +9634,9 @@
       ],
       "reviewed_path_ids": [
         "PATH-5C00C402374C"
+      ],
+      "matched_locator_ids": [
+        "LOC-D36E4F03DD57"
       ]
     }
   ],
@@ -9553,8 +9662,9 @@
     "reader_tasks_unique": true,
     "concept_coverage_counts": {
       "complete": 33,
+      "partial": 8,
       "missing": 8,
-      "partial": 8
+      "uninspectable": 0
     },
     "locator_recall": {
       "expected": 85,

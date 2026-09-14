@@ -7761,21 +7761,16 @@
         "SUBJ-DCE698874E49",
         "SUBJ-E780A222175C"
       ],
-      "result": "succeeds",
+      "result": "partially_succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-105F39CF8121",
         "PATH-295160F9261B",
-        "PATH-2DEE9387DC90",
-        "PATH-3AFC38F8A7C5",
         "PATH-3B4CC2C0BD3C",
         "PATH-3BB68AD148B6",
         "PATH-48031E958365",
-        "PATH-4E8391484033",
-        "PATH-62F189A0D234",
         "PATH-74AD09869FEC",
         "PATH-9225E76802AE",
-        "PATH-9B2685AD7ABB",
         "PATH-A9BF804C4685",
         "PATH-B1D783FE7E5E",
         "PATH-BC7CC1EC476A",
@@ -7783,7 +7778,7 @@
         "PATH-E9AF2B9195EF",
         "PATH-F657BB678AAD"
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-5470C4AACC5B",
@@ -7813,8 +7808,7 @@
         "EVID-B64DA14D4950",
         "EVID-DFAB3DA66BF4",
         "EVID-23EFCCED05A1"
-      ],
-      "rationale": "For the reader question “How did the Revolution transform the nobility, clergy, papacy, and long-term Church-state conflict?”, candidate access resolves as SUBJ-1F31CE84DC07=complete via church and state, separation of, SUBJ-289FA76841EF=complete via Catholic Church > restoration and Concordat (1801-2), Catholic Church, Concordat of 1801, SUBJ-5C93466C9CE3=complete via nobility > taxation and fiscal privilege, nobility > abolition of, nobility, abolition of, SUBJ-64765F56297F=complete via dissolution of religious orders, directory > religious and social policies, hospital property, nationalization of, SUBJ-7D163AC4CAC9=complete via church property, nobility > emigration of, nobility > and the Church, SUBJ-DCE698874E49=complete via Civil Constitution of the Clergy, clerical oath, Constitutional Church, SUBJ-E780A222175C=complete via clergy (First Estate), Constitutional Church, clergy (First Estate) > abolition of tithes and nationalization of property."
+      ]
     },
     {
       "task_id": "TASK-7ABB9930E2DA",
@@ -8113,16 +8107,13 @@
         "SUBJ-538EA03B0D17",
         "SUBJ-A48BAD57F165"
       ],
-      "result": "succeeds",
+      "result": "partially_succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
-        "PATH-0C63FACA6CED",
         "PATH-88E8C12D1347",
-        "PATH-9867EC4E7131",
-        "PATH-A254A6CC29F8",
-        "PATH-B403991EA55D"
+        "PATH-A254A6CC29F8"
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-748CA9C0F761",
@@ -8142,8 +8133,7 @@
         "EVID-3C7AEAB678CE",
         "EVID-7A2AB85119C8",
         "EVID-CAD8980A08B0"
-      ],
-      "rationale": "For the reader question “How does popular anti-revolution differ from organized counter-revolution, and where do the sansculottes fit?”, candidate access resolves as SUBJ-538EA03B0D17=complete via Chouans (Chouannerie), Vendée, SUBJ-A48BAD57F165=complete via Paris sections, popular democracy, moral economy."
+      ]
     },
     {
       "task_id": "TASK-B7812DDBF78E",

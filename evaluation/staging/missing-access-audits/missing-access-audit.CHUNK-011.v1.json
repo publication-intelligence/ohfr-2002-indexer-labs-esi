@@ -6381,7 +6381,7 @@
         "SUBJ-A42A4D3E8946",
         "SUBJ-CA5DDA01E1B4"
       ],
-      "result": "succeeds",
+      "result": "partially_succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-16834E164181",
@@ -6399,7 +6399,7 @@
         "PATH-E2DD006900A5",
         "PATH-E93FDACD1D14"
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-15A7BED2CD7F",
@@ -6421,8 +6421,7 @@
         "EVID-DAE7E22BD98E",
         "EVID-FA8F172C5253",
         "EVID-FECEC3F5E409"
-      ],
-      "task_rationale": "For the question “How does Doyle trace the destruction of the Vendéan field army and distinguish combat losses, infernal-column violence, judicial repression, and the Nantes drownings?”, direct routes including Republican military command: political reliability versus competence, Clergy under the Terror: coercion, deportation, and renunciation, Vendée: infernal columns and republican devastation retrieve 15 of 18 expected treatments, with no material first-lookup barrier."
+      ]
     },
     {
       "task_id": "TASK-29637EA07D89",
@@ -6449,7 +6448,7 @@
         "SUBJ-CD07785A4B76",
         "SUBJ-FED99E225F29"
       ],
-      "result": "succeeds",
+      "result": "partially_succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-0092ED9380B0",
@@ -6468,7 +6467,6 @@
         "PATH-9556E0C0D594",
         "PATH-AA32B34D38AD",
         "PATH-AFB4FA218294",
-        "PATH-BBF5E6181BFB",
         "PATH-C92AF8DAA121",
         "PATH-D07C40F100E2",
         "PATH-E196E5E0848C",
@@ -6480,7 +6478,7 @@
         "PATH-F175C8D02D4F",
         "PATH-F2158280AD5F"
       ],
-      "severity": "none",
+      "severity": "major",
       "confidence": "high",
       "evidence_ids": [
         "EVID-03D78BE36F70",
@@ -6538,8 +6536,7 @@
         "EVID-F2E49A02E24C",
         "EVID-F5319F994862",
         "EVID-FC571D75E574"
-      ],
-      "task_rationale": "For the question “How does Doyle reconstruct the conflict among Hébertists, Indulgents, and the governing committees without treating allegations of foreign conspiracy as established fact?”, direct routes including Danton: emergency mobilization and politics of indulgence, Vincent: war-ministry radicalism and factional agitation, Collot d'Herbois: Lyonnais repression and defense of terror retrieve 45 of 55 expected treatments, with no material first-lookup barrier."
+      ]
     },
     {
       "task_id": "TASK-34953CED99DD",
@@ -6760,7 +6757,7 @@
         "SUBJ-E37CBDC1194F",
         "SUBJ-FBF075284955"
       ],
-      "result": "succeeds",
+      "result": "partially_succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-0092ED9380B0",
@@ -6776,11 +6773,10 @@
         "PATH-8D6E7C4F7872",
         "PATH-B4EFB1A98449",
         "PATH-B7FF3EADEB1B",
-        "PATH-BBF5E6181BFB",
         "PATH-CCF09DDF8FCA",
         "PATH-F89128DD30E6"
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-0B821BDBB31B",
@@ -6812,8 +6808,7 @@
         "EVID-E4613A640B31",
         "EVID-EF6D213394F1",
         "EVID-F5319F994862"
-      ],
-      "task_rationale": "For the question “How does Doyle explain why the sansculottes did not defend Hébert and how paid participation and committee service absorbed activists into the state apparatus?”, direct routes including Revolutionary Armies (sans-culotte formations), Chaumette: subsistence mobilization, dechristianization, and Commune purge, Hébert and Père Duchesne retrieve 27 of 28 expected treatments, with no material first-lookup barrier."
+      ]
     },
     {
       "task_id": "TASK-748D9789341A",
@@ -7020,7 +7015,7 @@
         "SUBJ-E37CBDC1194F",
         "SUBJ-F9E78865190B"
       ],
-      "result": "succeeds",
+      "result": "partially_succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-0092ED9380B0",
@@ -7040,7 +7035,7 @@
         "PATH-ED68FCC9B189",
         "PATH-F5DA2075A2A8"
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-13B17874852E",
@@ -7062,8 +7057,7 @@
         "EVID-E614C1C0D4A8",
         "EVID-EF6D213394F1",
         "EVID-F9F01D4CCCD3"
-      ],
-      "task_rationale": "For the question “What account does Doyle give of how the General Maximum, Subsistence Commission, forced loan, and Ventôse laws combined economic control with popular politics?”, direct routes including Saint-Just: Revolutionary Government, Ventôse, and anti-faction policy, Laws of Ventôse: proposed redistribution to indigent patriots, Maximum wages: non-enforcement and political limits retrieve 17 of 19 expected treatments, with no material first-lookup barrier."
+      ]
     },
     {
       "task_id": "TASK-BE9F90A787DA",
@@ -7141,7 +7135,7 @@
         "SUBJ-781BDBA91F76",
         "SUBJ-CA5DDA01E1B4"
       ],
-      "result": "succeeds",
+      "result": "partially_succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-01F1A434DE6C",
@@ -7164,7 +7158,7 @@
         "PATH-E99A38667BF9",
         "PATH-FF4BD0B64D83"
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-036E0489B47B",
@@ -7192,8 +7186,7 @@
         "EVID-DAE7E22BD98E",
         "EVID-EF87CC3A5FF5",
         "EVID-F8BF60A274E8"
-      ],
-      "task_rationale": "For the question “How does Doyle assess the Terror's approximate death toll, social composition, and strong concentration in rebellion and frontier zones?”, direct routes including Terror in comparative European perspective, Terror: imprisonment, custody deaths, and extrajudicial killing, Lyons: exemplary destruction and mass repression retrieve 23 of 25 expected treatments, with no material first-lookup barrier."
+      ]
     }
   ],
   "treatment_judgments": [
@@ -7208,7 +7201,15 @@
         "EVID-454E66159E51",
         "EVID-66E9BA235DC8"
       ],
-      "judgment_rationale": "For Vincent: war-ministry radicalism and factional agitation, benchmark evidence describes the page treatment as “After release he rejected reconciliation and continued demanding purges, helping renew the factional crisis.” Canonical locator judgments confirm that Hébertists, Vincent, François-Nicolas gives the reader access to that treatment."
+      "judgment_rationale": "For Vincent: war-ministry radicalism and factional agitation, benchmark evidence describes the page treatment as “After release he rejected reconciliation and continued demanding purges, helping renew the factional crisis.” Canonical locator judgments confirm that Hébertists, Vincent, François-Nicolas gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-21D98D60F855",
+        "PATH-65D606A999E1"
+      ],
+      "matched_locator_ids": [
+        "LOC-454E66159E51",
+        "LOC-66E9BA235DC8"
+      ]
     },
     {
       "treatment_id": "TREAT-07E21E9433B8",
@@ -7220,7 +7221,13 @@
         "EVID-947A2FF96043",
         "EVID-C74C00D8E94B"
       ],
-      "judgment_rationale": "For Billaud-Varenne: radical legislation and central authority, benchmark evidence describes the page treatment as “He sponsored the revolutionary-army measure and then joined the Committee during the September radicalization.” Canonical locator judgments confirm that Billaud-Varenne, Jacques-Nicolas gives the reader access to that treatment."
+      "judgment_rationale": "For Billaud-Varenne: radical legislation and central authority, benchmark evidence describes the page treatment as “He sponsored the revolutionary-army measure and then joined the Committee during the September radicalization.” Canonical locator judgments confirm that Billaud-Varenne, Jacques-Nicolas gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-9556E0C0D594"
+      ],
+      "matched_locator_ids": [
+        "LOC-C74C00D8E94B"
+      ]
     },
     {
       "treatment_id": "TREAT-0AED9F3EC808",
@@ -7234,7 +7241,17 @@
         "EVID-823EA11733FF",
         "EVID-C6F7765D40F6"
       ],
-      "judgment_rationale": "For Central review of provincial Terror: Tallien, Carrier, and Jullien, benchmark evidence describes the page treatment as “Robespierre-backed missions against Carrier and Tallien formed part of the wider effort to end proconsular autonomy.” Canonical locator judgments confirm that Jullien, Marc-Antoine, Tallien, Jean-Lambert, Carrier, Jean-Baptiste gives the reader access to that treatment."
+      "judgment_rationale": "For Central review of provincial Terror: Tallien, Carrier, and Jullien, benchmark evidence describes the page treatment as “Robespierre-backed missions against Carrier and Tallien formed part of the wider effort to end proconsular autonomy.” Canonical locator judgments confirm that Jullien, Marc-Antoine, Tallien, Jean-Lambert, Carrier, Jean-Baptiste gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-53B43BB2FA81",
+        "PATH-A1671706098A",
+        "PATH-E2DD006900A5"
+      ],
+      "matched_locator_ids": [
+        "LOC-77BB7C610DDF",
+        "LOC-823EA11733FF",
+        "LOC-C6F7765D40F6"
+      ]
     },
     {
       "treatment_id": "TREAT-0CEFE96F51BD",
@@ -7246,7 +7263,13 @@
         "EVID-3B57AF57E077",
         "EVID-4506C498E5D1"
       ],
-      "judgment_rationale": "For Revolutionary renaming as symbolic punishment, benchmark evidence describes the page treatment as “Paris ordered Lyons's name erased and replaced as part of exemplary civic annihilation.” Canonical locator judgments confirm that Ville Affranchie gives the reader access to that treatment."
+      "judgment_rationale": "For Revolutionary renaming as symbolic punishment, benchmark evidence describes the page treatment as “Paris ordered Lyons's name erased and replaced as part of exemplary civic annihilation.” Canonical locator judgments confirm that Ville Affranchie gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-22507589EB73"
+      ],
+      "matched_locator_ids": [
+        "LOC-4506C498E5D1"
+      ]
     },
     {
       "treatment_id": "TREAT-10B03B2A1A5A",
@@ -7258,7 +7281,13 @@
         "EVID-20C04EAC7C81",
         "EVID-F2F41E6D4EC6"
       ],
-      "judgment_rationale": "For Enragés: suppression by victorious radicals, benchmark evidence describes the page treatment as “Leading enragés were arrested or silenced just as their economic demands became official radical policy.” Canonical locator judgments confirm that enragés gives the reader access to that treatment."
+      "judgment_rationale": "For Enragés: suppression by victorious radicals, benchmark evidence describes the page treatment as “Leading enragés were arrested or silenced just as their economic demands became official radical policy.” Canonical locator judgments confirm that enragés gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-46F265A056A2"
+      ],
+      "matched_locator_ids": [
+        "LOC-F2F41E6D4EC6"
+      ]
     },
     {
       "treatment_id": "TREAT-11C7E37B1BBE",
@@ -7270,7 +7299,13 @@
         "EVID-3A257AAF17B9",
         "EVID-74845875C835"
       ],
-      "judgment_rationale": "For Collot d'Herbois: Lyonnais repression and defense of terror, benchmark evidence describes the page treatment as “His forceful defense of Ronsin revived the terrorist faction and helped abolish the proposed justice committee.” Canonical locator judgments confirm that Collot d'Herbois, Jean-Marie > Committee of Public Safety, role in gives the reader access to that treatment."
+      "judgment_rationale": "For Collot d'Herbois: Lyonnais repression and defense of terror, benchmark evidence describes the page treatment as “His forceful defense of Ronsin revived the terrorist faction and helped abolish the proposed justice committee.” Canonical locator judgments confirm that Collot d'Herbois, Jean-Marie > Committee of Public Safety, role in gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-AFB4FA218294"
+      ],
+      "matched_locator_ids": [
+        "LOC-3A257AAF17B9"
+      ]
     },
     {
       "treatment_id": "TREAT-15B2C7CD6F40",
@@ -7282,7 +7317,13 @@
         "EVID-1DC2795146F7",
         "EVID-A5C2D4FCE1CE"
       ],
-      "judgment_rationale": "For Federalist revolts: collapse and differentiated repression, benchmark evidence describes the page treatment as “Marseilles capitulated under military and subsistence pressure, while Toulon chose foreign protection and royal proclamation.” Canonical locator judgments confirm that Marseilles > Federalist revolt gives the reader access to that treatment."
+      "judgment_rationale": "For Federalist revolts: collapse and differentiated repression, benchmark evidence describes the page treatment as “Marseilles capitulated under military and subsistence pressure, while Toulon chose foreign protection and royal proclamation.” Canonical locator judgments confirm that Marseilles > Federalist revolt gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-0958054B1CA1"
+      ],
+      "matched_locator_ids": [
+        "LOC-A5C2D4FCE1CE"
+      ]
     },
     {
       "treatment_id": "TREAT-15FE9144D1CC",
@@ -7294,7 +7335,13 @@
         "EVID-3BD02F06CDDD",
         "EVID-438D36D90C9E"
       ],
-      "judgment_rationale": "For Hoarding and speculation: criminalization and enforcement, benchmark evidence describes the page treatment as “Severe laws and informal armed terror failed to eliminate black markets under the expanding control system.” Canonical locator judgments confirm that hoarding gives the reader access to that treatment."
+      "judgment_rationale": "For Hoarding and speculation: criminalization and enforcement, benchmark evidence describes the page treatment as “Severe laws and informal armed terror failed to eliminate black markets under the expanding control system.” Canonical locator judgments confirm that hoarding gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-55B0EEE55B5C"
+      ],
+      "matched_locator_ids": [
+        "LOC-3BD02F06CDDD"
+      ]
     },
     {
       "treatment_id": "TREAT-190D71AF027E",
@@ -7306,7 +7353,13 @@
         "EVID-826F8B1EA65F",
         "EVID-C51A3B8E6284"
       ],
-      "judgment_rationale": "For Popular radicalism: competition to define the Terror, benchmark evidence describes the page treatment as “Commune and club leaders redirected a workers' protest into a successful march that forced immediate legislation from the Convention.” Canonical locator judgments confirm that sansculottes > role in Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Popular radicalism: competition to define the Terror, benchmark evidence describes the page treatment as “Commune and club leaders redirected a workers' protest into a successful march that forced immediate legislation from the Convention.” Canonical locator judgments confirm that sansculottes > role in Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-0092ED9380B0"
+      ],
+      "matched_locator_ids": [
+        "LOC-826F8B1EA65F"
+      ]
     },
     {
       "treatment_id": "TREAT-19967FEF0D07",
@@ -7318,7 +7371,13 @@
         "EVID-74042D7B541B",
         "EVID-F04CFB1DFD52"
       ],
-      "judgment_rationale": "For Ronsin: Revolutionary Army command and Hébertist downfall, benchmark evidence describes the page treatment as “His arrest after returning from Lyons prompted Collot's forceful defense of terrorist methods.” Canonical locator judgments confirm that Ronsin, Charles-Philippe gives the reader access to that treatment."
+      "judgment_rationale": "For Ronsin: Revolutionary Army command and Hébertist downfall, benchmark evidence describes the page treatment as “His arrest after returning from Lyons prompted Collot's forceful defense of terrorist methods.” Canonical locator judgments confirm that Ronsin, Charles-Philippe gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-6224180841C6"
+      ],
+      "matched_locator_ids": [
+        "LOC-F04CFB1DFD52"
+      ]
     },
     {
       "treatment_id": "TREAT-1D48788B4BED",
@@ -7331,7 +7390,15 @@
         "EVID-B2772FB8B6FE",
         "EVID-FB3055E460EF"
       ],
-      "judgment_rationale": "For Fouché in the Nièvre: civic religion and religious terror, benchmark evidence describes the page treatment as “He promoted universal morality, restricted worship to private space, attacked clerical separation, and replaced Christian burial symbolism with secular doctrine.” Canonical locator judgments confirm that Dechristianization > iconoclasm and church closures, Dechristianization > origins and local initiatives gives the reader access to that treatment."
+      "judgment_rationale": "For Fouché in the Nièvre: civic religion and religious terror, benchmark evidence describes the page treatment as “He promoted universal morality, restricted worship to private space, attacked clerical separation, and replaced Christian burial symbolism with secular doctrine.” Canonical locator judgments confirm that Dechristianization > iconoclasm and church closures, Dechristianization > origins and local initiatives gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-AD6548568F82",
+        "PATH-E93FDACD1D14"
+      ],
+      "matched_locator_ids": [
+        "LOC-653C70EECA2C",
+        "LOC-FB3055E460EF"
+      ]
     },
     {
       "treatment_id": "TREAT-1D6F4DCC0109",
@@ -7354,7 +7421,13 @@
         "EVID-D6DB5BD15B64",
         "EVID-D8DD828BEC0D"
       ],
-      "judgment_rationale": "For Hoarding and speculation: criminalization and enforcement, benchmark evidence describes the page treatment as “Radicals demanded harsher action against hoarders and speculators as the central answer to shortages and price rises.” Canonical locator judgments confirm that hoarding gives the reader access to that treatment."
+      "judgment_rationale": "For Hoarding and speculation: criminalization and enforcement, benchmark evidence describes the page treatment as “Radicals demanded harsher action against hoarders and speculators as the central answer to shortages and price rises.” Canonical locator judgments confirm that hoarding gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-55B0EEE55B5C"
+      ],
+      "matched_locator_ids": [
+        "LOC-D8DD828BEC0D"
+      ]
     },
     {
       "treatment_id": "TREAT-1FE1E1D3FA4B",
@@ -7366,7 +7439,13 @@
         "EVID-5719E9E519F1",
         "EVID-C8E8EC80455A"
       ],
-      "judgment_rationale": "For Revolutionary Armies (sans-culotte formations), benchmark evidence describes the page treatment as “Centralizing legislation abolished unofficial local forces and retained only a single closely supervised army.” Canonical locator judgments confirm that Revolutionary Armies gives the reader access to that treatment."
+      "judgment_rationale": "For Revolutionary Armies (sans-culotte formations), benchmark evidence describes the page treatment as “Centralizing legislation abolished unofficial local forces and retained only a single closely supervised army.” Canonical locator judgments confirm that Revolutionary Armies gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-CCF09DDF8FCA"
+      ],
+      "matched_locator_ids": [
+        "LOC-5719E9E519F1"
+      ]
     },
     {
       "treatment_id": "TREAT-21D70E1AB103",
@@ -7378,7 +7457,13 @@
         "EVID-826F8B1EA65F",
         "EVID-D36CDA657B15"
       ],
-      "judgment_rationale": "For Parisian subsistence crisis as a political engine, benchmark evidence describes the page treatment as “A workers' protest over wages and bread became the immediate vehicle for coercing new emergency measures.” Canonical locator judgments confirm that sansculottes > role in Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Parisian subsistence crisis as a political engine, benchmark evidence describes the page treatment as “A workers' protest over wages and bread became the immediate vehicle for coercing new emergency measures.” Canonical locator judgments confirm that sansculottes > role in Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-0092ED9380B0"
+      ],
+      "matched_locator_ids": [
+        "LOC-826F8B1EA65F"
+      ]
     },
     {
       "treatment_id": "TREAT-21D8E1823B70",
@@ -7392,7 +7477,17 @@
         "EVID-5330F802BD21",
         "EVID-B8A1CA743BEA"
       ],
-      "judgment_rationale": "For Federalist revolts: collapse and differentiated repression, benchmark evidence describes the page treatment as “Norman and Breton resistance disintegrated quickly, whereas Bordeaux's surrender was delayed and its earlier propaganda invited harsher retaliation.” Canonical locator judgments confirm that Federalist Revolt > Normandy and Brittany, Federalist Revolt > suppression and reprisals, Federalist Revolt > Bordeaux gives the reader access to that treatment."
+      "judgment_rationale": "For Federalist revolts: collapse and differentiated repression, benchmark evidence describes the page treatment as “Norman and Breton resistance disintegrated quickly, whereas Bordeaux's surrender was delayed and its earlier propaganda invited harsher retaliation.” Canonical locator judgments confirm that Federalist Revolt > Normandy and Brittany, Federalist Revolt > suppression and reprisals, Federalist Revolt > Bordeaux gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-4C178D735E1A",
+        "PATH-A12310D9A8CC",
+        "PATH-A2ABEC2F7CD0"
+      ],
+      "matched_locator_ids": [
+        "LOC-00A0C75B730A",
+        "LOC-455223C2A41E",
+        "LOC-B8A1CA743BEA"
+      ]
     },
     {
       "treatment_id": "TREAT-21ED2A013D1C",
@@ -7404,7 +7499,13 @@
         "EVID-899C921C5700",
         "EVID-E89EABE62F4A"
       ],
-      "judgment_rationale": "For Girondins: show trial, executions, and fugitive deaths, benchmark evidence describes the page treatment as “The trial was cut short, leading figures were executed, and several fugitives later died by execution or suicide.” Canonical locator judgments confirm that Girondins gives the reader access to that treatment."
+      "judgment_rationale": "For Girondins: show trial, executions, and fugitive deaths, benchmark evidence describes the page treatment as “The trial was cut short, leading figures were executed, and several fugitives later died by execution or suicide.” Canonical locator judgments confirm that Girondins gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-FF4BD0B64D83"
+      ],
+      "matched_locator_ids": [
+        "LOC-E89EABE62F4A"
+      ]
     },
     {
       "treatment_id": "TREAT-22E312601D66",
@@ -7428,7 +7529,15 @@
         "EVID-405A94893434",
         "EVID-F1869431BAD2"
       ],
-      "judgment_rationale": "For Hébertists: failed insurrection and political execution, benchmark evidence describes the page treatment as “Popular hostility and the failure of other sections to mobilize left self-proclaimed sansculotte champions without an effective defense.” Canonical locator judgments confirm that Marat, section, Hébert, Jacques-René gives the reader access to that treatment."
+      "judgment_rationale": "For Hébertists: failed insurrection and political execution, benchmark evidence describes the page treatment as “Popular hostility and the failure of other sections to mobilize left self-proclaimed sansculotte champions without an effective defense.” Canonical locator judgments confirm that Marat, section, Hébert, Jacques-René gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-828DF29647BC",
+        "PATH-8D6E7C4F7872"
+      ],
+      "matched_locator_ids": [
+        "LOC-25B77CF97586",
+        "LOC-F1869431BAD2"
+      ]
     },
     {
       "treatment_id": "TREAT-2728192F422F",
@@ -7440,7 +7549,13 @@
         "EVID-313B2228F719",
         "EVID-82482E627F5D"
       ],
-      "judgment_rationale": "For Indulgents: campaign for clemency and attack on excess, benchmark evidence describes the page treatment as “Fabre's proven involvement in financial fraud discredited the movement's moral attack on Hébertist corruption.” Canonical locator judgments confirm that Indulgents (Dantonists) gives the reader access to that treatment."
+      "judgment_rationale": "For Indulgents: campaign for clemency and attack on excess, benchmark evidence describes the page treatment as “Fabre's proven involvement in financial fraud discredited the movement's moral attack on Hébertist corruption.” Canonical locator judgments confirm that Indulgents (Dantonists) gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-EA4A6543BFD9"
+      ],
+      "matched_locator_ids": [
+        "LOC-82482E627F5D"
+      ]
     },
     {
       "treatment_id": "TREAT-272EBDACA342",
@@ -7452,7 +7567,13 @@
         "EVID-5D79817BF4DE",
         "EVID-E07A6C3351D5"
       ],
-      "judgment_rationale": "For Lyons: exemplary destruction and mass repression, benchmark evidence describes the page treatment as “After prolonged resistance and cooperation with royalists, the city surrendered, but Paris rejected the conciliatory model used at Caen.” Canonical locator judgments confirm that Lyons gives the reader access to that treatment."
+      "judgment_rationale": "For Lyons: exemplary destruction and mass repression, benchmark evidence describes the page treatment as “After prolonged resistance and cooperation with royalists, the city surrendered, but Paris rejected the conciliatory model used at Caen.” Canonical locator judgments confirm that Lyons gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-C48233FB6F4C"
+      ],
+      "matched_locator_ids": [
+        "LOC-E07A6C3351D5"
+      ]
     },
     {
       "treatment_id": "TREAT-288FE6B74961",
@@ -7475,7 +7596,13 @@
         "EVID-E227A8C96773",
         "EVID-E2BC9246E36B"
       ],
-      "judgment_rationale": "For Robespierre: religion, the Supreme Being, and freedom of cults, benchmark evidence describes the page treatment as “He warned that atheistic zeal was itself fanatical, affirmed popular belief in a Supreme Being, and secured both central warnings and a decree against coerced worship restrictions.” Canonical locator judgments confirm that Robespierre, Maximilien > on religion and dechristianization gives the reader access to that treatment."
+      "judgment_rationale": "For Robespierre: religion, the Supreme Being, and freedom of cults, benchmark evidence describes the page treatment as “He warned that atheistic zeal was itself fanatical, affirmed popular belief in a Supreme Being, and secured both central warnings and a decree against coerced worship restrictions.” Canonical locator judgments confirm that Robespierre, Maximilien > on religion and dechristianization gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-223F6ED75353"
+      ],
+      "matched_locator_ids": [
+        "LOC-E227A8C96773"
+      ]
     },
     {
       "treatment_id": "TREAT-299E5922B346",
@@ -7487,7 +7614,13 @@
         "EVID-D82892FF7443",
         "EVID-F1869431BAD2"
       ],
-      "judgment_rationale": "For Foreign-plot rhetoric and factional prosecution, benchmark evidence describes the page treatment as “Saint-Just and the tribunal joined faction, famine, insurrection, prison violence, and foreign nationals into a case designed to secure conviction.” Canonical locator judgments confirm that Hébert, Jacques-René gives the reader access to that treatment."
+      "judgment_rationale": "For Foreign-plot rhetoric and factional prosecution, benchmark evidence describes the page treatment as “Saint-Just and the tribunal joined faction, famine, insurrection, prison violence, and foreign nationals into a case designed to secure conviction.” Canonical locator judgments confirm that Hébert, Jacques-René gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-8D6E7C4F7872"
+      ],
+      "matched_locator_ids": [
+        "LOC-F1869431BAD2"
+      ]
     },
     {
       "treatment_id": "TREAT-2AB1424AA233",
@@ -7501,7 +7634,17 @@
         "EVID-DF6684F59045",
         "EVID-F4B78F41BDA8"
       ],
-      "judgment_rationale": "For Freedom of cults decree: legal restraint versus local practice, benchmark evidence describes the page treatment as “Local closures nevertheless continued because the central government could not yet reverse the momentum of Parisian and provincial zeal.” Canonical locator judgments confirm that Dechristianization > official opposition and reversal, Dechristianization > iconoclasm and church closures, religious freedom gives the reader access to that treatment."
+      "judgment_rationale": "For Freedom of cults decree: legal restraint versus local practice, benchmark evidence describes the page treatment as “Local closures nevertheless continued because the central government could not yet reverse the momentum of Parisian and provincial zeal.” Canonical locator judgments confirm that Dechristianization > official opposition and reversal, Dechristianization > iconoclasm and church closures, religious freedom gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-3C51B1C8889A",
+        "PATH-AD6548568F82",
+        "PATH-B978269CC447"
+      ],
+      "matched_locator_ids": [
+        "LOC-44B711546EB5",
+        "LOC-DF6684F59045",
+        "LOC-F4B78F41BDA8"
+      ]
     },
     {
       "treatment_id": "TREAT-2E4C40757D5C",
@@ -7524,7 +7667,13 @@
         "EVID-A5C2D4FCE1CE",
         "EVID-E85F898BC8E0"
       ],
-      "judgment_rationale": "For Marseilles: surrender and comparatively regulated repression, benchmark evidence describes the page treatment as “Blockade, bread riots, and Carteaux's advance split the sections between surrender and collaboration with Britain.” Canonical locator judgments confirm that Marseilles > Federalist revolt gives the reader access to that treatment."
+      "judgment_rationale": "For Marseilles: surrender and comparatively regulated repression, benchmark evidence describes the page treatment as “Blockade, bread riots, and Carteaux's advance split the sections between surrender and collaboration with Britain.” Canonical locator judgments confirm that Marseilles > Federalist revolt gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-0958054B1CA1"
+      ],
+      "matched_locator_ids": [
+        "LOC-A5C2D4FCE1CE"
+      ]
     },
     {
       "treatment_id": "TREAT-2F8467F6E4EB",
@@ -7538,7 +7687,17 @@
         "EVID-AE77121D7148",
         "EVID-E809448E8431"
       ],
-      "judgment_rationale": "For General Maximum: nationwide price regulation, benchmark evidence describes the page treatment as “Central direction eventually produced national schedules and measurable economic control despite evasion and military-market distortions.” Canonical locator judgments confirm that economy, price controls, Maximum, Law of the General > implementation and enforcement gives the reader access to that treatment."
+      "judgment_rationale": "For General Maximum: nationwide price regulation, benchmark evidence describes the page treatment as “Central direction eventually produced national schedules and measurable economic control despite evasion and military-market distortions.” Canonical locator judgments confirm that economy, price controls, Maximum, Law of the General > implementation and enforcement gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-1A751302E438",
+        "PATH-9C6B15309ACA",
+        "PATH-F5DA2075A2A8"
+      ],
+      "matched_locator_ids": [
+        "LOC-250A6E3C31E6",
+        "LOC-6D8C22BFA544",
+        "LOC-E809448E8431"
+      ]
     },
     {
       "treatment_id": "TREAT-2FA3F22E3B72",
@@ -7550,7 +7709,13 @@
         "EVID-4189658D208B",
         "EVID-66D42A4E5A65"
       ],
-      "judgment_rationale": "For Jullien: investigation and recalibration of provincial repression, benchmark evidence describes the page treatment as “He accepted denunciations of Carrier and reported indiscriminate action and disregard for law to the center.” Canonical locator judgments confirm that Jullien, Marc-Antoine gives the reader access to that treatment."
+      "judgment_rationale": "For Jullien: investigation and recalibration of provincial repression, benchmark evidence describes the page treatment as “He accepted denunciations of Carrier and reported indiscriminate action and disregard for law to the center.” Canonical locator judgments confirm that Jullien, Marc-Antoine gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-53B43BB2FA81"
+      ],
+      "matched_locator_ids": [
+        "LOC-66D42A4E5A65"
+      ]
     },
     {
       "treatment_id": "TREAT-31CE441B9530",
@@ -7563,7 +7728,15 @@
         "EVID-8BE589DD3710",
         "EVID-DC106B0416D8"
       ],
-      "judgment_rationale": "For Revolutionary Tribunal: acceleration and political trials, benchmark evidence describes the page treatment as “The Committee ordered the prosecutor to secure Hébertist convictions through a transparently political case.” Canonical locator judgments confirm that Revolutionary Tribunal, Fouquier-Tinville, Antoine Quentin gives the reader access to that treatment."
+      "judgment_rationale": "For Revolutionary Tribunal: acceleration and political trials, benchmark evidence describes the page treatment as “The Committee ordered the prosecutor to secure Hébertist convictions through a transparently political case.” Canonical locator judgments confirm that Revolutionary Tribunal, Fouquier-Tinville, Antoine Quentin gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-872A9DC14B03",
+        "PATH-E99A38667BF9"
+      ],
+      "matched_locator_ids": [
+        "LOC-8BE589DD3710",
+        "LOC-DC106B0416D8"
+      ]
     },
     {
       "treatment_id": "TREAT-32C8790FC129",
@@ -7587,7 +7760,15 @@
         "EVID-457A9146EA36",
         "EVID-82944F2AEC50"
       ],
-      "judgment_rationale": "For Saint-Just: Revolutionary Government, Ventôse, and anti-faction policy, benchmark evidence describes the page treatment as “He justified central emergency direction as necessary for revolutionary law and secured government until peace.” Canonical locator judgments confirm that Saint-Just, Louis Antoine de, Revolutionary Government gives the reader access to that treatment."
+      "judgment_rationale": "For Saint-Just: Revolutionary Government, Ventôse, and anti-faction policy, benchmark evidence describes the page treatment as “He justified central emergency direction as necessary for revolutionary law and secured government until peace.” Canonical locator judgments confirm that Saint-Just, Louis Antoine de, Revolutionary Government gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-C92AF8DAA121",
+        "PATH-ED68FCC9B189"
+      ],
+      "matched_locator_ids": [
+        "LOC-28AAF1485F3C",
+        "LOC-457A9146EA36"
+      ]
     },
     {
       "treatment_id": "TREAT-34720D909670",
@@ -7600,7 +7781,15 @@
         "EVID-62A1677D9460",
         "EVID-7BD09464AA04"
       ],
-      "judgment_rationale": "For Vincent: war-ministry radicalism and factional agitation, benchmark evidence describes the page treatment as “The war-ministry official was arrested after hinting at a new purge of advocates of indulgence.” Canonical locator judgments confirm that Hébertists, Vincent, François-Nicolas gives the reader access to that treatment."
+      "judgment_rationale": "For Vincent: war-ministry radicalism and factional agitation, benchmark evidence describes the page treatment as “The war-ministry official was arrested after hinting at a new purge of advocates of indulgence.” Canonical locator judgments confirm that Hébertists, Vincent, François-Nicolas gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-21D98D60F855",
+        "PATH-65D606A999E1"
+      ],
+      "matched_locator_ids": [
+        "LOC-191ED28B1367",
+        "LOC-62A1677D9460"
+      ]
     },
     {
       "treatment_id": "TREAT-3613AF0839FA",
@@ -7612,7 +7801,13 @@
         "EVID-61C461CFC102",
         "EVID-75128A850F3A"
       ],
-      "judgment_rationale": "For Marie-Antoinette: trial and execution, benchmark evidence describes the page treatment as “Her highly visible execution became one of the first defining spectacles of the Terror.” Canonical locator judgments confirm that Marie Antoinette gives the reader access to that treatment."
+      "judgment_rationale": "For Marie-Antoinette: trial and execution, benchmark evidence describes the page treatment as “Her highly visible execution became one of the first defining spectacles of the Terror.” Canonical locator judgments confirm that Marie Antoinette gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-E8C9CE45243B"
+      ],
+      "matched_locator_ids": [
+        "LOC-61C461CFC102"
+      ]
     },
     {
       "treatment_id": "TREAT-377D2B4F4884",
@@ -7624,7 +7819,13 @@
         "EVID-29C4A4E3D178",
         "EVID-C734CAAB48E8"
       ],
-      "judgment_rationale": "For Revolutionary versus constitutional government, benchmark evidence describes the page treatment as “Robespierre contrasted the preservation of a peaceful republic with the extraordinary activity required to establish liberty during war.” Canonical locator judgments confirm that Revolutionary Government gives the reader access to that treatment."
+      "judgment_rationale": "For Revolutionary versus constitutional government, benchmark evidence describes the page treatment as “Robespierre contrasted the preservation of a peaceful republic with the extraordinary activity required to establish liberty during war.” Canonical locator judgments confirm that Revolutionary Government gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-ED68FCC9B189"
+      ],
+      "matched_locator_ids": [
+        "LOC-C734CAAB48E8"
+      ]
     },
     {
       "treatment_id": "TREAT-37B3415319D8",
@@ -7636,7 +7837,13 @@
         "EVID-350B4383825F",
         "EVID-E7E06C251306"
       ],
-      "judgment_rationale": "For Indulgents: campaign for clemency and attack on excess, benchmark evidence describes the page treatment as “Danton's demand to free Fabre cast doubt on whether indulgence reflected public principle or protection of friends.” Canonical locator judgments confirm that Indulgents (Dantonists) gives the reader access to that treatment."
+      "judgment_rationale": "For Indulgents: campaign for clemency and attack on excess, benchmark evidence describes the page treatment as “Danton's demand to free Fabre cast doubt on whether indulgence reflected public principle or protection of friends.” Canonical locator judgments confirm that Indulgents (Dantonists) gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-EA4A6543BFD9"
+      ],
+      "matched_locator_ids": [
+        "LOC-350B4383825F"
+      ]
     },
     {
       "treatment_id": "TREAT-3A567A687965",
@@ -7648,7 +7855,13 @@
         "EVID-89294399DFAF",
         "EVID-DE108F6A9685"
       ],
-      "judgment_rationale": "For Jullien: investigation and recalibration of provincial repression, benchmark evidence describes the page treatment as “His success investigating Nantes led to a Bordeaux appointment where executions increased sharply over a short period.” Canonical locator judgments confirm that Jullien, Marc-Antoine gives the reader access to that treatment."
+      "judgment_rationale": "For Jullien: investigation and recalibration of provincial repression, benchmark evidence describes the page treatment as “His success investigating Nantes led to a Bordeaux appointment where executions increased sharply over a short period.” Canonical locator judgments confirm that Jullien, Marc-Antoine gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-53B43BB2FA81"
+      ],
+      "matched_locator_ids": [
+        "LOC-DE108F6A9685"
+      ]
     },
     {
       "treatment_id": "TREAT-3B78ACB96E71",
@@ -7660,7 +7873,13 @@
         "EVID-2A23A6052C9C",
         "EVID-A655F6A9FA86"
       ],
-      "judgment_rationale": "For Revolutionary Tribunal: acceleration and political trials, benchmark evidence describes the page treatment as “Danton successfully proposed dividing the tribunal to increase its rate of adjudication.” Canonical locator judgments confirm that Revolutionary Tribunal gives the reader access to that treatment."
+      "judgment_rationale": "For Revolutionary Tribunal: acceleration and political trials, benchmark evidence describes the page treatment as “Danton successfully proposed dividing the tribunal to increase its rate of adjudication.” Canonical locator judgments confirm that Revolutionary Tribunal gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-872A9DC14B03"
+      ],
+      "matched_locator_ids": [
+        "LOC-2A23A6052C9C"
+      ]
     },
     {
       "treatment_id": "TREAT-3C25F80781A2",
@@ -7672,7 +7891,13 @@
         "EVID-7C8E5C36DE5E",
         "EVID-D687F8DDD5E2"
       ],
-      "judgment_rationale": "For Terror: scale, geography, and social composition of victims, benchmark evidence describes the page treatment as “Including custody and extrajudicial deaths may approximately double the official total, while ordinary and middle-class people greatly outnumbered nobles and clergy among victims.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Terror: scale, geography, and social composition of victims, benchmark evidence describes the page treatment as “Including custody and extrajudicial deaths may approximately double the official total, while ordinary and middle-class people greatly outnumbered nobles and clergy among victims.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-943B9E017CB4"
+      ],
+      "matched_locator_ids": [
+        "LOC-7C8E5C36DE5E"
+      ]
     },
     {
       "treatment_id": "TREAT-4047728A205A",
@@ -7685,7 +7910,15 @@
         "EVID-7E818BFF6B7A",
         "EVID-9383921319B0"
       ],
-      "judgment_rationale": "For Tallien at Bordeaux: moderation, suspicion, and recall, benchmark evidence describes the page treatment as “Tallien's commission executed comparatively few people, while his relationship with Thérèse Cabarrus and elite contacts fed accusations of softness.” Canonical locator judgments confirm that Bordeaux > Revolutionary politics and Federalism > Terror and repression, Tallien, Jean-Lambert gives the reader access to that treatment."
+      "judgment_rationale": "For Tallien at Bordeaux: moderation, suspicion, and recall, benchmark evidence describes the page treatment as “Tallien's commission executed comparatively few people, while his relationship with Thérèse Cabarrus and elite contacts fed accusations of softness.” Canonical locator judgments confirm that Bordeaux > Revolutionary politics and Federalism > Terror and repression, Tallien, Jean-Lambert gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-7C464957BCEB",
+        "PATH-A1671706098A"
+      ],
+      "matched_locator_ids": [
+        "LOC-7E818BFF6B7A",
+        "LOC-9383921319B0"
+      ]
     },
     {
       "treatment_id": "TREAT-4103A9ACBD34",
@@ -7697,7 +7930,13 @@
         "EVID-7E89D0E4B5D8",
         "EVID-9A34FAD4A5B8"
       ],
-      "judgment_rationale": "For Spectacular Paris executions and the invisibility of provincial victims, benchmark evidence describes the page treatment as “Pressure for both trials overcame Robespierre's delaying efforts after an alleged rescue plot made the queen's fate unavoidable.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Spectacular Paris executions and the invisibility of provincial victims, benchmark evidence describes the page treatment as “Pressure for both trials overcame Robespierre's delaying efforts after an alleged rescue plot made the queen's fate unavoidable.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-943B9E017CB4"
+      ],
+      "matched_locator_ids": [
+        "LOC-9A34FAD4A5B8"
+      ]
     },
     {
       "treatment_id": "TREAT-41F9A5669CFE",
@@ -7710,7 +7949,15 @@
         "EVID-23431A20FC3B",
         "EVID-4B3BF49B7B16"
       ],
-      "judgment_rationale": "For Revolutionary Government: districts, communes, and national agents, benchmark evidence describes the page treatment as “Local councils reported directly to Paris through a ten-day rhythm while national agents supplied separate oversight and departments lost most policy authority.” Canonical locator judgments confirm that national agents, Revolutionary Government gives the reader access to that treatment."
+      "judgment_rationale": "For Revolutionary Government: districts, communes, and national agents, benchmark evidence describes the page treatment as “Local councils reported directly to Paris through a ten-day rhythm while national agents supplied separate oversight and departments lost most policy authority.” Canonical locator judgments confirm that national agents, Revolutionary Government gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-D309DFD205A6",
+        "PATH-ED68FCC9B189"
+      ],
+      "matched_locator_ids": [
+        "LOC-069C14C79637",
+        "LOC-23431A20FC3B"
+      ]
     },
     {
       "treatment_id": "TREAT-44FB61F07048",
@@ -7723,7 +7970,15 @@
         "EVID-91D16A3CCA27",
         "EVID-D35088109CBA"
       ],
-      "judgment_rationale": "For Couthon at Lyons: conciliation rejected, benchmark evidence describes the page treatment as “He began limited courts and demolition but withdrew rather than execute the comprehensive vengeance demanded from the center.” Canonical locator judgments confirm that Lyons, Couthon, Georges gives the reader access to that treatment."
+      "judgment_rationale": "For Couthon at Lyons: conciliation rejected, benchmark evidence describes the page treatment as “He began limited courts and demolition but withdrew rather than execute the comprehensive vengeance demanded from the center.” Canonical locator judgments confirm that Lyons, Couthon, Georges gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-C48233FB6F4C",
+        "PATH-EF532D84D2D4"
+      ],
+      "matched_locator_ids": [
+        "LOC-325F2D14D684",
+        "LOC-D35088109CBA"
+      ]
     },
     {
       "treatment_id": "TREAT-46CCB583B605",
@@ -7735,7 +7990,13 @@
         "EVID-3376B4A19BBE",
         "EVID-C734CAAB48E8"
       ],
-      "judgment_rationale": "For Centralization of Revolutionary Government, benchmark evidence describes the page treatment as “It marked the intended end of autonomous terror and proconsular rule and created unusually strong central authority, though compliance was delayed.” Canonical locator judgments confirm that Revolutionary Government gives the reader access to that treatment."
+      "judgment_rationale": "For Centralization of Revolutionary Government, benchmark evidence describes the page treatment as “It marked the intended end of autonomous terror and proconsular rule and created unusually strong central authority, though compliance was delayed.” Canonical locator judgments confirm that Revolutionary Government gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-ED68FCC9B189"
+      ],
+      "matched_locator_ids": [
+        "LOC-C734CAAB48E8"
+      ]
     },
     {
       "treatment_id": "TREAT-48871949E858",
@@ -7747,7 +8008,13 @@
         "EVID-1B4E7D9FE27F",
         "EVID-B14CCA15D968"
       ],
-      "judgment_rationale": "For Indulgents: campaign for clemency and attack on excess, benchmark evidence describes the page treatment as “Dantonist criticism of representative abuses helped accompany the central campaign to reduce provincial autonomy.” Canonical locator judgments confirm that Indulgents (Dantonists) gives the reader access to that treatment."
+      "judgment_rationale": "For Indulgents: campaign for clemency and attack on excess, benchmark evidence describes the page treatment as “Dantonist criticism of representative abuses helped accompany the central campaign to reduce provincial autonomy.” Canonical locator judgments confirm that Indulgents (Dantonists) gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-EA4A6543BFD9"
+      ],
+      "matched_locator_ids": [
+        "LOC-B14CCA15D968"
+      ]
     },
     {
       "treatment_id": "TREAT-4888F03C84BA",
@@ -7760,7 +8027,15 @@
         "EVID-15A7BED2CD7F",
         "EVID-BDA0D3016F3E"
       ],
-      "judgment_rationale": "For Catholic and Royal Army of the Vendée, benchmark evidence describes the page treatment as “The army crossed the Loire toward Granville to meet anticipated British help but was already retreating when naval support arrived.” Canonical locator judgments confirm that Le Mans, Vendée gives the reader access to that treatment."
+      "judgment_rationale": "For Catholic and Royal Army of the Vendée, benchmark evidence describes the page treatment as “The army crossed the Loire toward Granville to meet anticipated British help but was already retreating when naval support arrived.” Canonical locator judgments confirm that Le Mans, Vendée gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-8FE28EB32538",
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-0923CDD8E2C0",
+        "LOC-BDA0D3016F3E"
+      ]
     },
     {
       "treatment_id": "TREAT-488FB71F9D24",
@@ -7772,7 +8047,13 @@
         "EVID-BB3E407BB867",
         "EVID-D8EB8186209B"
       ],
-      "judgment_rationale": "For Billaud-Varenne: radical legislation and central authority, benchmark evidence describes the page treatment as “With Collot he helped defeat the Indulgent justice committee inside the governing coalition.” Canonical locator judgments confirm that Billaud-Varenne, Jacques-Nicolas gives the reader access to that treatment."
+      "judgment_rationale": "For Billaud-Varenne: radical legislation and central authority, benchmark evidence describes the page treatment as “With Collot he helped defeat the Indulgent justice committee inside the governing coalition.” Canonical locator judgments confirm that Billaud-Varenne, Jacques-Nicolas gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-9556E0C0D594"
+      ],
+      "matched_locator_ids": [
+        "LOC-BB3E407BB867"
+      ]
     },
     {
       "treatment_id": "TREAT-4A69D8C3683C",
@@ -7784,7 +8065,13 @@
         "EVID-2865F9A80E73",
         "EVID-A8B83729F3CC"
       ],
-      "judgment_rationale": "For Federalist revolts: collapse and differentiated repression, benchmark evidence describes the page treatment as “Repression ranged from mass killing at Lyons and Toulon to more regular and comparatively restrained tribunals in Marseilles and Bordeaux.” Canonical locator judgments confirm that Marseilles > Terror and repression gives the reader access to that treatment."
+      "judgment_rationale": "For Federalist revolts: collapse and differentiated repression, benchmark evidence describes the page treatment as “Repression ranged from mass killing at Lyons and Toulon to more regular and comparatively restrained tribunals in Marseilles and Bordeaux.” Canonical locator judgments confirm that Marseilles > Terror and repression gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-A18D523FF09D"
+      ],
+      "matched_locator_ids": [
+        "LOC-2865F9A80E73"
+      ]
     },
     {
       "treatment_id": "TREAT-4AD28ECB86FE",
@@ -7796,7 +8083,13 @@
         "EVID-7BF361C53F1C",
         "EVID-F1869431BAD2"
       ],
-      "judgment_rationale": "For Foreign nationals in the Hébertist show trial, benchmark evidence describes the page treatment as “A group of colorful foreign-born defendants was executed with Hébertist leaders to reinforce the prosecution's foreign-plot narrative.” Canonical locator judgments confirm that Hébert, Jacques-René gives the reader access to that treatment."
+      "judgment_rationale": "For Foreign nationals in the Hébertist show trial, benchmark evidence describes the page treatment as “A group of colorful foreign-born defendants was executed with Hébertist leaders to reinforce the prosecution's foreign-plot narrative.” Canonical locator judgments confirm that Hébert, Jacques-René gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-8D6E7C4F7872"
+      ],
+      "matched_locator_ids": [
+        "LOC-F1869431BAD2"
+      ]
     },
     {
       "treatment_id": "TREAT-4B50AB100136",
@@ -7809,7 +8102,15 @@
         "EVID-919E9D820E83",
         "EVID-9CB58481926E"
       ],
-      "judgment_rationale": "For Parisian subsistence crisis as a political engine, benchmark evidence describes the page treatment as “Assignat depreciation, milling disruption, and sharp price increases allowed radicals to blame moderation for everyday hardship.” Canonical locator judgments confirm that sansculottes > insurrections and mobilization, Assignats > decline and inflation gives the reader access to that treatment."
+      "judgment_rationale": "For Parisian subsistence crisis as a political engine, benchmark evidence describes the page treatment as “Assignat depreciation, milling disruption, and sharp price increases allowed radicals to blame moderation for everyday hardship.” Canonical locator judgments confirm that sansculottes > insurrections and mobilization, Assignats > decline and inflation gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-7A09CBBEB919",
+        "PATH-B7FF3EADEB1B"
+      ],
+      "matched_locator_ids": [
+        "LOC-64AD40658D7D",
+        "LOC-9CB58481926E"
+      ]
     },
     {
       "treatment_id": "TREAT-4CFD93CC14EC",
@@ -7833,7 +8134,15 @@
         "EVID-A36CD5223E03",
         "EVID-F7024F69757B"
       ],
-      "judgment_rationale": "For Saint-Just: Revolutionary Government, Ventôse, and anti-faction policy, benchmark evidence describes the page treatment as “His speech condemned faction and insurrection in sweeping terms that prepared the Hébertist arrests without naming concrete offenders.” Canonical locator judgments confirm that Ventôse, Laws of, Saint-Just, Louis Antoine de gives the reader access to that treatment."
+      "judgment_rationale": "For Saint-Just: Revolutionary Government, Ventôse, and anti-faction policy, benchmark evidence describes the page treatment as “His speech condemned faction and insurrection in sweeping terms that prepared the Hébertist arrests without naming concrete offenders.” Canonical locator judgments confirm that Ventôse, Laws of, Saint-Just, Louis Antoine de gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-67869BB9C00D",
+        "PATH-C92AF8DAA121"
+      ],
+      "matched_locator_ids": [
+        "LOC-A36CD5223E03",
+        "LOC-F7024F69757B"
+      ]
     },
     {
       "treatment_id": "TREAT-55E1FB1BE7C8",
@@ -7845,7 +8154,13 @@
         "EVID-4D2312076E3B",
         "EVID-DAE7E22BD98E"
       ],
-      "judgment_rationale": "For Vendée: infernal columns and republican devastation, benchmark evidence describes the page treatment as “The chapter describes rape, infanticide, and long-term demographic damage while presenting the aggregate rebel death toll as a continuing historical dispute.” Canonical locator judgments confirm that infernal columns gives the reader access to that treatment."
+      "judgment_rationale": "For Vendée: infernal columns and republican devastation, benchmark evidence describes the page treatment as “The chapter describes rape, infanticide, and long-term demographic damage while presenting the aggregate rebel death toll as a continuing historical dispute.” Canonical locator judgments confirm that infernal columns gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-C343673D464C"
+      ],
+      "matched_locator_ids": [
+        "LOC-4D2312076E3B"
+      ]
     },
     {
       "treatment_id": "TREAT-56A8B4150CDB",
@@ -7858,7 +8173,15 @@
         "EVID-D7429641B7DE",
         "EVID-F8FF04DAAF8A"
       ],
-      "judgment_rationale": "For Bordeaux: Federalist collapse and limited Terror, benchmark evidence describes the page treatment as “The Popular Commission dissolved under military threats and food shortages, but hostile crowds initially forced representatives to withdraw.” Canonical locator judgments confirm that Bordeaux > Revolutionary politics and Federalism > Federalist revolt and collapse, Federalist Revolt > Bordeaux gives the reader access to that treatment."
+      "judgment_rationale": "For Bordeaux: Federalist collapse and limited Terror, benchmark evidence describes the page treatment as “The Popular Commission dissolved under military threats and food shortages, but hostile crowds initially forced representatives to withdraw.” Canonical locator judgments confirm that Bordeaux > Revolutionary politics and Federalism > Federalist revolt and collapse, Federalist Revolt > Bordeaux gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-470BC171E012",
+        "PATH-A2ABEC2F7CD0"
+      ],
+      "matched_locator_ids": [
+        "LOC-00A0C75B730A",
+        "LOC-F8FF04DAAF8A"
+      ]
     },
     {
       "treatment_id": "TREAT-570C86D1EFC4",
@@ -7871,7 +8194,15 @@
         "EVID-66D42A4E5A65",
         "EVID-8975B1B792D4"
       ],
-      "judgment_rationale": "For Central review of provincial Terror: Tallien, Carrier, and Jullien, benchmark evidence describes the page treatment as “His reports on unlawful indiscrimination helped bring Carrier back to Paris as official policy shifted toward restricting representatives.” Canonical locator judgments confirm that Jullien, Marc-Antoine, Carrier, Jean-Baptiste gives the reader access to that treatment."
+      "judgment_rationale": "For Central review of provincial Terror: Tallien, Carrier, and Jullien, benchmark evidence describes the page treatment as “His reports on unlawful indiscrimination helped bring Carrier back to Paris as official policy shifted toward restricting representatives.” Canonical locator judgments confirm that Jullien, Marc-Antoine, Carrier, Jean-Baptiste gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-53B43BB2FA81",
+        "PATH-E2DD006900A5"
+      ],
+      "matched_locator_ids": [
+        "LOC-425BCFE17436",
+        "LOC-66D42A4E5A65"
+      ]
     },
     {
       "treatment_id": "TREAT-5798CDFD1881",
@@ -7883,7 +8214,13 @@
         "EVID-13B17874852E",
         "EVID-43FA6B486935"
       ],
-      "judgment_rationale": "For Maximum wages: non-enforcement and political limits, benchmark evidence describes the page treatment as “Authorities largely avoided the wage ceiling because enforcement was administratively costly and politically dangerous among Parisian workers already earning above it.” Canonical locator judgments confirm that wage maximum gives the reader access to that treatment."
+      "judgment_rationale": "For Maximum wages: non-enforcement and political limits, benchmark evidence describes the page treatment as “Authorities largely avoided the wage ceiling because enforcement was administratively costly and politically dangerous among Parisian workers already earning above it.” Canonical locator judgments confirm that wage maximum gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-89F8671E4140"
+      ],
+      "matched_locator_ids": [
+        "LOC-43FA6B486935"
+      ]
     },
     {
       "treatment_id": "TREAT-5843963FC619",
@@ -7895,7 +8232,13 @@
         "EVID-C0E82AA29A72",
         "EVID-E614C1C0D4A8"
       ],
-      "judgment_rationale": "For General Maximum: nationwide price regulation, benchmark evidence describes the page treatment as “The law set ceilings for a broad range of necessities and linked overcharging to fines and suspect status.” Canonical locator judgments confirm that price controls gives the reader access to that treatment."
+      "judgment_rationale": "For General Maximum: nationwide price regulation, benchmark evidence describes the page treatment as “The law set ceilings for a broad range of necessities and linked overcharging to fines and suspect status.” Canonical locator judgments confirm that price controls gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-9C6B15309ACA"
+      ],
+      "matched_locator_ids": [
+        "LOC-C0E82AA29A72"
+      ]
     },
     {
       "treatment_id": "TREAT-5C9DC6C9C611",
@@ -7908,7 +8251,15 @@
         "EVID-EF87CC3A5FF5",
         "EVID-F16B0BCDC6A4"
       ],
-      "judgment_rationale": "For Terror: imprisonment, custody deaths, and extrajudicial killing, benchmark evidence describes the page treatment as “Thousands may have died in custody, while chaotic autumn violence produced additional murders without trial or reliable records.” Canonical locator judgments confirm that Law of Suspects (1793), Reign of Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Terror: imprisonment, custody deaths, and extrajudicial killing, benchmark evidence describes the page treatment as “Thousands may have died in custody, while chaotic autumn violence produced additional murders without trial or reliable records.” Canonical locator judgments confirm that Law of Suspects (1793), Reign of Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-01F1A434DE6C",
+        "PATH-943B9E017CB4"
+      ],
+      "matched_locator_ids": [
+        "LOC-7C8E5C36DE5E",
+        "LOC-F16B0BCDC6A4"
+      ]
     },
     {
       "treatment_id": "TREAT-5D82ABE1019B",
@@ -7921,7 +8272,15 @@
         "EVID-96C69760BBC9",
         "EVID-AAC3C994F372"
       ],
-      "judgment_rationale": "For Carnot: military organization and mass mobilization, benchmark evidence describes the page treatment as “His prose and implementation made the mass-mobilization decree spectacularly effective despite its limited legal scope.” Canonical locator judgments confirm that levée en masse, Committee of Public Safety gives the reader access to that treatment."
+      "judgment_rationale": "For Carnot: military organization and mass mobilization, benchmark evidence describes the page treatment as “His prose and implementation made the mass-mobilization decree spectacularly effective despite its limited legal scope.” Canonical locator judgments confirm that levée en masse, Committee of Public Safety gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-94D8945CAB8A",
+        "PATH-E64AE183E436"
+      ],
+      "matched_locator_ids": [
+        "LOC-96C69760BBC9",
+        "LOC-AAC3C994F372"
+      ]
     },
     {
       "treatment_id": "TREAT-5E873F9ADDE5",
@@ -7933,7 +8292,13 @@
         "EVID-2074FC8E00F0",
         "EVID-4B81157C9C0A"
       ],
-      "judgment_rationale": "For Danton: emergency mobilization and politics of indulgence, benchmark evidence describes the page treatment as “He publicly urged less bloodshed and cooperated in creating stronger central administration.” Canonical locator judgments confirm that Danton, Georges-Jacques > campaign for 'Indulgence' and opposition to Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Danton: emergency mobilization and politics of indulgence, benchmark evidence describes the page treatment as “He publicly urged less bloodshed and cooperated in creating stronger central administration.” Canonical locator judgments confirm that Danton, Georges-Jacques > campaign for 'Indulgence' and opposition to Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-E590CE5FFCD3"
+      ],
+      "matched_locator_ids": [
+        "LOC-4B81157C9C0A"
+      ]
     },
     {
       "treatment_id": "TREAT-5FCD679E64A3",
@@ -7947,7 +8312,17 @@
         "EVID-8B532652276E",
         "EVID-EE1568363E1D"
       ],
-      "judgment_rationale": "For Clergy under the Terror: coercion, deportation, and renunciation, benchmark evidence describes the page treatment as “Paris combined harsher deportation law with theatrical episcopal and priestly renunciations.” Canonical locator judgments confirm that Dechristianization > festivals of Reason, Dechristianization > iconoclasm and church closures, Dechristianization > origins and local initiatives gives the reader access to that treatment."
+      "judgment_rationale": "For Clergy under the Terror: coercion, deportation, and renunciation, benchmark evidence describes the page treatment as “Paris combined harsher deportation law with theatrical episcopal and priestly renunciations.” Canonical locator judgments confirm that Dechristianization > festivals of Reason, Dechristianization > iconoclasm and church closures, Dechristianization > origins and local initiatives gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-634A4CB6BC5B",
+        "PATH-AD6548568F82",
+        "PATH-E93FDACD1D14"
+      ],
+      "matched_locator_ids": [
+        "LOC-255ECB6128E5",
+        "LOC-7DB335BB298A",
+        "LOC-EE1568363E1D"
+      ]
     },
     {
       "treatment_id": "TREAT-6025427DFD6D",
@@ -7961,7 +8336,17 @@
         "EVID-DF6684F59045",
         "EVID-F4B78F41BDA8"
       ],
-      "judgment_rationale": "For Freedom of cults decree: legal restraint versus local practice, benchmark evidence describes the page treatment as “The Convention formally barred threats or violence against worship after central warnings about counterproductive persecution.” Canonical locator judgments confirm that Dechristianization > official opposition and reversal, Dechristianization > iconoclasm and church closures, religious freedom gives the reader access to that treatment."
+      "judgment_rationale": "For Freedom of cults decree: legal restraint versus local practice, benchmark evidence describes the page treatment as “The Convention formally barred threats or violence against worship after central warnings about counterproductive persecution.” Canonical locator judgments confirm that Dechristianization > official opposition and reversal, Dechristianization > iconoclasm and church closures, religious freedom gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-3C51B1C8889A",
+        "PATH-AD6548568F82",
+        "PATH-B978269CC447"
+      ],
+      "matched_locator_ids": [
+        "LOC-44B711546EB5",
+        "LOC-DF6684F59045",
+        "LOC-F4B78F41BDA8"
+      ]
     },
     {
       "treatment_id": "TREAT-60FC1E139801",
@@ -7973,7 +8358,13 @@
         "EVID-7C8E5C36DE5E",
         "EVID-E242083C6760"
       ],
-      "judgment_rationale": "For Terror: anarchic and decentralized phase, benchmark evidence describes the page treatment as “Geographic quiet or violence could depend heavily on the personal program of an individual representative.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Terror: anarchic and decentralized phase, benchmark evidence describes the page treatment as “Geographic quiet or violence could depend heavily on the personal program of an individual representative.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-943B9E017CB4"
+      ],
+      "matched_locator_ids": [
+        "LOC-7C8E5C36DE5E"
+      ]
     },
     {
       "treatment_id": "TREAT-6139B7D0FDCB",
@@ -7986,7 +8377,15 @@
         "EVID-CE20AA3B4FF7",
         "EVID-E9C6F16369E0"
       ],
-      "judgment_rationale": "For Carrier at Nantes: shootings, noyades, and recall, benchmark evidence describes the page treatment as “Many local citizens accepted severe methods because they believed a rebel victory would bring their own massacre.” Canonical locator judgments confirm that Noyades, Carrier, Jean-Baptiste gives the reader access to that treatment."
+      "judgment_rationale": "For Carrier at Nantes: shootings, noyades, and recall, benchmark evidence describes the page treatment as “Many local citizens accepted severe methods because they believed a rebel victory would bring their own massacre.” Canonical locator judgments confirm that Noyades, Carrier, Jean-Baptiste gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-B2B72F143582",
+        "PATH-E2DD006900A5"
+      ],
+      "matched_locator_ids": [
+        "LOC-9BF1A777B4AA",
+        "LOC-E9C6F16369E0"
+      ]
     },
     {
       "treatment_id": "TREAT-628D2D347E03",
@@ -8009,7 +8408,13 @@
         "EVID-62290CFCB0C1",
         "EVID-9585C04BAE64"
       ],
-      "judgment_rationale": "For Law of Suspects, benchmark evidence describes the page treatment as “Watch committees enforced the law through certificates, arrest, and imprisonment on a very large scale.” Canonical locator judgments confirm that Law of Suspects (1793) gives the reader access to that treatment."
+      "judgment_rationale": "For Law of Suspects, benchmark evidence describes the page treatment as “Watch committees enforced the law through certificates, arrest, and imprisonment on a very large scale.” Canonical locator judgments confirm that Law of Suspects (1793) gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-01F1A434DE6C"
+      ],
+      "matched_locator_ids": [
+        "LOC-9585C04BAE64"
+      ]
     },
     {
       "treatment_id": "TREAT-6736B92F74B8",
@@ -8032,7 +8437,13 @@
         "EVID-76D1DDA5C487",
         "EVID-91FD72365816"
       ],
-      "judgment_rationale": "For Committee of General Security: surveillance and factional detention, benchmark evidence describes the page treatment as “Its members imprisoned Chabot after interpreting his conspiracy disclosure as an attempt to save himself.” Canonical locator judgments confirm that Committee of General Security gives the reader access to that treatment."
+      "judgment_rationale": "For Committee of General Security: surveillance and factional detention, benchmark evidence describes the page treatment as “Its members imprisoned Chabot after interpreting his conspiracy disclosure as an attempt to save himself.” Canonical locator judgments confirm that Committee of General Security gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-D07C40F100E2"
+      ],
+      "matched_locator_ids": [
+        "LOC-76D1DDA5C487"
+      ]
     },
     {
       "treatment_id": "TREAT-69E3CF25F64E",
@@ -8046,7 +8457,17 @@
         "EVID-B3E816B002C5",
         "EVID-DE108F6A9685"
       ],
-      "judgment_rationale": "For Central review of provincial Terror: Tallien, Carrier, and Jullien, benchmark evidence describes the page treatment as “Jullien was sent to Bordeaux after exposing abuses at Nantes and then sharply increased executions in a city whose earlier repression was judged too mild.” Canonical locator judgments confirm that Jullien, Marc-Antoine, Tallien, Jean-Lambert, Carrier, Jean-Baptiste gives the reader access to that treatment."
+      "judgment_rationale": "For Central review of provincial Terror: Tallien, Carrier, and Jullien, benchmark evidence describes the page treatment as “Jullien was sent to Bordeaux after exposing abuses at Nantes and then sharply increased executions in a city whose earlier repression was judged too mild.” Canonical locator judgments confirm that Jullien, Marc-Antoine, Tallien, Jean-Lambert, Carrier, Jean-Baptiste gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-53B43BB2FA81",
+        "PATH-A1671706098A",
+        "PATH-E2DD006900A5"
+      ],
+      "matched_locator_ids": [
+        "LOC-7E818BFF6B7A",
+        "LOC-B3E816B002C5",
+        "LOC-DE108F6A9685"
+      ]
     },
     {
       "treatment_id": "TREAT-6ADC83577A91",
@@ -8058,7 +8479,13 @@
         "EVID-71C7ABF516F1",
         "EVID-E4613A640B31"
       ],
-      "judgment_rationale": "For Paris Commune purge and transfer of Terror to government, benchmark evidence describes the page treatment as “Popular control of terror ended, but the resulting government monopoly did not bring moderation and instead opened a more intense phase.” Canonical locator judgments confirm that Paris Commune gives the reader access to that treatment."
+      "judgment_rationale": "For Paris Commune purge and transfer of Terror to government, benchmark evidence describes the page treatment as “Popular control of terror ended, but the resulting government monopoly did not bring moderation and instead opened a more intense phase.” Canonical locator judgments confirm that Paris Commune gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-2E609D05687C"
+      ],
+      "matched_locator_ids": [
+        "LOC-71C7ABF516F1"
+      ]
     },
     {
       "treatment_id": "TREAT-6C0386E8DD2A",
@@ -8070,7 +8497,13 @@
         "EVID-A153E7EAF3B3",
         "EVID-EB782E963FFD"
       ],
-      "judgment_rationale": "For Revolutionary Armies (sans-culotte formations), benchmark evidence describes the page treatment as “The remaining Paris army was dissolved after the Hébertist prosecution, ending a major autonomous sansculotte instrument.” Canonical locator judgments confirm that Revolutionary Armies gives the reader access to that treatment."
+      "judgment_rationale": "For Revolutionary Armies (sans-culotte formations), benchmark evidence describes the page treatment as “The remaining Paris army was dissolved after the Hébertist prosecution, ending a major autonomous sansculotte instrument.” Canonical locator judgments confirm that Revolutionary Armies gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-CCF09DDF8FCA"
+      ],
+      "matched_locator_ids": [
+        "LOC-EB782E963FFD"
+      ]
     },
     {
       "treatment_id": "TREAT-6CA7A4EF7A53",
@@ -8082,7 +8515,13 @@
         "EVID-4B81157C9C0A",
         "EVID-6B1C7B447422"
       ],
-      "judgment_rationale": "For Republican victories and pressure to moderate the Terror, benchmark evidence describes the page treatment as “Political pressure for a less savage regime rose as the emergency lifted, even though denunciation still made criticism hazardous.” Canonical locator judgments confirm that Danton, Georges-Jacques > campaign for 'Indulgence' and opposition to Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Republican victories and pressure to moderate the Terror, benchmark evidence describes the page treatment as “Political pressure for a less savage regime rose as the emergency lifted, even though denunciation still made criticism hazardous.” Canonical locator judgments confirm that Danton, Georges-Jacques > campaign for 'Indulgence' and opposition to Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-E590CE5FFCD3"
+      ],
+      "matched_locator_ids": [
+        "LOC-4B81157C9C0A"
+      ]
     },
     {
       "treatment_id": "TREAT-6D2007AA0008",
@@ -8094,7 +8533,13 @@
         "EVID-846CEF2E72A9",
         "EVID-DC4DA8430D87"
       ],
-      "judgment_rationale": "For Terror: emergent, uncontrolled, and self-perpetuating system, benchmark evidence describes the page treatment as “A retrospective deputy's claim that circumstances created terror frames a system that no actor fully controlled and few could safely criticize.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Terror: emergent, uncontrolled, and self-perpetuating system, benchmark evidence describes the page treatment as “A retrospective deputy's claim that circumstances created terror frames a system that no actor fully controlled and few could safely criticize.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-943B9E017CB4"
+      ],
+      "matched_locator_ids": [
+        "LOC-846CEF2E72A9"
+      ]
     },
     {
       "treatment_id": "TREAT-6D31A1F8B0FC",
@@ -8118,7 +8563,13 @@
         "EVID-2A6F9AF22E43",
         "EVID-B0B9F08E4493"
       ],
-      "judgment_rationale": "For Sansculottes: exhaustion, institutional absorption, and political decline, benchmark evidence describes the page treatment as “Committee service and paid sectional attendance drew experienced activists into the state, while alternative societies could not restore autonomous power.; After two years of strain, many militants saw their principal economic and coercive demands enacted and supported the government that enforced them.” Canonical locator judgments confirm that sansculottes > decline and repression of gives the reader access to that treatment."
+      "judgment_rationale": "For Sansculottes: exhaustion, institutional absorption, and political decline, benchmark evidence describes the page treatment as “Committee service and paid sectional attendance drew experienced activists into the state, while alternative societies could not restore autonomous power.; After two years of strain, many militants saw their principal economic and coercive demands enacted and supported the government that enforced them.” Canonical locator judgments confirm that sansculottes > decline and repression of gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-64D7893D7626"
+      ],
+      "matched_locator_ids": [
+        "LOC-B0B9F08E4493"
+      ]
     },
     {
       "treatment_id": "TREAT-6EFE37F096C1",
@@ -8132,7 +8583,17 @@
         "EVID-B611AA491D75",
         "EVID-F5319F994862"
       ],
-      "judgment_rationale": "For Hébertists: failed insurrection and political execution, benchmark evidence describes the page treatment as “Returning provincial terrorists and Cordeliers leaders called for a new insurrection, but only section Marat declared itself in uprising.” Canonical locator judgments confirm that Hébertists, Marat, section, Hébert, Jacques-René gives the reader access to that treatment."
+      "judgment_rationale": "For Hébertists: failed insurrection and political execution, benchmark evidence describes the page treatment as “Returning provincial terrorists and Cordeliers leaders called for a new insurrection, but only section Marat declared itself in uprising.” Canonical locator judgments confirm that Hébertists, Marat, section, Hébert, Jacques-René gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-21D98D60F855",
+        "PATH-828DF29647BC",
+        "PATH-8D6E7C4F7872"
+      ],
+      "matched_locator_ids": [
+        "LOC-39CA6789413C",
+        "LOC-66E9BA235DC8",
+        "LOC-B611AA491D75"
+      ]
     },
     {
       "treatment_id": "TREAT-702420887BCB",
@@ -8157,7 +8618,17 @@
         "EVID-DF6684F59045",
         "EVID-F4B78F41BDA8"
       ],
-      "judgment_rationale": "For Clergy under the Terror: coercion, deportation, and renunciation, benchmark evidence describes the page treatment as “By spring 1794 large numbers of priests had been pressured to abandon status, and thousands had married as the strongest confirmation of renunciation.” Canonical locator judgments confirm that Dechristianization > official opposition and reversal, Dechristianization > impact on clergy, Dechristianization > iconoclasm and church closures gives the reader access to that treatment."
+      "judgment_rationale": "For Clergy under the Terror: coercion, deportation, and renunciation, benchmark evidence describes the page treatment as “By spring 1794 large numbers of priests had been pressured to abandon status, and thousands had married as the strongest confirmation of renunciation.” Canonical locator judgments confirm that Dechristianization > official opposition and reversal, Dechristianization > impact on clergy, Dechristianization > iconoclasm and church closures gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-3C51B1C8889A",
+        "PATH-9204A2CBB769",
+        "PATH-AD6548568F82"
+      ],
+      "matched_locator_ids": [
+        "LOC-CB8FA738B929",
+        "LOC-DF6684F59045",
+        "LOC-F4B78F41BDA8"
+      ]
     },
     {
       "treatment_id": "TREAT-75886937ACF8",
@@ -8170,7 +8641,15 @@
         "EVID-8375996BBE13",
         "EVID-F0B1F504BE99"
       ],
-      "judgment_rationale": "For Robespierre: moderation, centralization, and factional realignment, benchmark evidence describes the page treatment as “His return from illness stiffened the Committee immediately before it moved against the Hébertists.” Canonical locator judgments confirm that Robespierre, Maximilien > and the Committee of Public Safety, Committee of Public Safety > conflicts with factions and clubs gives the reader access to that treatment."
+      "judgment_rationale": "For Robespierre: moderation, centralization, and factional realignment, benchmark evidence describes the page treatment as “His return from illness stiffened the Committee immediately before it moved against the Hébertists.” Canonical locator judgments confirm that Robespierre, Maximilien > and the Committee of Public Safety, Committee of Public Safety > conflicts with factions and clubs gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-00AD56D897B5",
+        "PATH-EA7A41CCA467"
+      ],
+      "matched_locator_ids": [
+        "LOC-8375996BBE13",
+        "LOC-F0B1F504BE99"
+      ]
     },
     {
       "treatment_id": "TREAT-76C1F125B81E",
@@ -8184,7 +8663,17 @@
         "EVID-325F2D14D684",
         "EVID-4506C498E5D1"
       ],
-      "judgment_rationale": "For Lyons: exemplary destruction and mass repression, benchmark evidence describes the page treatment as “The destruction decree, mass arrests, accelerated tribunal, and cannon executions transformed punishment into deliberate exemplary terror.” Canonical locator judgments confirm that Ville Affranchie, Lyons, Collot d'Herbois, Jean-Marie > Lyons mission and 'mitraillades' gives the reader access to that treatment."
+      "judgment_rationale": "For Lyons: exemplary destruction and mass repression, benchmark evidence describes the page treatment as “The destruction decree, mass arrests, accelerated tribunal, and cannon executions transformed punishment into deliberate exemplary terror.” Canonical locator judgments confirm that Ville Affranchie, Lyons, Collot d'Herbois, Jean-Marie > Lyons mission and 'mitraillades' gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-22507589EB73",
+        "PATH-C48233FB6F4C",
+        "PATH-E196E5E0848C"
+      ],
+      "matched_locator_ids": [
+        "LOC-212AA201D14A",
+        "LOC-325F2D14D684",
+        "LOC-4506C498E5D1"
+      ]
     },
     {
       "treatment_id": "TREAT-777EBD99F79A",
@@ -8196,7 +8685,13 @@
         "EVID-9383921319B0",
         "EVID-AADC81F49222"
       ],
-      "judgment_rationale": "For Bordeaux: Federalist collapse and limited Terror, benchmark evidence describes the page treatment as “The local military commission acquitted many suspects and executed relatively few until Jullien intensified repression in mid-1794.” Canonical locator judgments confirm that Bordeaux > Revolutionary politics and Federalism > Terror and repression gives the reader access to that treatment."
+      "judgment_rationale": "For Bordeaux: Federalist collapse and limited Terror, benchmark evidence describes the page treatment as “The local military commission acquitted many suspects and executed relatively few until Jullien intensified repression in mid-1794.” Canonical locator judgments confirm that Bordeaux > Revolutionary politics and Federalism > Terror and repression gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-7C464957BCEB"
+      ],
+      "matched_locator_ids": [
+        "LOC-9383921319B0"
+      ]
     },
     {
       "treatment_id": "TREAT-79D583F0EAA1",
@@ -8208,7 +8703,13 @@
         "EVID-DD264E854D9F",
         "EVID-F8BF60A274E8"
       ],
-      "judgment_rationale": "For Terror: scale, geography, and social composition of victims, benchmark evidence describes the page treatment as “Roughly sixteen thousand formal guillotine deaths over nine months define only the judicial core of the Terror, with relatively few early executions in Paris.” Canonical locator judgments confirm that guillotine > in the Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Terror: scale, geography, and social composition of victims, benchmark evidence describes the page treatment as “Roughly sixteen thousand formal guillotine deaths over nine months define only the judicial core of the Terror, with relatively few early executions in Paris.” Canonical locator judgments confirm that guillotine > in the Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-07B10977D069"
+      ],
+      "matched_locator_ids": [
+        "LOC-DD264E854D9F"
+      ]
     },
     {
       "treatment_id": "TREAT-7CBA0E4E4883",
@@ -8220,7 +8721,13 @@
         "EVID-A77F8ACC9E91",
         "EVID-F9F01D4CCCD3"
       ],
-      "judgment_rationale": "For Forced loan on the rich, 1793, benchmark evidence describes the page treatment as “A confiscatory-looking income scale was implemented unevenly and paid in depreciated notes, but carried powerful class-punitive meaning.” Canonical locator judgments confirm that forced loan on the rich gives the reader access to that treatment."
+      "judgment_rationale": "For Forced loan on the rich, 1793, benchmark evidence describes the page treatment as “A confiscatory-looking income scale was implemented unevenly and paid in depreciated notes, but carried powerful class-punitive meaning.” Canonical locator judgments confirm that forced loan on the rich gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-95960E0626D1"
+      ],
+      "matched_locator_ids": [
+        "LOC-A77F8ACC9E91"
+      ]
     },
     {
       "treatment_id": "TREAT-7FE903443F45",
@@ -8232,7 +8739,13 @@
         "EVID-4D2312076E3B",
         "EVID-854F8375DD17"
       ],
-      "judgment_rationale": "For Vendée: infernal columns and republican devastation, benchmark evidence describes the page treatment as “Columns were ordered to burn the insurgent region and kill inhabitants indiscriminately, including people loyal to the Republic.” Canonical locator judgments confirm that infernal columns gives the reader access to that treatment."
+      "judgment_rationale": "For Vendée: infernal columns and republican devastation, benchmark evidence describes the page treatment as “Columns were ordered to burn the insurgent region and kill inhabitants indiscriminately, including people loyal to the Republic.” Canonical locator judgments confirm that infernal columns gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-C343673D464C"
+      ],
+      "matched_locator_ids": [
+        "LOC-4D2312076E3B"
+      ]
     },
     {
       "treatment_id": "TREAT-8075EEC230E2",
@@ -8255,7 +8768,13 @@
         "EVID-A510C1833C9D",
         "EVID-B7EFBAF514EC"
       ],
-      "judgment_rationale": "For Ronsin: Revolutionary Army command and Hébertist downfall, benchmark evidence describes the page treatment as “He was condemned and executed with the Hébertist leadership in a predetermined political trial.” Canonical locator judgments confirm that Ronsin, Charles-Philippe gives the reader access to that treatment."
+      "judgment_rationale": "For Ronsin: Revolutionary Army command and Hébertist downfall, benchmark evidence describes the page treatment as “He was condemned and executed with the Hébertist leadership in a predetermined political trial.” Canonical locator judgments confirm that Ronsin, Charles-Philippe gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-6224180841C6"
+      ],
+      "matched_locator_ids": [
+        "LOC-A510C1833C9D"
+      ]
     },
     {
       "treatment_id": "TREAT-87D7B0587172",
@@ -8267,7 +8786,13 @@
         "EVID-7B6A561E6AE1",
         "EVID-DE576E7A79D9"
       ],
-      "judgment_rationale": "For Revolutionary Armies (sans-culotte formations), benchmark evidence describes the page treatment as “Ronsin, closely aligned with Hébert, received command of the Paris force.” Canonical locator judgments confirm that Revolutionary Armies gives the reader access to that treatment."
+      "judgment_rationale": "For Revolutionary Armies (sans-culotte formations), benchmark evidence describes the page treatment as “Ronsin, closely aligned with Hébert, received command of the Paris force.” Canonical locator judgments confirm that Revolutionary Armies gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-CCF09DDF8FCA"
+      ],
+      "matched_locator_ids": [
+        "LOC-DE576E7A79D9"
+      ]
     },
     {
       "treatment_id": "TREAT-89BEA8D75C7D",
@@ -8279,7 +8804,13 @@
         "EVID-69B377241170",
         "EVID-BC0BE4D8FBF4"
       ],
-      "judgment_rationale": "For Chaumette: subsistence mobilization, dechristianization, and Commune purge, benchmark evidence describes the page treatment as “His later arrest and execution formed part of reducing the Commune to obedience.” Canonical locator judgments confirm that Chaumette, Pierre Gaspard gives the reader access to that treatment."
+      "judgment_rationale": "For Chaumette: subsistence mobilization, dechristianization, and Commune purge, benchmark evidence describes the page treatment as “His later arrest and execution formed part of reducing the Commune to obedience.” Canonical locator judgments confirm that Chaumette, Pierre Gaspard gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-B4EFB1A98449"
+      ],
+      "matched_locator_ids": [
+        "LOC-BC0BE4D8FBF4"
+      ]
     },
     {
       "treatment_id": "TREAT-8A5F299ACE07",
@@ -8291,7 +8822,13 @@
         "EVID-AE33CC3BE18C",
         "EVID-DAC253D9AFC3"
       ],
-      "judgment_rationale": "For Jacobin Republic: crisis of July 1793, benchmark evidence describes the page treatment as “Factional struggle and fears of hidden enemies destabilized Paris while a Committee member publicly lamented the lack of government.” Canonical locator judgments confirm that sansculottes gives the reader access to that treatment."
+      "judgment_rationale": "For Jacobin Republic: crisis of July 1793, benchmark evidence describes the page treatment as “Factional struggle and fears of hidden enemies destabilized Paris while a Committee member publicly lamented the lack of government.” Canonical locator judgments confirm that sansculottes gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-F89128DD30E6"
+      ],
+      "matched_locator_ids": [
+        "LOC-DAC253D9AFC3"
+      ]
     },
     {
       "treatment_id": "TREAT-8ABCCBD6B264",
@@ -8304,7 +8841,15 @@
         "EVID-245EC0772596",
         "EVID-C17AB1935270"
       ],
-      "judgment_rationale": "For Saint-Just: Revolutionary Government, Ventôse, and anti-faction policy, benchmark evidence describes the page treatment as “He proposed sequestering enemy property for poor patriots without fully resolving implementation or winning strong committee commitment.” Canonical locator judgments confirm that Ventôse, Laws of, Saint-Just, Louis Antoine de gives the reader access to that treatment."
+      "judgment_rationale": "For Saint-Just: Revolutionary Government, Ventôse, and anti-faction policy, benchmark evidence describes the page treatment as “He proposed sequestering enemy property for poor patriots without fully resolving implementation or winning strong committee commitment.” Canonical locator judgments confirm that Ventôse, Laws of, Saint-Just, Louis Antoine de gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-67869BB9C00D",
+        "PATH-C92AF8DAA121"
+      ],
+      "matched_locator_ids": [
+        "LOC-245EC0772596",
+        "LOC-C17AB1935270"
+      ]
     },
     {
       "treatment_id": "TREAT-8C1D984A99EE",
@@ -8329,7 +8874,17 @@
         "EVID-919D96C93A75",
         "EVID-BA8C0FCA5D0C"
       ],
-      "judgment_rationale": "For Republican military command: political reliability versus competence, benchmark evidence describes the page treatment as “Biron was removed despite success because of his former title and replaced by the politically dependable but militarily inept Rossignol.” Canonical locator judgments confirm that Rossignol, Jean-Antoine, Biron, Armand Louis de Gontaut, duc de, Vendée gives the reader access to that treatment."
+      "judgment_rationale": "For Republican military command: political reliability versus competence, benchmark evidence describes the page treatment as “Biron was removed despite success because of his former title and replaced by the politically dependable but militarily inept Rossignol.” Canonical locator judgments confirm that Rossignol, Jean-Antoine, Biron, Armand Louis de Gontaut, duc de, Vendée gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-16834E164181",
+        "PATH-7227D81D5DAF",
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-34DB30464E3C",
+        "LOC-4FFCC3CE31DA",
+        "LOC-BA8C0FCA5D0C"
+      ]
     },
     {
       "treatment_id": "TREAT-8E6021311D83",
@@ -8341,7 +8896,13 @@
         "EVID-B2696513C9F5",
         "EVID-E6FECD018523"
       ],
-      "judgment_rationale": "For Chalier: martyrdom and justification for vengeance at Lyons, benchmark evidence describes the page treatment as “Lyons's execution of Chalier signaled continued defiance during the Republic's crisis.” Canonical locator judgments confirm that Chalier, Marie-Joseph gives the reader access to that treatment."
+      "judgment_rationale": "For Chalier: martyrdom and justification for vengeance at Lyons, benchmark evidence describes the page treatment as “Lyons's execution of Chalier signaled continued defiance during the Republic's crisis.” Canonical locator judgments confirm that Chalier, Marie-Joseph gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-6B869B051DB1"
+      ],
+      "matched_locator_ids": [
+        "LOC-B2696513C9F5"
+      ]
     },
     {
       "treatment_id": "TREAT-8EC2F14A5D45",
@@ -8364,7 +8925,13 @@
         "EVID-34A485A302D8",
         "EVID-775245F6A166"
       ],
-      "judgment_rationale": "For Chaumette: subsistence mobilization, dechristianization, and Commune purge, benchmark evidence describes the page treatment as “After observing Fouché's program, he helped make dechristianization official Commune policy.” Canonical locator judgments confirm that Chaumette, Pierre Gaspard gives the reader access to that treatment."
+      "judgment_rationale": "For Chaumette: subsistence mobilization, dechristianization, and Commune purge, benchmark evidence describes the page treatment as “After observing Fouché's program, he helped make dechristianization official Commune policy.” Canonical locator judgments confirm that Chaumette, Pierre Gaspard gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-B4EFB1A98449"
+      ],
+      "matched_locator_ids": [
+        "LOC-775245F6A166"
+      ]
     },
     {
       "treatment_id": "TREAT-90841CAE5347",
@@ -8388,7 +8955,13 @@
         "EVID-498C620FBBF1",
         "EVID-5DF12BDADC95"
       ],
-      "judgment_rationale": "For Catholic and Royal Army of the Vendée, benchmark evidence describes the page treatment as “Poor communications and lack of siege equipment defeated the Granville strategy, and retreat ended in a bloody rout at Le Mans.; Unified republican columns defeated the rebel center at Cholet, forcing a desperate northern march toward a port and hoped-for British aid.” Canonical locator judgments confirm that Vendée gives the reader access to that treatment."
+      "judgment_rationale": "For Catholic and Royal Army of the Vendée, benchmark evidence describes the page treatment as “Poor communications and lack of siege equipment defeated the Granville strategy, and retreat ended in a bloody rout at Le Mans.; Unified republican columns defeated the rebel center at Cholet, forcing a desperate northern march toward a port and hoped-for British aid.” Canonical locator judgments confirm that Vendée gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-498C620FBBF1"
+      ]
     },
     {
       "treatment_id": "TREAT-931BBBC72E4E",
@@ -8401,7 +8974,15 @@
         "EVID-25B77CF97586",
         "EVID-F1869431BAD2"
       ],
-      "judgment_rationale": "For Hébertists: failed insurrection and political execution, benchmark evidence describes the page treatment as “After renewing its mandate the Committee arrested Hébert, Vincent, Ronsin, Momoro, and associates and sent them to a politically predetermined trial.” Canonical locator judgments confirm that Marat, section, Hébert, Jacques-René gives the reader access to that treatment."
+      "judgment_rationale": "For Hébertists: failed insurrection and political execution, benchmark evidence describes the page treatment as “After renewing its mandate the Committee arrested Hébert, Vincent, Ronsin, Momoro, and associates and sent them to a politically predetermined trial.” Canonical locator judgments confirm that Marat, section, Hébert, Jacques-René gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-828DF29647BC",
+        "PATH-8D6E7C4F7872"
+      ],
+      "matched_locator_ids": [
+        "LOC-25B77CF97586",
+        "LOC-F1869431BAD2"
+      ]
     },
     {
       "treatment_id": "TREAT-9530776B42BC",
@@ -8414,7 +8995,15 @@
         "EVID-C7CA9831E37A",
         "EVID-E07A6C3351D5"
       ],
-      "judgment_rationale": "For Couthon at Lyons: conciliation rejected, benchmark evidence describes the page treatment as “Couthon favored the conciliatory approach used in Normandy even though Paris regarded Lyons as uniquely culpable.” Canonical locator judgments confirm that Lyons, Couthon, Georges gives the reader access to that treatment."
+      "judgment_rationale": "For Couthon at Lyons: conciliation rejected, benchmark evidence describes the page treatment as “Couthon favored the conciliatory approach used in Normandy even though Paris regarded Lyons as uniquely culpable.” Canonical locator judgments confirm that Lyons, Couthon, Georges gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-C48233FB6F4C",
+        "PATH-EF532D84D2D4"
+      ],
+      "matched_locator_ids": [
+        "LOC-1FD9877233E2",
+        "LOC-E07A6C3351D5"
+      ]
     },
     {
       "treatment_id": "TREAT-965E48DF8346",
@@ -8426,7 +9015,13 @@
         "EVID-B60B8B78BF27",
         "EVID-DBD93D30B64B"
       ],
-      "judgment_rationale": "For Popular radicalism: competition to define the Terror, benchmark evidence describes the page treatment as “After Marat's death and Roux's displacement, Hébert and Chaumette appropriated demands previously associated with the enragés.” Canonical locator judgments confirm that enragés gives the reader access to that treatment."
+      "judgment_rationale": "For Popular radicalism: competition to define the Terror, benchmark evidence describes the page treatment as “After Marat's death and Roux's displacement, Hébert and Chaumette appropriated demands previously associated with the enragés.” Canonical locator judgments confirm that enragés gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-46F265A056A2"
+      ],
+      "matched_locator_ids": [
+        "LOC-DBD93D30B64B"
+      ]
     },
     {
       "treatment_id": "TREAT-9690293CB4B1",
@@ -8438,7 +9033,13 @@
         "EVID-5796EB832EB2",
         "EVID-7C8E5C36DE5E"
       ],
-      "judgment_rationale": "For Terror in comparative European perspective, benchmark evidence describes the page treatment as “Doyle compares the broader estimated French toll with shorter but similarly destructive violence in Ireland and Warsaw.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Terror in comparative European perspective, benchmark evidence describes the page treatment as “Doyle compares the broader estimated French toll with shorter but similarly destructive violence in Ireland and Warsaw.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-943B9E017CB4"
+      ],
+      "matched_locator_ids": [
+        "LOC-7C8E5C36DE5E"
+      ]
     },
     {
       "treatment_id": "TREAT-96F1249EC20A",
@@ -8450,7 +9051,13 @@
         "EVID-257113755C3F",
         "EVID-9DC55B90CB28"
       ],
-      "judgment_rationale": "For Dechristianization and its long religious legacy, benchmark evidence describes the page treatment as “Parisian authorities institutionalized church closure, civic festivals, clerical renunciation, and the replacement of Christian space with revolutionary symbolism.” Canonical locator judgments confirm that Cult of Reason gives the reader access to that treatment."
+      "judgment_rationale": "For Dechristianization and its long religious legacy, benchmark evidence describes the page treatment as “Parisian authorities institutionalized church closure, civic festivals, clerical renunciation, and the replacement of Christian space with revolutionary symbolism.” Canonical locator judgments confirm that Cult of Reason gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-50D8F39F61F0"
+      ],
+      "matched_locator_ids": [
+        "LOC-9DC55B90CB28"
+      ]
     },
     {
       "treatment_id": "TREAT-97596F2829A8",
@@ -8462,7 +9069,13 @@
         "EVID-2865F9A80E73",
         "EVID-7DF6E874F735"
       ],
-      "judgment_rationale": "For Marseilles: surrender and comparatively regulated repression, benchmark evidence describes the page treatment as “A procedurally careful tribunal tried hundreds and acquitted nearly half, making repression milder than at Lyons or Toulon.” Canonical locator judgments confirm that Marseilles > Terror and repression gives the reader access to that treatment."
+      "judgment_rationale": "For Marseilles: surrender and comparatively regulated repression, benchmark evidence describes the page treatment as “A procedurally careful tribunal tried hundreds and acquitted nearly half, making repression milder than at Lyons or Toulon.” Canonical locator judgments confirm that Marseilles > Terror and repression gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-A18D523FF09D"
+      ],
+      "matched_locator_ids": [
+        "LOC-2865F9A80E73"
+      ]
     },
     {
       "treatment_id": "TREAT-98BCB3E197F4",
@@ -8474,7 +9087,13 @@
         "EVID-57FEEE36FD72",
         "EVID-6E37E3364DD8"
       ],
-      "judgment_rationale": "For Paid sectional attendance and the forty-sou patriots, benchmark evidence describes the page treatment as “Payment was presented as enabling working people to attend fixed meetings without sacrificing their livelihood.” Canonical locator judgments confirm that Danton, Georges-Jacques > September 1793 journées and Terror policy gives the reader access to that treatment."
+      "judgment_rationale": "For Paid sectional attendance and the forty-sou patriots, benchmark evidence describes the page treatment as “Payment was presented as enabling working people to attend fixed meetings without sacrificing their livelihood.” Canonical locator judgments confirm that Danton, Georges-Jacques > September 1793 journées and Terror policy gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-0F3F5FBA6E8F"
+      ],
+      "matched_locator_ids": [
+        "LOC-57FEEE36FD72"
+      ]
     },
     {
       "treatment_id": "TREAT-9D52BE25F26A",
@@ -8497,7 +9116,13 @@
         "EVID-5B1DDA22180F",
         "EVID-D32F66CFAB67"
       ],
-      "judgment_rationale": "For Revolutionary Armies (sans-culotte formations), benchmark evidence describes the page treatment as “Provincial forces recruited mainly urban married artisans and combined political intimidation, arrest, repression, and rural foraging.” Canonical locator judgments confirm that Revolutionary Armies gives the reader access to that treatment."
+      "judgment_rationale": "For Revolutionary Armies (sans-culotte formations), benchmark evidence describes the page treatment as “Provincial forces recruited mainly urban married artisans and combined political intimidation, arrest, repression, and rural foraging.” Canonical locator judgments confirm that Revolutionary Armies gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-CCF09DDF8FCA"
+      ],
+      "matched_locator_ids": [
+        "LOC-5B1DDA22180F"
+      ]
     },
     {
       "treatment_id": "TREAT-9F3E928D1797",
@@ -8509,7 +9134,13 @@
         "EVID-335C6C32F216",
         "EVID-498C620FBBF1"
       ],
-      "judgment_rationale": "For Republican military command: political reliability versus competence, benchmark evidence describes the page treatment as “Rossignol later commanded Parisian volunteers during the renewed republican campaign in the Vendée.” Canonical locator judgments confirm that Vendée gives the reader access to that treatment."
+      "judgment_rationale": "For Republican military command: political reliability versus competence, benchmark evidence describes the page treatment as “Rossignol later commanded Parisian volunteers during the renewed republican campaign in the Vendée.” Canonical locator judgments confirm that Vendée gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-498C620FBBF1"
+      ]
     },
     {
       "treatment_id": "TREAT-9FED9D8248B3",
@@ -8521,7 +9152,13 @@
         "EVID-0AF6DE821158",
         "EVID-1A4704D637C9"
       ],
-      "judgment_rationale": "For Desmoulins and the Vieux Cordelier, benchmark evidence describes the page treatment as “The paper invoked the older Cordeliers tradition to criticize the club's current terrorist and dechristianizing masters.” Canonical locator judgments confirm that Vieux Cordelier (newspaper) gives the reader access to that treatment."
+      "judgment_rationale": "For Desmoulins and the Vieux Cordelier, benchmark evidence describes the page treatment as “The paper invoked the older Cordeliers tradition to criticize the club's current terrorist and dechristianizing masters.” Canonical locator judgments confirm that Vieux Cordelier (newspaper) gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-F2158280AD5F"
+      ],
+      "matched_locator_ids": [
+        "LOC-1A4704D637C9"
+      ]
     },
     {
       "treatment_id": "TREAT-A1DBB59B1AEF",
@@ -8533,7 +9170,13 @@
         "EVID-297940F07274",
         "EVID-C03813DE83EF"
       ],
-      "judgment_rationale": "For Chaumette: subsistence mobilization, dechristianization, and Commune purge, benchmark evidence describes the page treatment as “He led the mass delegation that demanded subsistence enforcement and revolutionary armies.” Canonical locator judgments confirm that Chaumette, Pierre Gaspard gives the reader access to that treatment."
+      "judgment_rationale": "For Chaumette: subsistence mobilization, dechristianization, and Commune purge, benchmark evidence describes the page treatment as “He led the mass delegation that demanded subsistence enforcement and revolutionary armies.” Canonical locator judgments confirm that Chaumette, Pierre Gaspard gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-B4EFB1A98449"
+      ],
+      "matched_locator_ids": [
+        "LOC-297940F07274"
+      ]
     },
     {
       "treatment_id": "TREAT-A2733D5B18E9",
@@ -8545,7 +9188,13 @@
         "EVID-DF9D35629099",
         "EVID-EA847436E4DE"
       ],
-      "judgment_rationale": "For Terror: anarchic and decentralized phase, benchmark evidence describes the page treatment as “The Law of 14 Frimaire is presented as the transition away from autonomous armies and proconsular power toward central government.” Canonical locator judgments confirm that National Convention > Revolutionary Government and Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Terror: anarchic and decentralized phase, benchmark evidence describes the page treatment as “The Law of 14 Frimaire is presented as the transition away from autonomous armies and proconsular power toward central government.” Canonical locator judgments confirm that National Convention > Revolutionary Government and Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-1876B66467DD"
+      ],
+      "matched_locator_ids": [
+        "LOC-EA847436E4DE"
+      ]
     },
     {
       "treatment_id": "TREAT-A4CC72C91C12",
@@ -8557,7 +9206,13 @@
         "EVID-212AA201D14A",
         "EVID-FC571D75E574"
       ],
-      "judgment_rationale": "For Collot d'Herbois: Lyonnais repression and defense of terror, benchmark evidence describes the page treatment as “He arrived with Fouché to replace Couthon's restraint and accelerate exemplary punishment at Lyons.” Canonical locator judgments confirm that Collot d'Herbois, Jean-Marie > Lyons mission and 'mitraillades' gives the reader access to that treatment."
+      "judgment_rationale": "For Collot d'Herbois: Lyonnais repression and defense of terror, benchmark evidence describes the page treatment as “He arrived with Fouché to replace Couthon's restraint and accelerate exemplary punishment at Lyons.” Canonical locator judgments confirm that Collot d'Herbois, Jean-Marie > Lyons mission and 'mitraillades' gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-E196E5E0848C"
+      ],
+      "matched_locator_ids": [
+        "LOC-212AA201D14A"
+      ]
     },
     {
       "treatment_id": "TREAT-A5DE91A343F7",
@@ -8570,7 +9225,15 @@
         "EVID-79413393D132",
         "EVID-CA8121E60A5E"
       ],
-      "judgment_rationale": "For Centralization of Revolutionary Government, benchmark evidence describes the page treatment as “The law placed internal administration and police under the Committee, reduced ministers to transmission, prohibited local reinterpretation, and reorganized reporting.” Canonical locator judgments confirm that Law of 14 Frimaire, Revolutionary Government gives the reader access to that treatment."
+      "judgment_rationale": "For Centralization of Revolutionary Government, benchmark evidence describes the page treatment as “The law placed internal administration and police under the Committee, reduced ministers to transmission, prohibited local reinterpretation, and reorganized reporting.” Canonical locator judgments confirm that Law of 14 Frimaire, Revolutionary Government gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-9DD17F27AAF3",
+        "PATH-ED68FCC9B189"
+      ],
+      "matched_locator_ids": [
+        "LOC-069C14C79637",
+        "LOC-CA8121E60A5E"
+      ]
     },
     {
       "treatment_id": "TREAT-A5FF01541225",
@@ -8582,7 +9245,13 @@
         "EVID-1C499460B19D",
         "EVID-71C7ABF516F1"
       ],
-      "judgment_rationale": "For Paris Commune purge and transfer of Terror to government, benchmark evidence describes the page treatment as “Chaumette and others were executed, the Commune's personnel were purged into obedience, and Ronsin's army was abolished.” Canonical locator judgments confirm that Paris Commune gives the reader access to that treatment."
+      "judgment_rationale": "For Paris Commune purge and transfer of Terror to government, benchmark evidence describes the page treatment as “Chaumette and others were executed, the Commune's personnel were purged into obedience, and Ronsin's army was abolished.” Canonical locator judgments confirm that Paris Commune gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-2E609D05687C"
+      ],
+      "matched_locator_ids": [
+        "LOC-71C7ABF516F1"
+      ]
     },
     {
       "treatment_id": "TREAT-A957EEDD3408",
@@ -8605,7 +9274,13 @@
         "EVID-7125598D3EA2",
         "EVID-AAC09997F75F"
       ],
-      "judgment_rationale": "For Forced loan on the rich, 1793, benchmark evidence describes the page treatment as “The measure emerged from earlier sansculotte pressure and became one component of arresting currency decline.” Canonical locator judgments confirm that forced loan on the rich gives the reader access to that treatment."
+      "judgment_rationale": "For Forced loan on the rich, 1793, benchmark evidence describes the page treatment as “The measure emerged from earlier sansculotte pressure and became one component of arresting currency decline.” Canonical locator judgments confirm that forced loan on the rich gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-95960E0626D1"
+      ],
+      "matched_locator_ids": [
+        "LOC-7125598D3EA2"
+      ]
     },
     {
       "treatment_id": "TREAT-AD0E5A5C8AB0",
@@ -8617,7 +9292,13 @@
         "EVID-9D88001CC142",
         "EVID-9DCFCD7C0FBD"
       ],
-      "judgment_rationale": "For Terror: emergent, uncontrolled, and self-perpetuating system, benchmark evidence describes the page treatment as “Removing popular radical leaders did not end terror; government control prepared a still harsher phase.” Canonical locator judgments confirm that National Convention > Revolutionary Government and Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Terror: emergent, uncontrolled, and self-perpetuating system, benchmark evidence describes the page treatment as “Removing popular radical leaders did not end terror; government control prepared a still harsher phase.” Canonical locator judgments confirm that National Convention > Revolutionary Government and Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-1876B66467DD"
+      ],
+      "matched_locator_ids": [
+        "LOC-9DCFCD7C0FBD"
+      ]
     },
     {
       "treatment_id": "TREAT-AFE8D844C030",
@@ -8629,7 +9310,13 @@
         "EVID-879EE76F6757",
         "EVID-96EBF541E4D1"
       ],
-      "judgment_rationale": "For Centralization: delayed compliance and representative resistance, benchmark evidence describes the page treatment as “Provincial forces and religious attacks continued, while Javogues openly rejected the law's applicability until recalled after prolonged defiance.” Canonical locator judgments confirm that Representatives on mission gives the reader access to that treatment."
+      "judgment_rationale": "For Centralization: delayed compliance and representative resistance, benchmark evidence describes the page treatment as “Provincial forces and religious attacks continued, while Javogues openly rejected the law's applicability until recalled after prolonged defiance.” Canonical locator judgments confirm that Representatives on mission gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-6424235D99BA"
+      ],
+      "matched_locator_ids": [
+        "LOC-96EBF541E4D1"
+      ]
     },
     {
       "treatment_id": "TREAT-B140ADB7960D",
@@ -8641,7 +9328,13 @@
         "EVID-628E8417DD62",
         "EVID-DD264E854D9F"
       ],
-      "judgment_rationale": "For Spectacular Paris executions and the invisibility of provincial victims, benchmark evidence describes the page treatment as “The queen and leading Girondins died in highly visible proceedings, while Robespierre blocked extension of the purge to all protesting deputies.” Canonical locator judgments confirm that guillotine > in the Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Spectacular Paris executions and the invisibility of provincial victims, benchmark evidence describes the page treatment as “The queen and leading Girondins died in highly visible proceedings, while Robespierre blocked extension of the purge to all protesting deputies.” Canonical locator judgments confirm that guillotine > in the Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-07B10977D069"
+      ],
+      "matched_locator_ids": [
+        "LOC-DD264E854D9F"
+      ]
     },
     {
       "treatment_id": "TREAT-B141F69FA75A",
@@ -8653,7 +9346,13 @@
         "EVID-9A5F023FCCB6",
         "EVID-B430878FE7FC"
       ],
-      "judgment_rationale": "For Ronsin: Revolutionary Army command and Hébertist downfall, benchmark evidence describes the page treatment as “His close alignment with Hébert helped him secure command of the Paris Revolutionary Army.” Canonical locator judgments confirm that Ronsin, Charles-Philippe gives the reader access to that treatment."
+      "judgment_rationale": "For Ronsin: Revolutionary Army command and Hébertist downfall, benchmark evidence describes the page treatment as “His close alignment with Hébert helped him secure command of the Paris Revolutionary Army.” Canonical locator judgments confirm that Ronsin, Charles-Philippe gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-6224180841C6"
+      ],
+      "matched_locator_ids": [
+        "LOC-9A5F023FCCB6"
+      ]
     },
     {
       "treatment_id": "TREAT-B7756A9E9175",
@@ -8676,7 +9375,13 @@
         "EVID-1F38B67DEAAB",
         "EVID-4AD92F54335C"
       ],
-      "judgment_rationale": "For Toulon: foreign occupation, reconquest, and repression, benchmark evidence describes the page treatment as “Republicans executed armed rebels without trial and hundreds more through a commission, while preserving the strategically indispensable naval base.” Canonical locator judgments confirm that Toulon gives the reader access to that treatment."
+      "judgment_rationale": "For Toulon: foreign occupation, reconquest, and repression, benchmark evidence describes the page treatment as “Republicans executed armed rebels without trial and hundreds more through a commission, while preserving the strategically indispensable naval base.” Canonical locator judgments confirm that Toulon gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-2808CD626340"
+      ],
+      "matched_locator_ids": [
+        "LOC-4AD92F54335C"
+      ]
     },
     {
       "treatment_id": "TREAT-BE9A705FF8E0",
@@ -8689,7 +9394,15 @@
         "EVID-3DF8BE1F1EBC",
         "EVID-AB0097F4C1A9"
       ],
-      "judgment_rationale": "For Robespierre: moderation, centralization, and factional realignment, benchmark evidence describes the page treatment as “Fabre's exposure ended his experiment with the Indulgents and redirected suspicion toward their wider network.” Canonical locator judgments confirm that Robespierre, Maximilien > and Dantonist 'Indulgents', Committee of Public Safety > conflicts with factions and clubs gives the reader access to that treatment."
+      "judgment_rationale": "For Robespierre: moderation, centralization, and factional realignment, benchmark evidence describes the page treatment as “Fabre's exposure ended his experiment with the Indulgents and redirected suspicion toward their wider network.” Canonical locator judgments confirm that Robespierre, Maximilien > and Dantonist 'Indulgents', Committee of Public Safety > conflicts with factions and clubs gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-AA32B34D38AD",
+        "PATH-EA7A41CCA467"
+      ],
+      "matched_locator_ids": [
+        "LOC-246F07854A15",
+        "LOC-AB0097F4C1A9"
+      ]
     },
     {
       "treatment_id": "TREAT-C05B12BAE6A1",
@@ -8701,7 +9414,13 @@
         "EVID-4EF171C37FE5",
         "EVID-B43639C41162"
       ],
-      "judgment_rationale": "For Sansculottes: exhaustion, institutional absorption, and political decline, benchmark evidence describes the page treatment as “Most sections ignored the insurrectionary appeal and ordinary Parisians accepted the official allegations against radical leaders.” Canonical locator judgments confirm that sansculottes > decline and repression of gives the reader access to that treatment."
+      "judgment_rationale": "For Sansculottes: exhaustion, institutional absorption, and political decline, benchmark evidence describes the page treatment as “Most sections ignored the insurrectionary appeal and ordinary Parisians accepted the official allegations against radical leaders.” Canonical locator judgments confirm that sansculottes > decline and repression of gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-64D7893D7626"
+      ],
+      "matched_locator_ids": [
+        "LOC-B43639C41162"
+      ]
     },
     {
       "treatment_id": "TREAT-C126FD734F53",
@@ -8713,7 +9432,13 @@
         "EVID-3254CC9011D9",
         "EVID-DE0EF657579C"
       ],
-      "judgment_rationale": "For Toulon: foreign occupation, reconquest, and repression, benchmark evidence describes the page treatment as “Refugee atrocity reports and fear of republican conquest helped the sections accept British protection and proclaim Louis XVII.” Canonical locator judgments confirm that Toulon gives the reader access to that treatment."
+      "judgment_rationale": "For Toulon: foreign occupation, reconquest, and repression, benchmark evidence describes the page treatment as “Refugee atrocity reports and fear of republican conquest helped the sections accept British protection and proclaim Louis XVII.” Canonical locator judgments confirm that Toulon gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-2808CD626340"
+      ],
+      "matched_locator_ids": [
+        "LOC-DE0EF657579C"
+      ]
     },
     {
       "treatment_id": "TREAT-C510DBB440E5",
@@ -8725,7 +9450,13 @@
         "EVID-3B14EED8C91F",
         "EVID-FA8F172C5253"
       ],
-      "judgment_rationale": "For Catholic and Royal Army of the Vendée, benchmark evidence describes the page treatment as “Vendéan rebels organized as a Catholic and royal army, adopted monarchical and religious insignia, and recruited nobles as expected leaders.” Canonical locator judgments confirm that Vendée gives the reader access to that treatment."
+      "judgment_rationale": "For Catholic and Royal Army of the Vendée, benchmark evidence describes the page treatment as “Vendéan rebels organized as a Catholic and royal army, adopted monarchical and religious insignia, and recruited nobles as expected leaders.” Canonical locator judgments confirm that Vendée gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-3B14EED8C91F"
+      ]
     },
     {
       "treatment_id": "TREAT-C5C29C094EEF",
@@ -8748,7 +9479,13 @@
         "EVID-4FE39FA26D68",
         "EVID-57FEEE36FD72"
       ],
-      "judgment_rationale": "For Danton: emergency mobilization and politics of indulgence, benchmark evidence describes the page treatment as “He sponsored revolutionary-army, arms-production, tribunal, and paid-assembly measures during the September confrontation.” Canonical locator judgments confirm that Danton, Georges-Jacques > September 1793 journées and Terror policy gives the reader access to that treatment."
+      "judgment_rationale": "For Danton: emergency mobilization and politics of indulgence, benchmark evidence describes the page treatment as “He sponsored revolutionary-army, arms-production, tribunal, and paid-assembly measures during the September confrontation.” Canonical locator judgments confirm that Danton, Georges-Jacques > September 1793 journées and Terror policy gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-0F3F5FBA6E8F"
+      ],
+      "matched_locator_ids": [
+        "LOC-57FEEE36FD72"
+      ]
     },
     {
       "treatment_id": "TREAT-C6DB6597EF56",
@@ -8771,7 +9508,13 @@
         "EVID-49DF8F6DA1D4",
         "EVID-EE001CD9B805"
       ],
-      "judgment_rationale": "For Chaumette: subsistence mobilization, dechristianization, and Commune purge, benchmark evidence describes the page treatment as “He received the isolated section Marat uprising cautiously when no other section followed.” Canonical locator judgments confirm that Chaumette, Pierre Gaspard gives the reader access to that treatment."
+      "judgment_rationale": "For Chaumette: subsistence mobilization, dechristianization, and Commune purge, benchmark evidence describes the page treatment as “He received the isolated section Marat uprising cautiously when no other section followed.” Canonical locator judgments confirm that Chaumette, Pierre Gaspard gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-B4EFB1A98449"
+      ],
+      "matched_locator_ids": [
+        "LOC-EE001CD9B805"
+      ]
     },
     {
       "treatment_id": "TREAT-C7FFF620AC54",
@@ -8783,7 +9526,13 @@
         "EVID-29EC30048535",
         "EVID-4337CA97CBB5"
       ],
-      "judgment_rationale": "For Dechristianization and its long religious legacy, benchmark evidence describes the page treatment as “The conclusion treats dechristianization and the resulting papal revival as distinctive outcomes of the revolutionary Church conflict.” Canonical locator judgments confirm that Dechristianization gives the reader access to that treatment."
+      "judgment_rationale": "For Dechristianization and its long religious legacy, benchmark evidence describes the page treatment as “The conclusion treats dechristianization and the resulting papal revival as distinctive outcomes of the revolutionary Church conflict.” Canonical locator judgments confirm that Dechristianization gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-0F7139BF7F69"
+      ],
+      "matched_locator_ids": [
+        "LOC-4337CA97CBB5"
+      ]
     },
     {
       "treatment_id": "TREAT-CA94403E29F9",
@@ -8795,7 +9544,13 @@
         "EVID-0C6B96412F0B",
         "EVID-51FD39267815"
       ],
-      "judgment_rationale": "For Revolutionary Armies (sans-culotte formations), benchmark evidence describes the page treatment as “Popular mobilization forced the Convention to organize the armies for action against hoarders and hostile rural interests.” Canonical locator judgments confirm that Revolutionary Armies gives the reader access to that treatment."
+      "judgment_rationale": "For Revolutionary Armies (sans-culotte formations), benchmark evidence describes the page treatment as “Popular mobilization forced the Convention to organize the armies for action against hoarders and hostile rural interests.” Canonical locator judgments confirm that Revolutionary Armies gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-CCF09DDF8FCA"
+      ],
+      "matched_locator_ids": [
+        "LOC-0C6B96412F0B"
+      ]
     },
     {
       "treatment_id": "TREAT-CAB2D8742A25",
@@ -8807,7 +9562,13 @@
         "EVID-425BCFE17436",
         "EVID-5606E7E802B3"
       ],
-      "judgment_rationale": "For Carrier at Nantes: shootings, noyades, and recall, benchmark evidence describes the page treatment as “Reports of indiscriminate repression and disregard for legal forms made Carrier an early casualty of the center's effort to curb autonomous terror.” Canonical locator judgments confirm that Carrier, Jean-Baptiste gives the reader access to that treatment."
+      "judgment_rationale": "For Carrier at Nantes: shootings, noyades, and recall, benchmark evidence describes the page treatment as “Reports of indiscriminate repression and disregard for legal forms made Carrier an early casualty of the center's effort to curb autonomous terror.” Canonical locator judgments confirm that Carrier, Jean-Baptiste gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-E2DD006900A5"
+      ],
+      "matched_locator_ids": [
+        "LOC-425BCFE17436"
+      ]
     },
     {
       "treatment_id": "TREAT-CB028D0BF8E1",
@@ -8819,7 +9580,13 @@
         "EVID-5EC68F35FB42",
         "EVID-9585C04BAE64"
       ],
-      "judgment_rationale": "For Terror: imprisonment, custody deaths, and extrajudicial killing, benchmark evidence describes the page treatment as “Up to hundreds of thousands were detained as suspects, overwhelming prisons and improvised facilities.” Canonical locator judgments confirm that Law of Suspects (1793) gives the reader access to that treatment."
+      "judgment_rationale": "For Terror: imprisonment, custody deaths, and extrajudicial killing, benchmark evidence describes the page treatment as “Up to hundreds of thousands were detained as suspects, overwhelming prisons and improvised facilities.” Canonical locator judgments confirm that Law of Suspects (1793) gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-01F1A434DE6C"
+      ],
+      "matched_locator_ids": [
+        "LOC-9585C04BAE64"
+      ]
     },
     {
       "treatment_id": "TREAT-CCE6247D4331",
@@ -8832,7 +9599,15 @@
         "EVID-B618120F77E8",
         "EVID-DE9292BF9F07"
       ],
-      "judgment_rationale": "For Paris Commune: Temple of Reason and official dechristianization, benchmark evidence describes the page treatment as “The Commune ordered symbolic removals, promoted clerical resignation, closed churches, and staged a civic spectacle in the converted cathedral.” Canonical locator judgments confirm that Paris Commune, Temple of Reason gives the reader access to that treatment."
+      "judgment_rationale": "For Paris Commune: Temple of Reason and official dechristianization, benchmark evidence describes the page treatment as “The Commune ordered symbolic removals, promoted clerical resignation, closed churches, and staged a civic spectacle in the converted cathedral.” Canonical locator judgments confirm that Paris Commune, Temple of Reason gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-2E609D05687C",
+        "PATH-345253CB2BD9"
+      ],
+      "matched_locator_ids": [
+        "LOC-B618120F77E8",
+        "LOC-DE9292BF9F07"
+      ]
     },
     {
       "treatment_id": "TREAT-D0DE53F5237D",
@@ -8845,7 +9620,15 @@
         "EVID-DB9E859E8266",
         "EVID-EF6D213394F1"
       ],
-      "judgment_rationale": "For Parisian subsistence crisis as a political engine, benchmark evidence describes the page treatment as “A malfunctioning maximum, market scuffles, and black-market activity again made calls for insurrection dangerous in March 1794.” Canonical locator judgments confirm that Paris > bread prices and subsistence riots, sansculottes > insurrections and mobilization gives the reader access to that treatment."
+      "judgment_rationale": "For Parisian subsistence crisis as a political engine, benchmark evidence describes the page treatment as “A malfunctioning maximum, market scuffles, and black-market activity again made calls for insurrection dangerous in March 1794.” Canonical locator judgments confirm that Paris > bread prices and subsistence riots, sansculottes > insurrections and mobilization gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-542D81C64617",
+        "PATH-7A09CBBEB919"
+      ],
+      "matched_locator_ids": [
+        "LOC-2F420253844D",
+        "LOC-DB9E859E8266"
+      ]
     },
     {
       "treatment_id": "TREAT-D1258C66B595",
@@ -8857,7 +9640,13 @@
         "EVID-4116F601BC09",
         "EVID-C17AB1935270"
       ],
-      "judgment_rationale": "For Laws of Ventôse: proposed redistribution to indigent patriots, benchmark evidence describes the page treatment as “The decrees envisioned identifying enemies and transferring their goods to approved poor patriots, but administrative confusion and committee reluctance left little accomplished.” Canonical locator judgments confirm that Ventôse, Laws of gives the reader access to that treatment."
+      "judgment_rationale": "For Laws of Ventôse: proposed redistribution to indigent patriots, benchmark evidence describes the page treatment as “The decrees envisioned identifying enemies and transferring their goods to approved poor patriots, but administrative confusion and committee reluctance left little accomplished.” Canonical locator judgments confirm that Ventôse, Laws of gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-67869BB9C00D"
+      ],
+      "matched_locator_ids": [
+        "LOC-C17AB1935270"
+      ]
     },
     {
       "treatment_id": "TREAT-D1D7179CF537",
@@ -8869,7 +9658,13 @@
         "EVID-953A654E51C2",
         "EVID-E470422E86DB"
       ],
-      "judgment_rationale": "For Toulon: foreign occupation, reconquest, and repression, benchmark evidence describes the page treatment as “Capture of harbor heights forced an immediate coalition evacuation after a siege lasting several months.” Canonical locator judgments confirm that Toulon gives the reader access to that treatment."
+      "judgment_rationale": "For Toulon: foreign occupation, reconquest, and repression, benchmark evidence describes the page treatment as “Capture of harbor heights forced an immediate coalition evacuation after a siege lasting several months.” Canonical locator judgments confirm that Toulon gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-2808CD626340"
+      ],
+      "matched_locator_ids": [
+        "LOC-E470422E86DB"
+      ]
     },
     {
       "treatment_id": "TREAT-D21DB9385FD8",
@@ -8882,7 +9677,15 @@
         "EVID-1F959EFC289C",
         "EVID-C48344A12EBC"
       ],
-      "judgment_rationale": "For Foreign-plot rhetoric and factional prosecution, benchmark evidence describes the page treatment as “Robespierre found a sweeping counter-revolutionary theory plausible because real intrigue and financial fraud gave it partial foundations.” Canonical locator judgments confirm that Hébert, Jacques-René, Batz, Baron de gives the reader access to that treatment."
+      "judgment_rationale": "For Foreign-plot rhetoric and factional prosecution, benchmark evidence describes the page treatment as “Robespierre found a sweeping counter-revolutionary theory plausible because real intrigue and financial fraud gave it partial foundations.” Canonical locator judgments confirm that Hébert, Jacques-René, Batz, Baron de gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-8D6E7C4F7872",
+        "PATH-F175C8D02D4F"
+      ],
+      "matched_locator_ids": [
+        "LOC-0E1667EC70D0",
+        "LOC-C48344A12EBC"
+      ]
     },
     {
       "treatment_id": "TREAT-D837A30BCD4B",
@@ -8905,7 +9708,13 @@
         "EVID-1D25125915D1",
         "EVID-77BB7C610DDF"
       ],
-      "judgment_rationale": "For Jullien: investigation and recalibration of provincial repression, benchmark evidence describes the page treatment as “His missions formed part of Robespierre's campaign to investigate questionable representatives and subordinate them to central authority.” Canonical locator judgments confirm that Jullien, Marc-Antoine gives the reader access to that treatment."
+      "judgment_rationale": "For Jullien: investigation and recalibration of provincial repression, benchmark evidence describes the page treatment as “His missions formed part of Robespierre's campaign to investigate questionable representatives and subordinate them to central authority.” Canonical locator judgments confirm that Jullien, Marc-Antoine gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-53B43BB2FA81"
+      ],
+      "matched_locator_ids": [
+        "LOC-77BB7C610DDF"
+      ]
     },
     {
       "treatment_id": "TREAT-D896119680EB",
@@ -8917,7 +9726,13 @@
         "EVID-1648FC324D91",
         "EVID-FD49EB77DD04"
       ],
-      "judgment_rationale": "For General Maximum: nationwide price regulation, benchmark evidence describes the page treatment as “Initial local-price formulas caused runs, uneven supply, and administrative delay, requiring rapid revision.” Canonical locator judgments confirm that Maximum, Law of the General > implementation and enforcement gives the reader access to that treatment."
+      "judgment_rationale": "For General Maximum: nationwide price regulation, benchmark evidence describes the page treatment as “Initial local-price formulas caused runs, uneven supply, and administrative delay, requiring rapid revision.” Canonical locator judgments confirm that Maximum, Law of the General > implementation and enforcement gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-F5DA2075A2A8"
+      ],
+      "matched_locator_ids": [
+        "LOC-FD49EB77DD04"
+      ]
     },
     {
       "treatment_id": "TREAT-D9BB68215039",
@@ -8951,7 +9766,13 @@
         "EVID-846CEF2E72A9",
         "EVID-F2E49A02E24C"
       ],
-      "judgment_rationale": "For Republican victories and pressure to moderate the Terror, benchmark evidence describes the page treatment as “Victories over coalition armies, recapture of rebel cities, and defeat of the Vendéans reduced the apparent necessity for maximum coercion.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment."
+      "judgment_rationale": "For Republican victories and pressure to moderate the Terror, benchmark evidence describes the page treatment as “Victories over coalition armies, recapture of rebel cities, and defeat of the Vendéans reduced the apparent necessity for maximum coercion.” Canonical locator judgments confirm that Reign of Terror gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-943B9E017CB4"
+      ],
+      "matched_locator_ids": [
+        "LOC-846CEF2E72A9"
+      ]
     },
     {
       "treatment_id": "TREAT-E0C2DD7C46A1",
@@ -8963,7 +9784,13 @@
         "EVID-8B817C541E31",
         "EVID-E00E4BE82F1E"
       ],
-      "judgment_rationale": "For Law of Suspects, benchmark evidence describes the page treatment as “The law authorized arrest on sweeping behavioral, associational, verbal, and status-based grounds.” Canonical locator judgments confirm that Law of Suspects (1793) gives the reader access to that treatment."
+      "judgment_rationale": "For Law of Suspects, benchmark evidence describes the page treatment as “The law authorized arrest on sweeping behavioral, associational, verbal, and status-based grounds.” Canonical locator judgments confirm that Law of Suspects (1793) gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-01F1A434DE6C"
+      ],
+      "matched_locator_ids": [
+        "LOC-8B817C541E31"
+      ]
     },
     {
       "treatment_id": "TREAT-E0ECAA3F2888",
@@ -8975,7 +9802,13 @@
         "EVID-689D9DAA2765",
         "EVID-823EA11733FF"
       ],
-      "judgment_rationale": "For Tallien at Bordeaux: moderation, suspicion, and recall, benchmark evidence describes the page treatment as “Central investigation eventually brought his recall as part of breaking representatives' autonomous authority.” Canonical locator judgments confirm that Tallien, Jean-Lambert gives the reader access to that treatment."
+      "judgment_rationale": "For Tallien at Bordeaux: moderation, suspicion, and recall, benchmark evidence describes the page treatment as “Central investigation eventually brought his recall as part of breaking representatives' autonomous authority.” Canonical locator judgments confirm that Tallien, Jean-Lambert gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-A1671706098A"
+      ],
+      "matched_locator_ids": [
+        "LOC-823EA11733FF"
+      ]
     },
     {
       "treatment_id": "TREAT-E165C5B43A57",
@@ -8987,7 +9820,13 @@
         "EVID-5545163BEC27",
         "EVID-D56107244A01"
       ],
-      "judgment_rationale": "For Chalier: martyrdom and justification for vengeance at Lyons, benchmark evidence describes the page treatment as “The murder of a Jacobin martyr helped distinguish Lyons from centers where conciliation remained acceptable.” Canonical locator judgments confirm that Chalier, Marie-Joseph gives the reader access to that treatment."
+      "judgment_rationale": "For Chalier: martyrdom and justification for vengeance at Lyons, benchmark evidence describes the page treatment as “The murder of a Jacobin martyr helped distinguish Lyons from centers where conciliation remained acceptable.” Canonical locator judgments confirm that Chalier, Marie-Joseph gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-6B869B051DB1"
+      ],
+      "matched_locator_ids": [
+        "LOC-D56107244A01"
+      ]
     },
     {
       "treatment_id": "TREAT-E2FFA97E7502",
@@ -9000,7 +9839,15 @@
         "EVID-9CDEFBCE1CE0",
         "EVID-E3A859928489"
       ],
-      "judgment_rationale": "For Paid sectional attendance and the forty-sou patriots, benchmark evidence describes the page treatment as “Critics later saw the paid schedule as a cheap surrender of permanent assembly, while it drew activists into regularized state-supported roles.” Canonical locator judgments confirm that Paris sections, Danton, Georges-Jacques > September 1793 journées and Terror policy gives the reader access to that treatment."
+      "judgment_rationale": "For Paid sectional attendance and the forty-sou patriots, benchmark evidence describes the page treatment as “Critics later saw the paid schedule as a cheap surrender of permanent assembly, while it drew activists into regularized state-supported roles.” Canonical locator judgments confirm that Paris sections, Danton, Georges-Jacques > September 1793 journées and Terror policy gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED",
+        "PATH-0F3F5FBA6E8F"
+      ],
+      "matched_locator_ids": [
+        "LOC-941680BD84A8",
+        "LOC-9CDEFBCE1CE0"
+      ]
     },
     {
       "treatment_id": "TREAT-E4D6F3EC574E",
@@ -9046,7 +9893,15 @@
         "EVID-98BFD997E23C",
         "EVID-C63C610DD958"
       ],
-      "judgment_rationale": "For Robespierre: moderation, centralization, and factional realignment, benchmark evidence describes the page treatment as “He opposed unnecessary executions and dechristianization, defended Danton, and supported stronger central government as a restraint on excess.” Canonical locator judgments confirm that Robespierre, Maximilien > and Dantonist 'Indulgents', Committee of Public Safety > conflicts with factions and clubs gives the reader access to that treatment."
+      "judgment_rationale": "For Robespierre: moderation, centralization, and factional realignment, benchmark evidence describes the page treatment as “He opposed unnecessary executions and dechristianization, defended Danton, and supported stronger central government as a restraint on excess.” Canonical locator judgments confirm that Robespierre, Maximilien > and Dantonist 'Indulgents', Committee of Public Safety > conflicts with factions and clubs gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-AA32B34D38AD",
+        "PATH-EA7A41CCA467"
+      ],
+      "matched_locator_ids": [
+        "LOC-98BFD997E23C",
+        "LOC-C63C610DD958"
+      ]
     },
     {
       "treatment_id": "TREAT-EDA0A442988B",
@@ -9070,7 +9925,15 @@
         "EVID-9BF1A777B4AA",
         "EVID-E9C6F16369E0"
       ],
-      "judgment_rationale": "For Carrier at Nantes: shootings, noyades, and recall, benchmark evidence describes the page treatment as “Special courts imposed thousands of capital sentences, while overloaded prisons and provisioning pressures helped produce mass drownings and shootings.” Canonical locator judgments confirm that Noyades, Carrier, Jean-Baptiste gives the reader access to that treatment."
+      "judgment_rationale": "For Carrier at Nantes: shootings, noyades, and recall, benchmark evidence describes the page treatment as “Special courts imposed thousands of capital sentences, while overloaded prisons and provisioning pressures helped produce mass drownings and shootings.” Canonical locator judgments confirm that Noyades, Carrier, Jean-Baptiste gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-B2B72F143582",
+        "PATH-E2DD006900A5"
+      ],
+      "matched_locator_ids": [
+        "LOC-9BF1A777B4AA",
+        "LOC-E9C6F16369E0"
+      ]
     },
     {
       "treatment_id": "TREAT-F0340D9EF329",
@@ -9082,7 +9945,13 @@
         "EVID-251F38809414",
         "EVID-784DDBC5F010"
       ],
-      "judgment_rationale": "For Catholic and Royal Army of the Vendée, benchmark evidence describes the page treatment as “Savenay destroyed most of the remaining force and ended the large conventional phase of the Vendée war.” Canonical locator judgments confirm that Vendée gives the reader access to that treatment."
+      "judgment_rationale": "For Catholic and Royal Army of the Vendée, benchmark evidence describes the page treatment as “Savenay destroyed most of the remaining force and ended the large conventional phase of the Vendée war.” Canonical locator judgments confirm that Vendée gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-784DDBC5F010"
+      ]
     },
     {
       "treatment_id": "TREAT-F11890AA7780",
@@ -9094,7 +9963,13 @@
         "EVID-407563D925F9",
         "EVID-6936C1D0F543"
       ],
-      "judgment_rationale": "For Billaud-Varenne: radical legislation and central authority, benchmark evidence describes the page treatment as “During centralization debates he pressed for an even cleaner concentration of executive authority.” Canonical locator judgments confirm that Billaud-Varenne, Jacques-Nicolas gives the reader access to that treatment."
+      "judgment_rationale": "For Billaud-Varenne: radical legislation and central authority, benchmark evidence describes the page treatment as “During centralization debates he pressed for an even cleaner concentration of executive authority.” Canonical locator judgments confirm that Billaud-Varenne, Jacques-Nicolas gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-9556E0C0D594"
+      ],
+      "matched_locator_ids": [
+        "LOC-407563D925F9"
+      ]
     },
     {
       "treatment_id": "TREAT-F2053C7F50E8",
@@ -9106,7 +9981,13 @@
         "EVID-89782F8EAE0B",
         "EVID-DB0D857D172A"
       ],
-      "judgment_rationale": "For Girondins: show trial, executions, and fugitive deaths, benchmark evidence describes the page treatment as “Popular and legislative pressure sent the detained Girondins to trial while efforts to identify advocates of mercy were partly resisted.” Canonical locator judgments confirm that Girondins gives the reader access to that treatment."
+      "judgment_rationale": "For Girondins: show trial, executions, and fugitive deaths, benchmark evidence describes the page treatment as “Popular and legislative pressure sent the detained Girondins to trial while efforts to identify advocates of mercy were partly resisted.” Canonical locator judgments confirm that Girondins gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-FF4BD0B64D83"
+      ],
+      "matched_locator_ids": [
+        "LOC-DB0D857D172A"
+      ]
     },
     {
       "treatment_id": "TREAT-F20DF76154A5",
@@ -9120,7 +10001,17 @@
         "EVID-EFE9AAB24AE2",
         "EVID-F4B78F41BDA8"
       ],
-      "judgment_rationale": "For Popular resistance to dechristianization, benchmark evidence describes the page treatment as “Peasants attacked a local club and armed themselves in defense of priests, Mass, and customary holy days until republican forces restored order.” Canonical locator judgments confirm that Dechristianization > official opposition and reversal, Dechristianization > impact on clergy, Dechristianization > iconoclasm and church closures gives the reader access to that treatment."
+      "judgment_rationale": "For Popular resistance to dechristianization, benchmark evidence describes the page treatment as “Peasants attacked a local club and armed themselves in defense of priests, Mass, and customary holy days until republican forces restored order.” Canonical locator judgments confirm that Dechristianization > official opposition and reversal, Dechristianization > impact on clergy, Dechristianization > iconoclasm and church closures gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-3C51B1C8889A",
+        "PATH-9204A2CBB769",
+        "PATH-AD6548568F82"
+      ],
+      "matched_locator_ids": [
+        "LOC-CB8FA738B929",
+        "LOC-DF6684F59045",
+        "LOC-F4B78F41BDA8"
+      ]
     },
     {
       "treatment_id": "TREAT-F4C17E054174",
@@ -9133,7 +10024,15 @@
         "EVID-82482E627F5D",
         "EVID-F5AD1E6C5BF6"
       ],
-      "judgment_rationale": "For Danton: emergency mobilization and politics of indulgence, benchmark evidence describes the page treatment as “His isolated defense of the arrested Fabre tied personal loyalty to the factional crisis.” Canonical locator judgments confirm that Danton, Georges-Jacques > campaign for 'Indulgence' and opposition to Terror, Indulgents (Dantonists) gives the reader access to that treatment."
+      "judgment_rationale": "For Danton: emergency mobilization and politics of indulgence, benchmark evidence describes the page treatment as “His isolated defense of the arrested Fabre tied personal loyalty to the factional crisis.” Canonical locator judgments confirm that Danton, Georges-Jacques > campaign for 'Indulgence' and opposition to Terror, Indulgents (Dantonists) gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-E590CE5FFCD3",
+        "PATH-EA4A6543BFD9"
+      ],
+      "matched_locator_ids": [
+        "LOC-82482E627F5D",
+        "LOC-F5AD1E6C5BF6"
+      ]
     },
     {
       "treatment_id": "TREAT-F4EEE825B69F",
@@ -9145,7 +10044,13 @@
         "EVID-38C5971679B5",
         "EVID-481C0C51CC95"
       ],
-      "judgment_rationale": "For Subsistence Commission and Robert Lindet, benchmark evidence describes the page treatment as “Under Lindet the commission gained broad coordinating powers and produced a national price schedule for necessities.” Canonical locator judgments confirm that Subsistence Commission gives the reader access to that treatment."
+      "judgment_rationale": "For Subsistence Commission and Robert Lindet, benchmark evidence describes the page treatment as “Under Lindet the commission gained broad coordinating powers and produced a national price schedule for necessities.” Canonical locator judgments confirm that Subsistence Commission gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-68728062D26B"
+      ],
+      "matched_locator_ids": [
+        "LOC-481C0C51CC95"
+      ]
     },
     {
       "treatment_id": "TREAT-F6259080EC09",
@@ -9168,7 +10073,13 @@
         "EVID-57FEEE36FD72",
         "EVID-B3848A44EE70"
       ],
-      "judgment_rationale": "For September Days of 1793: popular coercion of the Convention, benchmark evidence describes the page treatment as “Commune leaders closed workplaces, mobilized thousands, and presented subsistence and enforcement demands that the Convention accepted amid scenes of intense enthusiasm.” Canonical locator judgments confirm that Danton, Georges-Jacques > September 1793 journées and Terror policy gives the reader access to that treatment."
+      "judgment_rationale": "For September Days of 1793: popular coercion of the Convention, benchmark evidence describes the page treatment as “Commune leaders closed workplaces, mobilized thousands, and presented subsistence and enforcement demands that the Convention accepted amid scenes of intense enthusiasm.” Canonical locator judgments confirm that Danton, Georges-Jacques > September 1793 journées and Terror policy gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-0F3F5FBA6E8F"
+      ],
+      "matched_locator_ids": [
+        "LOC-57FEEE36FD72"
+      ]
     },
     {
       "treatment_id": "TREAT-F7F4E3A4B61E",
@@ -9180,7 +10091,13 @@
         "EVID-8E7F0F765C84",
         "EVID-AD93EF41FFD5"
       ],
-      "judgment_rationale": "For Marie-Antoinette: trial and execution, benchmark evidence describes the page treatment as “Robespierre delayed the demanded prosecution until news of an attempted rescue made a trial politically unavoidable.” Canonical locator judgments confirm that Marie Antoinette gives the reader access to that treatment."
+      "judgment_rationale": "For Marie-Antoinette: trial and execution, benchmark evidence describes the page treatment as “Robespierre delayed the demanded prosecution until news of an attempted rescue made a trial politically unavoidable.” Canonical locator judgments confirm that Marie Antoinette gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-E8C9CE45243B"
+      ],
+      "matched_locator_ids": [
+        "LOC-AD93EF41FFD5"
+      ]
     },
     {
       "treatment_id": "TREAT-F865667AE9A1",
@@ -9193,7 +10110,15 @@
         "EVID-FB3055E460EF",
         "EVID-FECEC3F5E409"
       ],
-      "judgment_rationale": "For Clergy under the Terror: coercion, deportation, and renunciation, benchmark evidence describes the page treatment as “Representatives demanded public abjuration and treated even constitutional clerical status as suspect.” Canonical locator judgments confirm that Dechristianization > iconoclasm and church closures, Dechristianization > origins and local initiatives gives the reader access to that treatment."
+      "judgment_rationale": "For Clergy under the Terror: coercion, deportation, and renunciation, benchmark evidence describes the page treatment as “Representatives demanded public abjuration and treated even constitutional clerical status as suspect.” Canonical locator judgments confirm that Dechristianization > iconoclasm and church closures, Dechristianization > origins and local initiatives gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-AD6548568F82",
+        "PATH-E93FDACD1D14"
+      ],
+      "matched_locator_ids": [
+        "LOC-653C70EECA2C",
+        "LOC-FB3055E460EF"
+      ]
     },
     {
       "treatment_id": "TREAT-F93A63F5FB13",
@@ -9219,7 +10144,19 @@
         "EVID-D8666BEA6AD3",
         "EVID-E809448E8431"
       ],
-      "judgment_rationale": "For Controlled economy: black markets and assignat recovery, benchmark evidence describes the page treatment as “Black markets and above-maximum military purchases persisted, yet reduced currency demand allowed issuance to slow and the assignat to rise sharply before later decline.” Canonical locator judgments confirm that economy, Assignats > and controlled economy (Year II), black market gives the reader access to that treatment."
+      "judgment_rationale": "For Controlled economy: black markets and assignat recovery, benchmark evidence describes the page treatment as “Black markets and above-maximum military purchases persisted, yet reduced currency demand allowed issuance to slow and the assignat to rise sharply before later decline.” Canonical locator judgments confirm that economy, Assignats > and controlled economy (Year II), black market gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-1A751302E438",
+        "PATH-27AB412B888E",
+        "PATH-3731418E1254",
+        "PATH-9C6B15309ACA"
+      ],
+      "matched_locator_ids": [
+        "LOC-250A6E3C31E6",
+        "LOC-6A89A550A758",
+        "LOC-D8666BEA6AD3",
+        "LOC-E809448E8431"
+      ]
     },
     {
       "treatment_id": "TREAT-FA1F38453326",
@@ -9231,7 +10168,13 @@
         "EVID-23C328B248E8",
         "EVID-C04B40BA5681"
       ],
-      "judgment_rationale": "For Billaud-Varenne: radical legislation and central authority, benchmark evidence describes the page treatment as “He stood out among Montagnards for punitive economic legislation and rejection of conciliatory caution.” Canonical locator judgments confirm that Billaud-Varenne, Jacques-Nicolas gives the reader access to that treatment."
+      "judgment_rationale": "For Billaud-Varenne: radical legislation and central authority, benchmark evidence describes the page treatment as “He stood out among Montagnards for punitive economic legislation and rejection of conciliatory caution.” Canonical locator judgments confirm that Billaud-Varenne, Jacques-Nicolas gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-9556E0C0D594"
+      ],
+      "matched_locator_ids": [
+        "LOC-C04B40BA5681"
+      ]
     },
     {
       "treatment_id": "TREAT-FC80BE2B4BD0",
@@ -9265,7 +10208,13 @@
         "EVID-B6FFDECB72A4",
         "EVID-DAC253D9AFC3"
       ],
-      "judgment_rationale": "For Jacobin Republic: crisis of July 1793, benchmark evidence describes the page treatment as “Coalition forces held French territory, Mainz had fallen, the Vendée remained dangerous, and several southern cities resisted the Convention.” Canonical locator judgments confirm that sansculottes gives the reader access to that treatment."
+      "judgment_rationale": "For Jacobin Republic: crisis of July 1793, benchmark evidence describes the page treatment as “Coalition forces held French territory, Mainz had fallen, the Vendée remained dangerous, and several southern cities resisted the Convention.” Canonical locator judgments confirm that sansculottes gives the reader access to that treatment.",
+      "matched_path_ids": [
+        "PATH-F89128DD30E6"
+      ],
+      "matched_locator_ids": [
+        "LOC-DAC253D9AFC3"
+      ]
     }
   ],
   "reader_task_completion": {

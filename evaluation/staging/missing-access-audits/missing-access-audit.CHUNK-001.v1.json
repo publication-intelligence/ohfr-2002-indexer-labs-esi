@@ -476,27 +476,26 @@
     {
       "subject_id": "SUBJ-01EA4BAB8CCB",
       "priority": "major",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "yes",
+      "stance_preserved": "partly",
       "matched_path_ids": [
-        "PATH-6E3A38CF5838",
-        "PATH-9613943FFF66",
-        "PATH-EA2CBD0CDBC7"
+        "PATH-6E3A38CF5838"
       ],
       "expected_document_pages": [
         20,
         21
       ],
       "found_document_pages": [
-        20,
+        20
+      ],
+      "missed_document_pages": [
         21
       ],
-      "missed_document_pages": [],
-      "severity": "none",
+      "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "yes",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -512,10 +511,10 @@
           "expected_document_pages": [
             21
           ],
-          "found_document_pages": [
+          "found_document_pages": [],
+          "missed_document_pages": [
             21
           ],
-          "missed_document_pages": [],
           "uninspectable_document_pages": []
         },
         "synthesis_or_conclusion": {
@@ -527,9 +526,9 @@
       },
       "locator_recall": {
         "expected": 2,
-        "found": 2,
-        "missed": 0,
-        "rate": 1.0
+        "found": 1,
+        "missed": 1,
+        "rate": 0.5
       },
       "missing_routes": [
         {
@@ -541,13 +540,23 @@
           "rationale": "The candidate supplies no explicit see/see-also route into Industrial unrest, combinations, and craft solidarity."
         }
       ],
-      "missed_treatments": [],
-      "error_codes": [],
+      "missed_treatments": [
+        {
+          "document_page": 21,
+          "locator_class": "supporting",
+          "reason_code": "no_semantically_defensible_candidate_path_on_expected_page",
+          "evidence_ids": [
+            "EVID-565FA8B24CFD"
+          ]
+        }
+      ],
+      "error_codes": [
+        "COV",
+        "LOC_NEG"
+      ],
       "evidence_ids": [
-        "EVID-FA6BD2A0A12B",
         "EVID-565FA8B24CFD",
-        "EVID-A9A668FBBD21",
-        "EVID-0277D95B3F0D",
+        "EVID-FA6BD2A0A12B",
         "EVID-FC900B97DD53"
       ],
       "uncertainty": {
@@ -11758,20 +11767,17 @@
       "subject_ids": [
         "SUBJ-01EA4BAB8CCB"
       ],
-      "result": "succeeds",
+      "result": "partially_succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
-        "PATH-6E3A38CF5838",
-        "PATH-9613943FFF66",
-        "PATH-EA2CBD0CDBC7"
+        "PATH-6E3A38CF5838"
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-FA6BD2A0A12B",
         "EVID-565FA8B24CFD"
-      ],
-      "rationale": "For the reader question “What does Doyle show about both conflict and solidarity within artisan labor relations?”, candidate access resolves as SUBJ-01EA4BAB8CCB=complete via industrial unrest, Flour War (1775), Bordeaux > grain riots and subsistence."
+      ]
     },
     {
       "task_id": "TASK-AE3DCA366EC4",
@@ -14978,21 +14984,13 @@
       "subject_id": "SUBJ-01EA4BAB8CCB",
       "document_page": 21,
       "locator_class": "supporting",
-      "status": "found",
+      "status": "missed",
       "evidence_ids": [
-        "EVID-565FA8B24CFD",
-        "EVID-A9A668FBBD21",
-        "EVID-0277D95B3F0D"
+        "EVID-565FA8B24CFD"
       ],
-      "matched_path_ids": [
-        "PATH-9613943FFF66",
-        "PATH-EA2CBD0CDBC7"
-      ],
-      "matched_locator_ids": [
-        "LOC-0277D95B3F0D",
-        "LOC-A9A668FBBD21"
-      ],
-      "rationale": "Expected page 21 is reachable through Flour War (1775) (supported, LOC-A9A668FBBD21); Bordeaux > grain riots and subsistence (supported, LOC-0277D95B3F0D); the frozen benchmark treatment and canonical locator findings jointly support usable subject access."
+      "matched_path_ids": [],
+      "matched_locator_ids": [],
+      "rationale": "The candidate locator on this page belongs to a different or merely co-located subject path and does not provide a semantically defensible route to the benchmark treatment."
     },
     {
       "treatment_id": "TREAT-AA19B88327D1",
@@ -16525,8 +16523,8 @@
     "reader_tasks_judged": 124,
     "reader_tasks_unique": true,
     "concept_coverage_counts": {
-      "complete": 106,
-      "partial": 13,
+      "complete": 105,
+      "partial": 14,
       "missing": 1,
       "uninspectable": 0
     },

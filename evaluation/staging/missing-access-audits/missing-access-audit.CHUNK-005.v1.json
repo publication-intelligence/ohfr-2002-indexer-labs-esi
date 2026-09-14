@@ -367,10 +367,10 @@
     {
       "subject_id": "SUBJ-026CB51C44A0",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "complete",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-0B0190D8E668",
         "PATH-8E5D98DDDF90"
@@ -386,9 +386,9 @@
         135
       ],
       "missed_document_pages": [],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "yes",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -429,19 +429,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-1B2CA8C430D6",
-            "EVID-27CD38A1D556",
-            "EVID-95F42079B0A8",
-            "EVID-A7127728F98F",
-            "EVID-B3DA0A5850D5",
-            "EVID-B8A74F5E7373",
-            "EVID-E13815BDB1E2"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -456,10 +443,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "HED",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-1B2CA8C430D6",
         "EVID-27CD38A1D556",
@@ -1231,10 +1215,10 @@
     {
       "subject_id": "SUBJ-2E403036FEDD",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "complete",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-41016214E2AD",
         "PATH-E453843D953D"
@@ -1248,9 +1232,9 @@
         115
       ],
       "missed_document_pages": [],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "yes",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -1287,16 +1271,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-181084E44323",
-            "EVID-20BCDE5158A5",
-            "EVID-A97EABD3D416",
-            "EVID-C6E8E7872D5E"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -1308,10 +1282,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "HED",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-181084E44323",
         "EVID-20BCDE5158A5",
@@ -1563,10 +1534,10 @@
     {
       "subject_id": "SUBJ-4118071D0D99",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-9E97775B0928",
         "PATH-B6F2CAAE4567"
@@ -1587,7 +1558,7 @@
       ],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -1630,20 +1601,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-2B645A29B474",
-            "EVID-37B65FD0FE61",
-            "EVID-4BAF5D46BD31",
-            "EVID-61A68A11BC24",
-            "EVID-9614A59E06ED",
-            "EVID-A7529AA15450",
-            "EVID-C6244581F586",
-            "EVID-FEE262B9D919"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -1681,8 +1638,7 @@
       "error_codes": [
         "COV",
         "HED",
-        "LOC_NEG",
-        "XRF"
+        "LOC_NEG"
       ],
       "evidence_ids": [
         "EVID-2B645A29B474",
@@ -1792,10 +1748,10 @@
     {
       "subject_id": "SUBJ-44B0ED2F05CE",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-25F01B2E38A0"
       ],
@@ -1810,7 +1766,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -1847,16 +1803,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-5A3B536CB9C0",
-            "EVID-B5D7D972973C",
-            "EVID-CBA580F042F9",
-            "EVID-E605FA9B579C"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -1869,8 +1815,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-5A3B536CB9C0",
@@ -2117,10 +2063,10 @@
     {
       "subject_id": "SUBJ-48A873D30327",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "complete",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-9D73F3946E1A",
         "PATH-F657BB678AAD"
@@ -2134,9 +2080,9 @@
         135
       ],
       "missed_document_pages": [],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "yes",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -2173,16 +2119,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-777BD157B7E1",
-            "EVID-A1977DB0E23F",
-            "EVID-D2196FF854D7",
-            "EVID-ED4432F7A8E7"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -2194,10 +2130,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "HED",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-777BD157B7E1",
         "EVID-A1977DB0E23F",
@@ -3352,10 +3285,10 @@
     {
       "subject_id": "SUBJ-6D4DD1187342",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-5007BF9EF616",
         "PATH-7BCECE0C7312"
@@ -3374,7 +3307,7 @@
       ],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -3414,17 +3347,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-01A02A880B59",
-            "EVID-40E092535D3C",
-            "EVID-561FAD0B8DDE",
-            "EVID-8554DAAAB282",
-            "EVID-96D4DDEABC8D"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -3449,8 +3371,7 @@
       "error_codes": [
         "COV",
         "HED",
-        "LOC_NEG",
-        "XRF"
+        "LOC_NEG"
       ],
       "evidence_ids": [
         "EVID-01A02A880B59",
@@ -3648,10 +3569,10 @@
     {
       "subject_id": "SUBJ-6E1413FB4E60",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-7A4EAB657A4D"
       ],
@@ -3664,7 +3585,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -3697,14 +3618,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-6D5F08C9EFB6",
-            "EVID-B9073F7DC553"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -3715,8 +3628,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-6D5F08C9EFB6",
@@ -4952,10 +4865,10 @@
     {
       "subject_id": "SUBJ-9990E8A5516A",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-3513334DB41B",
         "PATH-95ABC889B7E3",
@@ -4979,7 +4892,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -5022,22 +4935,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-02E580667AD4",
-            "EVID-078EB1A0D37C",
-            "EVID-1AE9193B5697",
-            "EVID-52326D36F32B",
-            "EVID-687259B2817A",
-            "EVID-A42BD6DB2FEB",
-            "EVID-AA1FACE1C294",
-            "EVID-B0284FF77608",
-            "EVID-D935E09510CB",
-            "EVID-FA1379CC6C66"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -5056,8 +4953,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-02E580667AD4",
@@ -5815,10 +5712,10 @@
     {
       "subject_id": "SUBJ-B1C602729F9A",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-C781CBB9CD04"
       ],
@@ -5834,7 +5731,7 @@
       ],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -5871,15 +5768,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-08DD7AA01B3E",
-            "EVID-2EE3B819B5EE",
-            "EVID-F51DC33F86B8"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -5902,8 +5790,7 @@
       "error_codes": [
         "COV",
         "HED",
-        "LOC_NEG",
-        "XRF"
+        "LOC_NEG"
       ],
       "evidence_ids": [
         "EVID-08DD7AA01B3E",
@@ -6330,10 +6217,10 @@
     {
       "subject_id": "SUBJ-C9FB9A23F9CA",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-25F01B2E38A0"
       ],
@@ -6346,7 +6233,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -6379,14 +6266,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-CBA580F042F9",
-            "EVID-D722E0FBE68C"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -6397,8 +6276,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-CBA580F042F9",
@@ -6962,10 +6841,10 @@
     {
       "subject_id": "SUBJ-DB8776518E9D",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-E453843D953D",
         "PATH-F0F8D099614B"
@@ -6981,7 +6860,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -7016,16 +6895,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-20BCDE5158A5",
-            "EVID-4E3FD57AEC2F",
-            "EVID-90BD6F9015D4",
-            "EVID-93C8F7F4EEB8"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -7038,8 +6907,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-20BCDE5158A5",
@@ -8061,13 +7930,13 @@
       "subject_ids": [
         "SUBJ-DB8776518E9D"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-E453843D953D",
         "PATH-F0F8D099614B"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-20BCDE5158A5",
@@ -8173,14 +8042,14 @@
         "SUBJ-54BA40D54EA6",
         "SUBJ-F9D20351E8BB"
       ],
-      "result": "succeeds",
+      "result": "partially_succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-1B9B3830CD6E",
         "PATH-4078D9FDECBB",
         "PATH-463B5BB7399E"
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-29651F8E4DDD",
@@ -8417,12 +8286,12 @@
       "subject_ids": [
         "SUBJ-B1C602729F9A"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-C781CBB9CD04"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-08DD7AA01B3E",
@@ -8533,13 +8402,13 @@
       "subject_ids": [
         "SUBJ-6D4DD1187342"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-5007BF9EF616",
         "PATH-7BCECE0C7312"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-01A02A880B59",
@@ -9030,14 +8899,14 @@
         "SUBJ-6F8CE59FD983",
         "SUBJ-9216E0E5FA9D"
       ],
-      "result": "succeeds",
+      "result": "partially_succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-4078D9FDECBB",
         "PATH-58C3FC79DF86",
         "PATH-C80BBA61095E"
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-04351258201B",
@@ -9152,14 +9021,14 @@
         "SUBJ-44B0ED2F05CE",
         "SUBJ-C9FB9A23F9CA"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-25F01B2E38A0",
         "PATH-9E97775B0928",
         "PATH-B6F2CAAE4567"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-2B645A29B474",
@@ -9246,13 +9115,13 @@
       "subject_ids": [
         "SUBJ-026CB51C44A0"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-0B0190D8E668",
         "PATH-8E5D98DDDF90"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
       "evidence_ids": [
         "EVID-1B2CA8C430D6",
@@ -9381,13 +9250,13 @@
       "subject_ids": [
         "SUBJ-2E403036FEDD"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-41016214E2AD",
         "PATH-E453843D953D"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
       "evidence_ids": [
         "EVID-181084E44323",
@@ -9424,15 +9293,15 @@
       "subject_ids": [
         "SUBJ-9990E8A5516A"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-3513334DB41B",
         "PATH-95ABC889B7E3",
         "PATH-9E97775B0928",
         "PATH-BCB03A99B067"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-02E580667AD4",
@@ -9571,12 +9440,12 @@
       "subject_ids": [
         "SUBJ-6E1413FB4E60"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-7A4EAB657A4D"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-6D5F08C9EFB6",
@@ -9598,7 +9467,15 @@
       ],
       "status_rationale": "The benchmark expects on page 115: Villagers attack seigneurial records and facilities and compel lords to renounce rights. Canonical locator LOC-023D1B32BCF9 under 'Dauphiné > peasant manual attacks' is supported on that page: Document page 115 evidence for “Dauphiné > peasant manual attacks”: “began to refuse to pay both tithes and dues, considering themselves so permitted, they said, by the new law to come.’1 In other places they raided barns to repossess what had already been paid, …” “The attackers made for the symbols of feudalism— dovecotes, seigneurial ovens and wine-presses, weather-vanes.”",
       "matched_path_id": "PATH-5968AC21F71C",
-      "matched_locator_id": "LOC-023D1B32BCF9"
+      "matched_locator_id": "LOC-023D1B32BCF9",
+      "matched_path_ids": [
+        "PATH-5968AC21F71C",
+        "PATH-E453843D953D"
+      ],
+      "matched_locator_ids": [
+        "LOC-023D1B32BCF9",
+        "LOC-20BCDE5158A5"
+      ]
     },
     {
       "treatment_id": "TREAT-0152C20F155E",
@@ -9612,7 +9489,13 @@
       ],
       "status_rationale": "The benchmark expects on page 115: Reports of the Quincey explosion are recast as proof of lordly revenge and spread further violence. Canonical locator LOC-7B941ACAE52B under 'Franche Comté' is supported on that page: Document page 115 evidence for “Franche Comté”: “On 19 July intruders at the manor house of a particularly unpopular Franche Comté landlord at Quincey, near Vesoul, were blown up in a huge explosion which destroyed the building.”",
       "matched_path_id": "PATH-DABDFB92953D",
-      "matched_locator_id": "LOC-7B941ACAE52B"
+      "matched_locator_id": "LOC-7B941ACAE52B",
+      "matched_path_ids": [
+        "PATH-DABDFB92953D"
+      ],
+      "matched_locator_ids": [
+        "LOC-7B941ACAE52B"
+      ]
     },
     {
       "treatment_id": "TREAT-032F76BD43D8",
@@ -9626,7 +9509,13 @@
       ],
       "status_rationale": "The benchmark expects on page 129: A full-page map and numbered key locate all forty-eight sections and the main sites used in the narrative. Canonical locator LOC-CE58A33A510B under 'Paris sections' is supported on that page: Map 3 on document page 129 enumerates and maps all forty-eight Paris sections.",
       "matched_path_id": "PATH-0C63FACA6CED",
-      "matched_locator_id": "LOC-CE58A33A510B"
+      "matched_locator_id": "LOC-CE58A33A510B",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED"
+      ],
+      "matched_locator_ids": [
+        "LOC-CE58A33A510B"
+      ]
     },
     {
       "treatment_id": "TREAT-04B158DED80F",
@@ -9640,7 +9529,15 @@
       ],
       "status_rationale": "The benchmark expects on page 114: Hunger, expectations raised by elections, rumours, and the king's defeat dissolve restraints on rural defiance. Canonical locator LOC-F6546F596EAD under 'peasantry > Revolution of 1789 and > Great Fear and rural unrest' is supported on that page: Document page 114 evidence for “peasantry > Revolution of 1789 and > Great Fear and rural unrest”: “Peasants assembled, armed themselves, and prepared to ﬁght oﬀ the ruthless hirelings of aristocracy.” “Rural unrest had been growing in many parts of the kingdom as the grain shortage worsened over the spring.”",
       "matched_path_id": "PATH-5ABA0891508F",
-      "matched_locator_id": "LOC-F6546F596EAD"
+      "matched_locator_id": "LOC-F6546F596EAD",
+      "matched_path_ids": [
+        "PATH-5ABA0891508F",
+        "PATH-E453843D953D"
+      ],
+      "matched_locator_ids": [
+        "LOC-49921D5D9DC5",
+        "LOC-F6546F596EAD"
+      ]
     },
     {
       "treatment_id": "TREAT-073971C99AF1",
@@ -9654,7 +9551,15 @@
       ],
       "status_rationale": "The benchmark expects on page 114: Fear of aristocratic hirelings and brigands spreads across most provinces as peasants arm to defend the harvest. Canonical locator LOC-0646354822B8 under 'Great Fear' is supported on that page: Document page 114 evidence for “Great Fear”: “All this produced the ‘Great Fear’, a massive panic that swept whole provinces in the last weeks of July and left only the most peripheral regions untouched.”",
       "matched_path_id": "PATH-28FDB574E4E5",
-      "matched_locator_id": "LOC-0646354822B8"
+      "matched_locator_id": "LOC-0646354822B8",
+      "matched_path_ids": [
+        "PATH-28FDB574E4E5",
+        "PATH-5ABA0891508F"
+      ],
+      "matched_locator_ids": [
+        "LOC-0646354822B8",
+        "LOC-F6546F596EAD"
+      ]
     },
     {
       "treatment_id": "TREAT-0A793171A4F5",
@@ -9680,7 +9585,13 @@
       ],
       "status_rationale": "The benchmark expects on page 122: His own guards force the march to Versailles, after which he protects the royal family while transmitting Paris's demand that it relocate. Canonical locator LOC-5B445C1815DA under 'Lafayette, Gilbert du Motier, Marquis de > National Guard command' is supported on that page: Document page 122 evidence for “Lafayette, Gilbert du Motier, Marquis de > National Guard command”: “Lafayette had been reluctant to come at all, leaving Paris unpoliced and thereby risking accusations that he was in complicity with the demonstrators.” “The forces of order, in the shape of Lafayette and 20,000 National Guardsmen, arrived in Versailles later that night after a forced march through an autumnal downpour.”",
       "matched_path_id": "PATH-68E3FA1F8CBB",
-      "matched_locator_id": "LOC-5B445C1815DA"
+      "matched_locator_id": "LOC-5B445C1815DA",
+      "matched_path_ids": [
+        "PATH-68E3FA1F8CBB"
+      ],
+      "matched_locator_ids": [
+        "LOC-5B445C1815DA"
+      ]
     },
     {
       "treatment_id": "TREAT-1281C87D3C02",
@@ -9694,7 +9605,13 @@
       ],
       "status_rationale": "The benchmark expects on page 124: The decree defines political citizenship through male sex, age, and tax payment even though women and poorer people had participated in revolutionary victories. Canonical locator LOC-1F43F399CFCF under 'active citizens' is supported on that page: Document page 124 evidence for “active citizens”: “But what is this much repeated word active citizen supposed to mean?”",
       "matched_path_id": "PATH-58C3FC79DF86",
-      "matched_locator_id": "LOC-1F43F399CFCF"
+      "matched_locator_id": "LOC-1F43F399CFCF",
+      "matched_path_ids": [
+        "PATH-58C3FC79DF86"
+      ],
+      "matched_locator_ids": [
+        "LOC-1F43F399CFCF"
+      ]
     },
     {
       "treatment_id": "TREAT-14AAB6C95ED4",
@@ -9720,7 +9637,17 @@
       ],
       "status_rationale": "The benchmark expects on page 113: Local militias spread as revolutionary committees try to contain urban disorder and protect the new political order. Canonical locator LOC-523ECFCF0EDB under 'National Guard > creation and early organization' is supported on that page: Document page 113 evidence for “National Guard > creation and early organization”: “Lafayette, feeling that the newly established National Guard should have prevented them, tried to resign his command, but was pressed from all sides to stay on.” “Feeble though it was, the citizens’ militia was the only public force patriots trusted, and it needed to be reliably led and organized in these formative days.”",
       "matched_path_id": "PATH-DE8CB69B7C5C",
-      "matched_locator_id": "LOC-523ECFCF0EDB"
+      "matched_locator_id": "LOC-523ECFCF0EDB",
+      "matched_path_ids": [
+        "PATH-68E3FA1F8CBB",
+        "PATH-BCB03A99B067",
+        "PATH-DE8CB69B7C5C"
+      ],
+      "matched_locator_ids": [
+        "LOC-523ECFCF0EDB",
+        "LOC-D7E82CD84B3C",
+        "LOC-DDC6B39A0BF6"
+      ]
     },
     {
       "treatment_id": "TREAT-1696724AA074",
@@ -9734,7 +9661,13 @@
       ],
       "status_rationale": "The benchmark expects on page 130: Communities plant decorated trees on lordly land and defend them as symbols and supposed mechanisms for ending remaining rights. Canonical locator LOC-41DFE69DD08E under 'liberty trees' is supported on that page: Document page 130 evidence for “liberty trees”: “All over the western Massif Central the next spring peasants planted liberty trees on seigneurial land.”",
       "matched_path_id": "PATH-E76604284643",
-      "matched_locator_id": "LOC-41DFE69DD08E"
+      "matched_locator_id": "LOC-41DFE69DD08E",
+      "matched_path_ids": [
+        "PATH-E76604284643"
+      ],
+      "matched_locator_ids": [
+        "LOC-41DFE69DD08E"
+      ]
     },
     {
       "treatment_id": "TREAT-18FBD4645FE5",
@@ -9748,7 +9681,13 @@
       ],
       "status_rationale": "The benchmark expects on page 120: Marat's newly founded paper demands purges and treats July's popular intervention as a model for future action. Canonical locator LOC-0E54832D664B under 'L'Ami du Peuple (newspaper)' is supported on that page: Document page 120 evidence for “L'Ami du Peuple (newspaper)”: “It was called Le Publiciste Parisien, but soon changed its name to L’Ami du Peuple.”",
       "matched_path_id": "PATH-C8B99C062997",
-      "matched_locator_id": "LOC-0E54832D664B"
+      "matched_locator_id": "LOC-0E54832D664B",
+      "matched_path_ids": [
+        "PATH-C8B99C062997"
+      ],
+      "matched_locator_ids": [
+        "LOC-0E54832D664B"
+      ]
     },
     {
       "treatment_id": "TREAT-19251CE4720A",
@@ -9762,7 +9701,15 @@
       ],
       "status_rationale": "The benchmark expects on page 128: He presides over the national federation ceremony as a symbol of constitutional consensus. Canonical locator LOC-074A3B16A551 under 'Lafayette, Gilbert du Motier, Marquis de > National Guard command' is supported on that page: Document page 128 evidence for “Lafayette, Gilbert du Motier, Marquis de > National Guard command”: “For every patriotic noble like Lafayette, Mirabeau, Duport, the Lameth brothers, or Talleyrand, who as bishop of Autun celebrated mass at the Feast of the Federation, there were many more who deplored the turn …” “Over the spring of 1790 regional rallies of National Guards, or ‘federations’, began to be held.”",
       "matched_path_id": "PATH-68E3FA1F8CBB",
-      "matched_locator_id": "LOC-074A3B16A551"
+      "matched_locator_id": "LOC-074A3B16A551",
+      "matched_path_ids": [
+        "PATH-68E3FA1F8CBB",
+        "PATH-DE8CB69B7C5C"
+      ],
+      "matched_locator_ids": [
+        "LOC-074A3B16A551",
+        "LOC-AD022992CCDD"
+      ]
     },
     {
       "treatment_id": "TREAT-1D4C748456BD",
@@ -9776,7 +9723,13 @@
       ],
       "status_rationale": "The benchmark expects on page 123: The king remains in Paris under effective popular supervision and ceases open resistance to reform. Canonical locator LOC-DB2765162B2A under 'state > administrative expansion and reform' is supported on that page: Document page 123 evidence for “state > administrative expansion and reform”: “The central authorities of the regenerate French State were now at the mercy of Paris, and time and time again over the next ﬁve years Parisians would intervene in national politics in the role …” “All open attempts on the king’s part to resist the reform of France now came to an end.”",
       "matched_path_id": "PATH-5290BA7D244D",
-      "matched_locator_id": "LOC-DB2765162B2A"
+      "matched_locator_id": "LOC-DB2765162B2A",
+      "matched_path_ids": [
+        "PATH-5290BA7D244D"
+      ],
+      "matched_locator_ids": [
+        "LOC-DB2765162B2A"
+      ]
     },
     {
       "treatment_id": "TREAT-1EFE0B4CF7FF",
@@ -9790,7 +9743,13 @@
       ],
       "status_rationale": "The benchmark expects on page 132: Talleyrand proposes state takeover of clerical property, and Mirabeau advances full national disposal subject to maintaining the Church. Canonical locator LOC-3161C53BB3D3 under 'Mirabeau, Honoré-Gabriel Riqueti, comte de > financial and ecclesiastical reforms' is supported on that page: Document page 132 evidence for “Mirabeau, Honoré-Gabriel Riqueti, comte de > financial and ecclesiastical reforms”: “Mirabeau, however, moved that the state should have free disposal of the whole, simply recognizing an obligation to maintain the Church out of general national resources.” “Nor did the immediate ﬁnancial situation allow time to wait.”",
       "matched_path_id": "PATH-5417C443C1DF",
-      "matched_locator_id": "LOC-3161C53BB3D3"
+      "matched_locator_id": "LOC-3161C53BB3D3",
+      "matched_path_ids": [
+        "PATH-5417C443C1DF"
+      ],
+      "matched_locator_ids": [
+        "LOC-3161C53BB3D3"
+      ]
     },
     {
       "treatment_id": "TREAT-1F6B17E9738F",
@@ -9817,7 +9776,15 @@
       ],
       "status_rationale": "The frozen treatment on page 124 is reached by supported locator LOC-9CB3CB3B21A2 under the specific path Révolutions de France et de Brabant.",
       "matched_path_id": "PATH-32ED38EE9E9E",
-      "matched_locator_id": "LOC-9CB3CB3B21A2"
+      "matched_locator_id": "LOC-9CB3CB3B21A2",
+      "matched_path_ids": [
+        "PATH-32ED38EE9E9E",
+        "PATH-877EB7C3EF39"
+      ],
+      "matched_locator_ids": [
+        "LOC-139B39D40A44",
+        "LOC-9CB3CB3B21A2"
+      ]
     },
     {
       "treatment_id": "TREAT-25189B770CFC",
@@ -9831,7 +9798,13 @@
       ],
       "status_rationale": "The benchmark expects on page 135: Communal observance of the festival is used as evidence for broad national support during the first year. Canonical locator LOC-8EEF1D7A0896 under 'Feast of the Federation' is supported on that page: Document page 135 evidence for “Feast of the Federation”: “The Feast of the Federation which was observed in every commune as well as in Paris, was a celebration of that consensus.”",
       "matched_path_id": "PATH-1F7307123562",
-      "matched_locator_id": "LOC-8EEF1D7A0896"
+      "matched_locator_id": "LOC-8EEF1D7A0896",
+      "matched_path_ids": [
+        "PATH-1F7307123562"
+      ],
+      "matched_locator_ids": [
+        "LOC-8EEF1D7A0896"
+      ]
     },
     {
       "treatment_id": "TREAT-2647AC5E8432",
@@ -9845,7 +9818,13 @@
       ],
       "status_rationale": "The benchmark expects on page 126: Danton's machine and allied newspapers campaign to preserve the old districts and then dominate the replacement section. Canonical locator LOC-D48963AA3927 under 'Danton, Georges-Jacques > Parisian radicalism and section leadership' is supported on that page: Document page 126 evidence for “Danton, Georges-Jacques > Parisian radicalism and section leadership”: “The Cordeliers district, just south of the Pont Neuf, had been among the most prominent, under its ambitious and opportunistic president Georges- Jacques Danton.” “Paris had 48, and in thus redividing the capital the deputies congratulated themselves on decimating certain of the 60 electoral districts which had begun to function as centres of popular radicalism.”",
       "matched_path_id": "PATH-AC5D9F861CDF",
-      "matched_locator_id": "LOC-D48963AA3927"
+      "matched_locator_id": "LOC-D48963AA3927",
+      "matched_path_ids": [
+        "PATH-AC5D9F861CDF"
+      ],
+      "matched_locator_ids": [
+        "LOC-D48963AA3927"
+      ]
     },
     {
       "treatment_id": "TREAT-26CAB3203168",
@@ -9882,7 +9861,13 @@
       ],
       "status_rationale": "The benchmark expects on page 126: Uniform communal offices and electoral sections give the new system a common local structure. Canonical locator LOC-3570D6F25CAD under 'municipal revolution' is supported on that page: Document page 126 says the diverse interim governments created by the July 1789 municipal revolutions were replaced by a uniform elected communal structure.",
       "matched_path_id": "PATH-41016214E2AD",
-      "matched_locator_id": "LOC-3570D6F25CAD"
+      "matched_locator_id": "LOC-3570D6F25CAD",
+      "matched_path_ids": [
+        "PATH-41016214E2AD"
+      ],
+      "matched_locator_ids": [
+        "LOC-3570D6F25CAD"
+      ]
     },
     {
       "treatment_id": "TREAT-2A27227C27DA",
@@ -9896,7 +9881,13 @@
       ],
       "status_rationale": "The benchmark expects on page 120: Suspicion of a privileged upper chamber and recent unity of the Assembly help defeat their program. Canonical locator LOC-9D55D2CBA766 under 'Third Estate > actions in National Assembly' is supported on that page: Document page 120 evidence for “Third Estate > actions in National Assembly”: “mistrusted rich former courtiers when they advocated what looked like a House of Lords which only the great would enter; while ordinary thirdestate deputies saw no point in dividing a legislature that had been …” “But only a handful of deputies, such as Sieyès and the prolix but still uninﬂuential Robespierre, believed that once the National Assembly had pronounced the monarch should have no veto at all.”",
       "matched_path_id": "PATH-99C9B54D57B5",
-      "matched_locator_id": "LOC-9D55D2CBA766"
+      "matched_locator_id": "LOC-9D55D2CBA766",
+      "matched_path_ids": [
+        "PATH-99C9B54D57B5"
+      ],
+      "matched_locator_ids": [
+        "LOC-9D55D2CBA766"
+      ]
     },
     {
       "treatment_id": "TREAT-2AA322BE2219",
@@ -9910,7 +9901,13 @@
       ],
       "status_rationale": "The benchmark expects on page 125: No officials are appointed from the center; implementation depends on elected local administrators with uneven experience and resources. Canonical locator LOC-2F8B8594D595 under 'departments (départements) > administrative reorganization and creation (1789-90)' is supported on that page: Document page 125 evidence for “departments (départements) > administrative reorganization and creation (1789-90)”: “They were replaced by eighty-three departments, roughly equal in size, population, and wealth.” “Uniformity and decentralization were the keynotes of the administrative organization undertaken by the Constituent Assembly.”",
       "matched_path_id": "PATH-4A9A49BC3924",
-      "matched_locator_id": "LOC-2F8B8594D595"
+      "matched_locator_id": "LOC-2F8B8594D595",
+      "matched_path_ids": [
+        "PATH-4A9A49BC3924"
+      ],
+      "matched_locator_ids": [
+        "LOC-2F8B8594D595"
+      ]
     },
     {
       "treatment_id": "TREAT-2AF039C93C94",
@@ -9924,7 +9921,13 @@
       ],
       "status_rationale": "The benchmark expects on page 132: His popularity declines after political missteps, failed loans, and the poorly performing Patriotic Contribution. Canonical locator LOC-AE0926A83743 under 'Necker, Jacques > financial management and reforms' is supported on that page: Document page 132 evidence for “Necker, Jacques > financial management and reforms”: “In these circumstances the deputies turned to a measure far beyond anything ever contemplated by Necker.” “Nor did the immediate ﬁnancial situation allow time to wait.”",
       "matched_path_id": "PATH-682E711B051D",
-      "matched_locator_id": "LOC-AE0926A83743"
+      "matched_locator_id": "LOC-AE0926A83743",
+      "matched_path_ids": [
+        "PATH-682E711B051D"
+      ],
+      "matched_locator_ids": [
+        "LOC-AE0926A83743"
+      ]
     },
     {
       "treatment_id": "TREAT-2D6CFC04A57E",
@@ -9938,7 +9941,13 @@
       ],
       "status_rationale": "The benchmark expects on page 123: The final design limits the veto to two legislative sittings and denies the king legislative initiative. Canonical locator LOC-5DF8EC183140 under 'veto, suspensive' is supported on that page: Document page 123 evidence for “veto, suspensive”: “He could propose no laws, and could only use his suspensive veto to block legislation he did not like for the length of two legislative sittings, a maximum of three years.”",
       "matched_path_id": "PATH-02EAB2A822A4",
-      "matched_locator_id": "LOC-5DF8EC183140"
+      "matched_locator_id": "LOC-5DF8EC183140",
+      "matched_path_ids": [
+        "PATH-02EAB2A822A4"
+      ],
+      "matched_locator_ids": [
+        "LOC-5DF8EC183140"
+      ]
     },
     {
       "treatment_id": "TREAT-2EC678E12C99",
@@ -9952,7 +9961,13 @@
       ],
       "status_rationale": "The benchmark expects on page 121: Women gather from Paris markets, occupy the municipal center, and lead an armed march to Versailles over bread and patriotic grievances. Canonical locator LOC-3D5F8651970B under 'October Days' is supported on that page: Document page 121 evidence for “October Days”: “Then on 4 October he voiced reservations about the Declaration of Rights.”",
       "matched_path_id": "PATH-4078D9FDECBB",
-      "matched_locator_id": "LOC-3D5F8651970B"
+      "matched_locator_id": "LOC-3D5F8651970B",
+      "matched_path_ids": [
+        "PATH-4078D9FDECBB"
+      ],
+      "matched_locator_ids": [
+        "LOC-3D5F8651970B"
+      ]
     },
     {
       "treatment_id": "TREAT-2FAA17B19E6C",
@@ -9966,7 +9981,13 @@
       ],
       "status_rationale": "The benchmark expects on page 117: Most dues remain collectible until compensation is paid, but peasants refuse to resume payment. Canonical locator LOC-93E511B6FB25 under 'peasantry > Revolution of 1789 and > Great Fear and rural unrest' is supported on that page: Document page 117 evidence for “peasantry > Revolution of 1789 and > Great Fear and rural unrest”: “By 11 August peasants all over France had stopped paying both dues and tithes (not to mention taxes), and they took the decree as a vindication of their stand.” “Nothing so sweeping had been in the minds of most French people when 1789 began.” “So the decree’s most important eﬀect, along with the need to get back into the ﬁelds to gather in the harvest, was simply to calm the countryside down; and by the end of the …”",
       "matched_path_id": "PATH-5ABA0891508F",
-      "matched_locator_id": "LOC-93E511B6FB25"
+      "matched_locator_id": "LOC-93E511B6FB25",
+      "matched_path_ids": [
+        "PATH-5ABA0891508F"
+      ],
+      "matched_locator_ids": [
+        "LOC-93E511B6FB25"
+      ]
     },
     {
       "treatment_id": "TREAT-30FE67FBB9F3",
@@ -9992,7 +10013,13 @@
       ],
       "status_rationale": "The benchmark expects on page 123: Mirabeau later revives a British-style ministerial proposal but his monarchien association makes it suspect. Canonical locator LOC-89A4450B053A under 'Monarchiens' is supported on that page: Document page 123 evidence for “Monarchiens”: “His earlier support for the monarchiens, however, had rekindled old suspicions, and …”",
       "matched_path_id": "PATH-160E27938AA4",
-      "matched_locator_id": "LOC-89A4450B053A"
+      "matched_locator_id": "LOC-89A4450B053A",
+      "matched_path_ids": [
+        "PATH-160E27938AA4"
+      ],
+      "matched_locator_ids": [
+        "LOC-89A4450B053A"
+      ]
     },
     {
       "treatment_id": "TREAT-32132DA14A26",
@@ -10006,7 +10033,13 @@
       ],
       "status_rationale": "The benchmark expects on page 128: Intrusions into woods and game parks and continued nonpayment show that conflict persisted after August. Canonical locator LOC-2EA3D95A48EC under 'peasant resistance' is supported on that page: Document page 128 describes continuing rural refusals to pay dues and attacks on seigneurial woods, game parks, and remaining symbols of lordly power.",
       "matched_path_id": "PATH-E453843D953D",
-      "matched_locator_id": "LOC-2EA3D95A48EC"
+      "matched_locator_id": "LOC-2EA3D95A48EC",
+      "matched_path_ids": [
+        "PATH-E453843D953D"
+      ],
+      "matched_locator_ids": [
+        "LOC-2EA3D95A48EC"
+      ]
     },
     {
       "treatment_id": "TREAT-34C473F7098D",
@@ -10020,7 +10053,13 @@
       ],
       "status_rationale": "The benchmark expects on page 117: Deputies abolish binding mandates after already exceeding them in the merger of orders and August reforms. Canonical locator LOC-2B645A29B474 under 'National Assembly > assertion of sovereignty and early decrees' is supported on that page: Document page 117 evidence for “National Assembly > assertion of sovereignty and early decrees”: “The decree of 11 August began with a ringing declaration that ‘The National Assembly entirely destroys the feudal regime’.” “Yet in the event it proved irrelevant whether compensation had been decreed or not.”",
       "matched_path_id": "PATH-9E97775B0928",
-      "matched_locator_id": "LOC-2B645A29B474"
+      "matched_locator_id": "LOC-2B645A29B474",
+      "matched_path_ids": [
+        "PATH-9E97775B0928"
+      ],
+      "matched_locator_ids": [
+        "LOC-2B645A29B474"
+      ]
     },
     {
       "treatment_id": "TREAT-3687275B403A",
@@ -10034,7 +10073,13 @@
       ],
       "status_rationale": "The benchmark expects on page 133: Receipts from the contribution are assigned to the Extraordinary Fund alongside land-sale proceeds. Canonical locator LOC-8122624721EE under 'National lands' is supported on that page: Document page 133 evidence for “National lands”: “On 19 and 21 December a series of decrees set up an ‘Extraordinary Fund’ (Caisse de l’Extraordinaire) to receive the proceeds of the Patriotic Contribution and the sale of 400 million livres’ worth of …”",
       "matched_path_id": "PATH-1F421CA145A5",
-      "matched_locator_id": "LOC-8122624721EE"
+      "matched_locator_id": "LOC-8122624721EE",
+      "matched_path_ids": [
+        "PATH-1F421CA145A5"
+      ],
+      "matched_locator_ids": [
+        "LOC-8122624721EE"
+      ]
     },
     {
       "treatment_id": "TREAT-37D35D520670",
@@ -10048,7 +10093,13 @@
       ],
       "status_rationale": "The frozen treatment on page 125 is reached by supported locator LOC-2F8B8594D595 under the specific path departments (départements) > administrative reorganization and creation (1789-90).",
       "matched_path_id": "PATH-4A9A49BC3924",
-      "matched_locator_id": "LOC-2F8B8594D595"
+      "matched_locator_id": "LOC-2F8B8594D595",
+      "matched_path_ids": [
+        "PATH-4A9A49BC3924"
+      ],
+      "matched_locator_ids": [
+        "LOC-2F8B8594D595"
+      ]
     },
     {
       "treatment_id": "TREAT-38BF708CCE7A",
@@ -10063,7 +10114,13 @@
       ],
       "status_rationale": "The frozen treatment on page 135 is reached by supported locator LOC-B3DA0A5850D5 under the specific path bourgeoisie > Revolutionary role and gains.",
       "matched_path_id": "PATH-8E5D98DDDF90",
-      "matched_locator_id": "LOC-B3DA0A5850D5"
+      "matched_locator_id": "LOC-B3DA0A5850D5",
+      "matched_path_ids": [
+        "PATH-8E5D98DDDF90"
+      ],
+      "matched_locator_ids": [
+        "LOC-B3DA0A5850D5"
+      ]
     },
     {
       "treatment_id": "TREAT-3A332928C5E4",
@@ -10077,7 +10134,13 @@
       ],
       "status_rationale": "The benchmark expects on page 116: Representatives of towns and provinces relinquish accumulated exemptions and corporate liberties. Canonical locator LOC-4F1347C6A07B under 'August Decrees (Night of 4 August 1789)' is supported on that page: Document page 116 evidence for “August Decrees (Night of 4 August 1789)”: “They timed his intervention for the evening of Tuesday 4 August when they expected a thin attendance in the chamber, but when the radical Breton Le Chapelier would be in the chair.”",
       "matched_path_id": "PATH-786EA06412ED",
-      "matched_locator_id": "LOC-4F1347C6A07B"
+      "matched_locator_id": "LOC-4F1347C6A07B",
+      "matched_path_ids": [
+        "PATH-786EA06412ED"
+      ],
+      "matched_locator_ids": [
+        "LOC-4F1347C6A07B"
+      ]
     },
     {
       "treatment_id": "TREAT-3BA2E72C861D",
@@ -10091,7 +10154,13 @@
       ],
       "status_rationale": "The benchmark expects on page 122: The king accepts Paris's demand and travels with the royal family under a vast popular escort. Canonical locator LOC-73585817BA3E under 'October Days' is supported on that page: Document page 122 evidence for “October Days”: “Nevertheless in the history of the Revolution the ‘October Days’ were decisive.”",
       "matched_path_id": "PATH-4078D9FDECBB",
-      "matched_locator_id": "LOC-73585817BA3E"
+      "matched_locator_id": "LOC-73585817BA3E",
+      "matched_path_ids": [
+        "PATH-4078D9FDECBB"
+      ],
+      "matched_locator_ids": [
+        "LOC-73585817BA3E"
+      ]
     },
     {
       "treatment_id": "TREAT-3DD0F6257E0C",
@@ -10105,7 +10174,15 @@
       ],
       "status_rationale": "The benchmark expects on page 117: The renunciations eliminate the existing structure of provincial and local government despite contrary mandates. Canonical locator LOC-2B645A29B474 under 'National Assembly > assertion of sovereignty and early decrees' is supported on that page: Document page 117 evidence for “National Assembly > assertion of sovereignty and early decrees”: “The decree of 11 August began with a ringing declaration that ‘The National Assembly entirely destroys the feudal regime’.” “Yet in the event it proved irrelevant whether compensation had been decreed or not.”",
       "matched_path_id": "PATH-9E97775B0928",
-      "matched_locator_id": "LOC-2B645A29B474"
+      "matched_locator_id": "LOC-2B645A29B474",
+      "matched_path_ids": [
+        "PATH-786EA06412ED",
+        "PATH-9E97775B0928"
+      ],
+      "matched_locator_ids": [
+        "LOC-2B645A29B474",
+        "LOC-80D3F0EA4A69"
+      ]
     },
     {
       "treatment_id": "TREAT-3F19103116E0",
@@ -10119,7 +10196,13 @@
       ],
       "status_rationale": "The frozen treatment on page 126 is reached by supported locator LOC-3570D6F25CAD under the specific path municipal revolution.",
       "matched_path_id": "PATH-41016214E2AD",
-      "matched_locator_id": "LOC-3570D6F25CAD"
+      "matched_locator_id": "LOC-3570D6F25CAD",
+      "matched_path_ids": [
+        "PATH-41016214E2AD"
+      ],
+      "matched_locator_ids": [
+        "LOC-3570D6F25CAD"
+      ]
     },
     {
       "treatment_id": "TREAT-42075A7BE0E9",
@@ -10133,7 +10216,13 @@
       ],
       "status_rationale": "The benchmark expects on page 124: Deputies bar themselves from government, reinforcing institutional separation. Canonical locator LOC-80C8E0C49197 under 'Constitution of 1791 > features and drafting' is supported on that page: Document page 124 evidence for “Constitution of 1791 > features and drafting”: “Future Legislative Assemblies, as the successors to the Constituent were to be called, were to contain 745 seats and sit for two years.”",
       "matched_path_id": "PATH-15FDB66F5A52",
-      "matched_locator_id": "LOC-80C8E0C49197"
+      "matched_locator_id": "LOC-80C8E0C49197",
+      "matched_path_ids": [
+        "PATH-15FDB66F5A52"
+      ],
+      "matched_locator_ids": [
+        "LOC-80C8E0C49197"
+      ]
     },
     {
       "treatment_id": "TREAT-42BDEFD1BCA6",
@@ -10147,7 +10236,13 @@
       ],
       "status_rationale": "The benchmark expects on page 116: Denunciations of tithes, fees, and pluralism strip parish clergy of major established revenues. Canonical locator LOC-08AB106BFE2A under 'tithes > resistance and abolition' is supported on that page: Document page 116 evidence for “tithes > resistance and abolition”: “A bishop, it was noted, had been the ﬁrst to denounce hunting rights, and this led an angry duke to call for an end to tithes.” “Both had called for redemption of dues and abolition of serfdom and labour services; but others saw that feudalism did not end there.”",
       "matched_path_id": "PATH-C0645CA798E3",
-      "matched_locator_id": "LOC-08AB106BFE2A"
+      "matched_locator_id": "LOC-08AB106BFE2A",
+      "matched_path_ids": [
+        "PATH-C0645CA798E3"
+      ],
+      "matched_locator_ids": [
+        "LOC-08AB106BFE2A"
+      ]
     },
     {
       "treatment_id": "TREAT-44480DF8B5A3",
@@ -10161,7 +10256,13 @@
       ],
       "status_rationale": "The benchmark expects on page 118: Representatives of the sovereign nation claim freedom to rebuild France without referring back to electors. Canonical locator LOC-37B65FD0FE61 under 'Sovereignty' is supported on that page: Document page 118 evidence for “Sovereignty”: “Sovereignty in any case, article III declares, ‘rests essentially in the nation’.”",
       "matched_path_id": "PATH-B6F2CAAE4567",
-      "matched_locator_id": "LOC-37B65FD0FE61"
+      "matched_locator_id": "LOC-37B65FD0FE61",
+      "matched_path_ids": [
+        "PATH-B6F2CAAE4567"
+      ],
+      "matched_locator_ids": [
+        "LOC-37B65FD0FE61"
+      ]
     },
     {
       "treatment_id": "TREAT-445137DFFBDA",
@@ -10175,7 +10276,13 @@
       ],
       "status_rationale": "The benchmark expects on page 131: Organized resistance sharply reduces indirect-tax receipts and continues even as the Assembly designs a more equitable system. Canonical locator LOC-2EE3B819B5EE under 'Contribution foncière' is supported on that page: Document page 131 evidence for “Contribution foncière”: “In place of the old system the Assembly established three direct taxes: a land tax (contribution foncière), a tax on movables (contribution mobilière), and a commercial proﬁts tax (patente).”",
       "matched_path_id": "PATH-C781CBB9CD04",
-      "matched_locator_id": "LOC-2EE3B819B5EE"
+      "matched_locator_id": "LOC-2EE3B819B5EE",
+      "matched_path_ids": [
+        "PATH-C781CBB9CD04"
+      ],
+      "matched_locator_ids": [
+        "LOC-2EE3B819B5EE"
+      ]
     },
     {
       "treatment_id": "TREAT-44930313CCEF",
@@ -10189,7 +10296,13 @@
       ],
       "status_rationale": "The benchmark expects on page 129: The map aligns section numbers and names with major places and streets, including the Tuileries, Hôtel de Ville, Bastille, and Théâtre-Français. Canonical locator LOC-0A8D714F1166 under 'Paris > sections and local government' is supported on that page: Map 3 on document page 129 depicts the forty-eight revolutionary Paris sections and the principal places and streets used in the text.",
       "matched_path_id": "PATH-356AE524D3FB",
-      "matched_locator_id": "LOC-0A8D714F1166"
+      "matched_locator_id": "LOC-0A8D714F1166",
+      "matched_path_ids": [
+        "PATH-356AE524D3FB"
+      ],
+      "matched_locator_ids": [
+        "LOC-0A8D714F1166"
+      ]
     },
     {
       "treatment_id": "TREAT-4569DF83FAE0",
@@ -10203,7 +10316,13 @@
       ],
       "status_rationale": "The benchmark expects on page 131: The Assembly expects willing payment and establishes no compulsion even though fiscal resistance has disrupted collection since 1787. Canonical locator LOC-2EE3B819B5EE under 'Contribution foncière' is supported on that page: Document page 131 evidence for “Contribution foncière”: “In place of the old system the Assembly established three direct taxes: a land tax (contribution foncière), a tax on movables (contribution mobilière), and a commercial proﬁts tax (patente).”",
       "matched_path_id": "PATH-C781CBB9CD04",
-      "matched_locator_id": "LOC-2EE3B819B5EE"
+      "matched_locator_id": "LOC-2EE3B819B5EE",
+      "matched_path_ids": [
+        "PATH-C781CBB9CD04"
+      ],
+      "matched_locator_ids": [
+        "LOC-2EE3B819B5EE"
+      ]
     },
     {
       "treatment_id": "TREAT-46B409D661C0",
@@ -10218,7 +10337,13 @@
       ],
       "status_rationale": "The frozen treatment on page 124 is reached by supported locator LOC-4A0BEAB963FD under the specific path Electoral system (1789).",
       "matched_path_id": "PATH-D246C55F37ED",
-      "matched_locator_id": "LOC-4A0BEAB963FD"
+      "matched_locator_id": "LOC-4A0BEAB963FD",
+      "matched_path_ids": [
+        "PATH-D246C55F37ED"
+      ],
+      "matched_locator_ids": [
+        "LOC-4A0BEAB963FD"
+      ]
     },
     {
       "treatment_id": "TREAT-47550CEB88A1",
@@ -10232,7 +10357,13 @@
       ],
       "status_rationale": "The benchmark expects on page 125: Courts lose administrative authority and political prerogatives as justice is separated from governance. Canonical locator LOC-2935F6AB87E2 under 'trial by jury' is supported on that page: Document page 125 evidence for “trial by jury”: “No administrative authority was vested in the new courts, and although the deputies committed themselves to an eventual total recodiﬁcation of the civil and criminal law, and as a start introduced trial by jury, …”",
       "matched_path_id": "PATH-A5BC1A2FEF61",
-      "matched_locator_id": "LOC-2935F6AB87E2"
+      "matched_locator_id": "LOC-2935F6AB87E2",
+      "matched_path_ids": [
+        "PATH-A5BC1A2FEF61"
+      ],
+      "matched_locator_ids": [
+        "LOC-2935F6AB87E2"
+      ]
     },
     {
       "treatment_id": "TREAT-47908714336A",
@@ -10247,7 +10378,13 @@
       ],
       "status_rationale": "The frozen treatment on page 113 is reached by supported locator LOC-BA4341C568C0 under the specific path Foulon de Doué, Joseph-François.",
       "matched_path_id": "PATH-2B3AE29E0E38",
-      "matched_locator_id": "LOC-BA4341C568C0"
+      "matched_locator_id": "LOC-BA4341C568C0",
+      "matched_path_ids": [
+        "PATH-2B3AE29E0E38"
+      ],
+      "matched_locator_ids": [
+        "LOC-BA4341C568C0"
+      ]
     },
     {
       "treatment_id": "TREAT-47A26065198C",
@@ -10261,7 +10398,15 @@
       ],
       "status_rationale": "The benchmark expects on page 117: Mass refusal to resume payment renders the Assembly's orderly redemption plan largely irrelevant. Canonical locator LOC-93E511B6FB25 under 'peasantry > Revolution of 1789 and > Great Fear and rural unrest' is supported on that page: Document page 117 evidence for “peasantry > Revolution of 1789 and > Great Fear and rural unrest”: “By 11 August peasants all over France had stopped paying both dues and tithes (not to mention taxes), and they took the decree as a vindication of their stand.” “Nothing so sweeping had been in the minds of most French people when 1789 began.” “So the decree’s most important eﬀect, along with the need to get back into the ﬁelds to gather in the harvest, was simply to calm the countryside down; and by the end of the …”",
       "matched_path_id": "PATH-5ABA0891508F",
-      "matched_locator_id": "LOC-93E511B6FB25"
+      "matched_locator_id": "LOC-93E511B6FB25",
+      "matched_path_ids": [
+        "PATH-5ABA0891508F",
+        "PATH-C0645CA798E3"
+      ],
+      "matched_locator_ids": [
+        "LOC-60D94546F519",
+        "LOC-93E511B6FB25"
+      ]
     },
     {
       "treatment_id": "TREAT-4995E38BB77F",
@@ -10275,7 +10420,15 @@
       ],
       "status_rationale": "The benchmark expects on page 119: It treats secure property and guaranteed rights as criteria of constitutional government. Canonical locator LOC-1CA78ED8905E under 'Declaration of the Rights of Man and the Citizen > constitutional role and tensions' is supported on that page: Document page 119 evidence for “Declaration of the Rights of Man and the Citizen > constitutional role and tensions”: “This was one of the few hints in the declaration that men and citizens had duties as well as rights, although some early drafts had sought to list duties, too.” “The issue plunged the deputies at once into the intricacies of constitution-making.”",
       "matched_path_id": "PATH-B0E11A978A1B",
-      "matched_locator_id": "LOC-1CA78ED8905E"
+      "matched_locator_id": "LOC-1CA78ED8905E",
+      "matched_path_ids": [
+        "PATH-42F09044C2E5",
+        "PATH-B0E11A978A1B"
+      ],
+      "matched_locator_ids": [
+        "LOC-1A9CFC2300E8",
+        "LOC-1CA78ED8905E"
+      ]
     },
     {
       "treatment_id": "TREAT-4A00F9DEA881",
@@ -10289,7 +10442,13 @@
       ],
       "status_rationale": "The benchmark expects on page 118: The Declaration identifies law with citizen participation and locates legitimate authority in the nation rather than the king. Canonical locator LOC-5B5288982CA4 under 'general will' is supported on that page: Document page 118 evidence for “general will”: “Article VI deﬁnes law as the expression of the general will, made by the direct or indirect participation of all citizens; an implicit condemnation of the legislative sovereignty claimed by kings under the old …”",
       "matched_path_id": "PATH-ED0252FB0DF2",
-      "matched_locator_id": "LOC-5B5288982CA4"
+      "matched_locator_id": "LOC-5B5288982CA4",
+      "matched_path_ids": [
+        "PATH-ED0252FB0DF2"
+      ],
+      "matched_locator_ids": [
+        "LOC-5B5288982CA4"
+      ]
     },
     {
       "treatment_id": "TREAT-4B12DD1A88EA",
@@ -10303,7 +10462,13 @@
       ],
       "status_rationale": "The benchmark expects on page 117: The 11 August settlement and the harvest help calm the countryside by the end of the month. Canonical locator LOC-93E511B6FB25 under 'peasantry > Revolution of 1789 and > Great Fear and rural unrest' is supported on that page: Document page 117 evidence for “peasantry > Revolution of 1789 and > Great Fear and rural unrest”: “By 11 August peasants all over France had stopped paying both dues and tithes (not to mention taxes), and they took the decree as a vindication of their stand.” “Nothing so sweeping had been in the minds of most French people when 1789 began.” “So the decree’s most important eﬀect, along with the need to get back into the ﬁelds to gather in the harvest, was simply to calm the countryside down; and by the end of the …”",
       "matched_path_id": "PATH-5ABA0891508F",
-      "matched_locator_id": "LOC-93E511B6FB25"
+      "matched_locator_id": "LOC-93E511B6FB25",
+      "matched_path_ids": [
+        "PATH-5ABA0891508F"
+      ],
+      "matched_locator_ids": [
+        "LOC-93E511B6FB25"
+      ]
     },
     {
       "treatment_id": "TREAT-4B5BC9E3A2C3",
@@ -10317,7 +10482,13 @@
       ],
       "status_rationale": "The benchmark expects on page 122: National Guards accompany the march to Versailles, protect the royal family, and help force an orderly transfer to Paris. Canonical locator LOC-5B445C1815DA under 'Lafayette, Gilbert du Motier, Marquis de > National Guard command' is supported on that page: Document page 122 evidence for “Lafayette, Gilbert du Motier, Marquis de > National Guard command”: “Lafayette had been reluctant to come at all, leaving Paris unpoliced and thereby risking accusations that he was in complicity with the demonstrators.” “The forces of order, in the shape of Lafayette and 20,000 National Guardsmen, arrived in Versailles later that night after a forced march through an autumnal downpour.”",
       "matched_path_id": "PATH-68E3FA1F8CBB",
-      "matched_locator_id": "LOC-5B445C1815DA"
+      "matched_locator_id": "LOC-5B445C1815DA",
+      "matched_path_ids": [
+        "PATH-68E3FA1F8CBB"
+      ],
+      "matched_locator_ids": [
+        "LOC-5B445C1815DA"
+      ]
     },
     {
       "treatment_id": "TREAT-4DE6ED5659D4",
@@ -10343,7 +10514,13 @@
       ],
       "status_rationale": "The benchmark expects on page 125: Old provinces and jurisdictions are replaced by approximately equal departments, districts, and communes with elected officials. Canonical locator LOC-2F8B8594D595 under 'departments (départements) > administrative reorganization and creation (1789-90)' is supported on that page: Document page 125 evidence for “departments (départements) > administrative reorganization and creation (1789-90)”: “They were replaced by eighty-three departments, roughly equal in size, population, and wealth.” “Uniformity and decentralization were the keynotes of the administrative organization undertaken by the Constituent Assembly.”",
       "matched_path_id": "PATH-4A9A49BC3924",
-      "matched_locator_id": "LOC-2F8B8594D595"
+      "matched_locator_id": "LOC-2F8B8594D595",
+      "matched_path_ids": [
+        "PATH-4A9A49BC3924"
+      ],
+      "matched_locator_ids": [
+        "LOC-2F8B8594D595"
+      ]
     },
     {
       "treatment_id": "TREAT-4FA05FA11DD7",
@@ -10357,7 +10534,13 @@
       ],
       "status_rationale": "The benchmark expects on page 130: Authorities often arrive too late to rural disturbances and cannot secure payment of dues or taxes. Canonical locator LOC-687259B2817A under 'National Guard > provincial role and disturbances' is supported on that page: Document page 130 evidence for “National Guard > provincial role and disturbances”: “Riotous crowds, indeed, often included peasants in National Guard uniform.” “The toll-gates and tax-oﬃces sacked during the disturbances of July and August were not rebuilt, and clerks and collectors were reluctant to brave popular fury by trying to reactivate them, even if their superiors …”",
       "matched_path_id": "PATH-BCB03A99B067",
-      "matched_locator_id": "LOC-687259B2817A"
+      "matched_locator_id": "LOC-687259B2817A",
+      "matched_path_ids": [
+        "PATH-BCB03A99B067"
+      ],
+      "matched_locator_ids": [
+        "LOC-687259B2817A"
+      ]
     },
     {
       "treatment_id": "TREAT-53EAB137145B",
@@ -10371,7 +10554,13 @@
       ],
       "status_rationale": "The benchmark expects on page 124: Successive tax thresholds reduce millions of active citizens to tens of thousands of electors and reserve deputy eligibility largely for substantial landowners. Canonical locator LOC-93EB42A9A427 under 'silver mark (marc d'argent)' is supported on that page: Document page 124 evidence for “silver mark (marc d'argent)”: “From the start it was extremely controversial, the silver-mark provision in particular being denounced by the popular press.”",
       "matched_path_id": "PATH-EF8B09628600",
-      "matched_locator_id": "LOC-93EB42A9A427"
+      "matched_locator_id": "LOC-93EB42A9A427",
+      "matched_path_ids": [
+        "PATH-EF8B09628600"
+      ],
+      "matched_locator_ids": [
+        "LOC-93EB42A9A427"
+      ]
     },
     {
       "treatment_id": "TREAT-541700D6D78C",
@@ -10385,7 +10574,15 @@
       ],
       "status_rationale": "The benchmark expects on page 113: His attempted resignation after the July lynchings underscores both his failure to prevent violence and the need for his leadership. Canonical locator LOC-523ECFCF0EDB under 'National Guard > creation and early organization' is supported on that page: Document page 113 evidence for “National Guard > creation and early organization”: “Lafayette, feeling that the newly established National Guard should have prevented them, tried to resign his command, but was pressed from all sides to stay on.” “Feeble though it was, the citizens’ militia was the only public force patriots trusted, and it needed to be reliably led and organized in these formative days.”",
       "matched_path_id": "PATH-DE8CB69B7C5C",
-      "matched_locator_id": "LOC-523ECFCF0EDB"
+      "matched_locator_id": "LOC-523ECFCF0EDB",
+      "matched_path_ids": [
+        "PATH-68E3FA1F8CBB",
+        "PATH-DE8CB69B7C5C"
+      ],
+      "matched_locator_ids": [
+        "LOC-523ECFCF0EDB",
+        "LOC-DDC6B39A0BF6"
+      ]
     },
     {
       "treatment_id": "TREAT-55D894CE9309",
@@ -10399,7 +10596,13 @@
       ],
       "status_rationale": "The benchmark expects on page 132: The loss of tithes shapes Talleyrand's proposal to finance clergy from nationalized Church property. Canonical locator LOC-C7C35809105E under 'clergy (First Estate) > abolition of tithes and nationalization of property' is supported on that page: Document page 132 evidence for “clergy (First Estate) > abolition of tithes and nationalization of property”: “The ﬁrst threats of such action came with ominous assertions that ecclesiastical property belonged to the Nation during the framing of the 11 August decree.”",
       "matched_path_id": "PATH-BC7CC1EC476A",
-      "matched_locator_id": "LOC-C7C35809105E"
+      "matched_locator_id": "LOC-C7C35809105E",
+      "matched_path_ids": [
+        "PATH-BC7CC1EC476A"
+      ],
+      "matched_locator_ids": [
+        "LOC-C7C35809105E"
+      ]
     },
     {
       "treatment_id": "TREAT-577AE523D79E",
@@ -10413,7 +10616,13 @@
       ],
       "status_rationale": "The benchmark expects on page 127: A full-page map visually locates the departments within the revolutionary frontier and notes later annexations. Canonical locator LOC-2C4F789F3E7E under 'departments (départements)' is supported on that page: Map 2 on document page 127 depicts the departments of revolutionary France, their boundaries, principal cities, and subsequently annexed territories.",
       "matched_path_id": "PATH-A821763EB4E7",
-      "matched_locator_id": "LOC-2C4F789F3E7E"
+      "matched_locator_id": "LOC-2C4F789F3E7E",
+      "matched_path_ids": [
+        "PATH-A821763EB4E7"
+      ],
+      "matched_locator_ids": [
+        "LOC-2C4F789F3E7E"
+      ]
     },
     {
       "treatment_id": "TREAT-58890A44E280",
@@ -10427,7 +10636,15 @@
       ],
       "status_rationale": "The benchmark expects on page 130: Liberty trees, château attacks, and repeated demands for renunciation carry resistance into 1790–1791. Canonical locator LOC-FE1B82BB2378 under 'Brittany > rural and anti-seigneurial violence' is supported on that page: Document page 130 evidence for “Brittany > rural and anti-seigneurial violence”: “January 1790 witnessed a new outbreak of château-burning in northern Brittany: twentytwo were destroyed, along with the title-deeds stored in many others.” “Bonﬁres of seigneurial pews in churchyards were the fashion that autumn.”",
       "matched_path_id": "PATH-BC4026C6499C",
-      "matched_locator_id": "LOC-FE1B82BB2378"
+      "matched_locator_id": "LOC-FE1B82BB2378",
+      "matched_path_ids": [
+        "PATH-5ABA0891508F",
+        "PATH-BC4026C6499C"
+      ],
+      "matched_locator_ids": [
+        "LOC-00A591984FFE",
+        "LOC-FE1B82BB2378"
+      ]
     },
     {
       "treatment_id": "TREAT-58A52402E856",
@@ -10441,7 +10658,13 @@
       ],
       "status_rationale": "The benchmark expects on page 126: The Assembly's reliance on the Guard makes organizational control a central concern. Canonical locator LOC-D491B2318743 under 'French Guards' is supported on that page: Document page 126 evidence for “French Guards”: “Yet the Guard were the only armed force patriots felt they could rely on.”",
       "matched_path_id": "PATH-F1FA353A0105",
-      "matched_locator_id": "LOC-D491B2318743"
+      "matched_locator_id": "LOC-D491B2318743",
+      "matched_path_ids": [
+        "PATH-F1FA353A0105"
+      ],
+      "matched_locator_ids": [
+        "LOC-D491B2318743"
+      ]
     },
     {
       "treatment_id": "TREAT-594CCCA9EA06",
@@ -10455,7 +10678,15 @@
       ],
       "status_rationale": "The benchmark expects on page 117: Tithes are abolished outright, and peasant nonpayment makes transitional collection impossible. Canonical locator LOC-60D94546F519 under 'tithes > resistance and abolition' is supported on that page: Document page 117 evidence for “tithes > resistance and abolition”: “Tithe, on the other hand, was abolished outright, despite protests from the clergy.”",
       "matched_path_id": "PATH-C0645CA798E3",
-      "matched_locator_id": "LOC-60D94546F519"
+      "matched_locator_id": "LOC-60D94546F519",
+      "matched_path_ids": [
+        "PATH-BC7CC1EC476A",
+        "PATH-C0645CA798E3"
+      ],
+      "matched_locator_ids": [
+        "LOC-4E5D16CBD899",
+        "LOC-60D94546F519"
+      ]
     },
     {
       "treatment_id": "TREAT-5B461126BF4F",
@@ -10469,7 +10700,13 @@
       ],
       "status_rationale": "The benchmark expects on page 130: Later crowds remain targeted, but legislators refuse to distinguish their purposes from other illegal acts. Canonical locator LOC-90BD6F9015D4 under 'rural violence' is supported on that page: Document page 130 evidence for “rural violence”: “Bands of peasants hundreds strong gathered to protect them, and once assembled sometimes turned to attacking manor houses.”",
       "matched_path_id": "PATH-F0F8D099614B",
-      "matched_locator_id": "LOC-90BD6F9015D4"
+      "matched_locator_id": "LOC-90BD6F9015D4",
+      "matched_path_ids": [
+        "PATH-F0F8D099614B"
+      ],
+      "matched_locator_ids": [
+        "LOC-90BD6F9015D4"
+      ]
     },
     {
       "treatment_id": "TREAT-5C67EC39165A",
@@ -10483,7 +10720,13 @@
       ],
       "status_rationale": "The benchmark expects on page 116: A Breton plan to calm the countryside becomes a rapidly expanding auction of renunciations covering feudal, clerical, judicial, and corporate privileges. Canonical locator LOC-4F1347C6A07B under 'August Decrees (Night of 4 August 1789)' is supported on that page: Document page 116 evidence for “August Decrees (Night of 4 August 1789)”: “They timed his intervention for the evening of Tuesday 4 August when they expected a thin attendance in the chamber, but when the radical Breton Le Chapelier would be in the chair.”",
       "matched_path_id": "PATH-786EA06412ED",
-      "matched_locator_id": "LOC-4F1347C6A07B"
+      "matched_locator_id": "LOC-4F1347C6A07B",
+      "matched_path_ids": [
+        "PATH-786EA06412ED"
+      ],
+      "matched_locator_ids": [
+        "LOC-4F1347C6A07B"
+      ]
     },
     {
       "treatment_id": "TREAT-5CA002DEEB48",
@@ -10509,7 +10752,13 @@
       ],
       "status_rationale": "The benchmark expects on page 128: Lords' attempts to exercise rights expressly preserved by the decree provoke continuing resistance. Canonical locator LOC-8960406010BE under 'rural violence' is supported on that page: Document page 128 evidence for “rural violence”: “Worst of all in the eyes of many nobles was continuing disorder in the countryside, much of it directed against lords who, as the decree of 11 August explicitly authorized, attempted to continue exercising …”",
       "matched_path_id": "PATH-F0F8D099614B",
-      "matched_locator_id": "LOC-8960406010BE"
+      "matched_locator_id": "LOC-8960406010BE",
+      "matched_path_ids": [
+        "PATH-F0F8D099614B"
+      ],
+      "matched_locator_ids": [
+        "LOC-8960406010BE"
+      ]
     },
     {
       "treatment_id": "TREAT-5EE11D6F7DE1",
@@ -10523,7 +10772,15 @@
       ],
       "status_rationale": "The benchmark expects on page 132: Most deputies arrive convinced that the Church requires fundamental reform and view clerical resistance as special pleading. Canonical locator LOC-F03A3E4AE69A under 'Church of France' is supported on that page: Document page 132 evidence for “Church of France”: “They decided to nationalize the lands of the Church.”",
       "matched_path_id": "PATH-E4E98CEAEB17",
-      "matched_locator_id": "LOC-F03A3E4AE69A"
+      "matched_locator_id": "LOC-F03A3E4AE69A",
+      "matched_path_ids": [
+        "PATH-4E8391484033",
+        "PATH-E4E98CEAEB17"
+      ],
+      "matched_locator_ids": [
+        "LOC-5F421AA44FEC",
+        "LOC-F03A3E4AE69A"
+      ]
     },
     {
       "treatment_id": "TREAT-5F2D482DA4DB",
@@ -10537,7 +10794,13 @@
       ],
       "status_rationale": "The benchmark expects on page 128: The Federation festival appears as the high point of common confidence in constitutional achievements despite visible dissent. Canonical locator LOC-C42389BB0F00 under 'Feast of the Federation' is supported on that page: Document page 128 evidence for “Feast of the Federation”: “They culminated on 14 July, the ﬁrst anniversary of the fall of the Bastille, in a gigantic ‘Feast of the Federation’ held in the Champ de Mars on the western outskirts of Paris.”",
       "matched_path_id": "PATH-1F7307123562",
-      "matched_locator_id": "LOC-C42389BB0F00"
+      "matched_locator_id": "LOC-C42389BB0F00",
+      "matched_path_ids": [
+        "PATH-1F7307123562"
+      ],
+      "matched_locator_ids": [
+        "LOC-C42389BB0F00"
+      ]
     },
     {
       "treatment_id": "TREAT-601CFAAA9B67",
@@ -10551,7 +10814,13 @@
       ],
       "status_rationale": "The benchmark expects on page 133: Hostile gallery reactions reinforce suspicion as the Assembly votes to take Church property. Canonical locator LOC-1AA5DD418935 under 'church property' is supported on that page: Document page 133 evidence for “church property”: “Consequently on 3 November Mirabeau’s original motion was in all essentials accepted. 568 deputies outvoted 346 to place the property of the clergy ‘at the disposal of the Nation’.”",
       "matched_path_id": "PATH-4E8391484033",
-      "matched_locator_id": "LOC-1AA5DD418935"
+      "matched_locator_id": "LOC-1AA5DD418935",
+      "matched_path_ids": [
+        "PATH-4E8391484033"
+      ],
+      "matched_locator_ids": [
+        "LOC-1AA5DD418935"
+      ]
     },
     {
       "treatment_id": "TREAT-6055D1086469",
@@ -10565,7 +10834,13 @@
       ],
       "status_rationale": "The benchmark expects on page 125: The parlements are first suspended and then abolished with the entire lower-court structure because their powers and venal basis violate the new order. Canonical locator LOC-AE4C314DAC33 under 'Parlements > abolition of (1790)' is supported on that page: Document page 125 evidence for “Parlements > abolition of (1790)”: “As early as 5 August the suppression of the parlements had been suggested, and on the seventeenth of the same month it became a formal recommendation of the constitutional committee.” “All this doomed the old judicial system, already condemned in principle by the abolition of venality and judicial fees.”",
       "matched_path_id": "PATH-000FC6AB4C4C",
-      "matched_locator_id": "LOC-AE4C314DAC33"
+      "matched_locator_id": "LOC-AE4C314DAC33",
+      "matched_path_ids": [
+        "PATH-000FC6AB4C4C"
+      ],
+      "matched_locator_ids": [
+        "LOC-AE4C314DAC33"
+      ]
     },
     {
       "treatment_id": "TREAT-65F08B1771A1",
@@ -10579,7 +10854,13 @@
       ],
       "status_rationale": "The benchmark expects on page 128: Popular songs link revolutionary optimism with threats against aristocrats, deepening noble alienation. Canonical locator LOC-96D4DDEABC8D under 'émigrés > noble emigration, scale and impact of' is supported on that page: Document page 128 evidence for “émigrés > noble emigration, scale and impact of”: “More noble deputies followed Mounier’s example of abandoning their seats in the Assembly than did clerical or non-noble ones, and emigration became a steady stream.”",
       "matched_path_id": "PATH-5007BF9EF616",
-      "matched_locator_id": "LOC-96D4DDEABC8D"
+      "matched_locator_id": "LOC-96D4DDEABC8D",
+      "matched_path_ids": [
+        "PATH-5007BF9EF616"
+      ],
+      "matched_locator_ids": [
+        "LOC-96D4DDEABC8D"
+      ]
     },
     {
       "treatment_id": "TREAT-676C768BF231",
@@ -10593,7 +10874,15 @@
       ],
       "status_rationale": "The benchmark expects on page 126: Even the best organized Guard in Paris proves difficult for him to discipline. Canonical locator LOC-087E854B3B6A under 'Lafayette, Gilbert du Motier, Marquis de > National Guard command' is supported on that page: Document page 126 evidence for “Lafayette, Gilbert du Motier, Marquis de > National Guard command”: “Even then its discipline was uncertain, as Lafayette learned on 4 October when his own men forced him to march to Versailles.” “They were then empowered to call out the National Guard and order it to ﬁre on crowds or demonstrators who refused to disperse.”",
       "matched_path_id": "PATH-68E3FA1F8CBB",
-      "matched_locator_id": "LOC-087E854B3B6A"
+      "matched_locator_id": "LOC-087E854B3B6A",
+      "matched_path_ids": [
+        "PATH-68E3FA1F8CBB",
+        "PATH-DE8CB69B7C5C"
+      ],
+      "matched_locator_ids": [
+        "LOC-087E854B3B6A",
+        "LOC-388BAD3B818F"
+      ]
     },
     {
       "treatment_id": "TREAT-68D4986D95F5",
@@ -10607,7 +10896,13 @@
       ],
       "status_rationale": "The benchmark expects on page 128: Noble deputies abandon seats, noble carriages head for the frontier, and few nobles seek office in the new order. Canonical locator LOC-96D4DDEABC8D under 'émigrés > noble emigration, scale and impact of' is supported on that page: Document page 128 evidence for “émigrés > noble emigration, scale and impact of”: “More noble deputies followed Mounier’s example of abandoning their seats in the Assembly than did clerical or non-noble ones, and emigration became a steady stream.”",
       "matched_path_id": "PATH-5007BF9EF616",
-      "matched_locator_id": "LOC-96D4DDEABC8D"
+      "matched_locator_id": "LOC-96D4DDEABC8D",
+      "matched_path_ids": [
+        "PATH-5007BF9EF616"
+      ],
+      "matched_locator_ids": [
+        "LOC-96D4DDEABC8D"
+      ]
     },
     {
       "treatment_id": "TREAT-69874FB089FD",
@@ -10621,7 +10916,13 @@
       ],
       "status_rationale": "The benchmark expects on page 126: Municipalities receive legal authority to signal martial law and order the Guard to use force against noncompliant demonstrations. Canonical locator LOC-04351258201B under 'Martial Law against Tumults' is supported on that page: Document page 126 evidence for “Martial Law against Tumults”: “Instead they made their intention to depend on the National Guard crystal clear immediately after the October Days by the passage, on 21 October, of the Martial Law against Tumults.”",
       "matched_path_id": "PATH-C80BBA61095E",
-      "matched_locator_id": "LOC-04351258201B"
+      "matched_locator_id": "LOC-04351258201B",
+      "matched_path_ids": [
+        "PATH-C80BBA61095E"
+      ],
+      "matched_locator_ids": [
+        "LOC-04351258201B"
+      ]
     },
     {
       "treatment_id": "TREAT-6ABF3FD0CBE6",
@@ -10636,7 +10937,13 @@
       ],
       "status_rationale": "The frozen treatment on page 116 is reached by supported locator LOC-CC854CD91065 under the specific path Aiguillon, Armand de Vignerot du Plessis, Duke d'.",
       "matched_path_id": "PATH-7B4562362335",
-      "matched_locator_id": "LOC-CC854CD91065"
+      "matched_locator_id": "LOC-CC854CD91065",
+      "matched_path_ids": [
+        "PATH-7B4562362335"
+      ],
+      "matched_locator_ids": [
+        "LOC-CC854CD91065"
+      ]
     },
     {
       "treatment_id": "TREAT-6B24415AD7A6",
@@ -10650,7 +10957,15 @@
       ],
       "status_rationale": "The benchmark expects on page 132: Talleyrand proposes using most Church land to replace tithes and the remainder for finance; Mirabeau substitutes full national control with a maintenance obligation. Canonical locator LOC-3161C53BB3D3 under 'Mirabeau, Honoré-Gabriel Riqueti, comte de > financial and ecclesiastical reforms' is supported on that page: Document page 132 evidence for “Mirabeau, Honoré-Gabriel Riqueti, comte de > financial and ecclesiastical reforms”: “Mirabeau, however, moved that the state should have free disposal of the whole, simply recognizing an obligation to maintain the Church out of general national resources.” “Nor did the immediate ﬁnancial situation allow time to wait.”",
       "matched_path_id": "PATH-5417C443C1DF",
-      "matched_locator_id": "LOC-3161C53BB3D3"
+      "matched_locator_id": "LOC-3161C53BB3D3",
+      "matched_path_ids": [
+        "PATH-4E8391484033",
+        "PATH-5417C443C1DF"
+      ],
+      "matched_locator_ids": [
+        "LOC-3161C53BB3D3",
+        "LOC-5F421AA44FEC"
+      ]
     },
     {
       "treatment_id": "TREAT-6F897D544959",
@@ -10664,7 +10979,13 @@
       ],
       "status_rationale": "The benchmark expects on page 132: Opponents of Church nationalization invoke the Declaration's property guarantee against expropriation. Canonical locator LOC-54E8AE115816 under 'property rights' is supported on that page: Document page 132 evidence for “property rights”: “To secular arguments that the Church was merely a trustee administering its lands on behalf of the whole body of the faithful in France, and that since the clergy as an order no longer …”",
       "matched_path_id": "PATH-5285D59A1A0E",
-      "matched_locator_id": "LOC-54E8AE115816"
+      "matched_locator_id": "LOC-54E8AE115816",
+      "matched_path_ids": [
+        "PATH-5285D59A1A0E"
+      ],
+      "matched_locator_ids": [
+        "LOC-54E8AE115816"
+      ]
     },
     {
       "treatment_id": "TREAT-706893AAFBE1",
@@ -10679,7 +11000,13 @@
       ],
       "status_rationale": "The frozen treatment on page 113 is reached by supported locator LOC-181084E44323 under the specific path municipal revolution.",
       "matched_path_id": "PATH-41016214E2AD",
-      "matched_locator_id": "LOC-181084E44323"
+      "matched_locator_id": "LOC-181084E44323",
+      "matched_path_ids": [
+        "PATH-41016214E2AD"
+      ],
+      "matched_locator_ids": [
+        "LOC-181084E44323"
+      ]
     },
     {
       "treatment_id": "TREAT-70810AECD466",
@@ -10693,7 +11020,13 @@
       ],
       "status_rationale": "The benchmark expects on page 134: Deficit revisions and compensation costs produce repeated expansion of assignat issues. Canonical locator LOC-FBA6F502E461 under 'state > finances and debt' is supported on that page: Document page 134 evidence for “state > finances and debt”: “The State would pay its creditors in them; and they in turn could be used to acquire national lands.” “The Assembly now brushed aside all his warnings about relying too exclusively on issues of paper to meet mounting debts.”",
       "matched_path_id": "PATH-DEFC45639461",
-      "matched_locator_id": "LOC-FBA6F502E461"
+      "matched_locator_id": "LOC-FBA6F502E461",
+      "matched_path_ids": [
+        "PATH-DEFC45639461"
+      ],
+      "matched_locator_ids": [
+        "LOC-FBA6F502E461"
+      ]
     },
     {
       "treatment_id": "TREAT-70834951B799",
@@ -10707,7 +11040,13 @@
       ],
       "status_rationale": "The benchmark expects on page 122: The crowd's arrival at Versailles produces the explicit assent the Assembly had failed to secure. Canonical locator LOC-AFA55D0A9755 under 'Versailles > Revolutionary events (1789) > October Days and royal departure' is supported on that page: Document page 122 evidence for “Versailles > Revolutionary events (1789) > October Days and royal departure”: “Louis XVI never returned to Versailles.” “Perhaps 7,000 of them reached Versailles early in the evening and invaded the National Assembly, calling for bread and punishment for those who had insulted the national cockade.” “Nevertheless in the history of the Revolution the ‘October Days’ were decisive.”",
       "matched_path_id": "PATH-4A72B1752FDC",
-      "matched_locator_id": "LOC-AFA55D0A9755"
+      "matched_locator_id": "LOC-AFA55D0A9755",
+      "matched_path_ids": [
+        "PATH-4A72B1752FDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-AFA55D0A9755"
+      ]
     },
     {
       "treatment_id": "TREAT-70FADFEE046B",
@@ -10721,7 +11060,13 @@
       ],
       "status_rationale": "The benchmark expects on page 120: Marat and others encourage purge rhetoric and direct action against allegedly unreliable deputies. Canonical locator LOC-01A02A880B59 under 'Lanterne (lynching)' is supported on that page: Document page 120 evidence for “Lanterne (lynching)”: “The constant talk in Paris, noted an apprehensive bookseller, was of lynching, or ‘the lamppost; everyone called an aristocrat is threatened with it; and aristocrat is a name for anybody you don’t like.”",
       "matched_path_id": "PATH-7BCECE0C7312",
-      "matched_locator_id": "LOC-01A02A880B59"
+      "matched_locator_id": "LOC-01A02A880B59",
+      "matched_path_ids": [
+        "PATH-7BCECE0C7312"
+      ],
+      "matched_locator_ids": [
+        "LOC-01A02A880B59"
+      ]
     },
     {
       "treatment_id": "TREAT-714C1C26981B",
@@ -10735,7 +11080,13 @@
       ],
       "status_rationale": "The benchmark expects on page 117: Sparse records and later drafting convert the emotional session into a more limited legal settlement with compensation rules. Canonical locator LOC-80D3F0EA4A69 under 'August Decrees (Night of 4 August 1789)' is supported on that page: Document page 117 evidence for “August Decrees (Night of 4 August 1789)”: “But far more than feudalism had been cast aside on the night of 4 August.”",
       "matched_path_id": "PATH-786EA06412ED",
-      "matched_locator_id": "LOC-80D3F0EA4A69"
+      "matched_locator_id": "LOC-80D3F0EA4A69",
+      "matched_path_ids": [
+        "PATH-786EA06412ED"
+      ],
+      "matched_locator_ids": [
+        "LOC-80D3F0EA4A69"
+      ]
     },
     {
       "treatment_id": "TREAT-725F20DEFB40",
@@ -10749,7 +11100,13 @@
       ],
       "status_rationale": "The benchmark expects on page 117: Peasants refuse both dues and tithes, making the legal compensation scheme largely ineffective and helping destroy feudalism in practice. Canonical locator LOC-93E511B6FB25 under 'peasantry > Revolution of 1789 and > Great Fear and rural unrest' is supported on that page: Document page 117 evidence for “peasantry > Revolution of 1789 and > Great Fear and rural unrest”: “By 11 August peasants all over France had stopped paying both dues and tithes (not to mention taxes), and they took the decree as a vindication of their stand.” “Nothing so sweeping had been in the minds of most French people when 1789 began.” “So the decree’s most important eﬀect, along with the need to get back into the ﬁelds to gather in the harvest, was simply to calm the countryside down; and by the end of the …”",
       "matched_path_id": "PATH-5ABA0891508F",
-      "matched_locator_id": "LOC-93E511B6FB25"
+      "matched_locator_id": "LOC-93E511B6FB25",
+      "matched_path_ids": [
+        "PATH-5ABA0891508F"
+      ],
+      "matched_locator_ids": [
+        "LOC-93E511B6FB25"
+      ]
     },
     {
       "treatment_id": "TREAT-72D0F74B52F2",
@@ -10763,7 +11120,13 @@
       ],
       "status_rationale": "The benchmark expects on page 131: Tax reform and nonpayment create a fiscal environment that overwhelms older financial management. Canonical locator LOC-DA646F725651 under 'Necker, Jacques > financial management and reforms' is supported on that page: Document page 131 evidence for “Necker, Jacques > financial management and reforms”: “But even Necker could not stave oﬀ disaster for ever, and in fact by the autumn of 1789 his prestige was on the wane.” “Nor had the ﬁnancial crisis those far-distant plans had been prepared to deal with gone away.”",
       "matched_path_id": "PATH-682E711B051D",
-      "matched_locator_id": "LOC-DA646F725651"
+      "matched_locator_id": "LOC-DA646F725651",
+      "matched_path_ids": [
+        "PATH-682E711B051D"
+      ],
+      "matched_locator_ids": [
+        "LOC-DA646F725651"
+      ]
     },
     {
       "treatment_id": "TREAT-735C6CFD527F",
@@ -10777,7 +11140,13 @@
       ],
       "status_rationale": "The benchmark expects on page 134: Falling revenue converts the bonds into legal tender, lowers their interest, and leads to repeated issues and a tripling of circulation. Canonical locator LOC-AAD34FF6C8E1 under 'Assignats > origins and land-backing' is supported on that page: Document page 134 evidence for “Assignats > origins and land-backing”: “Assignats were, then, not strictly paper money at all at the start.” “The State would pay its creditors in them; and they in turn could be used to acquire national lands.”",
       "matched_path_id": "PATH-1C007839A996",
-      "matched_locator_id": "LOC-AAD34FF6C8E1"
+      "matched_locator_id": "LOC-AAD34FF6C8E1",
+      "matched_path_ids": [
+        "PATH-1C007839A996"
+      ],
+      "matched_locator_ids": [
+        "LOC-AAD34FF6C8E1"
+      ]
     },
     {
       "treatment_id": "TREAT-7515D5654E2B",
@@ -10791,7 +11160,13 @@
       ],
       "status_rationale": "The benchmark expects on page 119: Its provisions articulate legal equality, national sovereignty, natural rights, official accountability, and separated powers while qualifying expression and worship. Canonical locator LOC-1A9CFC2300E8 under 'Declaration of the Rights of Man and the Citizen > principles and definitions' is supported on that page: Document page 119 evidence for “Declaration of the Rights of Man and the Citizen > principles and definitions”: “This was one of the few hints in the declaration that men and citizens had duties as well as rights, although some early drafts had sought to list duties, too.” “As it was, it long outlived the constitution to which it was a preamble; and has been looked to ever since by all who derive inspiration from the French Revolution as the movement’s ﬁrst …”",
       "matched_path_id": "PATH-42F09044C2E5",
-      "matched_locator_id": "LOC-1A9CFC2300E8"
+      "matched_locator_id": "LOC-1A9CFC2300E8",
+      "matched_path_ids": [
+        "PATH-42F09044C2E5"
+      ],
+      "matched_locator_ids": [
+        "LOC-1A9CFC2300E8"
+      ]
     },
     {
       "treatment_id": "TREAT-75842B9DC499",
@@ -10828,7 +11203,13 @@
       ],
       "status_rationale": "The benchmark expects on page 131: The new tax regime is created without effective compulsory collection machinery. Canonical locator LOC-1AE9193B5697 under 'state' is supported on that page: Document page 131 evidence for “state”: “The deputies did not forget that what had forced the convocation of the future National Assembly was the scale of the State’s debts.”",
       "matched_path_id": "PATH-95ABC889B7E3",
-      "matched_locator_id": "LOC-1AE9193B5697"
+      "matched_locator_id": "LOC-1AE9193B5697",
+      "matched_path_ids": [
+        "PATH-95ABC889B7E3"
+      ],
+      "matched_locator_ids": [
+        "LOC-1AE9193B5697"
+      ]
     },
     {
       "treatment_id": "TREAT-77E9BD339754",
@@ -10842,7 +11223,13 @@
       ],
       "status_rationale": "The benchmark expects on page 123: The events end royal resistance, relocate national authority, and establish Paris as the Revolution's recurring political watchdog. Canonical locator LOC-349502E33E51 under 'National Assembly > relocation to Paris (October Days)' is supported on that page: Document page 123 evidence for “National Assembly > relocation to Paris (October Days)”: “the National Assembly followed him there, and by November was established in a converted riding-school a stone’s throw from the Tuileries.” “Only some of the monarchiens thought all was already lost—although they included Mounier, who, though president of the National Assembly during the October Days, now slipped away home to Dauphiné to preach the dangers …”",
       "matched_path_id": "PATH-1B9B3830CD6E",
-      "matched_locator_id": "LOC-349502E33E51"
+      "matched_locator_id": "LOC-349502E33E51",
+      "matched_path_ids": [
+        "PATH-1B9B3830CD6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-349502E33E51"
+      ]
     },
     {
       "treatment_id": "TREAT-79BD9B37260C",
@@ -10868,7 +11255,13 @@
       ],
       "status_rationale": "The benchmark expects on page 124: Only tax-qualified adult men receive a vote, giving most men some role while excluding poorer men and sharply narrowing effective power. Canonical locator LOC-1F43F399CFCF under 'active citizens' is supported on that page: Document page 124 evidence for “active citizens”: “But what is this much repeated word active citizen supposed to mean?”",
       "matched_path_id": "PATH-58C3FC79DF86",
-      "matched_locator_id": "LOC-1F43F399CFCF"
+      "matched_locator_id": "LOC-1F43F399CFCF",
+      "matched_path_ids": [
+        "PATH-58C3FC79DF86"
+      ],
+      "matched_locator_ids": [
+        "LOC-1F43F399CFCF"
+      ]
     },
     {
       "treatment_id": "TREAT-7B3294BB7549",
@@ -10882,7 +11275,13 @@
       ],
       "status_rationale": "The benchmark expects on page 112: Lafayette combines Parisian and Bourbon colours, and the king publicly accepts the resulting cockade. Canonical locator LOC-D49AED277D90 under 'tricolour cockade' is supported on that page: Document page 112 evidence for “tricolour cockade”: “The king accepted a cockade and stuck it in his hat on arrival at the Hôtel de Ville; and then, for the ﬁrst time, people began to cheer him.”",
       "matched_path_id": "PATH-7238568F832D",
-      "matched_locator_id": "LOC-D49AED277D90"
+      "matched_locator_id": "LOC-D49AED277D90",
+      "matched_path_ids": [
+        "PATH-7238568F832D"
+      ],
+      "matched_locator_ids": [
+        "LOC-D49AED277D90"
+      ]
     },
     {
       "treatment_id": "TREAT-7CF0D6D9241F",
@@ -10896,7 +11295,13 @@
       ],
       "status_rationale": "The benchmark expects on page 130: Renewed château burning and threats over production of title deeds show the continuing effort to erase legal proof of dues. Canonical locator LOC-FE1B82BB2378 under 'Brittany > rural and anti-seigneurial violence' is supported on that page: Document page 130 evidence for “Brittany > rural and anti-seigneurial violence”: “January 1790 witnessed a new outbreak of château-burning in northern Brittany: twentytwo were destroyed, along with the title-deeds stored in many others.” “Bonﬁres of seigneurial pews in churchyards were the fashion that autumn.”",
       "matched_path_id": "PATH-BC4026C6499C",
-      "matched_locator_id": "LOC-FE1B82BB2378"
+      "matched_locator_id": "LOC-FE1B82BB2378",
+      "matched_path_ids": [
+        "PATH-BC4026C6499C"
+      ],
+      "matched_locator_ids": [
+        "LOC-FE1B82BB2378"
+      ]
     },
     {
       "treatment_id": "TREAT-7FC7BE00B4DE",
@@ -10910,7 +11315,13 @@
       ],
       "status_rationale": "The benchmark expects on page 133: Mirabeau's proposal for state bonds against visible national assets prevails over Necker's bank plan, and the new instruments receive their name. Canonical locator LOC-1FFD5350C7FE under 'Assignats > origins and land-backing' is supported on that page: Document page 133 evidence for “Assignats > origins and land-backing”: “In the course of the debate a name was invented for such bonds: assignats.” “Consequently on 3 November Mirabeau’s original motion was in all essentials accepted. 568 deputies outvoted 346 to place the property of the clergy ‘at the disposal of the Nation’.”",
       "matched_path_id": "PATH-1C007839A996",
-      "matched_locator_id": "LOC-1FFD5350C7FE"
+      "matched_locator_id": "LOC-1FFD5350C7FE",
+      "matched_path_ids": [
+        "PATH-1C007839A996"
+      ],
+      "matched_locator_ids": [
+        "LOC-1FFD5350C7FE"
+      ]
     },
     {
       "treatment_id": "TREAT-81B85490EFA6",
@@ -10924,7 +11335,13 @@
       ],
       "status_rationale": "The benchmark expects on page 115: Looting is usually limited, with destruction escalating chiefly when lords obstruct demands or conceal records. Canonical locator LOC-20BCDE5158A5 under 'peasant resistance' is supported on that page: Document page 115 evidence for “peasant resistance”: “Urban upheavals taking place simultaneously had done much to inﬂame the peasantry, but they were over fairly quickly, and citizens’ militias seemed to have the situation in most towns under reasonable control.”",
       "matched_path_id": "PATH-E453843D953D",
-      "matched_locator_id": "LOC-20BCDE5158A5"
+      "matched_locator_id": "LOC-20BCDE5158A5",
+      "matched_path_ids": [
+        "PATH-E453843D953D"
+      ],
+      "matched_locator_ids": [
+        "LOC-20BCDE5158A5"
+      ]
     },
     {
       "treatment_id": "TREAT-828150F4EE75",
@@ -10938,7 +11355,13 @@
       ],
       "status_rationale": "The benchmark expects on page 125: No police is created for the new judicial system; elected local administrations must enforce order through the Guard. Canonical locator LOC-078EB1A0D37C under 'National Guard > as instrument of order and martial law' is supported on that page: Document page 125 evidence for “National Guard > as instrument of order and martial law”: “Public order was the responsibility of local administrative, not judicial, authorities, and the sole instrument of coercion at their disposal was the National Guard.”",
       "matched_path_id": "PATH-3513334DB41B",
-      "matched_locator_id": "LOC-078EB1A0D37C"
+      "matched_locator_id": "LOC-078EB1A0D37C",
+      "matched_path_ids": [
+        "PATH-3513334DB41B"
+      ],
+      "matched_locator_ids": [
+        "LOC-078EB1A0D37C"
+      ]
     },
     {
       "treatment_id": "TREAT-863A5CD174A6",
@@ -10952,7 +11375,13 @@
       ],
       "status_rationale": "The benchmark expects on page 119: The Declaration states that guaranteed rights and separated powers are prerequisites for a constitution. Canonical locator LOC-027D259E0E74 under 'separation of powers' is supported on that page: Document page 119 evidence for “separation of powers”: “‘Any society’, article XVI speciﬁes, ‘in which the guarantee of rights is not assured or the separation of powers not determined has no constitution.’ And equality before the law meant the end of privilege.”",
       "matched_path_id": "PATH-AB053AD29A6C",
-      "matched_locator_id": "LOC-027D259E0E74"
+      "matched_locator_id": "LOC-027D259E0E74",
+      "matched_path_ids": [
+        "PATH-AB053AD29A6C"
+      ],
+      "matched_locator_ids": [
+        "LOC-027D259E0E74"
+      ]
     },
     {
       "treatment_id": "TREAT-87BA892F7D33",
@@ -10966,7 +11395,13 @@
       ],
       "status_rationale": "The benchmark expects on page 133: He opposes Church confiscation and proposes a national bank, but memories of John Law and distrust of financiers weaken his alternative. Canonical locator LOC-DFE0C92ED364 under 'Necker, Jacques > financial management and reforms > opposition to nationalization and assignats' is supported on that page: Document page 133 evidence for “Necker, Jacques > financial management and reforms > opposition to nationalization and assignats”: “At ﬁrst action looked like being postponed on the initiative, of all people, of the Protestant Necker, who disapproved of the conﬁscation.” “And the ﬁnancial world itself was divided.” “In the course of the debate a name was invented for such bonds: assignats.”",
       "matched_path_id": "PATH-57A189C62E1A",
-      "matched_locator_id": "LOC-DFE0C92ED364"
+      "matched_locator_id": "LOC-DFE0C92ED364",
+      "matched_path_ids": [
+        "PATH-57A189C62E1A"
+      ],
+      "matched_locator_ids": [
+        "LOC-DFE0C92ED364"
+      ]
     },
     {
       "treatment_id": "TREAT-88169E1A862E",
@@ -10980,7 +11415,13 @@
       ],
       "status_rationale": "The benchmark expects on page 119: The need for royal assent turns into a debate over whether the monarch may refuse legislation. Canonical locator LOC-6FA6AC2AF062 under 'royal veto' is supported on that page: Document page 119 evidence for “royal veto”: “Admirers of the checks and balances of the British constitution dominated the Assembly’s constitutional committee, and they believed that the king should have the same powers of veto as the British monarch.”",
       "matched_path_id": "PATH-138FB7C38903",
-      "matched_locator_id": "LOC-6FA6AC2AF062"
+      "matched_locator_id": "LOC-6FA6AC2AF062",
+      "matched_path_ids": [
+        "PATH-138FB7C38903"
+      ],
+      "matched_locator_ids": [
+        "LOC-6FA6AC2AF062"
+      ]
     },
     {
       "treatment_id": "TREAT-884B7389E407",
@@ -10994,7 +11435,15 @@
       ],
       "status_rationale": "The benchmark expects on page 115: Villagers refuse obligations, recover prior payments, attack seigneurial facilities, and force renunciations. Canonical locator LOC-5732A9B6C26D under 'tithes > resistance and abolition' is supported on that page: Document page 115 evidence for “tithes > resistance and abolition”: “Taxes, payments to lords, all are destroyed; the law is powerless, magistrates without authority, and justice is a mere phantom sought from the courts in vain.’ He moved a motion urging citizens to keep …” “Even so there was little indiscriminate destruction or looting, except where lords oﬀered resistance.”",
       "matched_path_id": "PATH-C0645CA798E3",
-      "matched_locator_id": "LOC-5732A9B6C26D"
+      "matched_locator_id": "LOC-5732A9B6C26D",
+      "matched_path_ids": [
+        "PATH-C0645CA798E3",
+        "PATH-E453843D953D"
+      ],
+      "matched_locator_ids": [
+        "LOC-20BCDE5158A5",
+        "LOC-5732A9B6C26D"
+      ]
     },
     {
       "treatment_id": "TREAT-88A5BD04652A",
@@ -11009,7 +11458,13 @@
       ],
       "status_rationale": "The frozen treatment on page 125 is reached by supported locator LOC-2F8B8594D595 under the specific path departments (départements) > administrative reorganization and creation (1789-90).",
       "matched_path_id": "PATH-4A9A49BC3924",
-      "matched_locator_id": "LOC-2F8B8594D595"
+      "matched_locator_id": "LOC-2F8B8594D595",
+      "matched_path_ids": [
+        "PATH-4A9A49BC3924"
+      ],
+      "matched_locator_ids": [
+        "LOC-2F8B8594D595"
+      ]
     },
     {
       "treatment_id": "TREAT-895EA89B9E6D",
@@ -11035,7 +11490,17 @@
       ],
       "status_rationale": "The benchmark expects on page 128: Membership rules, oaths, uniforms, regional federations, and the national festival give the Guard a standardized political identity. Canonical locator LOC-51DEBFDDBBFD under 'National Guard > membership and 'active' citizenship' is supported on that page: Document page 128 evidence for “National Guard > membership and 'active' citizenship”: “Over the spring of 1790 regional rallies of National Guards, or ‘federations’, began to be held.” “Membership was also conﬁned to active citizens, and repeated oaths of loyalty to the nation, the law, and the constitution were demanded.”",
       "matched_path_id": "PATH-E0B26C3051FC",
-      "matched_locator_id": "LOC-51DEBFDDBBFD"
+      "matched_locator_id": "LOC-51DEBFDDBBFD",
+      "matched_path_ids": [
+        "PATH-68E3FA1F8CBB",
+        "PATH-DE8CB69B7C5C",
+        "PATH-E0B26C3051FC"
+      ],
+      "matched_locator_ids": [
+        "LOC-074A3B16A551",
+        "LOC-51DEBFDDBBFD",
+        "LOC-AD022992CCDD"
+      ]
     },
     {
       "treatment_id": "TREAT-8A237AFAFF79",
@@ -11049,7 +11514,13 @@
       ],
       "status_rationale": "The benchmark expects on page 134: Assignats are initially designed to circulate between state creditors and purchasers of those lands. Canonical locator LOC-25031DC2B311 under 'National lands' is supported on that page: Document page 134 evidence for “National lands”: “The State would pay its creditors in them; and they in turn could be used to acquire national lands.”",
       "matched_path_id": "PATH-1F421CA145A5",
-      "matched_locator_id": "LOC-25031DC2B311"
+      "matched_locator_id": "LOC-25031DC2B311",
+      "matched_path_ids": [
+        "PATH-1F421CA145A5"
+      ],
+      "matched_locator_ids": [
+        "LOC-25031DC2B311"
+      ]
     },
     {
       "treatment_id": "TREAT-8AACED5FB4B1",
@@ -11064,7 +11535,13 @@
       ],
       "status_rationale": "The frozen treatment on page 125 is reached by supported locator LOC-2F8B8594D595 under the specific path departments (départements) > administrative reorganization and creation (1789-90).",
       "matched_path_id": "PATH-4A9A49BC3924",
-      "matched_locator_id": "LOC-2F8B8594D595"
+      "matched_locator_id": "LOC-2F8B8594D595",
+      "matched_path_ids": [
+        "PATH-4A9A49BC3924"
+      ],
+      "matched_locator_ids": [
+        "LOC-2F8B8594D595"
+      ]
     },
     {
       "treatment_id": "TREAT-8E19BD95B747",
@@ -11078,7 +11555,13 @@
       ],
       "status_rationale": "The benchmark expects on page 115: Smoke from destroyed feudal records and embellished reports of violence amplify the panic and attacks. Canonical locator LOC-668A11BD4069 under 'August Decrees (Night of 4 August 1789) > origins in rural unrest' is supported on that page: Document page 115 evidence for “August Decrees (Night of 4 August 1789) > origins in rural unrest”: “News of the incident soon spread over all eastern France, constantly embroidered, and led to a new wave of sacking castles and rich abbeys which went on well into August.” “But as yet they had little training or experience, nobody trusted regular troops, and remoter rural districts seemed completely out of control.”",
       "matched_path_id": "PATH-1F4E634CE0FE",
-      "matched_locator_id": "LOC-668A11BD4069"
+      "matched_locator_id": "LOC-668A11BD4069",
+      "matched_path_ids": [
+        "PATH-1F4E634CE0FE"
+      ],
+      "matched_locator_ids": [
+        "LOC-668A11BD4069"
+      ]
     },
     {
       "treatment_id": "TREAT-8EEFA9F53E06",
@@ -11092,7 +11575,13 @@
       ],
       "status_rationale": "The benchmark expects on page 135: The chapter judges implementation chaotic and disorganized despite widespread goodwill. Canonical locator LOC-8E1CF288E355 under 'Reform > revolutionary (1789-1791) > constitutional and administrative' is supported on that page: Document page 135 evidence for “Reform > revolutionary (1789-1791) > constitutional and administrative”: “Most of the reforms carried out or sanctioned by the Constituent Assembly, in other words, were the product of the revolutionary process itself.”",
       "matched_path_id": "PATH-2CDAB6250E6E",
-      "matched_locator_id": "LOC-8E1CF288E355"
+      "matched_locator_id": "LOC-8E1CF288E355",
+      "matched_path_ids": [
+        "PATH-2CDAB6250E6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-8E1CF288E355"
+      ]
     },
     {
       "treatment_id": "TREAT-8F31B465A965",
@@ -11106,7 +11595,13 @@
       ],
       "status_rationale": "The benchmark expects on page 118: The Assembly adopts the Declaration after debate, and it rapidly acquires the status of a sacred founding document. Canonical locator LOC-93D94FABEB51 under 'Declaration of the Rights of Man and the Citizen > principles and definitions' is supported on that page: Document page 118 evidence for “Declaration of the Rights of Man and the Citizen > principles and definitions”: “On 26 August, after a week of discussion spun out by clerical reluctance to concede total freedom of thought and worship, the Declaration of the Rights of Man and the Citizen was ﬁnally voted.” “Article VI deﬁnes law as the expression of the general will, made by the direct or indirect participation of all citizens; an implicit condemnation of the legislative sovereignty claimed by kings under the old …”",
       "matched_path_id": "PATH-42F09044C2E5",
-      "matched_locator_id": "LOC-93D94FABEB51"
+      "matched_locator_id": "LOC-93D94FABEB51",
+      "matched_path_ids": [
+        "PATH-42F09044C2E5"
+      ],
+      "matched_locator_ids": [
+        "LOC-93D94FABEB51"
+      ]
     },
     {
       "treatment_id": "TREAT-8F5A610CF137",
@@ -11120,7 +11615,13 @@
       ],
       "status_rationale": "The benchmark expects on page 135: Widespread approval, participation, and communal celebration support the conclusion that a broad consensus existed before rapidly breaking apart. Canonical locator LOC-8EEF1D7A0896 under 'Feast of the Federation' is supported on that page: Document page 135 evidence for “Feast of the Federation”: “The Feast of the Federation which was observed in every commune as well as in Paris, was a celebration of that consensus.”",
       "matched_path_id": "PATH-1F7307123562",
-      "matched_locator_id": "LOC-8EEF1D7A0896"
+      "matched_locator_id": "LOC-8EEF1D7A0896",
+      "matched_path_ids": [
+        "PATH-1F7307123562"
+      ],
+      "matched_locator_ids": [
+        "LOC-8EEF1D7A0896"
+      ]
     },
     {
       "treatment_id": "TREAT-917AAE3E5882",
@@ -11134,7 +11635,13 @@
       ],
       "status_rationale": "The benchmark expects on page 124: The debate ends with a three-year disqualification for former deputies. Canonical locator LOC-80C8E0C49197 under 'Constitution of 1791 > features and drafting' is supported on that page: Document page 124 evidence for “Constitution of 1791 > features and drafting”: “Future Legislative Assemblies, as the successors to the Constituent were to be called, were to contain 745 seats and sit for two years.”",
       "matched_path_id": "PATH-15FDB66F5A52",
-      "matched_locator_id": "LOC-80C8E0C49197"
+      "matched_locator_id": "LOC-80C8E0C49197",
+      "matched_path_ids": [
+        "PATH-15FDB66F5A52"
+      ],
+      "matched_locator_ids": [
+        "LOC-80C8E0C49197"
+      ]
     },
     {
       "treatment_id": "TREAT-928B05D2747F",
@@ -11148,7 +11655,13 @@
       ],
       "status_rationale": "The benchmark expects on page 132: Failed loans, an inadequate emergency contribution, and rising short-term debt push deputies toward nationalizing Church land. Canonical locator LOC-197D5CB8CC03 under 'national debt' is supported on that page: Document page 132 evidence for “national debt”: “Throughout the ﬁnancial debates of September, the idea of using church lands in some way to alleviate the burden of the national debt kept recurring.”",
       "matched_path_id": "PATH-AF699BEF4776",
-      "matched_locator_id": "LOC-197D5CB8CC03"
+      "matched_locator_id": "LOC-197D5CB8CC03",
+      "matched_path_ids": [
+        "PATH-AF699BEF4776"
+      ],
+      "matched_locator_ids": [
+        "LOC-197D5CB8CC03"
+      ]
     },
     {
       "treatment_id": "TREAT-941802C10094",
@@ -11162,7 +11675,15 @@
       ],
       "status_rationale": "The benchmark expects on page 133: Decrees create a special fund to receive the Patriotic Contribution and proceeds from sales of national land. Canonical locator LOC-04BC89EBA26C under 'Caisse de l'Extraordinaire' is supported on that page: Document page 133 evidence for “Caisse de l'Extraordinaire”: “On 19 and 21 December a series of decrees set up an ‘Extraordinary Fund’ (Caisse de l’Extraordinaire) to receive the proceeds of the Patriotic Contribution and the sale of 400 million livres’ worth of …”",
       "matched_path_id": "PATH-A5E30DB815C6",
-      "matched_locator_id": "LOC-04BC89EBA26C"
+      "matched_locator_id": "LOC-04BC89EBA26C",
+      "matched_path_ids": [
+        "PATH-1F421CA145A5",
+        "PATH-A5E30DB815C6"
+      ],
+      "matched_locator_ids": [
+        "LOC-04BC89EBA26C",
+        "LOC-8122624721EE"
+      ]
     },
     {
       "treatment_id": "TREAT-94BE65C899ED",
@@ -11176,7 +11697,15 @@
       ],
       "status_rationale": "The benchmark expects on page 112: He is confirmed as commander of Paris's new citizen militia and helps define its tricolour identity. Canonical locator LOC-687766649149 under 'Lafayette, Gilbert du Motier, Marquis de > National Guard command' is supported on that page: Document page 112 evidence for “Lafayette, Gilbert du Motier, Marquis de > National Guard command”: “Later in the month Lafayette would splice them with Bourbon white for the uniform of his National Guardsmen, and so the patriotic tricolour was born.” “He also conﬁrmed the nomination of Bailly as mayor of Paris (a new title) and Lafayette as commander of the new citizens’ militia, now being called the National Guard.”",
       "matched_path_id": "PATH-68E3FA1F8CBB",
-      "matched_locator_id": "LOC-687766649149"
+      "matched_locator_id": "LOC-687766649149",
+      "matched_path_ids": [
+        "PATH-68E3FA1F8CBB",
+        "PATH-DE8CB69B7C5C"
+      ],
+      "matched_locator_ids": [
+        "LOC-320C11F46B99",
+        "LOC-687766649149"
+      ]
     },
     {
       "treatment_id": "TREAT-96FD7475C878",
@@ -11190,7 +11719,15 @@
       ],
       "status_rationale": "The benchmark expects on page 133: The Assembly ultimately adopts Mirabeau's broader formulation in substance. Canonical locator LOC-1AA5DD418935 under 'church property' is supported on that page: Document page 133 evidence for “church property”: “Consequently on 3 November Mirabeau’s original motion was in all essentials accepted. 568 deputies outvoted 346 to place the property of the clergy ‘at the disposal of the Nation’.”",
       "matched_path_id": "PATH-4E8391484033",
-      "matched_locator_id": "LOC-1AA5DD418935"
+      "matched_locator_id": "LOC-1AA5DD418935",
+      "matched_path_ids": [
+        "PATH-4E8391484033",
+        "PATH-5417C443C1DF"
+      ],
+      "matched_locator_ids": [
+        "LOC-1AA5DD418935",
+        "LOC-F2D409B9E0BC"
+      ]
     },
     {
       "treatment_id": "TREAT-980B91050F38",
@@ -11204,7 +11741,13 @@
       ],
       "status_rationale": "The benchmark expects on page 125: The new system creates local and departmental courts, a cassation tribunal reviewing procedure, and jury trial while postponing comprehensive legal codification. Canonical locator LOC-FE45C0ED0CC7 under 'Tribunal de cassation' is supported on that page: Document page 125 evidence for “Tribunal de cassation”: “The whole structure of lower courts disappeared with them, to be replaced with a system of local justices of the peace, district civil and departmental criminal courts, and a single court of appeal (tribunal …”",
       "matched_path_id": "PATH-D1CCBB133AFF",
-      "matched_locator_id": "LOC-FE45C0ED0CC7"
+      "matched_locator_id": "LOC-FE45C0ED0CC7",
+      "matched_path_ids": [
+        "PATH-D1CCBB133AFF"
+      ],
+      "matched_locator_ids": [
+        "LOC-FE45C0ED0CC7"
+      ]
     },
     {
       "treatment_id": "TREAT-98243F767C83",
@@ -11218,7 +11761,15 @@
       ],
       "status_rationale": "The benchmark expects on page 123: The king receives a national title but no legislative initiative, only a time-limited veto, a voted income, and ministers answerable to the legislature. Canonical locator LOC-0F97528470C8 under 'Reform > revolutionary (1789-1791) > constitutional and administrative' is supported on that page: Document page 123 evidence for “Reform > revolutionary (1789-1791) > constitutional and administrative”: “All open attempts on the king’s part to resist the reform of France now came to an end.” “Few foresaw the extent of this danger in 1789.” “The essence of the constitution of 1791, as the work the Constituent Assembly was now embarked on would be called, was to keep the executive weak.”",
       "matched_path_id": "PATH-2CDAB6250E6E",
-      "matched_locator_id": "LOC-0F97528470C8"
+      "matched_locator_id": "LOC-0F97528470C8",
+      "matched_path_ids": [
+        "PATH-15FDB66F5A52",
+        "PATH-2CDAB6250E6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-0F97528470C8",
+        "LOC-A2ED6369AA9C"
+      ]
     },
     {
       "treatment_id": "TREAT-98FD1BC7DAA3",
@@ -11232,7 +11783,13 @@
       ],
       "status_rationale": "The benchmark expects on page 122: Thousands enter the Assembly and confront the king, making their intervention central to the settlement. Canonical locator LOC-73585817BA3E under 'October Days' is supported on that page: Document page 122 evidence for “October Days”: “Nevertheless in the history of the Revolution the ‘October Days’ were decisive.”",
       "matched_path_id": "PATH-4078D9FDECBB",
-      "matched_locator_id": "LOC-73585817BA3E"
+      "matched_locator_id": "LOC-73585817BA3E",
+      "matched_path_ids": [
+        "PATH-4078D9FDECBB"
+      ],
+      "matched_locator_ids": [
+        "LOC-73585817BA3E"
+      ]
     },
     {
       "treatment_id": "TREAT-99E11C5DCD32",
@@ -11246,7 +11803,13 @@
       ],
       "status_rationale": "The benchmark expects on page 134: The Assembly's general constitutional aims resemble the cahiers, but many institutional, social, and financial measures have little or no mandate there. Canonical locator LOC-B5D7D972973C under 'Reform' is supported on that page: Document page 134 evidence for “Reform”: “The deputies claimed to be following the cahiers in their reforming work.”",
       "matched_path_id": "PATH-25F01B2E38A0",
-      "matched_locator_id": "LOC-B5D7D972973C"
+      "matched_locator_id": "LOC-B5D7D972973C",
+      "matched_path_ids": [
+        "PATH-25F01B2E38A0"
+      ],
+      "matched_locator_ids": [
+        "LOC-B5D7D972973C"
+      ]
     },
     {
       "treatment_id": "TREAT-9C91546805D0",
@@ -11260,7 +11823,17 @@
       ],
       "status_rationale": "The benchmark expects on page 130: Detailed redemption rules harden legislative resolve but do not overcome local resistance or weak enforcement. Canonical locator LOC-0D108A2D787A under 'seigneurial rights' is supported on that page: Document page 130 evidence for “seigneurial rights”: “They called them Mays, from a much older tradition, festooned them with symbols of seigneurialism, and claimed that if they stood for a year and a day their lord’s rights would be extinguished.”",
       "matched_path_id": "PATH-B58A3B34A413",
-      "matched_locator_id": "LOC-0D108A2D787A"
+      "matched_locator_id": "LOC-0D108A2D787A",
+      "matched_path_ids": [
+        "PATH-5ABA0891508F",
+        "PATH-B58A3B34A413",
+        "PATH-F0F8D099614B"
+      ],
+      "matched_locator_ids": [
+        "LOC-00A591984FFE",
+        "LOC-0D108A2D787A",
+        "LOC-90BD6F9015D4"
+      ]
     },
     {
       "treatment_id": "TREAT-9E19FC8BECC8",
@@ -11274,7 +11847,13 @@
       ],
       "status_rationale": "The benchmark expects on page 118: The Declaration identifies liberty, property, security, and resistance as natural rights and rejects arbitrary arrest and unaccountable office. Canonical locator LOC-93D94FABEB51 under 'Declaration of the Rights of Man and the Citizen > principles and definitions' is supported on that page: Document page 118 evidence for “Declaration of the Rights of Man and the Citizen > principles and definitions”: “On 26 August, after a week of discussion spun out by clerical reluctance to concede total freedom of thought and worship, the Declaration of the Rights of Man and the Citizen was ﬁnally voted.” “Article VI deﬁnes law as the expression of the general will, made by the direct or indirect participation of all citizens; an implicit condemnation of the legislative sovereignty claimed by kings under the old …”",
       "matched_path_id": "PATH-42F09044C2E5",
-      "matched_locator_id": "LOC-93D94FABEB51"
+      "matched_locator_id": "LOC-93D94FABEB51",
+      "matched_path_ids": [
+        "PATH-42F09044C2E5"
+      ],
+      "matched_locator_ids": [
+        "LOC-93D94FABEB51"
+      ]
     },
     {
       "treatment_id": "TREAT-9F66EDE9DF3B",
@@ -11300,7 +11879,13 @@
       ],
       "status_rationale": "The benchmark expects on page 115: Urban upheavals subside more quickly than rural unrest once citizens' militias establish control. Canonical locator LOC-20BCDE5158A5 under 'peasant resistance' is supported on that page: Document page 115 evidence for “peasant resistance”: “Urban upheavals taking place simultaneously had done much to inﬂame the peasantry, but they were over fairly quickly, and citizens’ militias seemed to have the situation in most towns under reasonable control.”",
       "matched_path_id": "PATH-E453843D953D",
-      "matched_locator_id": "LOC-20BCDE5158A5"
+      "matched_locator_id": "LOC-20BCDE5158A5",
+      "matched_path_ids": [
+        "PATH-E453843D953D"
+      ],
+      "matched_locator_ids": [
+        "LOC-20BCDE5158A5"
+      ]
     },
     {
       "treatment_id": "TREAT-A25A3C2D3233",
@@ -11314,7 +11899,13 @@
       ],
       "status_rationale": "The benchmark expects on page 130: Rural disturbances reveal the Guard's uneven reliability, including participation by uniformed peasants. Canonical locator LOC-687259B2817A under 'National Guard > provincial role and disturbances' is supported on that page: Document page 130 evidence for “National Guard > provincial role and disturbances”: “Riotous crowds, indeed, often included peasants in National Guard uniform.” “The toll-gates and tax-oﬃces sacked during the disturbances of July and August were not rebuilt, and clerks and collectors were reluctant to brave popular fury by trying to reactivate them, even if their superiors …”",
       "matched_path_id": "PATH-BCB03A99B067",
-      "matched_locator_id": "LOC-687259B2817A"
+      "matched_locator_id": "LOC-687259B2817A",
+      "matched_path_ids": [
+        "PATH-BCB03A99B067"
+      ],
+      "matched_locator_ids": [
+        "LOC-687259B2817A"
+      ]
     },
     {
       "treatment_id": "TREAT-A4100B6B86B0",
@@ -11328,7 +11919,13 @@
       ],
       "status_rationale": "The benchmark expects on page 133: Arguments over market effects and revolutionary purchasers accompany the unresolved property principle before the vote. Canonical locator LOC-1AA5DD418935 under 'church property' is supported on that page: Document page 133 evidence for “church property”: “Consequently on 3 November Mirabeau’s original motion was in all essentials accepted. 568 deputies outvoted 346 to place the property of the clergy ‘at the disposal of the Nation’.”",
       "matched_path_id": "PATH-4E8391484033",
-      "matched_locator_id": "LOC-1AA5DD418935"
+      "matched_locator_id": "LOC-1AA5DD418935",
+      "matched_path_ids": [
+        "PATH-4E8391484033"
+      ],
+      "matched_locator_ids": [
+        "LOC-1AA5DD418935"
+      ]
     },
     {
       "treatment_id": "TREAT-A43D5AC8EEC3",
@@ -11343,7 +11940,13 @@
       ],
       "status_rationale": "The frozen treatment on page 118 is reached by supported locator LOC-AE6631BE3A41 under the specific path equality.",
       "matched_path_id": "PATH-0064A1BF0765",
-      "matched_locator_id": "LOC-AE6631BE3A41"
+      "matched_locator_id": "LOC-AE6631BE3A41",
+      "matched_path_ids": [
+        "PATH-0064A1BF0765"
+      ],
+      "matched_locator_ids": [
+        "LOC-AE6631BE3A41"
+      ]
     },
     {
       "treatment_id": "TREAT-A4CAC8608CC2",
@@ -11357,7 +11960,13 @@
       ],
       "status_rationale": "The benchmark expects on page 121: Troops, delayed assent, and banquet reports make a renewed court offensive appear imminent. Canonical locator LOC-9C642D36955D under 'Versailles > Revolutionary events (1789) > October Days and royal departure' is supported on that page: Document page 121 evidence for “Versailles > Revolutionary events (1789) > October Days and royal departure”: “Alarmed at persistent rumours of being taken by force to Paris, on 14 September the king summoned the notoriously welldisciplined Flanders Regiment from the north-east frontier to Versailles.” “Then on 4 October he voiced reservations about the Declaration of Rights.”",
       "matched_path_id": "PATH-4A72B1752FDC",
-      "matched_locator_id": "LOC-9C642D36955D"
+      "matched_locator_id": "LOC-9C642D36955D",
+      "matched_path_ids": [
+        "PATH-4A72B1752FDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-9C642D36955D"
+      ]
     },
     {
       "treatment_id": "TREAT-A54CC90F714B",
@@ -11371,7 +11980,13 @@
       ],
       "status_rationale": "The benchmark expects on page 123: The forced abandonment of Versailles ends open royal resistance and convinces opponents that the Revolution cannot be reversed. Canonical locator LOC-0F97528470C8 under 'Reform > revolutionary (1789-1791) > constitutional and administrative' is supported on that page: Document page 123 evidence for “Reform > revolutionary (1789-1791) > constitutional and administrative”: “All open attempts on the king’s part to resist the reform of France now came to an end.” “Few foresaw the extent of this danger in 1789.” “The essence of the constitution of 1791, as the work the Constituent Assembly was now embarked on would be called, was to keep the executive weak.”",
       "matched_path_id": "PATH-2CDAB6250E6E",
-      "matched_locator_id": "LOC-0F97528470C8"
+      "matched_locator_id": "LOC-0F97528470C8",
+      "matched_path_ids": [
+        "PATH-2CDAB6250E6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-0F97528470C8"
+      ]
     },
     {
       "treatment_id": "TREAT-A73DFD38614F",
@@ -11385,7 +12000,15 @@
       ],
       "status_rationale": "The benchmark expects on page 130: Liberty-tree actions, château attacks, and title-deed destruction continue into 1791 despite official repression. Canonical locator LOC-FE1B82BB2378 under 'Brittany > rural and anti-seigneurial violence' is supported on that page: Document page 130 evidence for “Brittany > rural and anti-seigneurial violence”: “January 1790 witnessed a new outbreak of château-burning in northern Brittany: twentytwo were destroyed, along with the title-deeds stored in many others.” “Bonﬁres of seigneurial pews in churchyards were the fashion that autumn.”",
       "matched_path_id": "PATH-BC4026C6499C",
-      "matched_locator_id": "LOC-FE1B82BB2378"
+      "matched_locator_id": "LOC-FE1B82BB2378",
+      "matched_path_ids": [
+        "PATH-5ABA0891508F",
+        "PATH-BC4026C6499C"
+      ],
+      "matched_locator_ids": [
+        "LOC-00A591984FFE",
+        "LOC-FE1B82BB2378"
+      ]
     },
     {
       "treatment_id": "TREAT-A78E9B1E5E1E",
@@ -11399,7 +12022,13 @@
       ],
       "status_rationale": "The benchmark expects on page 112: Artois and supportive courtiers leave after the royal cause appears defeated. Canonical locator LOC-C0AD118F4C17 under 'courtiers' is supported on that page: Document page 112 evidence for “courtiers”: “Early on 17 July the Count d’Artois left Versailles for the north-east frontier, to be followed over subsequent weeks by many of the courtiers who had supported his intrigues.”",
       "matched_path_id": "PATH-7177BC082164",
-      "matched_locator_id": "LOC-C0AD118F4C17"
+      "matched_locator_id": "LOC-C0AD118F4C17",
+      "matched_path_ids": [
+        "PATH-7177BC082164"
+      ],
+      "matched_locator_ids": [
+        "LOC-C0AD118F4C17"
+      ]
     },
     {
       "treatment_id": "TREAT-A7B86E225493",
@@ -11413,7 +12042,15 @@
       ],
       "status_rationale": "The benchmark expects on page 123: Mirabeau proposes choosing ministers from the Assembly, but rumours about his ambition and earlier alliances undermine the plan. Canonical locator LOC-4F8A20604BA3 under 'Mirabeau, Honoré-Gabriel Riqueti, comte de > constitutional positions' is supported on that page: Document page 123 evidence for “Mirabeau, Honoré-Gabriel Riqueti, comte de > constitutional positions”: “But it might not have been so ﬁrmly embedded in the 1791 constitution without an ill-timed intervention by Mirabeau in one of the earliest debates after the Assembly moved to Paris.” “The essence of the constitution of 1791, as the work the Constituent Assembly was now embarked on would be called, was to keep the executive weak.”",
       "matched_path_id": "PATH-768E8DB52A74",
-      "matched_locator_id": "LOC-4F8A20604BA3"
+      "matched_locator_id": "LOC-4F8A20604BA3",
+      "matched_path_ids": [
+        "PATH-15FDB66F5A52",
+        "PATH-768E8DB52A74"
+      ],
+      "matched_locator_ids": [
+        "LOC-4F8A20604BA3",
+        "LOC-A2ED6369AA9C"
+      ]
     },
     {
       "treatment_id": "TREAT-A7E45EA178D7",
@@ -11427,7 +12064,13 @@
       ],
       "status_rationale": "The benchmark expects on page 117: Renunciation of privilege dismantles enduring principles of social and institutional organization. Canonical locator LOC-FF97A91C8A9D under 'Privilege' is supported on that page: Document page 117 evidence for “Privilege”: “Privilege, that fundamental principle of social and institutional life since time immemorial, had been renounced.”",
       "matched_path_id": "PATH-926DABC75F37",
-      "matched_locator_id": "LOC-FF97A91C8A9D"
+      "matched_locator_id": "LOC-FF97A91C8A9D",
+      "matched_path_ids": [
+        "PATH-926DABC75F37"
+      ],
+      "matched_locator_ids": [
+        "LOC-FF97A91C8A9D"
+      ]
     },
     {
       "treatment_id": "TREAT-AB62AAA87C37",
@@ -11441,7 +12084,13 @@
       ],
       "status_rationale": "The benchmark expects on page 125: The end of venality helps doom the old judicial system and its sovereign courts. Canonical locator LOC-440FB3CEEAB0 under 'venality of office' is supported on that page: Document page 125 evidence for “venality of office”: “All this doomed the old judicial system, already condemned in principle by the abolition of venality and judicial fees.”",
       "matched_path_id": "PATH-6A1B70B1DBD9",
-      "matched_locator_id": "LOC-440FB3CEEAB0"
+      "matched_locator_id": "LOC-440FB3CEEAB0",
+      "matched_path_ids": [
+        "PATH-6A1B70B1DBD9"
+      ],
+      "matched_locator_ids": [
+        "LOC-440FB3CEEAB0"
+      ]
     },
     {
       "treatment_id": "TREAT-ABB19A606799",
@@ -11455,7 +12104,13 @@
       ],
       "status_rationale": "The benchmark expects on page 119: Mounier, Malouet, allied nobles, and Mirabeau press a British-inspired program of bicameral balance and full veto. Canonical locator LOC-D37F2225780D under 'Monarchiens' is supported on that page: Document page 119 evidence for “Monarchiens”: “If the monarch did not openly and freely associate himself in this way with the destruction of the ancien régime, the whole work of the Assembly would be vitiated.”",
       "matched_path_id": "PATH-160E27938AA4",
-      "matched_locator_id": "LOC-D37F2225780D"
+      "matched_locator_id": "LOC-D37F2225780D",
+      "matched_path_ids": [
+        "PATH-160E27938AA4"
+      ],
+      "matched_locator_ids": [
+        "LOC-D37F2225780D"
+      ]
     },
     {
       "treatment_id": "TREAT-ADF0F9FF4615",
@@ -11469,7 +12124,13 @@
       ],
       "status_rationale": "The benchmark expects on page 125: The new court system receives no police machinery, leaving coercion to local administrators and the Guard. Canonical locator LOC-078EB1A0D37C under 'National Guard > as instrument of order and martial law' is supported on that page: Document page 125 evidence for “National Guard > as instrument of order and martial law”: “Public order was the responsibility of local administrative, not judicial, authorities, and the sole instrument of coercion at their disposal was the National Guard.”",
       "matched_path_id": "PATH-3513334DB41B",
-      "matched_locator_id": "LOC-078EB1A0D37C"
+      "matched_locator_id": "LOC-078EB1A0D37C",
+      "matched_path_ids": [
+        "PATH-3513334DB41B"
+      ],
+      "matched_locator_ids": [
+        "LOC-078EB1A0D37C"
+      ]
     },
     {
       "treatment_id": "TREAT-AE058F29639B",
@@ -11483,7 +12144,13 @@
       ],
       "status_rationale": "The frozen treatment on page 126 is reached by supported locator LOC-3570D6F25CAD under the specific path municipal revolution.",
       "matched_path_id": "PATH-41016214E2AD",
-      "matched_locator_id": "LOC-3570D6F25CAD"
+      "matched_locator_id": "LOC-3570D6F25CAD",
+      "matched_path_ids": [
+        "PATH-41016214E2AD"
+      ],
+      "matched_locator_ids": [
+        "LOC-3570D6F25CAD"
+      ]
     },
     {
       "treatment_id": "TREAT-B0B43374F234",
@@ -11497,7 +12164,15 @@
       ],
       "status_rationale": "The benchmark expects on page 133: After contentious debate and in the absence of a fiscal alternative, a large majority places Church property at the nation's disposal. Canonical locator LOC-8122624721EE under 'National lands' is supported on that page: Document page 133 evidence for “National lands”: “On 19 and 21 December a series of decrees set up an ‘Extraordinary Fund’ (Caisse de l’Extraordinaire) to receive the proceeds of the Patriotic Contribution and the sale of 400 million livres’ worth of …”",
       "matched_path_id": "PATH-1F421CA145A5",
-      "matched_locator_id": "LOC-8122624721EE"
+      "matched_locator_id": "LOC-8122624721EE",
+      "matched_path_ids": [
+        "PATH-1F421CA145A5",
+        "PATH-5417C443C1DF"
+      ],
+      "matched_locator_ids": [
+        "LOC-8122624721EE",
+        "LOC-F2D409B9E0BC"
+      ]
     },
     {
       "treatment_id": "TREAT-B3016C4A3E5E",
@@ -11511,7 +12186,13 @@
       ],
       "status_rationale": "The benchmark expects on page 133: Fear of another banknote collapse, dislike of financial capitalists, and rivalries among financiers discredit Necker's national-bank alternative. Canonical locator LOC-91C4127195BE under 'Law, John' is supported on that page: Document page 133 evidence for “Law, John”: “In 1720 the Scottish adventurer John Law had attempted to set up a state bank on the promise of overseas trading proﬁts, and had paid the king’s debts in banknotes.”",
       "matched_path_id": "PATH-88C846C32E42",
-      "matched_locator_id": "LOC-91C4127195BE"
+      "matched_locator_id": "LOC-91C4127195BE",
+      "matched_path_ids": [
+        "PATH-88C846C32E42"
+      ],
+      "matched_locator_ids": [
+        "LOC-91C4127195BE"
+      ]
     },
     {
       "treatment_id": "TREAT-B55314015D99",
@@ -11537,7 +12218,13 @@
       ],
       "status_rationale": "The benchmark expects on page 113: Lawyers, property owners, and businesspeople become prominent in the municipal revolution, united partly by fear of anarchy. Canonical locator LOC-95F42079B0A8 under 'lawyers' is supported on that page: Document page 113 evidence for “lawyers”: “Prominent in these movements were the lawyers who had played such a central part in the spring elections; but all property owners were drawn together by the fear of anarchy, and in commercial and …”",
       "matched_path_id": "PATH-0B0190D8E668",
-      "matched_locator_id": "LOC-95F42079B0A8"
+      "matched_locator_id": "LOC-95F42079B0A8",
+      "matched_path_ids": [
+        "PATH-0B0190D8E668"
+      ],
+      "matched_locator_ids": [
+        "LOC-95F42079B0A8"
+      ]
     },
     {
       "treatment_id": "TREAT-B621D286815B",
@@ -11551,7 +12238,13 @@
       ],
       "status_rationale": "The benchmark expects on page 126: Reliance on a politically safer but uncertain National Guard exposes the weakness of revolutionary enforcement. Canonical locator LOC-AA1FACE1C294 under 'National Guard > as instrument of order and martial law' is supported on that page: Document page 126 evidence for “National Guard > as instrument of order and martial law”: “They were then empowered to call out the National Guard and order it to ﬁre on crowds or demonstrators who refused to disperse.” “It permitted municipal authorities to proclaim martial law, indicating their decision by deploying red ﬂags.”",
       "matched_path_id": "PATH-3513334DB41B",
-      "matched_locator_id": "LOC-AA1FACE1C294"
+      "matched_locator_id": "LOC-AA1FACE1C294",
+      "matched_path_ids": [
+        "PATH-3513334DB41B"
+      ],
+      "matched_locator_ids": [
+        "LOC-AA1FACE1C294"
+      ]
     },
     {
       "treatment_id": "TREAT-B8F7E1A1763B",
@@ -11565,7 +12258,13 @@
       ],
       "status_rationale": "The benchmark expects on page 115: Local militias are inexperienced, regular troops are distrusted, and reports portray law and magistracy as powerless. Canonical locator LOC-02E580667AD4 under 'National Assembly > assertion of sovereignty and early decrees' is supported on that page: Document page 115 evidence for “National Assembly > assertion of sovereignty and early decrees”: “‘By letters from every province’, declared the spokesman of the National Assembly’s reports committee on 3 August,2 ‘it appears that properties of whatever sort are falling prey to the most disgraceful brigandage; on all …” “Taxes, payments to lords, all are destroyed; the law is powerless, magistrates without authority, and justice is a mere phantom sought from the courts in vain.’ He moved a motion urging citizens to keep …”",
       "matched_path_id": "PATH-9E97775B0928",
-      "matched_locator_id": "LOC-02E580667AD4"
+      "matched_locator_id": "LOC-02E580667AD4",
+      "matched_path_ids": [
+        "PATH-9E97775B0928"
+      ],
+      "matched_locator_ids": [
+        "LOC-02E580667AD4"
+      ]
     },
     {
       "treatment_id": "TREAT-B96FE2A1647E",
@@ -11579,7 +12278,13 @@
       ],
       "status_rationale": "The benchmark expects on page 119: Speech and religious opinion receive protection, but the law may define abuse and restrict manifestations that threaten order. Canonical locator LOC-8729883BB6CF under 'Catholic Church > and tolerance for other faiths' is supported on that page: Document page 119 evidence for “Catholic Church > and tolerance for other faiths”: “And although no one may be disturbed for his opinions, even (in a rebuﬀ to clerical arguments for a continued Catholic monopoly of public worship) religious ones, a limit may be set if their …”",
       "matched_path_id": "PATH-35690403AFC1",
-      "matched_locator_id": "LOC-8729883BB6CF"
+      "matched_locator_id": "LOC-8729883BB6CF",
+      "matched_path_ids": [
+        "PATH-35690403AFC1"
+      ],
+      "matched_locator_ids": [
+        "LOC-8729883BB6CF"
+      ]
     },
     {
       "treatment_id": "TREAT-BDA40EBB064C",
@@ -11593,7 +12298,13 @@
       ],
       "status_rationale": "The benchmark expects on page 120: Palais Royal agitation, an attempted march, pamphlets, and new newspapers denounce the Assembly's compromise. Canonical locator LOC-98F74DAB959D under 'royal veto' is supported on that page: Document page 120 evidence for “royal veto”: “The veto question was even more hotly contested.”",
       "matched_path_id": "PATH-138FB7C38903",
-      "matched_locator_id": "LOC-98F74DAB959D"
+      "matched_locator_id": "LOC-98F74DAB959D",
+      "matched_path_ids": [
+        "PATH-138FB7C38903"
+      ],
+      "matched_locator_ids": [
+        "LOC-98F74DAB959D"
+      ]
     },
     {
       "treatment_id": "TREAT-BE78D7DAD8E0",
@@ -11607,7 +12318,13 @@
       ],
       "status_rationale": "The benchmark expects on page 128: Nobles resign seats, avoid elections, emigrate, and face abolition of noble status and its symbols. Canonical locator LOC-A1977DB0E23F under 'nobility, abolition of' is supported on that page: Document page 128 evidence for “nobility, abolition of”: “Gratuitous gestures like the abolition of nobility itself, together with all its trappings like titles, orders, ribbons, and coats of arms (19 June 1790), did nothing to reconcile them.”",
       "matched_path_id": "PATH-F657BB678AAD",
-      "matched_locator_id": "LOC-A1977DB0E23F"
+      "matched_locator_id": "LOC-A1977DB0E23F",
+      "matched_path_ids": [
+        "PATH-F657BB678AAD"
+      ],
+      "matched_locator_ids": [
+        "LOC-A1977DB0E23F"
+      ]
     },
     {
       "treatment_id": "TREAT-BF524EBE2700",
@@ -11621,7 +12338,13 @@
       ],
       "status_rationale": "The benchmark expects on page 114: Precautionary confinement in Dijon illustrates the wider blow to privileged local authority. Canonical locator LOC-64FE97FCCF68 under 'clergy (First Estate) > provincial reactions and municipal revolution' is supported on that page: Document page 114 evidence for “clergy (First Estate) > provincial reactions and municipal revolution”: “In Dijon nobles and clergy were put under precautionary house arrest.” “All this produced the ‘Great Fear’, a massive panic that swept whole provinces in the last weeks of July and left only the most peripheral regions untouched.”",
       "matched_path_id": "PATH-992C7DC8ADD4",
-      "matched_locator_id": "LOC-64FE97FCCF68"
+      "matched_locator_id": "LOC-64FE97FCCF68",
+      "matched_path_ids": [
+        "PATH-992C7DC8ADD4"
+      ],
+      "matched_locator_ids": [
+        "LOC-64FE97FCCF68"
+      ]
     },
     {
       "treatment_id": "TREAT-C1B44E7927A5",
@@ -11635,7 +12358,13 @@
       ],
       "status_rationale": "The benchmark expects on page 128: Guards from across France converge in Paris, renew constitutional oaths with the king, and celebrate the Revolution's achievements. Canonical locator LOC-C42389BB0F00 under 'Feast of the Federation' is supported on that page: Document page 128 evidence for “Feast of the Federation”: “They culminated on 14 July, the ﬁrst anniversary of the fall of the Bastille, in a gigantic ‘Feast of the Federation’ held in the Champ de Mars on the western outskirts of Paris.”",
       "matched_path_id": "PATH-1F7307123562",
-      "matched_locator_id": "LOC-C42389BB0F00"
+      "matched_locator_id": "LOC-C42389BB0F00",
+      "matched_path_ids": [
+        "PATH-1F7307123562"
+      ],
+      "matched_locator_ids": [
+        "LOC-C42389BB0F00"
+      ]
     },
     {
       "treatment_id": "TREAT-C1FBA7CF075C",
@@ -11649,7 +12378,13 @@
       ],
       "status_rationale": "The benchmark expects on page 122: The crowds at Versailles secure his assent and compel the royal family's departure for Paris. Canonical locator LOC-830AE6DB2C05 under 'Louis XVI > relocation to Paris (October Days)' is supported on that page: Document page 122 evidence for “Louis XVI > relocation to Paris (October Days)”: “Louis XVI never returned to Versailles.” “Nevertheless in the history of the Revolution the ‘October Days’ were decisive.”",
       "matched_path_id": "PATH-810DD7F62E39",
-      "matched_locator_id": "LOC-830AE6DB2C05"
+      "matched_locator_id": "LOC-830AE6DB2C05",
+      "matched_path_ids": [
+        "PATH-810DD7F62E39"
+      ],
+      "matched_locator_ids": [
+        "LOC-830AE6DB2C05"
+      ]
     },
     {
       "treatment_id": "TREAT-C2104CFF5D45",
@@ -11663,7 +12398,13 @@
       ],
       "status_rationale": "The benchmark expects on page 126: Standard communal institutions replace diverse revolutionary and old-regime arrangements. Canonical locator LOC-3570D6F25CAD under 'municipal revolution' is supported on that page: Document page 126 says the diverse interim governments created by the July 1789 municipal revolutions were replaced by a uniform elected communal structure.",
       "matched_path_id": "PATH-41016214E2AD",
-      "matched_locator_id": "LOC-3570D6F25CAD"
+      "matched_locator_id": "LOC-3570D6F25CAD",
+      "matched_path_ids": [
+        "PATH-41016214E2AD"
+      ],
+      "matched_locator_ids": [
+        "LOC-3570D6F25CAD"
+      ]
     },
     {
       "treatment_id": "TREAT-C34969657B77",
@@ -11677,7 +12418,15 @@
       ],
       "status_rationale": "The benchmark expects on page 116: They recruit d'Aiguillon and time the proposal for a favourable sitting chaired by Le Chapelier. Canonical locator LOC-4F1347C6A07B under 'August Decrees (Night of 4 August 1789)' is supported on that page: Document page 116 evidence for “August Decrees (Night of 4 August 1789)”: “They timed his intervention for the evening of Tuesday 4 August when they expected a thin attendance in the chamber, but when the radical Breton Le Chapelier would be in the chair.”",
       "matched_path_id": "PATH-786EA06412ED",
-      "matched_locator_id": "LOC-4F1347C6A07B"
+      "matched_locator_id": "LOC-4F1347C6A07B",
+      "matched_path_ids": [
+        "PATH-786EA06412ED",
+        "PATH-F1E26D38AA52"
+      ],
+      "matched_locator_ids": [
+        "LOC-42D3D5B6EA36",
+        "LOC-4F1347C6A07B"
+      ]
     },
     {
       "treatment_id": "TREAT-C4C603AC7948",
@@ -11691,7 +12440,13 @@
       ],
       "status_rationale": "The benchmark expects on page 125: Uniform departments, districts, and communes replace the former territorial diversity. Canonical locator LOC-078EB1A0D37C under 'National Guard > as instrument of order and martial law' is supported on that page: Document page 125 evidence for “National Guard > as instrument of order and martial law”: “Public order was the responsibility of local administrative, not judicial, authorities, and the sole instrument of coercion at their disposal was the National Guard.”",
       "matched_path_id": "PATH-3513334DB41B",
-      "matched_locator_id": "LOC-078EB1A0D37C"
+      "matched_locator_id": "LOC-078EB1A0D37C",
+      "matched_path_ids": [
+        "PATH-3513334DB41B"
+      ],
+      "matched_locator_ids": [
+        "LOC-078EB1A0D37C"
+      ]
     },
     {
       "treatment_id": "TREAT-C57CBA263730",
@@ -11705,7 +12460,13 @@
       ],
       "status_rationale": "The benchmark expects on page 135: The author concludes that unprecedented events generated most first-year reforms rather than merely revealing a settled national design. Canonical locator LOC-CBA580F042F9 under 'Reform' is supported on that page: Document page 135 evidence for “Reform”: “Most of the reforms carried out or sanctioned by the Constituent Assembly, in other words, were the product of the revolutionary process itself.”",
       "matched_path_id": "PATH-25F01B2E38A0",
-      "matched_locator_id": "LOC-CBA580F042F9"
+      "matched_locator_id": "LOC-CBA580F042F9",
+      "matched_path_ids": [
+        "PATH-25F01B2E38A0"
+      ],
+      "matched_locator_ids": [
+        "LOC-CBA580F042F9"
+      ]
     },
     {
       "treatment_id": "TREAT-C676ABEB183D",
@@ -11719,7 +12480,13 @@
       ],
       "status_rationale": "The benchmark expects on page 131: Babeuf turns a regional collapse in indirect-tax receipts into a self-conscious petition campaign and is arrested. Canonical locator LOC-15657E7E9026 under 'Babeuf, François-Noël (Gracchus)' is supported on that page: Document page 131 evidence for “Babeuf, François-Noël (Gracchus)”: “In Picardy, where such activities were responsible for an 80 per cent drop in the yield of indirect taxes, resistance was organized in the spring of 1790 into a self-conscious petitioning movement against indirect …”",
       "matched_path_id": "PATH-0FD2CCB083FA",
-      "matched_locator_id": "LOC-15657E7E9026"
+      "matched_locator_id": "LOC-15657E7E9026",
+      "matched_path_ids": [
+        "PATH-0FD2CCB083FA"
+      ],
+      "matched_locator_ids": [
+        "LOC-15657E7E9026"
+      ]
     },
     {
       "treatment_id": "TREAT-C7299638DB2D",
@@ -11733,7 +12500,13 @@
       ],
       "status_rationale": "The benchmark expects on page 119: Accountability, legal guarantees, and separation of powers specify institutional consequences of the new sovereignty. Canonical locator LOC-027D259E0E74 under 'separation of powers' is supported on that page: Document page 119 evidence for “separation of powers”: “‘Any society’, article XVI speciﬁes, ‘in which the guarantee of rights is not assured or the separation of powers not determined has no constitution.’ And equality before the law meant the end of privilege.”",
       "matched_path_id": "PATH-AB053AD29A6C",
-      "matched_locator_id": "LOC-027D259E0E74"
+      "matched_locator_id": "LOC-027D259E0E74",
+      "matched_path_ids": [
+        "PATH-AB053AD29A6C"
+      ],
+      "matched_locator_ids": [
+        "LOC-027D259E0E74"
+      ]
     },
     {
       "treatment_id": "TREAT-C73253429733",
@@ -11747,7 +12520,13 @@
       ],
       "status_rationale": "The benchmark expects on page 132: The Assembly accepts Necker's extraordinary income levy without initially checking declarations, and collections fall far short over its intended life. Canonical locator LOC-05AF35054F2B under 'patriotic contribution' is supported on that page: Document page 132 evidence for “patriotic contribution”: “Late in September he proposed an unprecedented nonrecurring ‘Patriotic contribution’ of a quarter of every citizen’s income, payable in cash or valuables.”",
       "matched_path_id": "PATH-4E5A6C1DFDD9",
-      "matched_locator_id": "LOC-05AF35054F2B"
+      "matched_locator_id": "LOC-05AF35054F2B",
+      "matched_path_ids": [
+        "PATH-4E5A6C1DFDD9"
+      ],
+      "matched_locator_ids": [
+        "LOC-05AF35054F2B"
+      ]
     },
     {
       "treatment_id": "TREAT-C82E097CB858",
@@ -11761,7 +12540,13 @@
       ],
       "status_rationale": "The benchmark expects on page 126: Martial-law legislation formalizes municipal recourse to the Guard against crowds. Canonical locator LOC-AA1FACE1C294 under 'National Guard > as instrument of order and martial law' is supported on that page: Document page 126 evidence for “National Guard > as instrument of order and martial law”: “They were then empowered to call out the National Guard and order it to ﬁre on crowds or demonstrators who refused to disperse.” “It permitted municipal authorities to proclaim martial law, indicating their decision by deploying red ﬂags.”",
       "matched_path_id": "PATH-3513334DB41B",
-      "matched_locator_id": "LOC-AA1FACE1C294"
+      "matched_locator_id": "LOC-AA1FACE1C294",
+      "matched_path_ids": [
+        "PATH-3513334DB41B"
+      ],
+      "matched_locator_ids": [
+        "LOC-AA1FACE1C294"
+      ]
     },
     {
       "treatment_id": "TREAT-CB80F7C4A2D7",
@@ -11787,7 +12572,13 @@
       ],
       "status_rationale": "The benchmark expects on page 123: The October Days prompt another departure of great nobles and army officers who read the move from Versailles as the end of royal resistance. Canonical locator LOC-8DFF4D082CCD under 'nobility > emigration of' is supported on that page: Document page 123 records a new emigration wave among great nobles and army officers after the October Days.",
       "matched_path_id": "PATH-62F189A0D234",
-      "matched_locator_id": "LOC-8DFF4D082CCD"
+      "matched_locator_id": "LOC-8DFF4D082CCD",
+      "matched_path_ids": [
+        "PATH-62F189A0D234"
+      ],
+      "matched_locator_ids": [
+        "LOC-8DFF4D082CCD"
+      ]
     },
     {
       "treatment_id": "TREAT-CC36213FA5E0",
@@ -11801,7 +12592,15 @@
       ],
       "status_rationale": "The benchmark expects on page 123: Montesquieu's principle is used to constrain ministers and keep the executive dependent on the legislature. Canonical locator LOC-EE4D5A512408 under 'separation of powers' is supported on that page: Document page 123 evidence for “separation of powers”: “This was entirely in accord with the separation of powers principle derived from Montesquieu and set out in the Declaration of the Rights of Man and the Citizen as one of the criteria of …”",
       "matched_path_id": "PATH-AB053AD29A6C",
-      "matched_locator_id": "LOC-EE4D5A512408"
+      "matched_locator_id": "LOC-EE4D5A512408",
+      "matched_path_ids": [
+        "PATH-15FDB66F5A52",
+        "PATH-AB053AD29A6C"
+      ],
+      "matched_locator_ids": [
+        "LOC-A2ED6369AA9C",
+        "LOC-EE4D5A512408"
+      ]
     },
     {
       "treatment_id": "TREAT-CDC7AFFED847",
@@ -11815,7 +12614,13 @@
       ],
       "status_rationale": "The benchmark expects on page 128: Self-funded uniforms, active-citizen eligibility, loyalty oaths, and officer links remove poorer and uncertain members and promote a common outlook. Canonical locator LOC-51DEBFDDBBFD under 'National Guard > membership and 'active' citizenship' is supported on that page: Document page 128 evidence for “National Guard > membership and 'active' citizenship”: “Over the spring of 1790 regional rallies of National Guards, or ‘federations’, began to be held.” “Membership was also conﬁned to active citizens, and repeated oaths of loyalty to the nation, the law, and the constitution were demanded.”",
       "matched_path_id": "PATH-E0B26C3051FC",
-      "matched_locator_id": "LOC-51DEBFDDBBFD"
+      "matched_locator_id": "LOC-51DEBFDDBBFD",
+      "matched_path_ids": [
+        "PATH-E0B26C3051FC"
+      ],
+      "matched_locator_ids": [
+        "LOC-51DEBFDDBBFD"
+      ]
     },
     {
       "treatment_id": "TREAT-CEB28C7C175D",
@@ -11829,7 +12634,13 @@
       ],
       "status_rationale": "The benchmark expects on page 131: Debt remains the unresolved cause of the Estates-General while tax resistance undermines the new revenue system. Canonical locator LOC-9052A1AEB680 under 'state > finances and debt' is supported on that page: Document page 131 evidence for “state > finances and debt”: “The deputies did not forget that what had forced the convocation of the future National Assembly was the scale of the State’s debts.” “The debt was, as Mirabeau put it, a ‘national treasure’, and it must be honoured.”",
       "matched_path_id": "PATH-DEFC45639461",
-      "matched_locator_id": "LOC-9052A1AEB680"
+      "matched_locator_id": "LOC-9052A1AEB680",
+      "matched_path_ids": [
+        "PATH-DEFC45639461"
+      ],
+      "matched_locator_ids": [
+        "LOC-9052A1AEB680"
+      ]
     },
     {
       "treatment_id": "TREAT-CEE806BC58E9",
@@ -11843,7 +12654,13 @@
       ],
       "status_rationale": "The benchmark expects on page 123: The Assembly follows to a site near the Tuileries, leaving national authorities vulnerable to repeated Parisian intervention. Canonical locator LOC-349502E33E51 under 'National Assembly > relocation to Paris (October Days)' is supported on that page: Document page 123 evidence for “National Assembly > relocation to Paris (October Days)”: “the National Assembly followed him there, and by November was established in a converted riding-school a stone’s throw from the Tuileries.” “Only some of the monarchiens thought all was already lost—although they included Mounier, who, though president of the National Assembly during the October Days, now slipped away home to Dauphiné to preach the dangers …”",
       "matched_path_id": "PATH-1B9B3830CD6E",
-      "matched_locator_id": "LOC-349502E33E51"
+      "matched_locator_id": "LOC-349502E33E51",
+      "matched_path_ids": [
+        "PATH-1B9B3830CD6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-349502E33E51"
+      ]
     },
     {
       "treatment_id": "TREAT-D12B16ABBB5E",
@@ -11857,7 +12674,13 @@
       ],
       "status_rationale": "The benchmark expects on page 124: Deputies reinforce executive-legislative separation by excluding current legislators from ministerial office. Canonical locator LOC-80C8E0C49197 under 'Constitution of 1791 > features and drafting' is supported on that page: Document page 124 evidence for “Constitution of 1791 > features and drafting”: “Future Legislative Assemblies, as the successors to the Constituent were to be called, were to contain 745 seats and sit for two years.”",
       "matched_path_id": "PATH-15FDB66F5A52",
-      "matched_locator_id": "LOC-80C8E0C49197"
+      "matched_locator_id": "LOC-80C8E0C49197",
+      "matched_path_ids": [
+        "PATH-15FDB66F5A52"
+      ],
+      "matched_locator_ids": [
+        "LOC-80C8E0C49197"
+      ]
     },
     {
       "treatment_id": "TREAT-D6B8F1A92F57",
@@ -11871,7 +12694,13 @@
       ],
       "status_rationale": "The benchmark expects on page 134: Revised deficit figures destroy his remaining credibility, and he resigns after the Assembly embraces expanding assignat finance. Canonical locator LOC-68E376F8E153 under 'Necker, Jacques > financial management and reforms > opposition to nationalization and assignats' is supported on that page: Document page 134 evidence for “Necker, Jacques > financial management and reforms > opposition to nationalization and assignats”: “The ﬁrst to fail this test of patriotism was Necker himself.” “The deputies claimed to be following the cahiers in their reforming work.” “Assignats were, then, not strictly paper money at all at the start.”",
       "matched_path_id": "PATH-57A189C62E1A",
-      "matched_locator_id": "LOC-68E376F8E153"
+      "matched_locator_id": "LOC-68E376F8E153",
+      "matched_path_ids": [
+        "PATH-57A189C62E1A"
+      ],
+      "matched_locator_ids": [
+        "LOC-68E376F8E153"
+      ]
     },
     {
       "treatment_id": "TREAT-D89FEA0CE2B2",
@@ -11885,7 +12714,13 @@
       ],
       "status_rationale": "The benchmark expects on page 119: Deputies believe the king must freely associate himself with both landmark texts but confront the implications of allowing refusal. Canonical locator LOC-6FA6AC2AF062 under 'royal veto' is supported on that page: Document page 119 evidence for “royal veto”: “Admirers of the checks and balances of the British constitution dominated the Assembly’s constitutional committee, and they believed that the king should have the same powers of veto as the British monarch.”",
       "matched_path_id": "PATH-138FB7C38903",
-      "matched_locator_id": "LOC-6FA6AC2AF062"
+      "matched_locator_id": "LOC-6FA6AC2AF062",
+      "matched_path_ids": [
+        "PATH-138FB7C38903"
+      ],
+      "matched_locator_ids": [
+        "LOC-6FA6AC2AF062"
+      ]
     },
     {
       "treatment_id": "TREAT-D9830FD45C3B",
@@ -11899,7 +12734,13 @@
       ],
       "status_rationale": "The benchmark expects on page 135: Despite elite opposition, nobles also contribute disproportionately to legislative work, qualifying any simple account of class rejection. Canonical locator LOC-D2196FF854D7 under 'nobility > legislative and political activity' is supported on that page: Document page 135 evidence for “nobility > legislative and political activity”: “Nobles, clerics, and oﬃce-holders all played parts quite disproportionate to their numbers in the Assembly’s legislative activity.”",
       "matched_path_id": "PATH-9D73F3946E1A",
-      "matched_locator_id": "LOC-D2196FF854D7"
+      "matched_locator_id": "LOC-D2196FF854D7",
+      "matched_path_ids": [
+        "PATH-9D73F3946E1A"
+      ],
+      "matched_locator_ids": [
+        "LOC-D2196FF854D7"
+      ]
     },
     {
       "treatment_id": "TREAT-DDD6A267E2F2",
@@ -11925,7 +12766,13 @@
       ],
       "status_rationale": "The benchmark expects on page 113: Committees assume or supervise municipal power, arrange grain supplies, and create militias to contain unrest and defend the patriotic cause. Canonical locator LOC-61B96C9762D6 under 'militias' is supported on that page: Document page 113 evidence for “militias”: “Feeble though it was, the citizens’ militia was the only public force patriots trusted, and it needed to be reliably led and organized in these formative days.”",
       "matched_path_id": "PATH-9B8CDF06D79C",
-      "matched_locator_id": "LOC-61B96C9762D6"
+      "matched_locator_id": "LOC-61B96C9762D6",
+      "matched_path_ids": [
+        "PATH-9B8CDF06D79C"
+      ],
+      "matched_locator_ids": [
+        "LOC-61B96C9762D6"
+      ]
     },
     {
       "treatment_id": "TREAT-DEB7265D7E7E",
@@ -11939,7 +12786,13 @@
       ],
       "status_rationale": "The benchmark expects on page 115: Breton deputies conclude that a dramatic concession is needed because appeals for calm will not end rural disorder. Canonical locator LOC-CAC9C6458CCE under 'Breton Club' is supported on that page: Document page 115 says Brittany’s deputies held regular coordinating meetings that were becoming known as the Breton Club.",
       "matched_path_id": "PATH-F1E26D38AA52",
-      "matched_locator_id": "LOC-CAC9C6458CCE"
+      "matched_locator_id": "LOC-CAC9C6458CCE",
+      "matched_path_ids": [
+        "PATH-F1E26D38AA52"
+      ],
+      "matched_locator_ids": [
+        "LOC-CAC9C6458CCE"
+      ]
     },
     {
       "treatment_id": "TREAT-DEF08ADF816A",
@@ -11953,7 +12806,13 @@
       ],
       "status_rationale": "The benchmark expects on page 116: The session expands from feudal claims to privileges of courts, offices, towns, provinces, and public employments. Canonical locator LOC-FBA53C06FF46 under 'Privilege' is supported on that page: Document page 116 evidence for “Privilege”: “In the small hours the session developed into a general assault on privileges of all sorts.”",
       "matched_path_id": "PATH-926DABC75F37",
-      "matched_locator_id": "LOC-FBA53C06FF46"
+      "matched_locator_id": "LOC-FBA53C06FF46",
+      "matched_path_ids": [
+        "PATH-926DABC75F37"
+      ],
+      "matched_locator_ids": [
+        "LOC-FBA53C06FF46"
+      ]
     },
     {
       "treatment_id": "TREAT-DF6B3690B686",
@@ -11967,7 +12826,15 @@
       ],
       "status_rationale": "The benchmark expects on page 112: Lafayette's citizens' militia receives the National Guard name and a national tricolour emblem. Canonical locator LOC-687766649149 under 'Lafayette, Gilbert du Motier, Marquis de > National Guard command' is supported on that page: Document page 112 evidence for “Lafayette, Gilbert du Motier, Marquis de > National Guard command”: “Later in the month Lafayette would splice them with Bourbon white for the uniform of his National Guardsmen, and so the patriotic tricolour was born.” “He also conﬁrmed the nomination of Bailly as mayor of Paris (a new title) and Lafayette as commander of the new citizens’ militia, now being called the National Guard.”",
       "matched_path_id": "PATH-68E3FA1F8CBB",
-      "matched_locator_id": "LOC-687766649149"
+      "matched_locator_id": "LOC-687766649149",
+      "matched_path_ids": [
+        "PATH-68E3FA1F8CBB",
+        "PATH-DE8CB69B7C5C"
+      ],
+      "matched_locator_ids": [
+        "LOC-320C11F46B99",
+        "LOC-687766649149"
+      ]
     },
     {
       "treatment_id": "TREAT-E0CE67F85E09",
@@ -11982,7 +12849,13 @@
       ],
       "status_rationale": "The frozen treatment on page 126 is reached by supported locator LOC-6350C8F3F674 under the specific path Desmoulins, Camille.",
       "matched_path_id": "PATH-877EB7C3EF39",
-      "matched_locator_id": "LOC-6350C8F3F674"
+      "matched_locator_id": "LOC-6350C8F3F674",
+      "matched_path_ids": [
+        "PATH-877EB7C3EF39"
+      ],
+      "matched_locator_ids": [
+        "LOC-6350C8F3F674"
+      ]
     },
     {
       "treatment_id": "TREAT-E449515CDD80",
@@ -11996,7 +12869,13 @@
       ],
       "status_rationale": "The benchmark expects on page 116: Magistrates renounce office privileges and venality during the 4 August session. Canonical locator LOC-3B466888D6B4 under 'venality of office' is supported on that page: Document page 116 evidence for “venality of office”: “Magistrates abandoned the privileges of their oﬃces, declared for free justice, and raised no demur when venality of oﬃce, the basis of their tenure, was thrown on to the bonﬁre in turn.”",
       "matched_path_id": "PATH-6A1B70B1DBD9",
-      "matched_locator_id": "LOC-3B466888D6B4"
+      "matched_locator_id": "LOC-3B466888D6B4",
+      "matched_path_ids": [
+        "PATH-6A1B70B1DBD9"
+      ],
+      "matched_locator_ids": [
+        "LOC-3B466888D6B4"
+      ]
     },
     {
       "treatment_id": "TREAT-E549B2F26193",
@@ -12011,7 +12890,13 @@
       ],
       "status_rationale": "The frozen treatment on page 120 is reached by supported locator LOC-0E54832D664B under the specific path L'Ami du Peuple (newspaper).",
       "matched_path_id": "PATH-C8B99C062997",
-      "matched_locator_id": "LOC-0E54832D664B"
+      "matched_locator_id": "LOC-0E54832D664B",
+      "matched_path_ids": [
+        "PATH-C8B99C062997"
+      ],
+      "matched_locator_ids": [
+        "LOC-0E54832D664B"
+      ]
     },
     {
       "treatment_id": "TREAT-E68B42CFD497",
@@ -12025,7 +12910,13 @@
       ],
       "status_rationale": "The benchmark expects on page 125: New elected local government initially retains experienced officeholders but increasingly recruits merchants, petty tradesmen, and artisans. Canonical locator LOC-E13815BDB1E2 under 'lawyers' is supported on that page: Document page 125 evidence for “lawyers”: “In the earliest elections, it is true, considerable numbers of old regime oﬃce-holders and lawyers were returned, but even their experience oﬀered little guidance for the unprecedented duties that revolutionary legislation was to heap …”",
       "matched_path_id": "PATH-0B0190D8E668",
-      "matched_locator_id": "LOC-E13815BDB1E2"
+      "matched_locator_id": "LOC-E13815BDB1E2",
+      "matched_path_ids": [
+        "PATH-0B0190D8E668"
+      ],
+      "matched_locator_ids": [
+        "LOC-E13815BDB1E2"
+      ]
     },
     {
       "treatment_id": "TREAT-E6E4006E177B",
@@ -12039,7 +12930,13 @@
       ],
       "status_rationale": "The benchmark expects on page 131: Three direct taxes replace the old fiscal system, remove exemptions, and claim to distribute burdens by capacity. Canonical locator LOC-2EE3B819B5EE under 'Contribution foncière' is supported on that page: Document page 131 evidence for “Contribution foncière”: “In place of the old system the Assembly established three direct taxes: a land tax (contribution foncière), a tax on movables (contribution mobilière), and a commercial proﬁts tax (patente).”",
       "matched_path_id": "PATH-C781CBB9CD04",
-      "matched_locator_id": "LOC-2EE3B819B5EE"
+      "matched_locator_id": "LOC-2EE3B819B5EE",
+      "matched_path_ids": [
+        "PATH-C781CBB9CD04"
+      ],
+      "matched_locator_ids": [
+        "LOC-2EE3B819B5EE"
+      ]
     },
     {
       "treatment_id": "TREAT-E7386C692914",
@@ -12053,7 +12950,13 @@
       ],
       "status_rationale": "The benchmark expects on page 115: Attackers burn terriers and other records and destroy dovecotes, presses, ovens, and related markers of seigneurial authority. Canonical locator LOC-023D1B32BCF9 under 'Dauphiné > peasant manual attacks' is supported on that page: Document page 115 evidence for “Dauphiné > peasant manual attacks”: “began to refuse to pay both tithes and dues, considering themselves so permitted, they said, by the new law to come.’1 In other places they raided barns to repossess what had already been paid, …” “The attackers made for the symbols of feudalism— dovecotes, seigneurial ovens and wine-presses, weather-vanes.”",
       "matched_path_id": "PATH-5968AC21F71C",
-      "matched_locator_id": "LOC-023D1B32BCF9"
+      "matched_locator_id": "LOC-023D1B32BCF9",
+      "matched_path_ids": [
+        "PATH-5968AC21F71C"
+      ],
+      "matched_locator_ids": [
+        "LOC-023D1B32BCF9"
+      ]
     },
     {
       "treatment_id": "TREAT-E912D4920E6D",
@@ -12067,7 +12970,13 @@
       ],
       "status_rationale": "The benchmark expects on page 131: The Assembly abolishes a wide range of indirect levies, monopolies, fiscal courts, and private collection arrangements condemned in the cahiers. Canonical locator LOC-6D5F08C9EFB6 under 'indirect taxes' is supported on that page: Document page 131 evidence for “indirect taxes”: “The deputies failed to foresee what every bureaucrat instinctively knows: that direct taxes would be far harder to recover than indirect ones; especially when taxpaying rhythms had been disrupted by years of resistance and …”",
       "matched_path_id": "PATH-7A4EAB657A4D",
-      "matched_locator_id": "LOC-6D5F08C9EFB6"
+      "matched_locator_id": "LOC-6D5F08C9EFB6",
+      "matched_path_ids": [
+        "PATH-7A4EAB657A4D"
+      ],
+      "matched_locator_ids": [
+        "LOC-6D5F08C9EFB6"
+      ]
     },
     {
       "treatment_id": "TREAT-EA55F08DD96F",
@@ -12081,7 +12990,15 @@
       ],
       "status_rationale": "The benchmark expects on page 121: The king's qualified acceptance and refusal to promulgate the decrees deepen mistrust. Canonical locator LOC-C84A7FBFB72D under 'August Decrees (Night of 4 August 1789) > king's refusal to sanction' is supported on that page: Document page 121 evidence for “August Decrees (Night of 4 August 1789) > king's refusal to sanction”: “Encouraged by the security it seemed to promise, the king broke silence on the August decrees.” “They petitioned the king to promulgate the decree at once, without amendments.”",
       "matched_path_id": "PATH-246171893E3D",
-      "matched_locator_id": "LOC-C84A7FBFB72D"
+      "matched_locator_id": "LOC-C84A7FBFB72D",
+      "matched_path_ids": [
+        "PATH-246171893E3D",
+        "PATH-4A72B1752FDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-9C642D36955D",
+        "LOC-C84A7FBFB72D"
+      ]
     },
     {
       "treatment_id": "TREAT-EB42930E2A9D",
@@ -12095,7 +13012,13 @@
       ],
       "status_rationale": "The benchmark expects on page 126: Noble officers, crumbling discipline, and desertions make use of the army against crowds politically dangerous. Canonical locator LOC-21AD1EB66326 under 'French Army > discipline and collapse (1789-92)' is supported on that page: Document page 126 evidence for “French Army > discipline and collapse (1789-92)”: “The army was oﬃcered by nobles known for their unquestioning loyalty to the king; and although the discipline of the ranks had begun to crumble and desertions to soar over the summer, with even …” “municipal revolutions of July 1789.”",
       "matched_path_id": "PATH-1B4239CF160E",
-      "matched_locator_id": "LOC-21AD1EB66326"
+      "matched_locator_id": "LOC-21AD1EB66326",
+      "matched_path_ids": [
+        "PATH-1B4239CF160E"
+      ],
+      "matched_locator_ids": [
+        "LOC-21AD1EB66326"
+      ]
     },
     {
       "treatment_id": "TREAT-EC13EB73A3BD",
@@ -12109,7 +13032,13 @@
       ],
       "status_rationale": "The benchmark expects on page 113: Examples from Strasbourg, Rouen, and Rennes show varied urban disorder as revolutionary committees take power. Canonical locator LOC-181084E44323 under 'municipal revolution' is supported on that page: Document page 113 evidence for “municipal revolution”: “The self-appointed committees of this municipal revolution made it their ﬁrst priority to contain the eﬀervescence, and citizens’ militias were hurriedly set up everywhere.”",
       "matched_path_id": "PATH-41016214E2AD",
-      "matched_locator_id": "LOC-181084E44323"
+      "matched_locator_id": "LOC-181084E44323",
+      "matched_path_ids": [
+        "PATH-41016214E2AD"
+      ],
+      "matched_locator_ids": [
+        "LOC-181084E44323"
+      ]
     },
     {
       "treatment_id": "TREAT-ECCD7E439314",
@@ -12123,7 +13052,13 @@
       ],
       "status_rationale": "The benchmark expects on page 121: Rumours that royal guards dishonoured the national cockade intensify the crisis before the October Days. Canonical locator LOC-AB955F39815D under 'tricolour cockade' is supported on that page: Document page 121 evidence for “tricolour cockade”: “After many noisy toasts had been drunk, and none to the nation, the national cockade was said to have been trampled as the air rang with unpatriotic slogans.”",
       "matched_path_id": "PATH-7238568F832D",
-      "matched_locator_id": "LOC-AB955F39815D"
+      "matched_locator_id": "LOC-AB955F39815D",
+      "matched_path_ids": [
+        "PATH-7238568F832D"
+      ],
+      "matched_locator_ids": [
+        "LOC-AB955F39815D"
+      ]
     },
     {
       "treatment_id": "TREAT-EE49D1FD2C27",
@@ -12137,7 +13072,13 @@
       ],
       "status_rationale": "The benchmark expects on page 128: Continuing resistance to dues and use of seigneurial resources alarm landlords after the initial panic. Canonical locator LOC-2EA3D95A48EC under 'peasant resistance' is supported on that page: Document page 128 describes continuing rural refusals to pay dues and attacks on seigneurial woods, game parks, and remaining symbols of lordly power.",
       "matched_path_id": "PATH-E453843D953D",
-      "matched_locator_id": "LOC-2EA3D95A48EC"
+      "matched_locator_id": "LOC-2EA3D95A48EC",
+      "matched_path_ids": [
+        "PATH-E453843D953D"
+      ],
+      "matched_locator_ids": [
+        "LOC-2EA3D95A48EC"
+      ]
     },
     {
       "treatment_id": "TREAT-F14DB0BB24EB",
@@ -12151,7 +13092,13 @@
       ],
       "status_rationale": "The benchmark expects on page 117: The 11 August decree keeps most dues payable pending redemption, but widespread refusal makes peasants the effective agents of feudal destruction. Canonical locator LOC-DB975F207495 under 'feudalism' is supported on that page: Document page 117 evidence for “feudalism”: “But far more than feudalism had been cast aside on the night of 4 August.”",
       "matched_path_id": "PATH-5969A52B4960",
-      "matched_locator_id": "LOC-DB975F207495"
+      "matched_locator_id": "LOC-DB975F207495",
+      "matched_path_ids": [
+        "PATH-5969A52B4960"
+      ],
+      "matched_locator_ids": [
+        "LOC-DB975F207495"
+      ]
     },
     {
       "treatment_id": "TREAT-F1FE46BC3459",
@@ -12165,7 +13112,13 @@
       ],
       "status_rationale": "The benchmark expects on page 135: Implementation is disorderly, yet members of damaged elites contribute to legislation while millions welcome anti-feudal and fiscal reform and many citizens enter public life. Canonical locator LOC-CBA580F042F9 under 'Reform' is supported on that page: Document page 135 evidence for “Reform”: “Most of the reforms carried out or sanctioned by the Constituent Assembly, in other words, were the product of the revolutionary process itself.”",
       "matched_path_id": "PATH-25F01B2E38A0",
-      "matched_locator_id": "LOC-CBA580F042F9"
+      "matched_locator_id": "LOC-CBA580F042F9",
+      "matched_path_ids": [
+        "PATH-25F01B2E38A0"
+      ],
+      "matched_locator_ids": [
+        "LOC-CBA580F042F9"
+      ]
     },
     {
       "treatment_id": "TREAT-F22D75B85E6B",
@@ -12179,7 +13132,13 @@
       ],
       "status_rationale": "The benchmark expects on page 116: The 4 August session launches a broad attack on feudal rights and related privileges. Canonical locator LOC-60261A82A1C6 under 'feudalism' is supported on that page: Document page 116 evidence for “feudalism”: “The whole of feudalism, they thought, should be abolished in one grand gesture.”",
       "matched_path_id": "PATH-5969A52B4960",
-      "matched_locator_id": "LOC-60261A82A1C6"
+      "matched_locator_id": "LOC-60261A82A1C6",
+      "matched_path_ids": [
+        "PATH-5969A52B4960"
+      ],
+      "matched_locator_ids": [
+        "LOC-60261A82A1C6"
+      ]
     },
     {
       "treatment_id": "TREAT-F238DFCC3B3D",
@@ -12193,7 +13152,17 @@
       ],
       "status_rationale": "The benchmark expects on page 126: The Assembly places municipal militias under a national umbrella and relies on them because the royal army is politically suspect. Canonical locator LOC-AA1FACE1C294 under 'National Guard > as instrument of order and martial law' is supported on that page: Document page 126 evidence for “National Guard > as instrument of order and martial law”: “They were then empowered to call out the National Guard and order it to ﬁre on crowds or demonstrators who refused to disperse.” “It permitted municipal authorities to proclaim martial law, indicating their decision by deploying red ﬂags.”",
       "matched_path_id": "PATH-3513334DB41B",
-      "matched_locator_id": "LOC-AA1FACE1C294"
+      "matched_locator_id": "LOC-AA1FACE1C294",
+      "matched_path_ids": [
+        "PATH-3513334DB41B",
+        "PATH-68E3FA1F8CBB",
+        "PATH-DE8CB69B7C5C"
+      ],
+      "matched_locator_ids": [
+        "LOC-087E854B3B6A",
+        "LOC-388BAD3B818F",
+        "LOC-AA1FACE1C294"
+      ]
     },
     {
       "treatment_id": "TREAT-F239688AFF5B",
@@ -12207,7 +13176,13 @@
       ],
       "status_rationale": "The benchmark expects on page 127: The full-page map shows departmental boundaries, principal cities, the 1789 frontier, and later annexed areas. Canonical locator LOC-2C4F789F3E7E under 'departments (départements)' is supported on that page: Map 2 on document page 127 depicts the departments of revolutionary France, their boundaries, principal cities, and subsequently annexed territories.",
       "matched_path_id": "PATH-A821763EB4E7",
-      "matched_locator_id": "LOC-2C4F789F3E7E"
+      "matched_locator_id": "LOC-2C4F789F3E7E",
+      "matched_path_ids": [
+        "PATH-A821763EB4E7"
+      ],
+      "matched_locator_ids": [
+        "LOC-2C4F789F3E7E"
+      ]
     },
     {
       "treatment_id": "TREAT-F7A11B5C9307",
@@ -12221,7 +13196,13 @@
       ],
       "status_rationale": "The benchmark expects on page 121: The regiment's arrival, the royal banquet, and reported insults to the national cockade make Paris believe another counter-revolutionary and starvation plot is under way. Canonical locator LOC-F23B0A58B8ED under 'Flanders Regiment' is supported on that page: Document page 121 evidence for “Flanders Regiment”: “By now, however, Paris was alive with rumours about a reception given by the King’s bodyguard on 1 October to welcome the Flanders Regiment.”",
       "matched_path_id": "PATH-463B5BB7399E",
-      "matched_locator_id": "LOC-F23B0A58B8ED"
+      "matched_locator_id": "LOC-F23B0A58B8ED",
+      "matched_path_ids": [
+        "PATH-463B5BB7399E"
+      ],
+      "matched_locator_ids": [
+        "LOC-F23B0A58B8ED"
+      ]
     },
     {
       "treatment_id": "TREAT-FA63F88181DE",
@@ -12235,7 +13216,15 @@
       ],
       "status_rationale": "The benchmark expects on page 120: Most deputies adopt a temporary veto, partly after Necker signals it may secure sanction of the August decrees. Canonical locator LOC-5B3F6D48A1AA under 'veto, suspensive' is supported on that page: Document page 120 evidence for “veto, suspensive”: “Consequently the suspensive veto passed overwhelmingly (673 votes to 352) on 15 September.”",
       "matched_path_id": "PATH-02EAB2A822A4",
-      "matched_locator_id": "LOC-5B3F6D48A1AA"
+      "matched_locator_id": "LOC-5B3F6D48A1AA",
+      "matched_path_ids": [
+        "PATH-02EAB2A822A4",
+        "PATH-138FB7C38903"
+      ],
+      "matched_locator_ids": [
+        "LOC-5B3F6D48A1AA",
+        "LOC-98F74DAB959D"
+      ]
     },
     {
       "treatment_id": "TREAT-FAB231E779ED",
@@ -12249,7 +13238,15 @@
       ],
       "status_rationale": "The benchmark expects on page 132: Supporters deny independent corporate ownership, while opponents cite ancient institutional title and the Declaration's protection of property. Canonical locator LOC-54E8AE115816 under 'property rights' is supported on that page: Document page 132 evidence for “property rights”: “To secular arguments that the Church was merely a trustee administering its lands on behalf of the whole body of the faithful in France, and that since the clergy as an order no longer …”",
       "matched_path_id": "PATH-5285D59A1A0E",
-      "matched_locator_id": "LOC-54E8AE115816"
+      "matched_locator_id": "LOC-54E8AE115816",
+      "matched_path_ids": [
+        "PATH-4E8391484033",
+        "PATH-5285D59A1A0E"
+      ],
+      "matched_locator_ids": [
+        "LOC-54E8AE115816",
+        "LOC-5F421AA44FEC"
+      ]
     },
     {
       "treatment_id": "TREAT-FACA896F1187",
@@ -12263,7 +13260,13 @@
       ],
       "status_rationale": "The benchmark expects on page 130: Sacked tax gates and offices remain closed, collectors face threats, and the habit of payment breaks down. Canonical locator LOC-E19AE01B8FBB under 'taxation > resistance and evasion' is supported on that page: Document page 130 evidence for “taxation > resistance and evasion”: “Oﬃcials who tried to collect taxes were physically threatened or had their homes sacked, …” “The ﬁrst year of the Revolution also witnessed massive tax-evasion.”",
       "matched_path_id": "PATH-4CDC042DCF21",
-      "matched_locator_id": "LOC-E19AE01B8FBB"
+      "matched_locator_id": "LOC-E19AE01B8FBB",
+      "matched_path_ids": [
+        "PATH-4CDC042DCF21"
+      ],
+      "matched_locator_ids": [
+        "LOC-E19AE01B8FBB"
+      ]
     },
     {
       "treatment_id": "TREAT-FB05EB08511B",
@@ -12277,7 +13280,13 @@
       ],
       "status_rationale": "The benchmark expects on page 121: His qualified response to the August decrees and reservations about the Declaration renew suspicions of royal resistance. Canonical locator LOC-C84A7FBFB72D under 'August Decrees (Night of 4 August 1789) > king's refusal to sanction' is supported on that page: Document page 121 evidence for “August Decrees (Night of 4 August 1789) > king's refusal to sanction”: “Encouraged by the security it seemed to promise, the king broke silence on the August decrees.” “They petitioned the king to promulgate the decree at once, without amendments.”",
       "matched_path_id": "PATH-246171893E3D",
-      "matched_locator_id": "LOC-C84A7FBFB72D"
+      "matched_locator_id": "LOC-C84A7FBFB72D",
+      "matched_path_ids": [
+        "PATH-246171893E3D"
+      ],
+      "matched_locator_ids": [
+        "LOC-C84A7FBFB72D"
+      ]
     },
     {
       "treatment_id": "TREAT-FBC6635EF897",
@@ -12291,7 +13300,13 @@
       ],
       "status_rationale": "The benchmark expects on page 121: Bread protests and counter-revolutionary alarm bring armed women and other Parisians onto the road to Versailles. Canonical locator LOC-3D5F8651970B under 'October Days' is supported on that page: Document page 121 evidence for “October Days”: “Then on 4 October he voiced reservations about the Declaration of Rights.”",
       "matched_path_id": "PATH-4078D9FDECBB",
-      "matched_locator_id": "LOC-3D5F8651970B"
+      "matched_locator_id": "LOC-3D5F8651970B",
+      "matched_path_ids": [
+        "PATH-4078D9FDECBB"
+      ],
+      "matched_locator_ids": [
+        "LOC-3D5F8651970B"
+      ]
     },
     {
       "treatment_id": "TREAT-FBD699C8A77C",
@@ -12305,7 +13320,13 @@
       ],
       "status_rationale": "The benchmark expects on page 113: Offers of help from nobles and clergy are often rejected because they are associated with displaced authorities and suspect deputies. Canonical locator LOC-181084E44323 under 'municipal revolution' is supported on that page: Document page 113 evidence for “municipal revolution”: “The self-appointed committees of this municipal revolution made it their ﬁrst priority to contain the eﬀervescence, and citizens’ militias were hurriedly set up everywhere.”",
       "matched_path_id": "PATH-41016214E2AD",
-      "matched_locator_id": "LOC-181084E44323"
+      "matched_locator_id": "LOC-181084E44323",
+      "matched_path_ids": [
+        "PATH-41016214E2AD"
+      ],
+      "matched_locator_ids": [
+        "LOC-181084E44323"
+      ]
     },
     {
       "treatment_id": "TREAT-FCF34FF3138E",
@@ -12319,7 +13340,13 @@
       ],
       "status_rationale": "The benchmark expects on page 126: Paris's sixty districts are replaced by forty-eight sections, but the Cordeliers organization survives in the Théâtre-Français section. Canonical locator LOC-71274C6076C8 under 'Paris sections' is supported on that page: Document page 126 evidence for “Paris sections”: “It soon dominated the new section (Théâ tre-Français) as it had the old district, and by its activity was to show the other sections the way to continued inﬂuence in national as well as …”",
       "matched_path_id": "PATH-0C63FACA6CED",
-      "matched_locator_id": "LOC-71274C6076C8"
+      "matched_locator_id": "LOC-71274C6076C8",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED"
+      ],
+      "matched_locator_ids": [
+        "LOC-71274C6076C8"
+      ]
     },
     {
       "treatment_id": "TREAT-FDBD3CC74782",
@@ -12333,7 +13360,13 @@
       ],
       "status_rationale": "The benchmark expects on page 122: The marchers invade the Assembly, secure the king's assent, penetrate the palace, and force acceptance of the move to Paris. Canonical locator LOC-73585817BA3E under 'October Days' is supported on that page: Document page 122 evidence for “October Days”: “Nevertheless in the history of the Revolution the ‘October Days’ were decisive.”",
       "matched_path_id": "PATH-4078D9FDECBB",
-      "matched_locator_id": "LOC-73585817BA3E"
+      "matched_locator_id": "LOC-73585817BA3E",
+      "matched_path_ids": [
+        "PATH-4078D9FDECBB"
+      ],
+      "matched_locator_ids": [
+        "LOC-73585817BA3E"
+      ]
     },
     {
       "treatment_id": "TREAT-FE11B687B6C4",
@@ -12358,7 +13391,13 @@
       ],
       "status_rationale": "The benchmark expects on page 114: Granaries, outside merchants, unemployed travellers, and harvest fears are interpreted as evidence of a coordinated aristocratic attack. Canonical locator LOC-0646354822B8 under 'Great Fear' is supported on that page: Document page 114 evidence for “Great Fear”: “All this produced the ‘Great Fear’, a massive panic that swept whole provinces in the last weeks of July and left only the most peripheral regions untouched.”",
       "matched_path_id": "PATH-28FDB574E4E5",
-      "matched_locator_id": "LOC-0646354822B8"
+      "matched_locator_id": "LOC-0646354822B8",
+      "matched_path_ids": [
+        "PATH-28FDB574E4E5"
+      ],
+      "matched_locator_ids": [
+        "LOC-0646354822B8"
+      ]
     },
     {
       "treatment_id": "TREAT-FE56CA84CD27",
@@ -12372,7 +13411,13 @@
       ],
       "status_rationale": "The frozen treatment on page 112 is reached by supported locator LOC-E39246883399 under the specific path Flesselles, Jacques de.",
       "matched_path_id": "PATH-AFC86363AC0C",
-      "matched_locator_id": "LOC-E39246883399"
+      "matched_locator_id": "LOC-E39246883399",
+      "matched_path_ids": [
+        "PATH-AFC86363AC0C"
+      ],
+      "matched_locator_ids": [
+        "LOC-E39246883399"
+      ]
     },
     {
       "treatment_id": "TREAT-FF24E227A640",
@@ -12408,9 +13453,9 @@
     "reader_tasks_judged": 63,
     "reader_tasks_unique": true,
     "concept_coverage_counts": {
-      "complete": 55,
-      "partial": 19,
-      "missing": 13,
+      "complete": 58,
+      "partial": 27,
+      "missing": 2,
       "uninspectable": 0
     },
     "locator_recall": {

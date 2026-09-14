@@ -401,10 +401,10 @@
     {
       "subject_id": "SUBJ-0193A429E7E2",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "complete",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-542D81C64617",
         "PATH-819AB3AFF837"
@@ -418,9 +418,9 @@
         291
       ],
       "missed_document_pages": [],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "yes",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -457,16 +457,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-29212760E27F",
-            "EVID-790873B8CF57",
-            "EVID-DCB98E74F079",
-            "EVID-FFAC80E87147"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -478,10 +468,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "HED",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-29212760E27F",
         "EVID-790873B8CF57",
@@ -496,10 +483,10 @@
     {
       "subject_id": "SUBJ-0319FE3114D2",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "complete",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-3C3BE8055B13",
         "PATH-95E1A492F3C6"
@@ -515,9 +502,9 @@
         281
       ],
       "missed_document_pages": [],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "yes",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -556,18 +543,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-03B2894DB883",
-            "EVID-50EAE58F04C8",
-            "EVID-752647C60561",
-            "EVID-CE23CF956B80",
-            "EVID-EA4FB7231A55",
-            "EVID-F602A644FB72"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -581,10 +556,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "HED",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-03B2894DB883",
         "EVID-50EAE58F04C8",
@@ -601,10 +573,10 @@
     {
       "subject_id": "SUBJ-04661509BFF9",
       "priority": "essential",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-52E40FE3B2B0",
         "PATH-943B9E017CB4",
@@ -623,7 +595,7 @@
       "missed_document_pages": [],
       "severity": "critical",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -664,18 +636,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-0B75B0A30AE4",
-            "EVID-703DA83F9055",
-            "EVID-8D4C326CDDC8",
-            "EVID-983FDC64909A",
-            "EVID-AF688EA178E2",
-            "EVID-B3A4E22E7356"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -690,8 +650,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-0B75B0A30AE4",
@@ -1064,10 +1024,10 @@
     {
       "subject_id": "SUBJ-18A7D9381CC6",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-1876B66467DD",
         "PATH-52E40FE3B2B0"
@@ -1083,7 +1043,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -1118,16 +1078,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-153FD7C98648",
-            "EVID-440B90AB2555",
-            "EVID-8D4C326CDDC8",
-            "EVID-B5C303424F91"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -1140,8 +1090,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-153FD7C98648",
@@ -1239,10 +1189,10 @@
     {
       "subject_id": "SUBJ-18F97BFC5C24",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-05EBB3C19101",
         "PATH-139D5C8E19F4",
@@ -1264,7 +1214,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -1305,20 +1255,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-018B650DFE8C",
-            "EVID-0BE673EB4378",
-            "EVID-13F506EEB319",
-            "EVID-2022268CE6E8",
-            "EVID-7928D2139804",
-            "EVID-8D8AE92DC791",
-            "EVID-C600AC4A2F35",
-            "EVID-E498CB724D2D"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -1335,8 +1271,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-018B650DFE8C",
@@ -2046,10 +1982,10 @@
     {
       "subject_id": "SUBJ-46213BF91F8C",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-0C63FACA6CED",
         "PATH-9EF2ED7A2D6E"
@@ -2065,7 +2001,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -2102,16 +2038,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-02CC7119C09F",
-            "EVID-47AD704D6143",
-            "EVID-B7E0B2F4F01F",
-            "EVID-DBC9DD850BE8"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -2124,8 +2050,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-02CC7119C09F",
@@ -2950,10 +2876,10 @@
     {
       "subject_id": "SUBJ-7D5145B189E5",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-A4DCDE5F8AD7"
       ],
@@ -2966,7 +2892,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -2999,15 +2925,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-25208CD3BCC2",
-            "EVID-3D7F6840C473",
-            "EVID-8AB471F109F3"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -3019,8 +2936,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-25208CD3BCC2",
@@ -3694,10 +3611,10 @@
     {
       "subject_id": "SUBJ-988E59B69040",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-95F6BD419CAF",
         "PATH-E64AE183E436"
@@ -3715,7 +3632,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -3754,18 +3671,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-19FEDA9CB585",
-            "EVID-552107F5D5F7",
-            "EVID-5912017B48C9",
-            "EVID-6653EA315E25",
-            "EVID-732EB3654741",
-            "EVID-CBBD5845D547"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -3780,8 +3685,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-19FEDA9CB585",
@@ -4114,10 +4019,10 @@
     {
       "subject_id": "SUBJ-B5AE90A5922F",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-DB6D0D6866F1",
         "PATH-ED68FCC9B189"
@@ -4133,7 +4038,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -4170,16 +4075,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-063FF3608951",
-            "EVID-4185D58EFCC0",
-            "EVID-C7BAE9259B80",
-            "EVID-D4C96A923EBE"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -4192,8 +4087,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-063FF3608951",
@@ -4599,10 +4494,10 @@
     {
       "subject_id": "SUBJ-D91D4422F501",
       "priority": "optional",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "complete",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-F175C8D02D4F"
       ],
@@ -4613,9 +4508,9 @@
         277
       ],
       "missed_document_pages": [],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "yes",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -4648,14 +4543,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-0E11538D9449",
-            "EVID-FACFB823950C"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -4665,10 +4552,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "HED",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-0E11538D9449",
         "EVID-FACFB823950C"
@@ -4935,10 +4819,10 @@
     {
       "subject_id": "SUBJ-E8462D7A649A",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-2808CD626340",
         "PATH-64D7893D7626"
@@ -4954,7 +4838,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -4991,16 +4875,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-15222442401F",
-            "EVID-24F17F105057",
-            "EVID-49DEA1203735",
-            "EVID-DC575A94130E"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -5013,8 +4887,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-15222442401F",
@@ -5563,14 +5437,14 @@
         "SUBJ-8F236D7FD6BC",
         "SUBJ-D8CDA10906D6"
       ],
-      "result": "succeeds",
+      "result": "partially_succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-139D5C8E19F4",
         "PATH-81002488CDEF",
         "PATH-9EF2ED7A2D6E"
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-0BE673EB4378",
@@ -5692,13 +5566,13 @@
       "subject_ids": [
         "SUBJ-18A7D9381CC6"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-1876B66467DD",
         "PATH-52E40FE3B2B0"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-153FD7C98648",
@@ -5811,13 +5685,13 @@
       "subject_ids": [
         "SUBJ-46213BF91F8C"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-0C63FACA6CED",
         "PATH-9EF2ED7A2D6E"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-02CC7119C09F",
@@ -5880,13 +5754,13 @@
       "subject_ids": [
         "SUBJ-0193A429E7E2"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-542D81C64617",
         "PATH-819AB3AFF837"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
       "evidence_ids": [
         "EVID-29212760E27F",
@@ -5921,14 +5795,14 @@
       "subject_ids": [
         "SUBJ-04661509BFF9"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-52E40FE3B2B0",
         "PATH-943B9E017CB4",
         "PATH-AADF002CDA3D"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-0B75B0A30AE4",
@@ -6071,13 +5945,13 @@
       "subject_ids": [
         "SUBJ-B5AE90A5922F"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-DB6D0D6866F1",
         "PATH-ED68FCC9B189"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-063FF3608951",
@@ -6136,13 +6010,13 @@
       "subject_ids": [
         "SUBJ-B5AE90A5922F"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-DB6D0D6866F1",
         "PATH-ED68FCC9B189"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-063FF3608951",
@@ -6451,12 +6325,12 @@
       "subject_ids": [
         "SUBJ-D91D4422F501"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-F175C8D02D4F"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
       "evidence_ids": [
         "EVID-0E11538D9449",
@@ -6515,13 +6389,13 @@
       "subject_ids": [
         "SUBJ-0319FE3114D2"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-3C3BE8055B13",
         "PATH-95E1A492F3C6"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
       "evidence_ids": [
         "EVID-03B2894DB883",
@@ -6558,13 +6432,13 @@
       "subject_ids": [
         "SUBJ-18A7D9381CC6"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-1876B66467DD",
         "PATH-52E40FE3B2B0"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-153FD7C98648",
@@ -6661,13 +6535,13 @@
       "subject_ids": [
         "SUBJ-988E59B69040"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-95F6BD419CAF",
         "PATH-E64AE183E436"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-19FEDA9CB585",
@@ -6804,13 +6678,13 @@
       "subject_ids": [
         "SUBJ-46213BF91F8C"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-0C63FACA6CED",
         "PATH-9EF2ED7A2D6E"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-02CC7119C09F",
@@ -6952,13 +6826,13 @@
       "subject_ids": [
         "SUBJ-E8462D7A649A"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-2808CD626340",
         "PATH-64D7893D7626"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-15222442401F",
@@ -6973,13 +6847,13 @@
       "subject_ids": [
         "SUBJ-18A7D9381CC6"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-1876B66467DD",
         "PATH-52E40FE3B2B0"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-153FD7C98648",
@@ -7252,13 +7126,13 @@
       "subject_ids": [
         "SUBJ-988E59B69040"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-95F6BD419CAF",
         "PATH-E64AE183E436"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-19FEDA9CB585",
@@ -7275,14 +7149,14 @@
       "subject_ids": [
         "SUBJ-04661509BFF9"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-52E40FE3B2B0",
         "PATH-943B9E017CB4",
         "PATH-AADF002CDA3D"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-0B75B0A30AE4",
@@ -7339,12 +7213,12 @@
       "subject_ids": [
         "SUBJ-7D5145B189E5"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-A4DCDE5F8AD7"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-25208CD3BCC2",
@@ -7428,13 +7302,13 @@
       "subject_ids": [
         "SUBJ-0319FE3114D2"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-3C3BE8055B13",
         "PATH-95E1A492F3C6"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
       "evidence_ids": [
         "EVID-03B2894DB883",
@@ -7515,15 +7389,15 @@
       "subject_ids": [
         "SUBJ-18F97BFC5C24"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-05EBB3C19101",
         "PATH-139D5C8E19F4",
         "PATH-34E901179349",
         "PATH-AADF002CDA3D"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-018B650DFE8C",
@@ -7542,13 +7416,13 @@
       "subject_ids": [
         "SUBJ-0193A429E7E2"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-542D81C64617",
         "PATH-819AB3AFF837"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
       "evidence_ids": [
         "EVID-29212760E27F",
@@ -7564,7 +7438,7 @@
         "SUBJ-0193A429E7E2",
         "SUBJ-8840997908A6"
       ],
-      "result": "partially_succeeds",
+      "result": "succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-542D81C64617",
@@ -7572,7 +7446,7 @@
         "PATH-9B741D9BDF09",
         "PATH-A34404758FD3"
       ],
-      "severity": "minor",
+      "severity": "none",
       "confidence": "high",
       "evidence_ids": [
         "EVID-29212760E27F",
@@ -7871,7 +7745,7 @@
         "SUBJ-97A0D2EE14B9",
         "SUBJ-E22C9AF75BC5"
       ],
-      "result": "partially_succeeds",
+      "result": "succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-0495D7C41A0A",
@@ -7880,7 +7754,7 @@
         "PATH-95E1A492F3C6",
         "PATH-DB6D0D6866F1"
       ],
-      "severity": "minor",
+      "severity": "none",
       "confidence": "high",
       "evidence_ids": [
         "EVID-03B2894DB883",
@@ -8104,15 +7978,15 @@
       "subject_ids": [
         "SUBJ-18F97BFC5C24"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "partially_succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-05EBB3C19101",
         "PATH-139D5C8E19F4",
         "PATH-34E901179349",
         "PATH-AADF002CDA3D"
       ],
-      "severity": "major",
+      "severity": "minor",
       "confidence": "high",
       "evidence_ids": [
         "EVID-018B650DFE8C",
@@ -8282,12 +8156,12 @@
       "subject_ids": [
         "SUBJ-D91D4422F501"
       ],
-      "result": "fails",
-      "access_mode": "none",
+      "result": "succeeds",
+      "access_mode": "direct",
       "matched_path_ids": [
         "PATH-F175C8D02D4F"
       ],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
       "evidence_ids": [
         "EVID-0E11538D9449",
@@ -8309,7 +8183,17 @@
       ],
       "status_rationale": "The benchmark expects on page 283: An acquittal exposes details of Nantes repression, leading first to prosecution of the local committee and then to investigation of Carrier. Canonical locator LOC-D6B6D695C4DE under 'Nantes' is supported on that page: Page 283 states that sectional assemblies which supported the Jacobin line were mobbed by well-dressed rowdies who roughed up their leaders. And at this point, if any reminder was needed of what terror had been like, a group of alleged Federalists from Nantes came before the Revolutionary Tribunal and were acquitted. During their examination lurid details of the drownings at Nantes under Carrier emerged, enough to indict the members of the Nantes revolutionary committee who had been his collaborators and induce the Convention to establish an investigation of Carrier... This provides independently useful contextual evidence for Nantes.",
       "matched_path_id": "PATH-4BC7EBDB269E",
-      "matched_locator_id": "LOC-D6B6D695C4DE"
+      "matched_locator_id": "LOC-D6B6D695C4DE",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-4BC7EBDB269E",
+        "PATH-EDD1650AE19F"
+      ],
+      "matched_locator_ids": [
+        "LOC-860B48950507",
+        "LOC-A3ABF98A0D38",
+        "LOC-D6B6D695C4DE"
+      ]
     },
     {
       "treatment_id": "TREAT-008B8205B0B7",
@@ -8323,7 +8207,13 @@
       ],
       "status_rationale": "The benchmark expects on page 287: Restrictions first ease for selected occupational groups and then for outlawed Federalists as former governing committee members face indictment. Canonical locator LOC-F720F58272CD under 'émigrés > amnesty and return of' is supported on that page: Page 287 states that december and January saw the ﬁrst relaxation of the laws against emigration, with sailors, manual workers, and artisans being allowed to return to the country subject to certain provisos. This provides sustained evidence for émigrés > amnesty and return of.",
       "matched_path_id": "PATH-A55622493B71",
-      "matched_locator_id": "LOC-F720F58272CD"
+      "matched_locator_id": "LOC-F720F58272CD",
+      "matched_path_ids": [
+        "PATH-A55622493B71"
+      ],
+      "matched_locator_ids": [
+        "LOC-F720F58272CD"
+      ]
     },
     {
       "treatment_id": "TREAT-053310D08CAE",
@@ -8337,7 +8227,13 @@
       ],
       "status_rationale": "The benchmark expects on page 295: Louis XVII's death allows the Count of Provence to claim the throne as Louis XVIII. Canonical locator LOC-C99794D1D3EF under 'Louis XVII (Louis-Charles de France)' is supported on that page: Page 295 states that monarchist sentiment had clearly burgeoned during the economic distress of the spring, and perhaps some more conservative deputies hoped that Louis XVII, brought up by sound constitutionalists, might yet become an acceptable monarch. This provides sustained evidence for Louis XVII (Louis-Charles de France).",
       "matched_path_id": "PATH-1A46D8F1378F",
-      "matched_locator_id": "LOC-C99794D1D3EF"
+      "matched_locator_id": "LOC-C99794D1D3EF",
+      "matched_path_ids": [
+        "PATH-1A46D8F1378F"
+      ],
+      "matched_locator_ids": [
+        "LOC-C99794D1D3EF"
+      ]
     },
     {
       "treatment_id": "TREAT-05E689C5E596",
@@ -8352,7 +8248,13 @@
       ],
       "status_rationale": "The frozen treatment on page 286 is reached by supported locator LOC-F214E3FD71DB under the specific path Assignats > final collapse and replacement.",
       "matched_path_id": "PATH-2535B435F95C",
-      "matched_locator_id": "LOC-F214E3FD71DB"
+      "matched_locator_id": "LOC-F214E3FD71DB",
+      "matched_path_ids": [
+        "PATH-2535B435F95C"
+      ],
+      "matched_locator_ids": [
+        "LOC-F214E3FD71DB"
+      ]
     },
     {
       "treatment_id": "TREAT-060E3DD15996",
@@ -8366,7 +8268,13 @@
       ],
       "status_rationale": "The benchmark expects on page 289: Charette accepts broad guarantees covering worship, conscription, confiscated property, compensation, arms, and local order, while monarchy alone remains unconceded. Canonical locator LOC-695D55014461 under 'La Mabilais, Treaty of' is supported on that page: Page 289 states that all the Republic did not, and could not, concede to the rebels was the restoration of monarchy in the state within the state that it now recognized. No doubt the ‘blues’ believed that such generous terms were responsible for the previously intransigent Stoﬄet’s acceptance of similar ones for the Vendée bocage early in May, and their extension to the chouans of Brittany under the treaty of La This provides independently useful contextual evidence for La Mabilais, Treaty of.",
       "matched_path_id": "PATH-595EB3C0C568",
-      "matched_locator_id": "LOC-695D55014461"
+      "matched_locator_id": "LOC-695D55014461",
+      "matched_path_ids": [
+        "PATH-595EB3C0C568"
+      ],
+      "matched_locator_ids": [
+        "LOC-695D55014461"
+      ]
     },
     {
       "treatment_id": "TREAT-08866CBA7424",
@@ -8380,7 +8288,13 @@
       ],
       "status_rationale": "The benchmark expects on page 281: Doyle attributes his destructive isolation to suspicion, stress, certainty of personal rectitude, and an inability to tolerate independent judgment. Canonical locator LOC-CBBD5845D547 under 'Barère, Bertrand > Committee of Public Safety' is supported on that page: Page 281 states that when Barère, who tried on 29 July to dismiss the whole episode as ‘a disturbance which leaves the government unaﬀected’, proposed nominees to replace the three executed members of the Committee of Public Safety, his motion was defeated. This provides sustained evidence for Barère, Bertrand > Committee of Public Safety.",
       "matched_path_id": "PATH-95F6BD419CAF",
-      "matched_locator_id": "LOC-CBBD5845D547"
+      "matched_locator_id": "LOC-CBBD5845D547",
+      "matched_path_ids": [
+        "PATH-95F6BD419CAF"
+      ],
+      "matched_locator_ids": [
+        "LOC-CBBD5845D547"
+      ]
     },
     {
       "treatment_id": "TREAT-0B0A6CCC43FF",
@@ -8394,7 +8308,13 @@
       ],
       "status_rationale": "The benchmark expects on page 281: The Convention rejects simple replacement of the dead committee members and instead imposes regular turnover. Canonical locator LOC-063FF3608951 under 'Thermidor' is supported on that page: Page 281 states that thermidor, 1794–1795 281 7 noted the Irish political exile Hamilton Rowan, who watched the spectacle, ‘were guillotined in less than one hour and a half, in the Place de la Revolution; and though I was standing above a hundred paces from the place of execution, the blood of the victims streamed beneath my feet. What surprised me was, as each head fell into the basket, the cry of the people was no other than a repetition of “A bas le Maximum! This provides independently useful contextual evidence for Thermidor.",
       "matched_path_id": "PATH-DB6D0D6866F1",
-      "matched_locator_id": "LOC-063FF3608951"
+      "matched_locator_id": "LOC-063FF3608951",
+      "matched_path_ids": [
+        "PATH-DB6D0D6866F1"
+      ],
+      "matched_locator_ids": [
+        "LOC-063FF3608951"
+      ]
     },
     {
       "treatment_id": "TREAT-0BAC487BCB78",
@@ -8408,7 +8328,13 @@
       ],
       "status_rationale": "The benchmark expects on page 293: A mixed military force defeats the march, and a special commission executes dozens beyond those killed in the fighting. Canonical locator LOC-49DEA1203735 under 'sansculottes > decline and repression of' is supported on that page: Page 293 states that frantic women threw accusations of cowardice at their menfolk for not storming the Convention and insisting on more bread at whatever cost, while royalists continued to ﬁsh in these troubled waters by insinuating that only a king could restore abundance. As before the Germinal demonstration, however, it was the remnants of the sansculottes who were most listened to, and this time they began to organize themselves for a journée that would succeed. Sectional assemblies began to meet regularly, as in the old days, some declared themselves to be in... This provides independently useful contextual evidence for sansculottes > decline and repression of.",
       "matched_path_id": "PATH-64D7893D7626",
-      "matched_locator_id": "LOC-49DEA1203735"
+      "matched_locator_id": "LOC-49DEA1203735",
+      "matched_path_ids": [
+        "PATH-64D7893D7626"
+      ],
+      "matched_locator_ids": [
+        "LOC-49DEA1203735"
+      ]
     },
     {
       "treatment_id": "TREAT-0C0A059836EC",
@@ -8423,7 +8349,13 @@
       ],
       "status_rationale": "The frozen treatment on page 287 is reached by supported locator LOC-612024313F51 under the specific path Marat, Jean-Paul > posthumous cult and reaction.",
       "matched_path_id": "PATH-13C111D05758",
-      "matched_locator_id": "LOC-612024313F51"
+      "matched_locator_id": "LOC-612024313F51",
+      "matched_path_ids": [
+        "PATH-13C111D05758"
+      ],
+      "matched_locator_ids": [
+        "LOC-612024313F51"
+      ]
     },
     {
       "treatment_id": "TREAT-0C2589669FA1",
@@ -8437,7 +8369,13 @@
       ],
       "status_rationale": "The benchmark expects on page 274: The Indulgents are eliminated through vague political charges, converting moral and political suspicion into capital prosecution. Canonical locator LOC-42318E72E444 under 'Virtue' is supported on that page: Page 274 states that 3 He called for them to be put on trial. The motion, perhaps because Saint-Just emphasized that this was likely to be a ﬁnal cleansing of the body politic, passed virtually unopposed. The vagueness of Saint-Just’s denunciation was echoed in the charges made between 2 and 5 April when the East Indies conspirators, Desmoulins, Danton, and others—sixteen in all, including nine deputies— came on trial. This provides independently useful contextual evidence for Virtue.",
       "matched_path_id": "PATH-B6F9204A845E",
-      "matched_locator_id": "LOC-42318E72E444"
+      "matched_locator_id": "LOC-42318E72E444",
+      "matched_path_ids": [
+        "PATH-B6F9204A845E"
+      ],
+      "matched_locator_ids": [
+        "LOC-42318E72E444"
+      ]
     },
     {
       "treatment_id": "TREAT-1032BEAE0D84",
@@ -8451,7 +8389,15 @@
       ],
       "status_rationale": "The benchmark expects on page 284: In the provinces, released people and their allies take control of local institutions and imprison former persecutors. Canonical locator LOC-B43DC379335E under 'Thermidorians' is supported on that page: Page 284 states that 284 Thermidor, 1794–1795 to the Thermidorians, who now stepped up their anti-Jacobin pressure. Early in October Tallien founded a paper of his own, L’Ami du citoyen, while in the Convention Legendre once more moved the impeachment of Barère, Billaud, and Collot. This provides independently useful contextual evidence for Thermidorians.",
       "matched_path_id": "PATH-9EF2ED7A2D6E",
-      "matched_locator_id": "LOC-B43DC379335E"
+      "matched_locator_id": "LOC-B43DC379335E",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-9EF2ED7A2D6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-7F15A415FE94",
+        "LOC-B43DC379335E"
+      ]
     },
     {
       "treatment_id": "TREAT-107B471017F0",
@@ -8465,7 +8411,13 @@
       ],
       "status_rationale": "The benchmark expects on page 290: Additional Girondins return while bread protesters confront a legislature now increasingly associated with anti-sansculotte deputies. Canonical locator LOC-73B920BB2704 under 'Girondins' is supported on that page: Page 290 states that ’ Talk began to be heard at the same time, especially in the city’s east end, of a new uprising. Yet at the same moment the Convention was reintegrating surviving Girondins now out of hiding, such as Lanjuinais, Isnard, and Louvet, who had made their names denouncing the sansculottes. It was also trying the leading survivors of the government of the Terror: the impeachment of Barère, Billaud, Collot, and Vadier opened on 22 March. This provides independently useful contextual evidence for Girondins.",
       "matched_path_id": "PATH-FF4BD0B64D83",
-      "matched_locator_id": "LOC-73B920BB2704"
+      "matched_locator_id": "LOC-73B920BB2704",
+      "matched_path_ids": [
+        "PATH-FF4BD0B64D83"
+      ],
+      "matched_locator_ids": [
+        "LOC-73B920BB2704"
+      ]
     },
     {
       "treatment_id": "TREAT-1424AF4CBDB9",
@@ -8479,7 +8431,13 @@
       ],
       "status_rationale": "The benchmark expects on page 293: Sections resume regular and sometimes permanent meetings, an anonymous insurrectionary text supplies a program, and the tocsin launches the movement. Canonical locator LOC-B731AA27DE30 under 'People's Insurrection to Obtain Bread and Recover our Rights (pamphlet)' is supported on that page: Page 293 states that on the nineteenth the signal was given by the publication of an anonymous pamphlet entitled People’s Insurrection to Obtain Bread and Recover our Rights, and the next morning the familiar sound of the tocsin was heard in the eastern working districts north and south of the river. This provides sustained evidence for People's Insurrection to Obtain Bread and Recover our Rights (pamphlet).",
       "matched_path_id": "PATH-BCB2595D6CA7",
-      "matched_locator_id": "LOC-B731AA27DE30"
+      "matched_locator_id": "LOC-B731AA27DE30",
+      "matched_path_ids": [
+        "PATH-BCB2595D6CA7"
+      ],
+      "matched_locator_ids": [
+        "LOC-B731AA27DE30"
+      ]
     },
     {
       "treatment_id": "TREAT-1526EE7AF3A1",
@@ -8493,7 +8451,15 @@
       ],
       "status_rationale": "The benchmark expects on page 275: Doyle names Danton's death as the opening of the Republic of Virtue and immediately traces its centralizing and terrorizing institutions. Canonical locator LOC-8F791402C383 under 'Republic of Virtue' is supported on that page: Page 275 states that ’ Danton’s death marked the inauguration of a Republic of Virtue. This provides sustained evidence for Republic of Virtue.",
       "matched_path_id": "PATH-F019E55CCBF7",
-      "matched_locator_id": "LOC-8F791402C383"
+      "matched_locator_id": "LOC-8F791402C383",
+      "matched_path_ids": [
+        "PATH-B6F9204A845E",
+        "PATH-F019E55CCBF7"
+      ],
+      "matched_locator_ids": [
+        "LOC-56F85D37C9F9",
+        "LOC-8F791402C383"
+      ]
     },
     {
       "treatment_id": "TREAT-1A984747AA7F",
@@ -8507,7 +8473,13 @@
       ],
       "status_rationale": "The benchmark expects on page 282: After repeal of Prairial and restructuring of the tribunal, Paris executions fall abruptly, demonstrating the institutional break. Canonical locator LOC-AF688EA178E2 under 'Reign of Terror' is supported on that page: Page 282 states that on 1 August the remodelled committees carried the repeal of the Law of 22 Prairial, and on the tenth they purged the membership of the Revolutionary Tribunal, arresting Fouquier-Tinville. As a result the Terror collapsed. Only 6 people were guillotined in Paris in August, and only 40 more over the rest of the year. This provides independently useful contextual evidence for Reign of Terror.",
       "matched_path_id": "PATH-943B9E017CB4",
-      "matched_locator_id": "LOC-AF688EA178E2"
+      "matched_locator_id": "LOC-AF688EA178E2",
+      "matched_path_ids": [
+        "PATH-943B9E017CB4"
+      ],
+      "matched_locator_ids": [
+        "LOC-AF688EA178E2"
+      ]
     },
     {
       "treatment_id": "TREAT-1AA2FCB9D55C",
@@ -8521,7 +8493,13 @@
       ],
       "status_rationale": "The benchmark expects on page 281: Doyle weighs the late wage controls alongside poor preparation, political credulity, and popular willingness to accept another fallen idol as a scapegoat. Canonical locator LOC-565AF86FF80D under 'Paris Commune' is supported on that page: Page 281 states that even so, the imposition of the wage maximum by the Robespierrist commune only a few days before the crisis broke alienated ordinary Parisians at a crucial moment, and their notorious taste for scapegoats was satisﬁed by the destruction of Robespierre and his municipal henchmen. This provides sustained evidence for Paris Commune.",
       "matched_path_id": "PATH-2E609D05687C",
-      "matched_locator_id": "LOC-565AF86FF80D"
+      "matched_locator_id": "LOC-565AF86FF80D",
+      "matched_path_ids": [
+        "PATH-2E609D05687C"
+      ],
+      "matched_locator_ids": [
+        "LOC-565AF86FF80D"
+      ]
     },
     {
       "treatment_id": "TREAT-1AC7E96DF1BA",
@@ -8535,7 +8513,13 @@
       ],
       "status_rationale": "The benchmark expects on page 294: Armed insurgents enter after Feraud is killed, display his head, and combine subsistence demands with a broad restoration of democratic and popular institutions. Canonical locator LOC-3723C2B2F7C0 under 'Constitution of 1793 > as standard of rebellion' is supported on that page: Page 294 states that 294 Thermidor, 1794–1795 Guards from the Saint-Antoine and Saint-Marcel districts, and when the deputy Féraud and a group of colleagues tried to stop them entering the hall, he was shot. The crowd then hacked oﬀ his head and burst through the doors carrying it on a pike, to the sound of more shots and cries of Bread and the Constitution of 1793! And once inside, the insurgents demanded more: the release of imprisoned patriots, permanent sessions in the sections, reintegration of an independent Paris commune, compulsory food searches, the arrest of... This provides independently useful contextual evidence for Constitution of 1793 > as standard of rebellion.",
       "matched_path_id": "PATH-A34404758FD3",
-      "matched_locator_id": "LOC-3723C2B2F7C0"
+      "matched_locator_id": "LOC-3723C2B2F7C0",
+      "matched_path_ids": [
+        "PATH-A34404758FD3"
+      ],
+      "matched_locator_ids": [
+        "LOC-3723C2B2F7C0"
+      ]
     },
     {
       "treatment_id": "TREAT-1AF9101169C7",
@@ -8549,7 +8533,13 @@
       ],
       "status_rationale": "The benchmark expects on page 281: The newly imposed wage maximum helps alienate ordinary Parisians at the moment Robespierre's municipal allies need their support. Canonical locator LOC-66E786E2B4AB under 'wage maximum' is supported on that page: Page 281 states that even so, the imposition of the wage maximum by the Robespierrist commune only a few days before the crisis broke alienated ordinary Parisians at a crucial moment, and their notorious taste for scapegoats was satisﬁed by the destruction of Robespierre and his municipal henchmen. This provides sustained evidence for wage maximum.",
       "matched_path_id": "PATH-89F8671E4140",
-      "matched_locator_id": "LOC-66E786E2B4AB"
+      "matched_locator_id": "LOC-66E786E2B4AB",
+      "matched_path_ids": [
+        "PATH-89F8671E4140"
+      ],
+      "matched_locator_ids": [
+        "LOC-66E786E2B4AB"
+      ]
     },
     {
       "treatment_id": "TREAT-1AFD009A9693",
@@ -8563,7 +8553,17 @@
       ],
       "status_rationale": "The benchmark expects on page 283: Thermidorian rhetoric equates the club with Terror and Robespierre, while radical sections and club supporters face coordinated harassment. Canonical locator LOC-802D2FAE7A87 under 'Thermidorians' is supported on that page: Page 283 states that a whole range of right-wing papers mushroomed in Paris throughout August and September, leading to calls in the Convention and the Jacobin Club for a curb on their incitements. The ‘Thermidorians’, as Tallien, Fréron, and the others who had triumphed in that revolutionary month were now coming to be known, responded with a loud defence of press freedom. Those wishing to limit it were, they said (in the title of a pamphlet published late in August), Robespierre’s Tail, blood-drinkers who wanted a return of government by terror. This provides independently useful contextual evidence for Thermidorians.",
       "matched_path_id": "PATH-9EF2ED7A2D6E",
-      "matched_locator_id": "LOC-802D2FAE7A87"
+      "matched_locator_id": "LOC-802D2FAE7A87",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-81002488CDEF",
+        "PATH-9EF2ED7A2D6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-802D2FAE7A87",
+        "LOC-841FAE53C700",
+        "LOC-A3ABF98A0D38"
+      ]
     },
     {
       "treatment_id": "TREAT-1E75F8DAF2A9",
@@ -8577,7 +8577,13 @@
       ],
       "status_rationale": "The benchmark expects on page 275: Doyle identifies potential behavior and moral inadequacy as new grounds for death and links them to the Republic of Virtue. Canonical locator LOC-8D4C326CDDC8 under 'nobility > persecution and loss of rights' is supported on that page: Page 275 states that of the 2,639 people guillotined in the place de la Révolution between March 1793 and August 1794, over half, 1,515, died during June and July 1794. A far higher proportion of them, too, were from the upper ranks of society than in the Terror as a whole: 38 per cent of its noble victims and 26 per cent of its clerical ones were dispatched during this short phase, and almost half of those from the richer bourgeoisie. Never was the Terror closer to being an instrument of social discrimination rather than one punishing speciﬁc counter-revolutionary acts... This provides independently useful contextual evidence for nobility > persecution and loss of rights.",
       "matched_path_id": "PATH-52E40FE3B2B0",
-      "matched_locator_id": "LOC-8D4C326CDDC8"
+      "matched_locator_id": "LOC-8D4C326CDDC8",
+      "matched_path_ids": [
+        "PATH-52E40FE3B2B0"
+      ],
+      "matched_locator_ids": [
+        "LOC-8D4C326CDDC8"
+      ]
     },
     {
       "treatment_id": "TREAT-1EC7BF536B86",
@@ -8592,7 +8598,13 @@
       ],
       "status_rationale": "The frozen treatment on page 278 is reached by supported locator LOC-41184FCEA4BA under the specific path Fleurus, Battle of.",
       "matched_path_id": "PATH-CD403F8E4303",
-      "matched_locator_id": "LOC-41184FCEA4BA"
+      "matched_locator_id": "LOC-41184FCEA4BA",
+      "matched_path_ids": [
+        "PATH-CD403F8E4303"
+      ],
+      "matched_locator_ids": [
+        "LOC-41184FCEA4BA"
+      ]
     },
     {
       "treatment_id": "TREAT-1F1526E1162D",
@@ -8606,7 +8618,13 @@
       ],
       "status_rationale": "The benchmark expects on page 295: A special commission condemns deputies and other participants; Saint-Antoine surrenders arms, and mass arrests eliminate the remaining activist network. Canonical locator LOC-1B4A2022B96A under 'sansculottes > decline and repression of' is supported on that page: Page 295 states that they surrendered, and within days Féraud’s assassins had been guillotined. Nor did repression end there. The commission which condemned the Montagnard deputies also executed 36 others, among them the gunners who had gone over to the rebels on 21 May; perhaps 3,000 suspects were arrested by the Convention’s decree; and all the sections obediently disarmed or arrested dubious individuals whom they were invited to identify—almost another 3,000 persons in all. This provides independently useful contextual evidence for sansculottes > decline and repression of.",
       "matched_path_id": "PATH-64D7893D7626",
-      "matched_locator_id": "LOC-1B4A2022B96A"
+      "matched_locator_id": "LOC-1B4A2022B96A",
+      "matched_path_ids": [
+        "PATH-64D7893D7626"
+      ],
+      "matched_locator_ids": [
+        "LOC-1B4A2022B96A"
+      ]
     },
     {
       "treatment_id": "TREAT-1F1876767D65",
@@ -8620,7 +8638,15 @@
       ],
       "status_rationale": "The benchmark expects on page 273: Committee factions consider using Fabre's case to remove broader opponents of continued Terror, including Desmoulins and Danton. Canonical locator LOC-A145E9E08E33 under 'Desmoulins, Camille' is supported on that page: Page 273 states that the ﬁrst casualty of his obsession was Fabre d’Eglantine, whom he denounced in bitter terms at the Jacobins on 8 January. But in Robespierre’s eyes Fabre’s greed, duplicity, and corruption threw suspicion on his known associates, including leading Indulgents like Desmoulins; and loud-mouthed trimmers like Danton, whose persistent defence of Fabre suggested that he put his friends before patriotic principles. Shortly after outlining his ideal republic of virtue, Robespierre was taken ill and did not reappear in public for almost a month. This provides independently useful contextual evidence for Desmoulins, Camille.",
       "matched_path_id": "PATH-877EB7C3EF39",
-      "matched_locator_id": "LOC-A145E9E08E33"
+      "matched_locator_id": "LOC-A145E9E08E33",
+      "matched_path_ids": [
+        "PATH-8556A2625DED",
+        "PATH-877EB7C3EF39"
+      ],
+      "matched_locator_ids": [
+        "LOC-A145E9E08E33",
+        "LOC-C00758C33CE1"
+      ]
     },
     {
       "treatment_id": "TREAT-1FC76B9272C0",
@@ -8634,7 +8660,15 @@
       ],
       "status_rationale": "The benchmark expects on page 279: Robespierre's opponents prepare overnight after the Jacobins reject their defense and threaten a new Convention purge. Canonical locator LOC-53D833A74249 under 'Robespierre, Maximilien > arrest, fall, and execution' is supported on that page: Page 279 states that the Convention and the Jacobin Club were assured afterwards that, notwithstanding previous appearances to the contrary, France still had a united government. But at another joint meeting the next day, Robespierre reappeared for the ﬁrst time in almost a month and made bitter personal attacks on Billaud, Collot, Amar, and Vadier. He did endorse the new joint policies, but after his earlier outburst any truce could scarcely be expected to last. This provides independently useful contextual evidence for Robespierre, Maximilien > arrest, fall, and execution.",
       "matched_path_id": "PATH-3C3BE8055B13",
-      "matched_locator_id": "LOC-53D833A74249"
+      "matched_locator_id": "LOC-53D833A74249",
+      "matched_path_ids": [
+        "PATH-3C3BE8055B13",
+        "PATH-DB6D0D6866F1"
+      ],
+      "matched_locator_ids": [
+        "LOC-06C39B6DFE6D",
+        "LOC-53D833A74249"
+      ]
     },
     {
       "treatment_id": "TREAT-27734B6492AD",
@@ -8648,7 +8682,13 @@
       ],
       "status_rationale": "The benchmark expects on page 295: The ten-year-old claimant dies while some deputies may still hope for a constitutionally educated monarch, shifting the Bourbon claim to the Count of Provence. Canonical locator LOC-C99794D1D3EF under 'Louis XVII (Louis-Charles de France)' is supported on that page: Page 295 states that monarchist sentiment had clearly burgeoned during the economic distress of the spring, and perhaps some more conservative deputies hoped that Louis XVII, brought up by sound constitutionalists, might yet become an acceptable monarch. This provides sustained evidence for Louis XVII (Louis-Charles de France).",
       "matched_path_id": "PATH-1A46D8F1378F",
-      "matched_locator_id": "LOC-C99794D1D3EF"
+      "matched_locator_id": "LOC-C99794D1D3EF",
+      "matched_path_ids": [
+        "PATH-1A46D8F1378F"
+      ],
+      "matched_locator_ids": [
+        "LOC-C99794D1D3EF"
+      ]
     },
     {
       "treatment_id": "TREAT-279209FB1DB5",
@@ -8662,7 +8702,13 @@
       ],
       "status_rationale": "The benchmark expects on page 288: The Republic's withdrawal from financing any cult ends official recognition of a religion closely identified with Robespierre. Canonical locator LOC-4BFBE2964B65 under 'Cult of the Supreme Being' is supported on that page: Page 288 states that it meant the end of state recognition for the Supreme Being, a cult too closely identiﬁed with Robespierre. This provides sustained evidence for Cult of the Supreme Being.",
       "matched_path_id": "PATH-288031039572",
-      "matched_locator_id": "LOC-4BFBE2964B65"
+      "matched_locator_id": "LOC-4BFBE2964B65",
+      "matched_path_ids": [
+        "PATH-288031039572"
+      ],
+      "matched_locator_ids": [
+        "LOC-4BFBE2964B65"
+      ]
     },
     {
       "treatment_id": "TREAT-27D20B81551B",
@@ -8676,7 +8722,13 @@
       ],
       "status_rationale": "The benchmark expects on page 291: Roughly ten thousand enter the hall but lack coordination and clear demands; even remaining Montagnards urge withdrawal before western forces arrive. Canonical locator LOC-FFAC80E87147 under 'Germinal Uprising (1795)' is supported on that page: Page 291 states that the institutions necessary for that had been pulverized twelve months previously, and their lack would eventually doom the movement now gathering momentum. But on 1 April (12 Germinal) days of disturbance culminated in about 10,000 people, mostly from eastern Paris, marching on the Convention and swamping the Muscadins who had been assembled to stop them. They poured into the hall calling for bread and the constitution of 1793, milling about, and impeding all debate for about four hours. This provides independently useful contextual evidence for Germinal Uprising (1795).",
       "matched_path_id": "PATH-819AB3AFF837",
-      "matched_locator_id": "LOC-FFAC80E87147"
+      "matched_locator_id": "LOC-FFAC80E87147",
+      "matched_path_ids": [
+        "PATH-819AB3AFF837"
+      ],
+      "matched_locator_ids": [
+        "LOC-FFAC80E87147"
+      ]
     },
     {
       "treatment_id": "TREAT-29422F81EA42",
@@ -8690,7 +8742,13 @@
       ],
       "status_rationale": "The benchmark expects on page 285: Carrier identifies the Convention's own orders as the source of his conduct, but his execution lets the body create an individual example. Canonical locator LOC-0BE673EB4378 under 'National Convention > Thermidorian Reaction and dissolution' is supported on that page: Page 285 states that but the ultimate symbol of reaction, for both capital and departments, was not so much the closure of the Jacobins as the fate of that supreme provincial terrorist, Carrier. On 23 November he was sent to the Revolutionary Tribunal, protesting to the last that he had only been obeying the Convention’s own orders at Nantes, and that the whole body was guilty ‘down to the president’s bell’. It availed him nothing. This provides independently useful contextual evidence for National Convention > Thermidorian Reaction and dissolution.",
       "matched_path_id": "PATH-139D5C8E19F4",
-      "matched_locator_id": "LOC-0BE673EB4378"
+      "matched_locator_id": "LOC-0BE673EB4378",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4"
+      ],
+      "matched_locator_ids": [
+        "LOC-0BE673EB4378"
+      ]
     },
     {
       "treatment_id": "TREAT-30168432F206",
@@ -8704,7 +8762,15 @@
       ],
       "status_rationale": "The benchmark expects on page 273: Robespierre's campaign against corruption turns an ideal of virtue into a program of political cleansing. Canonical locator LOC-4EE82925E956 under 'Robespierre, Maximilien > Republic of Virtue' is supported on that page: Page 273 states that shortly after outlining his ideal republic of virtue, Robespierre was taken ill and did not reappear in public for almost a month. This provides sustained evidence for Robespierre, Maximilien > Republic of Virtue.",
       "matched_path_id": "PATH-9E4C6405ACB3",
-      "matched_locator_id": "LOC-4EE82925E956"
+      "matched_locator_id": "LOC-4EE82925E956",
+      "matched_path_ids": [
+        "PATH-9E4C6405ACB3",
+        "PATH-B6F9204A845E"
+      ],
+      "matched_locator_ids": [
+        "LOC-4EE82925E956",
+        "LOC-7DCBC359A3C8"
+      ]
     },
     {
       "treatment_id": "TREAT-318D5F7B085A",
@@ -8718,7 +8784,13 @@
       ],
       "status_rationale": "The benchmark expects on page 295: Mass disarmament and arrest after Prairial finally destroy the organized popular movement, even though authorities continue to monitor former members. Canonical locator LOC-EACD6EAA279B under 'Uprising of Prairial (1795)' is supported on that page: Page 295 states that six were condemned to death, but four cheated the guillotine by stabbing themselves as they were led from the court, in what they appear to have planned in advance as an ultimate act of exemplary patriotic deﬁance. By then, too, they knew about the vengeance visited on those they had sought to lead on 1 Prairial. The very day after the confrontation of 21 May, the Convention gave orders to surround the entire Saint-Antoine district. This provides independently useful contextual evidence for Uprising of Prairial (1795).",
       "matched_path_id": "PATH-9B741D9BDF09",
-      "matched_locator_id": "LOC-EACD6EAA279B"
+      "matched_locator_id": "LOC-EACD6EAA279B",
+      "matched_path_ids": [
+        "PATH-9B741D9BDF09"
+      ],
+      "matched_locator_ids": [
+        "LOC-EACD6EAA279B"
+      ]
     },
     {
       "treatment_id": "TREAT-31AAB5BE274F",
@@ -8732,7 +8804,15 @@
       ],
       "status_rationale": "The benchmark expects on page 285: Although the Convention initially extends the Maximum, widespread evasion and falling assignat value undermine confidence in controls. Canonical locator LOC-6BC6951DC5A9 under 'Maximum, Law of the General > abolition and aftermath' is supported on that page: Page 285 states that on 7 September, as the brief Jacobin revival was beginning, the Convention extended the Law of the Maximum for another year, signalling its intention of keeping the economy under control. This provides sustained evidence for Maximum, Law of the General > abolition and aftermath.",
       "matched_path_id": "PATH-32F2D77E286E",
-      "matched_locator_id": "LOC-6BC6951DC5A9"
+      "matched_locator_id": "LOC-6BC6951DC5A9",
+      "matched_path_ids": [
+        "PATH-1A751302E438",
+        "PATH-32F2D77E286E"
+      ],
+      "matched_locator_ids": [
+        "LOC-6BC6951DC5A9",
+        "LOC-9F43EE68EE47"
+      ]
     },
     {
       "treatment_id": "TREAT-32AA57FBB2BD",
@@ -8746,7 +8826,13 @@
       ],
       "status_rationale": "The benchmark expects on page 285: Carrier argues that he obeyed Convention policy; Doyle finds the defense partly fair but shows how his execution establishes a model for sacrificial blame. Canonical locator LOC-0BE673EB4378 under 'National Convention > Thermidorian Reaction and dissolution' is supported on that page: Page 285 states that but the ultimate symbol of reaction, for both capital and departments, was not so much the closure of the Jacobins as the fate of that supreme provincial terrorist, Carrier. On 23 November he was sent to the Revolutionary Tribunal, protesting to the last that he had only been obeying the Convention’s own orders at Nantes, and that the whole body was guilty ‘down to the president’s bell’. It availed him nothing. This provides independently useful contextual evidence for National Convention > Thermidorian Reaction and dissolution.",
       "matched_path_id": "PATH-139D5C8E19F4",
-      "matched_locator_id": "LOC-0BE673EB4378"
+      "matched_locator_id": "LOC-0BE673EB4378",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4"
+      ],
+      "matched_locator_ids": [
+        "LOC-0BE673EB4378"
+      ]
     },
     {
       "treatment_id": "TREAT-356902D80945",
@@ -8760,7 +8846,15 @@
       ],
       "status_rationale": "The benchmark expects on page 295: Leading deputies deem the document unworkable, and its use as an insurrectionary standard makes comprehensive constitutional revision unavoidable. Canonical locator LOC-92E82FCA0FA2 under 'Constitution of 1793 > as standard of rebellion' is supported on that page: Page 295 states that already in February leading deputies had agreed that it would be completely unworkable and needed total revision—and now it was also a standard of rebellion. This provides sustained evidence for Constitution of 1793 > as standard of rebellion.",
       "matched_path_id": "PATH-A34404758FD3",
-      "matched_locator_id": "LOC-92E82FCA0FA2"
+      "matched_locator_id": "LOC-92E82FCA0FA2",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-A34404758FD3"
+      ],
+      "matched_locator_ids": [
+        "LOC-739D42633932",
+        "LOC-92E82FCA0FA2"
+      ]
     },
     {
       "treatment_id": "TREAT-36A00117EDE0",
@@ -8774,7 +8868,13 @@
       ],
       "status_rationale": "The benchmark expects on page 280: The Convention mobilizes around denunciations of tyranny after Robespierre's broad threats leave deputies uncertain who is safe. Canonical locator LOC-F602A644FB72 under 'Robespierre, Maximilien > arrest, fall, and execution' is supported on that page: Page 280 states that 280 Thermidor, 1794–1795 growing factionalism of the preceding weeks, unexpectedly came out for Robespierre. Billaud denounced him in the name of the Committee of Public Safety, and Tallien from the ﬂoor. This provides independently useful contextual evidence for Robespierre, Maximilien > arrest, fall, and execution.",
       "matched_path_id": "PATH-3C3BE8055B13",
-      "matched_locator_id": "LOC-F602A644FB72"
+      "matched_locator_id": "LOC-F602A644FB72",
+      "matched_path_ids": [
+        "PATH-3C3BE8055B13"
+      ],
+      "matched_locator_ids": [
+        "LOC-F602A644FB72"
+      ]
     },
     {
       "treatment_id": "TREAT-37EB8DE66F12",
@@ -8788,7 +8888,13 @@
       ],
       "status_rationale": "The benchmark expects on page 277: Robespierre heads the Paris procession and gives civic-religious addresses, prompting colleagues to read ceremonial prominence as a claim to mastery. Canonical locator LOC-EA0E33F681EC under 'Cult of the Supreme Being' is supported on that page: Page 277 states that at Orléans, as well as in Paris, the Festival of the Supreme Being took place to cries of Vive Robespierre. This provides sustained evidence for Cult of the Supreme Being.",
       "matched_path_id": "PATH-288031039572",
-      "matched_locator_id": "LOC-EA0E33F681EC"
+      "matched_locator_id": "LOC-EA0E33F681EC",
+      "matched_path_ids": [
+        "PATH-288031039572"
+      ],
+      "matched_locator_ids": [
+        "LOC-EA0E33F681EC"
+      ]
     },
     {
       "treatment_id": "TREAT-3802D74B8E17",
@@ -8803,7 +8909,13 @@
       ],
       "status_rationale": "The frozen treatment on page 294 is reached by supported locator LOC-01FB8606F238 under the specific path National Guard > role in major journées > Prairial (1795).",
       "matched_path_id": "PATH-17279898E888",
-      "matched_locator_id": "LOC-01FB8606F238"
+      "matched_locator_id": "LOC-01FB8606F238",
+      "matched_path_ids": [
+        "PATH-17279898E888"
+      ],
+      "matched_locator_ids": [
+        "LOC-01FB8606F238"
+      ]
     },
     {
       "treatment_id": "TREAT-3BDA39AC8435",
@@ -8817,7 +8929,13 @@
       ],
       "status_rationale": "The benchmark expects on page 292: Reports of reaction farther west prompt Toulon workers to mobilize under pro-Mountain slogans. Canonical locator LOC-24F17F105057 under 'Toulon' is supported on that page: Page 292 states that a week later 60 prisoners perished similarly in Aix, 24 in Tarascon on 25 May, and on 5 June a further 100 were dispatched in Marseilles, with the open connivance of a representative on mission. At Toulon, whose naval activity soon restored patriotic zeal after its recapture from the British, rumours of reactionary anarchy further west led the arsenal workers to organize a pro-Jacobin march on Marseilles to cries of Vive la Montagne! Thousands set out on 17 May, but a week later they were dispersed by a mixed force of regular troops and National... This provides independently useful contextual evidence for Toulon.",
       "matched_path_id": "PATH-2808CD626340",
-      "matched_locator_id": "LOC-24F17F105057"
+      "matched_locator_id": "LOC-24F17F105057",
+      "matched_path_ids": [
+        "PATH-2808CD626340"
+      ],
+      "matched_locator_ids": [
+        "LOC-24F17F105057"
+      ]
     },
     {
       "treatment_id": "TREAT-3EE5110FB413",
@@ -8831,7 +8949,15 @@
       ],
       "status_rationale": "The benchmark expects on page 276: The remade Commune prepares restrictive wage tables, invokes anti-combination law, and threatens wage campaigners with military discipline. Canonical locator LOC-5A5E25D332BB under 'wages' is supported on that page: Page 276 states that yet the new rates, when they were ﬁnally published on 23 July, imposed substantial cuts in the earnings of most workers. During the early 1790s many had seen their wages double or treble as the value of the assignat plummeted, and the 50 per cent above 1790 levels permitted under the maximum fell far short of what they were now making. Nor did they have any eﬀective vehicles of protest by then. This provides independently useful contextual evidence for wages.",
       "matched_path_id": "PATH-047C95B722B9",
-      "matched_locator_id": "LOC-5A5E25D332BB"
+      "matched_locator_id": "LOC-5A5E25D332BB",
+      "matched_path_ids": [
+        "PATH-047C95B722B9",
+        "PATH-89F8671E4140"
+      ],
+      "matched_locator_ids": [
+        "LOC-4E0EF8138781",
+        "LOC-5A5E25D332BB"
+      ]
     },
     {
       "treatment_id": "TREAT-4228E4B8EA13",
@@ -8845,7 +8971,13 @@
       ],
       "status_rationale": "The benchmark expects on page 291: Post-Germinal measures identify former revolutionary activists as enemies and release a wave of provincial counter-terror. Canonical locator LOC-E7E2D2105A4D under 'White Terror' is supported on that page: Page 291 states that the Convention appointed General Pichegru, fresh from victories in the Netherlands, to co-ordinate all forces of law and order in the capital. Then, to emphasize its deﬁance and no doubt give vent to pent-up tensions, it delivered its verdict on the four impeached terrorists. By acclamation Barère, Billaud, and Collot (and Vadier in his absence) were condemned to deportation. This provides independently useful contextual evidence for White Terror.",
       "matched_path_id": "PATH-E109A8752CF2",
-      "matched_locator_id": "LOC-E7E2D2105A4D"
+      "matched_locator_id": "LOC-E7E2D2105A4D",
+      "matched_path_ids": [
+        "PATH-E109A8752CF2"
+      ],
+      "matched_locator_ids": [
+        "LOC-E7E2D2105A4D"
+      ]
     },
     {
       "treatment_id": "TREAT-42602E819B03",
@@ -8859,7 +8991,13 @@
       ],
       "status_rationale": "The frozen treatment on page 293 is reached by supported locator LOC-9BA8E5C125CB under the specific path White Terror.",
       "matched_path_id": "PATH-E109A8752CF2",
-      "matched_locator_id": "LOC-9BA8E5C125CB"
+      "matched_locator_id": "LOC-9BA8E5C125CB",
+      "matched_path_ids": [
+        "PATH-E109A8752CF2"
+      ],
+      "matched_locator_ids": [
+        "LOC-9BA8E5C125CB"
+      ]
     },
     {
       "treatment_id": "TREAT-45E1A931D848",
@@ -8873,7 +9011,13 @@
       ],
       "status_rationale": "The benchmark expects on page 288: The law permits all cults to worship privately at their own expense while retaining strict limits on public religious display; services resume quickly in Paris and Brittany. Canonical locator LOC-150B57F48C67 under 'religious freedom' is supported on that page: Page 288 states that the tone of the law was grudging, and it was introduced with much gratuitous denigration of priestcraft and superstition. Religion was deﬁned as a private aﬀair, and local authorities were forbidden to lend it any recognition or support. All outward signs of religious aﬃliation in the form of priestly dress, ceremonies, or church bells remained strictly forbidden. This provides independently useful contextual evidence for religious freedom.",
       "matched_path_id": "PATH-B978269CC447",
-      "matched_locator_id": "LOC-150B57F48C67"
+      "matched_locator_id": "LOC-150B57F48C67",
+      "matched_path_ids": [
+        "PATH-B978269CC447"
+      ],
+      "matched_locator_ids": [
+        "LOC-150B57F48C67"
+      ]
     },
     {
       "treatment_id": "TREAT-481007C8BCD0",
@@ -8887,7 +9031,13 @@
       ],
       "status_rationale": "The benchmark expects on page 276: Sections have been incorporated into government and the Commune pressures popular societies into dissolving, leaving workers without effective collective vehicles. Canonical locator LOC-B79ADF42FBAA under 'Paris sections' is supported on that page: Page 276 states that nor did they have any eﬀective vehicles of protest by then. The sections had been absorbed into the governmental machine, and throughout April and May the commune had harried the popular societies into oblivion. By the beginning of June most had announced their own dissolution. This provides independently useful contextual evidence for Paris sections.",
       "matched_path_id": "PATH-0C63FACA6CED",
-      "matched_locator_id": "LOC-B79ADF42FBAA"
+      "matched_locator_id": "LOC-B79ADF42FBAA",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED"
+      ],
+      "matched_locator_ids": [
+        "LOC-B79ADF42FBAA"
+      ]
     },
     {
       "treatment_id": "TREAT-4A259B871253",
@@ -8901,7 +9051,17 @@
       ],
       "status_rationale": "The benchmark expects on page 284: Membership publication and correspondence bans disable the affiliate network; violent attacks on the Paris hall are followed by official closure. Canonical locator LOC-CB671C869BDF under 'political clubs > Thermidorian reaction and closures' is supported on that page: Page 284 states that instead of punishing the attackers, it ordered the closure of the Jacobin Club as an incitement to public disorder, and a potential rival to itself. This provides sustained evidence for political clubs > Thermidorian reaction and closures.",
       "matched_path_id": "PATH-81002488CDEF",
-      "matched_locator_id": "LOC-CB671C869BDF"
+      "matched_locator_id": "LOC-CB671C869BDF",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-81002488CDEF",
+        "PATH-9EF2ED7A2D6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-7F15A415FE94",
+        "LOC-B43DC379335E",
+        "LOC-CB671C869BDF"
+      ]
     },
     {
       "treatment_id": "TREAT-4AE1356E663E",
@@ -8915,7 +9075,13 @@
       ],
       "status_rationale": "The benchmark expects on page 275: The law expands the tribunal, nearly eliminates witnesses and counsel, makes death the sole sentence, and leaves a very broad class exposed as enemies of the people. Canonical locator LOC-744C0964A634 under 'Prairial, Law of 22 (10 June 1794)' is supported on that page: Page 275 states that by the Law of 22 Prairial (10 June) the number of judges and jurors was increased, witnesses were virtually dispensed with, and accused persons were deprived of defending counsel. This provides sustained evidence for Prairial, Law of 22 (10 June 1794).",
       "matched_path_id": "PATH-16BACEC20952",
-      "matched_locator_id": "LOC-744C0964A634"
+      "matched_locator_id": "LOC-744C0964A634",
+      "matched_path_ids": [
+        "PATH-16BACEC20952"
+      ],
+      "matched_locator_ids": [
+        "LOC-744C0964A634"
+      ]
     },
     {
       "treatment_id": "TREAT-4C94CD9196F8",
@@ -8929,7 +9095,15 @@
       ],
       "status_rationale": "The benchmark expects on page 275: The absence of reliable evidence about a concrete offense supports Doyle's interpretation of the proceeding as preventive political elimination. Canonical locator LOC-675A419BA084 under 'Danton, Georges-Jacques > arrest, trial, and execution' is supported on that page: Page 275 states that the eﬀect on the character of the Terror was immediate. Executions, which had declined sharply between January and March, and risen again in April with a new burst of repression in the Vendée, fell back somewhat in May; but from early June began to climb markedly once more. Most of the victims of the renewed rise perished in Paris. This provides independently useful contextual evidence for Danton, Georges-Jacques > arrest, trial, and execution.",
       "matched_path_id": "PATH-8556A2625DED",
-      "matched_locator_id": "LOC-675A419BA084"
+      "matched_locator_id": "LOC-675A419BA084",
+      "matched_path_ids": [
+        "PATH-8556A2625DED",
+        "PATH-872A9DC14B03"
+      ],
+      "matched_locator_ids": [
+        "LOC-675A419BA084",
+        "LOC-F0936584AB44"
+      ]
     },
     {
       "treatment_id": "TREAT-4DA5AA96B6D0",
@@ -8943,7 +9117,13 @@
       ],
       "status_rationale": "The benchmark expects on page 289: The Vendee agreement explicitly guarantees religious freedom alongside security and exemption concessions. Canonical locator LOC-4D6DFCBB6B8F under 'religious freedom' is supported on that page: Page 289 states that early in February Charette, whose bands dominated the Vendée lowlands, concluded the paciﬁcation of Lajaunye, under which the rebels agreed to stop their operations in return for a guarantee of religious freedom, no reprisals, and exemption of the region from conscription laws. This provides sustained evidence for religious freedom.",
       "matched_path_id": "PATH-B978269CC447",
-      "matched_locator_id": "LOC-4D6DFCBB6B8F"
+      "matched_locator_id": "LOC-4D6DFCBB6B8F",
+      "matched_path_ids": [
+        "PATH-B978269CC447"
+      ],
+      "matched_locator_ids": [
+        "LOC-4D6DFCBB6B8F"
+      ]
     },
     {
       "treatment_id": "TREAT-52038A85330C",
@@ -8957,7 +9137,15 @@
       ],
       "status_rationale": "The benchmark expects on page 287: A later commission indicts surviving committee leaders as the political reaction becomes too strong for continued protection. Canonical locator LOC-8D8AE92DC791 under 'Paris > Terror and reaction (1792-95)' is supported on that page: Page 287 states that on this pretext, the bones of a number of other martyrs of the Year II were also ejected. By now, in fact, the tide of reaction was ﬂowing too strongly for the Convention to make any further pretence of standing against it. December and January saw the ﬁrst relaxation of the laws against emigration, with sailors, manual workers, and artisans being allowed to return to the country subject to certain provisos. This provides independently useful contextual evidence for Paris > Terror and reaction (1792-95).",
       "matched_path_id": "PATH-34E901179349",
-      "matched_locator_id": "LOC-8D8AE92DC791"
+      "matched_locator_id": "LOC-8D8AE92DC791",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-34E901179349"
+      ],
+      "matched_locator_ids": [
+        "LOC-0C2E0F1474FB",
+        "LOC-8D8AE92DC791"
+      ]
     },
     {
       "treatment_id": "TREAT-527A49A2BCB1",
@@ -8971,7 +9159,15 @@
       ],
       "status_rationale": "The benchmark expects on page 273: Amar's delayed reports move Fabre and associates toward trial while Robespierre criticizes a merely financial framing of the affair. Canonical locator LOC-8AEE8A21D92E under 'Indies Company scandal' is supported on that page: Page 273 states that during this time Hébertist machinations dominated the political agenda; and Amar, the member of the Committee of General Security deputed to report on the Indies Company scandal so that the accused could be brought to trial, proved curiously dilatory in reporting his conclusions. This provides sustained evidence for Indies Company scandal.",
       "matched_path_id": "PATH-25BD7F66D386",
-      "matched_locator_id": "LOC-8AEE8A21D92E"
+      "matched_locator_id": "LOC-8AEE8A21D92E",
+      "matched_path_ids": [
+        "PATH-25BD7F66D386",
+        "PATH-B7FED32DF7F1"
+      ],
+      "matched_locator_ids": [
+        "LOC-70F5ABB27089",
+        "LOC-8AEE8A21D92E"
+      ]
     },
     {
       "treatment_id": "TREAT-534C0824AC1F",
@@ -8985,7 +9181,13 @@
       ],
       "status_rationale": "The frozen treatment on page 285 is reached by supported locator LOC-3DEEF18DC58B under the specific path Assignats > decline and inflation.",
       "matched_path_id": "PATH-B7FF3EADEB1B",
-      "matched_locator_id": "LOC-3DEEF18DC58B"
+      "matched_locator_id": "LOC-3DEEF18DC58B",
+      "matched_path_ids": [
+        "PATH-B7FF3EADEB1B"
+      ],
+      "matched_locator_ids": [
+        "LOC-3DEEF18DC58B"
+      ]
     },
     {
       "treatment_id": "TREAT-57432780EC7A",
@@ -8999,7 +9201,13 @@
       ],
       "status_rationale": "The benchmark expects on page 278: Daily mass executions sustain pervasive fear among deputies even as military conditions improve. Canonical locator LOC-703DA83F9055 under 'Barère, Bertrand > and Reign of Terror' is supported on that page: Page 278 states that as many as sixty deputies, it was said, were afraid to sleep in their own beds at night. And yet it was becoming increasingly clear that terror was no longer necessary in order to win the war. The British had failed on 1 June to prevent a major grain convey from arriving from America, and the sinking of the ship of the line Vengeur was turned, in the report made on it to the Convention by Barère, into an epic of republican heroism and deﬁance. This provides independently useful contextual evidence for Barère, Bertrand > and Reign of Terror.",
       "matched_path_id": "PATH-AADF002CDA3D",
-      "matched_locator_id": "LOC-703DA83F9055"
+      "matched_locator_id": "LOC-703DA83F9055",
+      "matched_path_ids": [
+        "PATH-AADF002CDA3D"
+      ],
+      "matched_locator_ids": [
+        "LOC-703DA83F9055"
+      ]
     },
     {
       "treatment_id": "TREAT-57FEDB9C8CA7",
@@ -9013,7 +9221,13 @@
       ],
       "status_rationale": "The benchmark expects on page 290: By March, shrinking and unreliable bread rations destroy popular confidence and revive memories of the controlled economy under Terror. Canonical locator LOC-29212760E27F under 'Paris > bread prices and subsistence riots' is supported on that page: Page 290 states that for ordinary Parisians, all that had made the terrible winter of 1795 endurable had been the regular bread ration which the Convention had been determined to maintain. This provides sustained evidence for Paris > bread prices and subsistence riots.",
       "matched_path_id": "PATH-542D81C64617",
-      "matched_locator_id": "LOC-29212760E27F"
+      "matched_locator_id": "LOC-29212760E27F",
+      "matched_path_ids": [
+        "PATH-542D81C64617"
+      ],
+      "matched_locator_ids": [
+        "LOC-29212760E27F"
+      ]
     },
     {
       "treatment_id": "TREAT-59C58218A45F",
@@ -9027,7 +9241,15 @@
       ],
       "status_rationale": "The benchmark expects on page 291: The Germinal crowd lacks the coordination once supplied by sansculotte institutions, and Doyle makes that absence central to its failure. Canonical locator LOC-4E460503FA58 under 'sansculottes > decline and repression of' is supported on that page: Page 291 states that those involved had now taken up Babeuf’s cry for the constitution of 1793, which, whatever else it meant, would bring the end of the Convention. There was no organization such as had characterized sansculotte action in 1792 or 1793. The institutions necessary for that had been pulverized twelve months previously, and their lack would eventually doom the movement now gathering momentum. This provides independently useful contextual evidence for sansculottes > decline and repression of.",
       "matched_path_id": "PATH-64D7893D7626",
-      "matched_locator_id": "LOC-4E460503FA58"
+      "matched_locator_id": "LOC-4E460503FA58",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED",
+        "PATH-64D7893D7626"
+      ],
+      "matched_locator_ids": [
+        "LOC-47AD704D6143",
+        "LOC-4E460503FA58"
+      ]
     },
     {
       "treatment_id": "TREAT-59E58C7AF1C0",
@@ -9041,7 +9263,13 @@
       ],
       "status_rationale": "The benchmark expects on page 287: Market-price government purchases and unchecked inflation help drive the currency to a small fraction of face value. Canonical locator LOC-F720F58272CD under 'émigrés > amnesty and return of' is supported on that page: Page 287 states that december and January saw the ﬁrst relaxation of the laws against emigration, with sailors, manual workers, and artisans being allowed to return to the country subject to certain provisos. This provides sustained evidence for émigrés > amnesty and return of.",
       "matched_path_id": "PATH-A55622493B71",
-      "matched_locator_id": "LOC-F720F58272CD"
+      "matched_locator_id": "LOC-F720F58272CD",
+      "matched_path_ids": [
+        "PATH-A55622493B71"
+      ],
+      "matched_locator_ids": [
+        "LOC-F720F58272CD"
+      ]
     },
     {
       "treatment_id": "TREAT-5A499EC580AF",
@@ -9055,7 +9283,13 @@
       ],
       "status_rationale": "The benchmark expects on page 285: Provincial political language rapidly reverses, making public Jacobin identification unacceptable and marking a nationwide reaction. Canonical locator LOC-0BE673EB4378 under 'National Convention > Thermidorian Reaction and dissolution' is supported on that page: Page 285 states that but the ultimate symbol of reaction, for both capital and departments, was not so much the closure of the Jacobins as the fate of that supreme provincial terrorist, Carrier. On 23 November he was sent to the Revolutionary Tribunal, protesting to the last that he had only been obeying the Convention’s own orders at Nantes, and that the whole body was guilty ‘down to the president’s bell’. It availed him nothing. This provides independently useful contextual evidence for National Convention > Thermidorian Reaction and dissolution.",
       "matched_path_id": "PATH-139D5C8E19F4",
-      "matched_locator_id": "LOC-0BE673EB4378"
+      "matched_locator_id": "LOC-0BE673EB4378",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4"
+      ],
+      "matched_locator_ids": [
+        "LOC-0BE673EB4378"
+      ]
     },
     {
       "treatment_id": "TREAT-5A823FD44FFD",
@@ -9069,7 +9303,13 @@
       ],
       "status_rationale": "The benchmark expects on page 278: The Convention adds a specific guarantee of deputy immunity, helping anti-Robespierre forces begin to coalesce. Canonical locator LOC-F8BF7FC86F44 under 'Prairial, Law of 22 (10 June 1794)' is supported on that page: Page 278 states that accordingly, on 23 Prairial, a number of those who had scoﬀed at Robespierre’s prominence at the Festival of the Supreme Being moved a speciﬁc guarantee of deputies’ immunity under the new law. This provides sustained evidence for Prairial, Law of 22 (10 June 1794).",
       "matched_path_id": "PATH-16BACEC20952",
-      "matched_locator_id": "LOC-F8BF7FC86F44"
+      "matched_locator_id": "LOC-F8BF7FC86F44",
+      "matched_path_ids": [
+        "PATH-16BACEC20952"
+      ],
+      "matched_locator_ids": [
+        "LOC-F8BF7FC86F44"
+      ]
     },
     {
       "treatment_id": "TREAT-5AAEA9F600FD",
@@ -9083,7 +9323,13 @@
       ],
       "status_rationale": "The benchmark expects on page 282: Prairial is repealed, the Tribunal is purged, watch committees are reduced, and the Committee of Public Safety loses its general superintending role. Canonical locator LOC-D4C96A923EBE under 'Revolutionary Government' is supported on that page: Page 282 states that the diﬃculties of that rendered superﬂuous much of the work and powers of the watch committees, which on 24 August were reduced from 48 to 12 in Paris, and one per district elsewhere. In all this the initiative increasingly came from the Convention ﬂoor, and on 11 August the Committee of Public Safety was deprived, against its own advice tendered by Barère, of its overall superintending role in government. All its duties except war and foreign relations were redistributed to other committees. This provides independently useful contextual evidence for Revolutionary Government.",
       "matched_path_id": "PATH-ED68FCC9B189",
-      "matched_locator_id": "LOC-D4C96A923EBE"
+      "matched_locator_id": "LOC-D4C96A923EBE",
+      "matched_path_ids": [
+        "PATH-ED68FCC9B189"
+      ],
+      "matched_locator_ids": [
+        "LOC-D4C96A923EBE"
+      ]
     },
     {
       "treatment_id": "TREAT-5EAC9FAFE218",
@@ -9108,7 +9354,15 @@
       ],
       "status_rationale": "The benchmark expects on page 277: Robespierre and Couthon present the law without prior consultation, deepening committee distrust and fear among deputies. Canonical locator LOC-E9061FD9530F under 'law > 22 Prairial, Law of' is supported on that page: Page 277 states that the law under which they died was that of 22 Prairial, whose provisions Robespierre largely drafted and, with Couthon, sprang upon an unsuspecting Committee of Public Safety with no prior consultation. This provides sustained evidence for law > 22 Prairial, Law of.",
       "matched_path_id": "PATH-20706105D21E",
-      "matched_locator_id": "LOC-E9061FD9530F"
+      "matched_locator_id": "LOC-E9061FD9530F",
+      "matched_path_ids": [
+        "PATH-16BACEC20952",
+        "PATH-20706105D21E"
+      ],
+      "matched_locator_ids": [
+        "LOC-3B72EF85C201",
+        "LOC-E9061FD9530F"
+      ]
     },
     {
       "treatment_id": "TREAT-660D31BD3DD9",
@@ -9122,7 +9376,13 @@
       ],
       "status_rationale": "The benchmark expects on page 278: Deputies secure an explicit immunity clause after fearing that the new law could bypass their protection, and opposition begins to consolidate from that point. Canonical locator LOC-F8BF7FC86F44 under 'Prairial, Law of 22 (10 June 1794)' is supported on that page: Page 278 states that accordingly, on 23 Prairial, a number of those who had scoﬀed at Robespierre’s prominence at the Festival of the Supreme Being moved a speciﬁc guarantee of deputies’ immunity under the new law. This provides sustained evidence for Prairial, Law of 22 (10 June 1794).",
       "matched_path_id": "PATH-16BACEC20952",
-      "matched_locator_id": "LOC-F8BF7FC86F44"
+      "matched_locator_id": "LOC-F8BF7FC86F44",
+      "matched_path_ids": [
+        "PATH-16BACEC20952"
+      ],
+      "matched_locator_ids": [
+        "LOC-F8BF7FC86F44"
+      ]
     },
     {
       "treatment_id": "TREAT-68744150840C",
@@ -9136,7 +9396,13 @@
       ],
       "status_rationale": "The benchmark expects on page 288: The religious settlement is introduced partly to answer grievances that had made western resistance royalist. Canonical locator LOC-B57FD0149781 under 'Vendée' is supported on that page: Page 288 states that ’11 The congregation were mostly ‘poor people from the country, with a few of the higher ranks, many more of whom, I was assured, would have been there, could they have believed themselves secure from reproach’. Much of the impetus for the new religious policy came from the deputies’ awareness of the need to bring permanent peace to the Vendée, where religious grievances had turned opponents of the Revolution royalist. Although the rebels’ defeat at Savenay in December 1793 had ended the ‘Great War’ of the Vendée, Turreau’s vicious reprisals of the... This provides independently useful contextual evidence for Vendée.",
       "matched_path_id": "PATH-A254A6CC29F8",
-      "matched_locator_id": "LOC-B57FD0149781"
+      "matched_locator_id": "LOC-B57FD0149781",
+      "matched_path_ids": [
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-B57FD0149781"
+      ]
     },
     {
       "treatment_id": "TREAT-6A98E2B9349C",
@@ -9150,7 +9416,13 @@
       ],
       "status_rationale": "The benchmark expects on page 275: Danton's destruction is presented as inaugurating a political order explicitly organized around virtue. Canonical locator LOC-56F85D37C9F9 under 'Virtue' is supported on that page: Page 275 states that ‘How could a man, to whom all idea of morality was foreign, be the defender of liberty? ’ Danton’s death marked the inauguration of a Republic of Virtue. It was characterized by continued concentration of power at the centre. This provides independently useful contextual evidence for Virtue.",
       "matched_path_id": "PATH-B6F9204A845E",
-      "matched_locator_id": "LOC-56F85D37C9F9"
+      "matched_locator_id": "LOC-56F85D37C9F9",
+      "matched_path_ids": [
+        "PATH-B6F9204A845E"
+      ],
+      "matched_locator_ids": [
+        "LOC-56F85D37C9F9"
+      ]
     },
     {
       "treatment_id": "TREAT-6D42306671EF",
@@ -9164,7 +9436,15 @@
       ],
       "status_rationale": "The benchmark expects on page 284: The Convention orders Carrier's arrest while refusing sympathy to a Jacobin Club under violent attack. Canonical locator LOC-6D6ADDCD98A3 under 'Collot d'Herbois, Jean-Marie > post-Thermidorian attacks and impeachment' is supported on that page: Page 284 states that early in October Tallien founded a paper of his own, L’Ami du citoyen, while in the Convention Legendre once more moved the impeachment of Barère, Billaud, and Collot. This provides sustained evidence for Collot d'Herbois, Jean-Marie > post-Thermidorian attacks and impeachment.",
       "matched_path_id": "PATH-EDD1650AE19F",
-      "matched_locator_id": "LOC-6D6ADDCD98A3"
+      "matched_locator_id": "LOC-6D6ADDCD98A3",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-EDD1650AE19F"
+      ],
+      "matched_locator_ids": [
+        "LOC-6D6ADDCD98A3",
+        "LOC-7F15A415FE94"
+      ]
     },
     {
       "treatment_id": "TREAT-6EAE1A4AE724",
@@ -9178,7 +9458,13 @@
       ],
       "status_rationale": "The benchmark expects on page 294: Women press workers into action and armed National Guards from the eastern districts become the uprising's principal force. Canonical locator LOC-D68AA0243CF2 under 'Paris sections' is supported on that page: Page 294 states that and once inside, the insurgents demanded more: the release of imprisoned patriots, permanent sessions in the sections, reintegration of an independent Paris commune, compulsory food searches, the arrest of returned émigrés and of deputies who persecuted Jacobins. This provides sustained evidence for Paris sections.",
       "matched_path_id": "PATH-0C63FACA6CED",
-      "matched_locator_id": "LOC-D68AA0243CF2"
+      "matched_locator_id": "LOC-D68AA0243CF2",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED"
+      ],
+      "matched_locator_ids": [
+        "LOC-D68AA0243CF2"
+      ]
     },
     {
       "treatment_id": "TREAT-6F2760AB0F72",
@@ -9192,7 +9478,13 @@
       ],
       "status_rationale": "The benchmark expects on page 290: Secret expectations of a British landing lead insurgent leaders to coordinate renewed action and reinterpret their agreements as temporary expedients. Canonical locator LOC-DC827D308CE0 under 'Puisaye, Joseph, Comte de' is supported on that page: Page 290 states that if so, they were seriously mistaken. Charette had signed only because he believed himself dangerously isolated; the other two armistices represented mere playing for time by the rebels, who by then had received secret assurances that Puisaye had persuaded the British to mount a major expedition against the Breton coast. When Charette was alerted, he assured the others that he, too, would co-operate with the expedition. This provides independently useful contextual evidence for Puisaye, Joseph, Comte de.",
       "matched_path_id": "PATH-24A8C199F0EA",
-      "matched_locator_id": "LOC-DC827D308CE0"
+      "matched_locator_id": "LOC-DC827D308CE0",
+      "matched_path_ids": [
+        "PATH-24A8C199F0EA"
+      ],
+      "matched_locator_ids": [
+        "LOC-DC827D308CE0"
+      ]
     },
     {
       "treatment_id": "TREAT-7121FBC40255",
@@ -9207,7 +9499,13 @@
       ],
       "status_rationale": "The frozen treatment on page 291 is reached by supported locator LOC-DF2296787B30 under the specific path Collot d'Herbois, Jean-Marie > trial and deportation.",
       "matched_path_id": "PATH-9EBB02800FBD",
-      "matched_locator_id": "LOC-DF2296787B30"
+      "matched_locator_id": "LOC-DF2296787B30",
+      "matched_path_ids": [
+        "PATH-9EBB02800FBD"
+      ],
+      "matched_locator_ids": [
+        "LOC-DF2296787B30"
+      ]
     },
     {
       "treatment_id": "TREAT-7473AA1C6AD1",
@@ -9221,7 +9519,13 @@
       ],
       "status_rationale": "The benchmark expects on page 272: Robespierre identifies virtue with devotion to public interests and makes equality and moral conduct the governing tests of republican politics. Canonical locator LOC-0329133142D4 under 'Virtue' is supported on that page: Page 272 states that what then is the fundamental principle of democratic or popular government, that is to say the essential underpinning which sustains it and makes it work? It is virtue . . This provides independently useful contextual evidence for Virtue.",
       "matched_path_id": "PATH-B6F9204A845E",
-      "matched_locator_id": "LOC-0329133142D4"
+      "matched_locator_id": "LOC-0329133142D4",
+      "matched_path_ids": [
+        "PATH-B6F9204A845E"
+      ],
+      "matched_locator_ids": [
+        "LOC-0329133142D4"
+      ]
     },
     {
       "treatment_id": "TREAT-773D83F566F5",
@@ -9235,7 +9539,13 @@
       ],
       "status_rationale": "The benchmark expects on page 282: Its repeal immediately after Thermidor is a central step in the collapse of the Terror. Canonical locator LOC-AF688EA178E2 under 'Reign of Terror' is supported on that page: Page 282 states that on 1 August the remodelled committees carried the repeal of the Law of 22 Prairial, and on the tenth they purged the membership of the Revolutionary Tribunal, arresting Fouquier-Tinville. As a result the Terror collapsed. Only 6 people were guillotined in Paris in August, and only 40 more over the rest of the year. This provides independently useful contextual evidence for Reign of Terror.",
       "matched_path_id": "PATH-943B9E017CB4",
-      "matched_locator_id": "LOC-AF688EA178E2"
+      "matched_locator_id": "LOC-AF688EA178E2",
+      "matched_path_ids": [
+        "PATH-943B9E017CB4"
+      ],
+      "matched_locator_ids": [
+        "LOC-AF688EA178E2"
+      ]
     },
     {
       "treatment_id": "TREAT-7BBD76CE91E7",
@@ -9249,7 +9559,13 @@
       ],
       "status_rationale": "The benchmark expects on page 287: Babeuf makes implementation of the suspended constitution the object of renewed popular insurrection. Canonical locator LOC-0C2E0F1474FB under 'National Convention > Thermidorian Reaction and dissolution' is supported on that page: Page 287 states that by now, in fact, the tide of reaction was ﬂowing too strongly for the Convention to make any further pretence of standing against it. This provides sustained evidence for National Convention > Thermidorian Reaction and dissolution.",
       "matched_path_id": "PATH-139D5C8E19F4",
-      "matched_locator_id": "LOC-0C2E0F1474FB"
+      "matched_locator_id": "LOC-0C2E0F1474FB",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4"
+      ],
+      "matched_locator_ids": [
+        "LOC-0C2E0F1474FB"
+      ]
     },
     {
       "treatment_id": "TREAT-7D81806C1A4A",
@@ -9263,7 +9579,15 @@
       ],
       "status_rationale": "The benchmark expects on page 286: Deputies interpret controls as causes of scarcity and accept a recommendation to abolish the Maximum on 24 December. Canonical locator LOC-B53E25AB137F under 'economy' is supported on that page: Page 286 states that price controls, they thought, had worsened the very scarcity and hoarding they had been intended to curtail. Only a free market would restore abundance, not to mention reanimating foreign trade, which had languished under a controlled economy. A report on the whole issue was commissioned, and early in December the result was a recommendation that the maximum should be abolished. This provides independently useful contextual evidence for economy.",
       "matched_path_id": "PATH-1A751302E438",
-      "matched_locator_id": "LOC-B53E25AB137F"
+      "matched_locator_id": "LOC-B53E25AB137F",
+      "matched_path_ids": [
+        "PATH-1A751302E438",
+        "PATH-32F2D77E286E"
+      ],
+      "matched_locator_ids": [
+        "LOC-B53E25AB137F",
+        "LOC-CB0AEEF2BA81"
+      ]
     },
     {
       "treatment_id": "TREAT-80D5265108C5",
@@ -9277,7 +9601,13 @@
       ],
       "status_rationale": "The benchmark expects on page 283: New anti-Terror papers proliferate, and Thermidorian leaders invoke press freedom against proposals to restrain their incitement. Canonical locator LOC-802D2FAE7A87 under 'Thermidorians' is supported on that page: Page 283 states that a whole range of right-wing papers mushroomed in Paris throughout August and September, leading to calls in the Convention and the Jacobin Club for a curb on their incitements. The ‘Thermidorians’, as Tallien, Fréron, and the others who had triumphed in that revolutionary month were now coming to be known, responded with a loud defence of press freedom. Those wishing to limit it were, they said (in the title of a pamphlet published late in August), Robespierre’s Tail, blood-drinkers who wanted a return of government by terror. This provides independently useful contextual evidence for Thermidorians.",
       "matched_path_id": "PATH-9EF2ED7A2D6E",
-      "matched_locator_id": "LOC-802D2FAE7A87"
+      "matched_locator_id": "LOC-802D2FAE7A87",
+      "matched_path_ids": [
+        "PATH-9EF2ED7A2D6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-802D2FAE7A87"
+      ]
     },
     {
       "treatment_id": "TREAT-822EBB5D5413",
@@ -9291,7 +9621,13 @@
       ],
       "status_rationale": "The benchmark expects on page 281: Doyle distinguishes the systemic significance of Thermidor from the simple removal of one man or group. Canonical locator LOC-063FF3608951 under 'Thermidor' is supported on that page: Page 281 states that thermidor, 1794–1795 281 7 noted the Irish political exile Hamilton Rowan, who watched the spectacle, ‘were guillotined in less than one hour and a half, in the Place de la Revolution; and though I was standing above a hundred paces from the place of execution, the blood of the victims streamed beneath my feet. What surprised me was, as each head fell into the basket, the cry of the people was no other than a repetition of “A bas le Maximum! This provides independently useful contextual evidence for Thermidor.",
       "matched_path_id": "PATH-DB6D0D6866F1",
-      "matched_locator_id": "LOC-063FF3608951"
+      "matched_locator_id": "LOC-063FF3608951",
+      "matched_path_ids": [
+        "PATH-DB6D0D6866F1"
+      ],
+      "matched_locator_ids": [
+        "LOC-063FF3608951"
+      ]
     },
     {
       "treatment_id": "TREAT-890299FFBD8B",
@@ -9305,7 +9641,13 @@
       ],
       "status_rationale": "The benchmark expects on page 275: Doyle concludes that the men were punished more for what they might do than for established conduct, inaugurating a new phase of Terror. Canonical locator LOC-675A419BA084 under 'Danton, Georges-Jacques > arrest, trial, and execution' is supported on that page: Page 275 states that the eﬀect on the character of the Terror was immediate. Executions, which had declined sharply between January and March, and risen again in April with a new burst of repression in the Vendée, fell back somewhat in May; but from early June began to climb markedly once more. Most of the victims of the renewed rise perished in Paris. This provides independently useful contextual evidence for Danton, Georges-Jacques > arrest, trial, and execution.",
       "matched_path_id": "PATH-8556A2625DED",
-      "matched_locator_id": "LOC-675A419BA084"
+      "matched_locator_id": "LOC-675A419BA084",
+      "matched_path_ids": [
+        "PATH-8556A2625DED"
+      ],
+      "matched_locator_ids": [
+        "LOC-675A419BA084"
+      ]
     },
     {
       "treatment_id": "TREAT-8A59F93D879D",
@@ -9319,7 +9661,13 @@
       ],
       "status_rationale": "The benchmark expects on page 274: The Dantonists are prosecuted through broad political allegations rather than a demonstrated current plot. Canonical locator LOC-440B90AB2555 under 'National Convention > Revolutionary Government and Terror' is supported on that page: Page 274 states that no sooner was the arrest warrant issued that day than he began to assemble materials for Danton’s indictment. His notes form the basis of Saint-Just’s speech of the thirty-ﬁrst in the Convention when, in the name of both committees, he announced the arrests of ‘the last partisans of royalism, who, for ﬁve years, have served factions, and have only followed liberty as a tiger follows its prey’. 3 He called for them to be put on trial. This provides independently useful contextual evidence for National Convention > Revolutionary Government and Terror.",
       "matched_path_id": "PATH-1876B66467DD",
-      "matched_locator_id": "LOC-440B90AB2555"
+      "matched_locator_id": "LOC-440B90AB2555",
+      "matched_path_ids": [
+        "PATH-1876B66467DD"
+      ],
+      "matched_locator_ids": [
+        "LOC-440B90AB2555"
+      ]
     },
     {
       "treatment_id": "TREAT-8CEAE40BDC38",
@@ -9333,7 +9681,13 @@
       ],
       "status_rationale": "The benchmark expects on page 293: Youth gangs sustain violence across the south-east, producing an estimated regional death toll of roughly two thousand. Canonical locator LOC-9BA8E5C125CB under 'White Terror' is supported on that page: Page 293 states that thermidor, 1794–1795 293 commonplace throughout the south-east over the summer, perpetrated mostly by gangs of young men much like the Parisian Gilded Youth in their elaborate and ostentatious clothing, arrays of oﬀensive weapons, and determination to evade conscription. Altogether they accounted for perhaps 2,000 victims throughout the south-east in 1795. Nor did their activities stop after the initial explosion of May. This provides independently useful contextual evidence for White Terror.",
       "matched_path_id": "PATH-E109A8752CF2",
-      "matched_locator_id": "LOC-9BA8E5C125CB"
+      "matched_locator_id": "LOC-9BA8E5C125CB",
+      "matched_path_ids": [
+        "PATH-E109A8752CF2"
+      ],
+      "matched_locator_ids": [
+        "LOC-9BA8E5C125CB"
+      ]
     },
     {
       "treatment_id": "TREAT-8E1EF73729F4",
@@ -9359,7 +9713,13 @@
       ],
       "status_rationale": "The benchmark expects on page 312: Treaties across the west arose from depleted supplies and republican pressure; Charette and several Breton leaders privately disclaimed genuine peace. Canonical locator LOC-759AB87DFEAE under 'La Mabilais, Treaty of' is supported on that page: Document page 312 connects the complete path 'La Mabilais, Treaty of' to a concrete source fact: Hoche's counter-insurgency scattered chouans and pushed royalist leaders toward temporary treaties such as La Mabilais.",
       "matched_path_id": "PATH-595EB3C0C568",
-      "matched_locator_id": "LOC-759AB87DFEAE"
+      "matched_locator_id": "LOC-759AB87DFEAE",
+      "matched_path_ids": [
+        "PATH-595EB3C0C568"
+      ],
+      "matched_locator_ids": [
+        "LOC-759AB87DFEAE"
+      ]
     },
     {
       "treatment_id": "TREAT-8FC5D624E384",
@@ -9373,7 +9733,13 @@
       ],
       "status_rationale": "The benchmark expects on page 274: The corruption defendants are tried together with Danton and Desmoulins, although the case against Danton itself does not allege corruption. Canonical locator LOC-73C48591232A under 'Fabre d'Eglantine, Philippe-François-Nazaire' is supported on that page: Page 274 states that their ‘revolt’ had merely been a noisy demand that witnesses be called—but now they were deemed superﬂuous. On 5 April Danton, Desmoulins, Fabre, Chabot, and the others went to the guillotine. Few episodes in the Revolution are harder to interpret than the fall of Danton and Desmoulins, for reliable evidence about the motivation of those involved is almost completely lacking. This provides independently useful contextual evidence for Fabre d'Eglantine, Philippe-François-Nazaire.",
       "matched_path_id": "PATH-B7FED32DF7F1",
-      "matched_locator_id": "LOC-73C48591232A"
+      "matched_locator_id": "LOC-73C48591232A",
+      "matched_path_ids": [
+        "PATH-B7FED32DF7F1"
+      ],
+      "matched_locator_ids": [
+        "LOC-73C48591232A"
+      ]
     },
     {
       "treatment_id": "TREAT-90381AA28B85",
@@ -9387,7 +9753,13 @@
       ],
       "status_rationale": "The benchmark expects on page 284: Provincial special courts close more slowly, while new representatives remove local terrorists and release their prisoners. Canonical locator LOC-B43DC379335E under 'Thermidorians' is supported on that page: Page 284 states that 284 Thermidor, 1794–1795 to the Thermidorians, who now stepped up their anti-Jacobin pressure. Early in October Tallien founded a paper of his own, L’Ami du citoyen, while in the Convention Legendre once more moved the impeachment of Barère, Billaud, and Collot. This provides independently useful contextual evidence for Thermidorians.",
       "matched_path_id": "PATH-9EF2ED7A2D6E",
-      "matched_locator_id": "LOC-B43DC379335E"
+      "matched_locator_id": "LOC-B43DC379335E",
+      "matched_path_ids": [
+        "PATH-9EF2ED7A2D6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-B43DC379335E"
+      ]
     },
     {
       "treatment_id": "TREAT-90BCDF90F5AB",
@@ -9401,7 +9773,13 @@
       ],
       "status_rationale": "The benchmark expects on page 282: Thousands leave Paris prisons resentful of the watch committees and demanding vengeance, while anti-sansculotte vigilante groups appear. Canonical locator LOC-D800FD034B83 under 'National Convention > Thermidorian Reaction and dissolution' is supported on that page: Page 282 states that it did for the moment reject a motion to abolish the Revolutionary Tribunal, but that anybody should so much as dare to propose it showed how totally the atmosphere had changed. Soon all the Convention’s committees were subjected to the same renewal rule, and among the ﬁrst new members of that of Public Safety was Tallien himself. Former friends of Danton joined him there, and on the Committee of General Security. This provides independently useful contextual evidence for National Convention > Thermidorian Reaction and dissolution.",
       "matched_path_id": "PATH-139D5C8E19F4",
-      "matched_locator_id": "LOC-D800FD034B83"
+      "matched_locator_id": "LOC-D800FD034B83",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4"
+      ],
+      "matched_locator_ids": [
+        "LOC-D800FD034B83"
+      ]
     },
     {
       "treatment_id": "TREAT-92DA8FAC9DCE",
@@ -9415,7 +9793,15 @@
       ],
       "status_rationale": "The benchmark expects on page 284: Carnot blocks early impeachment by affirming that the entire Committee of Public Safety had supported the Terror. Canonical locator LOC-2022268CE6E8 under 'Barère, Bertrand > and Reign of Terror' is supported on that page: Page 284 states that again they were saved, this time by colleagues on the former Committee of Public Safety whom nobody yet wished to attack, including Carnot, who testiﬁed that all members had endorsed the reign of terror. This provides sustained evidence for Barère, Bertrand > and Reign of Terror.",
       "matched_path_id": "PATH-AADF002CDA3D",
-      "matched_locator_id": "LOC-2022268CE6E8"
+      "matched_locator_id": "LOC-2022268CE6E8",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-AADF002CDA3D"
+      ],
+      "matched_locator_ids": [
+        "LOC-2022268CE6E8",
+        "LOC-7F15A415FE94"
+      ]
     },
     {
       "treatment_id": "TREAT-93A113A82654",
@@ -9429,7 +9815,15 @@
       ],
       "status_rationale": "The benchmark expects on page 288: The need to end western civil war supplies much of the impetus for the new religious settlement. Canonical locator LOC-A4011FADF391 under 'religious policy' is supported on that page: Page 288 states that the tone of the law was grudging, and it was introduced with much gratuitous denigration of priestcraft and superstition. Religion was deﬁned as a private aﬀair, and local authorities were forbidden to lend it any recognition or support. All outward signs of religious aﬃliation in the form of priestly dress, ceremonies, or church bells remained strictly forbidden. This provides independently useful contextual evidence for religious policy.",
       "matched_path_id": "PATH-E681E2D95186",
-      "matched_locator_id": "LOC-A4011FADF391"
+      "matched_locator_id": "LOC-A4011FADF391",
+      "matched_path_ids": [
+        "PATH-B978269CC447",
+        "PATH-E681E2D95186"
+      ],
+      "matched_locator_ids": [
+        "LOC-150B57F48C67",
+        "LOC-A4011FADF391"
+      ]
     },
     {
       "treatment_id": "TREAT-957FB23ECD3D",
@@ -9443,7 +9837,15 @@
       ],
       "status_rationale": "The benchmark expects on page 295: The Convention later treats the supportive Montagnards as planners, a charge Doyle identifies as unjustified. Canonical locator LOC-EACD6EAA279B under 'Uprising of Prairial (1795)' is supported on that page: Page 295 states that six were condemned to death, but four cheated the guillotine by stabbing themselves as they were led from the court, in what they appear to have planned in advance as an ultimate act of exemplary patriotic deﬁance. By then, too, they knew about the vengeance visited on those they had sought to lead on 1 Prairial. The very day after the confrontation of 21 May, the Convention gave orders to surround the entire Saint-Antoine district. This provides independently useful contextual evidence for Uprising of Prairial (1795).",
       "matched_path_id": "PATH-9B741D9BDF09",
-      "matched_locator_id": "LOC-EACD6EAA279B"
+      "matched_locator_id": "LOC-EACD6EAA279B",
+      "matched_path_ids": [
+        "PATH-9B741D9BDF09",
+        "PATH-A34404758FD3"
+      ],
+      "matched_locator_ids": [
+        "LOC-92E82FCA0FA2",
+        "LOC-EACD6EAA279B"
+      ]
     },
     {
       "treatment_id": "TREAT-95CCCEAFE72D",
@@ -9457,7 +9859,13 @@
       ],
       "status_rationale": "The benchmark expects on page 277: The Paris festival stages the cult as national civic theater, while localities adapt it in divergent ways that sometimes reopen Christian worship. Canonical locator LOC-EA0E33F681EC under 'Cult of the Supreme Being' is supported on that page: Page 277 states that at Orléans, as well as in Paris, the Festival of the Supreme Being took place to cries of Vive Robespierre. This provides sustained evidence for Cult of the Supreme Being.",
       "matched_path_id": "PATH-288031039572",
-      "matched_locator_id": "LOC-EA0E33F681EC"
+      "matched_locator_id": "LOC-EA0E33F681EC",
+      "matched_path_ids": [
+        "PATH-288031039572"
+      ],
+      "matched_locator_ids": [
+        "LOC-EA0E33F681EC"
+      ]
     },
     {
       "treatment_id": "TREAT-97765C9EA0D3",
@@ -9471,7 +9879,13 @@
       ],
       "status_rationale": "The benchmark expects on page 277: His national prominence, ceremonial leadership, and unilateral role in Prairial make older dictatorship accusations appear newly credible. Canonical locator LOC-EA4FB7231A55 under 'Robespierre, Maximilien > reputation as 'dictator'' is supported on that page: Page 277 states that ever since the autumn of 1792 Robespierre had been subject to periodic charges of aspiring to personal dictatorship, but now it seemed more credible than ever. This provides sustained evidence for Robespierre, Maximilien > reputation as 'dictator'.",
       "matched_path_id": "PATH-95E1A492F3C6",
-      "matched_locator_id": "LOC-EA4FB7231A55"
+      "matched_locator_id": "LOC-EA4FB7231A55",
+      "matched_path_ids": [
+        "PATH-95E1A492F3C6"
+      ],
+      "matched_locator_ids": [
+        "LOC-EA4FB7231A55"
+      ]
     },
     {
       "treatment_id": "TREAT-97CEF2FAE498",
@@ -9485,7 +9899,13 @@
       ],
       "status_rationale": "The benchmark expects on page 277: The Paris festival makes the fusion of civic religion, Robespierre's prominence, and suspicions of personal mastery publicly visible. Canonical locator LOC-F83B8926A853 under 'Virtue' is supported on that page: Page 277 states that at its head marched the members of the Convention, led by their president, who happened that week to be Robespierre. He used the opportunity to deliver two more eulogies of virtue and republican religion, pointedly ignoring, though not failing to notice, the smirks of some of his fellow deputies at the posturings of this pseudo-Pope. Others found it no laughing matter. This provides independently useful contextual evidence for Virtue.",
       "matched_path_id": "PATH-B6F9204A845E",
-      "matched_locator_id": "LOC-F83B8926A853"
+      "matched_locator_id": "LOC-F83B8926A853",
+      "matched_path_ids": [
+        "PATH-B6F9204A845E"
+      ],
+      "matched_locator_ids": [
+        "LOC-F83B8926A853"
+      ]
     },
     {
       "treatment_id": "TREAT-9F7365BD06D6",
@@ -9499,7 +9919,13 @@
       ],
       "status_rationale": "The benchmark expects on page 288: The Republic renounces payment of any cult, ending its own constitutional church and the state religion associated with Robespierre. Canonical locator LOC-BBADB76F210B under 'Jacobinism > Church and State separation' is supported on that page: Page 288 states that during its last, ﬂeeting endorsement of Jacobinism, on 18 September 1794, the Convention had carried the drift of the Revolution since 1790 to a logical conclusion when it ﬁnally renounced the constitutional Church. This provides sustained evidence for Jacobinism > Church and State separation.",
       "matched_path_id": "PATH-29ED73731631",
-      "matched_locator_id": "LOC-BBADB76F210B"
+      "matched_locator_id": "LOC-BBADB76F210B",
+      "matched_path_ids": [
+        "PATH-29ED73731631"
+      ],
+      "matched_locator_ids": [
+        "LOC-BBADB76F210B"
+      ]
     },
     {
       "treatment_id": "TREAT-A066AE67A260",
@@ -9513,7 +9939,13 @@
       ],
       "status_rationale": "The benchmark expects on page 294: Bread scarcity supplies the central demand and mobilizing force of the Prairial invasion of the Convention. Canonical locator LOC-2D771881919D under 'Montagnards (The Mountain) > fall and 1795 insurrections ('The Crest')' is supported on that page: Page 294 states that they cried, and this time their force seemed so overwhelming that the deputies of the ‘Crest’, so far from asking them to leave, publicly took up their demands. But earlier in the day the governing committees had issued a general appeal for troops and armed citizens to come to the Convention’s rescue, and while excited Montagnards were compromising themselves inside the hall loyal forces were massing outside. When motions to remodel or disband the committees began to be put, these forces were called in, and around midnight they at last drove the... This provides independently useful contextual evidence for Montagnards (The Mountain) > fall and 1795 insurrections ('The Crest').",
       "matched_path_id": "PATH-F444C233CD85",
-      "matched_locator_id": "LOC-2D771881919D"
+      "matched_locator_id": "LOC-2D771881919D",
+      "matched_path_ids": [
+        "PATH-F444C233CD85"
+      ],
+      "matched_locator_ids": [
+        "LOC-2D771881919D"
+      ]
     },
     {
       "treatment_id": "TREAT-A0F7EAF7361B",
@@ -9527,7 +9959,13 @@
       ],
       "status_rationale": "The benchmark expects on page 280: Only a minority of National Guard companies respond; outlawry and Barras's command draw wavering sections toward the Convention, and the assembled force dissolves. Canonical locator LOC-A963E5D21BC9 under 'Paris Commune' is supported on that page: Page 280 states that but repudiation by the Convention was not quite the end of Robespierre. The evening of the twenty-sixth had shown that he still commanded support from the Jacobin Club and its public galleries; and the commune, remodelled after the fall of the Hébertists, was largely packed by his nominees. There was still, therefore, a chance that Paris, where his popular reputation had been consistently high since the spring of 1791, would rally to him. This provides independently useful contextual evidence for Paris Commune.",
       "matched_path_id": "PATH-2E609D05687C",
-      "matched_locator_id": "LOC-A963E5D21BC9"
+      "matched_locator_id": "LOC-A963E5D21BC9",
+      "matched_path_ids": [
+        "PATH-2E609D05687C"
+      ],
+      "matched_locator_ids": [
+        "LOC-A963E5D21BC9"
+      ]
     },
     {
       "treatment_id": "TREAT-A1579DDF5626",
@@ -9541,7 +9979,15 @@
       ],
       "status_rationale": "The benchmark expects on page 274: Robespierre finally abandons Danton after wavering, and Saint-Just secures the Convention's approval for a broadly political prosecution. Canonical locator LOC-486D3919E80C under 'Desmoulins, Camille' is supported on that page: Page 274 states that the motion, perhaps because Saint-Just emphasized that this was likely to be a ﬁnal cleansing of the body politic, passed virtually unopposed. The vagueness of Saint-Just’s denunciation was echoed in the charges made between 2 and 5 April when the East Indies conspirators, Desmoulins, Danton, and others—sixteen in all, including nine deputies— came on trial. Danton himself was not even accused of corruption, which would have been very easy. This provides independently useful contextual evidence for Desmoulins, Camille.",
       "matched_path_id": "PATH-877EB7C3EF39",
-      "matched_locator_id": "LOC-486D3919E80C"
+      "matched_locator_id": "LOC-486D3919E80C",
+      "matched_path_ids": [
+        "PATH-8556A2625DED",
+        "PATH-877EB7C3EF39"
+      ],
+      "matched_locator_ids": [
+        "LOC-150117714325",
+        "LOC-486D3919E80C"
+      ]
     },
     {
       "treatment_id": "TREAT-A6E276F2F29C",
@@ -9555,7 +10001,15 @@
       ],
       "status_rationale": "The benchmark expects on page 292: Royalist groups operate in some areas, but revenge is the more general motive; decentralized murder replaces the guillotine and spreads after mass detentions. Canonical locator LOC-7C361EFB5095 under 'Counter-Revolution > White Terror' is supported on that page: Page 292 states that but mostly the White Terror was motivated by little more than vengeance for the cruelties and tragedies inﬂicted by its victims when they had been in power the year before. This provides sustained evidence for Counter-Revolution > White Terror.",
       "matched_path_id": "PATH-26A93894E64E",
-      "matched_locator_id": "LOC-7C361EFB5095"
+      "matched_locator_id": "LOC-7C361EFB5095",
+      "matched_path_ids": [
+        "PATH-26A93894E64E",
+        "PATH-E109A8752CF2"
+      ],
+      "matched_locator_ids": [
+        "LOC-7C361EFB5095",
+        "LOC-B30DFEE49323"
+      ]
     },
     {
       "treatment_id": "TREAT-A847AA1B0E97",
@@ -9569,7 +10023,13 @@
       ],
       "status_rationale": "The benchmark expects on page 276: Government control of sections and the dissolution of societies remove independent organization before Thermidor. Canonical locator LOC-B79ADF42FBAA under 'Paris sections' is supported on that page: Page 276 states that nor did they have any eﬀective vehicles of protest by then. The sections had been absorbed into the governmental machine, and throughout April and May the commune had harried the popular societies into oblivion. By the beginning of June most had announced their own dissolution. This provides independently useful contextual evidence for Paris sections.",
       "matched_path_id": "PATH-0C63FACA6CED",
-      "matched_locator_id": "LOC-B79ADF42FBAA"
+      "matched_locator_id": "LOC-B79ADF42FBAA",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED"
+      ],
+      "matched_locator_ids": [
+        "LOC-B79ADF42FBAA"
+      ]
     },
     {
       "treatment_id": "TREAT-A898C288DA46",
@@ -9583,7 +10043,15 @@
       ],
       "status_rationale": "The benchmark expects on page 291: The Germinal crowd uses the constitution as a central slogan without a more developed program. Canonical locator LOC-74B4A090A5F8 under 'Constitution of 1793 > as standard of rebellion' is supported on that page: Page 291 states that thermidor, 1794–1795 291 centre of operations. Those involved had now taken up Babeuf’s cry for the constitution of 1793, which, whatever else it meant, would bring the end of the Convention. There was no organization such as had characterized sansculotte action in 1792 or 1793. This provides independently useful contextual evidence for Constitution of 1793 > as standard of rebellion.",
       "matched_path_id": "PATH-A34404758FD3",
-      "matched_locator_id": "LOC-74B4A090A5F8"
+      "matched_locator_id": "LOC-74B4A090A5F8",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-A34404758FD3"
+      ],
+      "matched_locator_ids": [
+        "LOC-54E3E4B5711B",
+        "LOC-74B4A090A5F8"
+      ]
     },
     {
       "treatment_id": "TREAT-AB4E90450A4F",
@@ -9597,7 +10065,13 @@
       ],
       "status_rationale": "The benchmark expects on page 279: Tallien and Fouche lobby the uncommitted deputies as Robespierre's threats make a broad defensive alliance possible. Canonical locator LOC-A9AC6168CE7E under 'The Plain (Marais)' is supported on that page: Page 279 states that deputies outside the committees were, however, terriﬁed that the newly trumpeted unity might be real, and lead to a purge of those on Robespierre’s proscription list. Fouché and Tallien now launched themselves into feverish lobbying among the uncommitted deputies of what had once been known, in contradistinction to the Mountain, as the Plain, but whose inertia as the rhythm of the Terror increased again had won them the less ﬂattering description of the ‘Marsh’. But Robespierre, too, thought he could swing the Convention, and on 26 July he reappeared... This provides independently useful contextual evidence for The Plain (Marais).",
       "matched_path_id": "PATH-0495D7C41A0A",
-      "matched_locator_id": "LOC-A9AC6168CE7E"
+      "matched_locator_id": "LOC-A9AC6168CE7E",
+      "matched_path_ids": [
+        "PATH-0495D7C41A0A"
+      ],
+      "matched_locator_ids": [
+        "LOC-A9AC6168CE7E"
+      ]
     },
     {
       "treatment_id": "TREAT-ABD179DD78FE",
@@ -9611,7 +10085,13 @@
       ],
       "status_rationale": "The benchmark expects on page 290: Bread riots, failed marches, and calls for the 1793 constitution build toward a mass confrontation. Canonical locator LOC-29212760E27F under 'Paris > bread prices and subsistence riots' is supported on that page: Page 290 states that for ordinary Parisians, all that had made the terrible winter of 1795 endurable had been the regular bread ration which the Convention had been determined to maintain. This provides sustained evidence for Paris > bread prices and subsistence riots.",
       "matched_path_id": "PATH-542D81C64617",
-      "matched_locator_id": "LOC-29212760E27F"
+      "matched_locator_id": "LOC-29212760E27F",
+      "matched_path_ids": [
+        "PATH-542D81C64617"
+      ],
+      "matched_locator_ids": [
+        "LOC-29212760E27F"
+      ]
     },
     {
       "treatment_id": "TREAT-ABF092A999BC",
@@ -9625,7 +10105,15 @@
       ],
       "status_rationale": "The benchmark expects on page 294: Prairial insurgents again join the constitution to bread and restored popular institutions. Canonical locator LOC-3723C2B2F7C0 under 'Constitution of 1793 > as standard of rebellion' is supported on that page: Page 294 states that 294 Thermidor, 1794–1795 Guards from the Saint-Antoine and Saint-Marcel districts, and when the deputy Féraud and a group of colleagues tried to stop them entering the hall, he was shot. The crowd then hacked oﬀ his head and burst through the doors carrying it on a pike, to the sound of more shots and cries of Bread and the Constitution of 1793! And once inside, the insurgents demanded more: the release of imprisoned patriots, permanent sessions in the sections, reintegration of an independent Paris commune, compulsory food searches, the arrest of... This provides independently useful contextual evidence for Constitution of 1793 > as standard of rebellion.",
       "matched_path_id": "PATH-A34404758FD3",
-      "matched_locator_id": "LOC-3723C2B2F7C0"
+      "matched_locator_id": "LOC-3723C2B2F7C0",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-A34404758FD3"
+      ],
+      "matched_locator_ids": [
+        "LOC-3723C2B2F7C0",
+        "LOC-771342F651CC"
+      ]
     },
     {
       "treatment_id": "TREAT-B00E6CA28E85",
@@ -9639,7 +10127,15 @@
       ],
       "status_rationale": "The benchmark expects on page 272: Robespierre presents democracy as law-governed popular sovereignty using delegates for tasks the people cannot perform directly, implicitly limiting sansculotte intervention. Canonical locator LOC-2B8B9C1C6EE1 under 'sansculottes' is supported on that page: Page 272 states that only democratic or republican government: these two words are synonyms. ’ But democracy was not, said Robespierre (implicitly rejecting the claims of the sansculottes to interfere in government) the sovereign people in constant action. Democracy is a state where the sovereign people, guided by laws which are its own work, does by itself all that it can do well, and by delegates all that it cannot do for itself. This provides independently useful contextual evidence for sansculottes.",
       "matched_path_id": "PATH-F89128DD30E6",
-      "matched_locator_id": "LOC-2B8B9C1C6EE1"
+      "matched_locator_id": "LOC-2B8B9C1C6EE1",
+      "matched_path_ids": [
+        "PATH-9E4C6405ACB3",
+        "PATH-F89128DD30E6"
+      ],
+      "matched_locator_ids": [
+        "LOC-2B8B9C1C6EE1",
+        "LOC-9F90D6D43F32"
+      ]
     },
     {
       "treatment_id": "TREAT-B0376FB43592",
@@ -9653,7 +10149,13 @@
       ],
       "status_rationale": "The benchmark expects on page 291: Paris sections disarm about sixteen hundred former activists, and analogous measures mark Year II officials as enemies beyond the capital. Canonical locator LOC-47AD704D6143 under 'Paris sections' is supported on that page: Page 291 states that pichegru’s response was to disperse large gatherings and order the arrest of anybody with a suspicious record. On 10 April the Convention backed him up by authorizing the disarmament of all those ‘known’ in their sections as activists during the Terror. Throughout Paris that meant 1,600 people were rendered oﬃcially defenceless against any sort of reprisals. This provides independently useful contextual evidence for Paris sections.",
       "matched_path_id": "PATH-0C63FACA6CED",
-      "matched_locator_id": "LOC-47AD704D6143"
+      "matched_locator_id": "LOC-47AD704D6143",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED"
+      ],
+      "matched_locator_ids": [
+        "LOC-47AD704D6143"
+      ]
     },
     {
       "treatment_id": "TREAT-B11E22E43AC0",
@@ -9667,7 +10169,13 @@
       ],
       "status_rationale": "The benchmark expects on page 273: During spring 1794 he increasingly sought to cleanse the Republic of corruption and failures to meet his moral standard. Canonical locator LOC-7DCBC359A3C8 under 'Virtue' is supported on that page: Page 273 states that . The ﬁrst rule of your political conduct must be to relate all you do to maintaining equality and developing virtue . . This provides independently useful contextual evidence for Virtue.",
       "matched_path_id": "PATH-B6F9204A845E",
-      "matched_locator_id": "LOC-7DCBC359A3C8"
+      "matched_locator_id": "LOC-7DCBC359A3C8",
+      "matched_path_ids": [
+        "PATH-B6F9204A845E"
+      ],
+      "matched_locator_ids": [
+        "LOC-7DCBC359A3C8"
+      ]
     },
     {
       "treatment_id": "TREAT-B7AEF2223657",
@@ -9682,7 +10190,15 @@
       ],
       "status_rationale": "The frozen treatment on page 292 is reached by supported locator LOC-6A581B9CFCB1 under the specific path Marseilles > White Terror.",
       "matched_path_id": "PATH-B56CA719882B",
-      "matched_locator_id": "LOC-6A581B9CFCB1"
+      "matched_locator_id": "LOC-6A581B9CFCB1",
+      "matched_path_ids": [
+        "PATH-B56CA719882B",
+        "PATH-E109A8752CF2"
+      ],
+      "matched_locator_ids": [
+        "LOC-6A581B9CFCB1",
+        "LOC-B30DFEE49323"
+      ]
     },
     {
       "treatment_id": "TREAT-B94F75363697",
@@ -9696,7 +10212,13 @@
       ],
       "status_rationale": "The benchmark expects on page 281: Robespierre and municipal supporters are executed, after which the victors use the dictatorship charge to legitimize the overthrow and reassign blame. Canonical locator LOC-063FF3608951 under 'Thermidor' is supported on that page: Page 281 states that thermidor, 1794–1795 281 7 noted the Irish political exile Hamilton Rowan, who watched the spectacle, ‘were guillotined in less than one hour and a half, in the Place de la Revolution; and though I was standing above a hundred paces from the place of execution, the blood of the victims streamed beneath my feet. What surprised me was, as each head fell into the basket, the cry of the people was no other than a repetition of “A bas le Maximum! This provides independently useful contextual evidence for Thermidor.",
       "matched_path_id": "PATH-DB6D0D6866F1",
-      "matched_locator_id": "LOC-063FF3608951"
+      "matched_locator_id": "LOC-063FF3608951",
+      "matched_path_ids": [
+        "PATH-DB6D0D6866F1"
+      ],
+      "matched_locator_ids": [
+        "LOC-063FF3608951"
+      ]
     },
     {
       "treatment_id": "TREAT-B97C46365899",
@@ -9710,7 +10232,15 @@
       ],
       "status_rationale": "The benchmark expects on page 283: Calls target committee members who turned late against Robespierre, revealing that Thermidor did not cleanly divide perpetrators from opponents. Canonical locator LOC-13F506EEB319 under 'Amar, Jean-Baptiste' is supported on that page: Page 283 states that those wishing to limit it were, they said (in the title of a pamphlet published late in August), Robespierre’s Tail, blood-drinkers who wanted a return of government by terror. On 29 August an open attack was launched in the Convention on leading terrorists in the committees who had only turned against Robespierre at the last moment: the impeachment of Barère, Biliaud, Collot, Vadier, Amar, and David was proposed. Once again this was going too far, too fast, for the Convention. This provides independently useful contextual evidence for Amar, Jean-Baptiste.",
       "matched_path_id": "PATH-05EBB3C19101",
-      "matched_locator_id": "LOC-13F506EEB319"
+      "matched_locator_id": "LOC-13F506EEB319",
+      "matched_path_ids": [
+        "PATH-05EBB3C19101",
+        "PATH-139D5C8E19F4"
+      ],
+      "matched_locator_ids": [
+        "LOC-13F506EEB319",
+        "LOC-A3ABF98A0D38"
+      ]
     },
     {
       "treatment_id": "TREAT-BA5F5B4DB62E",
@@ -9724,7 +10254,13 @@
       ],
       "status_rationale": "The benchmark expects on page 285: Girondin sympathizers regain full Convention membership shortly before Carrier's execution, completing the reversal but opening a year of retaliation. Canonical locator LOC-1EF5C1591D74 under 'Girondins' is supported on that page: Page 285 states that but in sacriﬁcing him the Convention set an ominous example. A week before he died the 71 Girondin sympathizers saved by Robespierre from the guillotine in October 1793 (including the hapless Tom Paine) were reinstated as full members of the Convention. The political turnabout was now complete; but the return of the Girondins and the elimination of the most notorious of terrorists were not harbingers of a return to restraint and consensus. This provides independently useful contextual evidence for Girondins.",
       "matched_path_id": "PATH-FF4BD0B64D83",
-      "matched_locator_id": "LOC-1EF5C1591D74"
+      "matched_locator_id": "LOC-1EF5C1591D74",
+      "matched_path_ids": [
+        "PATH-FF4BD0B64D83"
+      ],
+      "matched_locator_ids": [
+        "LOC-1EF5C1591D74"
+      ]
     },
     {
       "treatment_id": "TREAT-BC4093962831",
@@ -9738,7 +10274,13 @@
       ],
       "status_rationale": "The benchmark expects on page 279: A brief attempt at reunification collapses when Robespierre attacks members of both committees and publicly demands their purification. Canonical locator LOC-72881AE437DC under 'Committee of General Security' is supported on that page: Page 279 states that after extolling his own probity and love of virtue in now characteristic fashion, he declared that there existed a ‘conspiracy against public liberty’ involving unspeciﬁed numbers of deputies, the Committee of General Security, and even some members of the Committee of Public Safety. This provides sustained evidence for Committee of General Security.",
       "matched_path_id": "PATH-D07C40F100E2",
-      "matched_locator_id": "LOC-72881AE437DC"
+      "matched_locator_id": "LOC-72881AE437DC",
+      "matched_path_ids": [
+        "PATH-D07C40F100E2"
+      ],
+      "matched_locator_ids": [
+        "LOC-72881AE437DC"
+      ]
     },
     {
       "treatment_id": "TREAT-BC7886B2C7FB",
@@ -9752,7 +10294,15 @@
       ],
       "status_rationale": "The benchmark expects on page 286: Severe freezing immobilizes grain and fuel after a weak harvest, while provincial and Paris authorities ration and subsidize bread amid sharply rising prices. Canonical locator LOC-0FCB31560F9B under 'winter (1794-1795)' is supported on that page: Page 286 states that that night there was a savage frost. It marked the onset of a winter colder even than 1788; in fact, the worst of the whole century. And the conditions which permitted the Republic’s armies to swarm across the frozen Rhine into Holland brought acute hardship to its citizens remaining at home. This provides independently useful contextual evidence for winter (1794-1795).",
       "matched_path_id": "PATH-9E86C24CDE99",
-      "matched_locator_id": "LOC-0FCB31560F9B"
+      "matched_locator_id": "LOC-0FCB31560F9B",
+      "matched_path_ids": [
+        "PATH-542D81C64617",
+        "PATH-9E86C24CDE99"
+      ],
+      "matched_locator_ids": [
+        "LOC-0FCB31560F9B",
+        "LOC-7FAF603E2E23"
+      ]
     },
     {
       "treatment_id": "TREAT-BCA7C90203BD",
@@ -9766,7 +10316,13 @@
       ],
       "status_rationale": "The benchmark expects on page 278: The Committee of Public Safety refuses Robespierre's demand for named enemies, after which he largely abandons its meetings. Canonical locator LOC-19FEDA9CB585 under 'Committee of Public Safety' is supported on that page: Page 278 states that but when the Committee of Public Safety refused, on 12 June, to be browbeaten into giving him the ‘nine heads’ he believed to be at the heart of the conspiracy against him, he ceased to attend their meetings, conﬁning his public appearances increasingly to the one forum where he knew he could always command support, the Jacobin Club. This provides sustained evidence for Committee of Public Safety.",
       "matched_path_id": "PATH-E64AE183E436",
-      "matched_locator_id": "LOC-19FEDA9CB585"
+      "matched_locator_id": "LOC-19FEDA9CB585",
+      "matched_path_ids": [
+        "PATH-E64AE183E436"
+      ],
+      "matched_locator_ids": [
+        "LOC-19FEDA9CB585"
+      ]
     },
     {
       "treatment_id": "TREAT-BCDA36D92D91",
@@ -9780,7 +10336,15 @@
       ],
       "status_rationale": "The benchmark expects on page 285: The post-Robespierrist Commune replaces the harsh rates with more generous ones, but inflation soon renews wage pressure. Canonical locator LOC-F72D75F70738 under 'wage maximum' is supported on that page: Page 285 states that accordingly, although on 9 August the post-Robespierrist commune abandoned the draconian wage controls that had turned Paris against the ‘tyrant’, ﬁxing far more generous rates, there was agitation for higher wages throughout the autumn. This provides sustained evidence for wage maximum.",
       "matched_path_id": "PATH-89F8671E4140",
-      "matched_locator_id": "LOC-F72D75F70738"
+      "matched_locator_id": "LOC-F72D75F70738",
+      "matched_path_ids": [
+        "PATH-047C95B722B9",
+        "PATH-89F8671E4140"
+      ],
+      "matched_locator_ids": [
+        "LOC-E9B1B5CA317C",
+        "LOC-F72D75F70738"
+      ]
     },
     {
       "treatment_id": "TREAT-C3EB287790E3",
@@ -9794,7 +10358,13 @@
       ],
       "status_rationale": "The benchmark expects on page 289: Hoche takes northern command, offers amnesty and payments for arms, and supports negotiations after troops are ordered away from provocative local billeting. Canonical locator LOC-DAD507C66EFC under 'Hoche, Lazare' is supported on that page: Page 289 states that republican troops were ordered to cease provocative operations and withdraw from billets into camps, while peace feelers were sent out to identiﬁable guerrilla leaders—Stoﬄet and Charette in the Vendée, Puisaye in Brittany. General Hoche was brought back from the German front to take overall command of troops north of the Loire, and he proclaimed an amnesty and bounty for all rebels who handed in their arms. News of the trial of Carrier reassured the insurgents that the Republic had now renounced terror, and on 1 December the Convention itself... This provides independently useful contextual evidence for Hoche, Lazare.",
       "matched_path_id": "PATH-4086A94400BC",
-      "matched_locator_id": "LOC-DAD507C66EFC"
+      "matched_locator_id": "LOC-DAD507C66EFC",
+      "matched_path_ids": [
+        "PATH-4086A94400BC"
+      ],
+      "matched_locator_ids": [
+        "LOC-DAD507C66EFC"
+      ]
     },
     {
       "treatment_id": "TREAT-C3ED90F6C267",
@@ -9808,7 +10378,13 @@
       ],
       "status_rationale": "The benchmark expects on page 290: Stoﬄet and Breton acceptance is presented as tactical delay under secret expectations of British intervention, not durable reconciliation. Canonical locator LOC-1B30B5C5C0E2 under 'La Mabilais, Treaty of' is supported on that page: Page 290 completes the account of the Treaty of La Mabilais and explains that the armistice was mere playing for time while the rebels awaited British intervention; Charette joined because he believed himself isolated.",
       "matched_path_id": "PATH-595EB3C0C568",
-      "matched_locator_id": "LOC-1B30B5C5C0E2"
+      "matched_locator_id": "LOC-1B30B5C5C0E2",
+      "matched_path_ids": [
+        "PATH-595EB3C0C568"
+      ],
+      "matched_locator_ids": [
+        "LOC-1B30B5C5C0E2"
+      ]
     },
     {
       "treatment_id": "TREAT-C4B2FF033944",
@@ -9822,7 +10398,13 @@
       ],
       "status_rationale": "The benchmark expects on page 277: Two attempted attackers and dozens alleged to share a Batz plot are executed in a highly symbolic mass proceeding under the new law. Canonical locator LOC-FACFB823950C under 'Batz, Baron de' is supported on that page: Page 277 states that one of them eventually attacked Collot d’Herbois, but the other got as far as the door of the man she called a tyrant. Both were executed, along with 52 others suspected of involvement in the machinations of Batz, dressed in red, the colour of parricide. The law under which they died was that of 22 Prairial, whose provisions Robespierre largely drafted and, with Couthon, sprang upon an unsuspecting Committee of Public Safety with no prior consultation. This provides independently useful contextual evidence for Batz, Baron de.",
       "matched_path_id": "PATH-F175C8D02D4F",
-      "matched_locator_id": "LOC-FACFB823950C"
+      "matched_locator_id": "LOC-FACFB823950C",
+      "matched_path_ids": [
+        "PATH-F175C8D02D4F"
+      ],
+      "matched_locator_ids": [
+        "LOC-FACFB823950C"
+      ]
     },
     {
       "treatment_id": "TREAT-C576320AEACC",
@@ -9836,7 +10418,13 @@
       ],
       "status_rationale": "The benchmark expects on page 287: Babeuf urges insurrection for the suspended democratic constitution, but the appeal is followed by his arrest and official suppression of popular societies. Canonical locator LOC-2EDD538C21A7 under 'Tribun du peuple, Le (newspaper)' is supported on that page: Page 287 states that their eﬀorts were encouraged by a new journal, Le Tribun du peuple, published clandestinely by the hitherto obscure extreme democrat and former feudal lawyer Babeuf. This provides sustained evidence for Tribun du peuple, Le (newspaper).",
       "matched_path_id": "PATH-241E3F033C58",
-      "matched_locator_id": "LOC-2EDD538C21A7"
+      "matched_locator_id": "LOC-2EDD538C21A7",
+      "matched_path_ids": [
+        "PATH-241E3F033C58"
+      ],
+      "matched_locator_ids": [
+        "LOC-2EDD538C21A7"
+      ]
     },
     {
       "treatment_id": "TREAT-C689BC9D94E5",
@@ -9850,7 +10438,13 @@
       ],
       "status_rationale": "The benchmark expects on page 290: Ration cuts and empty shops end popular trust; women petition, eastern districts discuss uprising, and the controlled economy becomes a favorable point of comparison. Canonical locator LOC-90C9F29C013A under 'Royalists > famine and economic distress, exploitation of' is supported on that page: Page 290 states that queues at bakers’ shops began to lengthen, rations were cut, and on some days some districts had no supplies of bread at all. For the ﬁrst time since 1792 royalists began to come into the open to argue that the shortages showed that the Republic had failed. But the initial instinct of the women who were the ﬁrst to experience empty food shops was not to dream of taking the sickly Louis XVII from his lonely conﬁnement in the Temple and setting him on the throne. This provides independently useful contextual evidence for Royalists > famine and economic distress, exploitation of.",
       "matched_path_id": "PATH-A37478274ECE",
-      "matched_locator_id": "LOC-90C9F29C013A"
+      "matched_locator_id": "LOC-90C9F29C013A",
+      "matched_path_ids": [
+        "PATH-A37478274ECE"
+      ],
+      "matched_locator_ids": [
+        "LOC-90C9F29C013A"
+      ]
     },
     {
       "treatment_id": "TREAT-C7874EE08FF2",
@@ -9864,7 +10458,13 @@
       ],
       "status_rationale": "The benchmark expects on page 280: Billaud and Tallien lead attacks, Robespierre is denied the floor, and the Convention orders the arrests of his principal allies. Canonical locator LOC-F602A644FB72 under 'Robespierre, Maximilien > arrest, fall, and execution' is supported on that page: Page 280 states that 280 Thermidor, 1794–1795 growing factionalism of the preceding weeks, unexpectedly came out for Robespierre. Billaud denounced him in the name of the Committee of Public Safety, and Tallien from the ﬂoor. This provides independently useful contextual evidence for Robespierre, Maximilien > arrest, fall, and execution.",
       "matched_path_id": "PATH-3C3BE8055B13",
-      "matched_locator_id": "LOC-F602A644FB72"
+      "matched_locator_id": "LOC-F602A644FB72",
+      "matched_path_ids": [
+        "PATH-3C3BE8055B13"
+      ],
+      "matched_locator_ids": [
+        "LOC-F602A644FB72"
+      ]
     },
     {
       "treatment_id": "TREAT-CEE214B57AF6",
@@ -9878,7 +10478,13 @@
       ],
       "status_rationale": "The benchmark expects on page 289: Turreau's reprisals further alienate the Vendee, while conscription drives thousands into Breton guerrilla bands that disrupt Republican administration. Canonical locator LOC-A24A648AF759 under 'Vendée' is supported on that page: Page 289 states that turreau had already been recalled before Thermidor, and was arrested in September 1794, though later acquitted of personal responsibility for the atrocities of the spring. Republican troops were ordered to cease provocative operations and withdraw from billets into camps, while peace feelers were sent out to identiﬁable guerrilla leaders—Stoﬄet and Charette in the Vendée, Puisaye in Brittany. General Hoche was brought back from the German front to take overall command of troops north of the Loire, and he proclaimed an amnesty and bounty for all... This provides independently useful contextual evidence for Vendée.",
       "matched_path_id": "PATH-A254A6CC29F8",
-      "matched_locator_id": "LOC-A24A648AF759"
+      "matched_locator_id": "LOC-A24A648AF759",
+      "matched_path_ids": [
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-A24A648AF759"
+      ]
     },
     {
       "treatment_id": "TREAT-D01AC225F8CA",
@@ -9892,7 +10498,15 @@
       ],
       "status_rationale": "The benchmark expects on page 277: Committee quarrels deepen as Robespierre's group pursues police supervision and the Committee of General Security defends its jurisdiction. Canonical locator LOC-178FC975B396 under 'Bureau of General Police' is supported on that page: Page 277 states that yet when on 16 April a special ‘Bureau of General Police’ was established within the Committee to supervise the conduct of public oﬃcials, the three were appointed to it—perhaps in the hope of sidelining them. This provides sustained evidence for Bureau of General Police.",
       "matched_path_id": "PATH-7CE3A4F5C519",
-      "matched_locator_id": "LOC-178FC975B396"
+      "matched_locator_id": "LOC-178FC975B396",
+      "matched_path_ids": [
+        "PATH-7CE3A4F5C519",
+        "PATH-D07C40F100E2"
+      ],
+      "matched_locator_ids": [
+        "LOC-178FC975B396",
+        "LOC-A189778F96CE"
+      ]
     },
     {
       "treatment_id": "TREAT-D5195834ED6C",
@@ -9906,7 +10520,13 @@
       ],
       "status_rationale": "The benchmark expects on page 275: Execution totals rise sharply after early June, and the unusually high share of elite social groups suggests punishment based partly on status rather than specific acts. Canonical locator LOC-8D4C326CDDC8 under 'nobility > persecution and loss of rights' is supported on that page: Page 275 states that of the 2,639 people guillotined in the place de la Révolution between March 1793 and August 1794, over half, 1,515, died during June and July 1794. A far higher proportion of them, too, were from the upper ranks of society than in the Terror as a whole: 38 per cent of its noble victims and 26 per cent of its clerical ones were dispatched during this short phase, and almost half of those from the richer bourgeoisie. Never was the Terror closer to being an instrument of social discrimination rather than one punishing speciﬁc counter-revolutionary acts... This provides independently useful contextual evidence for nobility > persecution and loss of rights.",
       "matched_path_id": "PATH-52E40FE3B2B0",
-      "matched_locator_id": "LOC-8D4C326CDDC8"
+      "matched_locator_id": "LOC-8D4C326CDDC8",
+      "matched_path_ids": [
+        "PATH-52E40FE3B2B0"
+      ],
+      "matched_locator_ids": [
+        "LOC-8D4C326CDDC8"
+      ]
     },
     {
       "treatment_id": "TREAT-D65684E272D0",
@@ -9920,7 +10540,13 @@
       ],
       "status_rationale": "The benchmark expects on page 292: Local authorities extend disarmament into mass imprisonment, creating vulnerable concentrations of former terrorists and prompting widespread revenge. Canonical locator LOC-02CC7119C09F under 'Thermidorians' is supported on that page: Page 292 states that a former judge of the Popular Commission of Orange was lynched at Avignon around the same time. But the real trigger for widespread counter-terror was the Law of 10 April, under which more zealous local authorities, themselves often nominated by resolutely Thermidorian representatives on mission, not only disarmed suspects but imprisoned them into the bargain. As many as 80,000 or 90,000 people may have spent several weeks or months in custody over the summer of 1795. This provides independently useful contextual evidence for Thermidorians.",
       "matched_path_id": "PATH-9EF2ED7A2D6E",
-      "matched_locator_id": "LOC-02CC7119C09F"
+      "matched_locator_id": "LOC-02CC7119C09F",
+      "matched_path_ids": [
+        "PATH-9EF2ED7A2D6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-02CC7119C09F"
+      ]
     },
     {
       "treatment_id": "TREAT-D82E6A8FFFDF",
@@ -9934,7 +10560,15 @@
       ],
       "status_rationale": "The benchmark expects on page 294: The Convention erases votes made under crowd pressure and arrests Montagnards who had adopted the insurgents' proposals. Canonical locator LOC-AB1756B9F1F6 under 'Féraud, Jean-Bertrand' is supported on that page: Page 294 states that 294 Thermidor, 1794–1795 Guards from the Saint-Antoine and Saint-Marcel districts, and when the deputy Féraud and a group of colleagues tried to stop them entering the hall, he was shot. The crowd then hacked oﬀ his head and burst through the doors carrying it on a pike, to the sound of more shots and cries of Bread and the Constitution of 1793! This provides independently useful contextual evidence for Féraud, Jean-Bertrand.",
       "matched_path_id": "PATH-D982ACC24747",
-      "matched_locator_id": "LOC-AB1756B9F1F6"
+      "matched_locator_id": "LOC-AB1756B9F1F6",
+      "matched_path_ids": [
+        "PATH-64D7893D7626",
+        "PATH-D982ACC24747"
+      ],
+      "matched_locator_ids": [
+        "LOC-8411B6E1B9D2",
+        "LOC-AB1756B9F1F6"
+      ]
     },
     {
       "treatment_id": "TREAT-D94C11E5E408",
@@ -9949,7 +10583,13 @@
       ],
       "status_rationale": "The frozen treatment on page 279 is reached by supported locator LOC-06C39B6DFE6D under the specific path Thermidor.",
       "matched_path_id": "PATH-DB6D0D6866F1",
-      "matched_locator_id": "LOC-06C39B6DFE6D"
+      "matched_locator_id": "LOC-06C39B6DFE6D",
+      "matched_path_ids": [
+        "PATH-DB6D0D6866F1"
+      ],
+      "matched_locator_ids": [
+        "LOC-06C39B6DFE6D"
+      ]
     },
     {
       "treatment_id": "TREAT-E16CD5C3EBF8",
@@ -9963,7 +10603,13 @@
       ],
       "status_rationale": "The benchmark expects on page 296: The declaration restores the old social and ecclesiastical order, excludes regicides, and avoids reassurance on national property, alienating every group needed for a negotiated return. Canonical locator LOC-5DB7F2C1BB67 under 'Verona, Declaration of (1795)' is supported on that page: Page 296 states that the Count de Provence, who ever since the execution of Louis XVI had styled himself regent of France, at once proclaimed himself Louis XVIII; and on 25 June, from his exile in Verona, he issued a declaration which completely destroyed any hope of agreement with the men who ruled the kingdom he claimed. This provides sustained evidence for Verona, Declaration of (1795).",
       "matched_path_id": "PATH-6967FEAFE810",
-      "matched_locator_id": "LOC-5DB7F2C1BB67"
+      "matched_locator_id": "LOC-5DB7F2C1BB67",
+      "matched_path_ids": [
+        "PATH-6967FEAFE810"
+      ],
+      "matched_locator_ids": [
+        "LOC-5DB7F2C1BB67"
+      ]
     },
     {
       "treatment_id": "TREAT-E32265593482",
@@ -9977,7 +10623,13 @@
       ],
       "status_rationale": "The benchmark expects on page 284: Tallien adds his own paper as anti-Jacobin pressure increases and street mobilization becomes coordinated with print. Canonical locator LOC-B43DC379335E under 'Thermidorians' is supported on that page: Page 284 states that 284 Thermidor, 1794–1795 to the Thermidorians, who now stepped up their anti-Jacobin pressure. Early in October Tallien founded a paper of his own, L’Ami du citoyen, while in the Convention Legendre once more moved the impeachment of Barère, Billaud, and Collot. This provides independently useful contextual evidence for Thermidorians.",
       "matched_path_id": "PATH-9EF2ED7A2D6E",
-      "matched_locator_id": "LOC-B43DC379335E"
+      "matched_locator_id": "LOC-B43DC379335E",
+      "matched_path_ids": [
+        "PATH-9EF2ED7A2D6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-B43DC379335E"
+      ]
     },
     {
       "treatment_id": "TREAT-E42D463DD762",
@@ -9991,7 +10643,13 @@
       ],
       "status_rationale": "The benchmark expects on page 296: Doyle concludes that the program destroys constitutional-monarchist compromise and shifts restoration efforts toward armed counter-revolution. Canonical locator LOC-5DB7F2C1BB67 under 'Verona, Declaration of (1795)' is supported on that page: Page 296 states that the Count de Provence, who ever since the execution of Louis XVI had styled himself regent of France, at once proclaimed himself Louis XVIII; and on 25 June, from his exile in Verona, he issued a declaration which completely destroyed any hope of agreement with the men who ruled the kingdom he claimed. This provides sustained evidence for Verona, Declaration of (1795).",
       "matched_path_id": "PATH-6967FEAFE810",
-      "matched_locator_id": "LOC-5DB7F2C1BB67"
+      "matched_locator_id": "LOC-5DB7F2C1BB67",
+      "matched_path_ids": [
+        "PATH-6967FEAFE810"
+      ],
+      "matched_locator_ids": [
+        "LOC-5DB7F2C1BB67"
+      ]
     },
     {
       "treatment_id": "TREAT-E67F2C9E7AA0",
@@ -10005,7 +10663,13 @@
       ],
       "status_rationale": "The benchmark expects on page 276: Robespierre launches a civic cult that connects belief in a deity and an afterlife to justice and virtue while criticizing priestly religion and dechristianizing excess. Canonical locator LOC-0793C5814651 under 'Cult of the Supreme Being' is supported on that page: Page 276 states that the result was the cult of the Supreme Being, launched by a speech from Robespierre to the Convention on 7 May. This provides sustained evidence for Cult of the Supreme Being.",
       "matched_path_id": "PATH-288031039572",
-      "matched_locator_id": "LOC-0793C5814651"
+      "matched_locator_id": "LOC-0793C5814651",
+      "matched_path_ids": [
+        "PATH-288031039572"
+      ],
+      "matched_locator_ids": [
+        "LOC-0793C5814651"
+      ]
     },
     {
       "treatment_id": "TREAT-E811EF23BB99",
@@ -10019,7 +10683,13 @@
       ],
       "status_rationale": "The benchmark expects on page 282: Within a month, rotation, repeal, redistributed powers, and reduced surveillance dismantle the central institutions of the Terror. Canonical locator LOC-D4C96A923EBE under 'Revolutionary Government' is supported on that page: Page 282 states that the diﬃculties of that rendered superﬂuous much of the work and powers of the watch committees, which on 24 August were reduced from 48 to 12 in Paris, and one per district elsewhere. In all this the initiative increasingly came from the Convention ﬂoor, and on 11 August the Committee of Public Safety was deprived, against its own advice tendered by Barère, of its overall superintending role in government. All its duties except war and foreign relations were redistributed to other committees. This provides independently useful contextual evidence for Revolutionary Government.",
       "matched_path_id": "PATH-ED68FCC9B189",
-      "matched_locator_id": "LOC-D4C96A923EBE"
+      "matched_locator_id": "LOC-D4C96A923EBE",
+      "matched_path_ids": [
+        "PATH-ED68FCC9B189"
+      ],
+      "matched_locator_ids": [
+        "LOC-D4C96A923EBE"
+      ]
     },
     {
       "treatment_id": "TREAT-EA087C7EDF43",
@@ -10033,7 +10703,13 @@
       ],
       "status_rationale": "The benchmark expects on page 273: Doyle emphasizes that these ideas mattered politically because Robespierre held real authority and applied them with unusual seriousness. Canonical locator LOC-4EE82925E956 under 'Robespierre, Maximilien > Republic of Virtue' is supported on that page: Page 273 states that shortly after outlining his ideal republic of virtue, Robespierre was taken ill and did not reappear in public for almost a month. This provides sustained evidence for Robespierre, Maximilien > Republic of Virtue.",
       "matched_path_id": "PATH-9E4C6405ACB3",
-      "matched_locator_id": "LOC-4EE82925E956"
+      "matched_locator_id": "LOC-4EE82925E956",
+      "matched_path_ids": [
+        "PATH-9E4C6405ACB3"
+      ],
+      "matched_locator_ids": [
+        "LOC-4EE82925E956"
+      ]
     },
     {
       "treatment_id": "TREAT-EBD5C0D03A6A",
@@ -10047,7 +10723,13 @@
       ],
       "status_rationale": "The benchmark expects on page 279: His return produces sweeping attacks and an unspecific public accusation that traitors occupy both governing committees. Canonical locator LOC-6653EA315E25 under 'Barère, Bertrand > Committee of Public Safety' is supported on that page: Page 279 states that after extolling his own probity and love of virtue in now characteristic fashion, he declared that there existed a ‘conspiracy against public liberty’ involving unspeciﬁed numbers of deputies, the Committee of General Security, and even some members of the Committee of Public Safety. This provides sustained evidence for Barère, Bertrand > Committee of Public Safety.",
       "matched_path_id": "PATH-95F6BD419CAF",
-      "matched_locator_id": "LOC-6653EA315E25"
+      "matched_locator_id": "LOC-6653EA315E25",
+      "matched_path_ids": [
+        "PATH-95F6BD419CAF"
+      ],
+      "matched_locator_ids": [
+        "LOC-6653EA315E25"
+      ]
     },
     {
       "treatment_id": "TREAT-ECD7110D08C9",
@@ -10061,7 +10743,13 @@
       ],
       "status_rationale": "The benchmark expects on page 278: After colleagues reject his demand for a group of alleged conspirators, Robespierre stops attending committee meetings and speaks mainly at the Jacobins. Canonical locator LOC-19FEDA9CB585 under 'Committee of Public Safety' is supported on that page: Page 278 states that but when the Committee of Public Safety refused, on 12 June, to be browbeaten into giving him the ‘nine heads’ he believed to be at the heart of the conspiracy against him, he ceased to attend their meetings, conﬁning his public appearances increasingly to the one forum where he knew he could always command support, the Jacobin Club. This provides sustained evidence for Committee of Public Safety.",
       "matched_path_id": "PATH-E64AE183E436",
-      "matched_locator_id": "LOC-19FEDA9CB585"
+      "matched_locator_id": "LOC-19FEDA9CB585",
+      "matched_path_ids": [
+        "PATH-E64AE183E436"
+      ],
+      "matched_locator_ids": [
+        "LOC-19FEDA9CB585"
+      ]
     },
     {
       "treatment_id": "TREAT-EF39190EC94A",
@@ -10075,7 +10763,13 @@
       ],
       "status_rationale": "The benchmark expects on page 293: Rations fall to extreme levels despite foreign peace and emergency substitutes, directing anger toward a government unable to feed the capital. Canonical locator LOC-7E4DCFC05FFB under 'Paris > bread prices and subsistence riots' is supported on that page: Page 293 states that warned by the great demonstration in Germinal, the Convention decreed the supplementation of bread rations in Paris with rice and biscuits when it was deﬁcient: but the still chronic shortage of fuel meant that rice remained uncookable, and meanwhile the bread shortage got worse. This provides sustained evidence for Paris > bread prices and subsistence riots.",
       "matched_path_id": "PATH-542D81C64617",
-      "matched_locator_id": "LOC-7E4DCFC05FFB"
+      "matched_locator_id": "LOC-7E4DCFC05FFB",
+      "matched_path_ids": [
+        "PATH-542D81C64617"
+      ],
+      "matched_locator_ids": [
+        "LOC-7E4DCFC05FFB"
+      ]
     },
     {
       "treatment_id": "TREAT-F12022C19EF9",
@@ -10089,7 +10783,13 @@
       ],
       "status_rationale": "The benchmark expects on page 291: Germinal reveals the consequences of that earlier institutional destruction through weak coordination and leadership. Canonical locator LOC-47AD704D6143 under 'Paris sections' is supported on that page: Page 291 states that pichegru’s response was to disperse large gatherings and order the arrest of anybody with a suspicious record. On 10 April the Convention backed him up by authorizing the disarmament of all those ‘known’ in their sections as activists during the Terror. Throughout Paris that meant 1,600 people were rendered oﬃcially defenceless against any sort of reprisals. This provides independently useful contextual evidence for Paris sections.",
       "matched_path_id": "PATH-0C63FACA6CED",
-      "matched_locator_id": "LOC-47AD704D6143"
+      "matched_locator_id": "LOC-47AD704D6143",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED"
+      ],
+      "matched_locator_ids": [
+        "LOC-47AD704D6143"
+      ]
     },
     {
       "treatment_id": "TREAT-F74DC2C6396A",
@@ -10104,7 +10804,13 @@
       ],
       "status_rationale": "The frozen treatment on page 279 is reached by supported locator LOC-25208CD3BCC2 under the specific path Committee of Public Safety > internal divisions and fall of Robespierre.",
       "matched_path_id": "PATH-A4DCDE5F8AD7",
-      "matched_locator_id": "LOC-25208CD3BCC2"
+      "matched_locator_id": "LOC-25208CD3BCC2",
+      "matched_path_ids": [
+        "PATH-A4DCDE5F8AD7"
+      ],
+      "matched_locator_ids": [
+        "LOC-25208CD3BCC2"
+      ]
     },
     {
       "treatment_id": "TREAT-F8AA1B5BB52C",
@@ -10118,7 +10824,15 @@
       ],
       "status_rationale": "The benchmark expects on page 274: Danton dominates the courtroom until a misleading report allows the Convention to continue the trial without the defendants and without requested witnesses. Canonical locator LOC-6F8D4BE265FA under 'Revolutionary Tribunal' is supported on that page: Page 274 states that through sheer eloquence, he was soon dominating the courtroom, to Fouquier-Tinville’s alarm. Only when the Convention, acting on a deliberately misleading report that the prisoners were in revolt against the Revolutionary Tribunal, decreed that the trial should continue in their absence, could a verdict of guilty be secured. Their ‘revolt’ had merely been a noisy demand that witnesses be called—but now they were deemed superﬂuous. This provides independently useful contextual evidence for Revolutionary Tribunal.",
       "matched_path_id": "PATH-872A9DC14B03",
-      "matched_locator_id": "LOC-6F8D4BE265FA"
+      "matched_locator_id": "LOC-6F8D4BE265FA",
+      "matched_path_ids": [
+        "PATH-8556A2625DED",
+        "PATH-872A9DC14B03"
+      ],
+      "matched_locator_ids": [
+        "LOC-150117714325",
+        "LOC-6F8D4BE265FA"
+      ]
     },
     {
       "treatment_id": "TREAT-FA16CFC78908",
@@ -10132,7 +10846,13 @@
       ],
       "status_rationale": "The frozen treatment on page 295 is reached by supported locator LOC-EACD6EAA279B under the specific path Uprising of Prairial (1795).",
       "matched_path_id": "PATH-9B741D9BDF09",
-      "matched_locator_id": "LOC-EACD6EAA279B"
+      "matched_locator_id": "LOC-EACD6EAA279B",
+      "matched_path_ids": [
+        "PATH-9B741D9BDF09"
+      ],
+      "matched_locator_ids": [
+        "LOC-EACD6EAA279B"
+      ]
     },
     {
       "treatment_id": "TREAT-FA85384E610A",
@@ -10146,7 +10866,13 @@
       ],
       "status_rationale": "The benchmark expects on page 276: Labor discipline and the new civic religion extend the regime's moral and administrative reach beyond prosecutions. Canonical locator LOC-C25D176098D5 under 'Virtue' is supported on that page: Page 276 states that these principles, declared Robespierre to applause, were a continual reminder of justice, and were therefore social and republican. While denouncing priestcraft, he recurred to his heartfelt theme that the purpose of the Republic was to promote virtue, he deplored the excesses (though not in so many words) of dechristianization, and sang the praises of Rousseau, himself the architect of a civic religion. On 20 Prairial (8 June), he moved, the nation should celebrate the Supreme Being. This provides independently useful contextual evidence for Virtue.",
       "matched_path_id": "PATH-B6F9204A845E",
-      "matched_locator_id": "LOC-C25D176098D5"
+      "matched_locator_id": "LOC-C25D176098D5",
+      "matched_path_ids": [
+        "PATH-B6F9204A845E"
+      ],
+      "matched_locator_ids": [
+        "LOC-C25D176098D5"
+      ]
     },
     {
       "treatment_id": "TREAT-FB62D8D5DB67",
@@ -10160,7 +10886,13 @@
       ],
       "status_rationale": "The benchmark expects on page 281: Doyle states that Robespierre neither exercised dictatorship nor is reliably shown to have sought it, locating the danger instead in moral inflexibility backed by power. Canonical locator LOC-752647C60561 under 'Robespierre, Maximilien > reputation as 'dictator'' is supported on that page: Page 281 states that and, told by the Convention that Robespierre had been aiming at tyranny and dictatorship, a populace that had meekly accepted what it had been told about the machinations of the Hébertists and Dantonists was unlikely to stir to save yet another idol shown to have feet of clay. This provides sustained evidence for Robespierre, Maximilien > reputation as 'dictator'.",
       "matched_path_id": "PATH-95E1A492F3C6",
-      "matched_locator_id": "LOC-752647C60561"
+      "matched_locator_id": "LOC-752647C60561",
+      "matched_path_ids": [
+        "PATH-95E1A492F3C6"
+      ],
+      "matched_locator_ids": [
+        "LOC-752647C60561"
+      ]
     }
   ],
   "reader_task_completion": {
@@ -10184,9 +10916,9 @@
     "reader_tasks_judged": 123,
     "reader_tasks_unique": true,
     "concept_coverage_counts": {
-      "complete": 35,
-      "partial": 13,
-      "missing": 11,
+      "complete": 38,
+      "partial": 21,
+      "missing": 0,
       "uninspectable": 0
     },
     "locator_recall": {

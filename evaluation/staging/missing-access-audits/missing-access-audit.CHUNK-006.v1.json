@@ -3518,10 +3518,10 @@
     {
       "subject_id": "SUBJ-7FCDE290728D",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-61A3A7D82E01"
       ],
@@ -3534,7 +3534,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -3567,15 +3567,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-199C926070AF",
-            "EVID-724FF5EFD9B8",
-            "EVID-DEF78EB698D8"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -3587,8 +3578,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-199C926070AF",
@@ -3968,10 +3959,10 @@
     {
       "subject_id": "SUBJ-8DC242203EA6",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-105F39CF8121"
       ],
@@ -3984,7 +3975,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -4021,16 +4012,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-2B45B15DB2F1",
-            "EVID-34D401120F4D",
-            "EVID-87B5F3CC6B8E",
-            "EVID-BE05DD1DD21C"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -4043,8 +4024,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-2B45B15DB2F1",
@@ -4383,10 +4364,10 @@
     {
       "subject_id": "SUBJ-A2A7299F7165",
       "priority": "essential",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-C7A1770E45F5"
       ],
@@ -4404,7 +4385,7 @@
       ],
       "severity": "critical",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -4443,16 +4424,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-17E97995A1C0",
-            "EVID-4C61447162EF",
-            "EVID-DCB3FE996771",
-            "EVID-E5ED3591A453"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -4484,8 +4455,7 @@
       "error_codes": [
         "COV",
         "HED",
-        "LOC_NEG",
-        "XRF"
+        "LOC_NEG"
       ],
       "evidence_ids": [
         "EVID-17E97995A1C0",
@@ -4501,10 +4471,10 @@
     {
       "subject_id": "SUBJ-A722951A6E72",
       "priority": "optional",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-E7BB54A6EA3E",
         "PATH-EDE9FE43A1B3"
@@ -4520,7 +4490,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -4555,17 +4525,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-21808D0DDEAB",
-            "EVID-499A5A842171",
-            "EVID-8471EDA309F1",
-            "EVID-94B65C6DA124",
-            "EVID-A09E9F3EE99A"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -4579,8 +4538,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-21808D0DDEAB",
@@ -4597,10 +4556,10 @@
     {
       "subject_id": "SUBJ-A8857B12C90E",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "partial",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "partly",
       "matched_path_ids": [
         "PATH-381C838838CA"
       ],
@@ -4613,7 +4572,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "partly",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -4646,15 +4605,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-3356BBA895A0",
-            "EVID-53AC4752D4B4",
-            "EVID-D50EA71CF6B4"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -4666,8 +4616,8 @@
       ],
       "missed_treatments": [],
       "error_codes": [
-        "HED",
-        "XRF"
+        "COV",
+        "HED"
       ],
       "evidence_ids": [
         "EVID-3356BBA895A0",
@@ -5533,10 +5483,10 @@
     {
       "subject_id": "SUBJ-D3DA6D94D350",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "complete",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-D578AAEE4FB0"
       ],
@@ -5549,9 +5499,9 @@
         147
       ],
       "missed_document_pages": [],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "yes",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -5586,16 +5536,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-2A032E61B365",
-            "EVID-2AFFDE9AF9F4",
-            "EVID-8D7C40C54C46",
-            "EVID-E3638BC1BF6E"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -5607,10 +5547,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "HED",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-2A032E61B365",
         "EVID-2AFFDE9AF9F4",
@@ -5625,10 +5562,10 @@
     {
       "subject_id": "SUBJ-D691A62D01C8",
       "priority": "major",
-      "coverage": "missing",
-      "direct_access": false,
+      "coverage": "complete",
+      "direct_access": true,
       "cross_reference_access": false,
-      "stance_preserved": "not_applicable",
+      "stance_preserved": "yes",
       "matched_path_ids": [
         "PATH-2BC6D56BE131"
       ],
@@ -5639,9 +5576,9 @@
         139
       ],
       "missed_document_pages": [],
-      "severity": "major",
+      "severity": "none",
       "confidence": "high",
-      "realistic_first_lookup_success": "no",
+      "realistic_first_lookup_success": "yes",
       "treatment_recall": {
         "principal": {
           "expected_document_pages": [
@@ -5674,15 +5611,6 @@
       },
       "missing_routes": [
         {
-          "route_type": "direct",
-          "reason_code": "no_semantically_adequate_candidate_heading_route",
-          "evidence_ids": [
-            "EVID-A80A9714EBC5",
-            "EVID-AA5AC2A0E311",
-            "EVID-C1763B79A94E"
-          ]
-        },
-        {
           "route_type": "cross_reference",
           "reason_code": "no_resolved_candidate_cross_reference_route",
           "evidence_ids": [
@@ -5693,10 +5621,7 @@
         }
       ],
       "missed_treatments": [],
-      "error_codes": [
-        "HED",
-        "XRF"
-      ],
+      "error_codes": [],
       "evidence_ids": [
         "EVID-A80A9714EBC5",
         "EVID-AA5AC2A0E311",
@@ -7216,7 +7141,7 @@
         "SUBJ-BBA116A85CC0",
         "SUBJ-D3DA6D94D350"
       ],
-      "result": "partially_succeeds",
+      "result": "succeeds",
       "access_mode": "direct",
       "matched_path_ids": [
         "PATH-028A6F1F0A16",
@@ -7235,7 +7160,7 @@
         "PATH-C48233FB6F4C",
         "PATH-D578AAEE4FB0"
       ],
-      "severity": "minor",
+      "severity": "none",
       "confidence": "high",
       "evidence_ids": [
         "EVID-0014A4AF4286",
@@ -8105,7 +8030,13 @@
       ],
       "status_rationale": "The frozen treatment on page 136 is reached by supported locator LOC-2B45B15DB2F1 under the specific path clergy (First Estate).",
       "matched_path_id": "PATH-105F39CF8121",
-      "matched_locator_id": "LOC-2B45B15DB2F1"
+      "matched_locator_id": "LOC-2B45B15DB2F1",
+      "matched_path_ids": [
+        "PATH-105F39CF8121"
+      ],
+      "matched_locator_ids": [
+        "LOC-2B45B15DB2F1"
+      ]
     },
     {
       "treatment_id": "TREAT-01A1650244A1",
@@ -8120,7 +8051,13 @@
       ],
       "status_rationale": "The benchmark expects on page 148: Lafayette dispersed crowds but satisfied neither the royal family nor popular societies and could not reliably command his Guards. Canonical locator LOC-BAD3F859DC82 under 'Cordeliers Club' is supported on that page: On source page 148, the destination provides independently useful treatment of the complete path “Cordeliers Club” within its discussion of popular demonstrations, Lafayette's policing, the Day of Daggers, and the king's blocked journey.",
       "matched_path_id": "PATH-81E032EBF2E5",
-      "matched_locator_id": "LOC-BAD3F859DC82"
+      "matched_locator_id": "LOC-BAD3F859DC82",
+      "matched_path_ids": [
+        "PATH-81E032EBF2E5"
+      ],
+      "matched_locator_ids": [
+        "LOC-BAD3F859DC82"
+      ]
     },
     {
       "treatment_id": "TREAT-01C431F33450",
@@ -8134,7 +8071,13 @@
       ],
       "status_rationale": "The benchmark expects on page 138: Militia control was central to Catholic–Protestant conflict in Nîmes and Montauban. Canonical locator LOC-C9E1195DA2C2 under 'National Guard > provincial role and disturbances' is supported on that page: On source page 138, the destination provides independently useful treatment of the complete path “National Guard > provincial role and disturbances” within its discussion of Protestant-Catholic conflict and militia violence at Montauban and Nimes.",
       "matched_path_id": "PATH-BCB03A99B067",
-      "matched_locator_id": "LOC-C9E1195DA2C2"
+      "matched_locator_id": "LOC-C9E1195DA2C2",
+      "matched_path_ids": [
+        "PATH-BCB03A99B067"
+      ],
+      "matched_locator_ids": [
+        "LOC-C9E1195DA2C2"
+      ]
     },
     {
       "treatment_id": "TREAT-01ECC073859D",
@@ -8148,7 +8091,13 @@
       ],
       "status_rationale": "The benchmark expects on page 152: After Varennes it delivered a mass-backed petition demanding deposition or a referendum. Canonical locator LOC-E3B1CC693690 under 'Cordeliers Club' is supported on that page: On source page 152, the destination provides independently useful treatment of the complete path “Cordeliers Club” within its discussion of the constitutional and republican consequences of the flight to Varennes.",
       "matched_path_id": "PATH-81E032EBF2E5",
-      "matched_locator_id": "LOC-E3B1CC693690"
+      "matched_locator_id": "LOC-E3B1CC693690",
+      "matched_path_ids": [
+        "PATH-81E032EBF2E5"
+      ],
+      "matched_locator_ids": [
+        "LOC-E3B1CC693690"
+      ]
     },
     {
       "treatment_id": "TREAT-049D26206C22",
@@ -8162,7 +8111,13 @@
       ],
       "status_rationale": "The benchmark expects on page 144: Around half the clergy refused despite public pressure and the Assembly’s expectation of only limited dissent. Canonical locator LOC-67888700FC42 under 'refractory clergy' is supported on that page: On source page 144, the destination provides independently useful treatment of the complete path “refractory clergy” within its discussion of the clerical oath, oath refusal, and the emergence of refractory clergy.",
       "matched_path_id": "PATH-76459284546E",
-      "matched_locator_id": "LOC-67888700FC42"
+      "matched_locator_id": "LOC-67888700FC42",
+      "matched_path_ids": [
+        "PATH-76459284546E"
+      ],
+      "matched_locator_ids": [
+        "LOC-67888700FC42"
+      ]
     },
     {
       "treatment_id": "TREAT-05ED43FF5054",
@@ -8176,7 +8131,13 @@
       ],
       "status_rationale": "The benchmark expects on page 147: A second camp failed to rally decisive forces and was bloodily dispersed by a largely Protestant force. Canonical locator LOC-2AFFDE9AF9F4 under 'Jalès, camps of' is supported on that page: On source page 147, the destination provides independently useful treatment of the complete path “Jalès, camps of” within its discussion of emigre organization, army mutiny, and the monarchy's response to religious schism.",
       "matched_path_id": "PATH-D578AAEE4FB0",
-      "matched_locator_id": "LOC-2AFFDE9AF9F4"
+      "matched_locator_id": "LOC-2AFFDE9AF9F4",
+      "matched_path_ids": [
+        "PATH-D578AAEE4FB0"
+      ],
+      "matched_locator_ids": [
+        "LOC-2AFFDE9AF9F4"
+      ]
     },
     {
       "treatment_id": "TREAT-0640DF6578E6",
@@ -8190,7 +8151,13 @@
       ],
       "status_rationale": "The frozen treatment on page 157 is reached by supported locator LOC-88282BCB91AA under the specific path Pillnitz, Declaration of.",
       "matched_path_id": "PATH-F64F7B6A582E",
-      "matched_locator_id": "LOC-88282BCB91AA"
+      "matched_locator_id": "LOC-88282BCB91AA",
+      "matched_path_ids": [
+        "PATH-F64F7B6A582E"
+      ],
+      "matched_locator_ids": [
+        "LOC-88282BCB91AA"
+      ]
     },
     {
       "treatment_id": "TREAT-067CD85948A6",
@@ -8204,7 +8171,13 @@
       ],
       "status_rationale": "The benchmark expects on page 138: A crowd led prominently by devout women blocked monastic inventories, overwhelmed the militia, killed five, and drove frightened Protestants from the city. Canonical locator LOC-2017310237B8 under 'Montauban' is supported on that page: On source page 138, the destination provides independently useful treatment of the complete path “Montauban” within its discussion of Protestant-Catholic conflict and militia violence at Montauban and Nimes.",
       "matched_path_id": "PATH-4DABA7E744E3",
-      "matched_locator_id": "LOC-2017310237B8"
+      "matched_locator_id": "LOC-2017310237B8",
+      "matched_path_ids": [
+        "PATH-4DABA7E744E3"
+      ],
+      "matched_locator_ids": [
+        "LOC-2017310237B8"
+      ]
     },
     {
       "treatment_id": "TREAT-0707830069B7",
@@ -8219,7 +8192,13 @@
       ],
       "status_rationale": "The benchmark expects on page 151: Robespierre’s equality argument prevailed over Barnave’s warnings, granting political rights without a color bar. Canonical locator LOC-D50EA71CF6B4 under 'Saint-Domingue' is supported on that page: On source page 151, the destination provides independently useful treatment of the complete path “Saint-Domingue” within its discussion of colonial rights and the royal family's attempted flight to Varennes.",
       "matched_path_id": "PATH-381C838838CA",
-      "matched_locator_id": "LOC-D50EA71CF6B4"
+      "matched_locator_id": "LOC-D50EA71CF6B4",
+      "matched_path_ids": [
+        "PATH-381C838838CA"
+      ],
+      "matched_locator_ids": [
+        "LOC-D50EA71CF6B4"
+      ]
     },
     {
       "treatment_id": "TREAT-085CEDE63372",
@@ -8234,7 +8213,13 @@
       ],
       "status_rationale": "The benchmark expects on page 144: The decree required a public post-Mass oath and immediate replacement of clerics who refused. Canonical locator LOC-EFDAA9CD4E82 under 'clerical oath' is supported on that page: On source page 144, the destination provides independently useful treatment of the complete path “clerical oath” within its discussion of the clerical oath, oath refusal, and the emergence of refractory clergy.",
       "matched_path_id": "PATH-3BB68AD148B6",
-      "matched_locator_id": "LOC-EFDAA9CD4E82"
+      "matched_locator_id": "LOC-EFDAA9CD4E82",
+      "matched_path_ids": [
+        "PATH-3BB68AD148B6"
+      ],
+      "matched_locator_ids": [
+        "LOC-EFDAA9CD4E82"
+      ]
     },
     {
       "treatment_id": "TREAT-08E4EFA2ED7E",
@@ -8248,7 +8233,13 @@
       ],
       "status_rationale": "The benchmark expects on page 155: The first effective émigré law required return, threatened triple taxation, and initiated official lists. Canonical locator LOC-A3D0FA9EB0CA under 'émigrés' is supported on that page: On source page 155, the destination provides independently useful treatment of the complete path “émigrés” within its discussion of constitutional amendments, electoral qualifications, press restrictions, and emigre penalties.",
       "matched_path_id": "PATH-EDE9FE43A1B3",
-      "matched_locator_id": "LOC-A3D0FA9EB0CA"
+      "matched_locator_id": "LOC-A3D0FA9EB0CA",
+      "matched_path_ids": [
+        "PATH-EDE9FE43A1B3"
+      ],
+      "matched_locator_ids": [
+        "LOC-A3D0FA9EB0CA"
+      ]
     },
     {
       "treatment_id": "TREAT-0924DAB1FEAD",
@@ -8262,7 +8253,15 @@
       ],
       "status_rationale": "The benchmark expects on page 156: Foreign-war rumors and émigré intrigue preserved polarization despite attempts at conciliation. Canonical locator LOC-5C26001829B1 under 'monarchy > constitutional monarchy (1789-92)' is supported on that page: On source page 156, the destination provides independently useful treatment of the complete path “monarchy > constitutional monarchy (1789-92)” within its discussion of officer emigration, army collapse, Feuillant weakness, and the Declaration of Pillnitz.",
       "matched_path_id": "PATH-66E399EAF7D8",
-      "matched_locator_id": "LOC-5C26001829B1"
+      "matched_locator_id": "LOC-5C26001829B1",
+      "matched_path_ids": [
+        "PATH-66E399EAF7D8",
+        "PATH-C8B64E8B526C"
+      ],
+      "matched_locator_ids": [
+        "LOC-5C26001829B1",
+        "LOC-D550275BD61F"
+      ]
     },
     {
       "treatment_id": "TREAT-09A12F867C77",
@@ -8276,7 +8275,15 @@
       ],
       "status_rationale": "The frozen treatment on page 154 is reached by supported locator LOC-06415253CA1B under the specific path Social Circle (Cercle Social).",
       "matched_path_id": "PATH-3C118DEC5141",
-      "matched_locator_id": "LOC-06415253CA1B"
+      "matched_locator_id": "LOC-06415253CA1B",
+      "matched_path_ids": [
+        "PATH-3C118DEC5141",
+        "PATH-A42D60869D58"
+      ],
+      "matched_locator_ids": [
+        "LOC-06415253CA1B",
+        "LOC-9602DF471232"
+      ]
     },
     {
       "treatment_id": "TREAT-09B2CEF3EF49",
@@ -8290,7 +8297,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: It carried forward the Champ de Mars petition when the Jacobins withdrew support. Canonical locator LOC-0CCA068A6EC9 under 'Cordeliers Club' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Cordeliers Club” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-81E032EBF2E5",
-      "matched_locator_id": "LOC-0CCA068A6EC9"
+      "matched_locator_id": "LOC-0CCA068A6EC9",
+      "matched_path_ids": [
+        "PATH-81E032EBF2E5"
+      ],
+      "matched_locator_ids": [
+        "LOC-0CCA068A6EC9"
+      ]
     },
     {
       "treatment_id": "TREAT-0A6F3E2221D1",
@@ -8304,7 +8317,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: Arrests, flight and concealment of activists, shuttered newspapers, and inactive clubs temporarily shattered organized republican pressure. Canonical locator LOC-F2E0634D4E7F under 'Lafayette, Gilbert du Motier, Marquis de > Champ de Mars massacre' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Lafayette, Gilbert du Motier, Marquis de > Champ de Mars massacre” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-431E22BE4DC1",
-      "matched_locator_id": "LOC-F2E0634D4E7F"
+      "matched_locator_id": "LOC-F2E0634D4E7F",
+      "matched_path_ids": [
+        "PATH-431E22BE4DC1"
+      ],
+      "matched_locator_ids": [
+        "LOC-F2E0634D4E7F"
+      ]
     },
     {
       "treatment_id": "TREAT-0B0A322792E1",
@@ -8318,7 +8337,13 @@
       ],
       "status_rationale": "The benchmark expects on page 137: Most monasteries and convents were dissolved after losing their property; contemplative life was judged socially unproductive. Canonical locator LOC-6892707D9CAE under 'monasteries' is supported on that page: On source page 137, the destination provides independently useful treatment of the complete path “monasteries” within its discussion of religious equality, Church property, clerical incomes, and the dissolution of religious orders.",
       "matched_path_id": "PATH-9BE1C108CFD5",
-      "matched_locator_id": "LOC-6892707D9CAE"
+      "matched_locator_id": "LOC-6892707D9CAE",
+      "matched_path_ids": [
+        "PATH-9BE1C108CFD5"
+      ],
+      "matched_locator_ids": [
+        "LOC-6892707D9CAE"
+      ]
     },
     {
       "treatment_id": "TREAT-11CA862B910C",
@@ -8332,7 +8357,13 @@
       ],
       "status_rationale": "The benchmark expects on page 146: Artois and Calonne sought to rescue the monarchy and restore aristocratic power, using agents among Catholic leaders and planning a Rhône uprising. Canonical locator LOC-A67B37DC17A1 under 'Lyons' is supported on that page: On source page 146, the destination provides independently useful treatment of the complete path “Lyons” within its discussion of papal opposition, refractory worship, and the first organized counter-revolutionary activity.",
       "matched_path_id": "PATH-C48233FB6F4C",
-      "matched_locator_id": "LOC-A67B37DC17A1"
+      "matched_locator_id": "LOC-A67B37DC17A1",
+      "matched_path_ids": [
+        "PATH-C48233FB6F4C"
+      ],
+      "matched_locator_ids": [
+        "LOC-A67B37DC17A1"
+      ]
     },
     {
       "treatment_id": "TREAT-1232432300B9",
@@ -8359,7 +8390,13 @@
       ],
       "status_rationale": "The benchmark expects on page 146: Publication of the papal position led a significant minority of jurors to retract. Canonical locator LOC-126D4E27ADA9 under 'refractory clergy' is supported on that page: On source page 146, the destination provides independently useful treatment of the complete path “refractory clergy” within its discussion of papal opposition, refractory worship, and the first organized counter-revolutionary activity.",
       "matched_path_id": "PATH-76459284546E",
-      "matched_locator_id": "LOC-126D4E27ADA9"
+      "matched_locator_id": "LOC-126D4E27ADA9",
+      "matched_path_ids": [
+        "PATH-76459284546E"
+      ],
+      "matched_locator_ids": [
+        "LOC-126D4E27ADA9"
+      ]
     },
     {
       "treatment_id": "TREAT-127A3D7B89B6",
@@ -8385,7 +8422,13 @@
       ],
       "status_rationale": "The benchmark expects on page 138: Subsequent Protestant electoral victories made them agents of revolutionary and ecclesiastical policy throughout the Gard. Canonical locator LOC-6E2DBF4DE2BA under 'Bagarre of Nîmes' is supported on that page: On source page 138, the destination provides independently useful treatment of the complete path “Bagarre of Nîmes” within its discussion of Protestant-Catholic conflict and militia violence at Montauban and Nimes.",
       "matched_path_id": "PATH-675A9A68483C",
-      "matched_locator_id": "LOC-6E2DBF4DE2BA"
+      "matched_locator_id": "LOC-6E2DBF4DE2BA",
+      "matched_path_ids": [
+        "PATH-675A9A68483C"
+      ],
+      "matched_locator_ids": [
+        "LOC-6E2DBF4DE2BA"
+      ]
     },
     {
       "treatment_id": "TREAT-138B5CF8DF43",
@@ -8399,7 +8442,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: The final petition declared an effective abdication and conditioned any replacement on national consent, making it functionally republican. Canonical locator LOC-06415253CA1B under 'Social Circle (Cercle Social)' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Social Circle (Cercle Social)” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-3C118DEC5141",
-      "matched_locator_id": "LOC-06415253CA1B"
+      "matched_locator_id": "LOC-06415253CA1B",
+      "matched_path_ids": [
+        "PATH-3C118DEC5141"
+      ],
+      "matched_locator_ids": [
+        "LOC-06415253CA1B"
+      ]
     },
     {
       "treatment_id": "TREAT-14F0B55F589F",
@@ -8413,7 +8462,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: The Assembly then completed constitutional revision without comparable street opposition. Canonical locator LOC-F2E0634D4E7F under 'Lafayette, Gilbert du Motier, Marquis de > Champ de Mars massacre' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Lafayette, Gilbert du Motier, Marquis de > Champ de Mars massacre” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-431E22BE4DC1",
-      "matched_locator_id": "LOC-F2E0634D4E7F"
+      "matched_locator_id": "LOC-F2E0634D4E7F",
+      "matched_path_ids": [
+        "PATH-431E22BE4DC1"
+      ],
+      "matched_locator_ids": [
+        "LOC-F2E0634D4E7F"
+      ]
     },
     {
       "treatment_id": "TREAT-19BEEA78B4FC",
@@ -8427,7 +8482,13 @@
       ],
       "status_rationale": "The benchmark expects on page 153: The Varennes emergency renewed persecution by casting refractories as partners of aristocrats and foreign powers. Canonical locator LOC-DD65C68E0F73 under 'refractory clergy > persecution and popular violence' is supported on that page: On source page 153, the destination provides independently useful treatment of the complete path “refractory clergy > persecution and popular violence” within its discussion of national alarm after Varennes and division within the Jacobin movement.",
       "matched_path_id": "PATH-4571AD3D5E06",
-      "matched_locator_id": "LOC-DD65C68E0F73"
+      "matched_locator_id": "LOC-DD65C68E0F73",
+      "matched_path_ids": [
+        "PATH-4571AD3D5E06"
+      ],
+      "matched_locator_ids": [
+        "LOC-DD65C68E0F73"
+      ]
     },
     {
       "treatment_id": "TREAT-1B70E3C561FE",
@@ -8441,7 +8502,13 @@
       ],
       "status_rationale": "The benchmark expects on page 143: Refusal of confirmation and mass priestly protest showed that a peaceful institutional transition was not occurring. Canonical locator LOC-54E39440CF65 under 'Exposition of Principles (1790)' is supported on that page: On source page 143, the destination provides independently useful treatment of the complete path “Exposition of Principles (1790)” within its discussion of counter-revolution in the Midi and resistance to implementation of the Civil Constitution.",
       "matched_path_id": "PATH-657B93A173B4",
-      "matched_locator_id": "LOC-54E39440CF65"
+      "matched_locator_id": "LOC-54E39440CF65",
+      "matched_path_ids": [
+        "PATH-657B93A173B4"
+      ],
+      "matched_locator_ids": [
+        "LOC-54E39440CF65"
+      ]
     },
     {
       "treatment_id": "TREAT-2033151A095A",
@@ -8455,7 +8522,13 @@
       ],
       "status_rationale": "The benchmark expects on page 148: Women sustained Paris demonstrations against suspected emigration and refractory practice, including direct coercion of a convent. Canonical locator LOC-BE5F940288D6 under 'refractory clergy' is supported on that page: On source page 148, the destination provides independently useful treatment of the complete path “refractory clergy” within its discussion of popular demonstrations, Lafayette's policing, the Day of Daggers, and the king's blocked journey.",
       "matched_path_id": "PATH-76459284546E",
-      "matched_locator_id": "LOC-BE5F940288D6"
+      "matched_locator_id": "LOC-BE5F940288D6",
+      "matched_path_ids": [
+        "PATH-76459284546E"
+      ],
+      "matched_locator_ids": [
+        "LOC-BE5F940288D6"
+      ]
     },
     {
       "treatment_id": "TREAT-204CAF5FDE7D",
@@ -8469,7 +8542,13 @@
       ],
       "status_rationale": "The benchmark expects on page 157: Émigré princes continued to influence international threats and constitutional acceptance from abroad. Canonical locator LOC-499A5A842171 under 'émigrés' is supported on that page: On source page 157, the destination provides independently useful treatment of the complete path “émigrés” within its discussion of Pillnitz, acceptance of the constitution, and the Constituent Assembly's divided legacy.",
       "matched_path_id": "PATH-EDE9FE43A1B3",
-      "matched_locator_id": "LOC-499A5A842171"
+      "matched_locator_id": "LOC-499A5A842171",
+      "matched_path_ids": [
+        "PATH-EDE9FE43A1B3"
+      ],
+      "matched_locator_ids": [
+        "LOC-499A5A842171"
+      ]
     },
     {
       "treatment_id": "TREAT-21C217EF95B2",
@@ -8483,7 +8562,13 @@
       ],
       "status_rationale": "The benchmark expects on page 150: Robespierre’s unsuccessful demand for immediate annexation marked another fracture on the left. Canonical locator LOC-C487E8E3A664 under 'Avignon' is supported on that page: On source page 150, the destination provides independently useful treatment of the complete path “Avignon” within its discussion of the triumvirate, Robespierre's rise, republicanism, and legislative self-denial.",
       "matched_path_id": "PATH-B7DA2266F8AD",
-      "matched_locator_id": "LOC-C487E8E3A664"
+      "matched_locator_id": "LOC-C487E8E3A664",
+      "matched_path_ids": [
+        "PATH-B7DA2266F8AD"
+      ],
+      "matched_locator_ids": [
+        "LOC-C487E8E3A664"
+      ]
     },
     {
       "treatment_id": "TREAT-2241407C7788",
@@ -8498,7 +8583,13 @@
       ],
       "status_rationale": "The frozen treatment on page 147 is reached by supported locator LOC-F4D571FC22FD under the specific path Artois, Charles-Philippe, Comte d' > in exile.",
       "matched_path_id": "PATH-A094B7A3A1EF",
-      "matched_locator_id": "LOC-F4D571FC22FD"
+      "matched_locator_id": "LOC-F4D571FC22FD",
+      "matched_path_ids": [
+        "PATH-A094B7A3A1EF"
+      ],
+      "matched_locator_ids": [
+        "LOC-F4D571FC22FD"
+      ]
     },
     {
       "treatment_id": "TREAT-247C957A80FC",
@@ -8512,7 +8603,13 @@
       ],
       "status_rationale": "The benchmark expects on page 316: The concluding analysis locates genuine mass counter-revolution chiefly in the Gard, Vendée, and rural Brittany and stresses its lack of national scope. Canonical locator LOC-0014A4AF4286 under 'Counter-Revolution > failure and analysis' is supported on that page: Document page 316 connects the complete path 'Counter-Revolution > failure and analysis' to a concrete source fact: counter-revolution is judged to have failed through émigré factionalism, self-interest among foreign powers, and the local rather than national aims of internal rebels.",
       "matched_path_id": "PATH-028A6F1F0A16",
-      "matched_locator_id": "LOC-0014A4AF4286"
+      "matched_locator_id": "LOC-0014A4AF4286",
+      "matched_path_ids": [
+        "PATH-028A6F1F0A16"
+      ],
+      "matched_locator_ids": [
+        "LOC-0014A4AF4286"
+      ]
     },
     {
       "treatment_id": "TREAT-24FF89DD1E2F",
@@ -8527,7 +8624,15 @@
       ],
       "status_rationale": "The frozen treatment on page 153 is reached by supported locator LOC-1017907E7665 under the specific path Social Circle (Cercle Social).",
       "matched_path_id": "PATH-3C118DEC5141",
-      "matched_locator_id": "LOC-1017907E7665"
+      "matched_locator_id": "LOC-1017907E7665",
+      "matched_path_ids": [
+        "PATH-3C118DEC5141",
+        "PATH-A42D60869D58"
+      ],
+      "matched_locator_ids": [
+        "LOC-1017907E7665",
+        "LOC-EA7F9E5CDCE1"
+      ]
     },
     {
       "treatment_id": "TREAT-27BD347F62FF",
@@ -8541,7 +8646,13 @@
       ],
       "status_rationale": "The benchmark expects on page 148: Although not demonstrated to be an escape attempt, the episode made rumors self-reinforcing and prompted concrete royal flight preparations. Canonical locator LOC-A159CA7E624C under 'Saint-Cloud' is supported on that page: On source page 148, the destination provides independently useful treatment of the complete path “Saint-Cloud” within its discussion of popular demonstrations, Lafayette's policing, the Day of Daggers, and the king's blocked journey.",
       "matched_path_id": "PATH-B9E602BCDE5B",
-      "matched_locator_id": "LOC-A159CA7E624C"
+      "matched_locator_id": "LOC-A159CA7E624C",
+      "matched_path_ids": [
+        "PATH-B9E602BCDE5B"
+      ],
+      "matched_locator_ids": [
+        "LOC-A159CA7E624C"
+      ]
     },
     {
       "treatment_id": "TREAT-2803E7B07354",
@@ -8568,7 +8679,13 @@
       ],
       "status_rationale": "The benchmark expects on page 139: When clerical committee members slowed, lay membership was expanded; most participants sought Catholic reform rather than destruction of religion. Canonical locator LOC-AA5AC2A0E311 under 'Ecclesiastical committee' is supported on that page: On source page 139, the destination provides independently useful treatment of the complete path “Ecclesiastical committee” within its discussion of papal rule in Avignon, Pius VI's opposition, and preparation of the Civil Constitution.",
       "matched_path_id": "PATH-2BC6D56BE131",
-      "matched_locator_id": "LOC-AA5AC2A0E311"
+      "matched_locator_id": "LOC-AA5AC2A0E311",
+      "matched_path_ids": [
+        "PATH-2BC6D56BE131"
+      ],
+      "matched_locator_ids": [
+        "LOC-AA5AC2A0E311"
+      ]
     },
     {
       "treatment_id": "TREAT-2BBB4C2BADEA",
@@ -8582,7 +8699,13 @@
       ],
       "status_rationale": "The benchmark expects on page 157: The Feuillants declared the Revolution complete when the king accepted, despite unresolved religious and republican divisions. Canonical locator LOC-03DFC6783F86 under 'Feuillants Club' is supported on that page: On source page 157, the destination provides independently useful treatment of the complete path “Feuillants Club” within its discussion of Pillnitz, acceptance of the constitution, and the Constituent Assembly's divided legacy.",
       "matched_path_id": "PATH-C8B64E8B526C",
-      "matched_locator_id": "LOC-03DFC6783F86"
+      "matched_locator_id": "LOC-03DFC6783F86",
+      "matched_path_ids": [
+        "PATH-C8B64E8B526C"
+      ],
+      "matched_locator_ids": [
+        "LOC-03DFC6783F86"
+      ]
     },
     {
       "treatment_id": "TREAT-2C2CF50CE1E0",
@@ -8596,7 +8719,15 @@
       ],
       "status_rationale": "The benchmark expects on page 146: Mirabeau offered secret counsel and sought a stronger monarchy and a king outside Paris, but rejected the Turin émigrés’ restoration project. Canonical locator LOC-98850895115E under 'émigrés > counter-revolutionary activity' is supported on that page: On source page 146, the destination provides independently useful treatment of the complete path “émigrés > counter-revolutionary activity” within its discussion of papal opposition, refractory worship, and the first organized counter-revolutionary activity.",
       "matched_path_id": "PATH-EBD8BD7AF5AF",
-      "matched_locator_id": "LOC-98850895115E"
+      "matched_locator_id": "LOC-98850895115E",
+      "matched_path_ids": [
+        "PATH-D3B2678AF36A",
+        "PATH-EBD8BD7AF5AF"
+      ],
+      "matched_locator_ids": [
+        "LOC-7A9517FFEA16",
+        "LOC-98850895115E"
+      ]
     },
     {
       "treatment_id": "TREAT-2D473EDE7B14",
@@ -8611,7 +8742,13 @@
       ],
       "status_rationale": "The benchmark expects on page 149: Former monarchiens built a large rival club as political moderation gathered momentum. Canonical locator LOC-07B566D1ACE2 under 'Monarchical Club' is supported on that page: On source page 149, the destination provides independently useful treatment of the complete path “Monarchical Club” within its discussion of unemployment, guild abolition, industrial action, and political moderation.",
       "matched_path_id": "PATH-7E7923CBA2AE",
-      "matched_locator_id": "LOC-07B566D1ACE2"
+      "matched_locator_id": "LOC-07B566D1ACE2",
+      "matched_path_ids": [
+        "PATH-7E7923CBA2AE"
+      ],
+      "matched_locator_ids": [
+        "LOC-07B566D1ACE2"
+      ]
     },
     {
       "treatment_id": "TREAT-2D63DFA04A28",
@@ -8625,7 +8762,13 @@
       ],
       "status_rationale": "The benchmark expects on page 153: The Assembly retained monarchy, controlled the executive, and assigned blame to Bouillé and associates who had already escaped. Canonical locator LOC-69CD4FE2C038 under 'Varennes, Flight to' is supported on that page: On source page 153, the destination provides independently useful treatment of the complete path “Varennes, Flight to” within its discussion of national alarm after Varennes and division within the Jacobin movement.",
       "matched_path_id": "PATH-EB02DA5B5EDC",
-      "matched_locator_id": "LOC-69CD4FE2C038"
+      "matched_locator_id": "LOC-69CD4FE2C038",
+      "matched_path_ids": [
+        "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-69CD4FE2C038"
+      ]
     },
     {
       "treatment_id": "TREAT-30C967C38879",
@@ -8640,7 +8783,13 @@
       ],
       "status_rationale": "The frozen treatment on page 150 is reached by supported locator LOC-198191AA6EA3 under the specific path republicanism.",
       "matched_path_id": "PATH-A42D60869D58",
-      "matched_locator_id": "LOC-198191AA6EA3"
+      "matched_locator_id": "LOC-198191AA6EA3",
+      "matched_path_ids": [
+        "PATH-A42D60869D58"
+      ],
+      "matched_locator_ids": [
+        "LOC-198191AA6EA3"
+      ]
     },
     {
       "treatment_id": "TREAT-30DBD577C65F",
@@ -8654,7 +8803,13 @@
       ],
       "status_rationale": "The benchmark expects on page 151: The decision demonstrates that the rights settlement did not extend equally to enslaved Black people. Canonical locator LOC-D50EA71CF6B4 under 'Saint-Domingue' is supported on that page: On source page 151, the destination provides independently useful treatment of the complete path “Saint-Domingue” within its discussion of colonial rights and the royal family's attempted flight to Varennes.",
       "matched_path_id": "PATH-381C838838CA",
-      "matched_locator_id": "LOC-D50EA71CF6B4"
+      "matched_locator_id": "LOC-D50EA71CF6B4",
+      "matched_path_ids": [
+        "PATH-381C838838CA"
+      ],
+      "matched_locator_ids": [
+        "LOC-D50EA71CF6B4"
+      ]
     },
     {
       "treatment_id": "TREAT-3238CA4C64BE",
@@ -8668,7 +8823,13 @@
       ],
       "status_rationale": "The benchmark expects on page 138: Organized Protestant bourgeois groups captured representation and militia influence in Nîmes and Montauban, while Catholics mobilized municipal majorities. Canonical locator LOC-E3A5A992F6CD under 'Protestants' is supported on that page: On source page 138, the destination provides independently useful treatment of the complete path “Protestants” within its discussion of Protestant-Catholic conflict and militia violence at Montauban and Nimes.",
       "matched_path_id": "PATH-ABCAF845147D",
-      "matched_locator_id": "LOC-E3A5A992F6CD"
+      "matched_locator_id": "LOC-E3A5A992F6CD",
+      "matched_path_ids": [
+        "PATH-ABCAF845147D"
+      ],
+      "matched_locator_ids": [
+        "LOC-E3A5A992F6CD"
+      ]
     },
     {
       "treatment_id": "TREAT-32773E3EA035",
@@ -8683,7 +8844,13 @@
       ],
       "status_rationale": "The benchmark expects on page 143: Thirty bishops explained that radical reform required a council or papal consultation, without issuing a call to revolt. Canonical locator LOC-54E39440CF65 under 'Exposition of Principles (1790)' is supported on that page: On source page 143, the destination provides independently useful treatment of the complete path “Exposition of Principles (1790)” within its discussion of counter-revolution in the Midi and resistance to implementation of the Civil Constitution.",
       "matched_path_id": "PATH-657B93A173B4",
-      "matched_locator_id": "LOC-54E39440CF65"
+      "matched_locator_id": "LOC-54E39440CF65",
+      "matched_path_ids": [
+        "PATH-657B93A173B4"
+      ],
+      "matched_locator_ids": [
+        "LOC-54E39440CF65"
+      ]
     },
     {
       "treatment_id": "TREAT-33D76603ED3E",
@@ -8697,7 +8864,13 @@
       ],
       "status_rationale": "The frozen treatment on page 155 is reached by supported locator LOC-6ED7A5AA883F under the specific path Robespierre, Maximilien > on freedom of the press.",
       "matched_path_id": "PATH-20A3330D7C6A",
-      "matched_locator_id": "LOC-6ED7A5AA883F"
+      "matched_locator_id": "LOC-6ED7A5AA883F",
+      "matched_path_ids": [
+        "PATH-20A3330D7C6A"
+      ],
+      "matched_locator_ids": [
+        "LOC-6ED7A5AA883F"
+      ]
     },
     {
       "treatment_id": "TREAT-35450AE8A811",
@@ -8711,7 +8884,13 @@
       ],
       "status_rationale": "The benchmark expects on page 155: The July law required return within a month, threatened triple tax, and created official lists after earlier proposals had failed. Canonical locator LOC-A3D0FA9EB0CA under 'émigrés' is supported on that page: On source page 155, the destination provides independently useful treatment of the complete path “émigrés” within its discussion of constitutional amendments, electoral qualifications, press restrictions, and emigre penalties.",
       "matched_path_id": "PATH-EDE9FE43A1B3",
-      "matched_locator_id": "LOC-A3D0FA9EB0CA"
+      "matched_locator_id": "LOC-A3D0FA9EB0CA",
+      "matched_path_ids": [
+        "PATH-EDE9FE43A1B3"
+      ],
+      "matched_locator_ids": [
+        "LOC-A3D0FA9EB0CA"
+      ]
     },
     {
       "treatment_id": "TREAT-39E1F8C5C53F",
@@ -8725,7 +8904,13 @@
       ],
       "status_rationale": "The benchmark expects on page 157: The final assessment makes the forced choice between Church and state a principal cause of national division and popular counter-revolution. Canonical locator LOC-BC782C44BB26 under 'clergy (First Estate) > impact of schism and the Revolution in perspective' is supported on that page: On source page 157, the destination provides independently useful treatment of the complete path “clergy (First Estate) > impact of schism and the Revolution in perspective” within its discussion of Pillnitz, acceptance of the constitution, and the Constituent Assembly's divided legacy.",
       "matched_path_id": "PATH-3641B0CBC20C",
-      "matched_locator_id": "LOC-BC782C44BB26"
+      "matched_locator_id": "LOC-BC782C44BB26",
+      "matched_path_ids": [
+        "PATH-3641B0CBC20C"
+      ],
+      "matched_locator_ids": [
+        "LOC-BC782C44BB26"
+      ]
     },
     {
       "treatment_id": "TREAT-3CA678A887F7",
@@ -8739,7 +8924,13 @@
       ],
       "status_rationale": "The benchmark expects on page 151: Following Barnave’s committee recommendation, the Assembly preserved slavery in the colony. Canonical locator LOC-D50EA71CF6B4 under 'Saint-Domingue' is supported on that page: On source page 151, the destination provides independently useful treatment of the complete path “Saint-Domingue” within its discussion of colonial rights and the royal family's attempted flight to Varennes.",
       "matched_path_id": "PATH-381C838838CA",
-      "matched_locator_id": "LOC-D50EA71CF6B4"
+      "matched_locator_id": "LOC-D50EA71CF6B4",
+      "matched_path_ids": [
+        "PATH-381C838838CA"
+      ],
+      "matched_locator_ids": [
+        "LOC-D50EA71CF6B4"
+      ]
     },
     {
       "treatment_id": "TREAT-3CDE9D2784C5",
@@ -8753,7 +8944,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: At Champ de Mars Guards under Lafayette fired on the petitioning crowd. Canonical locator LOC-263F0D06B647 under 'National Guard > role in major journées > Champ de Mars massacre (1791)' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “National Guard > role in major journées > Champ de Mars massacre (1791)” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-5E381A819E73",
-      "matched_locator_id": "LOC-263F0D06B647"
+      "matched_locator_id": "LOC-263F0D06B647",
+      "matched_path_ids": [
+        "PATH-5E381A819E73"
+      ],
+      "matched_locator_ids": [
+        "LOC-263F0D06B647"
+      ]
     },
     {
       "treatment_id": "TREAT-3D2A608E7FD8",
@@ -8767,7 +8964,13 @@
       ],
       "status_rationale": "The benchmark expects on page 158: The chapter ends by endorsing the contemporary judgment that the new Constitution had no durable constituency. Canonical locator LOC-552318362F81 under 'Feuillants Club' is supported on that page: On source page 158, the destination provides independently useful treatment of the complete path “Feuillants Club” within its discussion of the failure of the Feuillant settlement and a British diplomatic assessment.",
       "matched_path_id": "PATH-C8B64E8B526C",
-      "matched_locator_id": "LOC-552318362F81"
+      "matched_locator_id": "LOC-552318362F81",
+      "matched_path_ids": [
+        "PATH-C8B64E8B526C"
+      ],
+      "matched_locator_ids": [
+        "LOC-552318362F81"
+      ]
     },
     {
       "treatment_id": "TREAT-3D42B973553B",
@@ -8781,7 +8984,13 @@
       ],
       "status_rationale": "The benchmark expects on page 307: The western uprising began with resistance to conscription but rested on accumulated grievances and unusually limited peasant gains from 1789. Canonical locator LOC-925D68178B68 under 'Counter-Revolution > in Western France (Vendée and Brittany)' is supported on that page: Document page 307 connects the complete path 'Counter-Revolution > in Western France (Vendée and Brittany)' to a concrete source fact: resistance to the February 1793 levy spread across fourteen western departments and ignited deeper peasant grievances.",
       "matched_path_id": "PATH-5958E43F6835",
-      "matched_locator_id": "LOC-925D68178B68"
+      "matched_locator_id": "LOC-925D68178B68",
+      "matched_path_ids": [
+        "PATH-5958E43F6835"
+      ],
+      "matched_locator_ids": [
+        "LOC-925D68178B68"
+      ]
     },
     {
       "treatment_id": "TREAT-402D369B38F4",
@@ -8795,7 +9004,13 @@
       ],
       "status_rationale": "The benchmark expects on page 315: Hoche’s military saturation and executions reduced Vendée and Brittany to precarious peace or immobility. Canonical locator LOC-C1DF29F9C970 under 'Vendée' is supported on that page: Document page 315 connects the complete path 'Vendée' to a concrete source fact: Hoche declared the Vendéan insurrection ended and the Directory named him Pacifier while troops immobilized the chouans.",
       "matched_path_id": "PATH-A254A6CC29F8",
-      "matched_locator_id": "LOC-C1DF29F9C970"
+      "matched_locator_id": "LOC-C1DF29F9C970",
+      "matched_path_ids": [
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-C1DF29F9C970"
+      ]
     },
     {
       "treatment_id": "TREAT-423C3A4F06F8",
@@ -8809,7 +9024,13 @@
       ],
       "status_rationale": "The benchmark expects on page 185: A radical secession and new popular leaders illustrate revived organization around Cordeliers politics. Canonical locator LOC-38D9FC293555 under 'Cordeliers Club' is supported on that page: Document page 185 connects the complete path 'Cordeliers Club' to a concrete source fact: Chaumette led a radical secession from the Cordeliers Club.",
       "matched_path_id": "PATH-81E032EBF2E5",
-      "matched_locator_id": "LOC-38D9FC293555"
+      "matched_locator_id": "LOC-38D9FC293555",
+      "matched_path_ids": [
+        "PATH-81E032EBF2E5"
+      ],
+      "matched_locator_ids": [
+        "LOC-38D9FC293555"
+      ]
     },
     {
       "treatment_id": "TREAT-436BF5C053E3",
@@ -8823,7 +9044,13 @@
       ],
       "status_rationale": "The benchmark expects on page 149: The restriction is identified as governing French industrial relations for seventy-three years. Canonical locator LOC-1CA54722F8E9 under 'Le Chapelier Law (1791)' is supported on that page: On source page 149, the destination provides independently useful treatment of the complete path “Le Chapelier Law (1791)” within its discussion of unemployment, guild abolition, industrial action, and political moderation.",
       "matched_path_id": "PATH-1164B7D72E65",
-      "matched_locator_id": "LOC-1CA54722F8E9"
+      "matched_locator_id": "LOC-1CA54722F8E9",
+      "matched_path_ids": [
+        "PATH-1164B7D72E65"
+      ],
+      "matched_locator_ids": [
+        "LOC-1CA54722F8E9"
+      ]
     },
     {
       "treatment_id": "TREAT-4476EF405D20",
@@ -8838,7 +9065,15 @@
       ],
       "status_rationale": "The frozen treatment on page 137 is reached by supported locator LOC-1E77D0E63D59 under the specific path religious freedom.",
       "matched_path_id": "PATH-B978269CC447",
-      "matched_locator_id": "LOC-1E77D0E63D59"
+      "matched_locator_id": "LOC-1E77D0E63D59",
+      "matched_path_ids": [
+        "PATH-ABCAF845147D",
+        "PATH-B978269CC447"
+      ],
+      "matched_locator_ids": [
+        "LOC-1E77D0E63D59",
+        "LOC-5AE28565978A"
+      ]
     },
     {
       "treatment_id": "TREAT-448B2923A38C",
@@ -8852,7 +9087,15 @@
       ],
       "status_rationale": "The frozen treatment on page 141 is reached by supported locator LOC-64E821134816 under the specific path church property.",
       "matched_path_id": "PATH-4E8391484033",
-      "matched_locator_id": "LOC-64E821134816"
+      "matched_locator_id": "LOC-64E821134816",
+      "matched_path_ids": [
+        "PATH-4E8391484033",
+        "PATH-9BE1C108CFD5"
+      ],
+      "matched_locator_ids": [
+        "LOC-64E821134816",
+        "LOC-FB96DC34A845"
+      ]
     },
     {
       "treatment_id": "TREAT-473A5B672DA5",
@@ -8878,7 +9121,13 @@
       ],
       "status_rationale": "The benchmark expects on page 149: The June law prohibited worker organizations, collective industrial action, petitions from such bodies, and public employment of their members. Canonical locator LOC-1CA54722F8E9 under 'Le Chapelier Law (1791)' is supported on that page: On source page 149, the destination provides independently useful treatment of the complete path “Le Chapelier Law (1791)” within its discussion of unemployment, guild abolition, industrial action, and political moderation.",
       "matched_path_id": "PATH-1164B7D72E65",
-      "matched_locator_id": "LOC-1CA54722F8E9"
+      "matched_locator_id": "LOC-1CA54722F8E9",
+      "matched_path_ids": [
+        "PATH-1164B7D72E65"
+      ],
+      "matched_locator_ids": [
+        "LOC-1CA54722F8E9"
+      ]
     },
     {
       "treatment_id": "TREAT-4AB56CFC2D04",
@@ -8892,7 +9141,13 @@
       ],
       "status_rationale": "The benchmark expects on page 137: Deputies promised state support for education, charity, and a substantial minimum parish salary, but many clergy faced cuts or delayed payment. Canonical locator LOC-8B69C8202781 under 'parish clergy' is supported on that page: On source page 137, the destination provides independently useful treatment of the complete path “parish clergy” within its discussion of religious equality, Church property, clerical incomes, and the dissolution of religious orders.",
       "matched_path_id": "PATH-21F68C2B2947",
-      "matched_locator_id": "LOC-8B69C8202781"
+      "matched_locator_id": "LOC-8B69C8202781",
+      "matched_path_ids": [
+        "PATH-21F68C2B2947"
+      ],
+      "matched_locator_ids": [
+        "LOC-8B69C8202781"
+      ]
     },
     {
       "treatment_id": "TREAT-4BE23F0666FE",
@@ -8906,7 +9161,13 @@
       ],
       "status_rationale": "The benchmark expects on page 156: Only a small minority of provincial affiliates permanently followed the Feuillants, limiting their national organizational success. Canonical locator LOC-D550275BD61F under 'Feuillants Club' is supported on that page: On source page 156, the destination provides independently useful treatment of the complete path “Feuillants Club” within its discussion of officer emigration, army collapse, Feuillant weakness, and the Declaration of Pillnitz.",
       "matched_path_id": "PATH-C8B64E8B526C",
-      "matched_locator_id": "LOC-D550275BD61F"
+      "matched_locator_id": "LOC-D550275BD61F",
+      "matched_path_ids": [
+        "PATH-C8B64E8B526C"
+      ],
+      "matched_locator_ids": [
+        "LOC-D550275BD61F"
+      ]
     },
     {
       "treatment_id": "TREAT-4C0006210E5E",
@@ -8922,7 +9183,13 @@
       ],
       "status_rationale": "The benchmark expects on page 141: Richerist precedents supported election and synodal advice but not unrestricted lay selection, which raised concerns over spiritual competence. Canonical locator LOC-6EA06AA137A2 under 'Richerism' is supported on that page: On source page 141, the destination provides independently useful treatment of the complete path “Richerism” within its discussion of clerical elections, papal authority, and the developing danger of schism.",
       "matched_path_id": "PATH-1340073EF9F9",
-      "matched_locator_id": "LOC-6EA06AA137A2"
+      "matched_locator_id": "LOC-6EA06AA137A2",
+      "matched_path_ids": [
+        "PATH-1340073EF9F9"
+      ],
+      "matched_locator_ids": [
+        "LOC-6EA06AA137A2"
+      ]
     },
     {
       "treatment_id": "TREAT-4C74326EC100",
@@ -8936,7 +9203,13 @@
       ],
       "status_rationale": "The benchmark expects on page 145: Local lay pressure made clerical choice a broad referendum on revolutionary achievements rather than a narrowly canonical decision. Canonical locator LOC-D5DE7B0FC55D under 'clerical oath' is supported on that page: On source page 145, the destination provides independently useful treatment of the complete path “clerical oath” within its discussion of the geography and social causes of oath-taking and refusal.",
       "matched_path_id": "PATH-3BB68AD148B6",
-      "matched_locator_id": "LOC-D5DE7B0FC55D"
+      "matched_locator_id": "LOC-D5DE7B0FC55D",
+      "matched_path_ids": [
+        "PATH-3BB68AD148B6"
+      ],
+      "matched_locator_ids": [
+        "LOC-D5DE7B0FC55D"
+      ]
     },
     {
       "treatment_id": "TREAT-52833CD6CE5B",
@@ -8951,7 +9224,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: Tens of thousands gathered and thousands signed before lynchings supplied the mayor’s justification for martial law. Canonical locator LOC-F2E0634D4E7F under 'Lafayette, Gilbert du Motier, Marquis de > Champ de Mars massacre' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Lafayette, Gilbert du Motier, Marquis de > Champ de Mars massacre” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-431E22BE4DC1",
-      "matched_locator_id": "LOC-F2E0634D4E7F"
+      "matched_locator_id": "LOC-F2E0634D4E7F",
+      "matched_path_ids": [
+        "PATH-431E22BE4DC1"
+      ],
+      "matched_locator_ids": [
+        "LOC-F2E0634D4E7F"
+      ]
     },
     {
       "treatment_id": "TREAT-529B845716A5",
@@ -8965,7 +9244,13 @@
       ],
       "status_rationale": "The benchmark expects on page 396: Exile, military defeat, suspicion, and curtailed public influence created a lasting emotional and political rupture greater than aggregate material loss. Canonical locator LOC-BE0F9358A1EB under 'émigrés > noble emigration, scale and impact of' is supported on that page: Page 396 states that for those who never left there was constant suspicion. Although only 1,200 or so nobles were executed in the Terror, many more were imprisoned for months on end as suspects, and in 1797, just when circumstances seemed to be easing, they were deprived of civil rights merely for being nobles, and almost found themselves deported en masse for the same reason. Such tribulations bred a bitter hatred and contempt for the Revolution and all it stood for in noble circles. This provides independently useful contextual evidence for émigrés > noble emigration, scale and impact of.",
       "matched_path_id": "PATH-5007BF9EF616",
-      "matched_locator_id": "LOC-BE0F9358A1EB"
+      "matched_locator_id": "LOC-BE0F9358A1EB",
+      "matched_path_ids": [
+        "PATH-5007BF9EF616"
+      ],
+      "matched_locator_ids": [
+        "LOC-BE0F9358A1EB"
+      ]
     },
     {
       "treatment_id": "TREAT-54E7BCC12AAA",
@@ -8979,7 +9264,15 @@
       ],
       "status_rationale": "The benchmark expects on page 151: The king concentrated on a manifesto rejecting the post-October settlement while flight arrangements were prepared. Canonical locator LOC-FFCD77ECCC40 under 'Montmédy' is supported on that page: On source page 151, the destination provides independently useful treatment of the complete path “Montmédy” within its discussion of colonial rights and the royal family's attempted flight to Varennes.",
       "matched_path_id": "PATH-CA773E1C9CB6",
-      "matched_locator_id": "LOC-FFCD77ECCC40"
+      "matched_locator_id": "LOC-FFCD77ECCC40",
+      "matched_path_ids": [
+        "PATH-CA773E1C9CB6",
+        "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-E8262390446B",
+        "LOC-FFCD77ECCC40"
+      ]
     },
     {
       "treatment_id": "TREAT-56F28C3AA4CC",
@@ -8994,7 +9287,13 @@
       ],
       "status_rationale": "The benchmark expects on page 157: The Assembly is credited with dismantling the old regime and establishing principles and structures of lasting importance. Canonical locator LOC-8471EDA309F1 under 'Constitution of 1791 > acceptance and promulgation' is supported on that page: On source page 157, the destination provides independently useful treatment of the complete path “Constitution of 1791 > acceptance and promulgation” within its discussion of Pillnitz, acceptance of the constitution, and the Constituent Assembly's divided legacy.",
       "matched_path_id": "PATH-E7BB54A6EA3E",
-      "matched_locator_id": "LOC-8471EDA309F1"
+      "matched_locator_id": "LOC-8471EDA309F1",
+      "matched_path_ids": [
+        "PATH-E7BB54A6EA3E"
+      ],
+      "matched_locator_ids": [
+        "LOC-8471EDA309F1"
+      ]
     },
     {
       "treatment_id": "TREAT-5706F81990B6",
@@ -9008,7 +9307,13 @@
       ],
       "status_rationale": "The benchmark expects on page 140: The Civil Constitution formalized relatively generous salary scales while redistributing income away from many bishops and rectors. Canonical locator LOC-2CA96413BD10 under 'parish clergy' is supported on that page: On source page 140, the destination provides independently useful treatment of the complete path “parish clergy” within its discussion of the debate, organization, and provisions of the Civil Constitution of the Clergy.",
       "matched_path_id": "PATH-21F68C2B2947",
-      "matched_locator_id": "LOC-2CA96413BD10"
+      "matched_locator_id": "LOC-2CA96413BD10",
+      "matched_path_ids": [
+        "PATH-21F68C2B2947"
+      ],
+      "matched_locator_ids": [
+        "LOC-2CA96413BD10"
+      ]
     },
     {
       "treatment_id": "TREAT-5734A9D70111",
@@ -9023,7 +9328,13 @@
       ],
       "status_rationale": "The benchmark expects on page 148: Lafayette dispersed anti-royal and anti-clerical crowds yet earned neither royal gratitude nor popular legitimacy. Canonical locator LOC-7D3FF7199F80 under 'Lafayette, Gilbert du Motier, Marquis de > National Guard command' is supported on that page: On source page 148, the destination provides independently useful treatment of the complete path “Lafayette, Gilbert du Motier, Marquis de > National Guard command” within its discussion of popular demonstrations, Lafayette's policing, the Day of Daggers, and the king's blocked journey.",
       "matched_path_id": "PATH-68E3FA1F8CBB",
-      "matched_locator_id": "LOC-7D3FF7199F80"
+      "matched_locator_id": "LOC-7D3FF7199F80",
+      "matched_path_ids": [
+        "PATH-68E3FA1F8CBB"
+      ],
+      "matched_locator_ids": [
+        "LOC-7D3FF7199F80"
+      ]
     },
     {
       "treatment_id": "TREAT-5830326CF849",
@@ -9037,7 +9348,13 @@
       ],
       "status_rationale": "The benchmark expects on page 152: The document enumerated political, constitutional, property, public-order, club, and religious objections to the revolutionary regime. Canonical locator LOC-2DD9D48FAB93 under 'Varennes, Flight to' is supported on that page: On source page 152, the destination provides independently useful treatment of the complete path “Varennes, Flight to” within its discussion of the constitutional and republican consequences of the flight to Varennes.",
       "matched_path_id": "PATH-EB02DA5B5EDC",
-      "matched_locator_id": "LOC-2DD9D48FAB93"
+      "matched_locator_id": "LOC-2DD9D48FAB93",
+      "matched_path_ids": [
+        "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-2DD9D48FAB93"
+      ]
     },
     {
       "treatment_id": "TREAT-59115A5AB596",
@@ -9052,7 +9369,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: Mayor Bailly used the earlier decree and two lynchings to declare martial law at the mass petition. Canonical locator LOC-31B3FE396A55 under 'Champ de Mars, Massacre of the' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Champ de Mars, Massacre of the” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-B19AA8CDFB80",
-      "matched_locator_id": "LOC-31B3FE396A55"
+      "matched_locator_id": "LOC-31B3FE396A55",
+      "matched_path_ids": [
+        "PATH-B19AA8CDFB80"
+      ],
+      "matched_locator_ids": [
+        "LOC-31B3FE396A55"
+      ]
     },
     {
       "treatment_id": "TREAT-5B0CF918F698",
@@ -9066,7 +9389,13 @@
       ],
       "status_rationale": "The benchmark expects on page 141: Lay election of clergy and reduction of papal confirmation to notification created the deepest canonical objections. Canonical locator LOC-2B2901235F3F under 'bishops > and Civil Constitution of the Clergy' is supported on that page: On source page 141, the destination provides independently useful treatment of the complete path “bishops > and Civil Constitution of the Clergy” within its discussion of clerical elections, papal authority, and the developing danger of schism.",
       "matched_path_id": "PATH-17055B22EE6E",
-      "matched_locator_id": "LOC-2B2901235F3F"
+      "matched_locator_id": "LOC-2B2901235F3F",
+      "matched_path_ids": [
+        "PATH-17055B22EE6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-2B2901235F3F"
+      ]
     },
     {
       "treatment_id": "TREAT-5C036DFD4790",
@@ -9081,7 +9410,15 @@
       ],
       "status_rationale": "The benchmark expects on page 147: Mutinies spread through several garrisons as aristocratic command clashed with ranks influenced by the National Guard. Canonical locator LOC-6004463EAC6F under 'Nancy, mutiny of' is supported on that page: On source page 147, the destination provides independently useful treatment of the complete path “Nancy, mutiny of” within its discussion of emigre organization, army mutiny, and the monarchy's response to religious schism.",
       "matched_path_id": "PATH-E8042C4AC2DF",
-      "matched_locator_id": "LOC-6004463EAC6F"
+      "matched_locator_id": "LOC-6004463EAC6F",
+      "matched_path_ids": [
+        "PATH-CACBC77879A6",
+        "PATH-E8042C4AC2DF"
+      ],
+      "matched_locator_ids": [
+        "LOC-6004463EAC6F",
+        "LOC-F79B3E7B37F8"
+      ]
     },
     {
       "treatment_id": "TREAT-5C690074809F",
@@ -9095,7 +9432,13 @@
       ],
       "status_rationale": "The benchmark expects on page 153: After Varennes they were widely suspected of joining aristocratic and foreign conspiracy. Canonical locator LOC-DD65C68E0F73 under 'refractory clergy > persecution and popular violence' is supported on that page: On source page 153, the destination provides independently useful treatment of the complete path “refractory clergy > persecution and popular violence” within its discussion of national alarm after Varennes and division within the Jacobin movement.",
       "matched_path_id": "PATH-4571AD3D5E06",
-      "matched_locator_id": "LOC-DD65C68E0F73"
+      "matched_locator_id": "LOC-DD65C68E0F73",
+      "matched_path_ids": [
+        "PATH-4571AD3D5E06"
+      ],
+      "matched_locator_ids": [
+        "LOC-DD65C68E0F73"
+      ]
     },
     {
       "treatment_id": "TREAT-5F7F57626003",
@@ -9109,7 +9452,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: The massacre’s aftermath allowed Lafayette and the triumvirate to cooperate on a definitive constitutional text. Canonical locator LOC-C6394E9EDDC9 under 'Feuillants Club' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Feuillants Club” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-C8B64E8B526C",
-      "matched_locator_id": "LOC-C6394E9EDDC9"
+      "matched_locator_id": "LOC-C6394E9EDDC9",
+      "matched_path_ids": [
+        "PATH-C8B64E8B526C"
+      ],
+      "matched_locator_ids": [
+        "LOC-C6394E9EDDC9"
+      ]
     },
     {
       "treatment_id": "TREAT-6056C79B75F6",
@@ -9123,7 +9472,13 @@
       ],
       "status_rationale": "The benchmark expects on page 146: Paris crowds prevented refractory clergy and congregations from exercising formally protected worship after the papal letters became public. Canonical locator LOC-0D08F780F644 under 'religious freedom' is supported on that page: On source page 146, the destination provides independently useful treatment of the complete path “religious freedom” within its discussion of papal opposition, refractory worship, and the first organized counter-revolutionary activity.",
       "matched_path_id": "PATH-B978269CC447",
-      "matched_locator_id": "LOC-0D08F780F644"
+      "matched_locator_id": "LOC-0D08F780F644",
+      "matched_path_ids": [
+        "PATH-B978269CC447"
+      ],
+      "matched_locator_ids": [
+        "LOC-0D08F780F644"
+      ]
     },
     {
       "treatment_id": "TREAT-607C239485F6",
@@ -9137,7 +9492,13 @@
       ],
       "status_rationale": "The benchmark expects on page 140: The Assembly adopted the plan with little amendment, combining salary, residence, diocesan, parish, and benefice reforms. Canonical locator LOC-76777FFDAA10 under 'bishops > and Civil Constitution of the Clergy' is supported on that page: On source page 140, the destination provides independently useful treatment of the complete path “bishops > and Civil Constitution of the Clergy” within its discussion of the debate, organization, and provisions of the Civil Constitution of the Clergy.",
       "matched_path_id": "PATH-17055B22EE6E",
-      "matched_locator_id": "LOC-76777FFDAA10"
+      "matched_locator_id": "LOC-76777FFDAA10",
+      "matched_path_ids": [
+        "PATH-17055B22EE6E"
+      ],
+      "matched_locator_ids": [
+        "LOC-76777FFDAA10"
+      ]
     },
     {
       "treatment_id": "TREAT-62BFF02B7A62",
@@ -9151,7 +9512,15 @@
       ],
       "status_rationale": "The benchmark expects on page 146: Papal letters against the Civil Constitution and oath became public, oath withdrawals followed, the nuncio departed, and the breach was complete. Canonical locator LOC-9B5ACD97A24B under 'Civil Constitution of the Clergy > papal condemnation' is supported on that page: On source page 146, the destination provides independently useful treatment of the complete path “Civil Constitution of the Clergy > papal condemnation” within its discussion of papal opposition, refractory worship, and the first organized counter-revolutionary activity.",
       "matched_path_id": "PATH-7C3AA33BC79A",
-      "matched_locator_id": "LOC-9B5ACD97A24B"
+      "matched_locator_id": "LOC-9B5ACD97A24B",
+      "matched_path_ids": [
+        "PATH-7C3AA33BC79A",
+        "PATH-F06C9C23E051"
+      ],
+      "matched_locator_ids": [
+        "LOC-9B5ACD97A24B",
+        "LOC-E56D48548CEA"
+      ]
     },
     {
       "treatment_id": "TREAT-635220FD2910",
@@ -9165,7 +9534,13 @@
       ],
       "status_rationale": "The benchmark expects on page 157: The closing assessment contrasts the manifesto and flight with later claims that royal acceptance of the Constitution was sincere. Canonical locator LOC-44BF68985444 under 'Louis XVI > constitutional role and powers' is supported on that page: On source page 157, the destination provides independently useful treatment of the complete path “Louis XVI > constitutional role and powers” within its discussion of Pillnitz, acceptance of the constitution, and the Constituent Assembly's divided legacy.",
       "matched_path_id": "PATH-B8EDB25F6FFE",
-      "matched_locator_id": "LOC-44BF68985444"
+      "matched_locator_id": "LOC-44BF68985444",
+      "matched_path_ids": [
+        "PATH-B8EDB25F6FFE"
+      ],
+      "matched_locator_ids": [
+        "LOC-44BF68985444"
+      ]
     },
     {
       "treatment_id": "TREAT-63D09C3793DE",
@@ -9179,7 +9554,13 @@
       ],
       "status_rationale": "The benchmark expects on page 157: The king accepted the completed Constitution, amnesty accompanied promulgation, and the Feuillants proclaimed ordinary constitutional life. Canonical locator LOC-8471EDA309F1 under 'Constitution of 1791 > acceptance and promulgation' is supported on that page: On source page 157, the destination provides independently useful treatment of the complete path “Constitution of 1791 > acceptance and promulgation” within its discussion of Pillnitz, acceptance of the constitution, and the Constituent Assembly's divided legacy.",
       "matched_path_id": "PATH-E7BB54A6EA3E",
-      "matched_locator_id": "LOC-8471EDA309F1"
+      "matched_locator_id": "LOC-8471EDA309F1",
+      "matched_path_ids": [
+        "PATH-E7BB54A6EA3E"
+      ],
+      "matched_locator_ids": [
+        "LOC-8471EDA309F1"
+      ]
     },
     {
       "treatment_id": "TREAT-66B162B190A2",
@@ -9193,7 +9574,13 @@
       ],
       "status_rationale": "The benchmark expects on page 302: Varennes encouraged émigré military organization and moved Leopold and Prussia toward public consideration of intervention. Canonical locator LOC-5E196BE63F30 under 'Varennes, Flight to' is supported on that page: Document page 302 connects the complete path 'Varennes, Flight to' to a concrete source fact: the Varennes crisis induced both émigré militarization and serious foreign consideration of intervention.",
       "matched_path_id": "PATH-EB02DA5B5EDC",
-      "matched_locator_id": "LOC-5E196BE63F30"
+      "matched_locator_id": "LOC-5E196BE63F30",
+      "matched_path_ids": [
+        "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-5E196BE63F30"
+      ]
     },
     {
       "treatment_id": "TREAT-67C151DA0D4C",
@@ -9207,7 +9594,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: At Champ de Mars Lafayette’s Guard eventually fired on a largely unarmed republican crowd. Canonical locator LOC-0CCA068A6EC9 under 'Cordeliers Club' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Cordeliers Club” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-81E032EBF2E5",
-      "matched_locator_id": "LOC-0CCA068A6EC9"
+      "matched_locator_id": "LOC-0CCA068A6EC9",
+      "matched_path_ids": [
+        "PATH-81E032EBF2E5"
+      ],
+      "matched_locator_ids": [
+        "LOC-0CCA068A6EC9"
+      ]
     },
     {
       "treatment_id": "TREAT-68F3F83581BE",
@@ -9222,7 +9615,13 @@
       ],
       "status_rationale": "The benchmark expects on page 139: Most members sought a reformed Catholic Church, although a minority drew directly on Enlightenment anti-clericalism. Canonical locator LOC-AA5AC2A0E311 under 'Ecclesiastical committee' is supported on that page: On source page 139, the destination provides independently useful treatment of the complete path “Ecclesiastical committee” within its discussion of papal rule in Avignon, Pius VI's opposition, and preparation of the Civil Constitution.",
       "matched_path_id": "PATH-2BC6D56BE131",
-      "matched_locator_id": "LOC-AA5AC2A0E311"
+      "matched_locator_id": "LOC-AA5AC2A0E311",
+      "matched_path_ids": [
+        "PATH-2BC6D56BE131"
+      ],
+      "matched_locator_ids": [
+        "LOC-AA5AC2A0E311"
+      ]
     },
     {
       "treatment_id": "TREAT-69284FAB6532",
@@ -9236,7 +9635,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: After escorting the royal family from Varennes, he led efforts to reconcile the king through constitutional amendment. Canonical locator LOC-BAB923E9D9FB under 'Lafayette, Gilbert du Motier, Marquis de > constitutional and political activities' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Lafayette, Gilbert du Motier, Marquis de > constitutional and political activities” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-BB34B39D806B",
-      "matched_locator_id": "LOC-BAB923E9D9FB"
+      "matched_locator_id": "LOC-BAB923E9D9FB",
+      "matched_path_ids": [
+        "PATH-BB34B39D806B"
+      ],
+      "matched_locator_ids": [
+        "LOC-BAB923E9D9FB"
+      ]
     },
     {
       "treatment_id": "TREAT-69B427D1AA2B",
@@ -9251,7 +9656,15 @@
       ],
       "status_rationale": "The frozen treatment on page 149 is reached by supported locator LOC-614ACF86134D under the specific path Assignats > decline and inflation.",
       "matched_path_id": "PATH-B7FF3EADEB1B",
-      "matched_locator_id": "LOC-614ACF86134D"
+      "matched_locator_id": "LOC-614ACF86134D",
+      "matched_path_ids": [
+        "PATH-6F13F013FC8F",
+        "PATH-B7FF3EADEB1B"
+      ],
+      "matched_locator_ids": [
+        "LOC-434E5DBD06D1",
+        "LOC-614ACF86134D"
+      ]
     },
     {
       "treatment_id": "TREAT-6B0DFB8C94E3",
@@ -9265,7 +9678,13 @@
       ],
       "status_rationale": "The benchmark expects on page 157: The Constituent Assembly finally annexed Avignon and the Comtat as a defiant final act amid foreign-war rumors. Canonical locator LOC-8DED53E0741C under 'Avignon' is supported on that page: On source page 157, the destination provides independently useful treatment of the complete path “Avignon” within its discussion of Pillnitz, acceptance of the constitution, and the Constituent Assembly's divided legacy.",
       "matched_path_id": "PATH-B7DA2266F8AD",
-      "matched_locator_id": "LOC-8DED53E0741C"
+      "matched_locator_id": "LOC-8DED53E0741C",
+      "matched_path_ids": [
+        "PATH-B7DA2266F8AD"
+      ],
+      "matched_locator_ids": [
+        "LOC-8DED53E0741C"
+      ]
     },
     {
       "treatment_id": "TREAT-6B7C13D69D60",
@@ -9279,7 +9698,13 @@
       ],
       "status_rationale": "The benchmark expects on page 300: A broader royalist network and frontier dash derived from his plans but was postponed by his death. Canonical locator LOC-7A3D32D6430C under 'Mirabeau, Honoré-Gabriel Riqueti, comte de > as secret advisor to royalty' is supported on that page: Document page 300 connects the complete path 'Mirabeau, Honoré-Gabriel Riqueti, comte de > as secret advisor to royalty' to a concrete source fact: Louis XVI was considering Mirabeau's plan for royal escape and a nationwide royalist network.",
       "matched_path_id": "PATH-D3B2678AF36A",
-      "matched_locator_id": "LOC-7A3D32D6430C"
+      "matched_locator_id": "LOC-7A3D32D6430C",
+      "matched_path_ids": [
+        "PATH-D3B2678AF36A"
+      ],
+      "matched_locator_ids": [
+        "LOC-7A3D32D6430C"
+      ]
     },
     {
       "treatment_id": "TREAT-6C68A901B652",
@@ -9294,7 +9719,15 @@
       ],
       "status_rationale": "The benchmark expects on page 156: Later repeal and general amnesty did not reverse the flow, while renewed mutinies left army discipline near collapse. Canonical locator LOC-1AF6392D0C3C under 'émigrés > noble emigration, scale and impact of' is supported on that page: On source page 156, the destination provides independently useful treatment of the complete path “émigrés > noble emigration, scale and impact of” within its discussion of officer emigration, army collapse, Feuillant weakness, and the Declaration of Pillnitz.",
       "matched_path_id": "PATH-5007BF9EF616",
-      "matched_locator_id": "LOC-1AF6392D0C3C"
+      "matched_locator_id": "LOC-1AF6392D0C3C",
+      "matched_path_ids": [
+        "PATH-5007BF9EF616",
+        "PATH-EDE9FE43A1B3"
+      ],
+      "matched_locator_ids": [
+        "LOC-1AF6392D0C3C",
+        "LOC-21808D0DDEAB"
+      ]
     },
     {
       "treatment_id": "TREAT-6D34B32D8672",
@@ -9308,7 +9741,13 @@
       ],
       "status_rationale": "The benchmark expects on page 138: Order returned only after nonsectarian militia forces from Bordeaux intervened. Canonical locator LOC-2017310237B8 under 'Montauban' is supported on that page: On source page 138, the destination provides independently useful treatment of the complete path “Montauban” within its discussion of Protestant-Catholic conflict and militia violence at Montauban and Nimes.",
       "matched_path_id": "PATH-4DABA7E744E3",
-      "matched_locator_id": "LOC-2017310237B8"
+      "matched_locator_id": "LOC-2017310237B8",
+      "matched_path_ids": [
+        "PATH-4DABA7E744E3"
+      ],
+      "matched_locator_ids": [
+        "LOC-2017310237B8"
+      ]
     },
     {
       "treatment_id": "TREAT-6DE995B8CD3C",
@@ -9322,7 +9761,13 @@
       ],
       "status_rationale": "The benchmark expects on page 309: The author contrasts committed western peasant royalists with the limited monarchism of Federalist cities. Canonical locator LOC-BDA0D3016F3E under 'Vendée' is supported on that page: Document page 309 connects the complete path 'Vendée' to a concrete source fact: the Vendéans marched to Granville seeking British contact but were later destroyed at Le Mans and Savenay.",
       "matched_path_id": "PATH-A254A6CC29F8",
-      "matched_locator_id": "LOC-BDA0D3016F3E"
+      "matched_locator_id": "LOC-BDA0D3016F3E",
+      "matched_path_ids": [
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-BDA0D3016F3E"
+      ]
     },
     {
       "treatment_id": "TREAT-70395BD89422",
@@ -9336,7 +9781,15 @@
       ],
       "status_rationale": "The benchmark expects on page 137: Confiscation of Church estates, uncertain salary payments, and collapsing tithe collection left many priests viewing reform as dispossession plus promises. Canonical locator LOC-E1C2DE8932FA under 'state > church, relationship with' is supported on that page: On source page 137, the destination provides independently useful treatment of the complete path “state > church, relationship with” within its discussion of religious equality, Church property, clerical incomes, and the dissolution of religious orders.",
       "matched_path_id": "PATH-CA20AEC13EA7",
-      "matched_locator_id": "LOC-E1C2DE8932FA"
+      "matched_locator_id": "LOC-E1C2DE8932FA",
+      "matched_path_ids": [
+        "PATH-4E8391484033",
+        "PATH-CA20AEC13EA7"
+      ],
+      "matched_locator_ids": [
+        "LOC-C1FCF24ABF46",
+        "LOC-E1C2DE8932FA"
+      ]
     },
     {
       "treatment_id": "TREAT-713D28B35535",
@@ -9351,7 +9804,13 @@
       ],
       "status_rationale": "The benchmark expects on page 151: The Assembly declined to abolish slavery, revealing limits in its application of the Rights of Man. Canonical locator LOC-D50EA71CF6B4 under 'Saint-Domingue' is supported on that page: On source page 151, the destination provides independently useful treatment of the complete path “Saint-Domingue” within its discussion of colonial rights and the royal family's attempted flight to Varennes.",
       "matched_path_id": "PATH-381C838838CA",
-      "matched_locator_id": "LOC-D50EA71CF6B4"
+      "matched_locator_id": "LOC-D50EA71CF6B4",
+      "matched_path_ids": [
+        "PATH-381C838838CA"
+      ],
+      "matched_locator_ids": [
+        "LOC-D50EA71CF6B4"
+      ]
     },
     {
       "treatment_id": "TREAT-716C79567508",
@@ -9366,7 +9825,13 @@
       ],
       "status_rationale": "The benchmark expects on page 151: Recognition at Sainte-Ménehould and Drouet’s warning enabled Varennes to stop the royal party before military rescue. Canonical locator LOC-E8262390446B under 'Varennes, Flight to' is supported on that page: On source page 151, the destination provides independently useful treatment of the complete path “Varennes, Flight to” within its discussion of colonial rights and the royal family's attempted flight to Varennes.",
       "matched_path_id": "PATH-EB02DA5B5EDC",
-      "matched_locator_id": "LOC-E8262390446B"
+      "matched_locator_id": "LOC-E8262390446B",
+      "matched_path_ids": [
+        "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-E8262390446B"
+      ]
     },
     {
       "treatment_id": "TREAT-727EBDBDD944",
@@ -9380,7 +9845,15 @@
       ],
       "status_rationale": "The benchmark expects on page 395: Emigration and confiscation affected many noble families, yet repurchase and later elite taxation records show substantial continuity of landed wealth. Canonical locator LOC-0E1E2036FA54 under 'émigrés > property of (national lands)' is supported on that page: Page 395 states that at least 16,500 emigrated during the Revolution, and probably several thousand more, lost to statistics through various anomalies. The property of those who refused to return, or who were executed, was conﬁscated, depriving perhaps 12,500 families of all or some of their land. Many, however, managed to buy some of it back, immediately or later by gradual stages, and long before 1799 émigrés were cautiously returning. This provides independently useful contextual evidence for émigrés > property of (national lands).",
       "matched_path_id": "PATH-61408B201FF0",
-      "matched_locator_id": "LOC-0E1E2036FA54"
+      "matched_locator_id": "LOC-0E1E2036FA54",
+      "matched_path_ids": [
+        "PATH-5007BF9EF616",
+        "PATH-61408B201FF0"
+      ],
+      "matched_locator_ids": [
+        "LOC-0E1E2036FA54",
+        "LOC-DFF5016A20CB"
+      ]
     },
     {
       "treatment_id": "TREAT-72C0FC67D5DE",
@@ -9394,7 +9867,13 @@
       ],
       "status_rationale": "The benchmark expects on page 146: Only after the papal rupture did counter-revolution acquire the beginnings of a broad constituency outside existing sectarian conflict zones. Canonical locator LOC-0D08F780F644 under 'religious freedom' is supported on that page: On source page 146, the destination provides independently useful treatment of the complete path “religious freedom” within its discussion of papal opposition, refractory worship, and the first organized counter-revolutionary activity.",
       "matched_path_id": "PATH-B978269CC447",
-      "matched_locator_id": "LOC-0D08F780F644"
+      "matched_locator_id": "LOC-0D08F780F644",
+      "matched_path_ids": [
+        "PATH-B978269CC447"
+      ],
+      "matched_locator_ids": [
+        "LOC-0D08F780F644"
+      ]
     },
     {
       "treatment_id": "TREAT-75CE0CF1BBE1",
@@ -9408,7 +9887,13 @@
       ],
       "status_rationale": "The benchmark expects on page 139: Pius VI rejected annexationist reforms in Avignon and privately condemned the Declaration of Rights and French religious policy. Canonical locator LOC-980914B153E7 under 'Pius VI' is supported on that page: On source page 139, the destination provides independently useful treatment of the complete path “Pius VI” within its discussion of papal rule in Avignon, Pius VI's opposition, and preparation of the Civil Constitution.",
       "matched_path_id": "PATH-F06C9C23E051",
-      "matched_locator_id": "LOC-980914B153E7"
+      "matched_locator_id": "LOC-980914B153E7",
+      "matched_path_ids": [
+        "PATH-F06C9C23E051"
+      ],
+      "matched_locator_ids": [
+        "LOC-980914B153E7"
+      ]
     },
     {
       "treatment_id": "TREAT-75DE7C37DB00",
@@ -9422,7 +9907,13 @@
       ],
       "status_rationale": "The benchmark expects on page 153: The Social Circle and Cordeliers pressed the Jacobins to oppose reinstatement and organized a petitioning campaign. Canonical locator LOC-1017907E7665 under 'Social Circle (Cercle Social)' is supported on that page: On source page 153, the destination provides independently useful treatment of the complete path “Social Circle (Cercle Social)” within its discussion of national alarm after Varennes and division within the Jacobin movement.",
       "matched_path_id": "PATH-3C118DEC5141",
-      "matched_locator_id": "LOC-1017907E7665"
+      "matched_locator_id": "LOC-1017907E7665",
+      "matched_path_ids": [
+        "PATH-3C118DEC5141"
+      ],
+      "matched_locator_ids": [
+        "LOC-1017907E7665"
+      ]
     },
     {
       "treatment_id": "TREAT-76F41283B6AF",
@@ -9436,7 +9927,13 @@
       ],
       "status_rationale": "The benchmark expects on page 148: After the Saint-Cloud obstruction he regarded himself as a prisoner and began concrete preparations to leave. Canonical locator LOC-3F2FDEC524D4 under 'Louis XVI > flight to Varennes' is supported on that page: On source page 148, the destination provides independently useful treatment of the complete path “Louis XVI > flight to Varennes” within its discussion of popular demonstrations, Lafayette's policing, the Day of Daggers, and the king's blocked journey.",
       "matched_path_id": "PATH-A95A72D42C3E",
-      "matched_locator_id": "LOC-3F2FDEC524D4"
+      "matched_locator_id": "LOC-3F2FDEC524D4",
+      "matched_path_ids": [
+        "PATH-A95A72D42C3E"
+      ],
+      "matched_locator_ids": [
+        "LOC-3F2FDEC524D4"
+      ]
     },
     {
       "treatment_id": "TREAT-7BD16046B904",
@@ -9450,7 +9947,13 @@
       ],
       "status_rationale": "The benchmark expects on page 146: Staffing shortages forced the Assembly to retain some refractories temporarily. Canonical locator LOC-126D4E27ADA9 under 'refractory clergy' is supported on that page: On source page 146, the destination provides independently useful treatment of the complete path “refractory clergy” within its discussion of papal opposition, refractory worship, and the first organized counter-revolutionary activity.",
       "matched_path_id": "PATH-76459284546E",
-      "matched_locator_id": "LOC-126D4E27ADA9"
+      "matched_locator_id": "LOC-126D4E27ADA9",
+      "matched_path_ids": [
+        "PATH-76459284546E"
+      ],
+      "matched_locator_ids": [
+        "LOC-126D4E27ADA9"
+      ]
     },
     {
       "treatment_id": "TREAT-7C21B77169F2",
@@ -9465,7 +9968,13 @@
       ],
       "status_rationale": "The frozen treatment on page 302 is reached by supported locator LOC-4E36F96FB9A3 under the specific path Pillnitz, Declaration of.",
       "matched_path_id": "PATH-F64F7B6A582E",
-      "matched_locator_id": "LOC-4E36F96FB9A3"
+      "matched_locator_id": "LOC-4E36F96FB9A3",
+      "matched_path_ids": [
+        "PATH-F64F7B6A582E"
+      ],
+      "matched_locator_ids": [
+        "LOC-4E36F96FB9A3"
+      ]
     },
     {
       "treatment_id": "TREAT-7CECC7D097BF",
@@ -9479,7 +9988,13 @@
       ],
       "status_rationale": "The benchmark expects on page 136: The August decrees removed tithes, vestry fees, pluralism, ecclesiastical dues, and payments to Rome, often without effective compensation. Canonical locator LOC-DB5705DD3339 under 'church property' is supported on that page: On source page 136, the destination provides independently useful treatment of the complete path “church property” within its discussion of the clergy's early revolutionary role and the losses imposed by the August reforms.",
       "matched_path_id": "PATH-4E8391484033",
-      "matched_locator_id": "LOC-DB5705DD3339"
+      "matched_locator_id": "LOC-DB5705DD3339",
+      "matched_path_ids": [
+        "PATH-4E8391484033"
+      ],
+      "matched_locator_ids": [
+        "LOC-DB5705DD3339"
+      ]
     },
     {
       "treatment_id": "TREAT-7E571F2269DE",
@@ -9493,7 +10008,15 @@
       ],
       "status_rationale": "The benchmark expects on page 143: Enforcement, episcopal elections, and resistance showed that transition would not be consensual. Canonical locator LOC-792DD14F37B4 under 'Civil Constitution of the Clergy > oath of the clergy and schism' is supported on that page: On source page 143, the destination provides independently useful treatment of the complete path “Civil Constitution of the Clergy > oath of the clergy and schism” within its discussion of counter-revolution in the Midi and resistance to implementation of the Civil Constitution.",
       "matched_path_id": "PATH-A98B53D231CB",
-      "matched_locator_id": "LOC-792DD14F37B4"
+      "matched_locator_id": "LOC-792DD14F37B4",
+      "matched_path_ids": [
+        "PATH-17055B22EE6E",
+        "PATH-A98B53D231CB"
+      ],
+      "matched_locator_ids": [
+        "LOC-792DD14F37B4",
+        "LOC-D705F464A40A"
+      ]
     },
     {
       "treatment_id": "TREAT-7F0B2D598A53",
@@ -9507,7 +10030,13 @@
       ],
       "status_rationale": "The benchmark expects on page 138: Barnave appears among prominent Protestant radical leaders whose identity fed Catholic suspicions. Canonical locator LOC-41D6FCE949C3 under 'Barnave, Antoine-Pierre > protestantism/equality for' is supported on that page: On source page 138, the destination provides independently useful treatment of the complete path “Barnave, Antoine-Pierre > protestantism/equality for” within its discussion of Protestant-Catholic conflict and militia violence at Montauban and Nimes.",
       "matched_path_id": "PATH-C6BEF296FD97",
-      "matched_locator_id": "LOC-41D6FCE949C3"
+      "matched_locator_id": "LOC-41D6FCE949C3",
+      "matched_path_ids": [
+        "PATH-C6BEF296FD97"
+      ],
+      "matched_locator_ids": [
+        "LOC-41D6FCE949C3"
+      ]
     },
     {
       "treatment_id": "TREAT-80B534C7A569",
@@ -9522,7 +10051,13 @@
       ],
       "status_rationale": "The frozen treatment on page 146 is reached by supported locator LOC-9B5ACD97A24B under the specific path Civil Constitution of the Clergy > papal condemnation.",
       "matched_path_id": "PATH-7C3AA33BC79A",
-      "matched_locator_id": "LOC-9B5ACD97A24B"
+      "matched_locator_id": "LOC-9B5ACD97A24B",
+      "matched_path_ids": [
+        "PATH-7C3AA33BC79A"
+      ],
+      "matched_locator_ids": [
+        "LOC-9B5ACD97A24B"
+      ]
     },
     {
       "treatment_id": "TREAT-81F891D5BB24",
@@ -9536,7 +10071,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: After the massacre he cooperated with former rivals to complete constitutional revision. Canonical locator LOC-31B3FE396A55 under 'Champ de Mars, Massacre of the' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Champ de Mars, Massacre of the” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-B19AA8CDFB80",
-      "matched_locator_id": "LOC-31B3FE396A55"
+      "matched_locator_id": "LOC-31B3FE396A55",
+      "matched_path_ids": [
+        "PATH-B19AA8CDFB80"
+      ],
+      "matched_locator_ids": [
+        "LOC-31B3FE396A55"
+      ]
     },
     {
       "treatment_id": "TREAT-8294FA49B9FC",
@@ -9550,7 +10091,15 @@
       ],
       "status_rationale": "The benchmark expects on page 139: The ecclesiastical committee aimed to revitalize and financially stabilize the Church while harmonizing it with revolutionary principles. Canonical locator LOC-0B5BDB9D3107 under 'Civil Constitution of the Clergy' is supported on that page: On source page 139, the destination provides independently useful treatment of the complete path “Civil Constitution of the Clergy” within its discussion of papal rule in Avignon, Pius VI's opposition, and preparation of the Civil Constitution.",
       "matched_path_id": "PATH-295160F9261B",
-      "matched_locator_id": "LOC-0B5BDB9D3107"
+      "matched_locator_id": "LOC-0B5BDB9D3107",
+      "matched_path_ids": [
+        "PATH-295160F9261B",
+        "PATH-2E5135F8FCB5"
+      ],
+      "matched_locator_ids": [
+        "LOC-0B5BDB9D3107",
+        "LOC-1B5229B97A59"
+      ]
     },
     {
       "treatment_id": "TREAT-850E07092A7B",
@@ -9564,7 +10113,15 @@
       ],
       "status_rationale": "The benchmark expects on page 314: After Quiberon, leadership and trust fractured while republican operations intensified in royalist territory. Canonical locator LOC-52C35A2F52B4 under 'Counter-Revolution > in Western France (Vendée and Brittany)' is supported on that page: Document page 314 connects the complete path 'Counter-Revolution > in Western France (Vendée and Brittany)' to a concrete source fact: Puisaye lost authority after Quiberon while Cadoudal emerged as the more credible chouan leader.",
       "matched_path_id": "PATH-5958E43F6835",
-      "matched_locator_id": "LOC-52C35A2F52B4"
+      "matched_locator_id": "LOC-52C35A2F52B4",
+      "matched_path_ids": [
+        "PATH-5958E43F6835",
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-0298468A7BBA",
+        "LOC-52C35A2F52B4"
+      ]
     },
     {
       "treatment_id": "TREAT-859EE739F28A",
@@ -9578,7 +10135,13 @@
       ],
       "status_rationale": "The frozen treatment on page 155 is reached by supported locator LOC-A8981F8FA2CD under the specific path Artois, Charles-Philippe, Comte d' > relationship with Louis XVI.",
       "matched_path_id": "PATH-0F90F125F531",
-      "matched_locator_id": "LOC-A8981F8FA2CD"
+      "matched_locator_id": "LOC-A8981F8FA2CD",
+      "matched_path_ids": [
+        "PATH-0F90F125F531"
+      ],
+      "matched_locator_ids": [
+        "LOC-A8981F8FA2CD"
+      ]
     },
     {
       "treatment_id": "TREAT-8AFE6E399240",
@@ -9593,7 +10156,13 @@
       ],
       "status_rationale": "The benchmark expects on page 152: The crisis demonstrated that ministers, military administration, and debate could continue without an active monarch. Canonical locator LOC-2DD9D48FAB93 under 'Varennes, Flight to' is supported on that page: On source page 152, the destination provides independently useful treatment of the complete path “Varennes, Flight to” within its discussion of the constitutional and republican consequences of the flight to Varennes.",
       "matched_path_id": "PATH-EB02DA5B5EDC",
-      "matched_locator_id": "LOC-2DD9D48FAB93"
+      "matched_locator_id": "LOC-2DD9D48FAB93",
+      "matched_path_ids": [
+        "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-2DD9D48FAB93"
+      ]
     },
     {
       "treatment_id": "TREAT-8CC31CBAB7CC",
@@ -9607,7 +10176,15 @@
       ],
       "status_rationale": "The benchmark expects on page 140: The settlement provided generous though redistributive salaries, strict residence, one bishop per department, fewer parishes, and abolition of chapters and nonpastoral benefices. Canonical locator LOC-76777FFDAA10 under 'bishops > and Civil Constitution of the Clergy' is supported on that page: On source page 140, the destination provides independently useful treatment of the complete path “bishops > and Civil Constitution of the Clergy” within its discussion of the debate, organization, and provisions of the Civil Constitution of the Clergy.",
       "matched_path_id": "PATH-17055B22EE6E",
-      "matched_locator_id": "LOC-76777FFDAA10"
+      "matched_locator_id": "LOC-76777FFDAA10",
+      "matched_path_ids": [
+        "PATH-17055B22EE6E",
+        "PATH-21F68C2B2947"
+      ],
+      "matched_locator_ids": [
+        "LOC-2CA96413BD10",
+        "LOC-76777FFDAA10"
+      ]
     },
     {
       "treatment_id": "TREAT-8DF89A9314BC",
@@ -9621,7 +10198,13 @@
       ],
       "status_rationale": "The frozen treatment on page 304 is reached by supported locator LOC-7921B1A152BC under the specific path Pillnitz, Declaration of.",
       "matched_path_id": "PATH-F64F7B6A582E",
-      "matched_locator_id": "LOC-7921B1A152BC"
+      "matched_locator_id": "LOC-7921B1A152BC",
+      "matched_path_ids": [
+        "PATH-F64F7B6A582E"
+      ],
+      "matched_locator_ids": [
+        "LOC-7921B1A152BC"
+      ]
     },
     {
       "treatment_id": "TREAT-8F56F4819388",
@@ -9635,7 +10218,13 @@
       ],
       "status_rationale": "The benchmark expects on page 151: He defended slavery and warned against free-colored political claims before Robespierre defeated his position. Canonical locator LOC-E1A97832E288 under 'Barnave, Antoine-Pierre > slavery and colonial debate' is supported on that page: On source page 151, the destination provides independently useful treatment of the complete path “Barnave, Antoine-Pierre > slavery and colonial debate” within its discussion of colonial rights and the royal family's attempted flight to Varennes.",
       "matched_path_id": "PATH-69AEA91A3EC6",
-      "matched_locator_id": "LOC-E1A97832E288"
+      "matched_locator_id": "LOC-E1A97832E288",
+      "matched_path_ids": [
+        "PATH-69AEA91A3EC6"
+      ],
+      "matched_locator_ids": [
+        "LOC-E1A97832E288"
+      ]
     },
     {
       "treatment_id": "TREAT-90B63DADE806",
@@ -9650,7 +10239,13 @@
       ],
       "status_rationale": "The frozen treatment on page 155 is reached by supported locator LOC-6ED7A5AA883F under the specific path Robespierre, Maximilien > on freedom of the press.",
       "matched_path_id": "PATH-20A3330D7C6A",
-      "matched_locator_id": "LOC-6ED7A5AA883F"
+      "matched_locator_id": "LOC-6ED7A5AA883F",
+      "matched_path_ids": [
+        "PATH-20A3330D7C6A"
+      ],
+      "matched_locator_ids": [
+        "LOC-6ED7A5AA883F"
+      ]
     },
     {
       "treatment_id": "TREAT-917D0F5C683A",
@@ -9664,7 +10259,15 @@
       ],
       "status_rationale": "The frozen treatment on page 150 is reached by supported locator LOC-1DCF2F38FBC9 under the specific path Triumvirate (Barnave, Duport, Lameth).",
       "matched_path_id": "PATH-DDEF46FFF996",
-      "matched_locator_id": "LOC-1DCF2F38FBC9"
+      "matched_locator_id": "LOC-1DCF2F38FBC9",
+      "matched_path_ids": [
+        "PATH-8CC7A795615B",
+        "PATH-DDEF46FFF996"
+      ],
+      "matched_locator_ids": [
+        "LOC-1DCF2F38FBC9",
+        "LOC-61612D4C2AF2"
+      ]
     },
     {
       "treatment_id": "TREAT-922E7670E59E",
@@ -9678,7 +10281,13 @@
       ],
       "status_rationale": "The benchmark expects on page 156: The September repeal and amnesty did not stop the expanding departure of officers and nobles. Canonical locator LOC-21808D0DDEAB under 'émigrés' is supported on that page: On source page 156, the destination provides independently useful treatment of the complete path “émigrés” within its discussion of officer emigration, army collapse, Feuillant weakness, and the Declaration of Pillnitz.",
       "matched_path_id": "PATH-EDE9FE43A1B3",
-      "matched_locator_id": "LOC-21808D0DDEAB"
+      "matched_locator_id": "LOC-21808D0DDEAB",
+      "matched_path_ids": [
+        "PATH-EDE9FE43A1B3"
+      ],
+      "matched_locator_ids": [
+        "LOC-21808D0DDEAB"
+      ]
     },
     {
       "treatment_id": "TREAT-929F1603637F",
@@ -9692,7 +10301,13 @@
       ],
       "status_rationale": "The benchmark expects on page 137: Joseph II’s reforms and earlier French closures supplied precedents, but the cumulative attack on Church institutions made the measure more alarming. Canonical locator LOC-6892707D9CAE under 'monasteries' is supported on that page: On source page 137, the destination provides independently useful treatment of the complete path “monasteries” within its discussion of religious equality, Church property, clerical incomes, and the dissolution of religious orders.",
       "matched_path_id": "PATH-9BE1C108CFD5",
-      "matched_locator_id": "LOC-6892707D9CAE"
+      "matched_locator_id": "LOC-6892707D9CAE",
+      "matched_path_ids": [
+        "PATH-9BE1C108CFD5"
+      ],
+      "matched_locator_ids": [
+        "LOC-6892707D9CAE"
+      ]
     },
     {
       "treatment_id": "TREAT-92F73889BDD8",
@@ -9706,7 +10321,15 @@
       ],
       "status_rationale": "The benchmark expects on page 312: Religious toleration, supply shortages, and Hoche’s pressure weakened popular support and drove leaders toward tactical peace. Canonical locator LOC-C4BD739BADCF under 'Counter-Revolution > in Western France (Vendée and Brittany)' is supported on that page: Document page 312 connects the complete path 'Counter-Revolution > in Western France (Vendée and Brittany)' to a concrete source fact: Vendéan leaders privately rejected genuine peace while waiting for British support.",
       "matched_path_id": "PATH-5958E43F6835",
-      "matched_locator_id": "LOC-C4BD739BADCF"
+      "matched_locator_id": "LOC-C4BD739BADCF",
+      "matched_path_ids": [
+        "PATH-5958E43F6835",
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-3F34223B36CF",
+        "LOC-C4BD739BADCF"
+      ]
     },
     {
       "treatment_id": "TREAT-933045609440",
@@ -9720,7 +10343,13 @@
       ],
       "status_rationale": "The benchmark expects on page 153: Varennes fears fused refractory clergy, aristocrats, and foreigners into an imagined national conspiracy. Canonical locator LOC-DD65C68E0F73 under 'refractory clergy > persecution and popular violence' is supported on that page: On source page 153, the destination provides independently useful treatment of the complete path “refractory clergy > persecution and popular violence” within its discussion of national alarm after Varennes and division within the Jacobin movement.",
       "matched_path_id": "PATH-4571AD3D5E06",
-      "matched_locator_id": "LOC-DD65C68E0F73"
+      "matched_locator_id": "LOC-DD65C68E0F73",
+      "matched_path_ids": [
+        "PATH-4571AD3D5E06"
+      ],
+      "matched_locator_ids": [
+        "LOC-DD65C68E0F73"
+      ]
     },
     {
       "treatment_id": "TREAT-98DCF55EF1B5",
@@ -9734,7 +10363,13 @@
       ],
       "status_rationale": "The benchmark expects on page 137: Dom Gerle’s motion attracted roughly three hundred votes but failed, dramatizing the Assembly’s refusal to restore Catholic monopoly. Canonical locator LOC-1EEFFFBE06D0 under 'Gerle, Dom' is supported on that page: On source page 137, the destination provides independently useful treatment of the complete path “Gerle, Dom” within its discussion of religious equality, Church property, clerical incomes, and the dissolution of religious orders.",
       "matched_path_id": "PATH-FC3A1E820FC5",
-      "matched_locator_id": "LOC-1EEFFFBE06D0"
+      "matched_locator_id": "LOC-1EEFFFBE06D0",
+      "matched_path_ids": [
+        "PATH-FC3A1E820FC5"
+      ],
+      "matched_locator_ids": [
+        "LOC-1EEFFFBE06D0"
+      ]
     },
     {
       "treatment_id": "TREAT-9B025CF39564",
@@ -9748,7 +10383,13 @@
       ],
       "status_rationale": "The benchmark expects on page 148: A crowd immobilized the royal carriage after news of refractory communion, and National Guards refused Lafayette’s order to clear the route. Canonical locator LOC-A159CA7E624C under 'Saint-Cloud' is supported on that page: On source page 148, the destination provides independently useful treatment of the complete path “Saint-Cloud” within its discussion of popular demonstrations, Lafayette's policing, the Day of Daggers, and the king's blocked journey.",
       "matched_path_id": "PATH-B9E602BCDE5B",
-      "matched_locator_id": "LOC-A159CA7E624C"
+      "matched_locator_id": "LOC-A159CA7E624C",
+      "matched_path_ids": [
+        "PATH-B9E602BCDE5B"
+      ],
+      "matched_locator_ids": [
+        "LOC-A159CA7E624C"
+      ]
     },
     {
       "treatment_id": "TREAT-9B89B8CD7D46",
@@ -9762,7 +10403,13 @@
       ],
       "status_rationale": "The benchmark expects on page 148: The Cordeliers encouraged popular societies and anti-royal demonstrations while defining itself around rights rather than the existing Constitution. Canonical locator LOC-BAD3F859DC82 under 'Cordeliers Club' is supported on that page: On source page 148, the destination provides independently useful treatment of the complete path “Cordeliers Club” within its discussion of popular demonstrations, Lafayette's policing, the Day of Daggers, and the king's blocked journey.",
       "matched_path_id": "PATH-81E032EBF2E5",
-      "matched_locator_id": "LOC-BAD3F859DC82"
+      "matched_locator_id": "LOC-BAD3F859DC82",
+      "matched_path_ids": [
+        "PATH-81E032EBF2E5"
+      ],
+      "matched_locator_ids": [
+        "LOC-BAD3F859DC82"
+      ]
     },
     {
       "treatment_id": "TREAT-9C58ED9911C0",
@@ -9776,7 +10423,13 @@
       ],
       "status_rationale": "The frozen treatment on page 157 is reached by supported locator LOC-88282BCB91AA under the specific path Pillnitz, Declaration of.",
       "matched_path_id": "PATH-F64F7B6A582E",
-      "matched_locator_id": "LOC-88282BCB91AA"
+      "matched_locator_id": "LOC-88282BCB91AA",
+      "matched_path_ids": [
+        "PATH-F64F7B6A582E"
+      ],
+      "matched_locator_ids": [
+        "LOC-88282BCB91AA"
+      ]
     },
     {
       "treatment_id": "TREAT-9CA2A7FD7CAD",
@@ -9791,7 +10444,13 @@
       ],
       "status_rationale": "The benchmark expects on page 142: Church-property enforcement and support for the Civil Constitution were framed as measures of loyalty to the Revolution. Canonical locator LOC-FB96E8D9A61B under 'Civil Constitution of the Clergy > debates and implementation' is supported on that page: On source page 142, the destination provides independently useful treatment of the complete path “Civil Constitution of the Clergy > debates and implementation” within its discussion of religious polarization and the rapid growth of Jacobin and provincial political clubs.",
       "matched_path_id": "PATH-0E4615B50D50",
-      "matched_locator_id": "LOC-FB96E8D9A61B"
+      "matched_locator_id": "LOC-FB96E8D9A61B",
+      "matched_path_ids": [
+        "PATH-0E4615B50D50"
+      ],
+      "matched_locator_ids": [
+        "LOC-FB96E8D9A61B"
+      ]
     },
     {
       "treatment_id": "TREAT-9CA6712D7D71",
@@ -9806,7 +10465,13 @@
       ],
       "status_rationale": "The benchmark expects on page 153: Communities mobilized Guards and committees under expectations of invasion and linked refractory clergy to aristocratic and foreign conspiracy. Canonical locator LOC-69CD4FE2C038 under 'Varennes, Flight to' is supported on that page: On source page 153, the destination provides independently useful treatment of the complete path “Varennes, Flight to” within its discussion of national alarm after Varennes and division within the Jacobin movement.",
       "matched_path_id": "PATH-EB02DA5B5EDC",
-      "matched_locator_id": "LOC-69CD4FE2C038"
+      "matched_locator_id": "LOC-69CD4FE2C038",
+      "matched_path_ids": [
+        "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-69CD4FE2C038"
+      ]
     },
     {
       "treatment_id": "TREAT-9E626ABCFF85",
@@ -9820,7 +10485,13 @@
       ],
       "status_rationale": "The benchmark expects on page 144: He led patriotic efforts to pressure clerical deputies toward the oath. Canonical locator LOC-EFDAA9CD4E82 under 'clerical oath' is supported on that page: On source page 144, the destination provides independently useful treatment of the complete path “clerical oath” within its discussion of the clerical oath, oath refusal, and the emergence of refractory clergy.",
       "matched_path_id": "PATH-3BB68AD148B6",
-      "matched_locator_id": "LOC-EFDAA9CD4E82"
+      "matched_locator_id": "LOC-EFDAA9CD4E82",
+      "matched_path_ids": [
+        "PATH-3BB68AD148B6"
+      ],
+      "matched_locator_ids": [
+        "LOC-EFDAA9CD4E82"
+      ]
     },
     {
       "treatment_id": "TREAT-9F47C811D4F6",
@@ -9846,7 +10517,13 @@
       ],
       "status_rationale": "The frozen treatment on page 143 is reached by supported locator LOC-FAF33DF4176E under the specific path Artois, Charles-Philippe, Comte d' > counter-revolutionary activities.",
       "matched_path_id": "PATH-9F3FA748B991",
-      "matched_locator_id": "LOC-FAF33DF4176E"
+      "matched_locator_id": "LOC-FAF33DF4176E",
+      "matched_path_ids": [
+        "PATH-9F3FA748B991"
+      ],
+      "matched_locator_ids": [
+        "LOC-FAF33DF4176E"
+      ]
     },
     {
       "treatment_id": "TREAT-A1C1C5AAE393",
@@ -9860,7 +10537,15 @@
       ],
       "status_rationale": "The benchmark expects on page 141: He urged Louis XVI against sanctioning the Civil Constitution as schismatic, then delayed publicly while consulting and seeking to avoid an immediate break. Canonical locator LOC-7FE4D139A0C1 under 'Civil Constitution of the Clergy > papal condemnation' is supported on that page: On source page 141, the destination provides independently useful treatment of the complete path “Civil Constitution of the Clergy > papal condemnation” within its discussion of clerical elections, papal authority, and the developing danger of schism.",
       "matched_path_id": "PATH-7C3AA33BC79A",
-      "matched_locator_id": "LOC-7FE4D139A0C1"
+      "matched_locator_id": "LOC-7FE4D139A0C1",
+      "matched_path_ids": [
+        "PATH-7C3AA33BC79A",
+        "PATH-F06C9C23E051"
+      ],
+      "matched_locator_ids": [
+        "LOC-6B41501A6639",
+        "LOC-7FE4D139A0C1"
+      ]
     },
     {
       "treatment_id": "TREAT-A38494AE0159",
@@ -9875,7 +10560,13 @@
       ],
       "status_rationale": "The frozen treatment on page 142 is reached by supported locator LOC-A1DED00BB67B under the specific path Society of the Friends of the Constitution.",
       "matched_path_id": "PATH-9510F8C0F5DC",
-      "matched_locator_id": "LOC-A1DED00BB67B"
+      "matched_locator_id": "LOC-A1DED00BB67B",
+      "matched_path_ids": [
+        "PATH-9510F8C0F5DC"
+      ],
+      "matched_locator_ids": [
+        "LOC-A1DED00BB67B"
+      ]
     },
     {
       "treatment_id": "TREAT-A4367814622A",
@@ -9889,7 +10580,13 @@
       ],
       "status_rationale": "The benchmark expects on page 141: Inventories and impending sales of Church lands made the new religious order immediately visible across France. Canonical locator LOC-64E821134816 under 'church property' is supported on that page: On source page 141, the destination provides independently useful treatment of the complete path “church property” within its discussion of clerical elections, papal authority, and the developing danger of schism.",
       "matched_path_id": "PATH-4E8391484033",
-      "matched_locator_id": "LOC-64E821134816"
+      "matched_locator_id": "LOC-64E821134816",
+      "matched_path_ids": [
+        "PATH-4E8391484033"
+      ],
+      "matched_locator_ids": [
+        "LOC-64E821134816"
+      ]
     },
     {
       "treatment_id": "TREAT-A621B89A945F",
@@ -9904,7 +10601,13 @@
       ],
       "status_rationale": "The frozen treatment on page 142 is reached by supported locator LOC-7EED3812077F under the specific path monasteries.",
       "matched_path_id": "PATH-9BE1C108CFD5",
-      "matched_locator_id": "LOC-7EED3812077F"
+      "matched_locator_id": "LOC-7EED3812077F",
+      "matched_path_ids": [
+        "PATH-9BE1C108CFD5"
+      ],
+      "matched_locator_ids": [
+        "LOC-7EED3812077F"
+      ]
     },
     {
       "treatment_id": "TREAT-A66E2AAAD51F",
@@ -9918,7 +10621,13 @@
       ],
       "status_rationale": "The benchmark expects on page 405: Market unification and removal of corporate restrictions established useful legal conditions but did not overcome fear, land preference, or weak investment. Canonical locator LOC-0224F4FC109A under 'Le Chapelier Law (1791)' is supported on that page: Page 405 states that internal customs barriers had been eliminated, standardized weights and measures introduced, guild restrictive practices abolished, and labour organizations restricted by the Le Chapelier Law. This provides sustained evidence for Le Chapelier Law (1791).",
       "matched_path_id": "PATH-1164B7D72E65",
-      "matched_locator_id": "LOC-0224F4FC109A"
+      "matched_locator_id": "LOC-0224F4FC109A",
+      "matched_path_ids": [
+        "PATH-1164B7D72E65"
+      ],
+      "matched_locator_ids": [
+        "LOC-0224F4FC109A"
+      ]
     },
     {
       "treatment_id": "TREAT-A80A7BC8AF7D",
@@ -9944,7 +10653,13 @@
       ],
       "status_rationale": "The frozen treatment on page 146 is reached by supported locator LOC-9B5ACD97A24B under the specific path Civil Constitution of the Clergy > papal condemnation.",
       "matched_path_id": "PATH-7C3AA33BC79A",
-      "matched_locator_id": "LOC-9B5ACD97A24B"
+      "matched_locator_id": "LOC-9B5ACD97A24B",
+      "matched_path_ids": [
+        "PATH-7C3AA33BC79A"
+      ],
+      "matched_locator_ids": [
+        "LOC-9B5ACD97A24B"
+      ]
     },
     {
       "treatment_id": "TREAT-A895252624B0",
@@ -9958,7 +10673,15 @@
       ],
       "status_rationale": "The benchmark expects on page 147: His aunts’ refusal and departure for Rome sharpened the family conflict over the constitutional Church. Canonical locator LOC-E885B0E95537 under 'royal aunts' is supported on that page: On source page 147, the destination provides independently useful treatment of the complete path “royal aunts” within its discussion of emigre organization, army mutiny, and the monarchy's response to religious schism.",
       "matched_path_id": "PATH-AF0103004D87",
-      "matched_locator_id": "LOC-E885B0E95537"
+      "matched_locator_id": "LOC-E885B0E95537",
+      "matched_path_ids": [
+        "PATH-AF0103004D87",
+        "PATH-D80FBA07B384"
+      ],
+      "matched_locator_ids": [
+        "LOC-E885B0E95537",
+        "LOC-E8D426C8A63B"
+      ]
     },
     {
       "treatment_id": "TREAT-AC046392B928",
@@ -9973,7 +10696,13 @@
       ],
       "status_rationale": "The benchmark expects on page 145: Western priests’ local peasant origins and parish solidarity mattered at least as much as tithe income, while clubs and authorities shaped outcomes elsewhere. Canonical locator LOC-DFC02F79AE1B under 'Dauphiné > clerical oath-taking' is supported on that page: On source page 145, the destination provides independently useful treatment of the complete path “Dauphiné > clerical oath-taking” within its discussion of the geography and social causes of oath-taking and refusal.",
       "matched_path_id": "PATH-D5D06331A391",
-      "matched_locator_id": "LOC-DFC02F79AE1B"
+      "matched_locator_id": "LOC-DFC02F79AE1B",
+      "matched_path_ids": [
+        "PATH-D5D06331A391"
+      ],
+      "matched_locator_ids": [
+        "LOC-DFC02F79AE1B"
+      ]
     },
     {
       "treatment_id": "TREAT-AC483674D15F",
@@ -9987,7 +10716,13 @@
       ],
       "status_rationale": "The benchmark expects on page 138: Catholics in the Gard came to identify revolutionary government with a feared Protestant victory and inversion of the local order. Canonical locator LOC-E3A5A992F6CD under 'Protestants' is supported on that page: On source page 138, the destination provides independently useful treatment of the complete path “Protestants” within its discussion of Protestant-Catholic conflict and militia violence at Montauban and Nimes.",
       "matched_path_id": "PATH-ABCAF845147D",
-      "matched_locator_id": "LOC-E3A5A992F6CD"
+      "matched_locator_id": "LOC-E3A5A992F6CD",
+      "matched_path_ids": [
+        "PATH-ABCAF845147D"
+      ],
+      "matched_locator_ids": [
+        "LOC-E3A5A992F6CD"
+      ]
     },
     {
       "treatment_id": "TREAT-ACBEBCA6DD3A",
@@ -10003,7 +10738,13 @@
       ],
       "status_rationale": "The frozen treatment on page 156 is reached by supported locator LOC-6CFA49EA2A6D under the specific path Pillnitz, Declaration of.",
       "matched_path_id": "PATH-F64F7B6A582E",
-      "matched_locator_id": "LOC-6CFA49EA2A6D"
+      "matched_locator_id": "LOC-6CFA49EA2A6D",
+      "matched_path_ids": [
+        "PATH-F64F7B6A582E"
+      ],
+      "matched_locator_ids": [
+        "LOC-6CFA49EA2A6D"
+      ]
     },
     {
       "treatment_id": "TREAT-AD1060A1988B",
@@ -10017,7 +10758,15 @@
       ],
       "status_rationale": "The benchmark expects on page 311: Chouan bands disrupted rural administration but lacked unified command and the capacity to seize and hold a port. Canonical locator LOC-92EF5F052C97 under 'Counter-Revolution > in Western France (Vendée and Brittany)' is supported on that page: Document page 311 connects the complete path 'Counter-Revolution > in Western France (Vendée and Brittany)' to a concrete source fact: Puisaye overstated chouan numbers and organization while persuading Pitt to support an expedition to Brittany.",
       "matched_path_id": "PATH-5958E43F6835",
-      "matched_locator_id": "LOC-92EF5F052C97"
+      "matched_locator_id": "LOC-92EF5F052C97",
+      "matched_path_ids": [
+        "PATH-5958E43F6835",
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-92EF5F052C97",
+        "LOC-C39D9B43CFBF"
+      ]
     },
     {
       "treatment_id": "TREAT-ADAE73D1E3A9",
@@ -10031,7 +10780,13 @@
       ],
       "status_rationale": "The frozen treatment on page 153 is reached by supported locator LOC-FE158F10CF8F under the specific path Robespierre, Maximilien > and the Jacobin Club.",
       "matched_path_id": "PATH-4E8F0BF0C1D6",
-      "matched_locator_id": "LOC-FE158F10CF8F"
+      "matched_locator_id": "LOC-FE158F10CF8F",
+      "matched_path_ids": [
+        "PATH-4E8F0BF0C1D6"
+      ],
+      "matched_locator_ids": [
+        "LOC-FE158F10CF8F"
+      ]
     },
     {
       "treatment_id": "TREAT-B26F0B8CD34E",
@@ -10045,7 +10800,13 @@
       ],
       "status_rationale": "The benchmark expects on page 143: A Guard federation could be redirected toward counter-revolution, as at Jalès. Canonical locator LOC-655307883E9E under 'National Guard > provincial role and disturbances' is supported on that page: On source page 143, the destination provides independently useful treatment of the complete path “National Guard > provincial role and disturbances” within its discussion of counter-revolution in the Midi and resistance to implementation of the Civil Constitution.",
       "matched_path_id": "PATH-BCB03A99B067",
-      "matched_locator_id": "LOC-655307883E9E"
+      "matched_locator_id": "LOC-655307883E9E",
+      "matched_path_ids": [
+        "PATH-BCB03A99B067"
+      ],
+      "matched_locator_ids": [
+        "LOC-655307883E9E"
+      ]
     },
     {
       "treatment_id": "TREAT-B53BFF9BE57B",
@@ -10059,7 +10820,13 @@
       ],
       "status_rationale": "The frozen treatment on page 138 is reached by supported locator LOC-E3A5A992F6CD under the specific path Protestants.",
       "matched_path_id": "PATH-ABCAF845147D",
-      "matched_locator_id": "LOC-E3A5A992F6CD"
+      "matched_locator_id": "LOC-E3A5A992F6CD",
+      "matched_path_ids": [
+        "PATH-ABCAF845147D"
+      ],
+      "matched_locator_ids": [
+        "LOC-E3A5A992F6CD"
+      ]
     },
     {
       "treatment_id": "TREAT-B609A88E8CA5",
@@ -10074,7 +10841,15 @@
       ],
       "status_rationale": "The benchmark expects on page 139: Annexationists in Avignon aligned local law with French reforms, defeated papal loyalists with French National Guard help, and proclaimed union. Canonical locator LOC-94021123DD30 under 'Comtat Venaissin' is supported on that page: On source page 139, the destination provides independently useful treatment of the complete path “Comtat Venaissin” within its discussion of papal rule in Avignon, Pius VI's opposition, and preparation of the Civil Constitution.",
       "matched_path_id": "PATH-4A6CEBE3A61C",
-      "matched_locator_id": "LOC-94021123DD30"
+      "matched_locator_id": "LOC-94021123DD30",
+      "matched_path_ids": [
+        "PATH-4A6CEBE3A61C",
+        "PATH-B7DA2266F8AD"
+      ],
+      "matched_locator_ids": [
+        "LOC-94021123DD30",
+        "LOC-B80D6C90E871"
+      ]
     },
     {
       "treatment_id": "TREAT-B6EB658877C1",
@@ -10088,7 +10863,13 @@
       ],
       "status_rationale": "The benchmark expects on page 138: Electoral tension and rival National Guard companies triggered pitched fighting; Protestant forces prevailed with much heavier Catholic losses. Canonical locator LOC-6E2DBF4DE2BA under 'Bagarre of Nîmes' is supported on that page: On source page 138, the destination provides independently useful treatment of the complete path “Bagarre of Nîmes” within its discussion of Protestant-Catholic conflict and militia violence at Montauban and Nimes.",
       "matched_path_id": "PATH-675A9A68483C",
-      "matched_locator_id": "LOC-6E2DBF4DE2BA"
+      "matched_locator_id": "LOC-6E2DBF4DE2BA",
+      "matched_path_ids": [
+        "PATH-675A9A68483C"
+      ],
+      "matched_locator_ids": [
+        "LOC-6E2DBF4DE2BA"
+      ]
     },
     {
       "treatment_id": "TREAT-B70CA1F76974",
@@ -10102,7 +10883,13 @@
       ],
       "status_rationale": "The benchmark expects on page 157: The oath is judged to have supplied counter-revolutionaries with a higher cause than material self-interest. Canonical locator LOC-DDBDC825724D under 'religious schism' is supported on that page: On source page 157, the destination provides independently useful treatment of the complete path “religious schism” within its discussion of Pillnitz, acceptance of the constitution, and the Constituent Assembly's divided legacy.",
       "matched_path_id": "PATH-4482DDF7AFBD",
-      "matched_locator_id": "LOC-DDBDC825724D"
+      "matched_locator_id": "LOC-DDBDC825724D",
+      "matched_path_ids": [
+        "PATH-4482DDF7AFBD"
+      ],
+      "matched_locator_ids": [
+        "LOC-DDBDC825724D"
+      ]
     },
     {
       "treatment_id": "TREAT-B8600F3ABCAE",
@@ -10118,7 +10905,13 @@
       ],
       "status_rationale": "The frozen treatment on page 141 is reached by supported locator LOC-B6CC94AE5371 under the specific path schism.",
       "matched_path_id": "PATH-D80FBA07B384",
-      "matched_locator_id": "LOC-B6CC94AE5371"
+      "matched_locator_id": "LOC-B6CC94AE5371",
+      "matched_path_ids": [
+        "PATH-D80FBA07B384"
+      ],
+      "matched_locator_ids": [
+        "LOC-B6CC94AE5371"
+      ]
     },
     {
       "treatment_id": "TREAT-B93C6CF16538",
@@ -10132,7 +10925,13 @@
       ],
       "status_rationale": "The benchmark expects on page 398: The 1801 settlement restored public worship but could not erase clerical trauma or reconcile every constitutional priest. Canonical locator LOC-6F2FEBBCA540 under 'Catholic Church > and Civil Constitution of the Clergy' is supported on that page: Page 398 states that its apparent helplessness did much to mislead the drafters of the Civil Constitution. This provides sustained evidence for Catholic Church > and Civil Constitution of the Clergy.",
       "matched_path_id": "PATH-2E5135F8FCB5",
-      "matched_locator_id": "LOC-6F2FEBBCA540"
+      "matched_locator_id": "LOC-6F2FEBBCA540",
+      "matched_path_ids": [
+        "PATH-2E5135F8FCB5"
+      ],
+      "matched_locator_ids": [
+        "LOC-6F2FEBBCA540"
+      ]
     },
     {
       "treatment_id": "TREAT-B95776DFE318",
@@ -10147,7 +10946,13 @@
       ],
       "status_rationale": "The benchmark expects on page 156: The new loyalty formula and outrage over Varennes alienated aristocratic officers. Canonical locator LOC-A23625B5D2FF under 'French Army > officer corps' is supported on that page: On source page 156, the destination provides independently useful treatment of the complete path “French Army > officer corps” within its discussion of officer emigration, army collapse, Feuillant weakness, and the Declaration of Pillnitz.",
       "matched_path_id": "PATH-C2C0C4F2ED65",
-      "matched_locator_id": "LOC-A23625B5D2FF"
+      "matched_locator_id": "LOC-A23625B5D2FF",
+      "matched_path_ids": [
+        "PATH-C2C0C4F2ED65"
+      ],
+      "matched_locator_ids": [
+        "LOC-A23625B5D2FF"
+      ]
     },
     {
       "treatment_id": "TREAT-BCA71EC794DD",
@@ -10161,7 +10966,13 @@
       ],
       "status_rationale": "The benchmark expects on page 148: Paris Guards refused Lafayette’s order to clear the king’s route to Saint-Cloud. Canonical locator LOC-012F78A86060 under 'National Guard > as instrument of order and martial law' is supported on that page: On source page 148, the destination provides independently useful treatment of the complete path “National Guard > as instrument of order and martial law” within its discussion of popular demonstrations, Lafayette's policing, the Day of Daggers, and the king's blocked journey.",
       "matched_path_id": "PATH-3513334DB41B",
-      "matched_locator_id": "LOC-012F78A86060"
+      "matched_locator_id": "LOC-012F78A86060",
+      "matched_path_ids": [
+        "PATH-3513334DB41B"
+      ],
+      "matched_locator_ids": [
+        "LOC-012F78A86060"
+      ]
     },
     {
       "treatment_id": "TREAT-BD8ED434836F",
@@ -10175,7 +10986,15 @@
       ],
       "status_rationale": "The benchmark expects on page 147: Despite sanctioning the laws, the king rejected constitutional religious counsel and became more doubtful as clerical refusal spread. Canonical locator LOC-E8D426C8A63B under 'schism' is supported on that page: On source page 147, the destination provides independently useful treatment of the complete path “schism” within its discussion of emigre organization, army mutiny, and the monarchy's response to religious schism.",
       "matched_path_id": "PATH-D80FBA07B384",
-      "matched_locator_id": "LOC-E8D426C8A63B"
+      "matched_locator_id": "LOC-E8D426C8A63B",
+      "matched_path_ids": [
+        "PATH-AF0103004D87",
+        "PATH-D80FBA07B384"
+      ],
+      "matched_locator_ids": [
+        "LOC-E885B0E95537",
+        "LOC-E8D426C8A63B"
+      ]
     },
     {
       "treatment_id": "TREAT-BD8F4182EF46",
@@ -10190,7 +11009,13 @@
       ],
       "status_rationale": "The frozen treatment on page 136 is reached by supported locator LOC-2B45B15DB2F1 under the specific path clergy (First Estate).",
       "matched_path_id": "PATH-105F39CF8121",
-      "matched_locator_id": "LOC-2B45B15DB2F1"
+      "matched_locator_id": "LOC-2B45B15DB2F1",
+      "matched_path_ids": [
+        "PATH-105F39CF8121"
+      ],
+      "matched_locator_ids": [
+        "LOC-2B45B15DB2F1"
+      ]
     },
     {
       "treatment_id": "TREAT-BE0693BFCFBC",
@@ -10204,7 +11029,13 @@
       ],
       "status_rationale": "The benchmark expects on page 155: The settlement was later excluded from the Constitution, leaving it amendable as ordinary law and separating a constitutional oath from acceptance of the ecclesiastical order. Canonical locator LOC-7A6B47431274 under 'Civil Constitution of the Clergy > exclusion from Constitution (1791)' is supported on that page: On source page 155, the destination provides independently useful treatment of the complete path “Civil Constitution of the Clergy > exclusion from Constitution (1791)” within its discussion of constitutional amendments, electoral qualifications, press restrictions, and emigre penalties.",
       "matched_path_id": "PATH-DCAFD2781692",
-      "matched_locator_id": "LOC-7A6B47431274"
+      "matched_locator_id": "LOC-7A6B47431274",
+      "matched_path_ids": [
+        "PATH-DCAFD2781692"
+      ],
+      "matched_locator_ids": [
+        "LOC-7A6B47431274"
+      ]
     },
     {
       "treatment_id": "TREAT-BE63E0CC7D0D",
@@ -10218,7 +11049,13 @@
       ],
       "status_rationale": "The benchmark expects on page 145: Refusal was especially strong in the west, border regions, and many provincial cities, often reflecting parish solidarity. Canonical locator LOC-41CF8034AFAA under 'refractory clergy' is supported on that page: On source page 145, the destination provides independently useful treatment of the complete path “refractory clergy” within its discussion of the geography and social causes of oath-taking and refusal.",
       "matched_path_id": "PATH-76459284546E",
-      "matched_locator_id": "LOC-41CF8034AFAA"
+      "matched_locator_id": "LOC-41CF8034AFAA",
+      "matched_path_ids": [
+        "PATH-76459284546E"
+      ],
+      "matched_locator_ids": [
+        "LOC-41CF8034AFAA"
+      ]
     },
     {
       "treatment_id": "TREAT-C1FB19EC3E05",
@@ -10232,7 +11069,13 @@
       ],
       "status_rationale": "The benchmark expects on page 148: Popular action targeted refractory services and a convent, using intimidation and physical punishment. Canonical locator LOC-983D796F7406 under 'refractory clergy > persecution and popular violence' is supported on that page: On source page 148, the destination provides independently useful treatment of the complete path “refractory clergy > persecution and popular violence” within its discussion of popular demonstrations, Lafayette's policing, the Day of Daggers, and the king's blocked journey.",
       "matched_path_id": "PATH-4571AD3D5E06",
-      "matched_locator_id": "LOC-983D796F7406"
+      "matched_locator_id": "LOC-983D796F7406",
+      "matched_path_ids": [
+        "PATH-4571AD3D5E06"
+      ],
+      "matched_locator_ids": [
+        "LOC-983D796F7406"
+      ]
     },
     {
       "treatment_id": "TREAT-C223491DB31A",
@@ -10246,7 +11089,15 @@
       ],
       "status_rationale": "The benchmark expects on page 301: The royal family set the attempt’s timing independently; its failure exposed the king’s hostility, energized republicans, and accelerated officer emigration. Canonical locator LOC-2C078803E3F1 under 'Louis XVI > flight to Varennes' is supported on that page: Document page 301 connects the complete path 'Louis XVI > flight to Varennes' to a concrete source fact: Louis XVI attempted to join emigration in the flight to Varennes, openly exposing his rejection of the Revolution.",
       "matched_path_id": "PATH-A95A72D42C3E",
-      "matched_locator_id": "LOC-2C078803E3F1"
+      "matched_locator_id": "LOC-2C078803E3F1",
+      "matched_path_ids": [
+        "PATH-A95A72D42C3E",
+        "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-2C078803E3F1",
+        "LOC-B600A1B6AB6F"
+      ]
     },
     {
       "treatment_id": "TREAT-C27E680C2005",
@@ -10260,7 +11111,13 @@
       ],
       "status_rationale": "The benchmark expects on page 152: Royal symbols were attacked and the Cordeliers led a mass petition for deposition or a national referendum. Canonical locator LOC-F9FADCC028D0 under 'republican movement' is supported on that page: On source page 152, the destination provides independently useful treatment of the complete path “republican movement” within its discussion of the constitutional and republican consequences of the flight to Varennes.",
       "matched_path_id": "PATH-18757856DD07",
-      "matched_locator_id": "LOC-F9FADCC028D0"
+      "matched_locator_id": "LOC-F9FADCC028D0",
+      "matched_path_ids": [
+        "PATH-18757856DD07"
+      ],
+      "matched_locator_ids": [
+        "LOC-F9FADCC028D0"
+      ]
     },
     {
       "treatment_id": "TREAT-C306A76B7FD9",
@@ -10275,7 +11132,13 @@
       ],
       "status_rationale": "The benchmark expects on page 146: In Paris, popular crowds strongly favored priests who accepted the new order. Canonical locator LOC-126D4E27ADA9 under 'refractory clergy' is supported on that page: On source page 146, the destination provides independently useful treatment of the complete path “refractory clergy” within its discussion of papal opposition, refractory worship, and the first organized counter-revolutionary activity.",
       "matched_path_id": "PATH-76459284546E",
-      "matched_locator_id": "LOC-126D4E27ADA9"
+      "matched_locator_id": "LOC-126D4E27ADA9",
+      "matched_path_ids": [
+        "PATH-76459284546E"
+      ],
+      "matched_locator_ids": [
+        "LOC-126D4E27ADA9"
+      ]
     },
     {
       "treatment_id": "TREAT-C7641A6DF5BA",
@@ -10289,7 +11152,15 @@
       ],
       "status_rationale": "The frozen treatment on page 156 is reached by supported locator LOC-21808D0DDEAB under the specific path émigrés.",
       "matched_path_id": "PATH-EDE9FE43A1B3",
-      "matched_locator_id": "LOC-21808D0DDEAB"
+      "matched_locator_id": "LOC-21808D0DDEAB",
+      "matched_path_ids": [
+        "PATH-E7BB54A6EA3E",
+        "PATH-EDE9FE43A1B3"
+      ],
+      "matched_locator_ids": [
+        "LOC-21808D0DDEAB",
+        "LOC-D591C4D105D0"
+      ]
     },
     {
       "treatment_id": "TREAT-C7AA1237B9E2",
@@ -10303,7 +11174,13 @@
       ],
       "status_rationale": "The benchmark expects on page 186: Eastern sections coordinate their mass demonstration from the Cordeliers. Canonical locator LOC-F7ADBD8F7EE2 under 'Cordeliers Club' is supported on that page: Document page 186 connects the complete path 'Cordeliers Club' to a concrete source fact: east-end sections coordinated from the Cordeliers organized the 20 June march on the Tuileries.",
       "matched_path_id": "PATH-81E032EBF2E5",
-      "matched_locator_id": "LOC-F7ADBD8F7EE2"
+      "matched_locator_id": "LOC-F7ADBD8F7EE2",
+      "matched_path_ids": [
+        "PATH-81E032EBF2E5"
+      ],
+      "matched_locator_ids": [
+        "LOC-F7ADBD8F7EE2"
+      ]
     },
     {
       "treatment_id": "TREAT-CBBAB05666AF",
@@ -10317,7 +11194,13 @@
       ],
       "status_rationale": "The benchmark expects on page 155: More ambitious monarchist proposals for an absolute veto, ministers in the Assembly, and a second chamber were not revived. Canonical locator LOC-9C0B6320EE55 under 'Feuillants Club' is supported on that page: On source page 155, the destination provides independently useful treatment of the complete path “Feuillants Club” within its discussion of constitutional amendments, electoral qualifications, press restrictions, and emigre penalties.",
       "matched_path_id": "PATH-C8B64E8B526C",
-      "matched_locator_id": "LOC-9C0B6320EE55"
+      "matched_locator_id": "LOC-9C0B6320EE55",
+      "matched_path_ids": [
+        "PATH-C8B64E8B526C"
+      ],
+      "matched_locator_ids": [
+        "LOC-9C0B6320EE55"
+      ]
     },
     {
       "treatment_id": "TREAT-CD1DCDF00D31",
@@ -10331,7 +11214,13 @@
       ],
       "status_rationale": "The benchmark expects on page 145: With about 54 percent of parish clergy swearing, the author infers that more than a third of France was prepared to signal a limit to further Revolution. Canonical locator LOC-D5DE7B0FC55D under 'clerical oath' is supported on that page: On source page 145, the destination provides independently useful treatment of the complete path “clerical oath” within its discussion of the geography and social causes of oath-taking and refusal.",
       "matched_path_id": "PATH-3BB68AD148B6",
-      "matched_locator_id": "LOC-D5DE7B0FC55D"
+      "matched_locator_id": "LOC-D5DE7B0FC55D",
+      "matched_path_ids": [
+        "PATH-3BB68AD148B6"
+      ],
+      "matched_locator_ids": [
+        "LOC-D5DE7B0FC55D"
+      ]
     },
     {
       "treatment_id": "TREAT-CF61ECAB5AE1",
@@ -10345,7 +11234,13 @@
       ],
       "status_rationale": "The benchmark expects on page 155: The change came after the next legislature’s elections, whose successful candidates had already met the earlier qualification. Canonical locator LOC-8AA0C104DE55 under 'silver mark (marc d'argent)' is supported on that page: On source page 155, the destination provides independently useful treatment of the complete path “silver mark (marc d'argent)” within its discussion of constitutional amendments, electoral qualifications, press restrictions, and emigre penalties.",
       "matched_path_id": "PATH-EF8B09628600",
-      "matched_locator_id": "LOC-8AA0C104DE55"
+      "matched_locator_id": "LOC-8AA0C104DE55",
+      "matched_path_ids": [
+        "PATH-EF8B09628600"
+      ],
+      "matched_locator_ids": [
+        "LOC-8AA0C104DE55"
+      ]
     },
     {
       "treatment_id": "TREAT-D12D424E4AC3",
@@ -10359,7 +11254,13 @@
       ],
       "status_rationale": "The benchmark expects on page 149: By early summer he and the triumvirate were moderating to preserve monarchy and future influence. Canonical locator LOC-0C073F18A719 under 'Barnave, Antoine-Pierre > relationship with monarchy/Feuillants' is supported on that page: On source page 149, the destination provides independently useful treatment of the complete path “Barnave, Antoine-Pierre > relationship with monarchy/Feuillants” within its discussion of unemployment, guild abolition, industrial action, and political moderation.",
       "matched_path_id": "PATH-8CC7A795615B",
-      "matched_locator_id": "LOC-0C073F18A719"
+      "matched_locator_id": "LOC-0C073F18A719",
+      "matched_path_ids": [
+        "PATH-8CC7A795615B"
+      ],
+      "matched_locator_ids": [
+        "LOC-0C073F18A719"
+      ]
     },
     {
       "treatment_id": "TREAT-D1FA6F594936",
@@ -10373,7 +11274,15 @@
       ],
       "status_rationale": "The frozen treatment on page 137 is reached by supported locator LOC-C1FCF24ABF46 under the specific path church property.",
       "matched_path_id": "PATH-4E8391484033",
-      "matched_locator_id": "LOC-C1FCF24ABF46"
+      "matched_locator_id": "LOC-C1FCF24ABF46",
+      "matched_path_ids": [
+        "PATH-4E8391484033",
+        "PATH-9BE1C108CFD5"
+      ],
+      "matched_locator_ids": [
+        "LOC-6892707D9CAE",
+        "LOC-C1FCF24ABF46"
+      ]
     },
     {
       "treatment_id": "TREAT-D338899E2FFD",
@@ -10387,7 +11296,13 @@
       ],
       "status_rationale": "The benchmark expects on page 151: Bouillé later supplied the military plan and escorts for the royal flight. Canonical locator LOC-3E1728EED342 under 'Bouillé, François Claude de' is supported on that page: On source page 151, the destination provides independently useful treatment of the complete path “Bouillé, François Claude de” within its discussion of colonial rights and the royal family's attempted flight to Varennes.",
       "matched_path_id": "PATH-CACBC77879A6",
-      "matched_locator_id": "LOC-3E1728EED342"
+      "matched_locator_id": "LOC-3E1728EED342",
+      "matched_path_ids": [
+        "PATH-CACBC77879A6"
+      ],
+      "matched_locator_ids": [
+        "LOC-3E1728EED342"
+      ]
     },
     {
       "treatment_id": "TREAT-D394298ADBFF",
@@ -10401,7 +11316,13 @@
       ],
       "status_rationale": "The benchmark expects on page 136: The opening contrasts clerical goodwill in 1789 with rapidly accumulating losses and distrust as the Revolution transformed the Church. Canonical locator LOC-17E97995A1C0 under 'Revolution of 1789 > breakdown of consensus' is supported on that page: On source page 136, the destination provides independently useful treatment of the complete path “Revolution of 1789 > breakdown of consensus” within its discussion of the clergy's early revolutionary role and the losses imposed by the August reforms.",
       "matched_path_id": "PATH-C7A1770E45F5",
-      "matched_locator_id": "LOC-17E97995A1C0"
+      "matched_locator_id": "LOC-17E97995A1C0",
+      "matched_path_ids": [
+        "PATH-C7A1770E45F5"
+      ],
+      "matched_locator_ids": [
+        "LOC-17E97995A1C0"
+      ]
     },
     {
       "treatment_id": "TREAT-D4D369B4CD3C",
@@ -10415,7 +11336,13 @@
       ],
       "status_rationale": "The benchmark expects on page 397: Oath refusal made priests political suspects and targets of massacre, execution, deportation, and exile, while oath-takers lost papal and popular legitimacy. Canonical locator LOC-100584F9F55C under 'clerical oath' is supported on that page: Page 397 states that in addition to the 223 slaughtered then, almost 1,000 were condemned in the Terror, while nearly 25,000, almost one-sixth of the whole clergy, emigrated or were deported. Since 90 per cent of clerical émigrés were seculars, the loss of parish clergy was not far short of a half. By 1794 even the constitutional clergy were under suspicion, having faced repudiation by Rome and the majority of the French population apparently for nothing. This provides independently useful contextual evidence for clerical oath.",
       "matched_path_id": "PATH-3BB68AD148B6",
-      "matched_locator_id": "LOC-100584F9F55C"
+      "matched_locator_id": "LOC-100584F9F55C",
+      "matched_path_ids": [
+        "PATH-3BB68AD148B6"
+      ],
+      "matched_locator_ids": [
+        "LOC-100584F9F55C"
+      ]
     },
     {
       "treatment_id": "TREAT-D5FA12D0D187",
@@ -10429,7 +11356,15 @@
       ],
       "status_rationale": "The benchmark expects on page 146: Louis XVI ignored much of the advice, and Mirabeau died frustrated while his patriotic public reputation remained intact. Canonical locator LOC-7A9517FFEA16 under 'Mirabeau, Honoré-Gabriel Riqueti, comte de > as secret advisor to royalty' is supported on that page: On source page 146, the destination provides independently useful treatment of the complete path “Mirabeau, Honoré-Gabriel Riqueti, comte de > as secret advisor to royalty” within its discussion of papal opposition, refractory worship, and the first organized counter-revolutionary activity.",
       "matched_path_id": "PATH-D3B2678AF36A",
-      "matched_locator_id": "LOC-7A9517FFEA16"
+      "matched_locator_id": "LOC-7A9517FFEA16",
+      "matched_path_ids": [
+        "PATH-D3B2678AF36A",
+        "PATH-EBD8BD7AF5AF"
+      ],
+      "matched_locator_ids": [
+        "LOC-7A9517FFEA16",
+        "LOC-98850895115E"
+      ]
     },
     {
       "treatment_id": "TREAT-DA54B43B9078",
@@ -10443,7 +11378,13 @@
       ],
       "status_rationale": "The benchmark expects on page 152: The failure postponed immediate war but made the monarch’s repudiation of the Revolution impossible to ignore. Canonical locator LOC-2DD9D48FAB93 under 'Varennes, Flight to' is supported on that page: On source page 152, the destination provides independently useful treatment of the complete path “Varennes, Flight to” within its discussion of the constitutional and republican consequences of the flight to Varennes.",
       "matched_path_id": "PATH-EB02DA5B5EDC",
-      "matched_locator_id": "LOC-2DD9D48FAB93"
+      "matched_locator_id": "LOC-2DD9D48FAB93",
+      "matched_path_ids": [
+        "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-2DD9D48FAB93"
+      ]
     },
     {
       "treatment_id": "TREAT-DCCA77125772",
@@ -10457,7 +11398,15 @@
       ],
       "status_rationale": "The benchmark expects on page 140: Most administrative changes are judged plausible improvements; unemployment from suppressed benefices was the principal immediate cost. Canonical locator LOC-2CA96413BD10 under 'parish clergy' is supported on that page: On source page 140, the destination provides independently useful treatment of the complete path “parish clergy” within its discussion of the debate, organization, and provisions of the Civil Constitution of the Clergy.",
       "matched_path_id": "PATH-21F68C2B2947",
-      "matched_locator_id": "LOC-2CA96413BD10"
+      "matched_locator_id": "LOC-2CA96413BD10",
+      "matched_path_ids": [
+        "PATH-17055B22EE6E",
+        "PATH-21F68C2B2947"
+      ],
+      "matched_locator_ids": [
+        "LOC-2CA96413BD10",
+        "LOC-76777FFDAA10"
+      ]
     },
     {
       "treatment_id": "TREAT-DCFB3DD8ABF1",
@@ -10471,7 +11420,15 @@
       ],
       "status_rationale": "The benchmark expects on page 299: Mirabeau accepted secret payment to advise the court and proposed royal escape, a bodyguard, and provincial propaganda while retaining a constitutional position. Canonical locator LOC-FC64712079B9 under 'monarchy > constitutional monarchy (1789-92)' is supported on that page: Document page 299 connects the complete path 'monarchy > constitutional monarchy (1789-92)' to a concrete source fact: the page contrasts counter-revolutionary rescue schemes with Mirabeau's proposed constitutional monarchy.",
       "matched_path_id": "PATH-66E399EAF7D8",
-      "matched_locator_id": "LOC-FC64712079B9"
+      "matched_locator_id": "LOC-FC64712079B9",
+      "matched_path_ids": [
+        "PATH-66E399EAF7D8",
+        "PATH-D3B2678AF36A"
+      ],
+      "matched_locator_ids": [
+        "LOC-BED4CFFFBE89",
+        "LOC-FC64712079B9"
+      ]
     },
     {
       "treatment_id": "TREAT-DD50DE702B51",
@@ -10486,7 +11443,13 @@
       ],
       "status_rationale": "The frozen treatment on page 148 is reached by supported locator LOC-9C616B4FEF7F under the specific path unemployment.",
       "matched_path_id": "PATH-6F13F013FC8F",
-      "matched_locator_id": "LOC-9C616B4FEF7F"
+      "matched_locator_id": "LOC-9C616B4FEF7F",
+      "matched_path_ids": [
+        "PATH-6F13F013FC8F"
+      ],
+      "matched_locator_ids": [
+        "LOC-9C616B4FEF7F"
+      ]
     },
     {
       "treatment_id": "TREAT-DE7C1F5924B8",
@@ -10500,7 +11463,15 @@
       ],
       "status_rationale": "The benchmark expects on page 157: Religious schism, royal insincerity, republican growth, and noble withdrawal survived the Constitution’s promulgation. Canonical locator LOC-D96168FCBE30 under 'monarchy > constitutional monarchy (1789-92)' is supported on that page: On source page 157, the destination provides independently useful treatment of the complete path “monarchy > constitutional monarchy (1789-92)” within its discussion of Pillnitz, acceptance of the constitution, and the Constituent Assembly's divided legacy.",
       "matched_path_id": "PATH-66E399EAF7D8",
-      "matched_locator_id": "LOC-D96168FCBE30"
+      "matched_locator_id": "LOC-D96168FCBE30",
+      "matched_path_ids": [
+        "PATH-66E399EAF7D8",
+        "PATH-C8B64E8B526C"
+      ],
+      "matched_locator_ids": [
+        "LOC-03DFC6783F86",
+        "LOC-D96168FCBE30"
+      ]
     },
     {
       "treatment_id": "TREAT-DFA7AB7BE0E9",
@@ -10514,7 +11485,13 @@
       ],
       "status_rationale": "The benchmark expects on page 155: Amendments separated the Civil Constitution from the constitutional oath, rejected extreme anti-refractory measures, altered electoral rules, and restricted the press. Canonical locator LOC-9C0B6320EE55 under 'Feuillants Club' is supported on that page: On source page 155, the destination provides independently useful treatment of the complete path “Feuillants Club” within its discussion of constitutional amendments, electoral qualifications, press restrictions, and emigre penalties.",
       "matched_path_id": "PATH-C8B64E8B526C",
-      "matched_locator_id": "LOC-9C0B6320EE55"
+      "matched_locator_id": "LOC-9C0B6320EE55",
+      "matched_path_ids": [
+        "PATH-C8B64E8B526C"
+      ],
+      "matched_locator_ids": [
+        "LOC-9C0B6320EE55"
+      ]
     },
     {
       "treatment_id": "TREAT-E2C16C1798DD",
@@ -10528,7 +11505,13 @@
       ],
       "status_rationale": "The benchmark expects on page 156: Even officers inclined to remain were pushed out as discipline and trust collapsed. Canonical locator LOC-A23625B5D2FF under 'French Army > officer corps' is supported on that page: On source page 156, the destination provides independently useful treatment of the complete path “French Army > officer corps” within its discussion of officer emigration, army collapse, Feuillant weakness, and the Declaration of Pillnitz.",
       "matched_path_id": "PATH-C2C0C4F2ED65",
-      "matched_locator_id": "LOC-A23625B5D2FF"
+      "matched_locator_id": "LOC-A23625B5D2FF",
+      "matched_path_ids": [
+        "PATH-C2C0C4F2ED65"
+      ],
+      "matched_locator_ids": [
+        "LOC-A23625B5D2FF"
+      ]
     },
     {
       "treatment_id": "TREAT-E2F16245730A",
@@ -10542,7 +11525,15 @@
       ],
       "status_rationale": "The benchmark expects on page 156: Right-wing elites withheld support, most provincial clubs remained Jacobin, and no major Paris paper adopted the Feuillant cause. Canonical locator LOC-5C26001829B1 under 'monarchy > constitutional monarchy (1789-92)' is supported on that page: On source page 156, the destination provides independently useful treatment of the complete path “monarchy > constitutional monarchy (1789-92)” within its discussion of officer emigration, army collapse, Feuillant weakness, and the Declaration of Pillnitz.",
       "matched_path_id": "PATH-66E399EAF7D8",
-      "matched_locator_id": "LOC-5C26001829B1"
+      "matched_locator_id": "LOC-5C26001829B1",
+      "matched_path_ids": [
+        "PATH-66E399EAF7D8",
+        "PATH-C8B64E8B526C"
+      ],
+      "matched_locator_ids": [
+        "LOC-5C26001829B1",
+        "LOC-D550275BD61F"
+      ]
     },
     {
       "treatment_id": "TREAT-E37C78D0044C",
@@ -10556,7 +11547,13 @@
       ],
       "status_rationale": "The benchmark expects on page 151: He increasingly dominated the Jacobins and won election as public prosecutor. Canonical locator LOC-718464272526 under 'Jacobins (Jacobin Club)' is supported on that page: On source page 151, the destination provides independently useful treatment of the complete path “Jacobins (Jacobin Club)” within its discussion of colonial rights and the royal family's attempted flight to Varennes.",
       "matched_path_id": "PATH-259B6C34E666",
-      "matched_locator_id": "LOC-718464272526"
+      "matched_locator_id": "LOC-718464272526",
+      "matched_path_ids": [
+        "PATH-259B6C34E666"
+      ],
+      "matched_locator_ids": [
+        "LOC-718464272526"
+      ]
     },
     {
       "treatment_id": "TREAT-E3CF1DF58DAC",
@@ -10570,7 +11567,13 @@
       ],
       "status_rationale": "The benchmark expects on page 308: Rent changes, clerical conflict, administrative intrusion, taxation, and conscription turned local hostility into avowed Catholic and royal resistance. Canonical locator LOC-3B14EED8C91F under 'Vendée' is supported on that page: Document page 308 connects the complete path 'Vendée' to a concrete source fact: conscription turned western resistance into Vendéan Catholic and royal insurgency.",
       "matched_path_id": "PATH-A254A6CC29F8",
-      "matched_locator_id": "LOC-3B14EED8C91F"
+      "matched_locator_id": "LOC-3B14EED8C91F",
+      "matched_path_ids": [
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-3B14EED8C91F"
+      ]
     },
     {
       "treatment_id": "TREAT-E42E4C14A322",
@@ -10585,7 +11588,13 @@
       ],
       "status_rationale": "The benchmark expects on page 145: Nearly the entire episcopate refused, while Talleyrand enabled consecration and the new Church opened advancement to sworn clergy and former regulars. Canonical locator LOC-41CF8034AFAA under 'refractory clergy' is supported on that page: On source page 145, the destination provides independently useful treatment of the complete path “refractory clergy” within its discussion of the geography and social causes of oath-taking and refusal.",
       "matched_path_id": "PATH-76459284546E",
-      "matched_locator_id": "LOC-41CF8034AFAA"
+      "matched_locator_id": "LOC-41CF8034AFAA",
+      "matched_path_ids": [
+        "PATH-76459284546E"
+      ],
+      "matched_locator_ids": [
+        "LOC-41CF8034AFAA"
+      ]
     },
     {
       "treatment_id": "TREAT-E58B10C9B8BE",
@@ -10599,7 +11608,13 @@
       ],
       "status_rationale": "The frozen treatment on page 154 is reached by supported locator LOC-C18A6EE93A95 under the specific path Triumvirate (Barnave, Duport, Lameth).",
       "matched_path_id": "PATH-DDEF46FFF996",
-      "matched_locator_id": "LOC-C18A6EE93A95"
+      "matched_locator_id": "LOC-C18A6EE93A95",
+      "matched_path_ids": [
+        "PATH-DDEF46FFF996"
+      ],
+      "matched_locator_ids": [
+        "LOC-C18A6EE93A95"
+      ]
     },
     {
       "treatment_id": "TREAT-E6386D40CA06",
@@ -10613,7 +11628,13 @@
       ],
       "status_rationale": "The benchmark expects on page 154: He led the force that fired at Champ de Mars and joined the Feuillant secession. Canonical locator LOC-31B3FE396A55 under 'Champ de Mars, Massacre of the' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Champ de Mars, Massacre of the” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-B19AA8CDFB80",
-      "matched_locator_id": "LOC-31B3FE396A55"
+      "matched_locator_id": "LOC-31B3FE396A55",
+      "matched_path_ids": [
+        "PATH-B19AA8CDFB80"
+      ],
+      "matched_locator_ids": [
+        "LOC-31B3FE396A55"
+      ]
     },
     {
       "treatment_id": "TREAT-E7562C11AEC4",
@@ -10627,7 +11648,13 @@
       ],
       "status_rationale": "The benchmark expects on page 317: Western rebels preferred nearby religious and political enemies and were unlikely to undertake a sustained march to Paris. Canonical locator LOC-FA0E7FD47E02 under 'Counter-Revolution > failure and analysis' is supported on that page: Document page 317 connects the complete path 'Counter-Revolution > failure and analysis' to a concrete source fact: western counter-revolution lacked national reach and could not overcome experienced republican armies even with foreign assistance.",
       "matched_path_id": "PATH-028A6F1F0A16",
-      "matched_locator_id": "LOC-FA0E7FD47E02"
+      "matched_locator_id": "LOC-FA0E7FD47E02",
+      "matched_path_ids": [
+        "PATH-028A6F1F0A16"
+      ],
+      "matched_locator_ids": [
+        "LOC-FA0E7FD47E02"
+      ]
     },
     {
       "treatment_id": "TREAT-E9ABB50735A5",
@@ -10641,7 +11668,13 @@
       ],
       "status_rationale": "The benchmark expects on page 148: The simultaneous Vincennes crowd and armed convergence on the Tuileries made Lafayette rush back and disarm royalist nobles. Canonical locator LOC-192F28498A4C under 'Day of Daggers' is supported on that page: On source page 148, the destination provides independently useful treatment of the complete path “Day of Daggers” within its discussion of popular demonstrations, Lafayette's policing, the Day of Daggers, and the king's blocked journey.",
       "matched_path_id": "PATH-2609F1572528",
-      "matched_locator_id": "LOC-192F28498A4C"
+      "matched_locator_id": "LOC-192F28498A4C",
+      "matched_path_ids": [
+        "PATH-2609F1572528"
+      ],
+      "matched_locator_ids": [
+        "LOC-192F28498A4C"
+      ]
     },
     {
       "treatment_id": "TREAT-EA43B5CCCB02",
@@ -10655,7 +11688,13 @@
       ],
       "status_rationale": "The benchmark expects on page 144: The Assembly’s clergy split sharply, popular pressure intensified, and about half the national clergy ultimately could not subscribe. Canonical locator LOC-EFDAA9CD4E82 under 'clerical oath' is supported on that page: On source page 144, the destination provides independently useful treatment of the complete path “clerical oath” within its discussion of the clerical oath, oath refusal, and the emergence of refractory clergy.",
       "matched_path_id": "PATH-3BB68AD148B6",
-      "matched_locator_id": "LOC-EFDAA9CD4E82"
+      "matched_locator_id": "LOC-EFDAA9CD4E82",
+      "matched_path_ids": [
+        "PATH-3BB68AD148B6"
+      ],
+      "matched_locator_ids": [
+        "LOC-EFDAA9CD4E82"
+      ]
     },
     {
       "treatment_id": "TREAT-EB64B1F59AAF",
@@ -10669,7 +11708,15 @@
       ],
       "status_rationale": "The benchmark expects on page 313: Local chouans joined the Quiberon landing in large numbers but suffered from weak discipline and unclear command. Canonical locator LOC-AB1F1F4C0EA3 under 'Counter-Revolution > in Western France (Vendée and Brittany)' is supported on that page: Document page 313 connects the complete path 'Counter-Revolution > in Western France (Vendée and Brittany)' to a concrete source fact: Artois sailed for the Vendée and landed on the Île d'Yeu, but Hoche blocked a junction with Charette.",
       "matched_path_id": "PATH-5958E43F6835",
-      "matched_locator_id": "LOC-AB1F1F4C0EA3"
+      "matched_locator_id": "LOC-AB1F1F4C0EA3",
+      "matched_path_ids": [
+        "PATH-5958E43F6835",
+        "PATH-A254A6CC29F8"
+      ],
+      "matched_locator_ids": [
+        "LOC-34A265A9113F",
+        "LOC-AB1F1F4C0EA3"
+      ]
     },
     {
       "treatment_id": "TREAT-EBF1D77D5DA7",
@@ -10683,7 +11730,13 @@
       ],
       "status_rationale": "The benchmark expects on page 147: Royal flight plans and improving royalist prospects are both connected to the same religious schism. Canonical locator LOC-4EACA0669242 under 'religious schism' is supported on that page: On source page 147, the destination provides independently useful treatment of the complete path “religious schism” within its discussion of emigre organization, army mutiny, and the monarchy's response to religious schism.",
       "matched_path_id": "PATH-4482DDF7AFBD",
-      "matched_locator_id": "LOC-4EACA0669242"
+      "matched_locator_id": "LOC-4EACA0669242",
+      "matched_path_ids": [
+        "PATH-4482DDF7AFBD"
+      ],
+      "matched_locator_ids": [
+        "LOC-4EACA0669242"
+      ]
     },
     {
       "treatment_id": "TREAT-ED0B4ED2D560",
@@ -10698,7 +11751,13 @@
       ],
       "status_rationale": "The benchmark expects on page 140: The king was directed to end the Concordat, and no successor agreement with Rome was planned. Canonical locator LOC-DEF78EB698D8 under 'Concordat of 1516' is supported on that page: On source page 140, the destination provides independently useful treatment of the complete path “Concordat of 1516” within its discussion of the debate, organization, and provisions of the Civil Constitution of the Clergy.",
       "matched_path_id": "PATH-61A3A7D82E01",
-      "matched_locator_id": "LOC-DEF78EB698D8"
+      "matched_locator_id": "LOC-DEF78EB698D8",
+      "matched_path_ids": [
+        "PATH-61A3A7D82E01"
+      ],
+      "matched_locator_ids": [
+        "LOC-DEF78EB698D8"
+      ]
     },
     {
       "treatment_id": "TREAT-EDB6361433BC",
@@ -10712,7 +11771,13 @@
       ],
       "status_rationale": "The benchmark expects on page 147: Guard egalitarianism influenced regular ranks and aggravated conflict with aristocratic officers. Canonical locator LOC-7CCDC96537AF under 'National Guard > provincial role and disturbances' is supported on that page: On source page 147, the destination provides independently useful treatment of the complete path “National Guard > provincial role and disturbances” within its discussion of emigre organization, army mutiny, and the monarchy's response to religious schism.",
       "matched_path_id": "PATH-BCB03A99B067",
-      "matched_locator_id": "LOC-7CCDC96537AF"
+      "matched_locator_id": "LOC-7CCDC96537AF",
+      "matched_path_ids": [
+        "PATH-BCB03A99B067"
+      ],
+      "matched_locator_ids": [
+        "LOC-7CCDC96537AF"
+      ]
     },
     {
       "treatment_id": "TREAT-EEFC6C4909D5",
@@ -10727,7 +11792,13 @@
       ],
       "status_rationale": "The frozen treatment on page 146 is reached by supported locator LOC-910E371521FA under the specific path Artois, Charles-Philippe, Comte d' > in exile.",
       "matched_path_id": "PATH-A094B7A3A1EF",
-      "matched_locator_id": "LOC-910E371521FA"
+      "matched_locator_id": "LOC-910E371521FA",
+      "matched_path_ids": [
+        "PATH-A094B7A3A1EF"
+      ],
+      "matched_locator_ids": [
+        "LOC-910E371521FA"
+      ]
     },
     {
       "treatment_id": "TREAT-EF23A5B6D8FF",
@@ -10742,7 +11813,15 @@
       ],
       "status_rationale": "The frozen treatment on page 157 is reached by supported locator LOC-8471EDA309F1 under the specific path Constitution of 1791 > acceptance and promulgation.",
       "matched_path_id": "PATH-E7BB54A6EA3E",
-      "matched_locator_id": "LOC-8471EDA309F1"
+      "matched_locator_id": "LOC-8471EDA309F1",
+      "matched_path_ids": [
+        "PATH-E7BB54A6EA3E",
+        "PATH-EDE9FE43A1B3"
+      ],
+      "matched_locator_ids": [
+        "LOC-499A5A842171",
+        "LOC-8471EDA309F1"
+      ]
     },
     {
       "treatment_id": "TREAT-F1B71FC53E48",
@@ -10756,7 +11835,13 @@
       ],
       "status_rationale": "The benchmark expects on page 153: The Paris Jacobins’ inability to resolve the monarchy question opened the club to external radical pressure. Canonical locator LOC-69CD4FE2C038 under 'Varennes, Flight to' is supported on that page: On source page 153, the destination provides independently useful treatment of the complete path “Varennes, Flight to” within its discussion of national alarm after Varennes and division within the Jacobin movement.",
       "matched_path_id": "PATH-EB02DA5B5EDC",
-      "matched_locator_id": "LOC-69CD4FE2C038"
+      "matched_locator_id": "LOC-69CD4FE2C038",
+      "matched_path_ids": [
+        "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-69CD4FE2C038"
+      ]
     },
     {
       "treatment_id": "TREAT-F1F63CCA6EB1",
@@ -10772,7 +11857,13 @@
       ],
       "status_rationale": "The frozen treatment on page 149 is reached by supported locator LOC-0C073F18A719 under the specific path Barnave, Antoine-Pierre > relationship with monarchy/Feuillants.",
       "matched_path_id": "PATH-8CC7A795615B",
-      "matched_locator_id": "LOC-0C073F18A719"
+      "matched_locator_id": "LOC-0C073F18A719",
+      "matched_path_ids": [
+        "PATH-8CC7A795615B"
+      ],
+      "matched_locator_ids": [
+        "LOC-0C073F18A719"
+      ]
     },
     {
       "treatment_id": "TREAT-F36FE4FC4B39",
@@ -10786,7 +11877,13 @@
       ],
       "status_rationale": "The benchmark expects on page 143: Catholic leaders from Nîmes took over a Guard federation, denounced Protestant control, preserved an organizing committee, and contacted Artois’s agents. Canonical locator LOC-2A032E61B365 under 'Jalès, camps of' is supported on that page: On source page 143, the destination provides independently useful treatment of the complete path “Jalès, camps of” within its discussion of counter-revolution in the Midi and resistance to implementation of the Civil Constitution.",
       "matched_path_id": "PATH-D578AAEE4FB0",
-      "matched_locator_id": "LOC-2A032E61B365"
+      "matched_locator_id": "LOC-2A032E61B365",
+      "matched_path_ids": [
+        "PATH-D578AAEE4FB0"
+      ],
+      "matched_locator_ids": [
+        "LOC-2A032E61B365"
+      ]
     },
     {
       "treatment_id": "TREAT-F43DA7CCECCB",
@@ -10800,7 +11897,13 @@
       ],
       "status_rationale": "The benchmark expects on page 152: Like the clerical oath, Varennes is judged a turning point because it compelled political choices most actors had avoided. Canonical locator LOC-2DD9D48FAB93 under 'Varennes, Flight to' is supported on that page: On source page 152, the destination provides independently useful treatment of the complete path “Varennes, Flight to” within its discussion of the constitutional and republican consequences of the flight to Varennes.",
       "matched_path_id": "PATH-EB02DA5B5EDC",
-      "matched_locator_id": "LOC-2DD9D48FAB93"
+      "matched_locator_id": "LOC-2DD9D48FAB93",
+      "matched_path_ids": [
+        "PATH-EB02DA5B5EDC"
+      ],
+      "matched_locator_ids": [
+        "LOC-2DD9D48FAB93"
+      ]
     },
     {
       "treatment_id": "TREAT-F4D82B06B81E",
@@ -10815,7 +11918,15 @@
       ],
       "status_rationale": "The frozen treatment on page 137 is reached by supported locator LOC-1E77D0E63D59 under the specific path religious freedom.",
       "matched_path_id": "PATH-B978269CC447",
-      "matched_locator_id": "LOC-1E77D0E63D59"
+      "matched_locator_id": "LOC-1E77D0E63D59",
+      "matched_path_ids": [
+        "PATH-ABCAF845147D",
+        "PATH-B978269CC447"
+      ],
+      "matched_locator_ids": [
+        "LOC-1E77D0E63D59",
+        "LOC-5AE28565978A"
+      ]
     },
     {
       "treatment_id": "TREAT-F653C5E85403",
@@ -10829,7 +11940,13 @@
       ],
       "status_rationale": "The benchmark expects on page 155: The formal deputy property test was abolished, but the qualification for secondary electors was raised above it. Canonical locator LOC-8AA0C104DE55 under 'silver mark (marc d'argent)' is supported on that page: On source page 155, the destination provides independently useful treatment of the complete path “silver mark (marc d'argent)” within its discussion of constitutional amendments, electoral qualifications, press restrictions, and emigre penalties.",
       "matched_path_id": "PATH-EF8B09628600",
-      "matched_locator_id": "LOC-8AA0C104DE55"
+      "matched_locator_id": "LOC-8AA0C104DE55",
+      "matched_path_ids": [
+        "PATH-EF8B09628600"
+      ],
+      "matched_locator_ids": [
+        "LOC-8AA0C104DE55"
+      ]
     },
     {
       "treatment_id": "TREAT-F6CE455BEEF1",
@@ -10843,7 +11960,15 @@
       ],
       "status_rationale": "The benchmark expects on page 147: Discovery of the Lyons papers and failure at Jalès exposed poor security and coordination. Canonical locator LOC-AB173848565A under 'Koblenz' is supported on that page: On source page 147, the destination provides independently useful treatment of the complete path “Koblenz” within its discussion of emigre organization, army mutiny, and the monarchy's response to religious schism.",
       "matched_path_id": "PATH-507E5EC8AA09",
-      "matched_locator_id": "LOC-AB173848565A"
+      "matched_locator_id": "LOC-AB173848565A",
+      "matched_path_ids": [
+        "PATH-507E5EC8AA09",
+        "PATH-C48233FB6F4C"
+      ],
+      "matched_locator_ids": [
+        "LOC-18E130844777",
+        "LOC-AB173848565A"
+      ]
     },
     {
       "treatment_id": "TREAT-F80245F3FE71",
@@ -10857,7 +11982,15 @@
       ],
       "status_rationale": "The benchmark expects on page 147: Diplomatic embarrassment forced the émigré court from Turin; it re-established itself at Koblenz. Canonical locator LOC-AB173848565A under 'Koblenz' is supported on that page: On source page 147, the destination provides independently useful treatment of the complete path “Koblenz” within its discussion of emigre organization, army mutiny, and the monarchy's response to religious schism.",
       "matched_path_id": "PATH-507E5EC8AA09",
-      "matched_locator_id": "LOC-AB173848565A"
+      "matched_locator_id": "LOC-AB173848565A",
+      "matched_path_ids": [
+        "PATH-507E5EC8AA09",
+        "PATH-C48233FB6F4C"
+      ],
+      "matched_locator_ids": [
+        "LOC-18E130844777",
+        "LOC-AB173848565A"
+      ]
     },
     {
       "treatment_id": "TREAT-F8DACD7B2A27",
@@ -10872,7 +12005,13 @@
       ],
       "status_rationale": "The benchmark expects on page 150: Contemporaries saw principled republican tendencies and predicted his rise, although he denied republicanism and the author treats the classification as uncertain. Canonical locator LOC-9681F31C7C70 under 'Jacobins (Jacobin Club)' is supported on that page: On source page 150, the destination provides independently useful treatment of the complete path “Jacobins (Jacobin Club)” within its discussion of the triumvirate, Robespierre's rise, republicanism, and legislative self-denial.",
       "matched_path_id": "PATH-259B6C34E666",
-      "matched_locator_id": "LOC-9681F31C7C70"
+      "matched_locator_id": "LOC-9681F31C7C70",
+      "matched_path_ids": [
+        "PATH-259B6C34E666"
+      ],
+      "matched_locator_ids": [
+        "LOC-9681F31C7C70"
+      ]
     },
     {
       "treatment_id": "TREAT-F94FCA70EE2B",
@@ -10898,7 +12037,15 @@
       ],
       "status_rationale": "The benchmark expects on page 154: Robespierre persuaded the rump to withdraw from the petition, but the Cordeliers proceeded and the institutional rupture remained. Canonical locator LOC-A7AD671B8C90 under 'Society of the Friends of the Constitution' is supported on that page: On source page 154, the destination provides independently useful treatment of the complete path “Society of the Friends of the Constitution” within its discussion of the Jacobin split, the Champ de Mars massacre, and repression of republican activists.",
       "matched_path_id": "PATH-9510F8C0F5DC",
-      "matched_locator_id": "LOC-A7AD671B8C90"
+      "matched_locator_id": "LOC-A7AD671B8C90",
+      "matched_path_ids": [
+        "PATH-9510F8C0F5DC",
+        "PATH-C8B64E8B526C"
+      ],
+      "matched_locator_ids": [
+        "LOC-A7AD671B8C90",
+        "LOC-C6394E9EDDC9"
+      ]
     },
     {
       "treatment_id": "TREAT-FFB83C67790F",
@@ -10933,9 +12080,9 @@
     "reader_tasks_judged": 16,
     "reader_tasks_unique": true,
     "concept_coverage_counts": {
-      "complete": 41,
-      "partial": 24,
-      "missing": 8,
+      "complete": 43,
+      "partial": 29,
+      "missing": 1,
       "uninspectable": 0
     },
     "locator_recall": {
