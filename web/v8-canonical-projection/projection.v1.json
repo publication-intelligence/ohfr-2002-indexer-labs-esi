@@ -1,0 +1,490 @@
+{
+  "collections": [
+    {
+      "artifact_path": "data/index-records.v1.json",
+      "collection_id": "index_records",
+      "content_sha256": "0418092e76a6ca7bb4e1b9350d68ff401f6883d205dfb319e664e4bb46462298",
+      "count": 1644,
+      "file_sha256": "eb8afc15d001b36809c97169c0d53d93a31b93f4ed6bc05005fdf2f43810ee02"
+    },
+    {
+      "artifact_path": "data/source-subjects.v1.json",
+      "collection_id": "source_subjects",
+      "content_sha256": "ce6abc0a68bcc1ef6836966cddf2112c955f85532157523e1854928fd6f65473",
+      "count": 1366,
+      "file_sha256": "9b9f38f5aa4363af5fca22c4eb9ae2f638283b2b55d51e0634e088d83586b8a3"
+    },
+    {
+      "artifact_path": "data/density.v1.json",
+      "collection_id": "density",
+      "content_sha256": "d9c3fc1dd6e50a2327cfc5112d6e89b708ffd07dd7df50f1f993c1e0c2f615a6",
+      "count": 17,
+      "file_sha256": "84b42124b3841b4eb479086630560dd390c555e520b371125d18cbc50c643ecb"
+    }
+  ],
+  "correction_outcomes": {
+    "affected_headings": 0,
+    "applicable": false,
+    "character_replacements": 0,
+    "overlay_included": false,
+    "reason": "No separate correction ledger or character-fidelity audit establishes an IndexerLabs representation-only correction."
+  },
+  "density_denominator": {
+    "indexable_source_words": 194718,
+    "unit": "words"
+  },
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "item_summaries": {
+    "observed": {
+      "cross_references": {
+        "bands": {
+          "excellent": 8,
+          "mixed": 0,
+          "not_measured": 0,
+          "poor": 3,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 11,
+        "not_measured": 0,
+        "total": 11
+      },
+      "heading_nodes": {
+        "bands": {
+          "excellent": 1436,
+          "mixed": 27,
+          "not_measured": 0,
+          "poor": 1,
+          "strong": 176,
+          "weak": 4
+        },
+        "graded": 1644,
+        "not_measured": 0,
+        "total": 1644
+      },
+      "locator_utility_tiers": {
+        "diagnostic_credit": {
+          "0": 141,
+          "0.15": 17,
+          "0.25": 47,
+          "0.35": 32,
+          "0.7": 3071,
+          "1": 2913
+        },
+        "fit": {
+          "exact_fit": 5950,
+          "material_mismatch": 42,
+          "material_partial_fit": 71,
+          "no_fit": 141,
+          "severe_mismatch": 17
+        },
+        "rating_credit": {
+          "0": 307,
+          "1": 5914
+        },
+        "treatment": {
+          "absent": 137,
+          "mixed": 3097,
+          "substantive": 2931,
+          "weak_presence": 56
+        }
+      },
+      "locators": {
+        "bands": {
+          "excellent": 2913,
+          "mixed": 3071,
+          "not_measured": 0,
+          "poor": 237,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 6221,
+        "not_measured": 0,
+        "total": 6221
+      },
+      "paths": {
+        "bands": {
+          "excellent": 0,
+          "mixed": 0,
+          "not_measured": 1644,
+          "poor": 0,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 0,
+        "not_measured": 1644,
+        "total": 1644
+      },
+      "source_subjects": {
+        "bands": {
+          "excellent": 927,
+          "mixed": 0,
+          "not_measured": 0,
+          "poor": 439,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 1366,
+        "not_measured": 0,
+        "total": 1366
+      }
+    }
+  },
+  "limitations": [
+    "Aggregate scores are taken from the authoritative V8 calculation and are not reconstructed from item grades.",
+    "Detailed canonical inputs are hash-bound build inputs; source excerpts and private layout evidence are excluded."
+  ],
+  "projection_id": "OHFR-V8-WEB-B49CCE93D850",
+  "projection_role": "deterministic_public_safe_display_projection",
+  "projection_sha256": "0a3126f757995b57aaeadaaaef9e33b1c1f1d3ad209fc63ae0086406708ea53d",
+  "provenance": {
+    "benchmark_sha256": "28e3c631cd717266153201f0c0c9450b1b79b91a76a587b0f0eaf2cfa79400b4",
+    "calculation_sha256": "5638c23ab92e0f30864e6d0b5dfceea2552801d124a7b2237154006b65d6e6a4",
+    "correction_overlay": {
+      "applicable": false,
+      "artifact_path": null,
+      "sha256": null
+    },
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v5",
+    "judgment_policy_sha256": "fc1aec7bf1c4a29f146a31d941e11df305944e88dcd214ee7f352acdedc43499",
+    "missing_access_audit_set_sha256": "72be65157008ff509d4b67ec19f88c9ba744bdce7195ce078b61537b35b4c7a4",
+    "projection_metadata_sha256": "02f3fe66f87eb33959f94faf5f0e7d6dacbde881426f618332a3d9787a5cabac",
+    "rubric_version": "subject-index-rubric-v8",
+    "source_artifacts": [
+      {
+        "artifact_path": "source/source-benchmark.v4.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "ef9d368722765258a1c1e30a895a00815edfe1a0681450d7c8e219ed140d5a35"
+      },
+      {
+        "artifact_path": "scoring/dimension-calculations.v6.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/candidate-index.v2.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "4eeea17c59c5ae9be6e159838c612a4d2d752b6d1c399a82d21ab02632fe91ec"
+      },
+      {
+        "artifact_path": "source/chunk-manifest.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/item-inventory.v2.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "e4efc2a79c30f7e36c4f1be68d5f87a32fa92b46f10d8534b1566ac0e92d6b78"
+      },
+      {
+        "artifact_path": "scoring/item-assessments.v7.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "f37103196cb83b935279b8d94feca04c1454ff9b36fd036bf2b6c2476eaef0b5"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "7ca1ba69d1cdbd64c9c198d7b4bea25bd25b0431bc745b9504892c3eed61b58f"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "30bd6af74a8a78ba822bff9cc769de366d927cfdafe9ca7655dc3f98b46cb7cf"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "7ee885e95d3cbbef5624c66b8aec7ea872d8f0be718dfcace36923be0b51b457"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "2c4c7fadf88344bdce2989c3b21a407e42c628b795ecab851d534d8b20dae9aa"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "fe7056ae493ba2eedacb53b948e35d1b689538089e7183bfa5ea97adefbf4e85"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "2d8e1057c19283fcf07a362be81cea8a86892e3d8a072b3227c67fcaee8291ef"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "2939cf9cecfcf3473595bfca2eb0c6c939eb868bc8703ce5d4a0518d4171de06"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "672bf3bd3c21680ac933d72dc079bdbe9da16fbc55afe87158dacb2d90674137"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "636b48766e606e2783a1655482fd6177a306583dfce7f59806e04387c175a3d6"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "7716e1c7e3ec1f6e9bfc1c347d23a2a0bdf92a32ce1d02d8592cb4ea3c639ab3"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "66b71f5cf0ccb99a76ab229d74a0ddb61a17a4c283af4f0a61e0112360f409cb"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "35820538016fef678417d70530c42d1353d605c342a1f08ef353d328c89d1370"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "78ddd28b0d28efff8d1641c2a320a5b6ba81441d975c5b08a297b0f42f7f799d"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "722c53a1de352bc321c722db3be693b42a29da35ab01b29857d221cf7944c0dc"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "cb81ae37ee11d2479fd32642162628a08b9edbf8977f0ab885be4c4a62277cf9"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "f94f891c27ae1cae7d52a37e7fadfb78b20874e0649bebc9a6e67c1a8a1cc7d2"
+      },
+      {
+        "artifact_path": "candidates/<candidate-id>/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "eb444ed9e95c975a300039ca925cb486bbd908f440e9688050b9f082f99ab4fa"
+      },
+      {
+        "artifact_path": "scoring/projection-metadata.v2.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "8f4dc516b3e01f24b91c9688f0d2106687bf90354d829f77f1df6197576f84ee"
+      },
+      {
+        "artifact_path": "evaluation/scoring/evaluation-result.v12.json",
+        "availability": "public_committed",
+        "sha256": "61a86fd6bb7ab3276a1c4aefbadb30281482b71c8bfecf07e06e6a1f3bb43b46"
+      },
+      {
+        "artifact_path": "structure/structure-audit.v6.json",
+        "availability": "canonical_local_build_input",
+        "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e"
+      },
+      {
+        "artifact_path": "evaluation/scoring/web-report.v10.json",
+        "availability": "public_committed",
+        "sha256": "3af636dcd2c403d0fb70a32e30de6420362c1f5bec956f39b1935862b7c9e638"
+      }
+    ],
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+  },
+  "public_safety": {
+    "absolute_paths_included": false,
+    "private_layout_evidence_included": false,
+    "restricted_files_included": false,
+    "source_excerpts_included": false,
+    "source_subject_summaries_are_synthesized_not_quoted": true
+  },
+  "schema_version": "ohfr-v8-canonical-web-projection-v1",
+  "score_views": {
+    "canonical_source_adjustment_status": "none",
+    "projection_adjustment_status": "not_applicable",
+    "total_delta": 0,
+    "views": [
+      {
+        "critical_gates": [
+          {
+            "defect_ids": [],
+            "description": "fabricated, nonexistent, or out-of-scope locator",
+            "gate_id": "GATE-SCOPE-LOCATOR",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "systematic incidental or unsupported locator pattern",
+            "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "central subject or conclusion materially omitted",
+            "gate_id": "GATE-CENTRAL-OMISSION",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "heading reverses or seriously misrepresents source stance",
+            "gate_id": "GATE-STANCE",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "compound heading locators support only separate components",
+            "gate_id": "GATE-COMPOUND",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [
+              "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001"
+            ],
+            "description": "see source replaces a warranted substantive entry",
+            "gate_id": "GATE-SEE-SUBSTITUTION",
+            "standard": true,
+            "triggered": true
+          },
+          {
+            "defect_ids": [
+              "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001",
+              "DEFECT-STRUCT-XREF-SUPPLEMENTARY-001"
+            ],
+            "description": "unresolved, self-referential, circular, or chained cross-reference",
+            "gate_id": "GATE-CROSS-REFERENCE",
+            "standard": true,
+            "triggered": true
+          },
+          {
+            "defect_ids": [],
+            "description": "third-level heading",
+            "gate_id": "GATE-DEPTH",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [
+              "DEFECT-STRUCT-SUBDIVISION-001"
+            ],
+            "description": "systematic named-entity, example, or citation clutter",
+            "gate_id": "GATE-CLUTTER",
+            "standard": true,
+            "triggered": true
+          },
+          {
+            "defect_ids": [],
+            "description": "critical or major unresolved grounding",
+            "gate_id": "GATE-GROUNDING",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+            "gate_id": "GATE-UNINSPECTABLE",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "wrong source span",
+            "gate_id": "GATE-SOURCE-SPAN",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "structurally invalid or incomplete output",
+            "gate_id": "GATE-STRUCTURE",
+            "standard": true,
+            "triggered": false
+          }
+        ],
+        "label": "Canonical as delivered",
+        "maximum": 100,
+        "provenance_artifacts": [
+          {
+            "artifact_path": "evaluation/scoring/evaluation-result.v12.json",
+            "availability": "public_committed",
+            "sha256": "61a86fd6bb7ab3276a1c4aefbadb30281482b71c8bfecf07e06e6a1f3bb43b46"
+          },
+          {
+            "artifact_path": "evaluation/scoring/web-report.v10.json",
+            "availability": "public_committed",
+            "sha256": "3af636dcd2c403d0fb70a32e30de6420362c1f5bec956f39b1935862b7c9e638"
+          },
+          {
+            "artifact_path": "scoring/dimension-calculations.v6.json",
+            "availability": "canonical_local_build_input",
+            "sha256": "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c"
+          }
+        ],
+        "readiness": {
+          "status": "not_publication_ready",
+          "triggered_gate_ids": [
+            "GATE-SEE-SUBSTITUTION",
+            "GATE-CROSS-REFERENCE",
+            "GATE-CLUTTER"
+          ]
+        },
+        "role": "authoritative_primary_observation",
+        "score": 77.4,
+        "scorecard": [
+          {
+            "awarded_points": 16.008568368439843,
+            "dimension_id": "meaningful_coverage",
+            "formula_id": "subject-index-dimension-calculation-v5:meaningful_coverage",
+            "maximum_points": 20,
+            "rating": 4.002142092109961
+          },
+          {
+            "awarded_points": 9.747087493929673,
+            "dimension_id": "editorial_selectivity",
+            "formula_id": "subject-index-dimension-calculation-v5:editorial_selectivity",
+            "maximum_points": 15,
+            "rating": 3.249029164643224
+          },
+          {
+            "awarded_points": 14.644616788321168,
+            "dimension_id": "conceptual_stance_fidelity",
+            "formula_id": "subject-index-dimension-calculation-v5:conceptual_stance_fidelity",
+            "maximum_points": 15,
+            "rating": 4.8815389294403895
+          },
+          {
+            "awarded_points": 20.0,
+            "dimension_id": "page_reference_reliability",
+            "formula_id": "subject-index-dimension-calculation-v5:page_reference_reliability",
+            "maximum_points": 25,
+            "rating": 4.0
+          },
+          {
+            "awarded_points": 12.0,
+            "dimension_id": "findability_navigation",
+            "formula_id": "subject-index-dimension-calculation-v5:findability_navigation",
+            "maximum_points": 20,
+            "rating": 3.0
+          },
+          {
+            "awarded_points": 4.999543795620438,
+            "dimension_id": "mechanics_consistency",
+            "formula_id": "subject-index-dimension-calculation-v5:mechanics_consistency",
+            "maximum_points": 5,
+            "rating": 4.999543795620438
+          }
+        ],
+        "view_id": "canonical_as_delivered",
+        "view_kind": "observed"
+      }
+    ]
+  },
+  "view_selection": {
+    "authoritative_view_id": "canonical_as_delivered",
+    "default_display_view_id": "canonical_as_delivered",
+    "display_view_rationale": "No independently attested IndexerLabs representation correction applies.",
+    "primary_view_id": "canonical_as_delivered"
+  }
+}

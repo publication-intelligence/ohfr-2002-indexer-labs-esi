@@ -1,0 +1,515 @@
+{
+  "collection_kind": "density",
+  "collection_sha256": "d9c3fc1dd6e50a2327cfc5112d6e89b708ffd07dd7df50f1f993c1e0c2f615a6",
+  "count": 17,
+  "fit_rating": null,
+  "items": [
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "within_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-001",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 19778,
+      "locator_bearing_heading_paths": 291,
+      "locator_occurrences": 521,
+      "occurrence_rate_per_1000_words": 26.342,
+      "owned_document_page_ranges": [
+        [
+          1,
+          43
+        ]
+      ],
+      "path_rate_per_1000_words": 14.713,
+      "source_order": 0,
+      "source_units": [
+        "Chapter 1"
+      ],
+      "title": "1. France under Louis XVI",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-001.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "within_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-002",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10088,
+      "locator_bearing_heading_paths": 165,
+      "locator_occurrences": 272,
+      "occurrence_rate_per_1000_words": 26.963,
+      "owned_document_page_ranges": [
+        [
+          44,
+          65
+        ]
+      ],
+      "path_rate_per_1000_words": 16.356,
+      "source_order": 1,
+      "source_units": [
+        "Chapter 2"
+      ],
+      "title": "2. Enlightened Opinion",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-002.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-003",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 9090,
+      "locator_bearing_heading_paths": 144,
+      "locator_occurrences": 282,
+      "occurrence_rate_per_1000_words": 31.023,
+      "owned_document_page_ranges": [
+        [
+          66,
+          85
+        ]
+      ],
+      "path_rate_per_1000_words": 15.842,
+      "source_order": 2,
+      "source_units": [
+        "Chapter 3"
+      ],
+      "title": "3. Crisis and Collapse, 1776-1788",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-003.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-004",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 11987,
+      "locator_bearing_heading_paths": 178,
+      "locator_occurrences": 363,
+      "occurrence_rate_per_1000_words": 30.283,
+      "owned_document_page_ranges": [
+        [
+          86,
+          111
+        ]
+      ],
+      "path_rate_per_1000_words": 14.849,
+      "source_order": 3,
+      "source_units": [
+        "Chapter 4"
+      ],
+      "title": "4. The Estates-General, September 1788-July 1789",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-004.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-005",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10384,
+      "locator_bearing_heading_paths": 219,
+      "locator_occurrences": 349,
+      "occurrence_rate_per_1000_words": 33.609,
+      "owned_document_page_ranges": [
+        [
+          112,
+          135
+        ]
+      ],
+      "path_rate_per_1000_words": 21.09,
+      "source_order": 4,
+      "source_units": [
+        "Chapter 5"
+      ],
+      "title": "5. The Principles of 1789 and the Reform of France",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-005.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-006",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10356,
+      "locator_bearing_heading_paths": 231,
+      "locator_occurrences": 381,
+      "occurrence_rate_per_1000_words": 36.79,
+      "owned_document_page_ranges": [
+        [
+          136,
+          158
+        ]
+      ],
+      "path_rate_per_1000_words": 22.306,
+      "source_order": 5,
+      "source_units": [
+        "Chapter 6"
+      ],
+      "title": "6. The Breakdown of the Revolutionary Consensus, 1790-1791",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-006.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-007",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 6561,
+      "locator_bearing_heading_paths": 133,
+      "locator_occurrences": 203,
+      "occurrence_rate_per_1000_words": 30.94,
+      "owned_document_page_ranges": [
+        [
+          159,
+          173
+        ]
+      ],
+      "path_rate_per_1000_words": 20.271,
+      "source_order": 6,
+      "source_units": [
+        "Chapter 7"
+      ],
+      "title": "7. Europe and the Revolution, 1788-1791",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-007.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-008",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10909,
+      "locator_bearing_heading_paths": 215,
+      "locator_occurrences": 361,
+      "occurrence_rate_per_1000_words": 33.092,
+      "owned_document_page_ranges": [
+        [
+          174,
+          196
+        ]
+      ],
+      "path_rate_per_1000_words": 19.708,
+      "source_order": 7,
+      "source_units": [
+        "Chapter 8"
+      ],
+      "title": "8. The Republican Revolution, October 1791-January 1793",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-008.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-009",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10537,
+      "locator_bearing_heading_paths": 213,
+      "locator_occurrences": 375,
+      "occurrence_rate_per_1000_words": 35.589,
+      "owned_document_page_ranges": [
+        [
+          197,
+          219
+        ]
+      ],
+      "path_rate_per_1000_words": 20.214,
+      "source_order": 8,
+      "source_units": [
+        "Chapter 9"
+      ],
+      "title": "9. War against Europe, 1792-1797",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-009.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-010",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 12192,
+      "locator_bearing_heading_paths": 220,
+      "locator_occurrences": 433,
+      "occurrence_rate_per_1000_words": 35.515,
+      "owned_document_page_ranges": [
+        [
+          220,
+          246
+        ]
+      ],
+      "path_rate_per_1000_words": 18.045,
+      "source_order": 9,
+      "source_units": [
+        "Chapter 10"
+      ],
+      "title": "10. The Revolt of the Provinces",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-010.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-011",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 11621,
+      "locator_bearing_heading_paths": 188,
+      "locator_occurrences": 370,
+      "occurrence_rate_per_1000_words": 31.839,
+      "owned_document_page_ranges": [
+        [
+          247,
+          271
+        ]
+      ],
+      "path_rate_per_1000_words": 16.178,
+      "source_order": 10,
+      "source_units": [
+        "Chapter 11"
+      ],
+      "title": "11. Government by Terror, 1793-1794",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-011.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-012",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 11603,
+      "locator_bearing_heading_paths": 210,
+      "locator_occurrences": 392,
+      "occurrence_rate_per_1000_words": 33.784,
+      "owned_document_page_ranges": [
+        [
+          272,
+          296
+        ]
+      ],
+      "path_rate_per_1000_words": 18.099,
+      "source_order": 11,
+      "source_units": [
+        "Chapter 12"
+      ],
+      "title": "12. Thermidor, 1794-1795",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-012.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-013",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 9810,
+      "locator_bearing_heading_paths": 191,
+      "locator_occurrences": 327,
+      "occurrence_rate_per_1000_words": 33.333,
+      "owned_document_page_ranges": [
+        [
+          297,
+          317
+        ]
+      ],
+      "path_rate_per_1000_words": 19.47,
+      "source_order": 12,
+      "source_units": [
+        "Chapter 13"
+      ],
+      "title": "13. Counter-Revolution, 1789-1795",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-013.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-014",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10836,
+      "locator_bearing_heading_paths": 213,
+      "locator_occurrences": 364,
+      "occurrence_rate_per_1000_words": 33.592,
+      "owned_document_page_ranges": [
+        [
+          318,
+          340
+        ]
+      ],
+      "path_rate_per_1000_words": 19.657,
+      "source_order": 13,
+      "source_units": [
+        "Chapter 14"
+      ],
+      "title": "14. The Directory, 1795-1799",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-014.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "within_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-015",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 12739,
+      "locator_bearing_heading_paths": 203,
+      "locator_occurrences": 375,
+      "occurrence_rate_per_1000_words": 29.437,
+      "owned_document_page_ranges": [
+        [
+          341,
+          368
+        ]
+      ],
+      "path_rate_per_1000_words": 15.935,
+      "source_order": 14,
+      "source_units": [
+        "Chapter 15"
+      ],
+      "title": "15. Occupied Europe, 1794-1799",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-015.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-016",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10258,
+      "locator_bearing_heading_paths": 223,
+      "locator_occurrences": 356,
+      "occurrence_rate_per_1000_words": 34.705,
+      "owned_document_page_ranges": [
+        [
+          369,
+          390
+        ]
+      ],
+      "path_rate_per_1000_words": 21.739,
+      "source_order": 15,
+      "source_units": [
+        "Chapter 16"
+      ],
+      "title": "16. An End to Revolution, 1799-1802",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-016.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "combined": "outside_one_or_more_acceptable_bands",
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied.",
+        "locator_occurrence_rate": "above_acceptable_occurrence_band",
+        "path_rate": "above_acceptable_path_band"
+      },
+      "chunk_id": "CHUNK-017",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 15969,
+      "locator_bearing_heading_paths": 340,
+      "locator_occurrences": 497,
+      "occurrence_rate_per_1000_words": 31.123,
+      "owned_document_page_ranges": [
+        [
+          391,
+          425
+        ]
+      ],
+      "path_rate_per_1000_words": 21.291,
+      "source_order": 16,
+      "source_units": [
+        "Chapter 17"
+      ],
+      "title": "17. The Revolution in Perspective",
+      "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-017.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words."
+    }
+  ],
+  "maximum_score_contribution": 5,
+  "measurement_level": "chapter_or_approved_intellectual_unit",
+  "policy_status": "scored",
+  "schema_version": "ohfr-v8-web-collection-v1",
+  "source_order": "chunk manifest packet order",
+  "targets": [
+    {
+      "acceptable_max": 12.0,
+      "acceptable_min": 4.0,
+      "ideal_max": 10.0,
+      "ideal_min": 6.0,
+      "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+      "provenance": "subject-index-standard-policy-v8",
+      "scored": true,
+      "target": 8.0,
+      "unit": "locator-bearing complete heading paths per 1,000 indexable source words",
+      "weight": 0.5
+    },
+    {
+      "acceptable_max": 30.0,
+      "acceptable_min": 10.0,
+      "ideal_max": 25.0,
+      "ideal_min": 15.0,
+      "metric_id": "locator_occurrences_per_1000_source_words",
+      "provenance": "subject-index-standard-policy-v8",
+      "scored": true,
+      "target": 20.0,
+      "unit": "expanded locator occurrences per 1,000 indexable source words",
+      "weight": 0.5
+    }
+  ]
+}
