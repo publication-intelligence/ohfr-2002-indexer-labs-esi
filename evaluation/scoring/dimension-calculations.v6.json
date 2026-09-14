@@ -1,6 +1,6 @@
 {
   "schema_version": "subject-index-dimension-calculations-v6",
-  "calculation_id": "CALC-C7EB4E12A89F",
+  "calculation_id": "CALC-547E5EEC79BB",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "rubric_version": "subject-index-rubric-v8",
   "calculation_profile": "subject-index-dimension-calculation-v5",
@@ -13,7 +13,7 @@
     "policy_sha256": "fc1aec7bf1c4a29f146a31d941e11df305944e88dcd214ee7f352acdedc43499",
     "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
     "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
-    "structure_audit_file_sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
+    "structure_audit_file_sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
     "locator_audit_set_sha256": "29ebf6859f36bb0ae81e3f0e1640c969edf40bc70f1052eb09e3e34a22bda3d0",
     "missing_access_audit_set_sha256": "72be65157008ff509d4b67ec19f88c9ba744bdce7195ce078b61537b35b4c7a4"
   },
@@ -231,7 +231,7 @@
     {
       "role": "structure_audit",
       "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-      "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
+      "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
       "schema_version": "structure-audit-v6"
     },
     {
@@ -558,7 +558,7 @@
         {
           "role": "structure_audit",
           "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-          "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
+          "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
           "schema_version": "structure-audit-v6"
         },
         {
@@ -648,13 +648,13 @@
         },
         {
           "component_id": "density_fit",
-          "raw_numerator": "48.2673819786430231486695402",
+          "raw_numerator": "47.68665454657504699103318645",
           "raw_denominator": "100",
-          "normalized_value": "0.482673819786430231486695402",
+          "normalized_value": "0.4768665454657504699103318645",
           "weight": "5/15",
           "effective_weight": "5/15",
           "weight_renormalized": false,
-          "percentage": "48.2673819786430231486695402",
+          "percentage": "47.68665454657504699103318645",
           "details": {
             "profile_id": "subject-index-standard-density-v8",
             "aggregation": "indexable_source_word_weighted_mean",
@@ -662,11 +662,11 @@
               "paths": "0.5",
               "occurrences": "0.5"
             },
-            "fit_percentage": "48.2673819786430231486695402",
+            "fit_percentage": "47.68665454657504699103318645",
             "chapter_measurements": [
               {
                 "chunk_id": "CHUNK-001",
-                "indexable_source_words": 19854,
+                "indexable_source_words": 19778,
                 "locator_bearing_heading_paths": 291,
                 "locator_occurrences": 521,
                 "count_provenance": {
@@ -675,15 +675,15 @@
                   "known_locator_bearing_heading_paths": 291,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "14.65699607132064067694167422",
-                "occurrence_rate": "26.24156341291427420167220711",
+                "path_rate": "14.71331782788957427444635454",
+                "occurrence_rate": "26.34240064718373950854484781",
                 "path_fit_percentage": "60",
                 "occurrence_fit_percentage": "80",
                 "unit_fit_percentage": "70"
               },
               {
                 "chunk_id": "CHUNK-002",
-                "indexable_source_words": 9970,
+                "indexable_source_words": 10088,
                 "locator_bearing_heading_paths": 165,
                 "locator_occurrences": 272,
                 "count_provenance": {
@@ -692,15 +692,15 @@
                   "known_locator_bearing_heading_paths": 165,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "16.54964894684052156469408225",
-                "occurrence_rate": "27.28184553660982948846539619",
+                "path_rate": "16.3560666137985725614591594",
+                "occurrence_rate": "26.96272799365582870737509913",
                 "path_fit_percentage": "40",
                 "occurrence_fit_percentage": "80",
                 "unit_fit_percentage": "60"
               },
               {
                 "chunk_id": "CHUNK-003",
-                "indexable_source_words": 9171,
+                "indexable_source_words": 9090,
                 "locator_bearing_heading_paths": 144,
                 "locator_occurrences": 282,
                 "count_provenance": {
@@ -709,15 +709,15 @@
                   "known_locator_bearing_heading_paths": 144,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "15.70166830225711481844946026",
-                "occurrence_rate": "30.74910042525351651946352633",
+                "path_rate": "15.84158415841584158415841584",
+                "occurrence_rate": "31.02310231023102310231023102",
                 "path_fit_percentage": "40",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "50"
               },
               {
                 "chunk_id": "CHUNK-004",
-                "indexable_source_words": 11993,
+                "indexable_source_words": 11987,
                 "locator_bearing_heading_paths": 178,
                 "locator_occurrences": 363,
                 "count_provenance": {
@@ -726,15 +726,15 @@
                   "known_locator_bearing_heading_paths": 178,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "14.84199116151088134745268073",
-                "occurrence_rate": "30.26765613274410072542316351",
+                "path_rate": "14.84942020522232418453324435",
+                "occurrence_rate": "30.28280637357136898306498707",
                 "path_fit_percentage": "60",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "60"
               },
               {
                 "chunk_id": "CHUNK-005",
-                "indexable_source_words": 10328,
+                "indexable_source_words": 10384,
                 "locator_bearing_heading_paths": 219,
                 "locator_occurrences": 349,
                 "count_provenance": {
@@ -743,15 +743,15 @@
                   "known_locator_bearing_heading_paths": 219,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "21.20449264136328427575522851",
-                "occurrence_rate": "33.7916343919442292796281952",
+                "path_rate": "21.09013867488443759630200308",
+                "occurrence_rate": "33.60939907550077041602465331",
                 "path_fit_percentage": "20",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "40"
               },
               {
                 "chunk_id": "CHUNK-006",
-                "indexable_source_words": 10573,
+                "indexable_source_words": 10356,
                 "locator_bearing_heading_paths": 231,
                 "locator_occurrences": 381,
                 "count_provenance": {
@@ -760,15 +760,15 @@
                   "known_locator_bearing_heading_paths": 231,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "21.84810366026671710961884044",
-                "occurrence_rate": "36.03518395914120873924146411",
+                "path_rate": "22.30590961761297798377752028",
+                "occurrence_rate": "36.79026651216685979142526072",
                 "path_fit_percentage": "20",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "40"
               },
               {
                 "chunk_id": "CHUNK-007",
-                "indexable_source_words": 6627,
+                "indexable_source_words": 6561,
                 "locator_bearing_heading_paths": 133,
                 "locator_occurrences": 203,
                 "count_provenance": {
@@ -777,15 +777,15 @@
                   "known_locator_bearing_heading_paths": 133,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "20.06941300739399426588199789",
-                "occurrence_rate": "30.63226195865399124792515467",
+                "path_rate": "20.27130010669105319311080628",
+                "occurrence_rate": "30.94040542600213382106386222",
                 "path_fit_percentage": "20",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "40"
               },
               {
                 "chunk_id": "CHUNK-008",
-                "indexable_source_words": 10908,
+                "indexable_source_words": 10909,
                 "locator_bearing_heading_paths": 215,
                 "locator_occurrences": 361,
                 "count_provenance": {
@@ -794,15 +794,15 @@
                   "known_locator_bearing_heading_paths": 215,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "19.71030436376971030436376971",
-                "occurrence_rate": "33.09497616428309497616428309",
+                "path_rate": "19.70849757081309010908424237",
+                "occurrence_rate": "33.09194243285360711339261161",
                 "path_fit_percentage": "20",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "40"
               },
               {
                 "chunk_id": "CHUNK-009",
-                "indexable_source_words": 10469,
+                "indexable_source_words": 10537,
                 "locator_bearing_heading_paths": 213,
                 "locator_occurrences": 375,
                 "count_provenance": {
@@ -811,15 +811,15 @@
                   "known_locator_bearing_heading_paths": 213,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "20.34578278727672174992835992",
-                "occurrence_rate": "35.82004011844493265832457732",
+                "path_rate": "20.21448230046502799658346778",
+                "occurrence_rate": "35.58887728955110562778779539",
                 "path_fit_percentage": "20",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "40"
               },
               {
                 "chunk_id": "CHUNK-010",
-                "indexable_source_words": 12190,
+                "indexable_source_words": 12192,
                 "locator_bearing_heading_paths": 220,
                 "locator_occurrences": 433,
                 "count_provenance": {
@@ -828,15 +828,15 @@
                   "known_locator_bearing_heading_paths": 220,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "18.04757998359310910582444627",
-                "occurrence_rate": "35.52091878589007383100902379",
+                "path_rate": "18.04461942257217847769028871",
+                "occurrence_rate": "35.51509186351706036745406824",
                 "path_fit_percentage": "20",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "40"
               },
               {
                 "chunk_id": "CHUNK-011",
-                "indexable_source_words": 11628,
+                "indexable_source_words": 11621,
                 "locator_bearing_heading_paths": 188,
                 "locator_occurrences": 370,
                 "count_provenance": {
@@ -845,15 +845,15 @@
                   "known_locator_bearing_heading_paths": 188,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "16.1678706570347437220502236",
-                "occurrence_rate": "31.81974544203646370829033368",
+                "path_rate": "16.17760950004302555718096549",
+                "occurrence_rate": "31.8389123139144651923242406",
                 "path_fit_percentage": "40",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "50"
               },
               {
                 "chunk_id": "CHUNK-012",
-                "indexable_source_words": 11947,
+                "indexable_source_words": 11603,
                 "locator_bearing_heading_paths": 210,
                 "locator_occurrences": 392,
                 "count_provenance": {
@@ -862,15 +862,15 @@
                   "known_locator_bearing_heading_paths": 210,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "17.57763455260734912530342345",
-                "occurrence_rate": "32.81158449820038503389972378",
-                "path_fit_percentage": "40",
+                "path_rate": "18.09876756011376368180642937",
+                "occurrence_rate": "33.78436611221235887270533483",
+                "path_fit_percentage": "20",
                 "occurrence_fit_percentage": "60",
-                "unit_fit_percentage": "50"
+                "unit_fit_percentage": "40"
               },
               {
                 "chunk_id": "CHUNK-013",
-                "indexable_source_words": 9816,
+                "indexable_source_words": 9810,
                 "locator_bearing_heading_paths": 191,
                 "locator_occurrences": 327,
                 "count_provenance": {
@@ -879,15 +879,15 @@
                   "known_locator_bearing_heading_paths": 191,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "19.45802770986145069274653627",
-                "occurrence_rate": "33.3129584352078239608801956",
+                "path_rate": "19.46992864424057084607543323",
+                "occurrence_rate": "33.33333333333333333333333333",
                 "path_fit_percentage": "20",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "40"
               },
               {
                 "chunk_id": "CHUNK-014",
-                "indexable_source_words": 10837,
+                "indexable_source_words": 10836,
                 "locator_bearing_heading_paths": 213,
                 "locator_occurrences": 364,
                 "count_provenance": {
@@ -896,15 +896,15 @@
                   "known_locator_bearing_heading_paths": 213,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "19.65488603857156039494324998",
-                "occurrence_rate": "33.58863154009412198948048353",
+                "path_rate": "19.65669988925802879291251384",
+                "occurrence_rate": "33.59173126614987080103359173",
                 "path_fit_percentage": "20",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "40"
               },
               {
                 "chunk_id": "CHUNK-015",
-                "indexable_source_words": 12633,
+                "indexable_source_words": 12739,
                 "locator_bearing_heading_paths": 203,
                 "locator_occurrences": 375,
                 "count_provenance": {
@@ -913,15 +913,15 @@
                   "known_locator_bearing_heading_paths": 203,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "16.06902556795693817778833215",
-                "occurrence_rate": "29.68416053194015673236760864",
+                "path_rate": "15.93531674385744563937514719",
+                "occurrence_rate": "29.43716147264306460475704529",
                 "path_fit_percentage": "40",
                 "occurrence_fit_percentage": "80",
                 "unit_fit_percentage": "60"
               },
               {
                 "chunk_id": "CHUNK-016",
-                "indexable_source_words": 10405,
+                "indexable_source_words": 10258,
                 "locator_bearing_heading_paths": 223,
                 "locator_occurrences": 356,
                 "count_provenance": {
@@ -930,15 +930,15 @@
                   "known_locator_bearing_heading_paths": 223,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "21.43200384430562229697260932",
-                "occurrence_rate": "34.21432003844305622296972609",
+                "path_rate": "21.73913043478260869565217391",
+                "occurrence_rate": "34.70462078377851433027880678",
                 "path_fit_percentage": "20",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "40"
               },
               {
                 "chunk_id": "CHUNK-017",
-                "indexable_source_words": 15997,
+                "indexable_source_words": 15969,
                 "locator_bearing_heading_paths": 340,
                 "locator_occurrences": 497,
                 "count_provenance": {
@@ -947,8 +947,8 @@
                   "known_locator_bearing_heading_paths": 340,
                   "not_measured_locator_count": 0
                 },
-                "path_rate": "21.2539851222104144527098831",
-                "occurrence_rate": "31.06832531099581171469650559",
+                "path_rate": "21.29125180036320370718266642",
+                "occurrence_rate": "31.12280042582503600726407414",
                 "path_fit_percentage": "20",
                 "occurrence_fit_percentage": "60",
                 "unit_fit_percentage": "40"
@@ -958,7 +958,7 @@
           }
         }
       ],
-      "base_percentage": "65.17415910355381069671846825",
+      "base_percentage": "64.98058329286448531083968367",
       "cap_evaluations": [
         {
           "cap_id": "selectivity.systemic_zero_credit",
@@ -1039,12 +1039,12 @@
         }
       ],
       "applied_cap": null,
-      "pre_cap_percentage": "65.17415910355381069671846825",
-      "post_cap_percentage": "65.17415910355381069671846825",
+      "pre_cap_percentage": "64.98058329286448531083968367",
+      "post_cap_percentage": "64.98058329286448531083968367",
       "missing_data_bounds": {
         "lower": {
-          "pre_cap_percentage": "65.17415910355381069671846825",
-          "post_cap_percentage": "65.17415910355381069671846825",
+          "pre_cap_percentage": "64.98058329286448531083968367",
+          "post_cap_percentage": "64.98058329286448531083968367",
           "cap_evaluations": [
             {
               "cap_id": "selectivity.systemic_zero_credit",
@@ -1125,11 +1125,11 @@
             }
           ],
           "applied_cap_id": null,
-          "weighted_contribution": "9.776123865533071604507770238"
+          "weighted_contribution": "9.74708749392967279662595255"
         },
         "upper": {
-          "pre_cap_percentage": "65.17415910355381069671846825",
-          "post_cap_percentage": "65.17415910355381069671846825",
+          "pre_cap_percentage": "64.98058329286448531083968367",
+          "post_cap_percentage": "64.98058329286448531083968367",
           "cap_evaluations": [
             {
               "cap_id": "selectivity.systemic_zero_credit",
@@ -1210,14 +1210,14 @@
             }
           ],
           "applied_cap_id": null,
-          "weighted_contribution": "9.776123865533071604507770238"
+          "weighted_contribution": "9.74708749392967279662595255"
         },
         "stable_percentage": true,
         "stable_cap_outcome": true
       },
-      "dimension_percentage": "65.17415910355381069671846825",
+      "dimension_percentage": "64.98058329286448531083968367",
       "dimension_weight": 15,
-      "weighted_contribution": "9.776123865533071604507770238",
+      "weighted_contribution": "9.74708749392967279662595255",
       "warnings": [],
       "input_artifacts": [
         {
@@ -1331,7 +1331,7 @@
         {
           "role": "structure_audit",
           "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-          "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
+          "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
           "schema_version": "structure-audit-v6"
         },
         {
@@ -2423,7 +2423,7 @@
         {
           "role": "structure_audit",
           "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-          "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
+          "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
           "schema_version": "structure-audit-v6"
         },
         {
@@ -181787,7 +181787,7 @@
         {
           "role": "structure_audit",
           "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-          "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
+          "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
           "schema_version": "structure-audit-v6"
         },
         {
@@ -184097,7 +184097,7 @@
         {
           "role": "structure_audit",
           "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-          "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
+          "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
           "schema_version": "structure-audit-v6"
         },
         {
@@ -184546,7 +184546,7 @@
         {
           "role": "structure_audit",
           "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-          "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
+          "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
           "schema_version": "structure-audit-v6"
         },
         {
@@ -184558,13 +184558,13 @@
       ]
     }
   ],
-  "overall_percentage": 77.43,
+  "overall_percentage": 77.4,
   "maximum_percentage": 100,
   "final_rounding": {
     "mode": "ROUND_HALF_UP",
     "quantum": "0.01",
-    "input": "77.42885281791452035716909818",
-    "output": "77.43"
+    "input": "77.39981644631112154928728049",
+    "output": "77.4"
   },
   "arithmetic_check": true,
   "structure_audit": {
@@ -225336,35 +225336,8 @@
         "evidence_ids": [
           "EVID-XREF-39A88974E771"
         ]
-      },
-      {
-        "uncertainty_id": "UNCERTAINTY-DENSITY-WORD-AGGREGATION",
-        "kind": "density_measurement",
-        "affected_item_ids": [
-          "CHUNK-001",
-          "CHUNK-002",
-          "CHUNK-003",
-          "CHUNK-004",
-          "CHUNK-005",
-          "CHUNK-006",
-          "CHUNK-007",
-          "CHUNK-008",
-          "CHUNK-009",
-          "CHUNK-010",
-          "CHUNK-011",
-          "CHUNK-012",
-          "CHUNK-013",
-          "CHUNK-014",
-          "CHUNK-015",
-          "CHUNK-016",
-          "CHUNK-017"
-        ],
-        "summary": "Worker-reported approved-unit counts total 195,346 words versus the imported legacy whole-book aggregate of 194,718. No registered per-unit count artifact or locally available source PDF permits independent reproduction or resolution of the 628-word (0.32%) difference; any downstream density score remains provisional.",
-        "evidence_ids": [
-          "GLOBAL-DENSITY-WORD-COUNT"
-        ]
       }
     ]
   },
-  "calculation_sha256": "2a297b18f308d4faf18efe51ed90eeb0e42b44a1f8315b7a40a51e4fe2790486"
+  "calculation_sha256": "5638c23ab92e0f30864e6d0b5dfceea2552801d124a7b2237154006b65d6e6a4"
 }

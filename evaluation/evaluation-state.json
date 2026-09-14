@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "created_at": "2026-09-14T01:45:45Z",
-  "updated_at": "2026-09-14T07:32:44Z",
+  "updated_at": "2026-09-14T15:13:29Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "2002",
@@ -143,28 +143,28 @@
     },
     "missing_access_audit": {
       "status": "completed",
-      "updated_at": "2026-09-14T06:50:28Z",
+      "updated_at": "2026-09-14T15:12:39Z",
       "notes": [
-        "Registered 17/17 current audit chunks."
+        "Replaced the complete missing_access audit batch for all 17 frozen chunks."
       ]
     },
     "structure_audit": {
       "status": "completed",
-      "updated_at": "2026-09-14T07:31:43Z",
+      "updated_at": "2026-09-14T15:12:52Z",
       "notes": [
         "Validated and registered the native V8 structure audit atomically."
       ]
     },
     "scoring": {
       "status": "completed",
-      "updated_at": "2026-09-14T07:32:21Z",
+      "updated_at": "2026-09-14T15:13:17Z",
       "notes": [
         "Assembled registered inputs, calculated V8 dimensions, and registered the validated V12 result atomically."
       ]
     },
     "web_report": {
       "status": "completed",
-      "updated_at": "2026-09-14T07:32:44Z",
+      "updated_at": "2026-09-14T15:13:29Z",
       "notes": [
         "Built and registered the validated current V8 web-report projection atomically."
       ]
@@ -662,7 +662,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:26Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -675,7 +675,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:26Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -688,7 +688,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:26Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -701,7 +701,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:26Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -714,7 +714,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:26Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -727,7 +727,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:26Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -740,7 +740,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:26Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -753,7 +753,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:26Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -766,7 +766,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:27Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -779,7 +779,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:27Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -792,7 +792,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:27Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -805,7 +805,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:27Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -818,7 +818,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:27Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -831,7 +831,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:27Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -844,7 +844,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:27Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -857,7 +857,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:27Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
@@ -870,21 +870,21 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T06:50:27Z",
+      "recorded_at": "2026-09-14T15:12:39Z",
       "schema_version": "missing-access-audit-v1"
     },
     {
-      "artifact_id": "ART-4DC1881A5F8D",
+      "artifact_id": "ART-B0E7724C3E8E",
       "stage": "structure_audit",
       "artifact_type": "structure_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-      "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
+      "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
       "media_type": "application/json",
       "schema_version": "structure-audit-v6",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T07:31:43Z",
+      "recorded_at": "2026-09-14T15:12:52Z",
       "input_sha256": [
         "4eeea17c59c5ae9be6e159838c612a4d2d752b6d1c399a82d21ab02632fe91ec",
         "e4efc2a79c30f7e36c4f1be68d5f87a32fa92b46f10d8534b1566ac0e92d6b78"
@@ -982,20 +982,19 @@
       "recorded_at": "2026-09-14T03:43:13Z"
     },
     {
-      "artifact_id": "ART-729B920C1F17",
+      "artifact_id": "ART-642147E0F190",
       "stage": "scoring",
       "artifact_type": "dimension_calculation_input",
       "path": "scoring/dimension-calculation-input.v2.json",
-      "sha256": "b2b59471287fc11215cee67a85482a8eea05d027bff42d8ababb5e874b779101",
+      "sha256": "bc0a16709a2ccf40be60ddad070d3405a089ab83d7648c6db65a6eb479497f9a",
       "media_type": "application/json",
       "schema_version": "subject-index-dimension-calculation-input-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T07:32:21Z",
+      "recorded_at": "2026-09-14T15:13:17Z",
       "input_sha256": [
         "0655cc2944ea21783710ae08ca9a5b12517ff75ed84ea1b618d235c5b5f01de4",
-        "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
         "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56",
         "2939cf9cecfcf3473595bfca2eb0c6c939eb868bc8703ce5d4a0518d4171de06",
         "2c4c7fadf88344bdce2989c3b21a407e42c628b795ecab851d534d8b20dae9aa",
@@ -1027,6 +1026,7 @@
         "a4ee72c11852893f85146cec069368f2bde255c2ace70f046d23d1248e8f5d8b",
         "afb0af9865334c0753df1183190ccc7232c29ec35b63179345606a10fc6017cc",
         "cb81ae37ee11d2479fd32642162628a08b9edbf8977f0ab885be4c4a62277cf9",
+        "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
         "eb444ed9e95c975a300039ca925cb486bbd908f440e9688050b9f082f99ab4fa",
         "f94f891c27ae1cae7d52a37e7fadfb78b20874e0649bebc9a6e67c1a8a1cc7d2",
         "f9c4c7d3989027b578d9397e52acd7649a4e0861c440c1a9542bee8da7325900",
@@ -1034,20 +1034,19 @@
       ]
     },
     {
-      "artifact_id": "ART-812F57ADA196",
+      "artifact_id": "ART-C6DDF1331A8B",
       "stage": "scoring",
       "artifact_type": "dimension_calculations",
       "path": "scoring/dimension-calculations.v6.json",
-      "sha256": "59ddca9578e957230c442934a928455d2058d746126d624eb88b173d0a5ac2a0",
+      "sha256": "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c",
       "media_type": "application/json",
       "schema_version": "subject-index-dimension-calculations-v6",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T07:32:21Z",
+      "recorded_at": "2026-09-14T15:13:17Z",
       "input_sha256": [
         "0655cc2944ea21783710ae08ca9a5b12517ff75ed84ea1b618d235c5b5f01de4",
-        "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
         "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56",
         "2939cf9cecfcf3473595bfca2eb0c6c939eb868bc8703ce5d4a0518d4171de06",
         "2c4c7fadf88344bdce2989c3b21a407e42c628b795ecab851d534d8b20dae9aa",
@@ -1079,6 +1078,7 @@
         "a4ee72c11852893f85146cec069368f2bde255c2ace70f046d23d1248e8f5d8b",
         "afb0af9865334c0753df1183190ccc7232c29ec35b63179345606a10fc6017cc",
         "cb81ae37ee11d2479fd32642162628a08b9edbf8977f0ab885be4c4a62277cf9",
+        "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
         "eb444ed9e95c975a300039ca925cb486bbd908f440e9688050b9f082f99ab4fa",
         "f94f891c27ae1cae7d52a37e7fadfb78b20874e0649bebc9a6e67c1a8a1cc7d2",
         "f9c4c7d3989027b578d9397e52acd7649a4e0861c440c1a9542bee8da7325900",
@@ -1086,77 +1086,77 @@
       ]
     },
     {
-      "artifact_id": "ART-5B05C8C45F68",
+      "artifact_id": "ART-B8217170B512",
       "stage": "scoring",
       "artifact_type": "evaluation_result",
       "path": "scoring/evaluation-result.v12.json",
-      "sha256": "36c0aa7117e40e0b2e4cf8cf3722cd8622fda1f3081d5c09bde0f090ebcb4c3c",
+      "sha256": "61a86fd6bb7ab3276a1c4aefbadb30281482b71c8bfecf07e06e6a1f3bb43b46",
       "media_type": "application/json",
       "schema_version": "subject-index-evaluation-result-v12",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T07:32:21Z",
+      "recorded_at": "2026-09-14T15:13:17Z",
       "input_sha256": [
-        "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
-        "3d612ddcafe592b77d2f9adfabd1c572641145006a53e3dda124c6585bb5cf76",
-        "59ddca9578e957230c442934a928455d2058d746126d624eb88b173d0a5ac2a0",
-        "dd87226d8d1fc84634621b352b7f2d0f9ddb5edef7478aa47478834a9c733143"
+        "8f4dc516b3e01f24b91c9688f0d2106687bf90354d829f77f1df6197576f84ee",
+        "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c",
+        "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
+        "f37103196cb83b935279b8d94feca04c1454ff9b36fd036bf2b6c2476eaef0b5"
       ]
     },
     {
-      "artifact_id": "ART-8A15D79B3316",
+      "artifact_id": "ART-38ECD0B757B3",
       "stage": "scoring",
       "artifact_type": "item_assessments",
       "path": "scoring/item-assessments.v7.json",
-      "sha256": "dd87226d8d1fc84634621b352b7f2d0f9ddb5edef7478aa47478834a9c733143",
+      "sha256": "f37103196cb83b935279b8d94feca04c1454ff9b36fd036bf2b6c2476eaef0b5",
       "media_type": "application/json",
       "schema_version": "subject-index-item-assessments-v7",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T07:32:21Z",
+      "recorded_at": "2026-09-14T15:13:17Z",
       "input_sha256": [
-        "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
-        "59ddca9578e957230c442934a928455d2058d746126d624eb88b173d0a5ac2a0",
+        "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c",
+        "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
         "e4efc2a79c30f7e36c4f1be68d5f87a32fa92b46f10d8534b1566ac0e92d6b78"
       ]
     },
     {
-      "artifact_id": "ART-D310197946F8",
+      "artifact_id": "ART-E9EA1BDD36F1",
       "stage": "scoring",
       "artifact_type": "projection_metadata",
       "path": "scoring/projection-metadata.v2.json",
-      "sha256": "3d612ddcafe592b77d2f9adfabd1c572641145006a53e3dda124c6585bb5cf76",
+      "sha256": "8f4dc516b3e01f24b91c9688f0d2106687bf90354d829f77f1df6197576f84ee",
       "media_type": "application/json",
       "schema_version": "subject-index-v8-projection-metadata-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T07:32:21Z",
+      "recorded_at": "2026-09-14T15:13:17Z",
       "input_sha256": [
-        "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
-        "59ddca9578e957230c442934a928455d2058d746126d624eb88b173d0a5ac2a0"
+        "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c",
+        "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e"
       ]
     },
     {
-      "artifact_id": "ART-A25A9C8B4A80",
+      "artifact_id": "ART-6BC8D8190505",
       "stage": "web_report",
       "artifact_type": "web_report",
       "path": "scoring/web-report.v10.json",
-      "sha256": "e9f19f05c349ec88e3352f56f743bd7a487b3edf56f3db2940749a0dffce2e53",
+      "sha256": "3af636dcd2c403d0fb70a32e30de6420362c1f5bec956f39b1935862b7c9e638",
       "media_type": "application/json",
       "schema_version": "subject-index-web-report-v10",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-14T07:32:44Z",
+      "recorded_at": "2026-09-14T15:13:29Z",
       "input_sha256": [
-        "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
-        "36c0aa7117e40e0b2e4cf8cf3722cd8622fda1f3081d5c09bde0f090ebcb4c3c",
-        "3d612ddcafe592b77d2f9adfabd1c572641145006a53e3dda124c6585bb5cf76",
-        "59ddca9578e957230c442934a928455d2058d746126d624eb88b173d0a5ac2a0",
-        "dd87226d8d1fc84634621b352b7f2d0f9ddb5edef7478aa47478834a9c733143"
+        "61a86fd6bb7ab3276a1c4aefbadb30281482b71c8bfecf07e06e6a1f3bb43b46",
+        "8f4dc516b3e01f24b91c9688f0d2106687bf90354d829f77f1df6197576f84ee",
+        "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c",
+        "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
+        "f37103196cb83b935279b8d94feca04c1454ff9b36fd036bf2b6c2476eaef0b5"
       ]
     },
     {

@@ -13884,172 +13884,172 @@
     "chapter_measurements": [
       {
         "chunk_id": "CHUNK-001",
-        "indexable_source_words": 19854,
+        "indexable_source_words": 19778,
         "locator_bearing_heading_paths": 291,
         "locator_occurrences": 521,
-        "path_rate_per_1000_words": 14.657,
-        "occurrence_rate_per_1000_words": 26.242,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 14.713,
+        "occurrence_rate_per_1000_words": 26.342,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-001.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-002",
-        "indexable_source_words": 9970,
+        "indexable_source_words": 10088,
         "locator_bearing_heading_paths": 165,
         "locator_occurrences": 272,
-        "path_rate_per_1000_words": 16.55,
-        "occurrence_rate_per_1000_words": 27.282,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 16.356,
+        "occurrence_rate_per_1000_words": 26.963,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-002.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-003",
-        "indexable_source_words": 9171,
+        "indexable_source_words": 9090,
         "locator_bearing_heading_paths": 144,
         "locator_occurrences": 282,
-        "path_rate_per_1000_words": 15.702,
-        "occurrence_rate_per_1000_words": 30.749,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 15.842,
+        "occurrence_rate_per_1000_words": 31.023,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-003.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-004",
-        "indexable_source_words": 11993,
+        "indexable_source_words": 11987,
         "locator_bearing_heading_paths": 178,
         "locator_occurrences": 363,
-        "path_rate_per_1000_words": 14.842,
-        "occurrence_rate_per_1000_words": 30.268,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 14.849,
+        "occurrence_rate_per_1000_words": 30.283,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-004.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-005",
-        "indexable_source_words": 10328,
+        "indexable_source_words": 10384,
         "locator_bearing_heading_paths": 219,
         "locator_occurrences": 349,
-        "path_rate_per_1000_words": 21.204,
-        "occurrence_rate_per_1000_words": 33.792,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 21.09,
+        "occurrence_rate_per_1000_words": 33.609,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-005.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-006",
-        "indexable_source_words": 10573,
+        "indexable_source_words": 10356,
         "locator_bearing_heading_paths": 231,
         "locator_occurrences": 381,
-        "path_rate_per_1000_words": 21.848,
-        "occurrence_rate_per_1000_words": 36.035,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 22.306,
+        "occurrence_rate_per_1000_words": 36.79,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-006.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-007",
-        "indexable_source_words": 6627,
+        "indexable_source_words": 6561,
         "locator_bearing_heading_paths": 133,
         "locator_occurrences": 203,
-        "path_rate_per_1000_words": 20.069,
-        "occurrence_rate_per_1000_words": 30.632,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 20.271,
+        "occurrence_rate_per_1000_words": 30.94,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-007.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-008",
-        "indexable_source_words": 10908,
+        "indexable_source_words": 10909,
         "locator_bearing_heading_paths": 215,
         "locator_occurrences": 361,
-        "path_rate_per_1000_words": 19.71,
-        "occurrence_rate_per_1000_words": 33.095,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 19.708,
+        "occurrence_rate_per_1000_words": 33.092,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-008.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-009",
-        "indexable_source_words": 10469,
+        "indexable_source_words": 10537,
         "locator_bearing_heading_paths": 213,
         "locator_occurrences": 375,
-        "path_rate_per_1000_words": 20.346,
-        "occurrence_rate_per_1000_words": 35.82,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 20.214,
+        "occurrence_rate_per_1000_words": 35.589,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-009.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-010",
-        "indexable_source_words": 12190,
+        "indexable_source_words": 12192,
         "locator_bearing_heading_paths": 220,
         "locator_occurrences": 433,
-        "path_rate_per_1000_words": 18.048,
-        "occurrence_rate_per_1000_words": 35.521,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 18.045,
+        "occurrence_rate_per_1000_words": 35.515,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-010.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-011",
-        "indexable_source_words": 11628,
+        "indexable_source_words": 11621,
         "locator_bearing_heading_paths": 188,
         "locator_occurrences": 370,
-        "path_rate_per_1000_words": 16.168,
-        "occurrence_rate_per_1000_words": 31.82,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 16.178,
+        "occurrence_rate_per_1000_words": 31.839,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-011.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-012",
-        "indexable_source_words": 11947,
+        "indexable_source_words": 11603,
         "locator_bearing_heading_paths": 210,
         "locator_occurrences": 392,
-        "path_rate_per_1000_words": 17.578,
-        "occurrence_rate_per_1000_words": 32.812,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 18.099,
+        "occurrence_rate_per_1000_words": 33.784,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-012.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-013",
-        "indexable_source_words": 9816,
+        "indexable_source_words": 9810,
         "locator_bearing_heading_paths": 191,
         "locator_occurrences": 327,
-        "path_rate_per_1000_words": 19.458,
-        "occurrence_rate_per_1000_words": 33.313,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 19.47,
+        "occurrence_rate_per_1000_words": 33.333,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-013.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-014",
-        "indexable_source_words": 10837,
+        "indexable_source_words": 10836,
         "locator_bearing_heading_paths": 213,
         "locator_occurrences": 364,
-        "path_rate_per_1000_words": 19.655,
-        "occurrence_rate_per_1000_words": 33.589,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 19.657,
+        "occurrence_rate_per_1000_words": 33.592,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-014.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-015",
-        "indexable_source_words": 12633,
+        "indexable_source_words": 12739,
         "locator_bearing_heading_paths": 203,
         "locator_occurrences": 375,
-        "path_rate_per_1000_words": 16.069,
-        "occurrence_rate_per_1000_words": 29.684,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 15.935,
+        "occurrence_rate_per_1000_words": 29.437,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-015.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-016",
-        "indexable_source_words": 10405,
+        "indexable_source_words": 10258,
         "locator_bearing_heading_paths": 223,
         "locator_occurrences": 356,
-        "path_rate_per_1000_words": 21.432,
-        "occurrence_rate_per_1000_words": 34.214,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 21.739,
+        "occurrence_rate_per_1000_words": 34.705,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-016.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       },
       {
         "chunk_id": "CHUNK-017",
-        "indexable_source_words": 15997,
+        "indexable_source_words": 15969,
         "locator_bearing_heading_paths": 340,
         "locator_occurrences": 497,
-        "path_rate_per_1000_words": 21.254,
-        "occurrence_rate_per_1000_words": 31.068,
-        "word_count_provenance": "Worker-reported approved-unit whitespace-token count; no registered per-unit count artifact or locally available source PDF permitted independent reproduction in this review.",
+        "path_rate_per_1000_words": 21.291,
+        "occurrence_rate_per_1000_words": 31.123,
+        "word_count_provenance": "Frozen candidate-blind source-discovery artifact source/source-subject-chunk.CHUNK-017.json at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; page_review.indexable_source_words.",
         "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments"
       }
     ],
@@ -14060,119 +14060,116 @@
         "chunk_id": "CHUNK-001",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "within_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-002",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "within_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-003",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-004",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-005",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-006",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-007",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-008",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-009",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-010",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-011",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-012",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-013",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-014",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-015",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "within_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-016",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       },
       {
         "chunk_id": "CHUNK-017",
         "path_finding": "above_acceptable_path_band",
         "locator_occurrence_finding": "above_acceptable_occurrence_band",
-        "interpretation": "Conditional descriptive finding from worker-reported word counts; no numeric density quota or automatic clutter defect was applied. Any downstream density score remains provisional until the source-word denominator is reproduced."
+        "interpretation": "Descriptive finding from frozen candidate-blind source-discovery word counts; no numeric density quota or automatic clutter defect was applied."
       }
     ],
-    "measurement_method": "Worker-reported whitespace-token counts with stated exclusions for running furniture, page numerals, chapter display titles, and non-prose map internals; candidate counts were independently recomputed from registered locator ledgers, but source-word counts were not independently reproducible.",
-    "limitations": [
-      "No registered per-unit word-count artifact and no locally available source-chunk PDFs permit independent reproduction of the 17 source-word denominators; downstream density scoring will use these values and must therefore be treated as provisional.",
-      "The worker-reported approved-unit counts total 195,346 words, 628 above the imported legacy whole-book aggregate of 194,718; the difference is not independently resolved."
-    ],
+    "measurement_method": "Per-unit page_review.indexable_source_words copied from the frozen candidate-blind source-discovery artifacts at benchmark repository commit 98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab; candidate counts were independently recomputed from registered locator ledgers.",
+    "limitations": [],
     "density_used_as_subject_quota": false,
     "completion": {
       "expected_units": 17,
       "measured_units": 17,
       "complete": true,
-      "verification_status": "unverified"
+      "verification_status": "verified"
     },
-    "verification_status": "source_word_counts_unverified",
-    "scoring_status": "provisional_pending_source_word_count_verification"
+    "verification_status": "source_word_counts_verified_from_frozen_discovery_artifacts",
+    "scoring_status": "final"
   },
   "node_judgments": [
     {
@@ -57035,33 +57032,6 @@
       "summary": "The delivered phrase 'Senez, see of, 143' is grammatically consistent with an episcopal-see heading plus locator 143, while the frozen normalized inventory represents it as a substitutive cross-reference. The audit scores the registered representation but preserves this attribution uncertainty.",
       "evidence_ids": [
         "EVID-XREF-39A88974E771"
-      ]
-    },
-    {
-      "uncertainty_id": "UNCERTAINTY-DENSITY-WORD-AGGREGATION",
-      "kind": "density_measurement",
-      "affected_item_ids": [
-        "CHUNK-001",
-        "CHUNK-002",
-        "CHUNK-003",
-        "CHUNK-004",
-        "CHUNK-005",
-        "CHUNK-006",
-        "CHUNK-007",
-        "CHUNK-008",
-        "CHUNK-009",
-        "CHUNK-010",
-        "CHUNK-011",
-        "CHUNK-012",
-        "CHUNK-013",
-        "CHUNK-014",
-        "CHUNK-015",
-        "CHUNK-016",
-        "CHUNK-017"
-      ],
-      "summary": "Worker-reported approved-unit counts total 195,346 words versus the imported legacy whole-book aggregate of 194,718. No registered per-unit count artifact or locally available source PDF permits independent reproduction or resolution of the 628-word (0.32%) difference; any downstream density score remains provisional.",
-      "evidence_ids": [
-        "GLOBAL-DENSITY-WORD-COUNT"
       ]
     }
   ],

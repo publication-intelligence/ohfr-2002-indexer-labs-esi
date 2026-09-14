@@ -106,7 +106,7 @@
   "report_id": "oxford-history-french-revolution-2002-indexerlabs-truncated-v8",
   "headline": "Subject-index evaluation",
   "summary": "Current-V8 source-grounded evaluation from validated registered artifacts.",
-  "interpretation": "The validated V8 calculation produced an overall percentage of 77.43%.",
+  "interpretation": "The validated V8 calculation produced an overall percentage of 77.4%.",
   "defect_counts": {
     "major": 1,
     "minor": 3
@@ -300,27 +300,26 @@
     "The registered CHUNK-013 locator ledger records 4 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
     "The registered CHUNK-014 locator ledger records 7 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
     "The registered CHUNK-015 locator ledger records 363 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
-    "The delivered phrase 'Senez, see of, 143' is grammatically consistent with an episcopal-see heading plus locator 143, while the frozen normalized inventory represents it as a substitutive cross-reference. The audit scores the registered representation but preserves this attribution uncertainty.",
-    "Worker-reported approved-unit counts total 195,346 words versus the imported legacy whole-book aggregate of 194,718. No registered per-unit count artifact or locally available source PDF permits independent reproduction or resolution of the 628-word (0.32%) difference; any downstream density score remains provisional."
+    "The delivered phrase 'Senez, see of, 143' is grammatically consistent with an episcopal-see heading plus locator 143, while the frozen normalized inventory represents it as a substitutive cross-reference. The audit scores the registered representation but preserves this attribution uncertainty."
   ],
   "canonical_calculation": {
     "schema_version": "subject-index-dimension-calculations-v6",
     "artifact_path": "scoring/dimension-calculations.v6.json",
-    "sha256": "59ddca9578e957230c442934a928455d2058d746126d624eb88b173d0a5ac2a0",
-    "calculation_sha256": "2a297b18f308d4faf18efe51ed90eeb0e42b44a1f8315b7a40a51e4fe2790486",
+    "sha256": "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c",
+    "calculation_sha256": "5638c23ab92e0f30864e6d0b5dfceea2552801d124a7b2237154006b65d6e6a4",
     "rubric_version": "subject-index-rubric-v8",
     "calculation_profile": "subject-index-dimension-calculation-v5"
   },
   "canonical_structure_audit": {
     "schema_version": "structure-audit-v6",
     "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-    "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd"
+    "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e"
   },
   "canonical_heading_access_source": {
     "role": "heading_access_causal_source",
     "schema_version": "structure-audit-v6",
     "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-    "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd"
+    "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e"
   },
-  "projection_metadata_sha256": "3e4c18613b3ba6389baa5afdacc35870cad9c64b3a9385f7b4441087a577d6c7"
+  "projection_metadata_sha256": "02f3fe66f87eb33959f94faf5f0e7d6dacbde881426f618332a3d9787a5cabac"
 }

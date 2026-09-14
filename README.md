@@ -28,7 +28,7 @@ and intentionally omits the 17 restricted source packet PDFs.
 
 ## Result
 
-The independently reproduced V8 overall score is **77.43%**.
+The independently reproduced V8 overall score is **77.40%**.
 
 | Dimension | Score |
 | --- | ---: |
@@ -47,9 +47,10 @@ and clutter gates. See [`evaluation-result.v12.json`](evaluation/scoring/evaluat
 and [`web-report.v10.json`](evaluation/scoring/web-report.v10.json) for the exact
 calculation and report projection.
 
-Density remains provisional: chapter-level counts total 195,346 words, 628 words
-(0.32%) above the imported legacy whole-book aggregate, and no registered
-per-unit word-count artifact is available to resolve the difference.
+Density uses the 17 candidate-blind source-discovery unit counts frozen in the
+benchmark repository at `98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab`.
+They total 194,718 indexable source words; the resulting density fit is
+47.6866545466% before display rounding.
 
 ## Contents
 

@@ -19,8 +19,8 @@
   "dimension_calculations": {
     "schema_version": "subject-index-dimension-calculations-v6",
     "artifact_path": "scoring/dimension-calculations.v6.json",
-    "sha256": "59ddca9578e957230c442934a928455d2058d746126d624eb88b173d0a5ac2a0",
-    "calculation_sha256": "2a297b18f308d4faf18efe51ed90eeb0e42b44a1f8315b7a40a51e4fe2790486",
+    "sha256": "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c",
+    "calculation_sha256": "5638c23ab92e0f30864e6d0b5dfceea2552801d124a7b2237154006b65d6e6a4",
     "rubric_version": "subject-index-rubric-v8",
     "calculation_profile": "subject-index-dimension-calculation-v5"
   },
@@ -35,8 +35,8 @@
     {
       "dimension_id": "editorial_selectivity",
       "weight": 15,
-      "dimension_percentage": "65.17415910355381069671846825",
-      "weighted_contribution": "9.776123865533071604507770238",
+      "dimension_percentage": "64.98058329286448531083968367",
+      "weighted_contribution": "9.74708749392967279662595255",
       "formula_id": "subject-index-dimension-calculation-v5:editorial_selectivity"
     },
     {
@@ -68,8 +68,8 @@
       "formula_id": "subject-index-dimension-calculation-v5:mechanics_consistency"
     }
   ],
-  "overall_percentage": 77.43,
-  "interpretation": "The validated V8 calculation produced an overall percentage of 77.43%.",
+  "overall_percentage": 77.4,
+  "interpretation": "The validated V8 calculation produced an overall percentage of 77.4%.",
   "metrics": {
     "keep_precision": {
       "keep_precision_numerator": 5914,
@@ -82,7 +82,7 @@
   "item_assessments": {
     "schema_version": "subject-index-item-assessments-v7",
     "artifact_path": "scoring/item-assessments.v7.json",
-    "sha256": "dd87226d8d1fc84634621b352b7f2d0f9ddb5edef7478aa47478834a9c733143",
+    "sha256": "f37103196cb83b935279b8d94feca04c1454ff9b36fd036bf2b6c2476eaef0b5",
     "grading_policy": "subject-index-item-grading-v4",
     "summary": {
       "locators": {
@@ -14154,13 +14154,13 @@
   "structure_audit": {
     "schema_version": "structure-audit-v6",
     "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-    "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd"
+    "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e"
   },
   "projection_metadata": {
     "schema_version": "subject-index-v8-projection-metadata-v2",
     "artifact_path": "scoring/projection-metadata.v2.json",
-    "sha256": "3d612ddcafe592b77d2f9adfabd1c572641145006a53e3dda124c6585bb5cf76",
-    "projection_metadata_sha256": "3e4c18613b3ba6389baa5afdacc35870cad9c64b3a9385f7b4441087a577d6c7"
+    "sha256": "8f4dc516b3e01f24b91c9688f0d2106687bf90354d829f77f1df6197576f84ee",
+    "projection_metadata_sha256": "02f3fe66f87eb33959f94faf5f0e7d6dacbde881426f618332a3d9787a5cabac"
   },
   "critical_gates": [
     {
@@ -14290,7 +14290,6 @@
     "The registered CHUNK-013 locator ledger records 4 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
     "The registered CHUNK-014 locator ledger records 7 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
     "The registered CHUNK-015 locator ledger records 363 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
-    "The delivered phrase 'Senez, see of, 143' is grammatically consistent with an episcopal-see heading plus locator 143, while the frozen normalized inventory represents it as a substitutive cross-reference. The audit scores the registered representation but preserves this attribution uncertainty.",
-    "Worker-reported approved-unit counts total 195,346 words versus the imported legacy whole-book aggregate of 194,718. No registered per-unit count artifact or locally available source PDF permits independent reproduction or resolution of the 628-word (0.32%) difference; any downstream density score remains provisional."
+    "The delivered phrase 'Senez, see of, 143' is grammatically consistent with an episcopal-see heading plus locator 143, while the frozen normalized inventory represents it as a substitutive cross-reference. The audit scores the registered representation but preserves this attribution uncertainty."
   ]
 }
