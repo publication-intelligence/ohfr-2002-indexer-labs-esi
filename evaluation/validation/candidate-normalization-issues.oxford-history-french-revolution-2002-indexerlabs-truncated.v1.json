@@ -7,7 +7,8 @@
     {
       "exception_id": "EXC-79D9A977E691",
       "type": "malformed_cross_reference",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The delivered entry visibly continues on the next indented line as 'also Girondins', forming a complete 'see also' cross-reference.",
       "related_ids": [
         "REC-6F42AE7DC59E"
       ],
@@ -20,7 +21,8 @@
     },
     {
       "exception_id": "EXC-F789824300FE",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "A page break separates Calonne's complete 'reform plan' locator 87 from the distinct 'counter-revolutionary activity' subentry on the next page.",
       "record_id": "REC-7F5FCDCED0E2",
       "line_ids": [
         "line-91ff137410b6ce39d0ec",
@@ -36,7 +38,8 @@
     },
     {
       "exception_id": "EXC-E67151BEDFEA",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The column break separates the complete Cazales entry ending in locator 303 from the distinct main entry 'cens, 11'.",
       "record_id": "REC-4127134E1219",
       "line_ids": [
         "line-8c944fd3722ec2e296e9",
@@ -52,7 +55,8 @@
     },
     {
       "exception_id": "EXC-C8EC976759C0",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "A page break separates the complete clergy subentry ending in locator 304 from the distinct 'papal condemnation' subentry.",
       "record_id": "REC-E2EFC0475B11",
       "line_ids": [
         "line-5de75f539c98b0614729",
@@ -68,7 +72,8 @@
     },
     {
       "exception_id": "EXC-7B577590E729",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The range 270-271 is complete at the foot of the left column; 'establishment and role as war cabinet' begins a distinct subentry in the right column.",
       "record_id": "REC-98961A3ABC59",
       "line_ids": [
         "line-d1d368815080e7dc0177",
@@ -85,7 +90,8 @@
     {
       "exception_id": "EXC-F8B2BB298AE9",
       "type": "indentation_gap",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The visually indented line '324-326, 372' is a locator continuation of the preceding 'as standard of rebellion' subentry, not a skipped hierarchy level.",
       "related_ids": [
         "REC-C93014B5B6AC",
         "line-9dcc0da082c5e41bb208"
@@ -95,7 +101,8 @@
     },
     {
       "exception_id": "EXC-3D5A4CA9BB65",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "A page break separates the complete Dauphine subentry ending in range 101-102 from the distinct 'peasant manual attacks' subentry.",
       "record_id": "REC-B19DECD9E057",
       "line_ids": [
         "line-b4014993f4d79c30477a",
@@ -111,7 +118,8 @@
     },
     {
       "exception_id": "EXC-5088874EFCBE",
-      "status": "needs_review",
+      "disposition": "The column break separates the complete 'annexed territories' subentry ending in locator 351 from the distinct 'centralization and subordination of' subentry.",
+      "status": "not_applicable",
       "record_id": "REC-63CFB8A22856",
       "line_ids": [
         "line-ea0d6c929751e8cf49af",
@@ -127,7 +135,8 @@
     },
     {
       "exception_id": "EXC-DD5EEB988AD0",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The column break separates the complete main entry 'industrial unrest, 20, 149' from the distinct main entry 'infernal columns, 257'.",
       "record_id": "REC-87EA5AE9B6B0",
       "line_ids": [
         "line-0d1c2e620312f7920c45",
@@ -143,7 +152,8 @@
     },
     {
       "exception_id": "EXC-7574C0E2B9D6",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "A page break separates the distinct Jacobinism subentries 'in Poland' and 'monarchs' perceptions of'; locator 208 is complete in each.",
       "record_id": "REC-EAC07F2EEA34",
       "line_ids": [
         "line-74c8c5f1eece600d6f2b",
@@ -159,7 +169,8 @@
     },
     {
       "exception_id": "EXC-CAD03D840644",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "In the delivered main entry, 1792 is part of the heading 'June 20, 1792, Journee of', not an unresolved locator.",
       "record_id": "REC-70247566DDBA",
       "line_ids": [
         "line-0ac6444580ec2981bbfd",
@@ -175,7 +186,8 @@
     },
     {
       "exception_id": "EXC-39A18E937D81",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "In the delivered main entry, 'Journee of' is heading text between the date and the locators 185-186 and 195.",
       "record_id": "REC-70247566DDBA",
       "line_ids": [
         "line-0ac6444580ec2981bbfd",
@@ -191,7 +203,8 @@
     },
     {
       "exception_id": "EXC-5CC174B5CCB4",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "Locator 195 completes the 'June 20, 1792, Journee of' entry before the column break; 'justices of the peace' is a distinct main entry.",
       "record_id": "REC-70247566DDBA",
       "line_ids": [
         "line-0ac6444580ec2981bbfd",
@@ -207,7 +220,8 @@
     },
     {
       "exception_id": "EXC-79D2DADB3D04",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "A page break separates Lamoignon de Basville's complete locator list ending in 93 from the distinct main entry 'land ownership'.",
       "record_id": "REC-6B5E2430CE8D",
       "line_ids": [
         "line-b6844bbeb4f775ae4844",
@@ -223,7 +237,8 @@
     },
     {
       "exception_id": "EXC-54610E4368C9",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "A page break separates the complete 'agitation and calls for' subentry ending in locator 269 from the distinct 'implementation and enforcement' subentry.",
       "record_id": "REC-0159DDD82D44",
       "line_ids": [
         "line-626a9bd4cf8666f195ec",
@@ -240,7 +255,8 @@
     {
       "exception_id": "EXC-DFE510F9844C",
       "type": "indentation_gap",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The visually indented '306' is a wrapped locator continuation of 'abolition and trial of Louis XVI', not a skipped hierarchy level.",
       "related_ids": [
         "REC-BE7349E165AE",
         "line-fd4e565d41e786662177"
@@ -250,7 +266,8 @@
     },
     {
       "exception_id": "EXC-49EA5667F6D9",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The column break separates the complete National Guard subentry ending in locator 205 from the distinct 'provincial role and disturbances' subentry.",
       "record_id": "REC-2A7C4DD80390",
       "line_ids": [
         "line-7e306d6df22971939ad4",
@@ -266,7 +283,8 @@
     },
     {
       "exception_id": "EXC-4E7CAEB56BBB",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "A page break separates the complete nobility subentry ending in locator 409 from the distinct 'and municipal revolutions/uprisings' subentry.",
       "record_id": "REC-122CC473D5A3",
       "line_ids": [
         "line-4daa13c5c7be0521c4fc",
@@ -282,7 +300,8 @@
     },
     {
       "exception_id": "EXC-DA8F78B6980F",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "A page break separates the complete main entry 'Parlement of Paris, 2, 8' from its first visibly indented subentry.",
       "record_id": "REC-791A935D06F6",
       "line_ids": [
         "line-8341807d49b2453cb851",
@@ -299,7 +318,8 @@
     {
       "exception_id": "EXC-F8943126E8C6",
       "type": "indentation_gap",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The visually indented '91' is a wrapped locator continuation of 'and Estates-General (1614 precedent), 88', not a skipped hierarchy level.",
       "related_ids": [
         "REC-E4B4501F5D9D",
         "line-d9d71ae00a1bf8eb89c8"
@@ -309,7 +329,8 @@
     },
     {
       "exception_id": "EXC-0F3E43A1D1E5",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The delivered heading is 'Petition of 8,000'; '000' is part of the comma-formatted number in the heading, while 184 is the locator.",
       "record_id": "REC-47F26EDB9E5C",
       "line_ids": [
         "line-9f0bc62998ed0a45a8c3"
@@ -324,7 +345,8 @@
     },
     {
       "exception_id": "EXC-B52297B96A14",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The range 134-136 completes the main entry 'Reform' before the page break; 'international movements and influence' begins a distinct subentry.",
       "record_id": "REC-5D976E1265C5",
       "line_ids": [
         "line-87c7d54370b7e8352e17",
@@ -341,7 +363,8 @@
     {
       "exception_id": "EXC-AF0A3D46E040",
       "type": "indentation_gap",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The visually indented line '212, 357, 423' continues the locator list for 'international movements and influence', not a skipped hierarchy level.",
       "related_ids": [
         "REC-835C14DAE554",
         "line-493eb1fdad73079ddff2"
@@ -352,7 +375,8 @@
     {
       "exception_id": "EXC-0481772FEA03",
       "type": "malformed_cross_reference",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "The delivered entry visibly continues on the next indented line as 'abolition of slavery', completing the 'see also' cross-reference.",
       "related_ids": [
         "REC-71E02825E704"
       ],
@@ -365,7 +389,8 @@
     },
     {
       "exception_id": "EXC-9FBD1EB9F73A",
-      "status": "needs_review",
+      "status": "not_applicable",
+      "disposition": "A page break separates the complete main entry 'winter (1794-1795), 209, 286, 346' from the distinct main entry 'women'.",
       "record_id": "REC-7C6E1703E3BE",
       "line_ids": [
         "line-f2801a2fdd38075ab864",
