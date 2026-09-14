@@ -1,0 +1,326 @@
+{
+  "schema_version": "subject-index-v8-projection-metadata-v2",
+  "candidate_label": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "inclusion_policy": "Frozen current-V8 source scope and candidate-blind benchmark.",
+  "uncertainty_policy": "Record uncertainty explicitly; adjudicate every critical, major, and uncertain item; exclude uninspectable locators from precision denominators and disclose them.",
+  "critical_gates": [
+    {
+      "gate_id": "GATE-SCOPE-LOCATOR",
+      "description": "fabricated, nonexistent, or out-of-scope locator",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+      "description": "systematic incidental or unsupported locator pattern",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-CENTRAL-OMISSION",
+      "description": "central subject or conclusion materially omitted",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-STANCE",
+      "description": "heading reverses or seriously misrepresents source stance",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-COMPOUND",
+      "description": "compound heading locators support only separate components",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-SEE-SUBSTITUTION",
+      "description": "see source replaces a warranted substantive entry",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [
+        "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001"
+      ]
+    },
+    {
+      "gate_id": "GATE-CROSS-REFERENCE",
+      "description": "unresolved, self-referential, circular, or chained cross-reference",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [
+        "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001",
+        "DEFECT-STRUCT-XREF-SUPPLEMENTARY-001"
+      ]
+    },
+    {
+      "gate_id": "GATE-DEPTH",
+      "description": "third-level heading",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-CLUTTER",
+      "description": "systematic named-entity, example, or citation clutter",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [
+        "DEFECT-STRUCT-SUBDIVISION-001"
+      ]
+    },
+    {
+      "gate_id": "GATE-GROUNDING",
+      "description": "critical or major unresolved grounding",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-UNINSPECTABLE",
+      "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-SOURCE-SPAN",
+      "description": "wrong source span",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    },
+    {
+      "gate_id": "GATE-STRUCTURE",
+      "description": "structurally invalid or incomplete output",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": []
+    }
+  ],
+  "report_id": "oxford-history-french-revolution-2002-indexerlabs-truncated-v8",
+  "headline": "Subject-index evaluation",
+  "summary": "Current-V8 source-grounded evaluation from validated registered artifacts.",
+  "interpretation": "The validated V8 calculation produced an overall percentage of 77.43%.",
+  "defect_counts": {
+    "major": 1,
+    "minor": 3
+  },
+  "strengths": [
+    {
+      "strength_id": "STRENGTH-STRUCT-001",
+      "summary": "All 1644 delivered paths resolve through 1644 stable nodes in a complete hierarchy of 1056 main headings and 588 subheadings, with maximum depth 3.",
+      "affected_item_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [
+        "GLOBAL-STRUCTURE-SCOPE"
+      ]
+    },
+    {
+      "strength_id": "STRENGTH-STRUCT-002",
+      "summary": "Cross-chapter coherence is strong: 925 complete paths retrieve treatment in more than one approved intellectual unit while retaining stable path identities.",
+      "affected_item_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [
+        "GLOBAL-STRUCTURE-SCOPE"
+      ]
+    },
+    {
+      "strength_id": "STRENGTH-STRUCT-003",
+      "summary": "Registered locator review supports 5914 of 6221 atomic assignments, and exact displayed-to-atomic ownership reconstructs all 5055 delivered locator displays.",
+      "affected_item_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [
+        "GLOBAL-STRUCTURE-SCOPE"
+      ]
+    },
+    {
+      "strength_id": "STRENGTH-STRUCT-004",
+      "summary": "Eight of eleven cross-references resolve to substantive target heading trees; reciprocal see-also pairs remain supplementary rather than circular substitutive chains.",
+      "affected_item_ids": [
+        "XREF-09E6F426BD3E",
+        "XREF-15B6ADCE3B38",
+        "XREF-1A6D5852095D",
+        "XREF-211AFFA2C3E2",
+        "XREF-28E112033301",
+        "XREF-48CCAF0AF63F",
+        "XREF-53B4CA7F3982",
+        "XREF-DA708DF74A2A"
+      ],
+      "evidence_ids": [
+        "XREF-09E6F426BD3E",
+        "XREF-15B6ADCE3B38",
+        "XREF-1A6D5852095D",
+        "XREF-211AFFA2C3E2",
+        "XREF-28E112033301",
+        "XREF-48CCAF0AF63F",
+        "XREF-53B4CA7F3982",
+        "XREF-DA708DF74A2A"
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "defect_id": "DEFECT-STRUCT-SUBDIVISION-001",
+      "code": "SUB",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "clutter_pattern",
+      "affected_item_ids": [
+        "PATH-0C63FACA6CED",
+        "PATH-21F68C2B2947",
+        "PATH-2808CD626340",
+        "PATH-5969A52B4960",
+        "PATH-59F34776B0E9",
+        "PATH-7605F99DAB90",
+        "PATH-A254A6CC29F8",
+        "PATH-C48233FB6F4C",
+        "PATH-FF4BD0B64D83"
+      ],
+      "affected_source_sections": [],
+      "affected_structural_sections": [
+        "NODE-01D53B19F597",
+        "NODE-107554BF00D1",
+        "NODE-2D923995EDC0",
+        "NODE-39E9DC639883",
+        "NODE-6252CE8AED62",
+        "NODE-AA1D707267CB",
+        "NODE-D1BC8048EF51",
+        "NODE-D6EB1563ED92",
+        "NODE-D99501165F63"
+      ],
+      "root_cause_family": "undifferentiated_multi_phase_or_multi_role_treatments_impair_scanning",
+      "affected_count": 9,
+      "applicable_count": 1644,
+      "affected_rate": "0.005474",
+      "source_section_denominator": 17,
+      "source_section_rate": "0",
+      "structural_section_denominator": 1056,
+      "structural_section_rate": "0.008523",
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-STRUCT-XREF-SUPPLEMENTARY-001",
+      "code": "XRF",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "unsupported_reference",
+      "affected_item_ids": [
+        "XREF-1FB84F43D7ED",
+        "XREF-80B3F994D3ED"
+      ],
+      "affected_source_sections": [],
+      "affected_structural_sections": [
+        "NODE-66A9F1D61D8A",
+        "NODE-8768AD925301"
+      ],
+      "root_cause_family": "supplementary_cross_reference_targets_absent_from_complete_inventory",
+      "affected_count": 2,
+      "applicable_count": 11,
+      "affected_rate": "0.181818",
+      "source_section_denominator": 17,
+      "source_section_rate": "0",
+      "structural_section_denominator": 1056,
+      "structural_section_rate": "0.001894",
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001",
+      "code": "XRF",
+      "dimension_owner": "findability_navigation",
+      "severity": "major",
+      "severity_basis": "blocked_retrieval",
+      "retrieval_consequence": "blocks",
+      "defect_kind": "substitutive_see",
+      "affected_item_ids": [
+        "XREF-39A88974E771"
+      ],
+      "affected_source_sections": [],
+      "affected_structural_sections": [
+        "NODE-1EEBFD219FEB"
+      ],
+      "root_cause_family": "unresolvable_substitutive_see_target_with_no_direct_locator_access",
+      "affected_count": 1,
+      "applicable_count": 11,
+      "affected_rate": "0.090909",
+      "source_section_denominator": 17,
+      "source_section_rate": "0",
+      "structural_section_denominator": 1056,
+      "structural_section_rate": "0.000947",
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-STRUCT-MECHANICS-001",
+      "code": "MEC",
+      "dimension_owner": "mechanics_consistency",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "representation_corruption",
+      "affected_item_ids": [
+        "NODE-1EEBFD219FEB"
+      ],
+      "affected_source_sections": [],
+      "affected_structural_sections": [
+        "NODE-1EEBFD219FEB"
+      ],
+      "root_cause_family": "lexical_see_noun_misrepresented_as_cross_reference_control",
+      "affected_count": 1,
+      "applicable_count": 1644,
+      "affected_rate": "0.000608",
+      "source_section_denominator": 17,
+      "source_section_rate": "0",
+      "structural_section_denominator": 1056,
+      "structural_section_rate": "0.000947",
+      "high_priority_access_destroyed": false
+    }
+  ],
+  "examples": [],
+  "limitations": [
+    "The registered CHUNK-001 locator ledger records 2 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-002 locator ledger records 260 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-004 locator ledger records 1 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-005 locator ledger records 321 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-006 locator ledger records 1 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-007 locator ledger records 4 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-008 locator ledger records 3 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-011 locator ledger records 4 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-013 locator ledger records 4 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-014 locator ledger records 7 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-015 locator ledger records 363 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The delivered phrase 'Senez, see of, 143' is grammatically consistent with an episcopal-see heading plus locator 143, while the frozen normalized inventory represents it as a substitutive cross-reference. The audit scores the registered representation but preserves this attribution uncertainty.",
+    "Worker-reported approved-unit counts total 195,346 words versus the imported legacy whole-book aggregate of 194,718. No registered per-unit count artifact or locally available source PDF permits independent reproduction or resolution of the 628-word (0.32%) difference; any downstream density score remains provisional."
+  ],
+  "canonical_calculation": {
+    "schema_version": "subject-index-dimension-calculations-v6",
+    "artifact_path": "scoring/dimension-calculations.v6.json",
+    "sha256": "59ddca9578e957230c442934a928455d2058d746126d624eb88b173d0a5ac2a0",
+    "calculation_sha256": "2a297b18f308d4faf18efe51ed90eeb0e42b44a1f8315b7a40a51e4fe2790486",
+    "rubric_version": "subject-index-rubric-v8",
+    "calculation_profile": "subject-index-dimension-calculation-v5"
+  },
+  "canonical_structure_audit": {
+    "schema_version": "structure-audit-v6",
+    "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
+    "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd"
+  },
+  "canonical_heading_access_source": {
+    "role": "heading_access_causal_source",
+    "schema_version": "structure-audit-v6",
+    "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
+    "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd"
+  },
+  "projection_metadata_sha256": "3e4c18613b3ba6389baa5afdacc35870cad9c64b3a9385f7b4441087a577d6c7"
+}
