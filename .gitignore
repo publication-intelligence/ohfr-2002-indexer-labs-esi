@@ -3,4 +3,5 @@
 extracted-text/
 source-text/
 candidate-pdf/
+.evaluation.lock
 .DS_Store
