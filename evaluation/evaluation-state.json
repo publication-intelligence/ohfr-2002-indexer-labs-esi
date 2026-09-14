@@ -1,0 +1,609 @@
+{
+  "schema_version": "subject-index-evaluation-state-v6",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "created_at": "2026-09-14T01:45:45Z",
+  "updated_at": "2026-09-14T01:46:46Z",
+  "source": {
+    "title": "The Oxford History of the French Revolution",
+    "edition": "2002",
+    "filename": "Oxford_History_of_the_French_Revolution--source.pdf",
+    "sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "document_page_span": [
+      1,
+      425
+    ],
+    "document_page_basis": "one_based_inclusive"
+  },
+  "candidate": null,
+  "configuration": {
+    "audit_mode": "full",
+    "index_type": "subject_index",
+    "intended_readership": "scholarly",
+    "readership_provenance": {
+      "basis": "user_supplied",
+      "confidence": "high",
+      "rationale": "The intended readership was previously approved as scholarly for this exact source identity and is reused unchanged."
+    },
+    "output_format": "json",
+    "storage_mode": "local",
+    "policy_profile": "subject-index-standard-policy-v8",
+    "rubric_version": "subject-index-rubric-v8",
+    "scoring_identity": {
+      "rubric_version": "subject-index-rubric-v8",
+      "dimension_calculation_profile": "subject-index-dimension-calculation-v5"
+    }
+  },
+  "stages": {
+    "initialize": {
+      "status": "completed",
+      "updated_at": "2026-09-14T01:45:45Z",
+      "notes": []
+    },
+    "page_mapping": {
+      "status": "completed",
+      "updated_at": "2026-09-14T01:46:00Z",
+      "notes": [
+        "Re-expanded under evaluate-subject-index 66b63bc; byte-identical source identity and previously approved one-to-one labels 1-425."
+      ]
+    },
+    "chunk_definition": {
+      "status": "completed",
+      "updated_at": "2026-09-14T01:46:01Z",
+      "notes": [
+        "Revalidated the previously user-approved 17 chapter boundaries for the exact matching source and page map."
+      ]
+    },
+    "define_policy": {
+      "status": "completed",
+      "updated_at": "2026-09-14T01:46:01Z",
+      "notes": [
+        "Fresh standard V8 policy built for the current evaluator before any source discovery."
+      ]
+    },
+    "source_chunk_preparation": {
+      "status": "completed",
+      "updated_at": "2026-09-14T01:46:46Z",
+      "notes": [
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output."
+      ]
+    },
+    "source_subject_discovery": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "benchmark_synthesis": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "benchmark_review": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "benchmark_freeze": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "candidate_normalization": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "locator_chunk_preparation": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "locator_audit": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "missing_access_audit": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "structure_audit": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "scoring": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    },
+    "web_report": {
+      "status": "not_started",
+      "updated_at": null,
+      "notes": []
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "ART-493F1BBD1F10",
+      "stage": "chunk_definition",
+      "artifact_type": "chunk-manifest",
+      "path": "source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:01Z",
+      "schema_version": "chunk-manifest-v1"
+    },
+    {
+      "artifact_id": "ART-ECAB74F40706",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-001.pages.json",
+      "sha256": "c913e8e5f561bd4111b5935a621b4bcf08bc706b786ce90087318b87466688c3",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-3CE256DCFD46",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-001.pdf",
+      "sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:41Z"
+    },
+    {
+      "artifact_id": "ART-4DE5D530B44F",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-002.pages.json",
+      "sha256": "c153687a06887023930f204b5b35ee962c1c13d3bc14e54c137df3b43dc3a731",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-57268EE6264F",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-002.pdf",
+      "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:41Z"
+    },
+    {
+      "artifact_id": "ART-C982A69458FD",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-003.pages.json",
+      "sha256": "d93f8e157f969af31ac2807c9423d25572070d76d9d2f474d4a55fa0a113b871",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-D7D9A2FB86FB",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-003.pdf",
+      "sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:41Z"
+    },
+    {
+      "artifact_id": "ART-91151F8FE40A",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-004.pages.json",
+      "sha256": "623a46e1181a066ad7044afc0786ab263eed5ccd206ab714d47c3ce58fc77aa7",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-C5E3148232E1",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-004.pdf",
+      "sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-3EFD9AE31A35",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-005.pages.json",
+      "sha256": "23a684500e2d197a3fff4d5fbfffacd1f17e22adffa684cc4551573f0ec43788",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-1A5C1D4C43A1",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-005.pdf",
+      "sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-F60CB05C3AFB",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-006.pages.json",
+      "sha256": "c4c6a517c74219fe9bd4d1bdff81e8a2abdd2cb2576e1d2b99ec5faa832779dd",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-C3C871C027B5",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-006.pdf",
+      "sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-11EC77B13055",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-007.pages.json",
+      "sha256": "3cc1168bea4ef216076e040c0097a3f0b2df60c745450b030e525ed6e772ade1",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-E47960FAE5D4",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-007.pdf",
+      "sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-F0AE7AE72D52",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-008.pages.json",
+      "sha256": "6d270ebf00e6782edbec9e7cd3695c267cca18ac92f13435d96f25ee416b1863",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-E252900D2CC3",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-008.pdf",
+      "sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-64989BD0C516",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-009.pages.json",
+      "sha256": "d42e4846d642110a5b626ecea697f518bd614649043cdf7d707f4fb2134230a7",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-E281E4F9F653",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-009.pdf",
+      "sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-C6F166FDAF27",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-010.pages.json",
+      "sha256": "57b511c4ea8f977e972c3473f3f064f991623052ae1d863ff95a7bfeb217a7b8",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-1D3CFF737345",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-010.pdf",
+      "sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-4433910F3307",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-011.pages.json",
+      "sha256": "80a7235aa7e7e14d29dd2296c0eacfef58d883320b5f61b38076b38d6dd4e39a",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-65F1FA1F8694",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-011.pdf",
+      "sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-CEC87BFB0DCB",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-012.pages.json",
+      "sha256": "748ac77172ae2ef9b13ad258e5e2ee55fcc18bbd8e61129deebd72b308b22dab",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-4E0801B668BD",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-012.pdf",
+      "sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-91970D7A206A",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-013.pages.json",
+      "sha256": "546f44c130d675080b2010f90ab97d93ea6cf9fd322e6ce4e7f390d534dd8bd7",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:46Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-1317EA0B6CB2",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-013.pdf",
+      "sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-F543C53DC34C",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-014.pages.json",
+      "sha256": "2c8e0baaafe9e0070f36a34c5563d94d159a945c5106c80bc796ed09aad6dfb2",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:46Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-82F4478817EC",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-014.pdf",
+      "sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-1A1572243419",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-015.pages.json",
+      "sha256": "55f4391bc62b52ac3c01dc3d150431079873718b6cd40d2a2e320e1257ebdec8",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:46Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-2DC4A826EDA6",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-015.pdf",
+      "sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-DF686D5E0E30",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-016.pages.json",
+      "sha256": "a7f8889c72d6bd3c4e430cd72a1cb9698d1a4aee799ca66e824873d047aef95f",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:46Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-25744B24AF7F",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-016.pdf",
+      "sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-8189687B6FDE",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-017.pages.json",
+      "sha256": "9b5163a1bf2838421b39fff04b7aff05a0c64b11447d79fa44b70ad62665cbe6",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:46Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-7ADC198BD4B1",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-017.pdf",
+      "sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z"
+    },
+    {
+      "artifact_id": "ART-A837106EABCB",
+      "stage": "define_policy",
+      "artifact_type": "evaluation-policy-v4",
+      "path": "source/evaluation-policy.v4.json",
+      "sha256": "40206a8f9e2caf39b395fdab91b29ca073aeb544820b770a6974bd85e664f54f",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:01Z",
+      "schema_version": "subject-index-evaluation-policy-v4"
+    },
+    {
+      "artifact_id": "ART-9607411ECD7A",
+      "stage": "page_mapping",
+      "artifact_type": "expanded-page-map",
+      "path": "source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:00Z",
+      "schema_version": "page-map-v1"
+    }
+  ],
+  "blockers": []
+}
