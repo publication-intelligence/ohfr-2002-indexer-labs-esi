@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "created_at": "2026-09-14T01:45:45Z",
-  "updated_at": "2026-09-14T06:50:28Z",
+  "updated_at": "2026-09-14T07:31:43Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "2002",
@@ -149,9 +149,11 @@
       ]
     },
     "structure_audit": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-14T07:31:43Z",
+      "notes": [
+        "Validated and registered the native V8 structure audit atomically."
+      ]
     },
     "scoring": {
       "status": "not_started",
@@ -866,6 +868,23 @@
       "frozen": true,
       "recorded_at": "2026-09-14T06:50:27Z",
       "schema_version": "missing-access-audit-v1"
+    },
+    {
+      "artifact_id": "ART-4DC1881A5F8D",
+      "stage": "structure_audit",
+      "artifact_type": "structure_audit",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
+      "sha256": "067080d5695a318654aecc44cb18e9ee1698684af78c53d9c9439a2a761f39cd",
+      "media_type": "application/json",
+      "schema_version": "structure-audit-v6",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T07:31:43Z",
+      "input_sha256": [
+        "4eeea17c59c5ae9be6e159838c612a4d2d752b6d1c399a82d21ab02632fe91ec",
+        "e4efc2a79c30f7e36c4f1be68d5f87a32fa92b46f10d8534b1566ac0e92d6b78"
+      ]
     },
     {
       "artifact_id": "ART-AD63D721ED79",
