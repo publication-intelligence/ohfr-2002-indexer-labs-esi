@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "created_at": "2026-09-14T01:45:45Z",
-  "updated_at": "2026-09-14T01:46:46Z",
+  "updated_at": "2026-09-14T04:50:40Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "2002",
@@ -14,7 +14,16 @@
     ],
     "document_page_basis": "one_based_inclusive"
   },
-  "candidate": null,
+  "candidate": {
+    "candidate_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+    "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+    "schema_version": "candidate-index-v2",
+    "normalized_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-index.v2.json",
+    "normalized_sha256": "4eeea17c59c5ae9be6e159838c612a4d2d752b6d1c399a82d21ab02632fe91ec",
+    "item_inventory_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/item-inventory.v2.json",
+    "benchmark_path": "source/source-benchmark.v4.json",
+    "benchmark_sha256": "28e3c631cd717266153201f0c0c9450b1b79b91a76a587b0f0eaf2cfa79400b4"
+  },
   "configuration": {
     "audit_mode": "full",
     "index_type": "subject_index",
@@ -84,34 +93,46 @@
       ]
     },
     "source_subject_discovery": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-14T03:43:13Z",
+      "notes": [
+        "Imported exact candidate-blind legacy discovery release evidence; discovery was not rerun."
+      ]
     },
     "benchmark_synthesis": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-14T03:43:13Z",
+      "notes": [
+        "Imported the exact independently reviewed legacy frozen benchmark as synthesis evidence; synthesis was not rerun."
+      ]
     },
     "benchmark_review": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-14T03:43:13Z",
+      "notes": [
+        "Validated the legacy full review and a separate candidate-blind V8 compatibility approval; editorial review was not rerun."
+      ]
     },
     "benchmark_freeze": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-14T03:43:13Z",
+      "notes": [
+        "Mechanically normalized and rebound the reviewed legacy benchmark to the registered V8 policy; the full freeze workflow was not rerun."
+      ]
     },
     "candidate_normalization": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-14T04:50:28Z",
+      "notes": [
+        "Validated and registered directly from local preparation outputs."
+      ]
     },
     "locator_chunk_preparation": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-14T04:50:40Z",
+      "notes": [
+        "Registered 17 frozen locator packets with complete exact-once routing."
+      ]
     },
     "locator_audit": {
       "status": "not_started",
@@ -140,6 +161,357 @@
     }
   },
   "artifacts": [
+    {
+      "artifact_id": "ART-74FC6FE8AB96",
+      "stage": "candidate_normalization",
+      "artifact_type": "candidate_index",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-index.v2.json",
+      "sha256": "4eeea17c59c5ae9be6e159838c612a4d2d752b6d1c399a82d21ab02632fe91ec",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:28Z",
+      "schema_version": "candidate-index-v2"
+    },
+    {
+      "artifact_id": "ART-5D474006766A",
+      "stage": "candidate_normalization",
+      "artifact_type": "candidate_layout_extraction",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-layout-extraction.v1.json",
+      "sha256": "a2b262d264723847f6bd45d37973691101b9b790142458271cf13644ae3f0081",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:28Z",
+      "schema_version": "candidate-layout-extraction-v1"
+    },
+    {
+      "artifact_id": "ART-7D2A469243DC",
+      "stage": "candidate_normalization",
+      "artifact_type": "item_inventory",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/item-inventory.v2.json",
+      "sha256": "e4efc2a79c30f7e36c4f1be68d5f87a32fa92b46f10d8534b1566ac0e92d6b78",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:28Z",
+      "schema_version": "subject-index-item-inventory-v2"
+    },
+    {
+      "artifact_id": "ART-EC2D1CEEBF5B",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-001.json",
+      "sha256": "9e8abda90236ef0f3151a74caaa3c25b92d622b4be017d744a2af03692a804c3",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-1A7DECFD71CA",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-002.json",
+      "sha256": "c77f065694b7d05cd102d4e6db86d703f001b7f847f82bdc955b7e383c3ceea9",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-FDB1690DCABB",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-003.json",
+      "sha256": "8e3b89063b5f669ee41c26bb9e67ff875ea371959f69770507080bfe75ace3e7",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-AB96E932A344",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-004.json",
+      "sha256": "1d710811343cb25ddb642825c16785674b40d7490305d64bde1ab85551f98459",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-32455A27862F",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-005.json",
+      "sha256": "7f55f74b7081aa3ad547b1bb527ee22d4d9051ba80abda3ec4018853ddbcd76b",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-241A6BC25820",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-006.json",
+      "sha256": "490dd691bcc48d9d644d66d0b433322ba87ec7271e7c9b7a98cebcffd9f18302",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-CFAFD9165513",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-007.json",
+      "sha256": "0d1859826aae85e1f5b22bc30b30ef4b353837a52e3a1cd0c69916b1b7e3f166",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-EA707ABFA7A8",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-008.json",
+      "sha256": "b2f4e06dcd004340594ad0ec3807af57517a16b3ee4806d2dc93ef0e0795396e",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-77887AE17472",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-009.json",
+      "sha256": "d272965707d6ad2b81d34a46e3799ef659c04faf838b63e3ff85267d3ed9de67",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-50275488EAC1",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-010.json",
+      "sha256": "acd48f322eed453167dff28d776dcc93ffb210a4481d5e728747507477991a38",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-A53896042E08",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-011.json",
+      "sha256": "eb3c724ea246f764f7f6d64779f5efb23decf6a046fa31972ff160a6487c4f0c",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-2639C5B5D192",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-012.json",
+      "sha256": "e754d9db32adf4ac0d2d80fd9dbf3bca63d9318cd8bb4281907bd66c39f8d6c7",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-3E833182E0CD",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-013.json",
+      "sha256": "9420b8c27ce896646a97438e88af37a3d3a786b23888fd1acdd580e30fb266e1",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-B79D2FBB61C7",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-014.json",
+      "sha256": "73bcddfd6cb06e582af78134f3af6f72f02f4d2de0c89b90d891382580c1e364",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-F50FB22E83FB",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-015.json",
+      "sha256": "2e49e45daa6a1741cfe86586de5a38d1f1fb744709500159c943d355aa314356",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-80566432D3E8",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-016.json",
+      "sha256": "48c8e752b0bd4c63f184bff79922f84da850cdefc3f3903c2fba945b99f5dfc4",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-726D69E90627",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-017.json",
+      "sha256": "0192899bba21d4dd3da59105a41230c46c265c00bb49ca4432eafc827803e9a8",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T04:50:40Z"
+    },
+    {
+      "artifact_id": "ART-AD63D721ED79",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_legacy_discovery_release_evidence",
+      "path": "import/legacy-benchmark-v3/evaluation-state.json",
+      "sha256": "2bd0e712135430afccd5ba9f8dc1e61dc4a8b81cfdfdc7a511f0dc90759171ba",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-state-v4",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T03:43:13Z"
+    },
+    {
+      "artifact_id": "ART-95563585FA74",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_legacy_chunk_manifest_evidence",
+      "path": "import/legacy-benchmark-v3/source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "media_type": "application/json",
+      "schema_version": "chunk-manifest-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T03:43:13Z"
+    },
+    {
+      "artifact_id": "ART-5D119FF69568",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_legacy_policy_evidence",
+      "path": "import/legacy-benchmark-v3/source/evaluation-policy.v2.json",
+      "sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-policy-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T03:43:13Z"
+    },
+    {
+      "artifact_id": "ART-DB09D2E01AFC",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_legacy_page_map_evidence",
+      "path": "import/legacy-benchmark-v3/source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "media_type": "application/json",
+      "schema_version": "page-map-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T03:43:13Z"
+    },
+    {
+      "artifact_id": "ART-DA61A46B4105",
+      "stage": "benchmark_synthesis",
+      "artifact_type": "imported_reviewed_legacy_benchmark",
+      "path": "import/legacy-benchmark-v3/source/source-benchmark.v3.json",
+      "sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T03:43:13Z"
+    },
+    {
+      "artifact_id": "ART-56EB61895A68",
+      "stage": "benchmark_review",
+      "artifact_type": "legacy_full_review_inventory_evidence",
+      "path": "import/legacy-benchmark-v3/validation/source-benchmark-review-inventory.json",
+      "sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-inventory-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T03:43:13Z"
+    },
+    {
+      "artifact_id": "ART-0AD205D27D39",
+      "stage": "benchmark_review",
+      "artifact_type": "legacy_full_review_evidence",
+      "path": "import/legacy-benchmark-v3/validation/source-benchmark-review.v1.json",
+      "sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T03:43:13Z"
+    },
     {
       "artifact_id": "ART-493F1BBD1F10",
       "stage": "chunk_definition",
@@ -603,6 +975,45 @@
       "frozen": true,
       "recorded_at": "2026-09-14T01:46:00Z",
       "schema_version": "page-map-v1"
+    },
+    {
+      "artifact_id": "ART-58472DCF3082",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark",
+      "path": "source/source-benchmark.v4.json",
+      "sha256": "ef9d368722765258a1c1e30a895a00815edfe1a0681450d7c8e219ed140d5a35",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T03:43:13Z"
+    },
+    {
+      "artifact_id": "ART-5DF8ACC8589A",
+      "stage": "benchmark_review",
+      "artifact_type": "benchmark_compatibility_approval",
+      "path": "validation/benchmark-compatibility-approval.v1.json",
+      "sha256": "dae64b15dab9900a2003caad25fc1b0a036c7f447d4460838eb5b30fb9aa4bdf",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-compatibility-approval-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T03:43:13Z"
+    },
+    {
+      "artifact_id": "ART-0CAB77D2E493",
+      "stage": "benchmark_freeze",
+      "artifact_type": "benchmark_compatibility_import_provenance",
+      "path": "validation/benchmark-compatibility-import-provenance.v1.json",
+      "sha256": "d1911e876c78f14595ca59163ef82a956a9bd8375db6034a9d5c64fe9cd0048e",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-compatibility-import-provenance-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T03:43:13Z"
     }
   ],
   "blockers": []
