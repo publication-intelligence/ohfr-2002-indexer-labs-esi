@@ -1,0 +1,264 @@
+{
+  "schema_version": "subject-index-evaluation-policy-v2",
+  "policy_id": "oxford-history-french-revolution-2002-standard-policy-v2",
+  "policy_profile": {
+    "id": "subject-index-standard-policy-v1",
+    "standard_policy_sha256": "59c528cf2b30b883fe0a73c9426cc3ed0467352109750839df7c8dfd9ca72f60"
+  },
+  "source_scope": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "document_page_span": [
+      1,
+      425
+    ],
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "included": [
+      "preparation-approved indexable content",
+      "substantive body, chapter, and part text",
+      "substantive block quotations",
+      "substantive inspectable notes, footnotes, and endnotes",
+      "substantive captions and table text",
+      "eligible text whose role remains unknown",
+      "all substantive content on supplied document pages 1-425",
+      "substantive maps and captions within the supplied body pages",
+      "chapter synthesis and final-conclusion passages"
+    ],
+    "excluded": [
+      "front or back matter designated nonindexable",
+      "bibliographies and source lists",
+      "publisher and candidate indexes",
+      "contents pages and navigation lists",
+      "running furniture and page numbers",
+      "proof or production material",
+      "graph internals and ignored regions",
+      "material unavailable in the supplied source",
+      "front matter absent from the supplied source",
+      "notes and endnotes absent from the supplied source",
+      "bibliography absent from the supplied source",
+      "publisher index absent from the supplied source"
+    ],
+    "availability": {
+      "body_text": "present_and_inspectable",
+      "maps_and_captions": "present_and_inspectable_when_encountered",
+      "front_matter": "absent_from_supplied_source",
+      "notes_and_endnotes": "absent_from_supplied_source",
+      "bibliography": "absent_from_supplied_source",
+      "publisher_index": "absent_from_supplied_source"
+    },
+    "mixed_page_rule": "Evaluate eligible regions and ignore excluded regions on the same page.",
+    "word_count_basis": "indexable source words only"
+  },
+  "audience": {
+    "label": "scholarly",
+    "basis": "user_supplied",
+    "confidence": "high",
+    "rationale": "The user explicitly identified the intended readership as scholarly."
+  },
+  "audit_design": {
+    "mode": "full",
+    "candidate_blindness": "required",
+    "uncertainty_policy": "Record uncertainty explicitly; adjudicate every critical, major, and uncertain item; exclude uninspectable locators from precision denominators and disclose them.",
+    "uninspectable_locator_rate_tolerance": 0.01
+  },
+  "content_policies": {
+    "scope_compliance": {
+      "rule_reference": "standard-policy.md#1-scope-compliance",
+      "profile": "subject-index-standard-policy-v1"
+    },
+    "substantive_coverage": {
+      "rule_reference": "standard-policy.md#2-substantive-coverage",
+      "profile": "subject-index-standard-policy-v1"
+    },
+    "editorial_selectivity": {
+      "rule_reference": "standard-policy.md#3-editorial-selectivity",
+      "profile": "subject-index-standard-policy-v1"
+    },
+    "conceptual_stance_fidelity": {
+      "rule_reference": "standard-policy.md#4-conceptual-and-stance-fidelity",
+      "profile": "subject-index-standard-policy-v1"
+    },
+    "heading_access_architecture": {
+      "rule_reference": "standard-policy.md#5-heading-and-access-architecture",
+      "profile": "subject-index-standard-policy-v1"
+    },
+    "locator_quality": {
+      "rule_reference": "standard-policy.md#6-locator-quality",
+      "profile": "subject-index-standard-policy-v1"
+    },
+    "compound_heading_scope": {
+      "rule_reference": "standard-policy.md#7-compound-heading-scope",
+      "profile": "subject-index-standard-policy-v1"
+    },
+    "cross_references": {
+      "rule_reference": "standard-policy.md#8-cross-references",
+      "profile": "subject-index-standard-policy-v1"
+    },
+    "whole_index_coherence": {
+      "rule_reference": "standard-policy.md#9-whole-index-coherence",
+      "profile": "subject-index-standard-policy-v1"
+    },
+    "mechanical_validity": {
+      "rule_reference": "standard-policy.md#10-mechanical-validity",
+      "profile": "subject-index-standard-policy-v1"
+    }
+  },
+  "stage_application": {
+    "source_subject_discovery": [
+      "scope_compliance",
+      "substantive_coverage",
+      "editorial_selectivity",
+      "conceptual_stance_fidelity",
+      "locator_quality"
+    ],
+    "benchmark_freeze": [
+      "substantive_coverage",
+      "conceptual_stance_fidelity",
+      "heading_access_architecture",
+      "whole_index_coherence"
+    ],
+    "locator_audit": [
+      "scope_compliance",
+      "editorial_selectivity",
+      "conceptual_stance_fidelity",
+      "locator_quality",
+      "compound_heading_scope"
+    ],
+    "missing_access_audit": [
+      "substantive_coverage",
+      "conceptual_stance_fidelity",
+      "heading_access_architecture",
+      "locator_quality",
+      "cross_references"
+    ],
+    "structure_audit": [
+      "scope_compliance",
+      "editorial_selectivity",
+      "conceptual_stance_fidelity",
+      "heading_access_architecture",
+      "compound_heading_scope",
+      "cross_references",
+      "whole_index_coherence",
+      "mechanical_validity"
+    ],
+    "deterministic_validation": [
+      "scope_compliance",
+      "heading_access_architecture",
+      "locator_quality",
+      "cross_references",
+      "mechanical_validity"
+    ]
+  },
+  "density_profile": {
+    "status": "scored",
+    "measurement_level": "chapter_or_approved_intellectual_unit",
+    "aggregation": "indexable_source_word_weighted_mean",
+    "rounding": "nearest_0.5_after_aggregation",
+    "metrics": [
+      {
+        "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+        "unit": "locator-bearing complete heading paths per 1,000 indexable source words",
+        "scored": true,
+        "weight": 0.5,
+        "target": 8.0,
+        "ideal_min": 6.0,
+        "ideal_max": 10.0,
+        "acceptable_min": 4.0,
+        "acceptable_max": 12.0,
+        "provenance": "subject-index-standard-policy-v1"
+      },
+      {
+        "metric_id": "locator_occurrences_per_1000_source_words",
+        "unit": "expanded locator occurrences per 1,000 indexable source words",
+        "scored": true,
+        "weight": 0.5,
+        "target": 20.0,
+        "ideal_min": 15.0,
+        "ideal_max": 25.0,
+        "acceptable_min": 10.0,
+        "acceptable_max": 30.0,
+        "provenance": "subject-index-standard-policy-v1"
+      }
+    ],
+    "short_unit_rule": "Treat an unstable short unit as descriptive or combine it with a declared adjacent unit.",
+    "rationale": "Permissive calibration for finished-index scale and distribution; never a subject-discovery quota or hard ceiling.",
+    "maximum_score_contribution": 5
+  },
+  "critical_gates": [
+    {
+      "gate_id": "GATE-SCOPE-LOCATOR",
+      "description": "fabricated, nonexistent, or out-of-scope locator",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+      "description": "systematic incidental or unsupported locator pattern",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-CENTRAL-OMISSION",
+      "description": "central subject or conclusion materially omitted",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-STANCE",
+      "description": "heading reverses or seriously misrepresents source stance",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-COMPOUND",
+      "description": "compound heading locators support only separate components",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-SEE-SUBSTITUTION",
+      "description": "see source replaces a warranted substantive entry",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-CROSS-REFERENCE",
+      "description": "unresolved, self-referential, circular, or chained cross-reference",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-DEPTH",
+      "description": "third-level heading",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-CLUTTER",
+      "description": "systematic named-entity, example, or citation clutter",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-GROUNDING",
+      "description": "critical or major unresolved grounding",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-UNINSPECTABLE",
+      "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-SOURCE-SPAN",
+      "description": "wrong source span",
+      "standard": true
+    },
+    {
+      "gate_id": "GATE-STRUCTURE",
+      "description": "structurally invalid or incomplete output",
+      "standard": true
+    }
+  ],
+  "rubric": {
+    "version": "subject-index-rubric-v4",
+    "maximum_points": 100
+  },
+  "deviations": [],
+  "freeze": {
+    "frozen_at": "2026-08-22T19:30:32Z",
+    "candidate_seen": false
+  },
+  "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a"
+}

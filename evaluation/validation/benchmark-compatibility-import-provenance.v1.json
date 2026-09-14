@@ -1,0 +1,68 @@
+{
+  "schema_version": "source-benchmark-compatibility-import-provenance-v1",
+  "migration_id": "oxford-2002-benchmark-v3-v8-compatibility-approval-v1",
+  "imported_at": "2026-09-14T03:43:13Z",
+  "operation": "reviewed_legacy_benchmark_compatibility_import",
+  "compatibility_approval": {
+    "approval_id": "oxford-2002-benchmark-v3-v8-compatibility-approval-v1",
+    "file_sha256": "dae64b15dab9900a2003caad25fc1b0a036c7f447d4460838eb5b30fb9aa4bdf"
+  },
+  "legacy": {
+    "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "benchmark_id": "oxford-history-french-revolution-2002-source-benchmark",
+    "version": 3,
+    "benchmark_file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+    "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+    "policy_file_sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "page_map_file_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_file_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "review_file_sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+    "review_inventory_file_sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9",
+    "state_file_sha256": "2bd0e712135430afccd5ba9f8dc1e61dc4a8b81cfdfdc7a511f0dc90759171ba",
+    "artifact_freeze_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab"
+  },
+  "current": {
+    "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "benchmark_id": "oxford-history-french-revolution-2002-source-benchmark-v8-import",
+    "version": 4,
+    "policy_file_sha256": "40206a8f9e2caf39b395fdab91b29ca073aeb544820b770a6974bd85e664f54f",
+    "policy_sha256": "fc1aec7bf1c4a29f146a31d941e11df305944e88dcd214ee7f352acdedc43499",
+    "page_map_file_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_file_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "frozen_at": "2026-09-14T03:39:50Z",
+    "benchmark_sha256": "28e3c631cd717266153201f0c0c9450b1b79b91a76a587b0f0eaf2cfa79400b4",
+    "benchmark_file_sha256": "ef9d368722765258a1c1e30a895a00815edfe1a0681450d7c8e219ed140d5a35"
+  },
+  "normalization": {
+    "operations": [
+      "relationships[*].type->relationship_type"
+    ],
+    "relationships_normalized": 3460,
+    "semantic_content_preserved": true
+  },
+  "preserved_stable_ids": {
+    "subjects": {
+      "count": 1366,
+      "sha256": "2e507ec0f713bdffd31c9e547e37bdb9fbde9f832cdc2ed1d9fa02e80a2ee3f9"
+    },
+    "relationships": {
+      "count": 3460,
+      "sha256": "84a4705f6a019fc7f788e0e1d0a9b816b66e76c833c4eb93866d334dd6e575d4"
+    },
+    "reader_tasks": {
+      "count": 1026,
+      "sha256": "2e7e6a8634b0fa76377cb6dace626530df327a26dc0b4769e6f2abb81d7e9a03"
+    },
+    "evidence": {
+      "count": 3246,
+      "sha256": "b8257c61f59ef3a130371c3d8bdd08788bc74046c4627fbb4cf6b2598ac6eab2"
+    }
+  }
+}
