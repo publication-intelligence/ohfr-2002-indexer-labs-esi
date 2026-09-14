@@ -5,9 +5,9 @@ Candidate-specific evaluation artifacts for the IndexerLabs subject index to Wil
 ## Current V8 run
 
 [`evaluation/evaluation-state.json`](evaluation/evaluation-state.json) is the only
-canonical control file. It was initialized with the current V8 workflow from
-`evaluate-subject-index` commit `66b63bc` and currently stops at
-`source_subject_discovery`.
+canonical control file. All V8 stages are complete: candidate preparation,
+locator auditing, missing-access auditing, global structure auditing, scoring,
+and web-report generation.
 
 The exact 425-page source identity, previously approved one-to-one page labels,
 and previously approved 17 chapter boundaries were revalidated under the current
@@ -16,14 +16,40 @@ restricted source PDF and derived chapter PDFs remain local and are excluded by
 `.gitignore`; the registered page map, chunk manifest, policy, and chunk sidecars
 live under [`evaluation/source/`](evaluation/source/).
 
-[`source-preparation.portable.zip`](evaluation/checkpoints/source-preparation.portable.zip)
-is the portable recovery checkpoint for this milestone. It intentionally omits
-the 17 restricted source packet PDFs.
+The candidate-blind frozen benchmark was not rebuilt. It was imported from
+[`publication-intelligence/ohfr-2002-esi-benchmark`](https://github.com/publication-intelligence/ohfr-2002-esi-benchmark)
+at freeze `98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab` after exact source, page-map,
+chunk, and benchmark-identity checks plus a separate V8 compatibility review.
+The import provenance and approval are under [`evaluation/validation/`](evaluation/validation/).
 
-The former `benchmark.lock.json` described an obsolete policy/rubric contract and
-has been removed. Do not migrate or reinterpret that historical benchmark as a
-current V8 benchmark. Source discovery, synthesis, independent review, and freeze
-must produce current-schema artifacts in this canonical state.
+[`completed-evaluation.portable.zip`](evaluation/checkpoints/completed-evaluation.portable.zip)
+is the final portable recovery checkpoint. It contains 92 registered artifacts
+and intentionally omits the 17 restricted source packet PDFs.
+
+## Result
+
+The independently reproduced V8 overall score is **77.43%**.
+
+| Dimension | Score |
+| --- | ---: |
+| Meaningful Coverage | 80.04% |
+| Editorial Selectivity | 65.17% |
+| Conceptual/Stance Fidelity | 97.63% |
+| Page-reference Reliability | 80.00% |
+| Findability/Navigation | 60.00% |
+| Mechanics/Consistency | 99.99% |
+
+The locator audit covers 6,221 atomic assignments: 5,914 supported, 71 partially
+supported, and 236 unsupported. Missing-access auditing covers 1,366 subjects,
+1,026 reader tasks, and 3,210 treatments; 2,705 treatments were found and 505
+were missed. The published score triggers the see-substitution, cross-reference,
+and clutter gates. See [`evaluation-result.v12.json`](evaluation/scoring/evaluation-result.v12.json)
+and [`web-report.v10.json`](evaluation/scoring/web-report.v10.json) for the exact
+calculation and report projection.
+
+Density remains provisional: chapter-level counts total 195,346 words, 628 words
+(0.32%) above the imported legacy whole-book aggregate, and no registered
+per-unit word-count artifact is available to resolve the difference.
 
 ## Contents
 
@@ -49,21 +75,16 @@ The standalone evaluator utility converts it to
 The converter's repeated-furniture fix now reproduces the checked-in layout
 artifact byte-for-byte: 2,211 extracted lines, 49 excluded running-header lines,
 and 2,162 retained index lines. Mechanical normalization has also produced the
-current candidate-index V2 and item-inventory V2 drafts under
-[`evaluation/candidates/`](evaluation/candidates/). The 25-item normalization
-issues ledger under [`evaluation/validation/`](evaluation/validation/) still
-requires explicit review and disposition, so candidate preparation is not yet
-registered in canonical state.
-
-Source discovery must happen in candidate-blind contexts; do not expose the
-candidate layout or this repository's candidate directory to discovery workers.
+registered candidate-index V2 and item-inventory V2 artifacts under
+[`evaluation/candidates/`](evaluation/candidates/), with 1,644 normalized paths,
+5,055 displayed locators, and 6,221 atomic assignments. Normalization completed
+with no unresolved issues or locator-routing exceptions.
 
 ## Next stage
 
-Run candidate-blind source discovery for all 17 registered chunks, validate the
-complete batch, synthesize and independently review the benchmark, and freeze it
-with the typed V8 transition. Candidate normalization may proceed mechanically in
-a separate context, but registration waits for benchmark freeze.
+No evaluation stage remains. Use the final checkpoint for resume or transfer,
+and regenerate deterministic scoring/report artifacts only after an approved
+change to a registered input.
 
 ## Rights
 
