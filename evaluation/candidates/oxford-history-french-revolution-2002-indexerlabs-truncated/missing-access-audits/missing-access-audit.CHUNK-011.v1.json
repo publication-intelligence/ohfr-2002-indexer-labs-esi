@@ -1,7 +1,7 @@
 {
   "schema_version": "missing-access-audit-v1",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
-  "benchmark_sha256": "8bac014f723286d4b4ded858bcb1c118246b6bce2a25e56bbabdfae66cc55e4a",
+  "benchmark_sha256": "4e3147464c9a907d5d9c6ce689bae53bb1f9ace53b99c0146b49a105629e6562",
   "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
   "chunk_id": "CHUNK-011",
   "expected_subject_ids": [

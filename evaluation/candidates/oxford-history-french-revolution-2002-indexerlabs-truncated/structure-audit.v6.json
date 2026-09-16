@@ -29827,7 +29827,26 @@
         "EVID-A363CCD370A8",
         "EVID-8593059C70A4",
         "EVID-XREF-1FB84F43D7ED"
-      ]
+      ],
+      "target_resolution": {
+        "status": "no_valid_destination",
+        "reference_type": "see also",
+        "target_display": "abolition of slavery",
+        "resolved_path_ids": [],
+        "evidence_ids": [
+          "EVID-9858B3B20B48",
+          "EVID-3EF4119FDF7A",
+          "EVID-FCAE4359F6F7",
+          "EVID-E05D42F97BF4",
+          "EVID-E6EAD5FE3983",
+          "EVID-03597F3EC0D5",
+          "EVID-6CF2552D527B",
+          "EVID-A363CCD370A8",
+          "EVID-8593059C70A4",
+          "EVID-XREF-1FB84F43D7ED"
+        ],
+        "rationale": "The frozen exception explicitly records absence of this delivered target in the complete candidate inventory. The originating heading retains direct locators, but those do not supply the absent target. This encodes the existing complete-inventory finding, not an inference from null normalization metadata."
+      }
     },
     {
       "reference_id": "XREF-80B3F994D3ED",
@@ -29847,7 +29866,27 @@
         "EVID-951D667E68F0",
         "EVID-5E127DF3A989",
         "EVID-XREF-80B3F994D3ED"
-      ]
+      ],
+      "target_resolution": {
+        "status": "no_valid_destination",
+        "reference_type": "see also",
+        "target_display": "9 Thermidor",
+        "resolved_path_ids": [],
+        "evidence_ids": [
+          "EVID-6AD6343A3595",
+          "EVID-9A6246DC5022",
+          "EVID-55B6DC01C491",
+          "EVID-C7AC27EAC5BA",
+          "EVID-06C39B6DFE6D",
+          "EVID-063FF3608951",
+          "EVID-B20E0CE4952E",
+          "EVID-5B7D20726886",
+          "EVID-951D667E68F0",
+          "EVID-5E127DF3A989",
+          "EVID-XREF-80B3F994D3ED"
+        ],
+        "rationale": "The frozen exception explicitly records absence of this delivered target in the complete candidate inventory. The originating heading retains direct locators, but those do not supply the absent target. This encodes the existing complete-inventory finding, not an inference from null normalization metadata."
+      }
     }
   ],
   "locator_architecture": {

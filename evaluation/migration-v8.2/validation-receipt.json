@@ -1,0 +1,52 @@
+{
+  "schema_version": "indexerlabs-v82-migration-validation-v1",
+  "methodology_revision": "adeb69171a3278893e8b7ebb3c664ee5bd428efe",
+  "installation_receipt_sha256": "77f27d2142de8be509faf94a6f8159a3913bad14f6fa96afc1a06bb11dbfd987",
+  "installed_files_verified": 110,
+  "checks": {
+    "project_tests": {
+      "passed": 16,
+      "failed": 0
+    },
+    "methodology_tests": {
+      "passed": 170,
+      "failed": 0
+    },
+    "canonical_state": {
+      "command": "validate",
+      "ok": true,
+      "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+      "errors": [],
+      "warnings": []
+    },
+    "complete_current_bundle": {
+      "ok": true,
+      "current_source_bindings_checked": 26,
+      "collections": 3
+    },
+    "numeric_invariance": "All dimension fields equal except versioned formula_id and input_artifacts; all overall, diagnostic grade and arithmetic fields unchanged.",
+    "frozen_judgments": "Identical; structure differs only by two typed target_resolution additions; missing-access benchmark hash rebound.",
+    "native_provenance": "Original policy identity, freeze and referenced file bytes verified by policy build and regression test.",
+    "canonical_calculation_reproduction": "Full JSON equal at standard Decimal precision 28."
+  },
+  "overall_percentage": 85.12,
+  "evaluation_validity": {
+    "status": "valid",
+    "blockers": [],
+    "used_as_publication_gate": false
+  },
+  "gate_assessment_status": "indeterminate",
+  "assessment_blocker_count": 2680,
+  "triggered_gates": [
+    {
+      "gate_id": "GATE-WRONG-LOCATOR",
+      "distinct_items": 87
+    },
+    {
+      "gate_id": "GATE-BROKEN-REFERENCE",
+      "distinct_items": 2
+    }
+  ],
+  "readiness": "not_publication_ready",
+  "release_limitation": "Provisional gate assessment: methodology owner confirmed path-uncertainty over-expansion in adeb691. Preserve checkpoint; final gates await reviewed patch receipt."
+}

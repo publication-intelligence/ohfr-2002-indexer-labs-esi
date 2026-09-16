@@ -31,7 +31,7 @@ class V81CorrectionTests(unittest.TestCase):
     def setUpClass(cls):
         cls.state = load(EV / 'evaluation-state.json')
         cls.candidate_dir = EV / Path(cls.state['candidate']['normalized_path']).parent
-        cls.score_dir = EV / 'scoring-v81'
+        cls.score_dir = EV / Path(next(a['path'] for a in cls.state['artifacts'] if a['artifact_type'] == 'dimension_calculations')).parent
         cls.calculation = load(cls.score_dir / 'dimension-calculations.v6.json')
         cls.result = load(cls.score_dir / 'evaluation-result.v12.json')
         cls.structure = load(cls.candidate_dir / 'structure-audit.v6.json')
@@ -91,7 +91,7 @@ class V81CorrectionTests(unittest.TestCase):
 
     def test_consequences_and_review_signals(self):
         self.assertEqual('valid', self.result['evaluation_validity']['status'])
-        self.assertFalse(any(g['triggered'] for g in self.result['critical_gates']))
+        self.assertEqual({'GATE-WRONG-LOCATOR', 'GATE-BROKEN-REFERENCE'}, {g['gate_id'] for g in self.result['critical_gates'] if g['triggered']})
         caps = [c for d in self.calculation['dimensions'] for c in d['cap_evaluations'] if c['triggered']]
         self.assertEqual({'coverage.essential_miss_rate', 'reliability.distributed_unsupported_pattern'}, {c['cap_id'] for c in caps})
         self.assertTrue(all(d['dimension_percentage'] == d['pre_cap_percentage'] for d in self.calculation['dimensions']))

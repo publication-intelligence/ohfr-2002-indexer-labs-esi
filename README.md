@@ -1,23 +1,31 @@
 # Subject Index Evaluation: IndexerLabs / The Oxford History of the French Revolution (2002)
 
-The current evaluation uses **V8.1** and scores **85.12%**, with valid evaluation
-evidence, no triggered publication gates, and two non-binding 90% ceilings.
-This result applies only to `subject-index-standard-policy-v8.1`,
-`subject-index-rubric-v8.1`, and `subject-index-dimension-calculation-v6`.
-A further methodology migration and website cutover are on hold pending the
-coordinator's verified release/install receipt.
+The interim evaluation checkpoint uses **V8.2** and scores **85.12%**, unchanged from the
+corrected V8.1 checkpoint. Evaluation validity is valid, but publication readiness
+is **not ready**: two direct gates identify 87 confirmed wrong locators and two
+broken cross-references. Gate assessment is indeterminate for 2,680 additional
+locator items affected by preserved locator/path uncertainties; these are not
+new candidate defects. Both 90% dimension ceilings remain non-binding.
+The active identities are `subject-index-standard-policy-v8.2`,
+`subject-index-rubric-v8.2`, and `subject-index-dimension-calculation-v7`.
+Gate counts and assessment gaps are provisional: the methodology owner confirmed
+a path-uncertainty expansion bug in this release. Final gate publication awaits
+the reviewed patch receipt. Website deployment and evaluation PR merge require
+user approval.
 
 ## Current artifacts
 
+- [V8.2 migration and provenance](evaluation/migration-v8.2/REPORT.md)
+- [V8.2 migration ledger](evaluation/migration-v8.2/migration-ledger.json)
 - [Canonical state](evaluation/evaluation-state.json)
 - [Correction and migration report](evaluation/migration-v8.1/CORRECTION.md)
 - [Detailed correction ledger](evaluation/migration-v8.1/correction-ledger.json)
 - [Validation results](evaluation/migration-v8.1/correction-validation.json)
-- [Evaluation result](evaluation/scoring-v81/evaluation-result.v12.json)
-- [Web report](evaluation/scoring-v81/web-report.v10.json)
-- [Canonical public projection](evaluation/scoring-v81/v8-canonical-projection/projection.v1.json)
+- [Evaluation result](evaluation/scoring-v82/evaluation-result.v12.json)
+- [Web report](evaluation/scoring-v82/web-report.v10.json)
+- [Canonical public projection](evaluation/scoring-v82/v8-canonical-projection/projection.v1.json)
 
-| Dimension | V8.1 score |
+| Dimension | V8.2 score |
 | --- | ---: |
 | Meaningful Coverage | 80.04% |
 | Editorial Selectivity | 64.98% |
@@ -51,9 +59,18 @@ This supplement changes no arithmetic, caps, gates, or audit judgments.
 
 The current report supplies all six dimension denominators. Existing completed
 outputs require explicit invalidation/replacement; do not run the historical
-V8 builder against current V8.1 evidence. No website deployment has been made.
+V8 builder against current V8.2 evidence. No website deployment has been made.
 
 ## Preserved history
+
+The independent Senez repair and targeted V8.1 correction remain at
+`48bb67b434335cd90002f7bf2078a8a176e2a525`, with their exact scoring/report bytes
+under `evaluation/scoring-v81/`. The V8.2 migration reuses that 85.12% checkpoint.
+It records actual candidate visibility and preserves the original candidate-blind
+freeze separately. All six dimensions, numeric components, deductions and caps
+are invariant; only version identities, evidence bindings and publication gates
+change. No source discovery, normalization or substantive audits were rerun.
+
 
 The original V8 evaluation scores **77.40%** and is preserved at
 `11a3710435a4f870378929652cbc3f7c7e5f459b`. Its original scoring/report files remain
