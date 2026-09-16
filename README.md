@@ -1,29 +1,27 @@
 # Subject Index Evaluation: IndexerLabs / The Oxford History of the French Revolution (2002)
 
-The interim evaluation checkpoint uses **V8.2** and scores **85.12%**, unchanged from the
-corrected V8.1 checkpoint. Evaluation validity is valid, but publication readiness
-is **not ready**: two direct gates identify 87 confirmed wrong locators and two
-broken cross-references. Gate assessment is indeterminate for 2,680 additional
-locator items affected by preserved locator/path uncertainties; these are not
-new candidate defects. Both 90% dimension ceilings remain non-binding.
-The active identities are `subject-index-standard-policy-v8.2`,
-`subject-index-rubric-v8.2`, and `subject-index-dimension-calculation-v7`.
-Gate counts and assessment gaps are provisional: the methodology owner confirmed
-a path-uncertainty expansion bug in this release. Final gate publication awaits
-the reviewed patch receipt. Website deployment and evaluation PR merge require
-user approval.
+The current evaluation uses **V8.2** and scores **85.12%**, unchanged from the
+corrected V8.1 checkpoint. Evaluation validity is valid; publication readiness
+is **not ready**. Two direct gates identify 140 confirmed wrong locators and two
+broken cross-references. Assessment remains indeterminate for 970 explicitly
+identified uncertain locators. These gaps are not additional candidate defects.
+Both 90% dimension ceilings remain non-binding. The final runtime is reviewed
+revision `c11c6ccb16000fe79646af16b7be01f6cbeeac78`.
+Website deployment and evaluation PR merge require user approval.
 
 ## Current artifacts
 
-- [V8.2 migration and provenance](evaluation/migration-v8.2/REPORT.md)
+- [Final scoped-uncertainty migration](evaluation/migration-v8.2-final/REPORT.md)
+- [Final validation and invariance receipt](evaluation/migration-v8.2-final/validation-receipt.json)
+- [Interim V8.2 migration and provenance](evaluation/migration-v8.2/REPORT.md)
 - [V8.2 migration ledger](evaluation/migration-v8.2/migration-ledger.json)
 - [Canonical state](evaluation/evaluation-state.json)
 - [Correction and migration report](evaluation/migration-v8.1/CORRECTION.md)
 - [Detailed correction ledger](evaluation/migration-v8.1/correction-ledger.json)
 - [Validation results](evaluation/migration-v8.1/correction-validation.json)
-- [Evaluation result](evaluation/scoring-v82/evaluation-result.v12.json)
-- [Web report](evaluation/scoring-v82/web-report.v10.json)
-- [Canonical public projection](evaluation/scoring-v82/v8-canonical-projection/projection.v1.json)
+- [Evaluation result](evaluation/scoring-v82-final/evaluation-result.v12.json)
+- [Web report](evaluation/scoring-v82-final/web-report.v10.json)
+- [Canonical public projection](evaluation/scoring-v82-final/v8-canonical-projection/projection.v1.json)
 
 | Dimension | V8.2 score |
 | --- | ---: |

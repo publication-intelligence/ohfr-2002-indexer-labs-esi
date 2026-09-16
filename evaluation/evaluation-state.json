@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "created_at": "2026-09-14T01:45:45Z",
-  "updated_at": "2026-09-16T17:25:06Z",
+  "updated_at": "2026-09-16T17:51:15Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "2002",
@@ -153,21 +153,21 @@
     },
     "structure_audit": {
       "status": "completed",
-      "updated_at": "2026-09-16T17:18:51Z",
+      "updated_at": "2026-09-16T17:48:35Z",
       "notes": [
         "Validated and registered the native V8 structure audit atomically."
       ]
     },
     "scoring": {
       "status": "completed",
-      "updated_at": "2026-09-16T17:19:21Z",
+      "updated_at": "2026-09-16T17:48:51Z",
       "notes": [
         "Assembled registered inputs, calculated V8 dimensions, and registered the validated V12 result atomically."
       ]
     },
     "web_report": {
       "status": "completed",
-      "updated_at": "2026-09-16T17:19:41Z",
+      "updated_at": "2026-09-16T17:49:08Z",
       "notes": [
         "Built and registered web-report.v10 and the complete canonical public web projection bundle atomically."
       ]
@@ -656,17 +656,17 @@
       "schema_version": "missing-access-audit-v1"
     },
     {
-      "artifact_id": "ART-1728EF85BDF6",
+      "artifact_id": "ART-D8F7806E10EA",
       "stage": "structure_audit",
       "artifact_type": "structure_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
-      "sha256": "1baacd49677520a9145805f315dcc2e9957ede3e040c8370963def8c83838812",
+      "sha256": "23428a458ddc9ac01688f2ddb10296377559ee19d9710b8884486f17cbc6da8a",
       "media_type": "application/json",
       "schema_version": "structure-audit-v6",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:18:51Z",
+      "recorded_at": "2026-09-16T17:48:35Z",
       "input_sha256": [
         "2c14c47659ae018853ff57acbe2dec45c3c6058e1442f88faa28311014475981",
         "48c489e56077e886c6cd50e000fa293ed0d11eccdc461ed3b63817b42a9735e4"
@@ -985,17 +985,69 @@
       "recorded_at": "2026-09-16T16:33:28Z"
     },
     {
+      "artifact_id": "ART-000BEFA1C006",
+      "stage": "scoring",
+      "artifact_type": "migration_provenance",
+      "path": "migration-v8.2-final/REPORT.md",
+      "sha256": "725f8dc1c023f255b9610dc7ae7d81533a6038535d37011f15b209de686a57d7",
+      "media_type": "text/markdown",
+      "schema_version": "indexerlabs-migration-provenance-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T17:51:15Z"
+    },
+    {
+      "artifact_id": "ART-D0F3A58C067D",
+      "stage": "scoring",
+      "artifact_type": "migration_provenance",
+      "path": "migration-v8.2-final/migration-ledger.json",
+      "sha256": "31918c5d300aeeb49fe4563363fbdcddf5271001fd59cacb23b91e433cf64807",
+      "media_type": "application/json",
+      "schema_version": "indexerlabs-v82-final-ledger-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T17:51:15Z"
+    },
+    {
+      "artifact_id": "ART-13CFD85DB292",
+      "stage": "scoring",
+      "artifact_type": "migration_provenance",
+      "path": "migration-v8.2-final/validation-receipt.json",
+      "sha256": "68c351ff2774aff4bd6600f3d694ca2ea06b20c9f29f5ff652a8a11a2a00b044",
+      "media_type": "application/json",
+      "schema_version": "indexerlabs-v82-final-validation-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T17:51:15Z"
+    },
+    {
+      "artifact_id": "ART-EAEB87BB2A1A",
+      "stage": "scoring",
+      "artifact_type": "migration_provenance",
+      "path": "migration-v8.2-patch-preparation/uncertainty-scopes.draft.json",
+      "sha256": "3b2a128b31e37a283bf5591b4824e202feb1266537fa685e14a9fede771e9e83",
+      "media_type": "application/json",
+      "schema_version": "indexerlabs-migration-provenance-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T17:51:15Z"
+    },
+    {
       "artifact_id": "ART-C741C47667D4",
       "stage": "scoring",
       "artifact_type": "migration_provenance",
       "path": "migration-v8.2/REPORT.md",
       "sha256": "e04cc15eabc5fa5657c79d7471bfa04608eef1b1d8aa32ba3894a8199fe42371",
       "media_type": "text/markdown",
-      "schema_version": "indexerlabs-v82-documentary-provenance-v1",
+      "schema_version": "indexerlabs-migration-provenance-v1",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:25:06Z"
+      "recorded_at": "2026-09-16T17:51:15Z"
     },
     {
       "artifact_id": "ART-8EFA917DFB5D",
@@ -1008,7 +1060,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:25:06Z"
+      "recorded_at": "2026-09-16T17:51:15Z"
     },
     {
       "artifact_id": "ART-1104D14E6271",
@@ -1021,7 +1073,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:25:06Z"
+      "recorded_at": "2026-09-16T17:51:15Z"
     },
     {
       "artifact_id": "ART-B2417AA2A8C4",
@@ -1034,7 +1086,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:25:06Z"
+      "recorded_at": "2026-09-16T17:51:15Z"
     },
     {
       "artifact_id": "ART-9A3C638C43B9",
@@ -1047,7 +1099,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:25:06Z"
+      "recorded_at": "2026-09-16T17:51:15Z"
     },
     {
       "artifact_id": "ART-AE6D417467C1",
@@ -1060,7 +1112,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:25:06Z"
+      "recorded_at": "2026-09-16T17:51:15Z"
     },
     {
       "artifact_id": "ART-DDD4D4B411C0",
@@ -1073,7 +1125,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:25:06Z"
+      "recorded_at": "2026-09-16T17:51:15Z"
     },
     {
       "artifact_id": "ART-C9394EE7DD93",
@@ -1082,11 +1134,11 @@
       "path": "migration-v8.2/target-resolution-changes.json",
       "sha256": "9c5b1dc523f556200ae6ec7d1af7e06d9090c87f2d790d3aeb075174fa48175b",
       "media_type": "application/json",
-      "schema_version": "indexerlabs-v82-target-resolution-changes-v1",
+      "schema_version": "indexerlabs-scope-records-v1",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:25:06Z"
+      "recorded_at": "2026-09-16T17:51:15Z"
     },
     {
       "artifact_id": "ART-5E13CC71729E",
@@ -1099,20 +1151,20 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:25:06Z"
+      "recorded_at": "2026-09-16T17:51:15Z"
     },
     {
-      "artifact_id": "ART-8CE5CD77AE8B",
+      "artifact_id": "ART-573F2ECC4D9E",
       "stage": "scoring",
       "artifact_type": "dimension_calculation_input",
-      "path": "scoring-v82/dimension-calculation-input.v2.json",
-      "sha256": "4250bef12bf765ae901b072631d85855533012f2e3085ed69a3e9e12bf1c6f35",
+      "path": "scoring-v82-final/dimension-calculation-input.v2.json",
+      "sha256": "8a8e6fd2650622bc9c70b1024fe760ef20843b9a1af50b0993859238ef1338bf",
       "media_type": "application/json",
       "schema_version": "subject-index-dimension-calculation-input-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:21Z",
+      "recorded_at": "2026-09-16T17:48:51Z",
       "input_sha256": [
         "029b558ed762c23334e1b80045b8be1d02fa474d52679b603d2ec53aa204a344",
         "03eb84c5bb7966024511ac39d052e1d17b55980de269fe9af91438b43fe0e4c0",
@@ -1120,7 +1172,7 @@
         "0c7e76e97123712705cf09f136203fafe14da40686384623aa72d6ebfffd5b5e",
         "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56",
         "18befe01f94e56b3d663a9d18a0af633e7f5df4540a136ddd253bf7a0e007d38",
-        "1baacd49677520a9145805f315dcc2e9957ede3e040c8370963def8c83838812",
+        "23428a458ddc9ac01688f2ddb10296377559ee19d9710b8884486f17cbc6da8a",
         "2d81b5677d39a3c489369e2a999c2a49e3e4243eb5f91d90a7eabc04d8bc50fe",
         "325bb7d00fed3508e1808c258122ad90e4a2bf91315f321d6b0b81fafc8bd029",
         "3432848897b957962a53fc8b2323ec57c0a0ca82478ae537652cba77dad27825",
@@ -1154,17 +1206,17 @@
       ]
     },
     {
-      "artifact_id": "ART-839178834746",
+      "artifact_id": "ART-A3F6C560002D",
       "stage": "scoring",
       "artifact_type": "dimension_calculations",
-      "path": "scoring-v82/dimension-calculations.v6.json",
-      "sha256": "0f5e5bd3e16f7c0c90d84d5219bfd0945e2dcfbfaf65de1e333efc3c7eccf952",
+      "path": "scoring-v82-final/dimension-calculations.v6.json",
+      "sha256": "217f1c02f042485065c293303d59c12e4f68c44a14e43493dfbb9e066e418d08",
       "media_type": "application/json",
       "schema_version": "subject-index-dimension-calculations-v6",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:21Z",
+      "recorded_at": "2026-09-16T17:48:51Z",
       "input_sha256": [
         "029b558ed762c23334e1b80045b8be1d02fa474d52679b603d2ec53aa204a344",
         "03eb84c5bb7966024511ac39d052e1d17b55980de269fe9af91438b43fe0e4c0",
@@ -1172,7 +1224,7 @@
         "0c7e76e97123712705cf09f136203fafe14da40686384623aa72d6ebfffd5b5e",
         "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56",
         "18befe01f94e56b3d663a9d18a0af633e7f5df4540a136ddd253bf7a0e007d38",
-        "1baacd49677520a9145805f315dcc2e9957ede3e040c8370963def8c83838812",
+        "23428a458ddc9ac01688f2ddb10296377559ee19d9710b8884486f17cbc6da8a",
         "2d81b5677d39a3c489369e2a999c2a49e3e4243eb5f91d90a7eabc04d8bc50fe",
         "325bb7d00fed3508e1808c258122ad90e4a2bf91315f321d6b0b81fafc8bd029",
         "3432848897b957962a53fc8b2323ec57c0a0ca82478ae537652cba77dad27825",
@@ -1206,145 +1258,145 @@
       ]
     },
     {
-      "artifact_id": "ART-2C19ADCE0B00",
+      "artifact_id": "ART-DCC3997D4D4C",
       "stage": "scoring",
       "artifact_type": "evaluation_result",
-      "path": "scoring-v82/evaluation-result.v12.json",
-      "sha256": "5d9a4304fdf5553932f7634fdc12d13c39a582ea28b10657d55965582e3f55d3",
+      "path": "scoring-v82-final/evaluation-result.v12.json",
+      "sha256": "f6f94b68f33572f1abfa21eb741fe54c5ecb3406fc4f9629ecbdf609cbdbad55",
       "media_type": "application/json",
       "schema_version": "subject-index-evaluation-result-v12",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:24Z",
+      "recorded_at": "2026-09-16T17:48:54Z",
       "input_sha256": [
-        "064c4e08038b10a009dd1f6e6fb8868ea4f7ccd3c6f3b200600da64237bf5ad9",
-        "0f5e5bd3e16f7c0c90d84d5219bfd0945e2dcfbfaf65de1e333efc3c7eccf952",
-        "1baacd49677520a9145805f315dcc2e9957ede3e040c8370963def8c83838812",
-        "ea2e06cbba569f3cd72f032e90ad2f469bcefcbc4e5eae5f4ccac443242e473c"
+        "0ef26c10587bcf6b76c8c22e9528fd01d6f41852e78a557cf47161c8c7600b8f",
+        "217f1c02f042485065c293303d59c12e4f68c44a14e43493dfbb9e066e418d08",
+        "23428a458ddc9ac01688f2ddb10296377559ee19d9710b8884486f17cbc6da8a",
+        "3175f7f75c4a7e2d42aee351449a8008e3356fd93957d4841786d955ab98fa37"
       ]
     },
     {
-      "artifact_id": "ART-873A1ECBA87E",
+      "artifact_id": "ART-2EA51F788395",
       "stage": "scoring",
       "artifact_type": "item_assessments",
-      "path": "scoring-v82/item-assessments.v7.json",
-      "sha256": "ea2e06cbba569f3cd72f032e90ad2f469bcefcbc4e5eae5f4ccac443242e473c",
+      "path": "scoring-v82-final/item-assessments.v7.json",
+      "sha256": "0ef26c10587bcf6b76c8c22e9528fd01d6f41852e78a557cf47161c8c7600b8f",
       "media_type": "application/json",
       "schema_version": "subject-index-item-assessments-v7",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:21Z",
+      "recorded_at": "2026-09-16T17:48:51Z",
       "input_sha256": [
-        "0f5e5bd3e16f7c0c90d84d5219bfd0945e2dcfbfaf65de1e333efc3c7eccf952",
-        "1baacd49677520a9145805f315dcc2e9957ede3e040c8370963def8c83838812",
+        "217f1c02f042485065c293303d59c12e4f68c44a14e43493dfbb9e066e418d08",
+        "23428a458ddc9ac01688f2ddb10296377559ee19d9710b8884486f17cbc6da8a",
         "2c14c47659ae018853ff57acbe2dec45c3c6058e1442f88faa28311014475981"
       ]
     },
     {
-      "artifact_id": "ART-C4B274555373",
+      "artifact_id": "ART-52D08D961C2E",
       "stage": "scoring",
       "artifact_type": "projection_metadata",
-      "path": "scoring-v82/projection-metadata.v2.json",
-      "sha256": "064c4e08038b10a009dd1f6e6fb8868ea4f7ccd3c6f3b200600da64237bf5ad9",
+      "path": "scoring-v82-final/projection-metadata.v2.json",
+      "sha256": "3175f7f75c4a7e2d42aee351449a8008e3356fd93957d4841786d955ab98fa37",
       "media_type": "application/json",
       "schema_version": "subject-index-v8-projection-metadata-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:24Z",
+      "recorded_at": "2026-09-16T17:48:54Z",
       "input_sha256": [
-        "0f5e5bd3e16f7c0c90d84d5219bfd0945e2dcfbfaf65de1e333efc3c7eccf952",
-        "1baacd49677520a9145805f315dcc2e9957ede3e040c8370963def8c83838812"
+        "217f1c02f042485065c293303d59c12e4f68c44a14e43493dfbb9e066e418d08",
+        "23428a458ddc9ac01688f2ddb10296377559ee19d9710b8884486f17cbc6da8a"
       ]
     },
     {
-      "artifact_id": "ART-737B23B7095B",
+      "artifact_id": "ART-AB4A3EBD3CAD",
       "stage": "web_report",
       "artifact_type": "web_density",
-      "path": "scoring-v82/v8-canonical-projection/data/density.v1.json",
+      "path": "scoring-v82-final/v8-canonical-projection/data/density.v1.json",
       "sha256": "033bee392438f8a9c542b6c5b9cb4d14aaacfa9586f7e76724a1a4c796c4f9d8",
       "media_type": "application/json",
       "schema_version": "ohfr-v8-web-collection-v1",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:41Z",
+      "recorded_at": "2026-09-16T17:49:08Z",
       "input_sha256": [
-        "5d9a4304fdf5553932f7634fdc12d13c39a582ea28b10657d55965582e3f55d3",
-        "a7afd70e491d36f75f75b35e6b6dd1e020f2e894d68265e3730b6e3f745144eb"
+        "8c92eba457b926cd2c4e0b00869e569224e95e3317c5a99a3b79b208275184e9",
+        "f6f94b68f33572f1abfa21eb741fe54c5ecb3406fc4f9629ecbdf609cbdbad55"
       ]
     },
     {
-      "artifact_id": "ART-35608A09FE9E",
+      "artifact_id": "ART-201006EA3970",
       "stage": "web_report",
       "artifact_type": "web_index_records",
-      "path": "scoring-v82/v8-canonical-projection/data/index-records.v1.json",
+      "path": "scoring-v82-final/v8-canonical-projection/data/index-records.v1.json",
       "sha256": "0645df5b3167f7ad2aea523222a83d130f89685dfb51ecf8d02d3fd782124e31",
       "media_type": "application/json",
       "schema_version": "ohfr-v8-web-collection-v1",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:41Z",
+      "recorded_at": "2026-09-16T17:49:08Z",
       "input_sha256": [
-        "5d9a4304fdf5553932f7634fdc12d13c39a582ea28b10657d55965582e3f55d3",
-        "a7afd70e491d36f75f75b35e6b6dd1e020f2e894d68265e3730b6e3f745144eb"
+        "8c92eba457b926cd2c4e0b00869e569224e95e3317c5a99a3b79b208275184e9",
+        "f6f94b68f33572f1abfa21eb741fe54c5ecb3406fc4f9629ecbdf609cbdbad55"
       ]
     },
     {
-      "artifact_id": "ART-4DD1E35897D0",
+      "artifact_id": "ART-D06500CA3C31",
       "stage": "web_report",
       "artifact_type": "web_source_subjects",
-      "path": "scoring-v82/v8-canonical-projection/data/source-subjects.v1.json",
+      "path": "scoring-v82-final/v8-canonical-projection/data/source-subjects.v1.json",
       "sha256": "a3b79ed768257c5f371127d265d57a97e2064aa100d44ca25fd2dc5210aa89d5",
       "media_type": "application/json",
       "schema_version": "ohfr-v8-web-collection-v1",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:41Z",
+      "recorded_at": "2026-09-16T17:49:08Z",
       "input_sha256": [
-        "5d9a4304fdf5553932f7634fdc12d13c39a582ea28b10657d55965582e3f55d3",
-        "a7afd70e491d36f75f75b35e6b6dd1e020f2e894d68265e3730b6e3f745144eb"
+        "8c92eba457b926cd2c4e0b00869e569224e95e3317c5a99a3b79b208275184e9",
+        "f6f94b68f33572f1abfa21eb741fe54c5ecb3406fc4f9629ecbdf609cbdbad55"
       ]
     },
     {
-      "artifact_id": "ART-FDE29E1486AC",
+      "artifact_id": "ART-5C92455E82C3",
       "stage": "web_report",
       "artifact_type": "web_projection",
-      "path": "scoring-v82/v8-canonical-projection/projection.v1.json",
-      "sha256": "117313f990b29406f15002e38834758d0dffaea134be7142aee945d3c1b8d181",
+      "path": "scoring-v82-final/v8-canonical-projection/projection.v1.json",
+      "sha256": "c54c0061e1306238588dc8e4cc8f4ce68f0381dbdb436364a447e210337332fd",
       "media_type": "application/json",
       "schema_version": "ohfr-v8-canonical-web-projection-v1",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:41Z",
+      "recorded_at": "2026-09-16T17:49:08Z",
       "input_sha256": [
-        "5d9a4304fdf5553932f7634fdc12d13c39a582ea28b10657d55965582e3f55d3",
-        "a7afd70e491d36f75f75b35e6b6dd1e020f2e894d68265e3730b6e3f745144eb"
+        "8c92eba457b926cd2c4e0b00869e569224e95e3317c5a99a3b79b208275184e9",
+        "f6f94b68f33572f1abfa21eb741fe54c5ecb3406fc4f9629ecbdf609cbdbad55"
       ]
     },
     {
-      "artifact_id": "ART-158922774887",
+      "artifact_id": "ART-4A12724AC22C",
       "stage": "web_report",
       "artifact_type": "web_report",
-      "path": "scoring-v82/web-report.v10.json",
-      "sha256": "a7afd70e491d36f75f75b35e6b6dd1e020f2e894d68265e3730b6e3f745144eb",
+      "path": "scoring-v82-final/web-report.v10.json",
+      "sha256": "8c92eba457b926cd2c4e0b00869e569224e95e3317c5a99a3b79b208275184e9",
       "media_type": "application/json",
       "schema_version": "subject-index-web-report-v10",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T17:19:41Z",
+      "recorded_at": "2026-09-16T17:49:08Z",
       "input_sha256": [
-        "064c4e08038b10a009dd1f6e6fb8868ea4f7ccd3c6f3b200600da64237bf5ad9",
-        "0f5e5bd3e16f7c0c90d84d5219bfd0945e2dcfbfaf65de1e333efc3c7eccf952",
-        "1baacd49677520a9145805f315dcc2e9957ede3e040c8370963def8c83838812",
-        "5d9a4304fdf5553932f7634fdc12d13c39a582ea28b10657d55965582e3f55d3",
-        "ea2e06cbba569f3cd72f032e90ad2f469bcefcbc4e5eae5f4ccac443242e473c"
+        "0ef26c10587bcf6b76c8c22e9528fd01d6f41852e78a557cf47161c8c7600b8f",
+        "217f1c02f042485065c293303d59c12e4f68c44a14e43493dfbb9e066e418d08",
+        "23428a458ddc9ac01688f2ddb10296377559ee19d9710b8884486f17cbc6da8a",
+        "3175f7f75c4a7e2d42aee351449a8008e3356fd93957d4841786d955ab98fa37",
+        "f6f94b68f33572f1abfa21eb741fe54c5ecb3406fc4f9629ecbdf609cbdbad55"
       ]
     },
     {

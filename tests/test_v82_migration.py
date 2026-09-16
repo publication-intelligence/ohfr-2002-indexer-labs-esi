@@ -22,7 +22,7 @@ def old(p):
 class V82MigrationTests(unittest.TestCase):
     def test_every_numeric_component_and_cap_is_invariant(self):
         before = load(EV / 'scoring-v81/dimension-calculations.v6.json')
-        after = load(EV / 'scoring-v82/dimension-calculations.v6.json')
+        after = load(EV / 'scoring-v82-final/dimension-calculations.v6.json')
         for key in ('overall_percentage', 'maximum_percentage', 'final_rounding', 'arithmetic_check', 'diagnostic_item_grades'):
             self.assertEqual(before[key], after[key], key)
         for a, b in zip(before['dimensions'], after['dimensions']):
@@ -46,6 +46,9 @@ class V82MigrationTests(unittest.TestCase):
             self.assertEqual(a, b)
         p = c / 'structure-audit.v6.json'
         a, b = old(p), load(p)
+        scopes = b.pop('uncertainty_gate_scopes')
+        self.assertEqual(11, len(scopes))
+        self.assertEqual(a['uncertainties'], b['uncertainties'])
         for row in b['cross_reference_judgments']:
             resolution = row.pop('target_resolution')
             self.assertEqual('no_valid_destination', resolution['status'])
@@ -70,18 +73,23 @@ class V82MigrationTests(unittest.TestCase):
         state = load(EV / 'evaluation-state.json')
         c = EV / Path(state['candidate']['normalized_path']).parent
         s = load(c / 'structure-audit.v6.json')
-        uncertain = {i for u in s['uncertainties'] for i in u['affected_item_ids']}
+        uncertain = {i for u in s['uncertainty_gate_scopes'] for i in u['target_ids']}
+        originals = {u['uncertainty_id']: u for u in s['uncertainties']}
+        for scope in s['uncertainty_gate_scopes']:
+            original = originals[scope['uncertainty_id']]
+            self.assertEqual('locator_support', scope['scope'])
+            self.assertTrue(set(scope['target_ids']) <= set(original['affected_item_ids']))
+            self.assertEqual(original['evidence_ids'], scope['evidence_ids'])
         rows = [row for p in (c / 'locator-audits').glob('*.json') for row in load(p)['judgments']]
         expected = {r['locator_id'] for r in rows if r['judgment'] == 'unsupported' and r['complete_path_fit'] == 'no_fit' and not ({r['locator_id'], r['path_id']} & uncertain) and r['confidence'] in ('high', 'medium') and r['source_scope_status'] in ('indexable', 'excluded') and r['treatment_class'] != 'unavailable' and r['evidence_ids'] and r['fit_rationale'].strip()}
-        result = load(EV / 'scoring-v82/evaluation-result.v12.json')
+        result = load(EV / 'scoring-v82-final/evaluation-result.v12.json')
         gates = {g['gate_id']: g for g in result['critical_gates'] if g['triggered']}
         self.assertEqual(expected, set(gates['GATE-WRONG-LOCATOR']['affected_evidence_ids']))
-        self.assertEqual(87, len(expected))
         self.assertEqual({'XREF-1FB84F43D7ED', 'XREF-80B3F994D3ED'}, set(gates['GATE-BROKEN-REFERENCE']['affected_evidence_ids']))
         self.assertEqual('indeterminate', result['gate_assessment']['status'])
-        self.assertEqual(2680, len(result['gate_assessment']['blockers']))
+        self.assertEqual(uncertain, {i for b in result['gate_assessment']['blockers'] for i in b['affected_item_ids']})
         self.assertEqual('valid', result['evaluation_validity']['status'])
-        projection = load(EV / 'scoring-v82/v8-canonical-projection/projection.v1.json')
+        projection = load(EV / 'scoring-v82-final/v8-canonical-projection/projection.v1.json')
         self.assertEqual('not_publication_ready', projection['score_views']['views'][0]['readiness']['status'])
 
 
