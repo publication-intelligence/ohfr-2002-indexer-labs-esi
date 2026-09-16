@@ -7,8 +7,9 @@ and explicit choice among v3, native, or a reviewed v4. The checks below establi
 identity and reuse potential only; they do not evaluate benchmark quality.
 
 Status of changes: inspection only. No policy, benchmark, audit, canonical state, score or
-public bundle was changed. No activation, push, merge or deployment is authorized
-by this preparation. PR #5 remains draft under the comparison hold.
+public bundle was changed. Only the reversible preparation documentation/checker
+may be pushed to draft PR #5. Activation, evaluation bundle publication, merge
+and deployment remain on hold.
 
 ## Verified baseline
 
@@ -27,7 +28,7 @@ and synthesis provenance. Counts are 1,366 subjects, 1,026 tasks and 3,460
 relationships; the existing audit treatment population is 3,210.
 
 All 17 density word counts match the discovery Git blobs at that same release,
-totaling **194,718 indexable source words**. These are already the locked legacy
+totaling **194,718 indexable source words**. These are already the incumbent legacy
 source-discovery basis, not a substitute denominator inferred from subject count.
 The policy uses word-weighted chapter density. Candidate path/locator counts
 remain those of the separately preserved Senez correction. The policy density
@@ -64,7 +65,10 @@ of cross-candidate comparability.
 4. Rebind only dependent wrapper hashes and the candidate-to-benchmark binding.
    Rebuild/register locator packets if required by the new wrapper identity.
    Preserve every semantic payload and stable ID.
-5. Register unchanged/rebound audits through supported commands as required;
+5. Never relabel an old missing-access ledger with new benchmark IDs or hashes.
+   Preserve existing ledgers unchanged. If a different benchmark is selected,
+   obtain an explicit reviewed reuse/crosswalk or new-audit plan before creating
+   any successor artifact. Register only through the supported workflow;
    register structure only for typed basis/provenance additions. Rebuild score,
    report and all public collections. Validate semantic identity and every
    component/cap/diagnostic against the final baseline. Numeric invariance is
@@ -80,21 +84,21 @@ of cross-candidate comparability.
 
 | Artifact family | What remains valid | Minimal future action |
 | --- | --- | --- |
-| Source, page map, chunks, legacy discovery/review | Exact identities unchanged and bound to locked release | Reuse; attach study provenance |
+| Source, page map, chunks, legacy discovery/review | Exact identities unchanged and bound to incumbent release | Reuse; attach study provenance |
 | Normalized candidate, layout, inventory | Candidate-only; final Senez repair preserved | Reuse bytes; update state benchmark binding only |
-| Benchmark semantic payload | Exact normalized identity with locked v3 | Native wrapper/study-lock migration only |
+| Benchmark semantic payload | Exact normalized identity with incumbent v3 | Native wrapper/study-lock migration only |
 | 17 locator audits / 6,222 judgments | Source/candidate evidence unchanged | Reuse judgments and bytes unless contract requires binding fields |
-| 17 missing-access audits | Same subjects, tasks, treatments, priorities and routes | Reuse every judgment; rebind benchmark hash if changed |
+| 17 missing-access audits | Same subjects, tasks, treatments, priorities and routes | Preserve unchanged; no relabeling to new benchmark IDs/hashes |
 | 17 locator packets | Same candidate routing and benchmark payload | Mechanical regeneration/rebinding if wrapper hash changes |
 | Structure findings, reference resolutions, uncertainty scopes | Same stable populations and evidence | Preserve findings; add supported density-basis provenance only |
-| Density measurements | All 17 word counts verified at locked release | Reuse numbers; type their basis without guessing schema |
+| Density measurements | All 17 word counts verified at incumbent release | Reuse numbers; type their basis without guessing schema |
 | Calculation/result/report/projection | Historical baseline, not reusable as newly bound output bytes | Rebuild after native rebinding and prove numeric invariance |
 | Original approvals/freezes/private archives | Historical provenance | Preserve unchanged; no new approval or blind review claim |
 
 ## Executed read-only check
 
 Run `python3 scripts/check_shared_benchmark_lock.py --benchmark-repository PATH`
-against the repository containing the locked commit. It verifies exact frozen
+against the repository containing the incumbent freeze commit. It verifies exact frozen
 bytes/self-hash, complete normalized semantic equality, all 17 discovery count
 bindings and all currently registered artifact hashes. `inspection.json` records
 its public-safe result. This receipt is preparatory documentation, not a second
