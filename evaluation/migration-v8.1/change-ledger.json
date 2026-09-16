@@ -1,0 +1,3484 @@
+{
+  "schema_version": "indexerlabs-targeted-v81-migration-review-v1",
+  "status": "bounded_report_only_migration_withheld",
+  "authorization": "Explicit targeted V8-to-V8.1 migration; no candidate renormalization or unrelated audit regeneration; bounded report if provenance insufficient.",
+  "baseline_commit": "11a3710435a4f870378929652cbc3f7c7e5f459b",
+  "methodology_commit": "25fa3983f4980ad6a168610e08b128def11258b2",
+  "original_methodology_reproduction_revision": "514bcca",
+  "old_identities": {
+    "audit_mode": "full",
+    "index_type": "subject_index",
+    "intended_readership": "scholarly",
+    "readership_provenance": {
+      "basis": "user_supplied",
+      "confidence": "high",
+      "rationale": "The intended readership was previously approved as scholarly for this exact source identity and is reused unchanged."
+    },
+    "output_format": "json",
+    "storage_mode": "local",
+    "policy_profile": "subject-index-standard-policy-v8",
+    "rubric_version": "subject-index-rubric-v8",
+    "scoring_identity": {
+      "rubric_version": "subject-index-rubric-v8",
+      "dimension_calculation_profile": "subject-index-dimension-calculation-v5"
+    }
+  },
+  "requested_new_identities": {
+    "policy_profile": "subject-index-standard-policy-v8.1",
+    "rubric_version": "subject-index-rubric-v8.1",
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v6"
+  },
+  "new_policy_frozen_in_canonical_state": false,
+  "original_score": 77.4,
+  "revised_authoritative_score": null,
+  "baseline_evidence_identity": {
+    "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "benchmark_sha256": "28e3c631cd717266153201f0c0c9450b1b79b91a76a587b0f0eaf2cfa79400b4",
+    "policy_sha256": "fc1aec7bf1c4a29f146a31d941e11df305944e88dcd214ee7f352acdedc43499",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "structure_audit_file_sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
+    "locator_audit_set_sha256": "29ebf6859f36bb0ae81e3f0e1640c969edf40bc70f1052eb09e3e34a22bda3d0",
+    "missing_access_audit_set_sha256": "72be65157008ff509d4b67ec19f88c9ba744bdce7195ce078b61537b35b4c7a4"
+  },
+  "exact_original_calculation_inputs": [
+    {
+      "role": "policy",
+      "path": "evaluation/source/evaluation-policy.v4.json",
+      "sha256": "40206a8f9e2caf39b395fdab91b29ca073aeb544820b770a6974bd85e664f54f",
+      "verified": true
+    },
+    {
+      "role": "chunk_manifest",
+      "path": "evaluation/source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-001.v2.json",
+      "sha256": "f9c4c7d3989027b578d9397e52acd7649a4e0861c440c1a9542bee8da7325900",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-002.v2.json",
+      "sha256": "518bf87a4e90288021d97e5bf195db5a12bd4608ecf9546e2ce6517bcdf565e7",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-003.v2.json",
+      "sha256": "9cd69ce5cfa41869a1ff722d524706ce56e75c6c7fc57ead599c23341cc8df7f",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-004.v2.json",
+      "sha256": "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-005.v2.json",
+      "sha256": "54d58d652bb1bf645eee4f063c5ea853485e595e9c2b79d8bcc2788764661b0d",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-006.v2.json",
+      "sha256": "5b79dfa17b9e8a98bfdf5c7bcb4b4a93c32ffcc9bfca9c18468d1cd67be3b6bb",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-007.v2.json",
+      "sha256": "2d81b5677d39a3c489369e2a999c2a49e3e4243eb5f91d90a7eabc04d8bc50fe",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-008.v2.json",
+      "sha256": "3432848897b957962a53fc8b2323ec57c0a0ca82478ae537652cba77dad27825",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-009.v2.json",
+      "sha256": "a4ee72c11852893f85146cec069368f2bde255c2ace70f046d23d1248e8f5d8b",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-010.v2.json",
+      "sha256": "6411c4b62b34f1a4429564e6c0c7599a7b991eac5c0614d1ca07ce03636757bf",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-011.v2.json",
+      "sha256": "7a07f2d4d36681313261ab91b48b7bc016208699f57b9fef7d7eaf89b01c98fd",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-012.v2.json",
+      "sha256": "5416a64bf9262a21a4e9b0bd84f9d3b830aa306f3c93a4bef3c1d2c2af61a14b",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-013.v2.json",
+      "sha256": "6e1ad5fa517d46d1da16d0b0bd3b58bf05b81b0c103921d7bac371a85b377c0e",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-014.v2.json",
+      "sha256": "9ad09c70d739806d60b6453e3dc3a0d5048cc9915e40f7cb6e977950dbeff6b8",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-015.v2.json",
+      "sha256": "afb0af9865334c0753df1183190ccc7232c29ec35b63179345606a10fc6017cc",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-016.v2.json",
+      "sha256": "3c95f0badfff276714c77e540ef7f29107d514ad7574d2e95da22a1e70aca586",
+      "verified": true
+    },
+    {
+      "role": "locator_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-017.v2.json",
+      "sha256": "0655cc2944ea21783710ae08ca9a5b12517ff75ed84ea1b618d235c5b5f01de4",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "sha256": "7ca1ba69d1cdbd64c9c198d7b4bea25bd25b0431bc745b9504892c3eed61b58f",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "sha256": "30bd6af74a8a78ba822bff9cc769de366d927cfdafe9ca7655dc3f98b46cb7cf",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "sha256": "7ee885e95d3cbbef5624c66b8aec7ea872d8f0be718dfcace36923be0b51b457",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "sha256": "2c4c7fadf88344bdce2989c3b21a407e42c628b795ecab851d534d8b20dae9aa",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "sha256": "fe7056ae493ba2eedacb53b948e35d1b689538089e7183bfa5ea97adefbf4e85",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "sha256": "2d8e1057c19283fcf07a362be81cea8a86892e3d8a072b3227c67fcaee8291ef",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "sha256": "2939cf9cecfcf3473595bfca2eb0c6c939eb868bc8703ce5d4a0518d4171de06",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "sha256": "672bf3bd3c21680ac933d72dc079bdbe9da16fbc55afe87158dacb2d90674137",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "sha256": "636b48766e606e2783a1655482fd6177a306583dfce7f59806e04387c175a3d6",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "sha256": "7716e1c7e3ec1f6e9bfc1c347d23a2a0bdf92a32ce1d02d8592cb4ea3c639ab3",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "sha256": "66b71f5cf0ccb99a76ab229d74a0ddb61a17a4c283af4f0a61e0112360f409cb",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "sha256": "35820538016fef678417d70530c42d1353d605c342a1f08ef353d328c89d1370",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "sha256": "78ddd28b0d28efff8d1641c2a320a5b6ba81441d975c5b08a297b0f42f7f799d",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "sha256": "722c53a1de352bc321c722db3be693b42a29da35ab01b29857d221cf7944c0dc",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "sha256": "cb81ae37ee11d2479fd32642162628a08b9edbf8977f0ab885be4c4a62277cf9",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "sha256": "f94f891c27ae1cae7d52a37e7fadfb78b20874e0649bebc9a6e67c1a8a1cc7d2",
+      "verified": true
+    },
+    {
+      "role": "missing_access_audits",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "sha256": "eb444ed9e95c975a300039ca925cb486bbd908f440e9688050b9f082f99ab4fa",
+      "verified": true
+    },
+    {
+      "role": "structure_audit",
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
+      "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
+      "verified": true
+    }
+  ],
+  "benchmark_release_provenance_preserved": {
+    "schema_version": "source-benchmark-compatibility-import-provenance-v1",
+    "migration_id": "oxford-2002-benchmark-v3-v8-compatibility-approval-v1",
+    "imported_at": "2026-09-14T03:43:13Z",
+    "operation": "reviewed_legacy_benchmark_compatibility_import",
+    "compatibility_approval": {
+      "approval_id": "oxford-2002-benchmark-v3-v8-compatibility-approval-v1",
+      "file_sha256": "dae64b15dab9900a2003caad25fc1b0a036c7f447d4460838eb5b30fb9aa4bdf"
+    },
+    "legacy": {
+      "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+      "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "benchmark_id": "oxford-history-french-revolution-2002-source-benchmark",
+      "version": 3,
+      "benchmark_file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+      "policy_file_sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+      "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+      "page_map_file_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+      "chunk_manifest_file_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+      "review_file_sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+      "review_inventory_file_sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9",
+      "state_file_sha256": "2bd0e712135430afccd5ba9f8dc1e61dc4a8b81cfdfdc7a511f0dc90759171ba",
+      "artifact_freeze_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab"
+    },
+    "current": {
+      "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+      "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+      "benchmark_id": "oxford-history-french-revolution-2002-source-benchmark-v8-import",
+      "version": 4,
+      "policy_file_sha256": "40206a8f9e2caf39b395fdab91b29ca073aeb544820b770a6974bd85e664f54f",
+      "policy_sha256": "fc1aec7bf1c4a29f146a31d941e11df305944e88dcd214ee7f352acdedc43499",
+      "page_map_file_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+      "chunk_manifest_file_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+      "frozen_at": "2026-09-14T03:39:50Z",
+      "benchmark_sha256": "28e3c631cd717266153201f0c0c9450b1b79b91a76a587b0f0eaf2cfa79400b4",
+      "benchmark_file_sha256": "ef9d368722765258a1c1e30a895a00815edfe1a0681450d7c8e219ed140d5a35"
+    },
+    "normalization": {
+      "operations": [
+        "relationships[*].type->relationship_type"
+      ],
+      "relationships_normalized": 3460,
+      "semantic_content_preserved": true
+    },
+    "preserved_stable_ids": {
+      "subjects": {
+        "count": 1366,
+        "sha256": "2e507ec0f713bdffd31c9e547e37bdb9fbde9f832cdc2ed1d9fa02e80a2ee3f9"
+      },
+      "relationships": {
+        "count": 3460,
+        "sha256": "84a4705f6a019fc7f788e0e1d0a9b816b66e76c833c4eb93866d334dd6e575d4"
+      },
+      "reader_tasks": {
+        "count": 1026,
+        "sha256": "2e7e6a8634b0fa76377cb6dace626530df327a26dc0b4769e6f2abb81d7e9a03"
+      },
+      "evidence": {
+        "count": 3246,
+        "sha256": "b8257c61f59ef3a130371c3d8bdd08788bc74046c4627fbb4cf6b2598ac6eab2"
+      }
+    }
+  },
+  "unchanged_registered_artifacts_verified_locally": [
+    {
+      "artifact_id": "ART-74FC6FE8AB96",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-index.v2.json",
+      "sha256": "4eeea17c59c5ae9be6e159838c612a4d2d752b6d1c399a82d21ab02632fe91ec"
+    },
+    {
+      "artifact_id": "ART-5D474006766A",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-layout-extraction.v1.json",
+      "sha256": "a2b262d264723847f6bd45d37973691101b9b790142458271cf13644ae3f0081"
+    },
+    {
+      "artifact_id": "ART-7D2A469243DC",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/item-inventory.v2.json",
+      "sha256": "e4efc2a79c30f7e36c4f1be68d5f87a32fa92b46f10d8534b1566ac0e92d6b78"
+    },
+    {
+      "artifact_id": "ART-BB201B1A0BFB",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-001.v2.json",
+      "sha256": "f9c4c7d3989027b578d9397e52acd7649a4e0861c440c1a9542bee8da7325900"
+    },
+    {
+      "artifact_id": "ART-FD476153AD3B",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-002.v2.json",
+      "sha256": "518bf87a4e90288021d97e5bf195db5a12bd4608ecf9546e2ce6517bcdf565e7"
+    },
+    {
+      "artifact_id": "ART-98CA0A8FD410",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-003.v2.json",
+      "sha256": "9cd69ce5cfa41869a1ff722d524706ce56e75c6c7fc57ead599c23341cc8df7f"
+    },
+    {
+      "artifact_id": "ART-52C68681E8D6",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-004.v2.json",
+      "sha256": "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56"
+    },
+    {
+      "artifact_id": "ART-82AEB574AEDB",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-005.v2.json",
+      "sha256": "54d58d652bb1bf645eee4f063c5ea853485e595e9c2b79d8bcc2788764661b0d"
+    },
+    {
+      "artifact_id": "ART-8B4E67288493",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-006.v2.json",
+      "sha256": "5b79dfa17b9e8a98bfdf5c7bcb4b4a93c32ffcc9bfca9c18468d1cd67be3b6bb"
+    },
+    {
+      "artifact_id": "ART-D43066A0757B",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-007.v2.json",
+      "sha256": "2d81b5677d39a3c489369e2a999c2a49e3e4243eb5f91d90a7eabc04d8bc50fe"
+    },
+    {
+      "artifact_id": "ART-3D325A6FD923",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-008.v2.json",
+      "sha256": "3432848897b957962a53fc8b2323ec57c0a0ca82478ae537652cba77dad27825"
+    },
+    {
+      "artifact_id": "ART-7D82C073A9DB",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-009.v2.json",
+      "sha256": "a4ee72c11852893f85146cec069368f2bde255c2ace70f046d23d1248e8f5d8b"
+    },
+    {
+      "artifact_id": "ART-E46C2AC11D2F",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-010.v2.json",
+      "sha256": "6411c4b62b34f1a4429564e6c0c7599a7b991eac5c0614d1ca07ce03636757bf"
+    },
+    {
+      "artifact_id": "ART-446B1CCFF608",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-011.v2.json",
+      "sha256": "7a07f2d4d36681313261ab91b48b7bc016208699f57b9fef7d7eaf89b01c98fd"
+    },
+    {
+      "artifact_id": "ART-A4F088E8ED4E",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-012.v2.json",
+      "sha256": "5416a64bf9262a21a4e9b0bd84f9d3b830aa306f3c93a4bef3c1d2c2af61a14b"
+    },
+    {
+      "artifact_id": "ART-81B219310FD3",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-013.v2.json",
+      "sha256": "6e1ad5fa517d46d1da16d0b0bd3b58bf05b81b0c103921d7bac371a85b377c0e"
+    },
+    {
+      "artifact_id": "ART-3DBEB8E2D129",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-014.v2.json",
+      "sha256": "9ad09c70d739806d60b6453e3dc3a0d5048cc9915e40f7cb6e977950dbeff6b8"
+    },
+    {
+      "artifact_id": "ART-5F5CDBCA81F3",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-015.v2.json",
+      "sha256": "afb0af9865334c0753df1183190ccc7232c29ec35b63179345606a10fc6017cc"
+    },
+    {
+      "artifact_id": "ART-2A05191F7B29",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-016.v2.json",
+      "sha256": "3c95f0badfff276714c77e540ef7f29107d514ad7574d2e95da22a1e70aca586"
+    },
+    {
+      "artifact_id": "ART-8CDB0820D7DE",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-017.v2.json",
+      "sha256": "0655cc2944ea21783710ae08ca9a5b12517ff75ed84ea1b618d235c5b5f01de4"
+    },
+    {
+      "artifact_id": "ART-EC2D1CEEBF5B",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-001.json",
+      "sha256": "9e8abda90236ef0f3151a74caaa3c25b92d622b4be017d744a2af03692a804c3"
+    },
+    {
+      "artifact_id": "ART-1A7DECFD71CA",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-002.json",
+      "sha256": "c77f065694b7d05cd102d4e6db86d703f001b7f847f82bdc955b7e383c3ceea9"
+    },
+    {
+      "artifact_id": "ART-FDB1690DCABB",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-003.json",
+      "sha256": "8e3b89063b5f669ee41c26bb9e67ff875ea371959f69770507080bfe75ace3e7"
+    },
+    {
+      "artifact_id": "ART-AB96E932A344",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-004.json",
+      "sha256": "1d710811343cb25ddb642825c16785674b40d7490305d64bde1ab85551f98459"
+    },
+    {
+      "artifact_id": "ART-32455A27862F",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-005.json",
+      "sha256": "7f55f74b7081aa3ad547b1bb527ee22d4d9051ba80abda3ec4018853ddbcd76b"
+    },
+    {
+      "artifact_id": "ART-241A6BC25820",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-006.json",
+      "sha256": "490dd691bcc48d9d644d66d0b433322ba87ec7271e7c9b7a98cebcffd9f18302"
+    },
+    {
+      "artifact_id": "ART-CFAFD9165513",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-007.json",
+      "sha256": "0d1859826aae85e1f5b22bc30b30ef4b353837a52e3a1cd0c69916b1b7e3f166"
+    },
+    {
+      "artifact_id": "ART-EA707ABFA7A8",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-008.json",
+      "sha256": "b2f4e06dcd004340594ad0ec3807af57517a16b3ee4806d2dc93ef0e0795396e"
+    },
+    {
+      "artifact_id": "ART-77887AE17472",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-009.json",
+      "sha256": "d272965707d6ad2b81d34a46e3799ef659c04faf838b63e3ff85267d3ed9de67"
+    },
+    {
+      "artifact_id": "ART-50275488EAC1",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-010.json",
+      "sha256": "acd48f322eed453167dff28d776dcc93ffb210a4481d5e728747507477991a38"
+    },
+    {
+      "artifact_id": "ART-A53896042E08",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-011.json",
+      "sha256": "eb3c724ea246f764f7f6d64779f5efb23decf6a046fa31972ff160a6487c4f0c"
+    },
+    {
+      "artifact_id": "ART-2639C5B5D192",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-012.json",
+      "sha256": "e754d9db32adf4ac0d2d80fd9dbf3bca63d9318cd8bb4281907bd66c39f8d6c7"
+    },
+    {
+      "artifact_id": "ART-3E833182E0CD",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-013.json",
+      "sha256": "9420b8c27ce896646a97438e88af37a3d3a786b23888fd1acdd580e30fb266e1"
+    },
+    {
+      "artifact_id": "ART-B79D2FBB61C7",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-014.json",
+      "sha256": "73bcddfd6cb06e582af78134f3af6f72f02f4d2de0c89b90d891382580c1e364"
+    },
+    {
+      "artifact_id": "ART-F50FB22E83FB",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-015.json",
+      "sha256": "2e49e45daa6a1741cfe86586de5a38d1f1fb744709500159c943d355aa314356"
+    },
+    {
+      "artifact_id": "ART-80566432D3E8",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-016.json",
+      "sha256": "48c8e752b0bd4c63f184bff79922f84da850cdefc3f3903c2fba945b99f5dfc4"
+    },
+    {
+      "artifact_id": "ART-726D69E90627",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-017.json",
+      "sha256": "0192899bba21d4dd3da59105a41230c46c265c00bb49ca4432eafc827803e9a8"
+    },
+    {
+      "artifact_id": "ART-ABF238726B31",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "sha256": "7ca1ba69d1cdbd64c9c198d7b4bea25bd25b0431bc745b9504892c3eed61b58f"
+    },
+    {
+      "artifact_id": "ART-EDA227868C69",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "sha256": "30bd6af74a8a78ba822bff9cc769de366d927cfdafe9ca7655dc3f98b46cb7cf"
+    },
+    {
+      "artifact_id": "ART-F2440454D332",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "sha256": "7ee885e95d3cbbef5624c66b8aec7ea872d8f0be718dfcace36923be0b51b457"
+    },
+    {
+      "artifact_id": "ART-C328EBC96ABC",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "sha256": "2c4c7fadf88344bdce2989c3b21a407e42c628b795ecab851d534d8b20dae9aa"
+    },
+    {
+      "artifact_id": "ART-B1F1CEEA4E39",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "sha256": "fe7056ae493ba2eedacb53b948e35d1b689538089e7183bfa5ea97adefbf4e85"
+    },
+    {
+      "artifact_id": "ART-C4A271AA3B40",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "sha256": "2d8e1057c19283fcf07a362be81cea8a86892e3d8a072b3227c67fcaee8291ef"
+    },
+    {
+      "artifact_id": "ART-F2FF5845901B",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "sha256": "2939cf9cecfcf3473595bfca2eb0c6c939eb868bc8703ce5d4a0518d4171de06"
+    },
+    {
+      "artifact_id": "ART-B141675B2A70",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "sha256": "672bf3bd3c21680ac933d72dc079bdbe9da16fbc55afe87158dacb2d90674137"
+    },
+    {
+      "artifact_id": "ART-08AB7F931601",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "sha256": "636b48766e606e2783a1655482fd6177a306583dfce7f59806e04387c175a3d6"
+    },
+    {
+      "artifact_id": "ART-5889752E0CA2",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "sha256": "7716e1c7e3ec1f6e9bfc1c347d23a2a0bdf92a32ce1d02d8592cb4ea3c639ab3"
+    },
+    {
+      "artifact_id": "ART-CC2F1F8358B1",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "sha256": "66b71f5cf0ccb99a76ab229d74a0ddb61a17a4c283af4f0a61e0112360f409cb"
+    },
+    {
+      "artifact_id": "ART-94D2686D5A62",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "sha256": "35820538016fef678417d70530c42d1353d605c342a1f08ef353d328c89d1370"
+    },
+    {
+      "artifact_id": "ART-67ACDAB5AC51",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "sha256": "78ddd28b0d28efff8d1641c2a320a5b6ba81441d975c5b08a297b0f42f7f799d"
+    },
+    {
+      "artifact_id": "ART-E449AEDD0557",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "sha256": "722c53a1de352bc321c722db3be693b42a29da35ab01b29857d221cf7944c0dc"
+    },
+    {
+      "artifact_id": "ART-FE81DDE993DD",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "sha256": "cb81ae37ee11d2479fd32642162628a08b9edbf8977f0ab885be4c4a62277cf9"
+    },
+    {
+      "artifact_id": "ART-9FF7FD6496EF",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "sha256": "f94f891c27ae1cae7d52a37e7fadfb78b20874e0649bebc9a6e67c1a8a1cc7d2"
+    },
+    {
+      "artifact_id": "ART-E39D4BEF3528",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "sha256": "eb444ed9e95c975a300039ca925cb486bbd908f440e9688050b9f082f99ab4fa"
+    },
+    {
+      "artifact_id": "ART-B0E7724C3E8E",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
+      "sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e"
+    },
+    {
+      "artifact_id": "ART-AD63D721ED79",
+      "path": "import/legacy-benchmark-v3/evaluation-state.json",
+      "sha256": "2bd0e712135430afccd5ba9f8dc1e61dc4a8b81cfdfdc7a511f0dc90759171ba"
+    },
+    {
+      "artifact_id": "ART-95563585FA74",
+      "path": "import/legacy-benchmark-v3/source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    {
+      "artifact_id": "ART-5D119FF69568",
+      "path": "import/legacy-benchmark-v3/source/evaluation-policy.v2.json",
+      "sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62"
+    },
+    {
+      "artifact_id": "ART-DB09D2E01AFC",
+      "path": "import/legacy-benchmark-v3/source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d"
+    },
+    {
+      "artifact_id": "ART-DA61A46B4105",
+      "path": "import/legacy-benchmark-v3/source/source-benchmark.v3.json",
+      "sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27"
+    },
+    {
+      "artifact_id": "ART-56EB61895A68",
+      "path": "import/legacy-benchmark-v3/validation/source-benchmark-review-inventory.json",
+      "sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9"
+    },
+    {
+      "artifact_id": "ART-0AD205D27D39",
+      "path": "import/legacy-benchmark-v3/validation/source-benchmark-review.v1.json",
+      "sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f"
+    },
+    {
+      "artifact_id": "ART-642147E0F190",
+      "path": "scoring/dimension-calculation-input.v2.json",
+      "sha256": "bc0a16709a2ccf40be60ddad070d3405a089ab83d7648c6db65a6eb479497f9a"
+    },
+    {
+      "artifact_id": "ART-C6DDF1331A8B",
+      "path": "scoring/dimension-calculations.v6.json",
+      "sha256": "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c"
+    },
+    {
+      "artifact_id": "ART-B8217170B512",
+      "path": "scoring/evaluation-result.v12.json",
+      "sha256": "61a86fd6bb7ab3276a1c4aefbadb30281482b71c8bfecf07e06e6a1f3bb43b46"
+    },
+    {
+      "artifact_id": "ART-38ECD0B757B3",
+      "path": "scoring/item-assessments.v7.json",
+      "sha256": "f37103196cb83b935279b8d94feca04c1454ff9b36fd036bf2b6c2476eaef0b5"
+    },
+    {
+      "artifact_id": "ART-E9EA1BDD36F1",
+      "path": "scoring/projection-metadata.v2.json",
+      "sha256": "8f4dc516b3e01f24b91c9688f0d2106687bf90354d829f77f1df6197576f84ee"
+    },
+    {
+      "artifact_id": "ART-6BC8D8190505",
+      "path": "scoring/web-report.v10.json",
+      "sha256": "3af636dcd2c403d0fb70a32e30de6420362c1f5bec956f39b1935862b7c9e638"
+    },
+    {
+      "artifact_id": "ART-493F1BBD1F10",
+      "path": "source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    {
+      "artifact_id": "ART-ECAB74F40706",
+      "path": "source/chunks/CHUNK-001.pages.json",
+      "sha256": "c913e8e5f561bd4111b5935a621b4bcf08bc706b786ce90087318b87466688c3"
+    },
+    {
+      "artifact_id": "ART-4DE5D530B44F",
+      "path": "source/chunks/CHUNK-002.pages.json",
+      "sha256": "c153687a06887023930f204b5b35ee962c1c13d3bc14e54c137df3b43dc3a731"
+    },
+    {
+      "artifact_id": "ART-C982A69458FD",
+      "path": "source/chunks/CHUNK-003.pages.json",
+      "sha256": "d93f8e157f969af31ac2807c9423d25572070d76d9d2f474d4a55fa0a113b871"
+    },
+    {
+      "artifact_id": "ART-91151F8FE40A",
+      "path": "source/chunks/CHUNK-004.pages.json",
+      "sha256": "623a46e1181a066ad7044afc0786ab263eed5ccd206ab714d47c3ce58fc77aa7"
+    },
+    {
+      "artifact_id": "ART-3EFD9AE31A35",
+      "path": "source/chunks/CHUNK-005.pages.json",
+      "sha256": "23a684500e2d197a3fff4d5fbfffacd1f17e22adffa684cc4551573f0ec43788"
+    },
+    {
+      "artifact_id": "ART-F60CB05C3AFB",
+      "path": "source/chunks/CHUNK-006.pages.json",
+      "sha256": "c4c6a517c74219fe9bd4d1bdff81e8a2abdd2cb2576e1d2b99ec5faa832779dd"
+    },
+    {
+      "artifact_id": "ART-11EC77B13055",
+      "path": "source/chunks/CHUNK-007.pages.json",
+      "sha256": "3cc1168bea4ef216076e040c0097a3f0b2df60c745450b030e525ed6e772ade1"
+    },
+    {
+      "artifact_id": "ART-F0AE7AE72D52",
+      "path": "source/chunks/CHUNK-008.pages.json",
+      "sha256": "6d270ebf00e6782edbec9e7cd3695c267cca18ac92f13435d96f25ee416b1863"
+    },
+    {
+      "artifact_id": "ART-64989BD0C516",
+      "path": "source/chunks/CHUNK-009.pages.json",
+      "sha256": "d42e4846d642110a5b626ecea697f518bd614649043cdf7d707f4fb2134230a7"
+    },
+    {
+      "artifact_id": "ART-C6F166FDAF27",
+      "path": "source/chunks/CHUNK-010.pages.json",
+      "sha256": "57b511c4ea8f977e972c3473f3f064f991623052ae1d863ff95a7bfeb217a7b8"
+    },
+    {
+      "artifact_id": "ART-4433910F3307",
+      "path": "source/chunks/CHUNK-011.pages.json",
+      "sha256": "80a7235aa7e7e14d29dd2296c0eacfef58d883320b5f61b38076b38d6dd4e39a"
+    },
+    {
+      "artifact_id": "ART-CEC87BFB0DCB",
+      "path": "source/chunks/CHUNK-012.pages.json",
+      "sha256": "748ac77172ae2ef9b13ad258e5e2ee55fcc18bbd8e61129deebd72b308b22dab"
+    },
+    {
+      "artifact_id": "ART-91970D7A206A",
+      "path": "source/chunks/CHUNK-013.pages.json",
+      "sha256": "546f44c130d675080b2010f90ab97d93ea6cf9fd322e6ce4e7f390d534dd8bd7"
+    },
+    {
+      "artifact_id": "ART-F543C53DC34C",
+      "path": "source/chunks/CHUNK-014.pages.json",
+      "sha256": "2c8e0baaafe9e0070f36a34c5563d94d159a945c5106c80bc796ed09aad6dfb2"
+    },
+    {
+      "artifact_id": "ART-1A1572243419",
+      "path": "source/chunks/CHUNK-015.pages.json",
+      "sha256": "55f4391bc62b52ac3c01dc3d150431079873718b6cd40d2a2e320e1257ebdec8"
+    },
+    {
+      "artifact_id": "ART-DF686D5E0E30",
+      "path": "source/chunks/CHUNK-016.pages.json",
+      "sha256": "a7f8889c72d6bd3c4e430cd72a1cb9698d1a4aee799ca66e824873d047aef95f"
+    },
+    {
+      "artifact_id": "ART-8189687B6FDE",
+      "path": "source/chunks/CHUNK-017.pages.json",
+      "sha256": "9b5163a1bf2838421b39fff04b7aff05a0c64b11447d79fa44b70ad62665cbe6"
+    },
+    {
+      "artifact_id": "ART-A837106EABCB",
+      "path": "source/evaluation-policy.v4.json",
+      "sha256": "40206a8f9e2caf39b395fdab91b29ca073aeb544820b770a6974bd85e664f54f"
+    },
+    {
+      "artifact_id": "ART-9607411ECD7A",
+      "path": "source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d"
+    },
+    {
+      "artifact_id": "ART-58472DCF3082",
+      "path": "source/source-benchmark.v4.json",
+      "sha256": "ef9d368722765258a1c1e30a895a00815edfe1a0681450d7c8e219ed140d5a35"
+    },
+    {
+      "artifact_id": "ART-5DF8ACC8589A",
+      "path": "validation/benchmark-compatibility-approval.v1.json",
+      "sha256": "dae64b15dab9900a2003caad25fc1b0a036c7f447d4460838eb5b30fb9aa4bdf"
+    },
+    {
+      "artifact_id": "ART-0CAB77D2E493",
+      "path": "validation/benchmark-compatibility-import-provenance.v1.json",
+      "sha256": "d1911e876c78f14595ca59163ef82a956a9bd8375db6034a9d5c64fe9cd0048e"
+    }
+  ],
+  "restricted_artifacts_verified_in_saved_project": [
+    {
+      "artifact_id": "ART-3CE256DCFD46",
+      "path": "source/chunks/CHUNK-001.pdf",
+      "sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967"
+    },
+    {
+      "artifact_id": "ART-57268EE6264F",
+      "path": "source/chunks/CHUNK-002.pdf",
+      "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f"
+    },
+    {
+      "artifact_id": "ART-D7D9A2FB86FB",
+      "path": "source/chunks/CHUNK-003.pdf",
+      "sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f"
+    },
+    {
+      "artifact_id": "ART-C5E3148232E1",
+      "path": "source/chunks/CHUNK-004.pdf",
+      "sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe"
+    },
+    {
+      "artifact_id": "ART-1A5C1D4C43A1",
+      "path": "source/chunks/CHUNK-005.pdf",
+      "sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af"
+    },
+    {
+      "artifact_id": "ART-C3C871C027B5",
+      "path": "source/chunks/CHUNK-006.pdf",
+      "sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306"
+    },
+    {
+      "artifact_id": "ART-E47960FAE5D4",
+      "path": "source/chunks/CHUNK-007.pdf",
+      "sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c"
+    },
+    {
+      "artifact_id": "ART-E252900D2CC3",
+      "path": "source/chunks/CHUNK-008.pdf",
+      "sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81"
+    },
+    {
+      "artifact_id": "ART-E281E4F9F653",
+      "path": "source/chunks/CHUNK-009.pdf",
+      "sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8"
+    },
+    {
+      "artifact_id": "ART-1D3CFF737345",
+      "path": "source/chunks/CHUNK-010.pdf",
+      "sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d"
+    },
+    {
+      "artifact_id": "ART-65F1FA1F8694",
+      "path": "source/chunks/CHUNK-011.pdf",
+      "sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701"
+    },
+    {
+      "artifact_id": "ART-4E0801B668BD",
+      "path": "source/chunks/CHUNK-012.pdf",
+      "sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d"
+    },
+    {
+      "artifact_id": "ART-1317EA0B6CB2",
+      "path": "source/chunks/CHUNK-013.pdf",
+      "sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e"
+    },
+    {
+      "artifact_id": "ART-82F4478817EC",
+      "path": "source/chunks/CHUNK-014.pdf",
+      "sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40"
+    },
+    {
+      "artifact_id": "ART-2DC4A826EDA6",
+      "path": "source/chunks/CHUNK-015.pdf",
+      "sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5"
+    },
+    {
+      "artifact_id": "ART-25744B24AF7F",
+      "path": "source/chunks/CHUNK-016.pdf",
+      "sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9"
+    },
+    {
+      "artifact_id": "ART-7ADC198BD4B1",
+      "path": "source/chunks/CHUNK-017.pdf",
+      "sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2"
+    }
+  ],
+  "preserved_artifact_hashes": [
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-index.v2.json",
+      "before_sha256": "4eeea17c59c5ae9be6e159838c612a4d2d752b6d1c399a82d21ab02632fe91ec",
+      "after_sha256": "4eeea17c59c5ae9be6e159838c612a4d2d752b6d1c399a82d21ab02632fe91ec",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-layout-extraction.v1.json",
+      "before_sha256": "a2b262d264723847f6bd45d37973691101b9b790142458271cf13644ae3f0081",
+      "after_sha256": "a2b262d264723847f6bd45d37973691101b9b790142458271cf13644ae3f0081",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/item-inventory.v2.json",
+      "before_sha256": "e4efc2a79c30f7e36c4f1be68d5f87a32fa92b46f10d8534b1566ac0e92d6b78",
+      "after_sha256": "e4efc2a79c30f7e36c4f1be68d5f87a32fa92b46f10d8534b1566ac0e92d6b78",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-001.v2.json",
+      "before_sha256": "f9c4c7d3989027b578d9397e52acd7649a4e0861c440c1a9542bee8da7325900",
+      "after_sha256": "f9c4c7d3989027b578d9397e52acd7649a4e0861c440c1a9542bee8da7325900",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-002.v2.json",
+      "before_sha256": "518bf87a4e90288021d97e5bf195db5a12bd4608ecf9546e2ce6517bcdf565e7",
+      "after_sha256": "518bf87a4e90288021d97e5bf195db5a12bd4608ecf9546e2ce6517bcdf565e7",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-003.v2.json",
+      "before_sha256": "9cd69ce5cfa41869a1ff722d524706ce56e75c6c7fc57ead599c23341cc8df7f",
+      "after_sha256": "9cd69ce5cfa41869a1ff722d524706ce56e75c6c7fc57ead599c23341cc8df7f",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-004.v2.json",
+      "before_sha256": "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56",
+      "after_sha256": "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-005.v2.json",
+      "before_sha256": "54d58d652bb1bf645eee4f063c5ea853485e595e9c2b79d8bcc2788764661b0d",
+      "after_sha256": "54d58d652bb1bf645eee4f063c5ea853485e595e9c2b79d8bcc2788764661b0d",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-006.v2.json",
+      "before_sha256": "5b79dfa17b9e8a98bfdf5c7bcb4b4a93c32ffcc9bfca9c18468d1cd67be3b6bb",
+      "after_sha256": "5b79dfa17b9e8a98bfdf5c7bcb4b4a93c32ffcc9bfca9c18468d1cd67be3b6bb",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-007.v2.json",
+      "before_sha256": "2d81b5677d39a3c489369e2a999c2a49e3e4243eb5f91d90a7eabc04d8bc50fe",
+      "after_sha256": "2d81b5677d39a3c489369e2a999c2a49e3e4243eb5f91d90a7eabc04d8bc50fe",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-008.v2.json",
+      "before_sha256": "3432848897b957962a53fc8b2323ec57c0a0ca82478ae537652cba77dad27825",
+      "after_sha256": "3432848897b957962a53fc8b2323ec57c0a0ca82478ae537652cba77dad27825",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-009.v2.json",
+      "before_sha256": "a4ee72c11852893f85146cec069368f2bde255c2ace70f046d23d1248e8f5d8b",
+      "after_sha256": "a4ee72c11852893f85146cec069368f2bde255c2ace70f046d23d1248e8f5d8b",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-010.v2.json",
+      "before_sha256": "6411c4b62b34f1a4429564e6c0c7599a7b991eac5c0614d1ca07ce03636757bf",
+      "after_sha256": "6411c4b62b34f1a4429564e6c0c7599a7b991eac5c0614d1ca07ce03636757bf",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-011.v2.json",
+      "before_sha256": "7a07f2d4d36681313261ab91b48b7bc016208699f57b9fef7d7eaf89b01c98fd",
+      "after_sha256": "7a07f2d4d36681313261ab91b48b7bc016208699f57b9fef7d7eaf89b01c98fd",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-012.v2.json",
+      "before_sha256": "5416a64bf9262a21a4e9b0bd84f9d3b830aa306f3c93a4bef3c1d2c2af61a14b",
+      "after_sha256": "5416a64bf9262a21a4e9b0bd84f9d3b830aa306f3c93a4bef3c1d2c2af61a14b",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-013.v2.json",
+      "before_sha256": "6e1ad5fa517d46d1da16d0b0bd3b58bf05b81b0c103921d7bac371a85b377c0e",
+      "after_sha256": "6e1ad5fa517d46d1da16d0b0bd3b58bf05b81b0c103921d7bac371a85b377c0e",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-014.v2.json",
+      "before_sha256": "9ad09c70d739806d60b6453e3dc3a0d5048cc9915e40f7cb6e977950dbeff6b8",
+      "after_sha256": "9ad09c70d739806d60b6453e3dc3a0d5048cc9915e40f7cb6e977950dbeff6b8",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-015.v2.json",
+      "before_sha256": "afb0af9865334c0753df1183190ccc7232c29ec35b63179345606a10fc6017cc",
+      "after_sha256": "afb0af9865334c0753df1183190ccc7232c29ec35b63179345606a10fc6017cc",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-016.v2.json",
+      "before_sha256": "3c95f0badfff276714c77e540ef7f29107d514ad7574d2e95da22a1e70aca586",
+      "after_sha256": "3c95f0badfff276714c77e540ef7f29107d514ad7574d2e95da22a1e70aca586",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-017.v2.json",
+      "before_sha256": "0655cc2944ea21783710ae08ca9a5b12517ff75ed84ea1b618d235c5b5f01de4",
+      "after_sha256": "0655cc2944ea21783710ae08ca9a5b12517ff75ed84ea1b618d235c5b5f01de4",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-001.json",
+      "before_sha256": "9e8abda90236ef0f3151a74caaa3c25b92d622b4be017d744a2af03692a804c3",
+      "after_sha256": "9e8abda90236ef0f3151a74caaa3c25b92d622b4be017d744a2af03692a804c3",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-002.json",
+      "before_sha256": "c77f065694b7d05cd102d4e6db86d703f001b7f847f82bdc955b7e383c3ceea9",
+      "after_sha256": "c77f065694b7d05cd102d4e6db86d703f001b7f847f82bdc955b7e383c3ceea9",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-003.json",
+      "before_sha256": "8e3b89063b5f669ee41c26bb9e67ff875ea371959f69770507080bfe75ace3e7",
+      "after_sha256": "8e3b89063b5f669ee41c26bb9e67ff875ea371959f69770507080bfe75ace3e7",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-004.json",
+      "before_sha256": "1d710811343cb25ddb642825c16785674b40d7490305d64bde1ab85551f98459",
+      "after_sha256": "1d710811343cb25ddb642825c16785674b40d7490305d64bde1ab85551f98459",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-005.json",
+      "before_sha256": "7f55f74b7081aa3ad547b1bb527ee22d4d9051ba80abda3ec4018853ddbcd76b",
+      "after_sha256": "7f55f74b7081aa3ad547b1bb527ee22d4d9051ba80abda3ec4018853ddbcd76b",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-006.json",
+      "before_sha256": "490dd691bcc48d9d644d66d0b433322ba87ec7271e7c9b7a98cebcffd9f18302",
+      "after_sha256": "490dd691bcc48d9d644d66d0b433322ba87ec7271e7c9b7a98cebcffd9f18302",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-007.json",
+      "before_sha256": "0d1859826aae85e1f5b22bc30b30ef4b353837a52e3a1cd0c69916b1b7e3f166",
+      "after_sha256": "0d1859826aae85e1f5b22bc30b30ef4b353837a52e3a1cd0c69916b1b7e3f166",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-008.json",
+      "before_sha256": "b2f4e06dcd004340594ad0ec3807af57517a16b3ee4806d2dc93ef0e0795396e",
+      "after_sha256": "b2f4e06dcd004340594ad0ec3807af57517a16b3ee4806d2dc93ef0e0795396e",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-009.json",
+      "before_sha256": "d272965707d6ad2b81d34a46e3799ef659c04faf838b63e3ff85267d3ed9de67",
+      "after_sha256": "d272965707d6ad2b81d34a46e3799ef659c04faf838b63e3ff85267d3ed9de67",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-010.json",
+      "before_sha256": "acd48f322eed453167dff28d776dcc93ffb210a4481d5e728747507477991a38",
+      "after_sha256": "acd48f322eed453167dff28d776dcc93ffb210a4481d5e728747507477991a38",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-011.json",
+      "before_sha256": "eb3c724ea246f764f7f6d64779f5efb23decf6a046fa31972ff160a6487c4f0c",
+      "after_sha256": "eb3c724ea246f764f7f6d64779f5efb23decf6a046fa31972ff160a6487c4f0c",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-012.json",
+      "before_sha256": "e754d9db32adf4ac0d2d80fd9dbf3bca63d9318cd8bb4281907bd66c39f8d6c7",
+      "after_sha256": "e754d9db32adf4ac0d2d80fd9dbf3bca63d9318cd8bb4281907bd66c39f8d6c7",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-013.json",
+      "before_sha256": "9420b8c27ce896646a97438e88af37a3d3a786b23888fd1acdd580e30fb266e1",
+      "after_sha256": "9420b8c27ce896646a97438e88af37a3d3a786b23888fd1acdd580e30fb266e1",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-014.json",
+      "before_sha256": "73bcddfd6cb06e582af78134f3af6f72f02f4d2de0c89b90d891382580c1e364",
+      "after_sha256": "73bcddfd6cb06e582af78134f3af6f72f02f4d2de0c89b90d891382580c1e364",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-015.json",
+      "before_sha256": "2e49e45daa6a1741cfe86586de5a38d1f1fb744709500159c943d355aa314356",
+      "after_sha256": "2e49e45daa6a1741cfe86586de5a38d1f1fb744709500159c943d355aa314356",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-016.json",
+      "before_sha256": "48c8e752b0bd4c63f184bff79922f84da850cdefc3f3903c2fba945b99f5dfc4",
+      "after_sha256": "48c8e752b0bd4c63f184bff79922f84da850cdefc3f3903c2fba945b99f5dfc4",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-packets/candidate-locator-CHUNK-017.json",
+      "before_sha256": "0192899bba21d4dd3da59105a41230c46c265c00bb49ca4432eafc827803e9a8",
+      "after_sha256": "0192899bba21d4dd3da59105a41230c46c265c00bb49ca4432eafc827803e9a8",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "before_sha256": "7ca1ba69d1cdbd64c9c198d7b4bea25bd25b0431bc745b9504892c3eed61b58f",
+      "after_sha256": "7ca1ba69d1cdbd64c9c198d7b4bea25bd25b0431bc745b9504892c3eed61b58f",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "before_sha256": "30bd6af74a8a78ba822bff9cc769de366d927cfdafe9ca7655dc3f98b46cb7cf",
+      "after_sha256": "30bd6af74a8a78ba822bff9cc769de366d927cfdafe9ca7655dc3f98b46cb7cf",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "before_sha256": "7ee885e95d3cbbef5624c66b8aec7ea872d8f0be718dfcace36923be0b51b457",
+      "after_sha256": "7ee885e95d3cbbef5624c66b8aec7ea872d8f0be718dfcace36923be0b51b457",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "before_sha256": "2c4c7fadf88344bdce2989c3b21a407e42c628b795ecab851d534d8b20dae9aa",
+      "after_sha256": "2c4c7fadf88344bdce2989c3b21a407e42c628b795ecab851d534d8b20dae9aa",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "before_sha256": "fe7056ae493ba2eedacb53b948e35d1b689538089e7183bfa5ea97adefbf4e85",
+      "after_sha256": "fe7056ae493ba2eedacb53b948e35d1b689538089e7183bfa5ea97adefbf4e85",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "before_sha256": "2d8e1057c19283fcf07a362be81cea8a86892e3d8a072b3227c67fcaee8291ef",
+      "after_sha256": "2d8e1057c19283fcf07a362be81cea8a86892e3d8a072b3227c67fcaee8291ef",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "before_sha256": "2939cf9cecfcf3473595bfca2eb0c6c939eb868bc8703ce5d4a0518d4171de06",
+      "after_sha256": "2939cf9cecfcf3473595bfca2eb0c6c939eb868bc8703ce5d4a0518d4171de06",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "before_sha256": "672bf3bd3c21680ac933d72dc079bdbe9da16fbc55afe87158dacb2d90674137",
+      "after_sha256": "672bf3bd3c21680ac933d72dc079bdbe9da16fbc55afe87158dacb2d90674137",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "before_sha256": "636b48766e606e2783a1655482fd6177a306583dfce7f59806e04387c175a3d6",
+      "after_sha256": "636b48766e606e2783a1655482fd6177a306583dfce7f59806e04387c175a3d6",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "before_sha256": "7716e1c7e3ec1f6e9bfc1c347d23a2a0bdf92a32ce1d02d8592cb4ea3c639ab3",
+      "after_sha256": "7716e1c7e3ec1f6e9bfc1c347d23a2a0bdf92a32ce1d02d8592cb4ea3c639ab3",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "before_sha256": "66b71f5cf0ccb99a76ab229d74a0ddb61a17a4c283af4f0a61e0112360f409cb",
+      "after_sha256": "66b71f5cf0ccb99a76ab229d74a0ddb61a17a4c283af4f0a61e0112360f409cb",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "before_sha256": "35820538016fef678417d70530c42d1353d605c342a1f08ef353d328c89d1370",
+      "after_sha256": "35820538016fef678417d70530c42d1353d605c342a1f08ef353d328c89d1370",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "before_sha256": "78ddd28b0d28efff8d1641c2a320a5b6ba81441d975c5b08a297b0f42f7f799d",
+      "after_sha256": "78ddd28b0d28efff8d1641c2a320a5b6ba81441d975c5b08a297b0f42f7f799d",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "before_sha256": "722c53a1de352bc321c722db3be693b42a29da35ab01b29857d221cf7944c0dc",
+      "after_sha256": "722c53a1de352bc321c722db3be693b42a29da35ab01b29857d221cf7944c0dc",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "before_sha256": "cb81ae37ee11d2479fd32642162628a08b9edbf8977f0ab885be4c4a62277cf9",
+      "after_sha256": "cb81ae37ee11d2479fd32642162628a08b9edbf8977f0ab885be4c4a62277cf9",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "before_sha256": "f94f891c27ae1cae7d52a37e7fadfb78b20874e0649bebc9a6e67c1a8a1cc7d2",
+      "after_sha256": "f94f891c27ae1cae7d52a37e7fadfb78b20874e0649bebc9a6e67c1a8a1cc7d2",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "before_sha256": "eb444ed9e95c975a300039ca925cb486bbd908f440e9688050b9f082f99ab4fa",
+      "after_sha256": "eb444ed9e95c975a300039ca925cb486bbd908f440e9688050b9f082f99ab4fa",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
+      "before_sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
+      "after_sha256": "de3500825c22a9d29d517a7b98bfaebcab5bff2324d3c05d4a9150bd5c01d34e",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/checkpoints/completed-evaluation.portable.zip",
+      "before_sha256": "6b826aeda461d22bcbfc656dc29c0ca3ea7c90cda665a5df983c229529cc1957",
+      "after_sha256": "6b826aeda461d22bcbfc656dc29c0ca3ea7c90cda665a5df983c229529cc1957",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/checkpoints/source-preparation.portable.zip",
+      "before_sha256": "e5b78b112198629c6627d1e771651c5733ed8e6da1695e1d2f9ab3836abb5adf",
+      "after_sha256": "e5b78b112198629c6627d1e771651c5733ed8e6da1695e1d2f9ab3836abb5adf",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/evaluation-state.json",
+      "before_sha256": "b87e3e6ee064e12179514fb01802c6903d68f67558e440f49869a1931b2782ab",
+      "after_sha256": "b87e3e6ee064e12179514fb01802c6903d68f67558e440f49869a1931b2782ab",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/import/legacy-benchmark-v3/evaluation-state.json",
+      "before_sha256": "2bd0e712135430afccd5ba9f8dc1e61dc4a8b81cfdfdc7a511f0dc90759171ba",
+      "after_sha256": "2bd0e712135430afccd5ba9f8dc1e61dc4a8b81cfdfdc7a511f0dc90759171ba",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/import/legacy-benchmark-v3/source/chunk-manifest.json",
+      "before_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "after_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/import/legacy-benchmark-v3/source/evaluation-policy.v2.json",
+      "before_sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+      "after_sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/import/legacy-benchmark-v3/source/page-map.json",
+      "before_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "after_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/import/legacy-benchmark-v3/source/source-benchmark.v3.json",
+      "before_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "after_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/import/legacy-benchmark-v3/validation/source-benchmark-review-inventory.json",
+      "before_sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9",
+      "after_sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/import/legacy-benchmark-v3/validation/source-benchmark-review.v1.json",
+      "before_sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+      "after_sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/scoring/dimension-calculation-input.v2.json",
+      "before_sha256": "bc0a16709a2ccf40be60ddad070d3405a089ab83d7648c6db65a6eb479497f9a",
+      "after_sha256": "bc0a16709a2ccf40be60ddad070d3405a089ab83d7648c6db65a6eb479497f9a",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/scoring/dimension-calculations.v6.json",
+      "before_sha256": "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c",
+      "after_sha256": "b4c144fad383128f2b279e9ec6a2651e0285a5041a4e8e48c18927bc8953f80c",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/scoring/evaluation-result.v12.json",
+      "before_sha256": "61a86fd6bb7ab3276a1c4aefbadb30281482b71c8bfecf07e06e6a1f3bb43b46",
+      "after_sha256": "61a86fd6bb7ab3276a1c4aefbadb30281482b71c8bfecf07e06e6a1f3bb43b46",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/scoring/item-assessments.v7.json",
+      "before_sha256": "f37103196cb83b935279b8d94feca04c1454ff9b36fd036bf2b6c2476eaef0b5",
+      "after_sha256": "f37103196cb83b935279b8d94feca04c1454ff9b36fd036bf2b6c2476eaef0b5",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/scoring/projection-metadata.v2.json",
+      "before_sha256": "8f4dc516b3e01f24b91c9688f0d2106687bf90354d829f77f1df6197576f84ee",
+      "after_sha256": "8f4dc516b3e01f24b91c9688f0d2106687bf90354d829f77f1df6197576f84ee",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/scoring/web-report.v10.json",
+      "before_sha256": "3af636dcd2c403d0fb70a32e30de6420362c1f5bec956f39b1935862b7c9e638",
+      "after_sha256": "3af636dcd2c403d0fb70a32e30de6420362c1f5bec956f39b1935862b7c9e638",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunk-manifest-input.json",
+      "before_sha256": "390cfd2e8ece515fa0b489aaecef230e0abdef03460537c77d2d327b57e91be6",
+      "after_sha256": "390cfd2e8ece515fa0b489aaecef230e0abdef03460537c77d2d327b57e91be6",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunk-manifest.json",
+      "before_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "after_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-001.pages.json",
+      "before_sha256": "c913e8e5f561bd4111b5935a621b4bcf08bc706b786ce90087318b87466688c3",
+      "after_sha256": "c913e8e5f561bd4111b5935a621b4bcf08bc706b786ce90087318b87466688c3",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-002.pages.json",
+      "before_sha256": "c153687a06887023930f204b5b35ee962c1c13d3bc14e54c137df3b43dc3a731",
+      "after_sha256": "c153687a06887023930f204b5b35ee962c1c13d3bc14e54c137df3b43dc3a731",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-003.pages.json",
+      "before_sha256": "d93f8e157f969af31ac2807c9423d25572070d76d9d2f474d4a55fa0a113b871",
+      "after_sha256": "d93f8e157f969af31ac2807c9423d25572070d76d9d2f474d4a55fa0a113b871",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-004.pages.json",
+      "before_sha256": "623a46e1181a066ad7044afc0786ab263eed5ccd206ab714d47c3ce58fc77aa7",
+      "after_sha256": "623a46e1181a066ad7044afc0786ab263eed5ccd206ab714d47c3ce58fc77aa7",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-005.pages.json",
+      "before_sha256": "23a684500e2d197a3fff4d5fbfffacd1f17e22adffa684cc4551573f0ec43788",
+      "after_sha256": "23a684500e2d197a3fff4d5fbfffacd1f17e22adffa684cc4551573f0ec43788",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-006.pages.json",
+      "before_sha256": "c4c6a517c74219fe9bd4d1bdff81e8a2abdd2cb2576e1d2b99ec5faa832779dd",
+      "after_sha256": "c4c6a517c74219fe9bd4d1bdff81e8a2abdd2cb2576e1d2b99ec5faa832779dd",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-007.pages.json",
+      "before_sha256": "3cc1168bea4ef216076e040c0097a3f0b2df60c745450b030e525ed6e772ade1",
+      "after_sha256": "3cc1168bea4ef216076e040c0097a3f0b2df60c745450b030e525ed6e772ade1",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-008.pages.json",
+      "before_sha256": "6d270ebf00e6782edbec9e7cd3695c267cca18ac92f13435d96f25ee416b1863",
+      "after_sha256": "6d270ebf00e6782edbec9e7cd3695c267cca18ac92f13435d96f25ee416b1863",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-009.pages.json",
+      "before_sha256": "d42e4846d642110a5b626ecea697f518bd614649043cdf7d707f4fb2134230a7",
+      "after_sha256": "d42e4846d642110a5b626ecea697f518bd614649043cdf7d707f4fb2134230a7",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-010.pages.json",
+      "before_sha256": "57b511c4ea8f977e972c3473f3f064f991623052ae1d863ff95a7bfeb217a7b8",
+      "after_sha256": "57b511c4ea8f977e972c3473f3f064f991623052ae1d863ff95a7bfeb217a7b8",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-011.pages.json",
+      "before_sha256": "80a7235aa7e7e14d29dd2296c0eacfef58d883320b5f61b38076b38d6dd4e39a",
+      "after_sha256": "80a7235aa7e7e14d29dd2296c0eacfef58d883320b5f61b38076b38d6dd4e39a",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-012.pages.json",
+      "before_sha256": "748ac77172ae2ef9b13ad258e5e2ee55fcc18bbd8e61129deebd72b308b22dab",
+      "after_sha256": "748ac77172ae2ef9b13ad258e5e2ee55fcc18bbd8e61129deebd72b308b22dab",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-013.pages.json",
+      "before_sha256": "546f44c130d675080b2010f90ab97d93ea6cf9fd322e6ce4e7f390d534dd8bd7",
+      "after_sha256": "546f44c130d675080b2010f90ab97d93ea6cf9fd322e6ce4e7f390d534dd8bd7",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-014.pages.json",
+      "before_sha256": "2c8e0baaafe9e0070f36a34c5563d94d159a945c5106c80bc796ed09aad6dfb2",
+      "after_sha256": "2c8e0baaafe9e0070f36a34c5563d94d159a945c5106c80bc796ed09aad6dfb2",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-015.pages.json",
+      "before_sha256": "55f4391bc62b52ac3c01dc3d150431079873718b6cd40d2a2e320e1257ebdec8",
+      "after_sha256": "55f4391bc62b52ac3c01dc3d150431079873718b6cd40d2a2e320e1257ebdec8",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-016.pages.json",
+      "before_sha256": "a7f8889c72d6bd3c4e430cd72a1cb9698d1a4aee799ca66e824873d047aef95f",
+      "after_sha256": "a7f8889c72d6bd3c4e430cd72a1cb9698d1a4aee799ca66e824873d047aef95f",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/chunks/CHUNK-017.pages.json",
+      "before_sha256": "9b5163a1bf2838421b39fff04b7aff05a0c64b11447d79fa44b70ad62665cbe6",
+      "after_sha256": "9b5163a1bf2838421b39fff04b7aff05a0c64b11447d79fa44b70ad62665cbe6",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/evaluation-policy.v4.json",
+      "before_sha256": "40206a8f9e2caf39b395fdab91b29ca073aeb544820b770a6974bd85e664f54f",
+      "after_sha256": "40206a8f9e2caf39b395fdab91b29ca073aeb544820b770a6974bd85e664f54f",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/page-map-input.json",
+      "before_sha256": "5bb36cdf1d60c5fdaa2e26c0fd63b2d9429862ca712acdc7954879df5c7c1310",
+      "after_sha256": "5bb36cdf1d60c5fdaa2e26c0fd63b2d9429862ca712acdc7954879df5c7c1310",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/page-map.json",
+      "before_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "after_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/policy-build-input.json",
+      "before_sha256": "e917d32e5e6210886ba0549323e87aaae9205d822d810a0ea1942f0e30f5bc01",
+      "after_sha256": "e917d32e5e6210886ba0549323e87aaae9205d822d810a0ea1942f0e30f5bc01",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/source/source-benchmark.v4.json",
+      "before_sha256": "ef9d368722765258a1c1e30a895a00815edfe1a0681450d7c8e219ed140d5a35",
+      "after_sha256": "ef9d368722765258a1c1e30a895a00815edfe1a0681450d7c8e219ed140d5a35",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-001.v2.json",
+      "before_sha256": "f9c4c7d3989027b578d9397e52acd7649a4e0861c440c1a9542bee8da7325900",
+      "after_sha256": "f9c4c7d3989027b578d9397e52acd7649a4e0861c440c1a9542bee8da7325900",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-002.v2.json",
+      "before_sha256": "518bf87a4e90288021d97e5bf195db5a12bd4608ecf9546e2ce6517bcdf565e7",
+      "after_sha256": "518bf87a4e90288021d97e5bf195db5a12bd4608ecf9546e2ce6517bcdf565e7",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-003.v2.json",
+      "before_sha256": "9cd69ce5cfa41869a1ff722d524706ce56e75c6c7fc57ead599c23341cc8df7f",
+      "after_sha256": "9cd69ce5cfa41869a1ff722d524706ce56e75c6c7fc57ead599c23341cc8df7f",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-004.v2.json",
+      "before_sha256": "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56",
+      "after_sha256": "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-005.v2.json",
+      "before_sha256": "54d58d652bb1bf645eee4f063c5ea853485e595e9c2b79d8bcc2788764661b0d",
+      "after_sha256": "54d58d652bb1bf645eee4f063c5ea853485e595e9c2b79d8bcc2788764661b0d",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-006.v2.json",
+      "before_sha256": "5b79dfa17b9e8a98bfdf5c7bcb4b4a93c32ffcc9bfca9c18468d1cd67be3b6bb",
+      "after_sha256": "5b79dfa17b9e8a98bfdf5c7bcb4b4a93c32ffcc9bfca9c18468d1cd67be3b6bb",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-007.v2.json",
+      "before_sha256": "2d81b5677d39a3c489369e2a999c2a49e3e4243eb5f91d90a7eabc04d8bc50fe",
+      "after_sha256": "2d81b5677d39a3c489369e2a999c2a49e3e4243eb5f91d90a7eabc04d8bc50fe",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-008.v2.json",
+      "before_sha256": "3432848897b957962a53fc8b2323ec57c0a0ca82478ae537652cba77dad27825",
+      "after_sha256": "3432848897b957962a53fc8b2323ec57c0a0ca82478ae537652cba77dad27825",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-009.v2.json",
+      "before_sha256": "a4ee72c11852893f85146cec069368f2bde255c2ace70f046d23d1248e8f5d8b",
+      "after_sha256": "a4ee72c11852893f85146cec069368f2bde255c2ace70f046d23d1248e8f5d8b",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-010.v2.json",
+      "before_sha256": "6411c4b62b34f1a4429564e6c0c7599a7b991eac5c0614d1ca07ce03636757bf",
+      "after_sha256": "6411c4b62b34f1a4429564e6c0c7599a7b991eac5c0614d1ca07ce03636757bf",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-011.v2.json",
+      "before_sha256": "7a07f2d4d36681313261ab91b48b7bc016208699f57b9fef7d7eaf89b01c98fd",
+      "after_sha256": "7a07f2d4d36681313261ab91b48b7bc016208699f57b9fef7d7eaf89b01c98fd",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-012.v2.json",
+      "before_sha256": "5416a64bf9262a21a4e9b0bd84f9d3b830aa306f3c93a4bef3c1d2c2af61a14b",
+      "after_sha256": "5416a64bf9262a21a4e9b0bd84f9d3b830aa306f3c93a4bef3c1d2c2af61a14b",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-013.v2.json",
+      "before_sha256": "6e1ad5fa517d46d1da16d0b0bd3b58bf05b81b0c103921d7bac371a85b377c0e",
+      "after_sha256": "6e1ad5fa517d46d1da16d0b0bd3b58bf05b81b0c103921d7bac371a85b377c0e",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-014.v2.json",
+      "before_sha256": "9ad09c70d739806d60b6453e3dc3a0d5048cc9915e40f7cb6e977950dbeff6b8",
+      "after_sha256": "9ad09c70d739806d60b6453e3dc3a0d5048cc9915e40f7cb6e977950dbeff6b8",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-015.v2.json",
+      "before_sha256": "afb0af9865334c0753df1183190ccc7232c29ec35b63179345606a10fc6017cc",
+      "after_sha256": "afb0af9865334c0753df1183190ccc7232c29ec35b63179345606a10fc6017cc",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-016.v2.json",
+      "before_sha256": "3c95f0badfff276714c77e540ef7f29107d514ad7574d2e95da22a1e70aca586",
+      "after_sha256": "3c95f0badfff276714c77e540ef7f29107d514ad7574d2e95da22a1e70aca586",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/locator-audits/locator-audit.CHUNK-017.v2.json",
+      "before_sha256": "0655cc2944ea21783710ae08ca9a5b12517ff75ed84ea1b618d235c5b5f01de4",
+      "after_sha256": "0655cc2944ea21783710ae08ca9a5b12517ff75ed84ea1b618d235c5b5f01de4",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "before_sha256": "7ca1ba69d1cdbd64c9c198d7b4bea25bd25b0431bc745b9504892c3eed61b58f",
+      "after_sha256": "7ca1ba69d1cdbd64c9c198d7b4bea25bd25b0431bc745b9504892c3eed61b58f",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "before_sha256": "30bd6af74a8a78ba822bff9cc769de366d927cfdafe9ca7655dc3f98b46cb7cf",
+      "after_sha256": "30bd6af74a8a78ba822bff9cc769de366d927cfdafe9ca7655dc3f98b46cb7cf",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "before_sha256": "7ee885e95d3cbbef5624c66b8aec7ea872d8f0be718dfcace36923be0b51b457",
+      "after_sha256": "7ee885e95d3cbbef5624c66b8aec7ea872d8f0be718dfcace36923be0b51b457",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "before_sha256": "2c4c7fadf88344bdce2989c3b21a407e42c628b795ecab851d534d8b20dae9aa",
+      "after_sha256": "2c4c7fadf88344bdce2989c3b21a407e42c628b795ecab851d534d8b20dae9aa",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "before_sha256": "fe7056ae493ba2eedacb53b948e35d1b689538089e7183bfa5ea97adefbf4e85",
+      "after_sha256": "fe7056ae493ba2eedacb53b948e35d1b689538089e7183bfa5ea97adefbf4e85",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "before_sha256": "2d8e1057c19283fcf07a362be81cea8a86892e3d8a072b3227c67fcaee8291ef",
+      "after_sha256": "2d8e1057c19283fcf07a362be81cea8a86892e3d8a072b3227c67fcaee8291ef",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "before_sha256": "2939cf9cecfcf3473595bfca2eb0c6c939eb868bc8703ce5d4a0518d4171de06",
+      "after_sha256": "2939cf9cecfcf3473595bfca2eb0c6c939eb868bc8703ce5d4a0518d4171de06",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "before_sha256": "672bf3bd3c21680ac933d72dc079bdbe9da16fbc55afe87158dacb2d90674137",
+      "after_sha256": "672bf3bd3c21680ac933d72dc079bdbe9da16fbc55afe87158dacb2d90674137",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "before_sha256": "636b48766e606e2783a1655482fd6177a306583dfce7f59806e04387c175a3d6",
+      "after_sha256": "636b48766e606e2783a1655482fd6177a306583dfce7f59806e04387c175a3d6",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "before_sha256": "7716e1c7e3ec1f6e9bfc1c347d23a2a0bdf92a32ce1d02d8592cb4ea3c639ab3",
+      "after_sha256": "7716e1c7e3ec1f6e9bfc1c347d23a2a0bdf92a32ce1d02d8592cb4ea3c639ab3",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "before_sha256": "66b71f5cf0ccb99a76ab229d74a0ddb61a17a4c283af4f0a61e0112360f409cb",
+      "after_sha256": "66b71f5cf0ccb99a76ab229d74a0ddb61a17a4c283af4f0a61e0112360f409cb",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "before_sha256": "35820538016fef678417d70530c42d1353d605c342a1f08ef353d328c89d1370",
+      "after_sha256": "35820538016fef678417d70530c42d1353d605c342a1f08ef353d328c89d1370",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "before_sha256": "78ddd28b0d28efff8d1641c2a320a5b6ba81441d975c5b08a297b0f42f7f799d",
+      "after_sha256": "78ddd28b0d28efff8d1641c2a320a5b6ba81441d975c5b08a297b0f42f7f799d",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "before_sha256": "722c53a1de352bc321c722db3be693b42a29da35ab01b29857d221cf7944c0dc",
+      "after_sha256": "722c53a1de352bc321c722db3be693b42a29da35ab01b29857d221cf7944c0dc",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "before_sha256": "cb81ae37ee11d2479fd32642162628a08b9edbf8977f0ab885be4c4a62277cf9",
+      "after_sha256": "cb81ae37ee11d2479fd32642162628a08b9edbf8977f0ab885be4c4a62277cf9",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "before_sha256": "f94f891c27ae1cae7d52a37e7fadfb78b20874e0649bebc9a6e67c1a8a1cc7d2",
+      "after_sha256": "f94f891c27ae1cae7d52a37e7fadfb78b20874e0649bebc9a6e67c1a8a1cc7d2",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/staging/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "before_sha256": "eb444ed9e95c975a300039ca925cb486bbd908f440e9688050b9f082f99ab4fa",
+      "after_sha256": "eb444ed9e95c975a300039ca925cb486bbd908f440e9688050b9f082f99ab4fa",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/validation/benchmark-compatibility-approval.v1.json",
+      "before_sha256": "dae64b15dab9900a2003caad25fc1b0a036c7f447d4460838eb5b30fb9aa4bdf",
+      "after_sha256": "dae64b15dab9900a2003caad25fc1b0a036c7f447d4460838eb5b30fb9aa4bdf",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "evaluation/validation/benchmark-compatibility-import-provenance.v1.json",
+      "before_sha256": "d1911e876c78f14595ca59163ef82a956a9bd8375db6034a9d5c64fe9cd0048e",
+      "after_sha256": "d1911e876c78f14595ca59163ef82a956a9bd8375db6034a9d5c64fe9cd0048e",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "web/v8-canonical-projection/README.md",
+      "before_sha256": "45803bdfc38be9a11386fd5e96d294fed67cb0b65e35ff1621477958e6f3848f",
+      "after_sha256": "45803bdfc38be9a11386fd5e96d294fed67cb0b65e35ff1621477958e6f3848f",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "web/v8-canonical-projection/collection.schema.json",
+      "before_sha256": "866e36d238536ca5a61aa24091194fe19a3f0f210df320c7bf7c6053b70e571d",
+      "after_sha256": "866e36d238536ca5a61aa24091194fe19a3f0f210df320c7bf7c6053b70e571d",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "web/v8-canonical-projection/data/density.v1.json",
+      "before_sha256": "84b42124b3841b4eb479086630560dd390c555e520b371125d18cbc50c643ecb",
+      "after_sha256": "84b42124b3841b4eb479086630560dd390c555e520b371125d18cbc50c643ecb",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "web/v8-canonical-projection/data/index-records.v1.json",
+      "before_sha256": "eb8afc15d001b36809c97169c0d53d93a31b93f4ed6bc05005fdf2f43810ee02",
+      "after_sha256": "eb8afc15d001b36809c97169c0d53d93a31b93f4ed6bc05005fdf2f43810ee02",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "web/v8-canonical-projection/data/source-subjects.v1.json",
+      "before_sha256": "9b9f38f5aa4363af5fca22c4eb9ae2f638283b2b55d51e0634e088d83586b8a3",
+      "after_sha256": "9b9f38f5aa4363af5fca22c4eb9ae2f638283b2b55d51e0634e088d83586b8a3",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "web/v8-canonical-projection/projection.schema.json",
+      "before_sha256": "ad07a8eadf3fd9535822f400d71d3127f1db660a73221224cabcad1c61ec890d",
+      "after_sha256": "ad07a8eadf3fd9535822f400d71d3127f1db660a73221224cabcad1c61ec890d",
+      "disposition": "unchanged_frozen_V8"
+    },
+    {
+      "path": "web/v8-canonical-projection/projection.v1.json",
+      "before_sha256": "ef9b6c6329320f5d077a4a1075a8fdd67b10a7df1968a5d256d3806a48b382cb",
+      "after_sha256": "ef9b6c6329320f5d077a4a1075a8fdd67b10a7df1968a5d256d3806a48b382cb",
+      "disposition": "unchanged_frozen_V8"
+    }
+  ],
+  "changes": [
+    {
+      "change_id": "MIG-BOUNDARY-001",
+      "kind": "targeted_consequence_review_only",
+      "defect_id": "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001",
+      "affected_stable_ids": [
+        "REC-95178351D043",
+        "NODE-1EEBFD219FEB",
+        "PATH-CC40877BD826",
+        "XREF-39A88974E771",
+        "EVID-XREF-39A88974E771",
+        "HAF-000194",
+        "UNCERTAINTY-SENEZ-LEXICAL-SEE",
+        "line-bf093cb8ab522a668632"
+      ],
+      "old_meaning": "Major blocked-retrieval substitutive see in registered representation.",
+      "new_disposition": "Withhold delivered-index gate and localized-major ceiling; delivered lexical see is not an evidenced redirect. Canonical judgments remain historical and unchanged.",
+      "evidence": "Exact-hash candidate PDF page 22 and frozen layout say Senez, see of, 143. Frozen record has no locator and a generated redirect to of, 143. Original audit already records representation-boundary uncertainty.",
+      "missing_for_authoritative_migration": [
+        "Corrected candidate path and locator-143 inventory identity, with fidelity evidence",
+        "Targeted CHUNK-006 locator audit for recovered Senez assignment and dependent ownership/denominator bindings",
+        "Affected structure/item/aggregate reassessment distinguishing normalization error from delivered candidate failure"
+      ],
+      "reason": "Candidate normalization and additional locator auditing are excluded by this task; no gate can be attributed to a delivered route on the current evidence."
+    },
+    {
+      "change_id": "MIG-CONSEQUENCE-002",
+      "kind": "targeted_consequence_review_only",
+      "defect_id": "DEFECT-STRUCT-XREF-SUPPLEMENTARY-001",
+      "affected_stable_ids": [
+        "XREF-1FB84F43D7ED",
+        "XREF-80B3F994D3ED"
+      ],
+      "new_disposition": "Ordinary unsupported-reference deductions survive; minor supplementary references do not independently gate.",
+      "threshold_reason": "2/11 references (18.1818%) is below 10 items; 2/1056 structural sections (0.1894%) is below 25%. Direct source-entry locators survive."
+    },
+    {
+      "change_id": "MIG-CONSEQUENCE-003",
+      "kind": "targeted_consequence_review_only",
+      "defect_id": "DEFECT-STRUCT-SUBDIVISION-001",
+      "affected_stable_ids": [
+        "PATH-0C63FACA6CED",
+        "PATH-21F68C2B2947",
+        "PATH-2808CD626340",
+        "PATH-5969A52B4960",
+        "PATH-59F34776B0E9",
+        "PATH-7605F99DAB90",
+        "PATH-A254A6CC29F8",
+        "PATH-C48233FB6F4C",
+        "PATH-FF4BD0B64D83"
+      ],
+      "new_disposition": "Ordinary localized clutter deductions survive; no systemic clutter gate.",
+      "threshold_reason": "9/1644 paths (0.5474%) across 9/1056 structural sections (0.8523%), zero evidenced source spread: fails count, item-rate and spread thresholds."
+    },
+    {
+      "change_id": "MIG-CONSEQUENCE-004",
+      "kind": "targeted_consequence_review_only",
+      "affected_stable_ids": [
+        "LOC-2DF8B762632C",
+        "LOC-80463F686619",
+        "LOC-28B8DEB4636B",
+        "LOC-ED86C786DBB3",
+        "LOC-E5426AA03D57",
+        "LOC-EB89CEAB54B6",
+        "LOC-792DFD63926F",
+        "LOC-DFECED8F3034",
+        "LOC-6D26576E1EEB",
+        "LOC-F39EC80C652F",
+        "LOC-CF02D33D664C",
+        "LOC-1D5D6319C569",
+        "LOC-0181A9E071B5",
+        "LOC-4E5D16CBD899",
+        "LOC-058409826CA7",
+        "LOC-36832CCF7EDC",
+        "LOC-C681CF00BC03",
+        "LOC-0081059F367A",
+        "LOC-7A6189F067EE",
+        "LOC-1355AAF67F74",
+        "LOC-8489FE05864C",
+        "LOC-AA5D3E03FEBB",
+        "LOC-3759FEA65D02",
+        "LOC-5DBFA87FB298",
+        "LOC-91CF2580289D",
+        "LOC-9D6119C59AC0",
+        "LOC-6C8D6653F70C",
+        "LOC-6C3A76952743",
+        "LOC-3B4ABA2F7E51",
+        "LOC-81E855A49ABA",
+        "LOC-2CEB131BAB85",
+        "LOC-A114E6BA0C42",
+        "LOC-F74E0FD98302",
+        "LOC-710578E0561B",
+        "LOC-A1C7DFCDA94C",
+        "LOC-C74D2DC5AC6E",
+        "LOC-F31FFC742181",
+        "LOC-F1A5004AB92C",
+        "LOC-7CAED23FEE5F",
+        "LOC-11D85C3B33C5",
+        "LOC-C167F26DF3D3",
+        "LOC-929A8DCDE2CF",
+        "LOC-70E9CC1ADA3A",
+        "LOC-D6D8DE11E640",
+        "LOC-CD55A2C9C720",
+        "LOC-57E3FC24C6D6",
+        "LOC-EFA6B8CF8545",
+        "LOC-0C09FF5372AF",
+        "LOC-45C0D46FFD47",
+        "LOC-DE6A32C0402C",
+        "LOC-03D2970468F7",
+        "LOC-05CC0B6737CE",
+        "LOC-5C1AE240C774",
+        "LOC-6793B09BD95D",
+        "LOC-0488F8D40C3B",
+        "LOC-B2F7355BD5AE",
+        "LOC-64A090DE97C4",
+        "LOC-0AA18CD659F3",
+        "LOC-36641F4EA206",
+        "LOC-3600EA85EBAF",
+        "LOC-FBA5BFC474F6",
+        "LOC-1845BF085A7B",
+        "LOC-7A822F8E65A6",
+        "LOC-EDB9A0592E45",
+        "LOC-979D5301AF53",
+        "LOC-693BAA20477D",
+        "LOC-637A923481BA",
+        "LOC-517CAE69CC10",
+        "LOC-31BA7BD6C39C",
+        "LOC-CAE8E06425A9",
+        "LOC-33EB1CA87AC0"
+      ],
+      "new_disposition": "71 material_partial_fit judgments retain yellow review, diagnostic min(T,F), and binary keep deductions; never individually cap/gate."
+    },
+    {
+      "change_id": "MIG-BOUNDARY-005",
+      "kind": "review_queue_not_adjudicated",
+      "affected_stable_ids": [
+        "NODE-7C3FF748A057",
+        "NODE-D24D6806652B",
+        "NODE-788CE47169CD",
+        "NODE-ACC2771A4688",
+        "NODE-10FAE6FD7558",
+        "NODE-7F89E9516797",
+        "NODE-9226A713A42F",
+        "NODE-AA07C2329F65",
+        "NODE-3D637AA111A4",
+        "NODE-C8F07E7B6321",
+        "NODE-4D60E1D89230",
+        "NODE-830576DBAF98",
+        "NODE-5E25F5AC1223",
+        "NODE-0A6A0545B73B",
+        "NODE-F9744135DD3D",
+        "NODE-0C84CD1F1702",
+        "NODE-1B7722956FBF",
+        "NODE-412F2E877464",
+        "NODE-34C801592065",
+        "NODE-4C3B95D1E74E",
+        "NODE-CBE0B19D95A4",
+        "NODE-9E8999013879",
+        "NODE-2D12B96955E6",
+        "NODE-F586129D9702",
+        "NODE-2EFB1B1F8EAE",
+        "NODE-6C98913E1309",
+        "NODE-1B84C0490FD2",
+        "NODE-07A7CD81BEDC",
+        "NODE-9A2A22340EE4",
+        "NODE-DB3C706D9792",
+        "NODE-5D1332241A92",
+        "NODE-80FC28AB24EF",
+        "NODE-DD0DF88A6A90",
+        "NODE-135725781750",
+        "NODE-9698CE138711",
+        "NODE-49C16D680C80",
+        "NODE-5CCD8465C0AA",
+        "NODE-8569733C23CA",
+        "NODE-0F25329EB310",
+        "NODE-8CE56F506B57",
+        "NODE-8543C8F1795A",
+        "NODE-A6C4100739F7",
+        "NODE-8754E18D025E",
+        "NODE-6C4740FD739F",
+        "NODE-42CEF1C33411",
+        "NODE-5FF7DC49BABF",
+        "NODE-79413272089F",
+        "NODE-02DB75B73FB2",
+        "NODE-4504FC48F03A",
+        "NODE-970265C38970",
+        "NODE-24859D6396C3",
+        "NODE-B6DBA17B287A",
+        "NODE-71550252EB6B",
+        "NODE-C978A73AC01D",
+        "NODE-34A576AD367B",
+        "NODE-044346A07E0E",
+        "NODE-DF34CB4DE6EC",
+        "NODE-6080EBEA9C5C",
+        "NODE-F45C408C0719",
+        "NODE-F5813F8F00B8",
+        "NODE-DCBF99388E92",
+        "NODE-0F52F0E38C54",
+        "NODE-4E69A52F97F6",
+        "NODE-292F6FA267B7",
+        "NODE-0758582F5EE9",
+        "NODE-28E28921AB80",
+        "NODE-EB2D010E0F49",
+        "NODE-3234A5AE2BFF",
+        "NODE-D2C0A77B1BDF",
+        "NODE-AA87CC38163B",
+        "NODE-00C3A3662F38",
+        "NODE-7DA44BA45602",
+        "NODE-731000E157DC",
+        "NODE-77D7EAE91DEA",
+        "NODE-FBE3DE6C94B0",
+        "NODE-6152ECC520C2",
+        "NODE-0BE7D6C7ED47",
+        "NODE-05AE67E5734C",
+        "NODE-441F09FB0439",
+        "NODE-56E7E443052A",
+        "NODE-32DA30F07618",
+        "NODE-9EB6E3DB1F31",
+        "NODE-DD861F4B7350",
+        "NODE-F75D1E458901",
+        "NODE-E76C675AEA8D",
+        "NODE-53045FE36F90",
+        "NODE-0963973904BA",
+        "NODE-8E5325B15841",
+        "NODE-26CC364A9A39",
+        "NODE-6A48572061A8",
+        "NODE-383430C01E54",
+        "NODE-9324740CA116",
+        "NODE-5601E62B4C8A",
+        "NODE-3A44BFF656BC",
+        "NODE-3A84CE1BF28F",
+        "NODE-14C9271BD977",
+        "NODE-D6EB1563ED92",
+        "NODE-AB9A5C65E120",
+        "NODE-81723E162B22",
+        "NODE-2CEF9C76C0D1",
+        "NODE-26B3454854F2",
+        "NODE-81658B35C198",
+        "NODE-8E2712A6FF70",
+        "NODE-3868B83BC804",
+        "NODE-2D923995EDC0",
+        "NODE-889A977CF460",
+        "NODE-0E627FF3B6BA",
+        "NODE-FDA6F7ADEE0C",
+        "NODE-E5F881285D47",
+        "NODE-2F67A3643AA7",
+        "NODE-6CEDA209B0E5",
+        "NODE-5B89D30BD7B8",
+        "NODE-8B76D2E69AC5",
+        "NODE-BD32C5C795A8",
+        "NODE-34E3F08E1A07",
+        "NODE-1EEBFD219FEB",
+        "NODE-A3A9AB238FC1",
+        "NODE-E9F340041D8B",
+        "NODE-BEF14DD85E0B",
+        "NODE-66A9F1D61D8A",
+        "NODE-6CA54E27E758",
+        "NODE-39E9DC639883",
+        "NODE-D99501165F63",
+        "NODE-4E4FAC19E633",
+        "NODE-4A3092566468",
+        "NODE-F7CB1D60ACE7",
+        "NODE-AE724DCA6BFD",
+        "NODE-981E382F11C4",
+        "NODE-B5DC2847CA52",
+        "NODE-A65775AD8296",
+        "NODE-DD612414C8D0",
+        "NODE-7926C623E609",
+        "NODE-C606919A86F9",
+        "NODE-212EF7EBFF3B",
+        "NODE-CE4EC94D0F3E",
+        "NODE-EE91B813A2A8",
+        "NODE-6F7B3C9D9822",
+        "NODE-B3C64AD452F4",
+        "NODE-469387EB13F4",
+        "NODE-6B423C33D3CE",
+        "NODE-D1BC8048EF51",
+        "NODE-1C3B2C315FAF",
+        "NODE-6A8CD9D9B67E",
+        "NODE-B8DE8E346F80",
+        "NODE-902A9D7E54FD",
+        "NODE-5D31404286EA",
+        "NODE-C4414B582205",
+        "NODE-3FD23F9621C3",
+        "NODE-62ADC0366ADB",
+        "NODE-C2A4E1DF9908",
+        "NODE-C2CF2C620A53",
+        "NODE-98A0BBFCC00E",
+        "NODE-924A46BDDC99",
+        "NODE-1D1D99ED826A",
+        "NODE-1F9DDE7DF57B",
+        "NODE-177270A57133",
+        "NODE-F159B6EA8CDA",
+        "NODE-0C90BF11A6CB",
+        "NODE-868E413257E9"
+      ],
+      "new_disposition": "159 frozen major/fail access nodes remain unchanged; their ordinary ratings are not waived. The conditional architecture ceiling requires targeted evidence review before publication.",
+      "reason": "Includes 144 benchmark_access, 79 heading_fit, five confirmed_subdivision_architecture and two cross_reference causal findings (overlapping nodes). Missing supplemental routes and partial-fit evidence must not be escalated into delivered destructive access."
+    },
+    {
+      "change_id": "MIG-PROVENANCE-006",
+      "kind": "no_canonical_mutation",
+      "new_disposition": "All policy, benchmark, state, audits, calculations and public projection bytes remain unchanged. No policy/hash cascade, new candidate-blind review, approval, or stage completion is claimed."
+    }
+  ],
+  "original_triggered_ceilings": [
+    {
+      "dimension_id": "meaningful_coverage",
+      "pre_cap_percentage": "80.04284184219921456622634773",
+      "post_cap_percentage": "80.04284184219921456622634773",
+      "binding_against_pre_cap": false,
+      "selected": true,
+      "cap_evaluation": {
+        "cap_id": "coverage.essential_miss_rate",
+        "maximum_percentage": 90,
+        "triggered": true,
+        "threshold": {
+          "table": "essential_miss_rate_v1",
+          "band": "above_0_through_5_percent"
+        },
+        "observed": {
+          "missing": 3,
+          "essential_denominator": 155,
+          "rate": "0.01935483870967741935483870968"
+        },
+        "affected_evidence_ids": [
+          "SUBJ-47AD430EBABE",
+          "SUBJ-77B87F55CDDF",
+          "SUBJ-BE2B454984A0"
+        ]
+      }
+    },
+    {
+      "dimension_id": "page_reference_reliability",
+      "pre_cap_percentage": "89.34147163172305622080130417",
+      "post_cap_percentage": "80",
+      "binding_against_pre_cap": true,
+      "selected": true,
+      "cap_evaluation": {
+        "cap_id": "reliability.high_value_treatment_recall",
+        "maximum_percentage": 80,
+        "triggered": true,
+        "threshold": {
+          "table": "pooled_principal_and_synthesis_recall_v1",
+          "band": "75_to_below_90_percent"
+        },
+        "observed": {
+          "found": 2109,
+          "expected": 2434,
+          "rate": "0.8664749383730484798685291701"
+        },
+        "affected_evidence_ids": [
+          "TREAT-0008717E6070",
+          "TREAT-0136984DB2A5",
+          "TREAT-0171D5ED0AF8",
+          "TREAT-02C62963A237",
+          "TREAT-02C8C1DC028C",
+          "TREAT-062E0E127DF5",
+          "TREAT-0654F8C6FA4E",
+          "TREAT-0823A4C2E1D3",
+          "TREAT-08900B2E5EE4",
+          "TREAT-08EB2EA5A57B",
+          "TREAT-09385550ABC9",
+          "TREAT-094B90CBAE47",
+          "TREAT-0A6BC67E5A4C",
+          "TREAT-0AF2DB55A753",
+          "TREAT-0AF4132D5A5F",
+          "TREAT-0B154B16D37F",
+          "TREAT-0D16168D475A",
+          "TREAT-0E3D7631F8FF",
+          "TREAT-0E3EC335ECF8",
+          "TREAT-0E66D44EE2B6",
+          "TREAT-108BC6AD18B6",
+          "TREAT-11977D9EE15E",
+          "TREAT-11BF0149F958",
+          "TREAT-12163B32F72E",
+          "TREAT-1232432300B9",
+          "TREAT-127A3D7B89B6",
+          "TREAT-13578CD37FB3",
+          "TREAT-13B09B2B65CF",
+          "TREAT-13D75836A991",
+          "TREAT-1528B803A261",
+          "TREAT-1552730AF480",
+          "TREAT-1641EE3B59E4",
+          "TREAT-181BDD1CCFFE",
+          "TREAT-186FA6B6E4A8",
+          "TREAT-188677E60C26",
+          "TREAT-18B0B8147AFE",
+          "TREAT-18E63B6119DC",
+          "TREAT-19354CC9127F",
+          "TREAT-19B4592F179B",
+          "TREAT-1A783A39DC74",
+          "TREAT-1AB1A841FB27",
+          "TREAT-1AC82602C81D",
+          "TREAT-1AFA473B6096",
+          "TREAT-1BFDDE80C386",
+          "TREAT-1D6F4DCC0109",
+          "TREAT-1DF62851F8B3",
+          "TREAT-1F8215BB3BA2",
+          "TREAT-206DD7DD4BD5",
+          "TREAT-21E193C1F700",
+          "TREAT-222006423467",
+          "TREAT-22534D260217",
+          "TREAT-2285009CE92B",
+          "TREAT-22E312601D66",
+          "TREAT-239A172DB5E3",
+          "TREAT-2539DB08FD08",
+          "TREAT-2754771C945A",
+          "TREAT-279C960637E6",
+          "TREAT-27E3FFA736D4",
+          "TREAT-27ED85EDADF9",
+          "TREAT-2803E7B07354",
+          "TREAT-288FE6B74961",
+          "TREAT-28FE42C2AEEB",
+          "TREAT-2A31C1CCFE34",
+          "TREAT-2AC6E8F653BE",
+          "TREAT-2BE5B83C7B0B",
+          "TREAT-2D15A9DE691F",
+          "TREAT-2E4C40757D5C",
+          "TREAT-2EB606FEBF70",
+          "TREAT-2F2730381558",
+          "TREAT-3017D4E16D03",
+          "TREAT-30426F5EE240",
+          "TREAT-305E086D5F8A",
+          "TREAT-3094FA9BF389",
+          "TREAT-30FE67FBB9F3",
+          "TREAT-315DD9675921",
+          "TREAT-32C8790FC129",
+          "TREAT-3567FBF9F93D",
+          "TREAT-356E2D86C7C2",
+          "TREAT-35A0DFF14EC7",
+          "TREAT-369DF5C7D0B4",
+          "TREAT-36EE96D82F42",
+          "TREAT-38D484236244",
+          "TREAT-39CADA200975",
+          "TREAT-39FF762C703A",
+          "TREAT-3AC52BB80D92",
+          "TREAT-3AF4E7E34353",
+          "TREAT-3B8ABF8E460E",
+          "TREAT-3C093AFC4869",
+          "TREAT-3C9AD22435B0",
+          "TREAT-3D1B49F21EA5",
+          "TREAT-3D1BC7D62E0E",
+          "TREAT-3F1D9798FD48",
+          "TREAT-41B41CEB2841",
+          "TREAT-41CFC95AA830",
+          "TREAT-4209DF7D460E",
+          "TREAT-44F0B2FFA76C",
+          "TREAT-45FD360D636C",
+          "TREAT-470D01361E92",
+          "TREAT-473A5B672DA5",
+          "TREAT-4750EFBEBD65",
+          "TREAT-475BAD24B27B",
+          "TREAT-4AAB7D11D5B9",
+          "TREAT-4C553945F104",
+          "TREAT-4CFD93CC14EC",
+          "TREAT-4D7A0DF58D63",
+          "TREAT-4DE6ED5659D4",
+          "TREAT-4EB56B9D1A4F",
+          "TREAT-50332C9E50AC",
+          "TREAT-51BA9E953DD7",
+          "TREAT-51CF17E6D0AD",
+          "TREAT-53482B6117BA",
+          "TREAT-55A24A6AFAF3",
+          "TREAT-55B743441F31",
+          "TREAT-55FC72986126",
+          "TREAT-567EE6D76DB8",
+          "TREAT-57133BA5ECC8",
+          "TREAT-572F9CB886B3",
+          "TREAT-582CADDA23A4",
+          "TREAT-583774F118E2",
+          "TREAT-58DDDD30C592",
+          "TREAT-5B8FB90812B4",
+          "TREAT-5C1B0B5DF63E",
+          "TREAT-5C7D5BE962DB",
+          "TREAT-5CA002DEEB48",
+          "TREAT-5D62B7FC2EA7",
+          "TREAT-5DEA5377DF51",
+          "TREAT-5EA56A57A4C9",
+          "TREAT-5F11DFC9184C",
+          "TREAT-5F49EF347EE0",
+          "TREAT-60F458C0A9D7",
+          "TREAT-61A218E71C6C",
+          "TREAT-628D2D347E03",
+          "TREAT-63CFDB2551D6",
+          "TREAT-65FCA0FFA50D",
+          "TREAT-6736B92F74B8",
+          "TREAT-6832EDFF107E",
+          "TREAT-6842834E3776",
+          "TREAT-69862601DF32",
+          "TREAT-6A5A9A3ABE24",
+          "TREAT-6B5E55EDE940",
+          "TREAT-6BA4AAF2D17E",
+          "TREAT-6D31A1F8B0FC",
+          "TREAT-6FE5940EDB0C",
+          "TREAT-702420887BCB",
+          "TREAT-74112D0C6C36",
+          "TREAT-7428CC8C332D",
+          "TREAT-74E69F4EAD41",
+          "TREAT-74F01C2779C8",
+          "TREAT-75403BF6B1F8",
+          "TREAT-76057EBCA065",
+          "TREAT-771952DE6AD1",
+          "TREAT-77464F5AA36A",
+          "TREAT-789297E60E8D",
+          "TREAT-78A1290EFBBE",
+          "TREAT-7975CFFB1AEE",
+          "TREAT-79BB5FE60978",
+          "TREAT-79BC2787CD11",
+          "TREAT-7A1437959F8A",
+          "TREAT-7A584F526CA9",
+          "TREAT-7AEAF0E3260E",
+          "TREAT-7B3D553B2C0B",
+          "TREAT-7DA0FB49E574",
+          "TREAT-7E3A1AC5D629",
+          "TREAT-7EBBD997C056",
+          "TREAT-7F79F244AC7B",
+          "TREAT-80002B9EF70C",
+          "TREAT-8075EEC230E2",
+          "TREAT-80CDFA36C18A",
+          "TREAT-80EFB0A98F2F",
+          "TREAT-81C0881CE8D6",
+          "TREAT-81C55B227FCF",
+          "TREAT-82FEE44D9921",
+          "TREAT-83257BFA87C9",
+          "TREAT-849096C2BF89",
+          "TREAT-8524FCE8D059",
+          "TREAT-86A5EC874578",
+          "TREAT-876CBD5124EA",
+          "TREAT-877E96336D23",
+          "TREAT-895EA89B9E6D",
+          "TREAT-89AB0E2CB2DE",
+          "TREAT-8A91D9B98496",
+          "TREAT-8AC1F2B117D0",
+          "TREAT-8C3B5FDED9A1",
+          "TREAT-8CD69FBC9194",
+          "TREAT-8D0202EC2041",
+          "TREAT-8D17C57BE074",
+          "TREAT-8E1EF73729F4",
+          "TREAT-8EC2F14A5D45",
+          "TREAT-8EE4B424A164",
+          "TREAT-8F954DA5910F",
+          "TREAT-91EFABCDD525",
+          "TREAT-92F0CE3D8705",
+          "TREAT-943C8D670213",
+          "TREAT-9546158447FD",
+          "TREAT-95910A05E518",
+          "TREAT-95BDB0D20C80",
+          "TREAT-986512CCE4C9",
+          "TREAT-98EEB58A93AA",
+          "TREAT-9AAD78C312DC",
+          "TREAT-9D52BE25F26A",
+          "TREAT-9E107AC57AD8",
+          "TREAT-9E5E4F173FA5",
+          "TREAT-9F66EDE9DF3B",
+          "TREAT-9FDE8325AEBD",
+          "TREAT-A010B3396098",
+          "TREAT-A0E4D8419ABD",
+          "TREAT-A2288E96C3CF",
+          "TREAT-A63B99A81B42",
+          "TREAT-A68D6D06A6FE",
+          "TREAT-A804EF3A20A8",
+          "TREAT-A80A7BC8AF7D",
+          "TREAT-A9077FC1C758",
+          "TREAT-A957EEDD3408",
+          "TREAT-A988A5AAABA6",
+          "TREAT-AA19B88327D1",
+          "TREAT-AB4E73B13DF3",
+          "TREAT-AC79C4387DA5",
+          "TREAT-ACF136EE1D31",
+          "TREAT-ACF8449471B2",
+          "TREAT-AD284CF5FCEC",
+          "TREAT-AE01FBFAF0D4",
+          "TREAT-AE83DC5C64A6",
+          "TREAT-AF3A43DA3478",
+          "TREAT-AF8EBB0DEE3A",
+          "TREAT-B07B8C4CE005",
+          "TREAT-B088F10B2EBD",
+          "TREAT-B149BFEBE169",
+          "TREAT-B2254B11DEE0",
+          "TREAT-B26845FB2DE4",
+          "TREAT-B2D9B0A75B31",
+          "TREAT-B42F2C4FE934",
+          "TREAT-B437D758F879",
+          "TREAT-B5A4DF16C6D3",
+          "TREAT-B5AC12C84C58",
+          "TREAT-B66D65AE1397",
+          "TREAT-B7756A9E9175",
+          "TREAT-B8535F517C7C",
+          "TREAT-B933D41F3BA8",
+          "TREAT-BAA30D34B682",
+          "TREAT-BCBAC40B3304",
+          "TREAT-BCF733C1E5A9",
+          "TREAT-BDA30C574AD7",
+          "TREAT-BDA4975522B1",
+          "TREAT-BEBEE58FD982",
+          "TREAT-BFFBB82B0BA9",
+          "TREAT-C05238B81637",
+          "TREAT-C09C137B881F",
+          "TREAT-C12B4EAC33B6",
+          "TREAT-C139301527AB",
+          "TREAT-C2780E2CE65B",
+          "TREAT-C3170E20A1CE",
+          "TREAT-C33B3720674D",
+          "TREAT-C3A968C20C54",
+          "TREAT-C51F295FD096",
+          "TREAT-C661FE676DFD",
+          "TREAT-C6CA52C58034",
+          "TREAT-C6DB6597EF56",
+          "TREAT-C9442DC91526",
+          "TREAT-CB56A96BF682",
+          "TREAT-CC12B1C1C3AE",
+          "TREAT-CF3A855E2520",
+          "TREAT-CF470767C737",
+          "TREAT-CF6E13025FB7",
+          "TREAT-CFC9485EB0F2",
+          "TREAT-CFD6C60C78DD",
+          "TREAT-D012930A4F1C",
+          "TREAT-D0EB2ACE0C92",
+          "TREAT-D1C13AD98BB9",
+          "TREAT-D216EACC8E74",
+          "TREAT-D27B3F221CBD",
+          "TREAT-D3D7E93F4A31",
+          "TREAT-D3F699E99763",
+          "TREAT-D5FB7C6DF224",
+          "TREAT-D6A780A5FB45",
+          "TREAT-D6DAD27AEB1C",
+          "TREAT-D6F54A4FAE5E",
+          "TREAT-D837A30BCD4B",
+          "TREAT-D911CBB4E60F",
+          "TREAT-DA69ABD9E162",
+          "TREAT-DC54B64B220A",
+          "TREAT-DCF15AD4B9D4",
+          "TREAT-DDB7BFDAAE6D",
+          "TREAT-DDD6A267E2F2",
+          "TREAT-DDDC9C2A915D",
+          "TREAT-DE7415BD4ADE",
+          "TREAT-DE7496494F52",
+          "TREAT-DF0A61C634C8",
+          "TREAT-DF2396FBF41B",
+          "TREAT-E072CACABA9D",
+          "TREAT-E0CFD6CE00CD",
+          "TREAT-E0DFC2960D1B",
+          "TREAT-E1E7EADAFE35",
+          "TREAT-E39D162366AC",
+          "TREAT-E3ABC4E7E498",
+          "TREAT-E48896818D29",
+          "TREAT-E4ED37C2E0D1",
+          "TREAT-E6777C1E6B80",
+          "TREAT-E6C3F726C9DD",
+          "TREAT-EA04F6A4A994",
+          "TREAT-EFB1C8D69232",
+          "TREAT-F076CDFA9993",
+          "TREAT-F25354CBE481",
+          "TREAT-F2BCF4713174",
+          "TREAT-F54581FD743F",
+          "TREAT-F5D9B703A265",
+          "TREAT-F606D733C1FD",
+          "TREAT-F6259080EC09",
+          "TREAT-F62CDEDEFD81",
+          "TREAT-F63FDE38A45C",
+          "TREAT-F72A3523E64D",
+          "TREAT-F80A3098BB6F",
+          "TREAT-F8C6A07F14DD",
+          "TREAT-F93A63F5FB13",
+          "TREAT-F94FCA70EE2B",
+          "TREAT-FB3EC517D907",
+          "TREAT-FC102E69412B",
+          "TREAT-FC17FEBB8552",
+          "TREAT-FC5C9039631F",
+          "TREAT-FC80BE2B4BD0",
+          "TREAT-FE11B687B6C4",
+          "TREAT-FE400AE39D4C",
+          "TREAT-FE9C8BBDD9B1",
+          "TREAT-FEAAD96945D1",
+          "TREAT-FEDDA7684093",
+          "TREAT-FFB83C67790F"
+        ]
+      }
+    },
+    {
+      "dimension_id": "page_reference_reliability",
+      "pre_cap_percentage": "89.34147163172305622080130417",
+      "post_cap_percentage": "80",
+      "binding_against_pre_cap": false,
+      "selected": false,
+      "cap_evaluation": {
+        "cap_id": "reliability.distributed_unsupported_pattern",
+        "maximum_percentage": 90,
+        "triggered": true,
+        "threshold": {
+          "minimum_source_unit_rate": "0.25",
+          "rate_table": "reliability_owned_unsupported_v1",
+          "band": "1_to_below_3_percent"
+        },
+        "observed": {
+          "unsupported_count": 164,
+          "assessable_locator_denominator": 6221,
+          "rate": "0.02636232117022986658093554091",
+          "affected_source_units": 15,
+          "source_unit_denominator": 17,
+          "source_unit_rate": "0.8823529411764705882352941176"
+        },
+        "affected_evidence_ids": [
+          "LOC-02D07BB4645B",
+          "LOC-032C968C5666",
+          "LOC-03EA68042870",
+          "LOC-05683BD2EEE7",
+          "LOC-05E86A83B010",
+          "LOC-0AECEBB0B4B2",
+          "LOC-0B7498786FFD",
+          "LOC-0C8E16CD9A9F",
+          "LOC-0CA9C3C37D44",
+          "LOC-0CE9DB481B09",
+          "LOC-0F7868E5D012",
+          "LOC-11F2B63600D4",
+          "LOC-1219942EF75C",
+          "LOC-1248259445A9",
+          "LOC-13A916CE4492",
+          "LOC-16080D05FC85",
+          "LOC-1765477C6D39",
+          "LOC-18D069C3EBE5",
+          "LOC-19DF790209C0",
+          "LOC-1A3CDDF9E8A8",
+          "LOC-1A997CF5E177",
+          "LOC-1B12CAAFF12D",
+          "LOC-1B8D35F10EB9",
+          "LOC-1CF7B93E3489",
+          "LOC-1D3C6D6F5338",
+          "LOC-1E11CBEC74FA",
+          "LOC-1EB0672119FB",
+          "LOC-213BD0B90BEC",
+          "LOC-250F6F6A634E",
+          "LOC-2992A7890394",
+          "LOC-2A2DA4655DB3",
+          "LOC-2A46CD99575D",
+          "LOC-2B02458E664C",
+          "LOC-2E3FDD78122B",
+          "LOC-306ECD1B5D0B",
+          "LOC-383B41EF0CC5",
+          "LOC-39C165B3C593",
+          "LOC-3AE248167E8A",
+          "LOC-3C41CD5600FB",
+          "LOC-42C81EFBB74D",
+          "LOC-4830D1943B45",
+          "LOC-4A208AA37400",
+          "LOC-4A8894D6401D",
+          "LOC-4A9EF4D274AE",
+          "LOC-4B10DB7908D3",
+          "LOC-4BA6DA629A25",
+          "LOC-4BFB6F7D505F",
+          "LOC-4CF3829E2CD7",
+          "LOC-4DEAFD068BC3",
+          "LOC-4F2731417855",
+          "LOC-4FEE040FDBE1",
+          "LOC-5059E54293B3",
+          "LOC-509D26ECB9FE",
+          "LOC-51FAE95BDC53",
+          "LOC-531F07CFDE2B",
+          "LOC-5437607A05D5",
+          "LOC-56F929350893",
+          "LOC-57B0273B86BA",
+          "LOC-57C878911022",
+          "LOC-5832968360AD",
+          "LOC-5A363918778A",
+          "LOC-5B8502BE05AD",
+          "LOC-5B906EB6C96F",
+          "LOC-5BFC7C783E05",
+          "LOC-5CBA66901852",
+          "LOC-5F97ABFC52F4",
+          "LOC-60938A8ABE5C",
+          "LOC-686932ABDF64",
+          "LOC-68C27C2BA654",
+          "LOC-68F56DF9DB25",
+          "LOC-69A12B352624",
+          "LOC-6A55ADAB8561",
+          "LOC-6CB0B40CE361",
+          "LOC-6F7EC1C38F96",
+          "LOC-70217F4DA4EE",
+          "LOC-709F3B3134BA",
+          "LOC-74E2C673581D",
+          "LOC-777707749AD4",
+          "LOC-7B57EE76141D",
+          "LOC-7BDF91478A6E",
+          "LOC-7F6070D7B0C4",
+          "LOC-7F97340E1950",
+          "LOC-84368651301F",
+          "LOC-85159BE6445F",
+          "LOC-85EAB632BFF1",
+          "LOC-875CF34E5250",
+          "LOC-87CE20A497D0",
+          "LOC-897015B2D9C9",
+          "LOC-8A56748413C8",
+          "LOC-8B9B4AD5C557",
+          "LOC-8CF1012EB6E0",
+          "LOC-91E560CF75DB",
+          "LOC-927FCEF07ADE",
+          "LOC-9292D0FD720E",
+          "LOC-93C783AEAA35",
+          "LOC-979E34190F43",
+          "LOC-98A012BE1009",
+          "LOC-9A67EC166752",
+          "LOC-9C6A9BE30E36",
+          "LOC-9DADA4F927B5",
+          "LOC-9E78912F47A5",
+          "LOC-9EE3CCC10839",
+          "LOC-9F21A6CDB914",
+          "LOC-A1BFB5EBD49A",
+          "LOC-A3CEE755D1E3",
+          "LOC-A5DE80A3394F",
+          "LOC-A674E35FB204",
+          "LOC-A984D02CAFA8",
+          "LOC-AA3F650BDFB3",
+          "LOC-AC78C23DB1C9",
+          "LOC-AE054BF6A318",
+          "LOC-AEA7D4F55BA2",
+          "LOC-B648C3653B39",
+          "LOC-B707A4CF5B97",
+          "LOC-B7E6F7CD33A4",
+          "LOC-B8151909F772",
+          "LOC-BA825056DE87",
+          "LOC-BB9E8E899721",
+          "LOC-BC57C00C8392",
+          "LOC-BD03899C3B5C",
+          "LOC-BF8D54853D9A",
+          "LOC-C06C20362316",
+          "LOC-C1A672F83467",
+          "LOC-C3F940854FC0",
+          "LOC-C4A2800B0A24",
+          "LOC-C532099DF13D",
+          "LOC-C7C3C17988FC",
+          "LOC-C8CF741DE2A2",
+          "LOC-C8DA644B2AC8",
+          "LOC-CA39508FF9C5",
+          "LOC-CDA9BE9F9ED2",
+          "LOC-CDC13FC48D77",
+          "LOC-CF2AEE605855",
+          "LOC-D00D2D48CDA2",
+          "LOC-D13E4F99E86F",
+          "LOC-D3D84625E3A3",
+          "LOC-D7BC7997ECAF",
+          "LOC-DAB3C9BCBDC6",
+          "LOC-DE8D16C7E894",
+          "LOC-DF477F4E30C8",
+          "LOC-DFB9F1637047",
+          "LOC-E0BD7BEF10E7",
+          "LOC-E239FA63B5A4",
+          "LOC-E2AD8A9F5973",
+          "LOC-E45C0D0F296C",
+          "LOC-E4B790593AF8",
+          "LOC-E7B055D61E79",
+          "LOC-E9F3AE867000",
+          "LOC-ED1A13286795",
+          "LOC-EE2C2B0BA923",
+          "LOC-EF22612930BD",
+          "LOC-EFF8DF3BE8A6",
+          "LOC-F018D5406D0D",
+          "LOC-F151A8A07EC5",
+          "LOC-F3177CFEA1B6",
+          "LOC-F3D2E3EE4C76",
+          "LOC-F3FB8BE9CFC9",
+          "LOC-F404EA568752",
+          "LOC-F4E39D4FD0F4",
+          "LOC-F707ED343CD1",
+          "LOC-F77DDE53D6FE",
+          "LOC-FA17D1D4DF98",
+          "LOC-FCBE05B1FFC9",
+          "LOC-FFF913D6A79B"
+        ]
+      }
+    },
+    {
+      "dimension_id": "findability_navigation",
+      "pre_cap_percentage": "85.60976508533945413208306591",
+      "post_cap_percentage": "60",
+      "binding_against_pre_cap": false,
+      "selected": false,
+      "cap_evaluation": {
+        "cap_id": "findability.localized_major_navigation",
+        "maximum_percentage": 90,
+        "triggered": true,
+        "threshold": {
+          "severity": "major"
+        },
+        "observed": {
+          "defect_count": 1
+        },
+        "affected_evidence_ids": [
+          "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001"
+        ]
+      }
+    },
+    {
+      "dimension_id": "findability_navigation",
+      "pre_cap_percentage": "85.60976508533945413208306591",
+      "post_cap_percentage": "60",
+      "binding_against_pre_cap": true,
+      "selected": false,
+      "cap_evaluation": {
+        "cap_id": "findability.architecture.prevalence_at_least_0.05",
+        "maximum_percentage": 80,
+        "triggered": true,
+        "threshold": {
+          "operator": ">=",
+          "rate": "0.05"
+        },
+        "observed": {
+          "affected_count": 159,
+          "applicable_count": 1644,
+          "rate": "0.09671532846715328467153284672"
+        },
+        "affected_evidence_ids": [
+          "NODE-00C3A3662F38",
+          "NODE-02DB75B73FB2",
+          "NODE-044346A07E0E",
+          "NODE-05AE67E5734C",
+          "NODE-0758582F5EE9",
+          "NODE-07A7CD81BEDC",
+          "NODE-0963973904BA",
+          "NODE-0A6A0545B73B",
+          "NODE-0BE7D6C7ED47",
+          "NODE-0C84CD1F1702",
+          "NODE-0C90BF11A6CB",
+          "NODE-0E627FF3B6BA",
+          "NODE-0F25329EB310",
+          "NODE-0F52F0E38C54",
+          "NODE-10FAE6FD7558",
+          "NODE-135725781750",
+          "NODE-14C9271BD977",
+          "NODE-177270A57133",
+          "NODE-1B7722956FBF",
+          "NODE-1B84C0490FD2",
+          "NODE-1C3B2C315FAF",
+          "NODE-1D1D99ED826A",
+          "NODE-1EEBFD219FEB",
+          "NODE-1F9DDE7DF57B",
+          "NODE-212EF7EBFF3B",
+          "NODE-24859D6396C3",
+          "NODE-26B3454854F2",
+          "NODE-26CC364A9A39",
+          "NODE-28E28921AB80",
+          "NODE-292F6FA267B7",
+          "NODE-2CEF9C76C0D1",
+          "NODE-2D12B96955E6",
+          "NODE-2D923995EDC0",
+          "NODE-2EFB1B1F8EAE",
+          "NODE-2F67A3643AA7",
+          "NODE-3234A5AE2BFF",
+          "NODE-32DA30F07618",
+          "NODE-34A576AD367B",
+          "NODE-34C801592065",
+          "NODE-34E3F08E1A07",
+          "NODE-383430C01E54",
+          "NODE-3868B83BC804",
+          "NODE-39E9DC639883",
+          "NODE-3A44BFF656BC",
+          "NODE-3A84CE1BF28F",
+          "NODE-3D637AA111A4",
+          "NODE-3FD23F9621C3",
+          "NODE-412F2E877464",
+          "NODE-42CEF1C33411",
+          "NODE-441F09FB0439",
+          "NODE-4504FC48F03A",
+          "NODE-469387EB13F4",
+          "NODE-49C16D680C80",
+          "NODE-4A3092566468",
+          "NODE-4C3B95D1E74E",
+          "NODE-4D60E1D89230",
+          "NODE-4E4FAC19E633",
+          "NODE-4E69A52F97F6",
+          "NODE-53045FE36F90",
+          "NODE-5601E62B4C8A",
+          "NODE-56E7E443052A",
+          "NODE-5B89D30BD7B8",
+          "NODE-5CCD8465C0AA",
+          "NODE-5D1332241A92",
+          "NODE-5D31404286EA",
+          "NODE-5E25F5AC1223",
+          "NODE-5FF7DC49BABF",
+          "NODE-6080EBEA9C5C",
+          "NODE-6152ECC520C2",
+          "NODE-62ADC0366ADB",
+          "NODE-66A9F1D61D8A",
+          "NODE-6A48572061A8",
+          "NODE-6A8CD9D9B67E",
+          "NODE-6B423C33D3CE",
+          "NODE-6C4740FD739F",
+          "NODE-6C98913E1309",
+          "NODE-6CA54E27E758",
+          "NODE-6CEDA209B0E5",
+          "NODE-6F7B3C9D9822",
+          "NODE-71550252EB6B",
+          "NODE-731000E157DC",
+          "NODE-77D7EAE91DEA",
+          "NODE-788CE47169CD",
+          "NODE-7926C623E609",
+          "NODE-79413272089F",
+          "NODE-7C3FF748A057",
+          "NODE-7DA44BA45602",
+          "NODE-7F89E9516797",
+          "NODE-80FC28AB24EF",
+          "NODE-81658B35C198",
+          "NODE-81723E162B22",
+          "NODE-830576DBAF98",
+          "NODE-8543C8F1795A",
+          "NODE-8569733C23CA",
+          "NODE-868E413257E9",
+          "NODE-8754E18D025E",
+          "NODE-889A977CF460",
+          "NODE-8B76D2E69AC5",
+          "NODE-8CE56F506B57",
+          "NODE-8E2712A6FF70",
+          "NODE-8E5325B15841",
+          "NODE-902A9D7E54FD",
+          "NODE-9226A713A42F",
+          "NODE-924A46BDDC99",
+          "NODE-9324740CA116",
+          "NODE-9698CE138711",
+          "NODE-970265C38970",
+          "NODE-981E382F11C4",
+          "NODE-98A0BBFCC00E",
+          "NODE-9A2A22340EE4",
+          "NODE-9E8999013879",
+          "NODE-9EB6E3DB1F31",
+          "NODE-A3A9AB238FC1",
+          "NODE-A65775AD8296",
+          "NODE-A6C4100739F7",
+          "NODE-AA07C2329F65",
+          "NODE-AA87CC38163B",
+          "NODE-AB9A5C65E120",
+          "NODE-ACC2771A4688",
+          "NODE-AE724DCA6BFD",
+          "NODE-B3C64AD452F4",
+          "NODE-B5DC2847CA52",
+          "NODE-B6DBA17B287A",
+          "NODE-B8DE8E346F80",
+          "NODE-BD32C5C795A8",
+          "NODE-BEF14DD85E0B",
+          "NODE-C2A4E1DF9908",
+          "NODE-C2CF2C620A53",
+          "NODE-C4414B582205",
+          "NODE-C606919A86F9",
+          "NODE-C8F07E7B6321",
+          "NODE-C978A73AC01D",
+          "NODE-CBE0B19D95A4",
+          "NODE-CE4EC94D0F3E",
+          "NODE-D1BC8048EF51",
+          "NODE-D24D6806652B",
+          "NODE-D2C0A77B1BDF",
+          "NODE-D6EB1563ED92",
+          "NODE-D99501165F63",
+          "NODE-DB3C706D9792",
+          "NODE-DCBF99388E92",
+          "NODE-DD0DF88A6A90",
+          "NODE-DD612414C8D0",
+          "NODE-DD861F4B7350",
+          "NODE-DF34CB4DE6EC",
+          "NODE-E5F881285D47",
+          "NODE-E76C675AEA8D",
+          "NODE-E9F340041D8B",
+          "NODE-EB2D010E0F49",
+          "NODE-EE91B813A2A8",
+          "NODE-F159B6EA8CDA",
+          "NODE-F45C408C0719",
+          "NODE-F5813F8F00B8",
+          "NODE-F586129D9702",
+          "NODE-F75D1E458901",
+          "NODE-F7CB1D60ACE7",
+          "NODE-F9744135DD3D",
+          "NODE-FBE3DE6C94B0",
+          "NODE-FDA6F7ADEE0C"
+        ]
+      }
+    },
+    {
+      "dimension_id": "findability_navigation",
+      "pre_cap_percentage": "85.60976508533945413208306591",
+      "post_cap_percentage": "60",
+      "binding_against_pre_cap": true,
+      "selected": false,
+      "cap_evaluation": {
+        "cap_id": "findability.reference_unsupported_10_percent",
+        "maximum_percentage": 80,
+        "triggered": true,
+        "threshold": {
+          "minimum_count": 2,
+          "operator": ">=",
+          "rate": "0.10"
+        },
+        "observed": {
+          "unsupported": 3,
+          "denominator": 11,
+          "rate": "0.2727272727272727272727272727"
+        },
+        "affected_evidence_ids": [
+          "XREF-1FB84F43D7ED",
+          "XREF-39A88974E771",
+          "XREF-80B3F994D3ED"
+        ]
+      }
+    },
+    {
+      "dimension_id": "findability_navigation",
+      "pre_cap_percentage": "85.60976508533945413208306591",
+      "post_cap_percentage": "60",
+      "binding_against_pre_cap": true,
+      "selected": true,
+      "cap_evaluation": {
+        "cap_id": "findability.reference_unsupported_25_percent",
+        "maximum_percentage": 60,
+        "triggered": true,
+        "threshold": {
+          "minimum_count": 2,
+          "operator": ">=",
+          "rate": "0.25"
+        },
+        "observed": {
+          "unsupported": 3,
+          "denominator": 11,
+          "rate": "0.2727272727272727272727272727"
+        },
+        "affected_evidence_ids": [
+          "XREF-1FB84F43D7ED",
+          "XREF-39A88974E771",
+          "XREF-80B3F994D3ED"
+        ]
+      }
+    }
+  ],
+  "original_triggered_gates": [
+    {
+      "gate_id": "GATE-SEE-SUBSTITUTION",
+      "description": "see source replaces a warranted substantive entry",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [
+        "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001"
+      ]
+    },
+    {
+      "gate_id": "GATE-CROSS-REFERENCE",
+      "description": "unresolved, self-referential, circular, or chained cross-reference",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [
+        "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001",
+        "DEFECT-STRUCT-XREF-SUPPLEMENTARY-001"
+      ]
+    },
+    {
+      "gate_id": "GATE-CLUTTER",
+      "description": "systematic named-entity, example, or citation clutter",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [
+        "DEFECT-STRUCT-SUBDIVISION-001"
+      ]
+    }
+  ],
+  "conditional_policy_only_diagnostic": {
+    "authoritative": false,
+    "not_a_migration_result": true,
+    "score": 83.74,
+    "ordinary_pre_cap_values_unchanged": true,
+    "dimension_comparison": [
+      {
+        "dimension_id": "meaningful_coverage",
+        "original": "80.04284184219921456622634773",
+        "conditional": "80.04284184219921456622634773",
+        "pre_cap": "80.04284184219921456622634773",
+        "original_contribution": "16.00856836843984291324526955",
+        "conditional_contribution": "16.00856836843984291324526955"
+      },
+      {
+        "dimension_id": "editorial_selectivity",
+        "original": "64.98058329286448531083968367",
+        "conditional": "64.98058329286448531083968367",
+        "pre_cap": "64.98058329286448531083968367",
+        "original_contribution": "9.74708749392967279662595255",
+        "conditional_contribution": "9.74708749392967279662595255"
+      },
+      {
+        "dimension_id": "conceptual_stance_fidelity",
+        "original": "97.63077858880778588807785888",
+        "conditional": "97.63077858880778588807785888",
+        "pre_cap": "97.63077858880778588807785888",
+        "original_contribution": "14.64461678832116788321167883",
+        "conditional_contribution": "14.64461678832116788321167883"
+      },
+      {
+        "dimension_id": "page_reference_reliability",
+        "original": "80",
+        "conditional": "89.34147163172305622080130417",
+        "pre_cap": "89.34147163172305622080130417",
+        "original_contribution": "20",
+        "conditional_contribution": "22.33536790793076405520032604"
+      },
+      {
+        "dimension_id": "findability_navigation",
+        "original": "60",
+        "conditional": "80",
+        "pre_cap": "85.60976508533945413208306591",
+        "original_contribution": "12",
+        "conditional_contribution": "16"
+      },
+      {
+        "dimension_id": "mechanics_consistency",
+        "original": "99.99087591240875912408759124",
+        "conditional": "99.99087591240875912408759124",
+        "pre_cap": "99.99087591240875912408759124",
+        "original_contribution": "4.999543795620437956204379562",
+        "conditional_contribution": "4.999543795620437956204379562"
+      }
+    ],
+    "triggered_ceilings": [
+      {
+        "dimension_id": "meaningful_coverage",
+        "pre_cap_percentage": "80.04284184219921456622634773",
+        "post_cap_percentage": "80.04284184219921456622634773",
+        "binding_against_pre_cap": false,
+        "selected": true,
+        "cap_evaluation": {
+          "cap_id": "coverage.essential_miss_rate",
+          "maximum_percentage": 90,
+          "triggered": true,
+          "threshold": {
+            "table": "essential_miss_rate_v1",
+            "band": "above_0_through_5_percent"
+          },
+          "observed": {
+            "missing": 3,
+            "essential_denominator": 155,
+            "rate": "0.01935483870967741935483870968",
+            "consequence_evidence": [],
+            "qualifying_locator_evidence": [],
+            "severity_basis": [
+              "frozen_quantitative_threshold"
+            ],
+            "retrieval_consequence": [
+              "Essential subject access is absent."
+            ],
+            "threshold_reason": "Essential subject access is absent. Observed evidence satisfies {\"band\":\"above_0_through_5_percent\",\"table\":\"essential_miss_rate_v1\"}"
+          },
+          "affected_evidence_ids": [
+            "SUBJ-47AD430EBABE",
+            "SUBJ-77B87F55CDDF",
+            "SUBJ-BE2B454984A0"
+          ]
+        }
+      },
+      {
+        "dimension_id": "page_reference_reliability",
+        "pre_cap_percentage": "89.34147163172305622080130417",
+        "post_cap_percentage": "89.34147163172305622080130417",
+        "binding_against_pre_cap": false,
+        "selected": true,
+        "cap_evaluation": {
+          "cap_id": "reliability.distributed_unsupported_pattern",
+          "maximum_percentage": 90,
+          "triggered": true,
+          "threshold": {
+            "minimum_count": 3,
+            "fit": [
+              "severe_mismatch",
+              "no_fit"
+            ],
+            "minimum_source_unit_rate": "0.25",
+            "rate_table": "reliability_owned_unsupported_v1",
+            "band": "1_to_below_3_percent"
+          },
+          "observed": {
+            "unsupported_count": 125,
+            "assessable_locator_denominator": 6221,
+            "rate": "0.02009323259926056904034721106",
+            "affected_source_units": 15,
+            "source_unit_denominator": 17,
+            "source_unit_rate": "0.8823529411764705882352941176",
+            "consequence_evidence": [],
+            "qualifying_locator_evidence": [],
+            "severity_basis": [
+              "frozen_quantitative_threshold"
+            ],
+            "retrieval_consequence": [
+              "Delivered severe/no-fit locators materially mislead retrieval."
+            ],
+            "threshold_reason": "Delivered severe/no-fit locators materially mislead retrieval. Observed evidence satisfies {\"band\":\"1_to_below_3_percent\",\"fit\":[\"severe_mismatch\",\"no_fit\"],\"minimum_count\":3,\"minimum_source_unit_rate\":\"0.25\",\"rate_table\":\"reliability_owned_unsupported_v1\"}"
+          },
+          "affected_evidence_ids": [
+            "LOC-02D07BB4645B",
+            "LOC-03EA68042870",
+            "LOC-05683BD2EEE7",
+            "LOC-0AECEBB0B4B2",
+            "LOC-0B7498786FFD",
+            "LOC-0C8E16CD9A9F",
+            "LOC-0CA9C3C37D44",
+            "LOC-0F7868E5D012",
+            "LOC-11F2B63600D4",
+            "LOC-1219942EF75C",
+            "LOC-1248259445A9",
+            "LOC-16080D05FC85",
+            "LOC-1765477C6D39",
+            "LOC-19DF790209C0",
+            "LOC-1A3CDDF9E8A8",
+            "LOC-1A997CF5E177",
+            "LOC-1B12CAAFF12D",
+            "LOC-1B8D35F10EB9",
+            "LOC-1CF7B93E3489",
+            "LOC-1D3C6D6F5338",
+            "LOC-1E11CBEC74FA",
+            "LOC-1EB0672119FB",
+            "LOC-213BD0B90BEC",
+            "LOC-2992A7890394",
+            "LOC-2A46CD99575D",
+            "LOC-2B02458E664C",
+            "LOC-2E3FDD78122B",
+            "LOC-306ECD1B5D0B",
+            "LOC-383B41EF0CC5",
+            "LOC-39C165B3C593",
+            "LOC-3AE248167E8A",
+            "LOC-42C81EFBB74D",
+            "LOC-4830D1943B45",
+            "LOC-4A208AA37400",
+            "LOC-4A8894D6401D",
+            "LOC-4A9EF4D274AE",
+            "LOC-4B10DB7908D3",
+            "LOC-4BA6DA629A25",
+            "LOC-4BFB6F7D505F",
+            "LOC-4DEAFD068BC3",
+            "LOC-4F2731417855",
+            "LOC-4FEE040FDBE1",
+            "LOC-51FAE95BDC53",
+            "LOC-5437607A05D5",
+            "LOC-56F929350893",
+            "LOC-57B0273B86BA",
+            "LOC-57C878911022",
+            "LOC-5A363918778A",
+            "LOC-5B906EB6C96F",
+            "LOC-5BFC7C783E05",
+            "LOC-5CBA66901852",
+            "LOC-5F97ABFC52F4",
+            "LOC-60938A8ABE5C",
+            "LOC-686932ABDF64",
+            "LOC-68C27C2BA654",
+            "LOC-68F56DF9DB25",
+            "LOC-6A55ADAB8561",
+            "LOC-6F7EC1C38F96",
+            "LOC-70217F4DA4EE",
+            "LOC-709F3B3134BA",
+            "LOC-7B57EE76141D",
+            "LOC-7F6070D7B0C4",
+            "LOC-7F97340E1950",
+            "LOC-84368651301F",
+            "LOC-85159BE6445F",
+            "LOC-85EAB632BFF1",
+            "LOC-875CF34E5250",
+            "LOC-87CE20A497D0",
+            "LOC-8A56748413C8",
+            "LOC-8B9B4AD5C557",
+            "LOC-8CF1012EB6E0",
+            "LOC-91E560CF75DB",
+            "LOC-9292D0FD720E",
+            "LOC-93C783AEAA35",
+            "LOC-979E34190F43",
+            "LOC-98A012BE1009",
+            "LOC-9A67EC166752",
+            "LOC-9E78912F47A5",
+            "LOC-9EE3CCC10839",
+            "LOC-9F21A6CDB914",
+            "LOC-A1BFB5EBD49A",
+            "LOC-A3CEE755D1E3",
+            "LOC-A5DE80A3394F",
+            "LOC-A674E35FB204",
+            "LOC-A984D02CAFA8",
+            "LOC-AC78C23DB1C9",
+            "LOC-AEA7D4F55BA2",
+            "LOC-B648C3653B39",
+            "LOC-B707A4CF5B97",
+            "LOC-B7E6F7CD33A4",
+            "LOC-BA825056DE87",
+            "LOC-BB9E8E899721",
+            "LOC-BC57C00C8392",
+            "LOC-BF8D54853D9A",
+            "LOC-C3F940854FC0",
+            "LOC-C532099DF13D",
+            "LOC-C7C3C17988FC",
+            "LOC-C8CF741DE2A2",
+            "LOC-CA39508FF9C5",
+            "LOC-CF2AEE605855",
+            "LOC-D00D2D48CDA2",
+            "LOC-D13E4F99E86F",
+            "LOC-D3D84625E3A3",
+            "LOC-D7BC7997ECAF",
+            "LOC-DE8D16C7E894",
+            "LOC-DF477F4E30C8",
+            "LOC-DFB9F1637047",
+            "LOC-E0BD7BEF10E7",
+            "LOC-E239FA63B5A4",
+            "LOC-E2AD8A9F5973",
+            "LOC-E4B790593AF8",
+            "LOC-E7B055D61E79",
+            "LOC-ED1A13286795",
+            "LOC-EF22612930BD",
+            "LOC-EFF8DF3BE8A6",
+            "LOC-F018D5406D0D",
+            "LOC-F151A8A07EC5",
+            "LOC-F3177CFEA1B6",
+            "LOC-F3D2E3EE4C76",
+            "LOC-F3FB8BE9CFC9",
+            "LOC-F404EA568752",
+            "LOC-F4E39D4FD0F4",
+            "LOC-F707ED343CD1",
+            "LOC-FA17D1D4DF98",
+            "LOC-FFF913D6A79B"
+          ]
+        }
+      },
+      {
+        "dimension_id": "findability_navigation",
+        "pre_cap_percentage": "85.60976508533945413208306591",
+        "post_cap_percentage": "80",
+        "binding_against_pre_cap": false,
+        "selected": false,
+        "cap_evaluation": {
+          "cap_id": "findability.localized_major_navigation",
+          "maximum_percentage": 90,
+          "triggered": true,
+          "threshold": {
+            "severity": "major",
+            "consequence": "delivered misleading/destructive route or destroyed high-priority access"
+          },
+          "observed": {
+            "defect_count": 1,
+            "consequence_evidence": [
+              {
+                "defect_id": "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001",
+                "code": "XRF",
+                "dimension_owner": "findability_navigation",
+                "severity": "major",
+                "severity_basis": "blocked_retrieval",
+                "retrieval_consequence": "blocks",
+                "defect_kind": "substitutive_see",
+                "affected_item_ids": [
+                  "XREF-39A88974E771"
+                ],
+                "affected_source_sections": [],
+                "affected_structural_sections": [
+                  "NODE-1EEBFD219FEB"
+                ],
+                "root_cause_family": "unresolvable_substitutive_see_target_with_no_direct_locator_access",
+                "affected_count": 1,
+                "applicable_count": 11,
+                "affected_rate": "0.090909",
+                "source_section_denominator": 17,
+                "source_section_rate": "0",
+                "structural_section_denominator": 1056,
+                "structural_section_rate": "0.000947",
+                "high_priority_access_destroyed": false
+              }
+            ],
+            "qualifying_locator_evidence": [],
+            "severity_basis": [
+              "blocked_retrieval"
+            ],
+            "retrieval_consequence": [
+              "blocks"
+            ],
+            "threshold_reason": "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met. Observed evidence satisfies {\"consequence\":\"delivered misleading/destructive route or destroyed high-priority access\",\"severity\":\"major\"}"
+          },
+          "affected_evidence_ids": [
+            "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001",
+            "XREF-39A88974E771"
+          ]
+        }
+      },
+      {
+        "dimension_id": "findability_navigation",
+        "pre_cap_percentage": "85.60976508533945413208306591",
+        "post_cap_percentage": "80",
+        "binding_against_pre_cap": true,
+        "selected": true,
+        "cap_evaluation": {
+          "cap_id": "findability.architecture.prevalence_at_least_0.05",
+          "maximum_percentage": 80,
+          "triggered": true,
+          "threshold": {
+            "minimum_count": 10,
+            "operator": ">=",
+            "rate": "0.05"
+          },
+          "observed": {
+            "affected_count": 159,
+            "applicable_count": 1644,
+            "rate": "0.09671532846715328467153284672",
+            "consequence_evidence": [],
+            "qualifying_locator_evidence": [],
+            "severity_basis": [
+              "frozen_quantitative_threshold"
+            ],
+            "retrieval_consequence": [
+              "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+            ],
+            "threshold_reason": "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met. Observed evidence satisfies {\"minimum_count\":10,\"operator\":\">=\",\"rate\":\"0.05\"}"
+          },
+          "affected_evidence_ids": [
+            "NODE-00C3A3662F38",
+            "NODE-02DB75B73FB2",
+            "NODE-044346A07E0E",
+            "NODE-05AE67E5734C",
+            "NODE-0758582F5EE9",
+            "NODE-07A7CD81BEDC",
+            "NODE-0963973904BA",
+            "NODE-0A6A0545B73B",
+            "NODE-0BE7D6C7ED47",
+            "NODE-0C84CD1F1702",
+            "NODE-0C90BF11A6CB",
+            "NODE-0E627FF3B6BA",
+            "NODE-0F25329EB310",
+            "NODE-0F52F0E38C54",
+            "NODE-10FAE6FD7558",
+            "NODE-135725781750",
+            "NODE-14C9271BD977",
+            "NODE-177270A57133",
+            "NODE-1B7722956FBF",
+            "NODE-1B84C0490FD2",
+            "NODE-1C3B2C315FAF",
+            "NODE-1D1D99ED826A",
+            "NODE-1EEBFD219FEB",
+            "NODE-1F9DDE7DF57B",
+            "NODE-212EF7EBFF3B",
+            "NODE-24859D6396C3",
+            "NODE-26B3454854F2",
+            "NODE-26CC364A9A39",
+            "NODE-28E28921AB80",
+            "NODE-292F6FA267B7",
+            "NODE-2CEF9C76C0D1",
+            "NODE-2D12B96955E6",
+            "NODE-2D923995EDC0",
+            "NODE-2EFB1B1F8EAE",
+            "NODE-2F67A3643AA7",
+            "NODE-3234A5AE2BFF",
+            "NODE-32DA30F07618",
+            "NODE-34A576AD367B",
+            "NODE-34C801592065",
+            "NODE-34E3F08E1A07",
+            "NODE-383430C01E54",
+            "NODE-3868B83BC804",
+            "NODE-39E9DC639883",
+            "NODE-3A44BFF656BC",
+            "NODE-3A84CE1BF28F",
+            "NODE-3D637AA111A4",
+            "NODE-3FD23F9621C3",
+            "NODE-412F2E877464",
+            "NODE-42CEF1C33411",
+            "NODE-441F09FB0439",
+            "NODE-4504FC48F03A",
+            "NODE-469387EB13F4",
+            "NODE-49C16D680C80",
+            "NODE-4A3092566468",
+            "NODE-4C3B95D1E74E",
+            "NODE-4D60E1D89230",
+            "NODE-4E4FAC19E633",
+            "NODE-4E69A52F97F6",
+            "NODE-53045FE36F90",
+            "NODE-5601E62B4C8A",
+            "NODE-56E7E443052A",
+            "NODE-5B89D30BD7B8",
+            "NODE-5CCD8465C0AA",
+            "NODE-5D1332241A92",
+            "NODE-5D31404286EA",
+            "NODE-5E25F5AC1223",
+            "NODE-5FF7DC49BABF",
+            "NODE-6080EBEA9C5C",
+            "NODE-6152ECC520C2",
+            "NODE-62ADC0366ADB",
+            "NODE-66A9F1D61D8A",
+            "NODE-6A48572061A8",
+            "NODE-6A8CD9D9B67E",
+            "NODE-6B423C33D3CE",
+            "NODE-6C4740FD739F",
+            "NODE-6C98913E1309",
+            "NODE-6CA54E27E758",
+            "NODE-6CEDA209B0E5",
+            "NODE-6F7B3C9D9822",
+            "NODE-71550252EB6B",
+            "NODE-731000E157DC",
+            "NODE-77D7EAE91DEA",
+            "NODE-788CE47169CD",
+            "NODE-7926C623E609",
+            "NODE-79413272089F",
+            "NODE-7C3FF748A057",
+            "NODE-7DA44BA45602",
+            "NODE-7F89E9516797",
+            "NODE-80FC28AB24EF",
+            "NODE-81658B35C198",
+            "NODE-81723E162B22",
+            "NODE-830576DBAF98",
+            "NODE-8543C8F1795A",
+            "NODE-8569733C23CA",
+            "NODE-868E413257E9",
+            "NODE-8754E18D025E",
+            "NODE-889A977CF460",
+            "NODE-8B76D2E69AC5",
+            "NODE-8CE56F506B57",
+            "NODE-8E2712A6FF70",
+            "NODE-8E5325B15841",
+            "NODE-902A9D7E54FD",
+            "NODE-9226A713A42F",
+            "NODE-924A46BDDC99",
+            "NODE-9324740CA116",
+            "NODE-9698CE138711",
+            "NODE-970265C38970",
+            "NODE-981E382F11C4",
+            "NODE-98A0BBFCC00E",
+            "NODE-9A2A22340EE4",
+            "NODE-9E8999013879",
+            "NODE-9EB6E3DB1F31",
+            "NODE-A3A9AB238FC1",
+            "NODE-A65775AD8296",
+            "NODE-A6C4100739F7",
+            "NODE-AA07C2329F65",
+            "NODE-AA87CC38163B",
+            "NODE-AB9A5C65E120",
+            "NODE-ACC2771A4688",
+            "NODE-AE724DCA6BFD",
+            "NODE-B3C64AD452F4",
+            "NODE-B5DC2847CA52",
+            "NODE-B6DBA17B287A",
+            "NODE-B8DE8E346F80",
+            "NODE-BD32C5C795A8",
+            "NODE-BEF14DD85E0B",
+            "NODE-C2A4E1DF9908",
+            "NODE-C2CF2C620A53",
+            "NODE-C4414B582205",
+            "NODE-C606919A86F9",
+            "NODE-C8F07E7B6321",
+            "NODE-C978A73AC01D",
+            "NODE-CBE0B19D95A4",
+            "NODE-CE4EC94D0F3E",
+            "NODE-D1BC8048EF51",
+            "NODE-D24D6806652B",
+            "NODE-D2C0A77B1BDF",
+            "NODE-D6EB1563ED92",
+            "NODE-D99501165F63",
+            "NODE-DB3C706D9792",
+            "NODE-DCBF99388E92",
+            "NODE-DD0DF88A6A90",
+            "NODE-DD612414C8D0",
+            "NODE-DD861F4B7350",
+            "NODE-DF34CB4DE6EC",
+            "NODE-E5F881285D47",
+            "NODE-E76C675AEA8D",
+            "NODE-E9F340041D8B",
+            "NODE-EB2D010E0F49",
+            "NODE-EE91B813A2A8",
+            "NODE-F159B6EA8CDA",
+            "NODE-F45C408C0719",
+            "NODE-F5813F8F00B8",
+            "NODE-F586129D9702",
+            "NODE-F75D1E458901",
+            "NODE-F7CB1D60ACE7",
+            "NODE-F9744135DD3D",
+            "NODE-FBE3DE6C94B0",
+            "NODE-FDA6F7ADEE0C"
+          ]
+        }
+      }
+    ],
+    "triggered_gates": [
+      {
+        "gate_id": "GATE-SEE-SUBSTITUTION",
+        "description": "Major/critical delivered substitutive see blocks warranted substantive access",
+        "standard": true,
+        "triggered": true,
+        "defect_ids": [
+          "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001"
+        ],
+        "affected_evidence_ids": [
+          "XREF-39A88974E771"
+        ],
+        "threshold": "Major/critical delivered substitutive see blocks warranted substantive access",
+        "systemic_groups": [],
+        "consequence_evidence": [
+          {
+            "defect_id": "DEFECT-STRUCT-XREF-SUBSTITUTIVE-001",
+            "code": "XRF",
+            "dimension_owner": "findability_navigation",
+            "severity": "major",
+            "severity_basis": "blocked_retrieval",
+            "retrieval_consequence": "blocks",
+            "defect_kind": "substitutive_see",
+            "affected_item_ids": [
+              "XREF-39A88974E771"
+            ],
+            "affected_source_sections": [],
+            "affected_structural_sections": [
+              "NODE-1EEBFD219FEB"
+            ],
+            "root_cause_family": "unresolvable_substitutive_see_target_with_no_direct_locator_access",
+            "affected_count": 1,
+            "applicable_count": 11,
+            "affected_rate": "0.090909",
+            "source_section_denominator": 17,
+            "source_section_rate": "0",
+            "structural_section_denominator": 1056,
+            "structural_section_rate": "0.000947",
+            "high_priority_access_destroyed": false
+          }
+        ],
+        "qualifying_locator_evidence": [],
+        "threshold_reason": "Qualifying material consequence: [{\"affected_count\":1,\"affected_item_ids\":[\"XREF-39A88974E771\"],\"affected_rate\":\"0.090909\",\"affected_source_sections\":[],\"affected_structural_sections\":[\"NODE-1EEBFD219FEB\"],\"applicable_count\":11,\"code\":\"XRF\",\"defect_id\":\"DEFECT-STRUCT-XREF-SUBSTITUTIVE-001\",\"defect_kind\":\"substitutive_see\",\"dimension_owner\":\"findability_navigation\",\"high_priority_access_destroyed\":false,\"retrieval_consequence\":\"blocks\",\"root_cause_family\":\"unresolvable_substitutive_see_target_with_no_direct_locator_access\",\"severity\":\"major\",\"severity_basis\":\"blocked_retrieval\",\"source_section_denominator\":17,\"source_section_rate\":\"0\",\"structural_section_denominator\":1056,\"structural_section_rate\":\"0.000947\"}]"
+      }
+    ],
+    "inputs_sha256": "78627affebb20948acf8d8b07118d3f7f6e347c94c22b03d7ff6a40abef82cb5",
+    "calculation_file_sha256": "92a4a77a7a6348cfd341626854b794dfe03519e0937633cb941136c50f23dd61",
+    "calculation_content_sha256": "da6deb44f65823c1eb7ac25b86ab2d323da56a32452e14d9e06590d9394a2081",
+    "policy_file_sha256": "b452668c4035052630c050d70d05e01018560cf3513349af42c3b4ed084a3b29",
+    "policy_content_sha256": "564d8d3bf644f7ab4483604565c5d4f37194e412f3e4344fc89033d7ee313c2e",
+    "policy_builder_timestamp": "2026-09-16T16:11:07Z",
+    "policy_builder_freeze_flag_is_not_a_new_candidate_blind_attestation": true,
+    "scope_audience_audit_mode_density_numbers_unchanged": true,
+    "reason_not_publishable": "Unchanged frozen structure still causes a false delivered-see gate and retains unreviewed major architecture labels. A numeric calculation passing preflight does not settle candidate-attribution validity."
+  },
+  "validity": {
+    "current_schema_validation_of_original_state": "expected rejection: old methodology identities",
+    "policy_only_preflight": "valid structurally; all 6221 normalized locator states pass, zero uninspectable",
+    "audit_attestation": "complete",
+    "source_span": "unchanged one-based 1-425",
+    "candidate_output_status": "meaningful_attempt",
+    "migration_authority": "withheld for candidate representation/attribution gap",
+    "publication_readiness": "not determined by this bounded review; do not convert evidence problems into candidate-quality gates"
+  },
+  "not_rerun": [
+    "source discovery",
+    "benchmark synthesis",
+    "candidate-blind independent review",
+    "benchmark freeze/import",
+    "page mapping",
+    "candidate normalization",
+    "locator auditing",
+    "missing-access auditing"
+  ],
+  "delivery_artifacts": [
+    "evaluation/migration-v8.1/REPORT.md",
+    "evaluation/migration-v8.1/change-ledger.json",
+    "evaluation/migration-v8.1/validation-results.json",
+    "scripts/check_v81_migration_boundary.py",
+    "README.md"
+  ],
+  "validation_results": {
+    "path": "validation-results.json",
+    "sha256": "7330bd44db4b6d691e13c129350f14b0528c8bf0b43198e4ecbafee27fe84b85",
+    "historical_report_schema_gap": "Historical web-report.v10.json lacks calculation_explainer.dimension_denominators required by 514bcca and current contracts."
+  },
+  "delivery_file_hashes": [
+    {
+      "path": "evaluation/migration-v8.1/REPORT.md",
+      "sha256": "092dc90d7e2ff8992e7ea37075e9d948f96d2b013ab1bc0190c1655bcc84952b"
+    },
+    {
+      "path": "evaluation/migration-v8.1/validation-results.json",
+      "sha256": "7330bd44db4b6d691e13c129350f14b0528c8bf0b43198e4ecbafee27fe84b85"
+    },
+    {
+      "path": "scripts/check_v81_migration_boundary.py",
+      "sha256": "96074bddbb70f5bddb1036e63b5caad887056cc3d33256cd2744bb38c553e6db"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5f83ce8b0956492a149bf5e0301431b9858b9abf0960a91d7ac140612b5ab771"
+    }
+  ],
+  "self_hash_rule": "ledger_content_sha256 is SHA-256 of UTF-8 canonical JSON with sorted keys, compact separators, ensure_ascii=False, excluding ledger_content_sha256 itself.",
+  "ledger_content_sha256": "4094d757add247d50b9e26f09c864ce74a2aab49364d571330460b6faab6e686"
+}

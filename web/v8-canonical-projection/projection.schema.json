@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://publication-intelligence.example/schemas/ohfr-v8-canonical-web-projection-v1.json",
+  "title": "OHFR V8 canonical web projection",
+  "type": "object",
+  "required": ["schema_version", "projection_id", "projection_role", "evaluation_id", "view_selection", "score_views", "correction_outcomes", "item_summaries", "collections", "provenance", "density_denominator", "public_safety", "limitations", "projection_sha256"],
+  "properties": {
+    "schema_version": {"const": "ohfr-v8-canonical-web-projection-v1"},
+    "projection_id": {"type": "string", "pattern": "^OHFR-V8-WEB-[A-F0-9]{12}$"},
+    "projection_role": {"const": "deterministic_public_safe_display_projection"},
+    "evaluation_id": {"const": "oxford-history-french-revolution-2002-indexerlabs-truncated"},
+    "view_selection": {
+      "type": "object",
+      "required": ["authoritative_view_id", "primary_view_id", "default_display_view_id", "display_view_rationale"],
+      "properties": {
+        "authoritative_view_id": {"const": "canonical_as_delivered"},
+        "primary_view_id": {"const": "canonical_as_delivered"},
+        "default_display_view_id": {"const": "canonical_as_delivered"},
+        "display_view_rationale": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "score_views": {
+      "type": "object",
+      "required": ["canonical_source_adjustment_status", "projection_adjustment_status", "total_delta", "views"],
+      "properties": {
+        "canonical_source_adjustment_status": {"const": "none"},
+        "projection_adjustment_status": {"const": "not_applicable"},
+        "total_delta": {"const": 0},
+        "views": {"type": "array", "minItems": 1, "maxItems": 1, "items": {"$ref": "#/$defs/view"}}
+      },
+      "additionalProperties": false
+    },
+    "correction_outcomes": {
+      "type": "object",
+      "required": ["applicable", "overlay_included", "reason", "affected_headings", "character_replacements"],
+      "properties": {
+        "applicable": {"const": false}, "overlay_included": {"const": false},
+        "reason": {"type": "string", "minLength": 1}, "affected_headings": {"const": 0},
+        "character_replacements": {"const": 0}
+      },
+      "additionalProperties": false
+    },
+    "item_summaries": {"type": "object", "required": ["observed"]},
+    "collections": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"$ref": "#/$defs/collectionBinding"}},
+    "provenance": {"type": "object", "required": ["source_artifacts", "source_sha256", "benchmark_sha256", "judgment_policy_sha256", "rubric_version", "dimension_calculation_profile", "projection_metadata_sha256", "calculation_sha256", "missing_access_audit_set_sha256", "correction_overlay"]},
+    "density_denominator": {
+      "type": "object", "required": ["indexable_source_words", "unit"],
+      "properties": {"indexable_source_words": {"const": 194718}, "unit": {"const": "words"}},
+      "additionalProperties": false
+    },
+    "public_safety": {
+      "type": "object",
+      "required": ["source_excerpts_included", "restricted_files_included", "private_layout_evidence_included", "absolute_paths_included", "source_subject_summaries_are_synthesized_not_quoted"],
+      "properties": {
+        "source_excerpts_included": {"const": false}, "restricted_files_included": {"const": false},
+        "private_layout_evidence_included": {"const": false}, "absolute_paths_included": {"const": false},
+        "source_subject_summaries_are_synthesized_not_quoted": {"const": true}
+      },
+      "additionalProperties": false
+    },
+    "limitations": {"type": "array", "items": {"type": "string"}},
+    "projection_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "binding": {
+      "type": "object", "required": ["artifact_path", "sha256"],
+      "properties": {"artifact_path": {"type": "string", "minLength": 1}, "sha256": {"$ref": "#/$defs/sha"}, "availability": {"type": "string"}},
+      "additionalProperties": false
+    },
+    "collectionBinding": {
+      "type": "object", "required": ["collection_id", "artifact_path", "count", "content_sha256", "file_sha256"],
+      "properties": {
+        "collection_id": {"enum": ["index_records", "source_subjects", "density"]},
+        "artifact_path": {"type": "string", "pattern": "^data/.+\\.json$"},
+        "count": {"type": "integer", "minimum": 0},
+        "content_sha256": {"$ref": "#/$defs/sha"}, "file_sha256": {"$ref": "#/$defs/sha"}
+      },
+      "additionalProperties": false
+    },
+    "view": {
+      "type": "object", "required": ["view_id", "label", "view_kind", "role", "score", "maximum", "scorecard", "critical_gates", "readiness", "provenance_artifacts"],
+      "properties": {
+        "view_id": {"const": "canonical_as_delivered"}, "label": {"type": "string"},
+        "view_kind": {"const": "observed"}, "role": {"type": "string"},
+        "score": {"const": 77.4}, "maximum": {"const": 100},
+        "scorecard": {"type": "array", "minItems": 6, "maxItems": 6},
+        "critical_gates": {"type": "array", "minItems": 1},
+        "readiness": {"type": "object"}, "provenance_artifacts": {"type": "array", "items": {"$ref": "#/$defs/binding"}}
+      },
+      "additionalProperties": false
+    }
+  }
+}

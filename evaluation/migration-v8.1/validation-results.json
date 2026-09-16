@@ -1,0 +1,176 @@
+{
+  "status": "bounded_review_validated_not_completed_migration",
+  "canonical_artifacts_mutated": false,
+  "checks": [
+    {
+      "name": "installed_methodology_receipt",
+      "result": "pass",
+      "verified_files": 106,
+      "revision": "25fa3983f4980ad6a168610e08b128def11258b2"
+    },
+    {
+      "name": "frozen_artifact_preservation",
+      "result": "pass",
+      "file_count": 138,
+      "baseline_commit": "11a3710435a4f870378929652cbc3f7c7e5f459b"
+    },
+    {
+      "name": "original_calculation_input_hashes",
+      "result": "pass",
+      "exact_input_files": 37
+    },
+    {
+      "name": "registered_artifact_hashes",
+      "result": "pass",
+      "accessible_in_worktree": 91,
+      "restricted_pdfs_verified_in_saved_project": 17
+    },
+    {
+      "name": "benchmark_release_provenance",
+      "result": "pass",
+      "archived_release_files": 7,
+      "compatibility_approval_hash_verified": true,
+      "release_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
+      "new_review_claimed": false
+    },
+    {
+      "name": "original_calculation_reproduction",
+      "result": "pass",
+      "methodology_revision": "514bcca",
+      "full_json_equal": true,
+      "overall_percentage": 77.4
+    },
+    {
+      "name": "original_state_validation",
+      "result": "pass",
+      "methodology_revision": "514bcca",
+      "warnings": "17 excluded restricted chapter PDFs absent locally; all hash-verified in saved project."
+    },
+    {
+      "name": "original_scoring_and_report_schemas",
+      "result": "five_pass_one_format_gap",
+      "methodology_revision": "514bcca",
+      "artifacts": [
+        {
+          "artifact": "dimension-calculation-input.v2.json",
+          "result": "pass"
+        },
+        {
+          "artifact": "dimension-calculations.v6.json",
+          "result": "pass"
+        },
+        {
+          "artifact": "item-assessments.v7.json",
+          "result": "pass"
+        },
+        {
+          "artifact": "projection-metadata.v2.json",
+          "result": "pass"
+        },
+        {
+          "artifact": "evaluation-result.v12.json",
+          "result": "pass"
+        },
+        {
+          "artifact": "web-report.v10.json",
+          "result": "incompatible_with_514bcca_schema",
+          "message": "web-report.v10.json does not satisfy web-report-v10.schema.json: calculation_explainer: 'dimension_denominators' is a required property"
+        }
+      ]
+    },
+    {
+      "name": "project_public_projection_regressions",
+      "result": "pass",
+      "tests": 5,
+      "command": "python3 -m unittest discover -s tests -v"
+    },
+    {
+      "name": "original_public_projection_and_provenance",
+      "result": "pass_under_project_contract",
+      "command": "python3 scripts/build_v8_web_projection.py validate",
+      "projection_self_hash": "0a3126f757995b57aaeadaaaef9e33b1c1f1d3ad209fc63ae0086406708ea53d",
+      "collection_count": 3,
+      "projection_source_file_bindings_verified": 27,
+      "public_safety_scan": "pass",
+      "limitation": "Does not establish current V8.1 report-schema compatibility or delivered-candidate fidelity."
+    },
+    {
+      "name": "current_state_validation_on_unmigrated_V8",
+      "result": "expected_rejection",
+      "errors": [
+        "configuration.policy_profile requires subject-index-standard-policy-v8.1",
+        "configuration.rubric_version requires subject-index-rubric-v8.1",
+        "configuration.scoring_identity.dimension_calculation_profile requires subject-index-dimension-calculation-v6",
+        "configuration.scoring_identity.rubric_version requires subject-index-rubric-v8.1"
+      ],
+      "reason": "Frozen identities intentionally preserved."
+    },
+    {
+      "name": "current_schema_and_semantics_of_reused_audits",
+      "result": "pass",
+      "locator_audits": 17,
+      "missing_access_audits": 17,
+      "structure_audits": 1,
+      "structure_semantics": "pass",
+      "heading_access_provenance": "pass"
+    },
+    {
+      "name": "current_consequence_regressions",
+      "result": "pass",
+      "tests": 19
+    },
+    {
+      "name": "current_full_methodology_suite",
+      "result": "pass",
+      "tests": 150,
+      "dependency_resolution": "Initial system-Python run passed 149 tests and errored on missing pypdf. A rerun with bundled site-packages passed all 150; no package installation or repository dependency change.",
+      "command": "PYTHONPATH=<bundled-python-site-packages> python3 -m unittest discover -s <installed-skill>/tests -v"
+    },
+    {
+      "name": "isolated_policy_only_preflight",
+      "result": "pass",
+      "normalized_locators": 6221,
+      "contradictory_locator_states": 0,
+      "structural_outcome": "valid",
+      "authoritative_delivered_index_validity_established": false
+    },
+    {
+      "name": "isolated_policy_only_calculation",
+      "result": "diagnostic_only",
+      "overall_percentage": 83.74,
+      "all_ordinary_pre_cap_percentages_unchanged": true,
+      "not_registered": true,
+      "not_a_migration_result": true
+    },
+    {
+      "name": "delivered_Senez_evidence",
+      "result": "confirmed_attribution_gap",
+      "pdf_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+      "pdf_page": 22,
+      "frozen_layout_line": "line-bf093cb8ab522a668632",
+      "visual_inspection": "Roman Senez, see of, 143; actual see also on page italicized.",
+      "no_source_excerpt_or_PDF_committed": true
+    },
+    {
+      "name": "bounded_migration_integrity_check",
+      "result": "pass",
+      "command": "python3 scripts/check_v81_migration_boundary.py"
+    },
+    {
+      "name": "diff_whitespace",
+      "result": "pass",
+      "command": "git diff --check"
+    }
+  ],
+  "not_performed": [
+    "new policy freeze in canonical state",
+    "candidate normalization or additional locator auditing",
+    "new independent benchmark review or approval",
+    "canonical score/build-report stage transition",
+    "new authoritative V8.1 public report bundle"
+  ],
+  "revised_authoritative_score": null,
+  "publication_readiness": "undetermined",
+  "blocking_evidence_gap": "Missing corrected candidate inventory and targeted Senez page-143 audit; delivered-see consequence unsupported. Major access-node causal judgments require targeted review.",
+  "report_format_gap": "Historical web-report.v10.json lacks calculation_explainer.dimension_denominators required by 514bcca and current contracts."
+}

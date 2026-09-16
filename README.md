@@ -2,6 +2,16 @@
 
 Candidate-specific evaluation artifacts for the IndexerLabs subject index to William Doyle's *The Oxford History of the French Revolution*, 2002 edition.
 
+## V8.1 migration review
+
+The [targeted migration review](evaluation/migration-v8.1/REPORT.md) preserves the
+finished V8 artifacts and withholds an authoritative V8.1 replacement. The
+delivered entry “Senez, see of, 143” was normalized as a broken redirect; that
+does not establish a delivered substitutive-see publication gate. The report
+records supported consequence changes, exact hashes, diagnostic arithmetic,
+validation, and the narrow missing evidence. The 83.74% policy-only diagnostic
+is not a revised evaluation score; the historical V8 result below remains 77.40%.
+
 ## Current V8 run
 
 [`evaluation/evaluation-state.json`](evaluation/evaluation-state.json) is the only
