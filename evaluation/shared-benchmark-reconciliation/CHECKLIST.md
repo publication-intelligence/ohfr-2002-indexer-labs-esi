@@ -1,14 +1,20 @@
 # Shared-benchmark reconciliation preparation
 
-Status: inspection only. No policy, benchmark, audit, canonical state, score or
+Status: inspection only; benchmark selection is pending. V3 is the incumbent
+baseline, not the selected study authority. Its earlier mandate does not establish
+superiority to the native benchmark. Await the candidate-blind source comparison
+and explicit choice among v3, native, or a reviewed v4. The checks below establish
+identity and reuse potential only; they do not evaluate benchmark quality.
+
+Status of changes: inspection only. No policy, benchmark, audit, canonical state, score or
 public bundle was changed. No activation, push, merge or deployment is authorized
 by this preparation. PR #5 remains draft under the comparison hold.
 
 ## Verified baseline
 
-The authoritative legacy v3 release is
+The inspected incumbent legacy v3 release is
 `98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab`. The exact frozen benchmark file and
-canonical self-hash match the coordinator's lock. The local imported legacy file
+canonical self-hash match the supplied incumbent identity. The local imported legacy file
 also matches the frozen Git blob byte-for-byte.
 
 The current import is exactly equal after only the approved
@@ -34,12 +40,16 @@ hashes were reverified unchanged. Remote refresh shows main still at `b9c2fa4`.
 The final evaluation baseline remains `b55b79d`, 85.12%; this is not a statement
 of cross-candidate comparability.
 
-## Minimum changes when methodology support lands
+## Conditional checklist after benchmark selection and methodology support
 
-1. Verify the installed release receipt and read the typed study-lock and density
+1. First obtain the candidate-blind comparison and final benchmark selection.
+   Do not bind a study lock or migrate further before that choice. If v3 is not
+   selected, reassess semantic differences and audit reuse; the identity check
+   below does not establish reuse against native or a future v4.
+   Then verify the installed release receipt and read the typed study-lock and density
    basis contracts. The inspected installed runtime has neither field, so do not
    invent JSON keys or an unofficial scoring wrapper now.
-2. Attach the explicit study identity to the same legacy-v3 content using the
+2. If v3 is selected, attach the explicit study identity to that content using the
    native migration command. Reuse original review/compatibility approval and
    release evidence. Preserve the original August 24 freeze separately from the
    historical September 14 import wrapper. The legacy freeze contains its
@@ -66,7 +76,7 @@ of cross-candidate comparability.
    handoff. Keep the old private archives immutable. Await explicit authorization
    for activation, publishing, merge and deployment.
 
-## Artifact reuse matrix
+## Conditional artifact reuse matrix (only if v3 is selected)
 
 | Artifact family | What remains valid | Minimal future action |
 | --- | --- | --- |

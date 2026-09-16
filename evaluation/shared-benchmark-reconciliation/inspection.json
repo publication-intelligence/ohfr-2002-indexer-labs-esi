@@ -1,8 +1,9 @@
 {
-  "status": "preparation_only_no_canonical_mutation",
-  "locked_release": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
-  "locked_file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
-  "locked_self_hash": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+  "status": "incumbent_identity_inspection_only_selection_pending",
+  "selection_status": "Await candidate-blind comparison and choice among v3, native, or reviewed v4; identity is not a quality judgment.",
+  "incumbent_release": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
+  "incumbent_file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+  "incumbent_self_hash": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
   "current_file_sha256": "dfe01ab10a929dfb2944542cf879608057b59acd74a909038e7608a015b0d448",
   "current_self_hash": "4e3147464c9a907d5d9c6ce689bae53bb1f9ace53b99c0146b49a105629e6562",
   "semantic_identity": true,

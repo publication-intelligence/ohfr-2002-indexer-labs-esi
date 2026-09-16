@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only verification of the approved legacy-v3 study lock and density basis."""
+"""Read-only incumbent-v3 identity check; does not select study authority."""
 import argparse
 import copy
 import hashlib
@@ -55,8 +55,8 @@ def inspect(repository):
     state = json.loads((EV / 'evaluation-state.json').read_text())
     for artifact in state['artifacts']:
         assert digest((EV / artifact['path']).read_bytes()) == artifact['sha256'], artifact['path']
-    return {'status':'preparation_only_no_canonical_mutation', 'locked_release':FREEZE,
-            'locked_file_sha256':FILE_SHA, 'locked_self_hash':SELF_SHA,
+    return {'status':'incumbent_identity_inspection_only_selection_pending', 'selection_status':'Await candidate-blind comparison and choice among v3, native, or reviewed v4; identity is not a quality judgment.', 'incumbent_release':FREEZE,
+            'incumbent_file_sha256':FILE_SHA, 'incumbent_self_hash':SELF_SHA,
             'current_file_sha256':digest(current_path.read_bytes()), 'current_self_hash':current['benchmark_sha256'],
             'semantic_identity':True, 'wrapper_fields_excluded':sorted(WRAPPER),
             'only_semantic_normalization':'relationships[*].type -> relationship_type',
