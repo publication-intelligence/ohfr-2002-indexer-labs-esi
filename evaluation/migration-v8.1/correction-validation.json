@@ -1,0 +1,84 @@
+{
+  "schema_version": "indexerlabs-v81-correction-validation-v1",
+  "policy_identity": "subject-index-standard-policy-v8.1",
+  "rubric_identity": "subject-index-rubric-v8.1",
+  "calculation_profile": "subject-index-dimension-calculation-v6",
+  "methodology_revision": "25fa3983f4980ad6a168610e08b128def11258b2",
+  "installed_runtime_files_verified": 106,
+  "checks": {
+    "current_state": {
+      "ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    "candidate_preparation": {
+      "fidelity_validation": "pass",
+      "registration": "pass",
+      "changed_record_count": 1,
+      "unresolved_issues": 0
+    },
+    "locator_batch": {
+      "chunks": 17,
+      "total_judgments": 6222,
+      "unchanged_judgments": 6221,
+      "added_supported_exact_fit": 1,
+      "current_packet_identity_validation": "pass"
+    },
+    "missing_access_batch": {
+      "chunks": 17,
+      "subjects": 1366,
+      "reader_tasks": 1026,
+      "expected_treatments": 3210,
+      "judgments_changed": 0,
+      "binding_changes_only": true,
+      "validation": "pass"
+    },
+    "structure_registration": "pass",
+    "registered_scoring": "pass",
+    "registered_report_build": "pass",
+    "complete_current_bundle": {
+      "schema_and_semantic_validation": "pass",
+      "source_bindings_checked": 25,
+      "current_web_report_dimension_denominators": 6,
+      "collections": 3,
+      "privacy_validation": "pass"
+    },
+    "project_regressions": {
+      "passed": 12,
+      "failed": 0
+    },
+    "methodology_regressions": {
+      "passed": 150,
+      "failed": 0,
+      "consequence_regressions_included": 19
+    },
+    "calculation_reproduction": {
+      "full_json_equal": true,
+      "decimal_precision": 28,
+      "note": "Isolated standard CLI precision from historical test module which sets global precision 50."
+    },
+    "original_preservation": {
+      "historical_evaluation_files_verified": 138,
+      "git_baseline": "11a3710435a4f870378929652cbc3f7c7e5f459b",
+      "bounded_review_commit": "b9c2fa4"
+    },
+    "restricted_inputs": {
+      "chapter_packets_verified": 17,
+      "full_source_pdf_hash_verified": true,
+      "candidate_pdf_hash_verified": true
+    },
+    "private_complete_checkpoint": {
+      "tested": true,
+      "excluded_count": 0,
+      "final_archive_receipt": "Provided privately at handoff; no restricted paths in public projection."
+    }
+  },
+  "overall_percentage": 85.12,
+  "evaluation_validity": {
+    "status": "valid",
+    "blockers": [],
+    "used_as_publication_gate": false
+  },
+  "triggered_publication_gates": [],
+  "future_release_status": "Hold further methodology migration and website cutover pending verified release/install receipt."
+}

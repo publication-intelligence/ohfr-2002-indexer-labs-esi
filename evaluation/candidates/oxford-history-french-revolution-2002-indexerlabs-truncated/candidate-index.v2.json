@@ -160139,24 +160139,38 @@
     },
     {
       "record_id": "REC-95178351D043",
-      "record_type": "cross_reference",
-      "path_id": "PATH-CC40877BD826",
+      "record_type": "page_bearing",
+      "path_id": "PATH-2A45CA2A2AAA",
       "heading_path": [
-        "Senez"
+        "Senez, see of"
       ],
       "delivered_indentation_level": 0,
       "original_displayed_form": "Senez, see of, 143",
-      "locator_displays": [],
-      "locator_assignments": [],
-      "cross_references": [
+      "locator_displays": [
         {
-          "reference_id": "XREF-39A88974E771",
-          "type": "see",
-          "target": "of, 143",
-          "target_path_id": null,
-          "original_displayed_form": "of, 143"
+          "display_id": "DISPLAY-FFBE9F5F7139",
+          "displayed_locator": "143",
+          "kind": "point",
+          "range_id": null,
+          "mapping_status": "resolved",
+          "locator_ids": [
+            "LOC-9FE249AA2E90"
+          ]
         }
       ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-9FE249AA2E90",
+          "display_id": "DISPLAY-FFBE9F5F7139",
+          "displayed_locator": "143",
+          "source_page_label": "143",
+          "normalized_locator_key": "143",
+          "document_page": 143,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "cross_references": [],
       "normalization_confidence": 0.98,
       "extraction_warnings": [],
       "private_evidence": {
@@ -184643,9 +184657,9 @@
     "main_heading_count": 1056,
     "subheading_count": 588,
     "complete_heading_path_count": 1644,
-    "displayed_locator_count": 5055,
-    "expanded_locator_assignment_count": 6221,
-    "cross_reference_count": 11,
+    "displayed_locator_count": 5056,
+    "expanded_locator_assignment_count": 6222,
+    "cross_reference_count": 10,
     "unresolved_locator_count": 0,
     "editorial_corrections_applied": false,
     "benchmark_content_used": false

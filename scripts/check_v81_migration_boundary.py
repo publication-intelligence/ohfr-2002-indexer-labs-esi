@@ -1,52 +1,45 @@
 #!/usr/bin/env python3
-"""Verify the bounded migration report cannot silently replace frozen evidence."""
+"""Verify the historical bounded review against its preserved Git snapshots.
+
+The authorized follow-up now changes current evidence. The original review's
+before/after labels are therefore checked at its frozen commits, not against
+current V8.1 files.
+"""
 import hashlib
 import json
+import subprocess
+import tarfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+REVIEW_COMMIT = "b9c2fa4"
 
 
-def load(path):
-    return json.loads((ROOT / path).read_text())
+def verify_archive(revision, expected):
+    process = subprocess.Popen(["git", "archive", revision], cwd=ROOT, stdout=subprocess.PIPE)
+    seen = set()
+    with tarfile.open(fileobj=process.stdout, mode="r|") as archive:
+        for member in archive:
+            if member.name in expected:
+                actual = hashlib.sha256(archive.extractfile(member).read()).hexdigest()
+                assert actual == expected[member.name], member.name
+                seen.add(member.name)
+    assert process.wait() == 0 and seen == set(expected)
 
 
 def main():
-    ledger = load("evaluation/migration-v8.1/change-ledger.json")
-    expected_self_hash = ledger.pop("ledger_content_sha256")
+    path = "evaluation/migration-v8.1/change-ledger.json"
+    ledger = json.loads(subprocess.check_output(["git", "show", f"{REVIEW_COMMIT}:{path}"], cwd=ROOT))
+    digest = ledger.pop("ledger_content_sha256")
     canonical = json.dumps(ledger, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode()
-    assert hashlib.sha256(canonical).hexdigest() == expected_self_hash
+    assert hashlib.sha256(canonical).hexdigest() == digest
     assert ledger["status"] == "bounded_report_only_migration_withheld"
     assert ledger["revised_authoritative_score"] is None
-    assert not ledger["new_policy_frozen_in_canonical_state"]
-    validation_path = ROOT / "evaluation/migration-v8.1" / ledger["validation_results"]["path"]
-    assert hashlib.sha256(validation_path.read_bytes()).hexdigest() == ledger["validation_results"]["sha256"]
-    for row in ledger["delivery_file_hashes"]:
-        assert hashlib.sha256((ROOT / row["path"]).read_bytes()).hexdigest() == row["sha256"]
-    for row in ledger["preserved_artifact_hashes"]:
-        actual = hashlib.sha256((ROOT / row["path"]).read_bytes()).hexdigest()
-        assert actual == row["before_sha256"] == row["after_sha256"], row["path"]
-    for row in ledger["exact_original_calculation_inputs"]:
-        assert hashlib.sha256((ROOT / row["path"]).read_bytes()).hexdigest() == row["sha256"]
-    state = load("evaluation/evaluation-state.json")
-    assert state["configuration"]["policy_profile"] == "subject-index-standard-policy-v8"
-    candidate = load("evaluation/" + state["candidate"]["normalized_path"])
-    senez = next(r for r in candidate["records"] if r["record_id"] == "REC-95178351D043")
-    assert senez["original_displayed_form"] == "Senez, see of, 143"
-    assert not senez["locator_assignments"]
-    assert senez["cross_references"][0]["target"] == "of, 143"
-    structure_record = next(a for a in state["artifacts"] if a.get("schema_version") == "structure-audit-v6")
-    structure = load("evaluation/" + structure_record["path"])
-    assert any(u["uncertainty_id"] == "UNCERTAINTY-SENEZ-LEXICAL-SEE" for u in structure["uncertainties"])
-    original = load("evaluation/scoring/dimension-calculations.v6.json")
-    assert original["overall_percentage"] == ledger["original_score"] == 77.4
-    diagnostic = ledger["conditional_policy_only_diagnostic"]
-    assert not diagnostic["authoritative"] and diagnostic["not_a_migration_result"]
-    assert diagnostic["ordinary_pre_cap_values_unchanged"]
-    assert {g["gate_id"] for g in diagnostic["triggered_gates"]} == {"GATE-SEE-SUBSTITUTION"}
-    print(json.dumps({"ok": True, "unchanged_files": len(ledger["preserved_artifact_hashes"]),
-                      "exact_calculation_inputs": len(ledger["exact_original_calculation_inputs"]),
-                      "authoritative_v81_score": None, "senez_attribution_gap_preserved": True}))
+    originals = {row["path"]: row["before_sha256"] for row in ledger["preserved_artifact_hashes"]}
+    verify_archive(ledger["baseline_commit"], originals)
+    verify_archive(REVIEW_COMMIT, {row["path"]: row["sha256"] for row in ledger["delivery_file_hashes"]})
+    print(json.dumps({"ok": True, "historical_files_verified": len(originals),
+                      "current_v81_files_are_separate": True, "review_commit": REVIEW_COMMIT}))
 
 
 if __name__ == "__main__":
