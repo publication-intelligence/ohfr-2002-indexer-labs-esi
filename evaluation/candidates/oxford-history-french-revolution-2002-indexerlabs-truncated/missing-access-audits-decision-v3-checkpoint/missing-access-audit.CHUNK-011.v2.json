@@ -1,0 +1,5019 @@
+{
+  "schema_version": "missing-access-audit-v2",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "benchmark_sha256": "80669e255b6e0e997984694532cbc0a27d2aa06987c2f73cbfa5878b49cdc20d",
+  "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+  "chunk_id": "CHUNK-011",
+  "expected_subject_ids": [
+    "SUBJ-SUCC-034398CDB346",
+    "SUBJ-SUCC-0853ED267EBF",
+    "SUBJ-SUCC-2599FEAE9CC2",
+    "SUBJ-SUCC-30CDC3924594",
+    "SUBJ-SUCC-35DD2729C31D",
+    "SUBJ-SUCC-45B1958906B7",
+    "SUBJ-SUCC-488D7D90E0DF",
+    "SUBJ-SUCC-4E4FFDBB28E9",
+    "SUBJ-SUCC-54D178FEEEA6",
+    "SUBJ-SUCC-5D6AEE98EDA3",
+    "SUBJ-SUCC-5DD90C556A55",
+    "SUBJ-SUCC-6B6553ED0407",
+    "SUBJ-SUCC-72A1D9C70157",
+    "SUBJ-SUCC-7754A8D39F3E",
+    "SUBJ-SUCC-7A343F73BC1F",
+    "SUBJ-SUCC-7FD46BD9C318",
+    "SUBJ-SUCC-94460DC3C7C8",
+    "SUBJ-SUCC-AF783FF68D90",
+    "SUBJ-SUCC-AF9995D451BE",
+    "SUBJ-SUCC-B4528BB49F19",
+    "SUBJ-SUCC-B537E54F3566",
+    "SUBJ-SUCC-C8838C6F47C7",
+    "SUBJ-SUCC-C946EBBA6629"
+  ],
+  "expected_reader_task_ids": [
+    "TASK-SUCC-163AF886931B",
+    "TASK-SUCC-16915FF3B572",
+    "TASK-SUCC-2D22932ACF13",
+    "TASK-SUCC-35B22D0DBF2A",
+    "TASK-SUCC-3D7AADE20759",
+    "TASK-SUCC-60B13CEDB418",
+    "TASK-SUCC-9D29A0E502F1",
+    "TASK-SUCC-BB4EA52DC7AA",
+    "TASK-SUCC-BFFA25053632",
+    "TASK-SUCC-CB399AC42EF0",
+    "TASK-SUCC-DB9A6CD1161B",
+    "TASK-SUCC-E7721458013C"
+  ],
+  "expected_treatment_ids": [
+    "TREAT-01DCA9B0EC36",
+    "TREAT-0457D0C49E50",
+    "TREAT-0CEAE07061C5",
+    "TREAT-114BAB3C50E1",
+    "TREAT-148DF6352742",
+    "TREAT-14DB4AF8BD0A",
+    "TREAT-15526986AB6C",
+    "TREAT-15B8AF09497D",
+    "TREAT-1D1B53EFD8F5",
+    "TREAT-1F3A0A7B9087",
+    "TREAT-208195FF3950",
+    "TREAT-21A5EBC408F0",
+    "TREAT-21FF98C41E50",
+    "TREAT-23E0041D8AE1",
+    "TREAT-2789C29B706F",
+    "TREAT-2803D95165D2",
+    "TREAT-2BC685EFF739",
+    "TREAT-2CDD562C2161",
+    "TREAT-2EF1ED3A0F6E",
+    "TREAT-2EFF77D0D501",
+    "TREAT-30DB059389EF",
+    "TREAT-31E128046B7A",
+    "TREAT-32F91A44E04D",
+    "TREAT-384FFB9519EB",
+    "TREAT-38A6E50B904A",
+    "TREAT-3A08A946BDA5",
+    "TREAT-3B5BB8D3E5BA",
+    "TREAT-3D197F2CA04D",
+    "TREAT-3D2E7B1620C0",
+    "TREAT-40FA9A3F0C56",
+    "TREAT-4282503A5ACB",
+    "TREAT-442B3E0EC9A7",
+    "TREAT-47D447CD6527",
+    "TREAT-49C526E42FC4",
+    "TREAT-516791677D28",
+    "TREAT-52604ADD923E",
+    "TREAT-577A939EF6DF",
+    "TREAT-58CBC27A601E",
+    "TREAT-5C0656481512",
+    "TREAT-5D52569903C7",
+    "TREAT-66098FAD0796",
+    "TREAT-6696D0B570FB",
+    "TREAT-66EECF9403A7",
+    "TREAT-675C7AD0BBBA",
+    "TREAT-6CD0AF3BE9A5",
+    "TREAT-6CDC1F962D30",
+    "TREAT-6F01DAD67BC0",
+    "TREAT-735556E510A2",
+    "TREAT-7359C79F5C19",
+    "TREAT-73FB282D5170",
+    "TREAT-776386DD9A91",
+    "TREAT-777F704199EB",
+    "TREAT-784E6AE192B9",
+    "TREAT-7B0D96B06C76",
+    "TREAT-7C04682E4732",
+    "TREAT-7E647CA89AAF",
+    "TREAT-7F8085B575A2",
+    "TREAT-834AFE7D1C73",
+    "TREAT-85F4BD1C199E",
+    "TREAT-86F3E997FBC0",
+    "TREAT-87FDF0EB2D81",
+    "TREAT-8CC95D72640B",
+    "TREAT-8F7E7C474AD1",
+    "TREAT-935FDFD8A5FE",
+    "TREAT-9449FC167064",
+    "TREAT-9686DA6C1EAD",
+    "TREAT-986E274CF173",
+    "TREAT-9AC4421FE663",
+    "TREAT-9D2B5AD9916B",
+    "TREAT-9D432805F046",
+    "TREAT-9FAE363BB6BD",
+    "TREAT-A026A5AD91AA",
+    "TREAT-A0D47201D8CC",
+    "TREAT-A4A08C75B03D",
+    "TREAT-A5FA31895BE0",
+    "TREAT-A98FED555A26",
+    "TREAT-A9CB1066B2CE",
+    "TREAT-AA31A222DDEE",
+    "TREAT-AAE946948714",
+    "TREAT-AC1329A974E3",
+    "TREAT-B0CBC6CAE945",
+    "TREAT-B2C214A71F36",
+    "TREAT-B3E2EA3E9811",
+    "TREAT-B5A73CB3C208",
+    "TREAT-B5C6943C3E4C",
+    "TREAT-B7438CC5ABF5",
+    "TREAT-BA063C5700BE",
+    "TREAT-BA690FE0E215",
+    "TREAT-BAA8907F41B6",
+    "TREAT-BB6726B0F1E8",
+    "TREAT-BB703FD36C5E",
+    "TREAT-BD636C8411BB",
+    "TREAT-C1582612D9FF",
+    "TREAT-C299A8553188",
+    "TREAT-C33C7C951A28",
+    "TREAT-C454B534735A",
+    "TREAT-C58D7C2C07D2",
+    "TREAT-C5F943F3E851",
+    "TREAT-C888BB169068",
+    "TREAT-CA7F0F2DF685",
+    "TREAT-CC1420DAB673",
+    "TREAT-CD7A1853F4FC",
+    "TREAT-D5A22B6CF5FC",
+    "TREAT-D77B3E3A048B",
+    "TREAT-DDA06BD7DD0F",
+    "TREAT-DEDCF5829812",
+    "TREAT-DFCEE1A8B4A5",
+    "TREAT-E0CA9F32C79B",
+    "TREAT-E0D75F6797C2",
+    "TREAT-E91ACD958B0C",
+    "TREAT-EC83FE39B267",
+    "TREAT-EED125C1DC8D",
+    "TREAT-EFAD1F724D02",
+    "TREAT-F30BCBD56025",
+    "TREAT-F5E54C4E7D2E",
+    "TREAT-F867C41E8855",
+    "TREAT-F9DE6C1CBA4E",
+    "TREAT-FBF324231E43"
+  ],
+  "subject_judgments": [
+    {
+      "subject_id": "SUBJ-SUCC-034398CDB346",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-99B01B671F57",
+        "PATH-D4A3F4432EE5"
+      ],
+      "matched_locator_ids": [
+        "LOC-2A41631A89C9",
+        "LOC-E0D5B4142B32",
+        "LOC-D94F988CB772",
+        "LOC-D7FA8CD00236"
+      ],
+      "expected_document_pages": [
+        254,
+        259,
+        260
+      ],
+      "found_document_pages": [
+        254,
+        259,
+        260
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Fresh full254/259/260 read. Fouche254 directly retrieves exemplary Lyons repression with Collot. Fouche259 retrieves the Vendee experience, incompatibility thesis and locally initiated Nievre civic religion. Fouche and Nevers260 supplies restricted public worship, celibacy/orphan policy, secular graves and transmission by Chaumette. The targeted name retrieves all particular claims and the source expressly distinguishes local initiative from Convention authority. No automatic credit to passing Nevers254.",
+      "evidence_ids": [
+        "EVID-SUCC-71E6E97569B1",
+        "EVID-SUCC-8521DCC98168",
+        "EVID-SUCC-E94433FC360A"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            254,
+            259
+          ],
+          "found_document_pages": [
+            254,
+            259
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            260
+          ],
+          "found_document_pages": [
+            260
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-71E6E97569B1",
+            "EVID-SUCC-8521DCC98168",
+            "EVID-SUCC-E94433FC360A"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Fresh full254/259/260 read. Fouche254 directly retrieves exemplary Lyons repression with Collot. Fouche259 retrieves the Vendee experience, incompatibility thesis and locally initiated Nievre civic religion. Fouche and Nevers260 supplies restricted public worship, celibacy/orphan policy, secular graves and transmission by Chaumette. The targeted name retrieves all particular claims and the source expressly distinguishes local initiative from Convention authority. No automatic credit to passing Nevers254.",
+      "tested_path_ids": [
+        "PATH-99B01B671F57",
+        "PATH-D4A3F4432EE5"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-0853ED267EBF",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-1876B66467DD",
+        "PATH-20BD03C21F7B",
+        "PATH-943B9E017CB4",
+        "PATH-CCF09DDF8FCA",
+        "PATH-E590CE5FFCD3"
+      ],
+      "matched_locator_ids": [
+        "LOC-037537C956FF",
+        "LOC-3CCA8EAEAD72",
+        "LOC-5B1DDA22180F",
+        "LOC-846CEF2E72A9",
+        "LOC-4B81157C9C0A",
+        "LOC-9DCFCD7C0FBD"
+      ],
+      "expected_document_pages": [
+        247,
+        251,
+        258,
+        266,
+        267,
+        271
+      ],
+      "found_document_pages": [
+        247,
+        251,
+        258,
+        266,
+        267,
+        271
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Hanriot247 supplies contested Paris authority in the crisis, Terror251 the September measures, Revolutionary Armies258 decentralized institutions, Terror266 contingent origins and moderation pressure, Danton267 its concrete articulation, and Convention271 harsher governmental Terror. No single-designer inference; each selected topic carries the corresponding explanatory predicate.",
+      "evidence_ids": [
+        "EVID-SUCC-048E739997EA",
+        "EVID-SUCC-0B90D42519BC",
+        "EVID-SUCC-8871609445AF",
+        "EVID-SUCC-D1F3450D98E3",
+        "EVID-SUCC-E189ED8A6925",
+        "EVID-SUCC-F48F4511FDC6"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            247,
+            251
+          ],
+          "found_document_pages": [
+            247,
+            251
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            258,
+            267
+          ],
+          "found_document_pages": [
+            258,
+            267
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            266,
+            271
+          ],
+          "found_document_pages": [
+            266,
+            271
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-048E739997EA",
+            "EVID-SUCC-0B90D42519BC",
+            "EVID-SUCC-8871609445AF",
+            "EVID-SUCC-D1F3450D98E3",
+            "EVID-SUCC-E189ED8A6925",
+            "EVID-SUCC-F48F4511FDC6"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Hanriot247 supplies contested Paris authority in the crisis, Terror251 the September measures, Revolutionary Armies258 decentralized institutions, Terror266 contingent origins and moderation pressure, Danton267 its concrete articulation, and Convention271 harsher governmental Terror. No single-designer inference; each selected topic carries the corresponding explanatory predicate.",
+      "tested_path_ids": [
+        "PATH-1876B66467DD",
+        "PATH-20BD03C21F7B",
+        "PATH-943B9E017CB4",
+        "PATH-CCF09DDF8FCA",
+        "PATH-E590CE5FFCD3"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-0958054B1CA1",
+        "PATH-470BC171E012",
+        "PATH-7C464957BCEB",
+        "PATH-A1671706098A",
+        "PATH-A18D523FF09D",
+        "PATH-C48233FB6F4C"
+      ],
+      "matched_locator_ids": [
+        "LOC-F8FF04DAAF8A",
+        "LOC-A5C2D4FCE1CE",
+        "LOC-38FAA1D5152E",
+        "LOC-E07A6C3351D5",
+        "LOC-9383921319B0",
+        "LOC-2865F9A80E73",
+        "LOC-823EA11733FF"
+      ],
+      "expected_document_pages": [
+        248,
+        249,
+        253,
+        255,
+        264
+      ],
+      "found_document_pages": [
+        248,
+        249,
+        253,
+        255,
+        264
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Bordeaux collapse248, Marseilles revolt249, Lyons253 comparative rejected conciliation, Bordeaux repression255 and Tallien264 retrieve differentiated surrender and repression. Both city names/renamings, violent rhetoric versus fewer executions, and Jullien’s later escalation remain distinct. Tallien249 separately retrieves Bordeaux’s face-saving qualification and Marseilles255 supplies the explicit comparison.",
+      "evidence_ids": [
+        "EVID-SUCC-07CDFD0A4092",
+        "EVID-SUCC-2C88BD126EBC",
+        "EVID-SUCC-4D1980849387",
+        "EVID-SUCC-72EACF886CE9",
+        "EVID-SUCC-76CF4621ABF2",
+        "EVID-SUCC-CEC89BCC87DF",
+        "EVID-SUCC-DF05792E339A",
+        "EVID-SUCC-EBE311B277FB",
+        "EVID-SUCC-FEE8CF7E030E"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            248,
+            249,
+            255
+          ],
+          "found_document_pages": [
+            248,
+            249,
+            255
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            248,
+            249,
+            253
+          ],
+          "found_document_pages": [
+            248,
+            249,
+            253
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            255,
+            264
+          ],
+          "found_document_pages": [
+            255,
+            264
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 5,
+        "found": 5,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-07CDFD0A4092",
+            "EVID-SUCC-2C88BD126EBC",
+            "EVID-SUCC-4D1980849387",
+            "EVID-SUCC-72EACF886CE9",
+            "EVID-SUCC-76CF4621ABF2",
+            "EVID-SUCC-CEC89BCC87DF",
+            "EVID-SUCC-DF05792E339A",
+            "EVID-SUCC-EBE311B277FB",
+            "EVID-SUCC-FEE8CF7E030E"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Bordeaux collapse248, Marseilles revolt249, Lyons253 comparative rejected conciliation, Bordeaux repression255 and Tallien264 retrieve differentiated surrender and repression. Both city names/renamings, violent rhetoric versus fewer executions, and Jullien’s later escalation remain distinct. Tallien249 separately retrieves Bordeaux’s face-saving qualification and Marseilles255 supplies the explicit comparison.",
+      "tested_path_ids": [
+        "PATH-0958054B1CA1",
+        "PATH-470BC171E012",
+        "PATH-7C464957BCEB",
+        "PATH-A1671706098A",
+        "PATH-A18D523FF09D",
+        "PATH-C48233FB6F4C"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-30CDC3924594",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-53B43BB2FA81"
+      ],
+      "matched_locator_ids": [
+        "LOC-DE108F6A9685",
+        "LOC-66D42A4E5A65",
+        "LOC-77BB7C610DDF"
+      ],
+      "expected_document_pages": [
+        255,
+        258,
+        264
+      ],
+      "found_document_pages": [
+        255,
+        258,
+        264
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Jullien’s compact named route255/258/264 directly retrieves intensified Bordeaux killings, Carrier investigation, and control of proconsular power. Investigation is not equated with uniformly humanitarian policy.",
+      "evidence_ids": [
+        "EVID-SUCC-26A9F88BE76C",
+        "EVID-SUCC-AAA26E7A9256",
+        "EVID-SUCC-B00D17B560C5"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            258
+          ],
+          "found_document_pages": [
+            258
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            255
+          ],
+          "found_document_pages": [
+            255
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            264
+          ],
+          "found_document_pages": [
+            264
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-26A9F88BE76C",
+            "EVID-SUCC-AAA26E7A9256",
+            "EVID-SUCC-B00D17B560C5"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Jullien’s compact named route255/258/264 directly retrieves intensified Bordeaux killings, Carrier investigation, and control of proconsular power. Investigation is not equated with uniformly humanitarian policy.",
+      "tested_path_ids": [
+        "PATH-53B43BB2FA81"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-35DD2729C31D",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-8D6E7C4F7872",
+        "PATH-9556E0C0D594",
+        "PATH-AFB4FA218294",
+        "PATH-E196E5E0848C"
+      ],
+      "matched_locator_ids": [
+        "LOC-C04B40BA5681",
+        "LOC-C74C00D8E94B",
+        "LOC-212AA201D14A",
+        "LOC-407563D925F9",
+        "LOC-3A257AAF17B9",
+        "LOC-39CA6789413C"
+      ],
+      "expected_document_pages": [
+        250,
+        251,
+        254,
+        263,
+        268,
+        269
+      ],
+      "found_document_pages": [
+        250,
+        251,
+        254,
+        263,
+        268,
+        269
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Billaud250/251/263 retrieves hoarder penalties, Army motion and executive concentration; Collot’s Lyons254 and Committee268 retrieve distinct repression and defense of Ronsin. Hébert269 directly treats Collot’s conciliatory appeal against the insurrection threat, preserving changed political context rather than imputing it to both men.",
+      "evidence_ids": [
+        "EVID-SUCC-02C3BCEF9665",
+        "EVID-SUCC-517482085D67",
+        "EVID-SUCC-845A50607207",
+        "EVID-SUCC-941113AB4309",
+        "EVID-SUCC-9E11FDF65916",
+        "EVID-SUCC-DF908E661EE0"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            250,
+            251,
+            254,
+            268
+          ],
+          "found_document_pages": [
+            250,
+            251,
+            254,
+            268
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            263
+          ],
+          "found_document_pages": [
+            263
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            269
+          ],
+          "found_document_pages": [
+            269
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-02C3BCEF9665",
+            "EVID-SUCC-517482085D67",
+            "EVID-SUCC-845A50607207",
+            "EVID-SUCC-941113AB4309",
+            "EVID-SUCC-9E11FDF65916",
+            "EVID-SUCC-DF908E661EE0"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Billaud250/251/263 retrieves hoarder penalties, Army motion and executive concentration; Collot’s Lyons254 and Committee268 retrieve distinct repression and defense of Ronsin. Hébert269 directly treats Collot’s conciliatory appeal against the insurrection threat, preserving changed political context rather than imputing it to both men.",
+      "tested_path_ids": [
+        "PATH-8D6E7C4F7872",
+        "PATH-9556E0C0D594",
+        "PATH-AFB4FA218294",
+        "PATH-E196E5E0848C"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-45B1958906B7",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-6424235D99BA",
+        "PATH-7C464957BCEB",
+        "PATH-943B9E017CB4",
+        "PATH-CCF09DDF8FCA",
+        "PATH-EF532D84D2D4"
+      ],
+      "matched_locator_ids": [
+        "LOC-1E78A4A8966C",
+        "LOC-1FD9877233E2",
+        "LOC-9383921319B0",
+        "LOC-5B1DDA22180F",
+        "LOC-7C8E5C36DE5E",
+        "LOC-96EBF541E4D1"
+      ],
+      "expected_document_pages": [
+        248,
+        253,
+        255,
+        258,
+        259,
+        264
+      ],
+      "found_document_pages": [
+        248,
+        253,
+        255,
+        258,
+        259,
+        264
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Representatives248/264 and named city/actor routes retrieve restoration, Couthon’s rejected leniency, Bordeaux restraint, autonomous local Armies, regional contrasts and delayed central control. The center also replaced leniency with mass repression; no uniformly moderating government inferred.",
+      "evidence_ids": [
+        "EVID-SUCC-08A9126B1222",
+        "EVID-SUCC-0FE9C6319BEB",
+        "EVID-SUCC-13464FAF6D9D",
+        "EVID-SUCC-9193494FE51C",
+        "EVID-SUCC-9846267452DB",
+        "EVID-SUCC-ABDF2EC22261",
+        "EVID-SUCC-B0ED67581291",
+        "EVID-SUCC-DCC94819F6D8"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            255,
+            258
+          ],
+          "found_document_pages": [
+            255,
+            258
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            248,
+            253,
+            259
+          ],
+          "found_document_pages": [
+            248,
+            253,
+            259
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            264
+          ],
+          "found_document_pages": [
+            264
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-08A9126B1222",
+            "EVID-SUCC-0FE9C6319BEB",
+            "EVID-SUCC-13464FAF6D9D",
+            "EVID-SUCC-9193494FE51C",
+            "EVID-SUCC-9846267452DB",
+            "EVID-SUCC-ABDF2EC22261",
+            "EVID-SUCC-B0ED67581291",
+            "EVID-SUCC-DCC94819F6D8"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Representatives248/264 and named city/actor routes retrieve restoration, Couthon’s rejected leniency, Bordeaux restraint, autonomous local Armies, regional contrasts and delayed central control. The center also replaced leniency with mass repression; no uniformly moderating government inferred.",
+      "tested_path_ids": [
+        "PATH-6424235D99BA",
+        "PATH-7C464957BCEB",
+        "PATH-943B9E017CB4",
+        "PATH-CCF09DDF8FCA",
+        "PATH-EF532D84D2D4"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-488D7D90E0DF",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-0F3F5FBA6E8F",
+        "PATH-8556A2625DED",
+        "PATH-877EB7C3EF39",
+        "PATH-E590CE5FFCD3"
+      ],
+      "matched_locator_ids": [
+        "LOC-57FEEE36FD72",
+        "LOC-647FD44AAFF3",
+        "LOC-4B81157C9C0A",
+        "LOC-F5AD1E6C5BF6",
+        "LOC-F847C4259D9E",
+        "LOC-B47A8214B107",
+        "LOC-C00758C33CE1",
+        "LOC-150117714325",
+        "LOC-675A419BA084"
+      ],
+      "expected_document_pages": [
+        251,
+        264,
+        267,
+        268,
+        269,
+        273,
+        274,
+        275
+      ],
+      "found_document_pages": [
+        251,
+        264,
+        267,
+        268,
+        269,
+        273,
+        274,
+        275
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Danton’s explicit September-policy, Indulgence and trial subdivisions retrieve coercive origins, later moderation, temporary Robespierre alliance, Fabre’s compromising fraud, vague political indictment and blocked defense. Desmoulins269 independently retains his claim of suppression. Potential future influence remains the author’s cautious explanation, not a proven plot.",
+      "evidence_ids": [
+        "EVID-SUCC-665154271D0D",
+        "EVID-SUCC-68AA69FBF4F0",
+        "EVID-SUCC-84CFA5A470B5",
+        "EVID-SUCC-94023F8BC4BD",
+        "EVID-SUCC-9C9C318DDD72",
+        "EVID-SUCC-B1DB1C794B89",
+        "EVID-SUCC-B8C849001722",
+        "EVID-SUCC-C3C778E310B6",
+        "EVID-SUCC-E2F2AC2D4A9D",
+        "EVID-SUCC-E3D5C7B57087"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            264,
+            267,
+            268,
+            273,
+            274
+          ],
+          "found_document_pages": [
+            264,
+            267,
+            268,
+            273,
+            274
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            251
+          ],
+          "found_document_pages": [
+            251
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            269,
+            275
+          ],
+          "found_document_pages": [
+            269,
+            275
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 8,
+        "found": 8,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-665154271D0D",
+            "EVID-SUCC-68AA69FBF4F0",
+            "EVID-SUCC-84CFA5A470B5",
+            "EVID-SUCC-94023F8BC4BD",
+            "EVID-SUCC-9C9C318DDD72",
+            "EVID-SUCC-B1DB1C794B89",
+            "EVID-SUCC-B8C849001722",
+            "EVID-SUCC-C3C778E310B6",
+            "EVID-SUCC-E2F2AC2D4A9D",
+            "EVID-SUCC-E3D5C7B57087"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Danton’s explicit September-policy, Indulgence and trial subdivisions retrieve coercive origins, later moderation, temporary Robespierre alliance, Fabre’s compromising fraud, vague political indictment and blocked defense. Desmoulins269 independently retains his claim of suppression. Potential future influence remains the author’s cautious explanation, not a proven plot.",
+      "tested_path_ids": [
+        "PATH-0F3F5FBA6E8F",
+        "PATH-8556A2625DED",
+        "PATH-877EB7C3EF39",
+        "PATH-E590CE5FFCD3"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-4E4FFDBB28E9",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-60E91680BEDA",
+        "PATH-67FA53A2C298",
+        "PATH-B7FED32DF7F1",
+        "PATH-F175C8D02D4F"
+      ],
+      "matched_locator_ids": [
+        "LOC-2E52974ADF2A",
+        "LOC-0CB76A625323",
+        "LOC-C48344A12EBC",
+        "LOC-75FCA26A103F",
+        "LOC-B7DADD99F6CD"
+      ],
+      "expected_document_pages": [
+        267,
+        268
+      ],
+      "found_document_pages": [
+        267,
+        268
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Fresh full267–268 read. Indes, Compagnie des267–268 is the direct company route to liquidation fraud and its political effect, supplemented by Chabot267 and Fabre268. Batz267 supplies real royalist subversion while the passage explicitly says it did not prove the sweeping plot alleged by Chabot and imagined by Robespierre. Fabre268 directly retrieves discrediting the Indulgents and arrest. Actual company headings were inspected, including the separate scandal273 entry; retrieval does not rely only on a knowledgeable-reader guess of a deputy name.",
+      "evidence_ids": [
+        "EVID-SUCC-75E365F32966",
+        "EVID-SUCC-DE73345B2471"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            267,
+            268
+          ],
+          "found_document_pages": [
+            267,
+            268
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-75E365F32966",
+            "EVID-SUCC-DE73345B2471"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Fresh full267–268 read. Indes, Compagnie des267–268 is the direct company route to liquidation fraud and its political effect, supplemented by Chabot267 and Fabre268. Batz267 supplies real royalist subversion while the passage explicitly says it did not prove the sweeping plot alleged by Chabot and imagined by Robespierre. Fabre268 directly retrieves discrediting the Indulgents and arrest. Actual company headings were inspected, including the separate scandal273 entry; retrieval does not rely only on a knowledgeable-reader guess of a deputy name.",
+      "tested_path_ids": [
+        "PATH-60E91680BEDA",
+        "PATH-67FA53A2C298",
+        "PATH-B7FED32DF7F1",
+        "PATH-F175C8D02D4F"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-54D178FEEEA6",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-0D12EBEC5EEC",
+        "PATH-EA780CC6C76E"
+      ],
+      "matched_locator_ids": [
+        "LOC-4E07760BAF6D",
+        "LOC-FAE10686B6CC"
+      ],
+      "expected_document_pages": [
+        260
+      ],
+      "found_document_pages": [
+        260
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Fresh full260 read. French Republican Calendar and Dechristianization > calendar impact directly retrieve date, republican epoch, seasonal months, decades and removal of Sunday. The passage expressly distinguishes an official state measure from unauthorized local dechristianization; both route labels preserve this qualified relationship.",
+      "evidence_ids": [
+        "EVID-SUCC-1B90E74CB7ED"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            260
+          ],
+          "found_document_pages": [
+            260
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-1B90E74CB7ED"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Fresh full260 read. French Republican Calendar and Dechristianization > calendar impact directly retrieve date, republican epoch, seasonal months, decades and removal of Sunday. The passage expressly distinguishes an official state measure from unauthorized local dechristianization; both route labels preserve this qualified relationship.",
+      "tested_path_ids": [
+        "PATH-0D12EBEC5EEC",
+        "PATH-EA780CC6C76E"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5D6AEE98EDA3",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-C92AF8DAA121"
+      ],
+      "matched_locator_ids": [
+        "LOC-28AAF1485F3C",
+        "LOC-245EC0772596",
+        "LOC-A36CD5223E03"
+      ],
+      "expected_document_pages": [
+        252,
+        266,
+        270
+      ],
+      "found_document_pages": [
+        252,
+        266,
+        270
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Saint-Just252/266/270 is a direct named route to wartime government, poorly implemented Ventôse property proposals, and evidence-free foreign-faction speech. These different acts are preserved; no retroactive authorship of every property policy.",
+      "evidence_ids": [
+        "EVID-SUCC-A411681704C1",
+        "EVID-SUCC-C14BA562AE06",
+        "EVID-SUCC-C6A406EC57AC"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            252,
+            266,
+            270
+          ],
+          "found_document_pages": [
+            252,
+            266,
+            270
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-A411681704C1",
+            "EVID-SUCC-C14BA562AE06",
+            "EVID-SUCC-C6A406EC57AC"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Saint-Just252/266/270 is a direct named route to wartime government, poorly implemented Ventôse property proposals, and evidence-free foreign-faction speech. These different acts are preserved; no retroactive authorship of every property policy.",
+      "tested_path_ids": [
+        "PATH-C92AF8DAA121"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-5DD90C556A55",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-67869BB9C00D",
+        "PATH-95960E0626D1"
+      ],
+      "matched_locator_ids": [
+        "LOC-7125598D3EA2",
+        "LOC-A77F8ACC9E91",
+        "LOC-C17AB1935270"
+      ],
+      "expected_document_pages": [
+        265,
+        266
+      ],
+      "found_document_pages": [
+        265,
+        266
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Fresh full265–266 read. Forced loan on the rich265–266 supplies stabilization purpose, delayed progressive levy, paper payment and uneven implementation. Ventose laws266 supplies the later proposed seizure and redistribution through watch committees/popular commissions, weak enthusiasm and chaotic nonimplementation. These separate named routes preserve fiscal levy versus largely unrealized social programme and the aim of outbidding radicals.",
+      "evidence_ids": [
+        "EVID-SUCC-70FC701758F9",
+        "EVID-SUCC-A1450A32EF2E"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            265,
+            266
+          ],
+          "found_document_pages": [
+            265,
+            266
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-70FC701758F9",
+            "EVID-SUCC-A1450A32EF2E"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Fresh full265–266 read. Forced loan on the rich265–266 supplies stabilization purpose, delayed progressive levy, paper payment and uneven implementation. Ventose laws266 supplies the later proposed seizure and redistribution through watch committees/popular commissions, weak enthusiasm and chaotic nonimplementation. These separate named routes preserve fiscal levy versus largely unrealized social programme and the aim of outbidding radicals.",
+      "tested_path_ids": [
+        "PATH-67869BB9C00D",
+        "PATH-95960E0626D1"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6B6553ED0407",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-B4EFB1A98449"
+      ],
+      "matched_locator_ids": [
+        "LOC-297940F07274",
+        "LOC-ADB6B10E0FFC",
+        "LOC-775245F6A166",
+        "LOC-EE001CD9B805",
+        "LOC-BC0BE4D8FBF4"
+      ],
+      "expected_document_pages": [
+        251,
+        260,
+        261,
+        269,
+        271
+      ],
+      "found_document_pages": [
+        251,
+        260,
+        261,
+        269,
+        271
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Chaumette’s direct route retrieves September subsistence leadership, Nevers observation and Paris policy, guarded reception of sectionMarat and later execution on presumed sympathy. He is not made the organizer or first arrestee of the Hébertist rising.",
+      "evidence_ids": [
+        "EVID-SUCC-08BFBE3D0EE7",
+        "EVID-SUCC-2C6B21659111",
+        "EVID-SUCC-5AC79DCF092F",
+        "EVID-SUCC-78F52785D438",
+        "EVID-SUCC-B423EE9972F1"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            251,
+            260,
+            261
+          ],
+          "found_document_pages": [
+            251,
+            260,
+            261
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            269
+          ],
+          "found_document_pages": [
+            269
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            271
+          ],
+          "found_document_pages": [
+            271
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 5,
+        "found": 5,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-08BFBE3D0EE7",
+            "EVID-SUCC-2C6B21659111",
+            "EVID-SUCC-5AC79DCF092F",
+            "EVID-SUCC-78F52785D438",
+            "EVID-SUCC-B423EE9972F1"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Chaumette’s direct route retrieves September subsistence leadership, Nevers observation and Paris policy, guarded reception of sectionMarat and later execution on presumed sympathy. He is not made the organizer or first arrestee of the Hébertist rising.",
+      "tested_path_ids": [
+        "PATH-B4EFB1A98449"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-72A1D9C70157",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-3C51B1C8889A",
+        "PATH-634A4CB6BC5B",
+        "PATH-99B01B671F57",
+        "PATH-B2B72F143582",
+        "PATH-E93FDACD1D14"
+      ],
+      "matched_locator_ids": [
+        "LOC-9BF1A777B4AA",
+        "LOC-E0D5B4142B32",
+        "LOC-FB3055E460EF",
+        "LOC-7DB335BB298A",
+        "LOC-F4B78F41BDA8",
+        "LOC-DE6A32C0402C"
+      ],
+      "expected_document_pages": [
+        257,
+        259,
+        260,
+        261,
+        262,
+        263
+      ],
+      "found_document_pages": [
+        257,
+        259,
+        260,
+        261,
+        262,
+        263
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Noyades257 retrieves religious targeting, Fouché259 the local inception, origins260 and Reason festival261 expansion/clerical coercion, and opposition262–263 the sequence of Robespierre, liberty decree, later Brie resistance and centralization. The source distinguishes legal restraint from continued closures and eventual exhaustion; no map or supposed uniform authorization.",
+      "evidence_ids": [
+        "EVID-SUCC-1033558EC4B6",
+        "EVID-SUCC-1B7D81B3C1A2",
+        "EVID-SUCC-2A84A50F9763",
+        "EVID-SUCC-38FB8D50EB80",
+        "EVID-SUCC-6908CEFA7F61",
+        "EVID-SUCC-D96A19309B26",
+        "EVID-SUCC-F488545404E4",
+        "EVID-SUCC-F8ED1D540336"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            259,
+            260,
+            262
+          ],
+          "found_document_pages": [
+            259,
+            260,
+            262
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            257,
+            261,
+            263
+          ],
+          "found_document_pages": [
+            257,
+            261,
+            263
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            263
+          ],
+          "found_document_pages": [
+            263
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-1033558EC4B6",
+            "EVID-SUCC-1B7D81B3C1A2",
+            "EVID-SUCC-2A84A50F9763",
+            "EVID-SUCC-38FB8D50EB80",
+            "EVID-SUCC-6908CEFA7F61",
+            "EVID-SUCC-D96A19309B26",
+            "EVID-SUCC-F488545404E4",
+            "EVID-SUCC-F8ED1D540336"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Noyades257 retrieves religious targeting, Fouché259 the local inception, origins260 and Reason festival261 expansion/clerical coercion, and opposition262–263 the sequence of Robespierre, liberty decree, later Brie resistance and centralization. The source distinguishes legal restraint from continued closures and eventual exhaustion; no map or supposed uniform authorization.",
+      "tested_path_ids": [
+        "PATH-3C51B1C8889A",
+        "PATH-634A4CB6BC5B",
+        "PATH-99B01B671F57",
+        "PATH-B2B72F143582",
+        "PATH-E93FDACD1D14"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-CCF09DDF8FCA"
+      ],
+      "matched_locator_ids": [
+        "LOC-0C6B96412F0B",
+        "LOC-DE576E7A79D9",
+        "LOC-5B1DDA22180F",
+        "LOC-5719E9E519F1",
+        "LOC-322AABEB0588",
+        "LOC-EB782E963FFD"
+      ],
+      "expected_document_pages": [
+        251,
+        252,
+        258,
+        263,
+        264,
+        271
+      ],
+      "found_document_pages": [
+        251,
+        252,
+        258,
+        263,
+        264,
+        271
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "The dedicated Revolutionary Armies route retrieves political urban recruitment, coercive provisioning and suspect policy, exceptional Paris deployment, statutory subordination and later dissolution. All are the local coercive institution, not regular field armies. Single retained-force wording is explicit264, while263 already supplies local abolition.",
+      "evidence_ids": [
+        "EVID-SUCC-344E67A5005A",
+        "EVID-SUCC-374AF03EFB9D",
+        "EVID-SUCC-6B32C9F4E8C4",
+        "EVID-SUCC-74C214138AAD",
+        "EVID-SUCC-BA922FE744AD",
+        "EVID-SUCC-D81450C5FC7B"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            251,
+            258
+          ],
+          "found_document_pages": [
+            251,
+            258
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            252,
+            264
+          ],
+          "found_document_pages": [
+            252,
+            264
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            263,
+            271
+          ],
+          "found_document_pages": [
+            263,
+            271
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-344E67A5005A",
+            "EVID-SUCC-374AF03EFB9D",
+            "EVID-SUCC-6B32C9F4E8C4",
+            "EVID-SUCC-74C214138AAD",
+            "EVID-SUCC-BA922FE744AD",
+            "EVID-SUCC-D81450C5FC7B"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "The dedicated Revolutionary Armies route retrieves political urban recruitment, coercive provisioning and suspect policy, exceptional Paris deployment, statutory subordination and later dissolution. All are the local coercive institution, not regular field armies. Single retained-force wording is explicit264, while263 already supplies local abolition.",
+      "tested_path_ids": [
+        "PATH-CCF09DDF8FCA"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7A343F73BC1F",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-01F1A434DE6C",
+        "PATH-5796F692DACB",
+        "PATH-D07C40F100E2"
+      ],
+      "matched_locator_ids": [
+        "LOC-8B817C541E31",
+        "LOC-9585C04BAE64",
+        "LOC-19FAF3185A98",
+        "LOC-76D1DDA5C487",
+        "LOC-B7397AA0EBAC"
+      ],
+      "expected_document_pages": [
+        251,
+        258,
+        263,
+        267,
+        269
+      ],
+      "found_document_pages": [
+        251,
+        258,
+        263,
+        267,
+        269
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Law of Suspects251/258 and watch committees263 retrieve broad definitions, civisme and administrative detention; GeneralSecurity267 independently imprisons Chabot. Its268 sentence releasing Ronsin/Vincent continues269 to lack of evidence, preserving independence from Robespierre. The251 speech-conformity sentence continues252; incidental status does not erase the actual required forms-of-address distinction. ActualLawofSuspects251 ends the sentence Those who;252 completes the forms of address triggering suspicion. This incidental evidence is explicitly reviewed for the parent’s stated meaning although it does not enter the required treatment denominator.",
+      "evidence_ids": [
+        "EVID-SUCC-1B78D501E19E",
+        "EVID-SUCC-3DF521B77D04",
+        "EVID-SUCC-6B6826BABD30",
+        "EVID-SUCC-88859FD7048E",
+        "EVID-SUCC-914092B93165",
+        "EVID-SUCC-E3EB13479C2C"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            251,
+            258,
+            267,
+            269
+          ],
+          "found_document_pages": [
+            251,
+            258,
+            267,
+            269
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            263
+          ],
+          "found_document_pages": [
+            263
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 5,
+        "found": 5,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-1B78D501E19E",
+            "EVID-SUCC-3DF521B77D04",
+            "EVID-SUCC-6B6826BABD30",
+            "EVID-SUCC-88859FD7048E",
+            "EVID-SUCC-914092B93165",
+            "EVID-SUCC-E3EB13479C2C"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Law of Suspects251/258 and watch committees263 retrieve broad definitions, civisme and administrative detention; GeneralSecurity267 independently imprisons Chabot. Its268 sentence releasing Ronsin/Vincent continues269 to lack of evidence, preserving independence from Robespierre. The251 speech-conformity sentence continues252; incidental status does not erase the actual required forms-of-address distinction. ActualLawofSuspects251 ends the sentence Those who;252 completes the forms of address triggering suspicion. This incidental evidence is explicitly reviewed for the parent’s stated meaning although it does not enter the required treatment denominator.",
+      "tested_path_ids": [
+        "PATH-01F1A434DE6C",
+        "PATH-5796F692DACB",
+        "PATH-D07C40F100E2"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-6224180841C6",
+        "PATH-65D606A999E1",
+        "PATH-8D6E7C4F7872"
+      ],
+      "matched_locator_ids": [
+        "LOC-37C527B7AA58",
+        "LOC-1832989558EB",
+        "LOC-9A5F023FCCB6",
+        "LOC-0E1667EC70D0",
+        "LOC-F04CFB1DFD52",
+        "LOC-191ED28B1367",
+        "LOC-39CA6789413C",
+        "LOC-F1869431BAD2"
+      ],
+      "expected_document_pages": [
+        249,
+        250,
+        252,
+        267,
+        268,
+        269,
+        270
+      ],
+      "found_document_pages": [
+        249,
+        250,
+        252,
+        267,
+        268,
+        269,
+        270
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Hébert249–250 retrieves appropriation of enragé demands and newspaper/club leadership; Ronsin252/268 and Vincent268 give institutional allies, then Hébert267/269/270 supplies fraud-related suspicions, isolated uprising and the directed trial. Newspaper dominance is explicit250, so source249 clause referral is preserved; no foreign-conspiracy allegation converted to fact.",
+      "evidence_ids": [
+        "EVID-SUCC-547CEBB69221",
+        "EVID-SUCC-6C7BED7710D0",
+        "EVID-SUCC-6CF22915C4C0",
+        "EVID-SUCC-952896DEE8C8",
+        "EVID-SUCC-A6A3834D6447",
+        "EVID-SUCC-AA9EE73544FA",
+        "EVID-SUCC-B1635DFA012A",
+        "EVID-SUCC-C5574E1C16F9",
+        "EVID-SUCC-D4AEDE702C26"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            249,
+            250,
+            252,
+            268,
+            269
+          ],
+          "found_document_pages": [
+            249,
+            250,
+            252,
+            268,
+            269
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            267,
+            269
+          ],
+          "found_document_pages": [
+            267,
+            269
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            270
+          ],
+          "found_document_pages": [
+            270
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 7,
+        "found": 7,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-547CEBB69221",
+            "EVID-SUCC-6C7BED7710D0",
+            "EVID-SUCC-6CF22915C4C0",
+            "EVID-SUCC-952896DEE8C8",
+            "EVID-SUCC-A6A3834D6447",
+            "EVID-SUCC-AA9EE73544FA",
+            "EVID-SUCC-B1635DFA012A",
+            "EVID-SUCC-C5574E1C16F9",
+            "EVID-SUCC-D4AEDE702C26"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Hébert249–250 retrieves appropriation of enragé demands and newspaper/club leadership; Ronsin252/268 and Vincent268 give institutional allies, then Hébert267/269/270 supplies fraud-related suspicions, isolated uprising and the directed trial. Newspaper dominance is explicit250, so source249 clause referral is preserved; no foreign-conspiracy allegation converted to fact.",
+      "tested_path_ids": [
+        "PATH-6224180841C6",
+        "PATH-65D606A999E1",
+        "PATH-8D6E7C4F7872"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-00AD56D897B5",
+        "PATH-223F6ED75353",
+        "PATH-2E609D05687C",
+        "PATH-3C3BE8055B13",
+        "PATH-8556A2625DED",
+        "PATH-95E1A492F3C6",
+        "PATH-9E4C6405ACB3",
+        "PATH-AA32B34D38AD",
+        "PATH-B6F9204A845E",
+        "PATH-F019E55CCBF7"
+      ],
+      "matched_locator_ids": [
+        "LOC-0D258AAA1EA0",
+        "LOC-E227A8C96773",
+        "LOC-98BFD997E23C",
+        "LOC-AB0097F4C1A9",
+        "LOC-8375996BBE13",
+        "LOC-9F90D6D43F32",
+        "LOC-4EE82925E956",
+        "LOC-150117714325",
+        "LOC-8F791402C383",
+        "LOC-C25D176098D5",
+        "LOC-9C06AE737E3F",
+        "LOC-EA4FB7231A55",
+        "LOC-A879FC2930A0",
+        "LOC-53D833A74249",
+        "LOC-F602A644FB72",
+        "LOC-752647C60561"
+      ],
+      "expected_document_pages": [
+        246,
+        262,
+        267,
+        268,
+        270,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281
+      ],
+      "found_document_pages": [
+        246,
+        262,
+        267,
+        268,
+        270,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Robespierre’s specific Committee, religion, Indulgents, Virtue, fall and dictator-reputation subdivisions retrieve the temporal changes and the explicit rejection of actual dictatorship. Danton trial274 and RepublicofVirtue275 supply the coercive consequences, while Virtue276 includes regime labor discipline and civic religion without making every policy his personal command. Actual assassination attempts remain distinct from alleged wider Batz plot. ParisCommune276 is separately selected for actual wage/labor discipline so the virtue/cult route is not made to stand for unrelated personal labor agency.",
+      "evidence_ids": [
+        "EVID-SUCC-05EC1D5631D5",
+        "EVID-SUCC-09CB276ACF79",
+        "EVID-SUCC-19DAF6F0EA20",
+        "EVID-SUCC-1DCC998B11AB",
+        "EVID-SUCC-3175C1BB8C39",
+        "EVID-SUCC-350A2B1D7A6D",
+        "EVID-SUCC-47BD03A41F00",
+        "EVID-SUCC-4A989785A14E",
+        "EVID-SUCC-71B001CE7970",
+        "EVID-SUCC-84B16565EB5E",
+        "EVID-SUCC-93F1D4EA4564",
+        "EVID-SUCC-C3630E33C414",
+        "EVID-SUCC-D9A93145EF6D",
+        "EVID-SUCC-DD9663273277",
+        "EVID-SUCC-F51DF774CACF"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            262,
+            267,
+            268,
+            270,
+            272,
+            277,
+            278,
+            279
+          ],
+          "found_document_pages": [
+            262,
+            267,
+            268,
+            270,
+            272,
+            277,
+            278,
+            279
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            246,
+            273,
+            274,
+            276,
+            280
+          ],
+          "found_document_pages": [
+            246,
+            273,
+            274,
+            276,
+            280
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            275,
+            281
+          ],
+          "found_document_pages": [
+            275,
+            281
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 15,
+        "found": 15,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-05EC1D5631D5",
+            "EVID-SUCC-09CB276ACF79",
+            "EVID-SUCC-19DAF6F0EA20",
+            "EVID-SUCC-1DCC998B11AB",
+            "EVID-SUCC-3175C1BB8C39",
+            "EVID-SUCC-350A2B1D7A6D",
+            "EVID-SUCC-47BD03A41F00",
+            "EVID-SUCC-4A989785A14E",
+            "EVID-SUCC-71B001CE7970",
+            "EVID-SUCC-84B16565EB5E",
+            "EVID-SUCC-93F1D4EA4564",
+            "EVID-SUCC-C3630E33C414",
+            "EVID-SUCC-D9A93145EF6D",
+            "EVID-SUCC-DD9663273277",
+            "EVID-SUCC-F51DF774CACF"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Robespierre’s specific Committee, religion, Indulgents, Virtue, fall and dictator-reputation subdivisions retrieve the temporal changes and the explicit rejection of actual dictatorship. Danton trial274 and RepublicofVirtue275 supply the coercive consequences, while Virtue276 includes regime labor discipline and civic religion without making every policy his personal command. Actual assassination attempts remain distinct from alleged wider Batz plot. ParisCommune276 is separately selected for actual wage/labor discipline so the virtue/cult route is not made to stand for unrelated personal labor agency.",
+      "tested_path_ids": [
+        "PATH-00AD56D897B5",
+        "PATH-223F6ED75353",
+        "PATH-2E609D05687C",
+        "PATH-3C3BE8055B13",
+        "PATH-8556A2625DED",
+        "PATH-95E1A492F3C6",
+        "PATH-9E4C6405ACB3",
+        "PATH-AA32B34D38AD",
+        "PATH-B6F9204A845E",
+        "PATH-F019E55CCBF7"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-AF783FF68D90",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-01F1A434DE6C",
+        "PATH-07B10977D069",
+        "PATH-943B9E017CB4",
+        "PATH-B2B72F143582"
+      ],
+      "matched_locator_ids": [
+        "LOC-DD264E854D9F",
+        "LOC-9BF1A777B4AA",
+        "LOC-9585C04BAE64",
+        "LOC-7C8E5C36DE5E"
+      ],
+      "expected_document_pages": [
+        253,
+        257,
+        258,
+        259
+      ],
+      "found_document_pages": [
+        253,
+        257,
+        258,
+        259
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Guillotine253 retrieves the famous-Paris-versus-provincial contrast; noyades257 the western concentration, LawofSuspects258 detention, and ReignofTerror259 the full denomination/social/geographic comparison. Official sentences, custody deaths, unofficial killing and excluded Vendée war losses are not added as interchangeable totals; elite overrepresentation differs from numerical predominance.",
+      "evidence_ids": [
+        "EVID-SUCC-0E907F4D6036",
+        "EVID-SUCC-41DE11EBB654",
+        "EVID-SUCC-AAE69E4A7D17",
+        "EVID-SUCC-E5779B3DBE25"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            253,
+            258,
+            259
+          ],
+          "found_document_pages": [
+            253,
+            258,
+            259
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            257
+          ],
+          "found_document_pages": [
+            257
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 4,
+        "found": 4,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-0E907F4D6036",
+            "EVID-SUCC-41DE11EBB654",
+            "EVID-SUCC-AAE69E4A7D17",
+            "EVID-SUCC-E5779B3DBE25"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Guillotine253 retrieves the famous-Paris-versus-provincial contrast; noyades257 the western concentration, LawofSuspects258 detention, and ReignofTerror259 the full denomination/social/geographic comparison. Official sentences, custody deaths, unofficial killing and excluded Vendée war losses are not added as interchangeable totals; elite overrepresentation differs from numerical predominance.",
+      "tested_path_ids": [
+        "PATH-01F1A434DE6C",
+        "PATH-07B10977D069",
+        "PATH-943B9E017CB4",
+        "PATH-B2B72F143582"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-AF9995D451BE",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-0092ED9380B0",
+        "PATH-64D7893D7626",
+        "PATH-7A09CBBEB919",
+        "PATH-8D6E7C4F7872",
+        "PATH-943B9E017CB4"
+      ],
+      "matched_locator_ids": [
+        "LOC-37C527B7AA58",
+        "LOC-9CB58481926E",
+        "LOC-826F8B1EA65F",
+        "LOC-9A34FAD4A5B8",
+        "LOC-B43639C41162",
+        "LOC-B0B9F08E4493"
+      ],
+      "expected_document_pages": [
+        249,
+        250,
+        251,
+        252,
+        270,
+        271
+      ],
+      "found_document_pages": [
+        249,
+        250,
+        251,
+        252,
+        270,
+        271
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Hébert249 and sansculotte mobilization250 retrieve rival radical leadership; Terror role251 and ReignofTerror252 the achieved policies; decline270–271 gives failed support, exhaustion, paid incorporation and loss of autonomy followed by harsher state Terror. The chapter’s1794 endpoint remains dated, not substituted for1795 final defeat.",
+      "evidence_ids": [
+        "EVID-SUCC-5F0AAFF987F3",
+        "EVID-SUCC-77EA7FE8E411",
+        "EVID-SUCC-9BC3E1BB10EE",
+        "EVID-SUCC-B027DCEF1F11",
+        "EVID-SUCC-D886B13300E6",
+        "EVID-SUCC-DE3283500C3C"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            249,
+            250,
+            251,
+            270
+          ],
+          "found_document_pages": [
+            249,
+            250,
+            251,
+            270
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            252
+          ],
+          "found_document_pages": [
+            252
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            271
+          ],
+          "found_document_pages": [
+            271
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-5F0AAFF987F3",
+            "EVID-SUCC-77EA7FE8E411",
+            "EVID-SUCC-9BC3E1BB10EE",
+            "EVID-SUCC-B027DCEF1F11",
+            "EVID-SUCC-D886B13300E6",
+            "EVID-SUCC-DE3283500C3C"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Hébert249 and sansculotte mobilization250 retrieve rival radical leadership; Terror role251 and ReignofTerror252 the achieved policies; decline270–271 gives failed support, exhaustion, paid incorporation and loss of autonomy followed by harsher state Terror. The chapter’s1794 endpoint remains dated, not substituted for1795 final defeat.",
+      "tested_path_ids": [
+        "PATH-0092ED9380B0",
+        "PATH-64D7893D7626",
+        "PATH-7A09CBBEB919",
+        "PATH-8D6E7C4F7872",
+        "PATH-943B9E017CB4"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B4528BB49F19",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-E2DD006900A5"
+      ],
+      "matched_locator_ids": [
+        "LOC-B3E816B002C5",
+        "LOC-E9C6F16369E0",
+        "LOC-425BCFE17436"
+      ],
+      "expected_document_pages": [
+        255,
+        257,
+        258
+      ],
+      "found_document_pages": [
+        255,
+        257,
+        258
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Carrier255/257/258 directly retrieves prisons, drownings/shootings, local fear and few local victims, followed by Jullien’s criticism and recall. Totals remain estimates and fears explain tolerance without establishing necessity or legality.",
+      "evidence_ids": [
+        "EVID-SUCC-04737E5668DE",
+        "EVID-SUCC-505A2B28F9EA",
+        "EVID-SUCC-ECC1C2A581BE"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            257
+          ],
+          "found_document_pages": [
+            257
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            255
+          ],
+          "found_document_pages": [
+            255
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            258
+          ],
+          "found_document_pages": [
+            258
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-04737E5668DE",
+            "EVID-SUCC-505A2B28F9EA",
+            "EVID-SUCC-ECC1C2A581BE"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Carrier255/257/258 directly retrieves prisons, drownings/shootings, local fear and few local victims, followed by Jullien’s criticism and recall. Totals remain estimates and fears explain tolerance without establishing necessity or legality.",
+      "tested_path_ids": [
+        "PATH-E2DD006900A5"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-B537E54F3566",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-0F3F5FBA6E8F",
+        "PATH-8D6E7C4F7872"
+      ],
+      "matched_locator_ids": [
+        "LOC-57FEEE36FD72",
+        "LOC-F1869431BAD2"
+      ],
+      "expected_document_pages": [
+        251,
+        270
+      ],
+      "found_document_pages": [
+        251,
+        270
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Danton September1793journées251 directly locates the named event and detailed programme; Hébert270 explicitly compares its opportunistic success with the failedMarch rising. This preserves initial apparent spontaneity versus leaders’ organized redirection.",
+      "evidence_ids": [
+        "EVID-SUCC-46F08ABE15B1",
+        "EVID-SUCC-800372456690"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            251
+          ],
+          "found_document_pages": [
+            251
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            270
+          ],
+          "found_document_pages": [
+            270
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-46F08ABE15B1",
+            "EVID-SUCC-800372456690"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Danton September1793journées251 directly locates the named event and detailed programme; Hébert270 explicitly compares its opportunistic success with the failedMarch rising. This preserves initial apparent spontaneity versus leaders’ organized redirection.",
+      "tested_path_ids": [
+        "PATH-0F3F5FBA6E8F",
+        "PATH-8D6E7C4F7872"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-6B869B051DB1",
+        "PATH-AFB4FA218294",
+        "PATH-C48233FB6F4C"
+      ],
+      "matched_locator_ids": [
+        "LOC-B2696513C9F5",
+        "LOC-E07A6C3351D5",
+        "LOC-325F2D14D684",
+        "LOC-3A257AAF17B9"
+      ],
+      "expected_document_pages": [
+        247,
+        253,
+        254,
+        268
+      ],
+      "found_document_pages": [
+        247,
+        253,
+        254,
+        268
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Chalier247 and Lyons253–254 retrieve defiance, rejected Caen-model conciliation, punitive decree, limited demolition and Collot/Fouché shootings; CollotCommittee268 retrieves the later defense of those methods. The full city account distinguishes rhetorical annihilation from actual destruction and sentencing.",
+      "evidence_ids": [
+        "EVID-SUCC-26E7675BF8E0",
+        "EVID-SUCC-33354A93D432",
+        "EVID-SUCC-347FB3B538B0",
+        "EVID-SUCC-71D89D45E5F1",
+        "EVID-SUCC-C2F95ECB3CDE",
+        "EVID-SUCC-E4F960D6BDCC"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            253,
+            254
+          ],
+          "found_document_pages": [
+            253,
+            254
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            247,
+            268
+          ],
+          "found_document_pages": [
+            247,
+            268
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            254
+          ],
+          "found_document_pages": [
+            254
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 4,
+        "found": 4,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-26E7675BF8E0",
+            "EVID-SUCC-33354A93D432",
+            "EVID-SUCC-347FB3B538B0",
+            "EVID-SUCC-71D89D45E5F1",
+            "EVID-SUCC-C2F95ECB3CDE",
+            "EVID-SUCC-E4F960D6BDCC"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Chalier247 and Lyons253–254 retrieve defiance, rejected Caen-model conciliation, punitive decree, limited demolition and Collot/Fouché shootings; CollotCommittee268 retrieves the later defense of those methods. The full city account distinguishes rhetorical annihilation from actual destruction and sentencing.",
+      "tested_path_ids": [
+        "PATH-6B869B051DB1",
+        "PATH-AFB4FA218294",
+        "PATH-C48233FB6F4C"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-C946EBBA6629",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "realistic_first_lookup_success": "yes",
+      "matched_path_ids": [
+        "PATH-07B10977D069",
+        "PATH-872A9DC14B03",
+        "PATH-D50475685E3E",
+        "PATH-E8C9CE45243B"
+      ],
+      "matched_locator_ids": [
+        "LOC-2A23A6052C9C",
+        "LOC-AD93EF41FFD5",
+        "LOC-61C461CFC102",
+        "LOC-354D265109C4",
+        "LOC-DD264E854D9F",
+        "LOC-8BE589DD3710"
+      ],
+      "expected_document_pages": [
+        251,
+        252,
+        253,
+        270
+      ],
+      "found_document_pages": [
+        251,
+        252,
+        253,
+        270
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "rationale": "Tribunal251 supplies expanded throughput; MarieAntoinette252 directly retrieves royal prosecution and the associated Girondin trial decision, preserving Robespierre’s resistance. MarieAntoinette and Vergniaud253 retrieve the Girondin show-trial paragraph with procedural manipulation and the immediately following Paris-versus-provincial contrast. Tribunal270 supplies directed Hébertist convictions. Guillotine253 independently retrieves the numerical comparison; famous victims are not typical numerical victims.",
+      "evidence_ids": [
+        "EVID-SUCC-2D21AEA93472",
+        "EVID-SUCC-5BFACE5A0A78",
+        "EVID-SUCC-69A2255A4604",
+        "EVID-SUCC-E6B4A5F32338"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            252,
+            253,
+            270
+          ],
+          "found_document_pages": [
+            252,
+            253,
+            270
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            251
+          ],
+          "found_document_pages": [
+            251
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 4,
+        "found": 4,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-2D21AEA93472",
+            "EVID-SUCC-5BFACE5A0A78",
+            "EVID-SUCC-69A2255A4604",
+            "EVID-SUCC-E6B4A5F32338"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "authored_rationale": "Tribunal251 supplies expanded throughput; MarieAntoinette252 directly retrieves royal prosecution and the associated Girondin trial decision, preserving Robespierre’s resistance. MarieAntoinette and Vergniaud253 retrieve the Girondin show-trial paragraph with procedural manipulation and the immediately following Paris-versus-provincial contrast. Tribunal270 supplies directed Hébertist convictions. Guillotine253 independently retrieves the numerical comparison; famous victims are not typical numerical victims.",
+      "tested_path_ids": [
+        "PATH-07B10977D069",
+        "PATH-872A9DC14B03",
+        "PATH-D50475685E3E",
+        "PATH-E8C9CE45243B"
+      ],
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    }
+  ],
+  "reader_task_results": [
+    {
+      "task_id": "TASK-SUCC-163AF886931B",
+      "subject_ids": [
+        "SUBJ-SUCC-0853ED267EBF",
+        "SUBJ-SUCC-B537E54F3566",
+        "SUBJ-SUCC-8A64FF09886C",
+        "SUBJ-SUCC-81DD3C32CF36"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-1177C4D89246",
+        "PATH-20BD03C21F7B",
+        "PATH-943B9E017CB4",
+        "PATH-94D8945CAB8A",
+        "PATH-A9C542F5FA57"
+      ],
+      "matched_locator_ids": [
+        "LOC-037537C956FF",
+        "LOC-3CCA8EAEAD72",
+        "LOC-846CEF2E72A9",
+        "LOC-1D0B42A19CE4",
+        "LOC-AAC3C994F372",
+        "LOC-FC71BB23D096"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-3712DA010BB9",
+        "EVID-SUCC-46F08ABE15B1",
+        "EVID-SUCC-7E375D2520D4",
+        "EVID-SUCC-85241780AB32",
+        "EVID-SUCC-8871609445AF",
+        "EVID-SUCC-955FC2058225",
+        "EVID-SUCC-D1F3450D98E3",
+        "EVID-SUCC-F48F4511FDC6"
+      ],
+      "authored_rationale": "Hanriot247 places contested authority within military crisis; Maximum agitation250 supplies scarcity/price pressure and levy250 its popular demands and limits. Terror251/266 then gives the September response and contingent self-perpetuation. Carnot248 supplies practical capacity without making him sole cause.",
+      "required_facets_reviewed": [
+        "legacy:TASK-993BA62BFB46"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-16915FF3B572",
+      "subject_ids": [
+        "SUBJ-SUCC-5D6AEE98EDA3",
+        "SUBJ-SUCC-CC141AF36901",
+        "SUBJ-SUCC-5DD90C556A55",
+        "SUBJ-SUCC-7FD46BD9C318"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-85B4415BECBC",
+        "PATH-C92AF8DAA121"
+      ],
+      "matched_locator_ids": [
+        "LOC-28AAF1485F3C",
+        "LOC-245EC0772596",
+        "LOC-A36CD5223E03",
+        "LOC-7F7F48039DFA",
+        "LOC-9514756975FE"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-01E3A9585FB2",
+        "EVID-SUCC-5E53876C5F39",
+        "EVID-SUCC-6CF22915C4C0",
+        "EVID-SUCC-7CF24BBF73BA",
+        "EVID-SUCC-A1450A32EF2E",
+        "EVID-SUCC-A411681704C1",
+        "EVID-SUCC-C14BA562AE06",
+        "EVID-SUCC-C5574E1C16F9",
+        "EVID-SUCC-C6A406EC57AC",
+        "EVID-SUCC-D1C0B1B064D1",
+        "EVID-SUCC-D4AEDE702C26",
+        "EVID-SUCC-F2314FD123D0"
+      ],
+      "authored_rationale": "Saint-Just252 distinguishes wartime revolutionary machinery,266 proposed and unimplemented redistribution,270 allegation-based Hébertist prosecution, and274 Dantonist indictment. Centralization263 supplies institutional context without projecting every measure onto one official.",
+      "required_facets_reviewed": [],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-2D22932ACF13",
+      "subject_ids": [
+        "SUBJ-SUCC-72A1D9C70157",
+        "SUBJ-SUCC-034398CDB346",
+        "SUBJ-SUCC-54D178FEEEA6",
+        "SUBJ-SUCC-6B6553ED0407"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-0D12EBEC5EEC",
+        "PATH-3C51B1C8889A",
+        "PATH-634A4CB6BC5B",
+        "PATH-99B01B671F57",
+        "PATH-B4EFB1A98449",
+        "PATH-E93FDACD1D14"
+      ],
+      "matched_locator_ids": [
+        "LOC-E0D5B4142B32",
+        "LOC-D94F988CB772",
+        "LOC-FB3055E460EF",
+        "LOC-7DB335BB298A",
+        "LOC-F4B78F41BDA8",
+        "LOC-DE6A32C0402C",
+        "LOC-FAE10686B6CC",
+        "LOC-775245F6A166"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-1033558EC4B6",
+        "EVID-SUCC-1B90E74CB7ED",
+        "EVID-SUCC-2A84A50F9763",
+        "EVID-SUCC-2C6B21659111",
+        "EVID-SUCC-38FB8D50EB80",
+        "EVID-SUCC-6908CEFA7F61",
+        "EVID-SUCC-71E6E97569B1",
+        "EVID-SUCC-B423EE9972F1",
+        "EVID-SUCC-D96A19309B26",
+        "EVID-SUCC-E94433FC360A",
+        "EVID-SUCC-F488545404E4",
+        "EVID-SUCC-F8ED1D540336"
+      ],
+      "authored_rationale": "Fouché259–260 and Chaumette261 retrieve local-to-Paris transmission, the calendar260 changed temporal setting, festivals261 coercive spread, and official opposition262–263 the freedom decree preceding Brie resistance and delayed compliance. The whole route preserves Grégoire, constitutional-clergy coercion and continuing closures.",
+      "required_facets_reviewed": [
+        "legacy:TASK-BE9F90A787DA"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-35B22D0DBF2A",
+      "subject_ids": [
+        "SUBJ-SUCC-AF783FF68D90",
+        "SUBJ-SUCC-C946EBBA6629"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-01F1A434DE6C",
+        "PATH-07B10977D069",
+        "PATH-872A9DC14B03",
+        "PATH-943B9E017CB4",
+        "PATH-B2B72F143582",
+        "PATH-D50475685E3E",
+        "PATH-E8C9CE45243B"
+      ],
+      "matched_locator_ids": [
+        "LOC-AD93EF41FFD5",
+        "LOC-61C461CFC102",
+        "LOC-354D265109C4",
+        "LOC-DD264E854D9F",
+        "LOC-9BF1A777B4AA",
+        "LOC-9585C04BAE64",
+        "LOC-7C8E5C36DE5E",
+        "LOC-8BE589DD3710"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-0E907F4D6036",
+        "EVID-SUCC-2D21AEA93472",
+        "EVID-SUCC-41DE11EBB654",
+        "EVID-SUCC-5BFACE5A0A78",
+        "EVID-SUCC-AAE69E4A7D17",
+        "EVID-SUCC-E5779B3DBE25",
+        "EVID-SUCC-E6B4A5F32338"
+      ],
+      "authored_rationale": "Royal and Girondin252–253 trials and Tribunal270 demonstrate political management and prominent memory. Noyades257, suspect detention258 and Terror259 separately supply geographic concentration and differing approximate denominators, excluding Vendée war losses rather than adding them indiscriminately.",
+      "required_facets_reviewed": [
+        "legacy:TASK-D9811986B970"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-3D7AADE20759",
+      "subject_ids": [
+        "SUBJ-SUCC-7A343F73BC1F"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-01F1A434DE6C",
+        "PATH-5796F692DACB",
+        "PATH-D07C40F100E2"
+      ],
+      "matched_locator_ids": [
+        "LOC-8B817C541E31",
+        "LOC-9585C04BAE64",
+        "LOC-19FAF3185A98",
+        "LOC-76D1DDA5C487",
+        "LOC-B7397AA0EBAC"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-1B78D501E19E",
+        "EVID-SUCC-3DF521B77D04",
+        "EVID-SUCC-6B6826BABD30",
+        "EVID-SUCC-914092B93165",
+        "EVID-SUCC-E3EB13479C2C"
+      ],
+      "authored_rationale": "LawofSuspects251/258 supplies sweeping definitions, local knowledge and civisme. Its literal251→252 sentence supplies speech conformity; watchcommittees263 the reporting system. GeneralSecurity267 and useful268 release sentence continued269 establish independent Chabot imprisonment and Ronsin/Vincent release, not Robespierre’s automatic command.",
+      "required_facets_reviewed": [
+        "legacy:TASK-2318CA9D0CB6",
+        "legacy:TASK-3FF8ABEA667A"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-60B13CEDB418",
+      "subject_ids": [
+        "SUBJ-SUCC-488D7D90E0DF",
+        "SUBJ-SUCC-42A647BF0FDD"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-8556A2625DED",
+        "PATH-F019E55CCBF7"
+      ],
+      "matched_locator_ids": [
+        "LOC-C00758C33CE1",
+        "LOC-150117714325",
+        "LOC-675A419BA084",
+        "LOC-8F791402C383"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-6728ECC7EC44",
+        "EVID-SUCC-68AA69FBF4F0",
+        "EVID-SUCC-94023F8BC4BD",
+        "EVID-SUCC-9ED83C395E32",
+        "EVID-SUCC-B1DB1C794B89"
+      ],
+      "authored_rationale": "Danton’s trial273–275 retrieves the corruption pretext, contested widening, vague charges and excluded defense, with explicit uncertainty about motives. RepublicofVirtue275 identifies potential-danger punishment and the harsher phase, not demonstrated guilt or consistent innocence.",
+      "required_facets_reviewed": [
+        "legacy:TASK-9CE2F090F6FD",
+        "legacy:TASK-B48E50BDF1F7",
+        "legacy:TASK-0E4F53B0CB77"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-9D29A0E502F1",
+      "subject_ids": [
+        "SUBJ-SUCC-C8838C6F47C7",
+        "SUBJ-SUCC-DFDC18284F68",
+        "SUBJ-SUCC-2599FEAE9CC2",
+        "SUBJ-SUCC-30CDC3924594",
+        "SUBJ-SUCC-89445560BDBB",
+        "SUBJ-SUCC-B7832AC4F354",
+        "SUBJ-SUCC-0790BF160C73"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-0958054B1CA1",
+        "PATH-2808CD626340",
+        "PATH-470BC171E012",
+        "PATH-53B43BB2FA81",
+        "PATH-7C464957BCEB",
+        "PATH-7D78E3F3F485",
+        "PATH-A1671706098A",
+        "PATH-A18D523FF09D",
+        "PATH-C48233FB6F4C",
+        "PATH-C6F6139456F5"
+      ],
+      "matched_locator_ids": [
+        "LOC-8C3B085C4D86",
+        "LOC-378F013E1B35",
+        "LOC-0231CFF25AE4",
+        "LOC-E6BC191E38FB",
+        "LOC-A3A2B26B42CE",
+        "LOC-A5E18C749C5F",
+        "LOC-F8FF04DAAF8A",
+        "LOC-A5C2D4FCE1CE",
+        "LOC-E07A6C3351D5",
+        "LOC-325F2D14D684",
+        "LOC-E470422E86DB",
+        "LOC-4AD92F54335C",
+        "LOC-9383921319B0",
+        "LOC-2865F9A80E73",
+        "LOC-66D42A4E5A65",
+        "LOC-823EA11733FF",
+        "LOC-CB9DE5C8AB1C"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-07CDFD0A4092",
+        "EVID-SUCC-1138B1C4A199",
+        "EVID-SUCC-26A9F88BE76C",
+        "EVID-SUCC-2C88BD126EBC",
+        "EVID-SUCC-2E61EE8595B4",
+        "EVID-SUCC-347FB3B538B0",
+        "EVID-SUCC-36614811BFB6",
+        "EVID-SUCC-4C315E3EA97B",
+        "EVID-SUCC-4C984A9562ED",
+        "EVID-SUCC-4D1980849387",
+        "EVID-SUCC-71D89D45E5F1",
+        "EVID-SUCC-72EACF886CE9",
+        "EVID-SUCC-76CF4621ABF2",
+        "EVID-SUCC-7D6B39E9C461",
+        "EVID-SUCC-8F1278CD5BAF",
+        "EVID-SUCC-90EB42DC5283",
+        "EVID-SUCC-9E3E13B87A3A",
+        "EVID-SUCC-A8F51C7DCC5B",
+        "EVID-SUCC-AAA26E7A9256",
+        "EVID-SUCC-B00D17B560C5",
+        "EVID-SUCC-B61BA80B64A5",
+        "EVID-SUCC-C2F95ECB3CDE",
+        "EVID-SUCC-C46431E0DF66",
+        "EVID-SUCC-CEC89BCC87DF",
+        "EVID-SUCC-DC19EDA0B3B4",
+        "EVID-SUCC-DF05792E339A",
+        "EVID-SUCC-E4F960D6BDCC",
+        "EVID-SUCC-EBE311B277FB",
+        "EVID-SUCC-FCCCAD8B57D9",
+        "EVID-SUCC-FEE8CF7E030E"
+      ],
+      "authored_rationale": "Distinct city routes retrieve Marseilles commercial/sectional revolt, Lyons silk/provisioning crisis, Bordeaux republican hesitation, and Toulon dockyard grievances. Their248–255 trajectories contrast failed conciliation, mass reprisals, comparatively restrained commissions and later Bordeaux escalation. Bonaparte earlycareer206 explicitly supplies promotion after artillery success; Toulon255 supplies naval losses and strategic restraint. The named comparison supports these separate city routes without requiring a single general heading.",
+      "required_facets_reviewed": [
+        "legacy:TASK-748D9789341A",
+        "legacy:TASK-0E0F4E73B302",
+        "legacy:TASK-CF99035CACF7"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-BB4EA52DC7AA",
+      "subject_ids": [
+        "SUBJ-SUCC-0853ED267EBF",
+        "SUBJ-SUCC-CC141AF36901",
+        "SUBJ-SUCC-AF9995D451BE",
+        "SUBJ-SUCC-B537E54F3566",
+        "SUBJ-SUCC-8A64FF09886C",
+        "SUBJ-SUCC-81DD3C32CF36"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-1177C4D89246",
+        "PATH-20BD03C21F7B",
+        "PATH-64D7893D7626",
+        "PATH-85B4415BECBC",
+        "PATH-943B9E017CB4",
+        "PATH-94D8945CAB8A",
+        "PATH-A9C542F5FA57",
+        "PATH-CCF09DDF8FCA",
+        "PATH-E590CE5FFCD3",
+        "PATH-ED68FCC9B189",
+        "PATH-F019E55CCBF7"
+      ],
+      "matched_locator_ids": [
+        "LOC-037537C956FF",
+        "LOC-FC71BB23D096",
+        "LOC-1D0B42A19CE4",
+        "LOC-AAC3C994F372",
+        "LOC-3CCA8EAEAD72",
+        "LOC-457A9146EA36",
+        "LOC-5B1DDA22180F",
+        "LOC-9514756975FE",
+        "LOC-C734CAAB48E8",
+        "LOC-846CEF2E72A9",
+        "LOC-4B81157C9C0A",
+        "LOC-B0B9F08E4493",
+        "LOC-8F791402C383"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-01E3A9585FB2",
+        "EVID-SUCC-048E739997EA",
+        "EVID-SUCC-0AA6429B215E",
+        "EVID-SUCC-0B90D42519BC",
+        "EVID-SUCC-0EB5C473575F",
+        "EVID-SUCC-10424D9435D3",
+        "EVID-SUCC-3712DA010BB9",
+        "EVID-SUCC-3FEBF673F7EC",
+        "EVID-SUCC-46F08ABE15B1",
+        "EVID-SUCC-4C4592C8DB04",
+        "EVID-SUCC-5E53876C5F39",
+        "EVID-SUCC-5F0AAFF987F3",
+        "EVID-SUCC-7E375D2520D4",
+        "EVID-SUCC-85241780AB32",
+        "EVID-SUCC-8871609445AF",
+        "EVID-SUCC-955FC2058225",
+        "EVID-SUCC-9BC3E1BB10EE",
+        "EVID-SUCC-A91D1525A84A",
+        "EVID-SUCC-B5FE9DEB0FDC",
+        "EVID-SUCC-D1C0B1B064D1",
+        "EVID-SUCC-D1F3450D98E3",
+        "EVID-SUCC-D886B13300E6",
+        "EVID-SUCC-DE3283500C3C",
+        "EVID-SUCC-E189ED8A6925",
+        "EVID-SUCC-F2314FD123D0",
+        "EVID-SUCC-F48F4511FDC6",
+        "EVID-SUCC-F56420D9543B",
+        "EVID-SUCC-FBAA65474D3D"
+      ],
+      "authored_rationale": "The crisis and programme routes explain contingent emergence; RevolutionaryGovernment263–264 gives central control and delayed enforcement; sansculotte decline271 and RepublicofVirtue275 explicitly establish that eliminating popular rivals did not end violence and could intensify it. Administrative design is not assumed to be instant effective control.",
+      "required_facets_reviewed": [
+        "legacy:TASK-34F269658CA6"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-BFFA25053632",
+      "subject_ids": [
+        "SUBJ-SUCC-AF9995D451BE",
+        "SUBJ-SUCC-7FD46BD9C318"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-2E609D05687C",
+        "PATH-64D7893D7626",
+        "PATH-8D6E7C4F7872"
+      ],
+      "matched_locator_ids": [
+        "LOC-39CA6789413C",
+        "LOC-F1869431BAD2",
+        "LOC-B43639C41162",
+        "LOC-B0B9F08E4493",
+        "LOC-71C7ABF516F1"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-547CEBB69221",
+        "EVID-SUCC-6C7BED7710D0",
+        "EVID-SUCC-6CF22915C4C0",
+        "EVID-SUCC-77EA7FE8E411",
+        "EVID-SUCC-9BC3E1BB10EE",
+        "EVID-SUCC-C5574E1C16F9"
+      ],
+      "authored_rationale": "Hébert269–270 supplies single-section response and manufactured prosecution; decline270–271 supplies fatigue, achieved demands and paid service/state absorption. This answers failure of rescue independently of whether all earlier radical programmes are traced.",
+      "required_facets_reviewed": [
+        "legacy:TASK-54E280B4665B"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-CB399AC42EF0",
+      "subject_ids": [
+        "SUBJ-SUCC-94460DC3C7C8",
+        "SUBJ-SUCC-488D7D90E0DF",
+        "SUBJ-SUCC-42A647BF0FDD"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-8556A2625DED",
+        "PATH-9E4C6405ACB3",
+        "PATH-B6F9204A845E",
+        "PATH-F019E55CCBF7"
+      ],
+      "matched_locator_ids": [
+        "LOC-9F90D6D43F32",
+        "LOC-4EE82925E956",
+        "LOC-150117714325",
+        "LOC-8F791402C383",
+        "LOC-C25D176098D5"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-350A2B1D7A6D",
+        "EVID-SUCC-47BD03A41F00",
+        "EVID-SUCC-4A989785A14E",
+        "EVID-SUCC-6728ECC7EC44",
+        "EVID-SUCC-68AA69FBF4F0",
+        "EVID-SUCC-84B16565EB5E",
+        "EVID-SUCC-93F1D4EA4564",
+        "EVID-SUCC-94023F8BC4BD",
+        "EVID-SUCC-9ED83C395E32",
+        "EVID-SUCC-B1DB1C794B89"
+      ],
+      "authored_rationale": "RepublicofVirtue272–273 gives law-bound direct action/delegation, public interest and equality as virtue. Danton274 and RepublicofVirtue275 connect moral suspicion to potential-danger punishment; Virtue276 supplies civic moral programme. This is continuation of coercion, not its replacement by rhetoric.",
+      "required_facets_reviewed": [
+        "legacy:TASK-F16A017D3C0F",
+        "legacy:TASK-48738BEE724E",
+        "legacy:TASK-0330CAC0686D",
+        "legacy:TASK-98310E7489BF",
+        "legacy:TASK-E425DC84C701",
+        "legacy:TASK-3D7F16EB96A7"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-DB9A6CD1161B",
+      "subject_ids": [
+        "SUBJ-SUCC-6B6553ED0407",
+        "SUBJ-SUCC-AF9995D451BE"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-B4EFB1A98449"
+      ],
+      "matched_locator_ids": [
+        "LOC-297940F07274",
+        "LOC-ADB6B10E0FFC",
+        "LOC-775245F6A166",
+        "LOC-EE001CD9B805",
+        "LOC-BC0BE4D8FBF4"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-08BFBE3D0EE7",
+        "EVID-SUCC-2C6B21659111",
+        "EVID-SUCC-5AC79DCF092F",
+        "EVID-SUCC-78F52785D438",
+        "EVID-SUCC-9BC3E1BB10EE",
+        "EVID-SUCC-B423EE9972F1",
+        "EVID-SUCC-D886B13300E6"
+      ],
+      "authored_rationale": "Chaumette’s direct named route traces subsistence leadership and religious initiative, then guarded reception of an isolated uprising, delayed congratulations and execution on presumed sympathy. Earlier radicalism does not prove organization of the March insurrection.",
+      "required_facets_reviewed": [],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-E7721458013C",
+      "subject_ids": [
+        "SUBJ-SUCC-7FD46BD9C318",
+        "SUBJ-SUCC-488D7D90E0DF",
+        "SUBJ-SUCC-4E4FFDBB28E9",
+        "SUBJ-SUCC-94460DC3C7C8",
+        "SUBJ-SUCC-35DD2729C31D"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-25BD7F66D386",
+        "PATH-6224180841C6",
+        "PATH-65D606A999E1",
+        "PATH-8556A2625DED",
+        "PATH-8D6E7C4F7872",
+        "PATH-9556E0C0D594",
+        "PATH-AA32B34D38AD",
+        "PATH-B7FED32DF7F1",
+        "PATH-E590CE5FFCD3"
+      ],
+      "matched_locator_ids": [
+        "LOC-37C527B7AA58",
+        "LOC-1832989558EB",
+        "LOC-9A5F023FCCB6",
+        "LOC-0E1667EC70D0",
+        "LOC-F04CFB1DFD52",
+        "LOC-191ED28B1367",
+        "LOC-39CA6789413C",
+        "LOC-F1869431BAD2",
+        "LOC-98BFD997E23C",
+        "LOC-AB0097F4C1A9",
+        "LOC-F847C4259D9E",
+        "LOC-70F5ABB27089",
+        "LOC-8AEE8A21D92E",
+        "LOC-150117714325",
+        "LOC-BB3E407BB867"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-05EC1D5631D5",
+        "EVID-SUCC-47BD03A41F00",
+        "EVID-SUCC-4A989785A14E",
+        "EVID-SUCC-547CEBB69221",
+        "EVID-SUCC-665154271D0D",
+        "EVID-SUCC-68AA69FBF4F0",
+        "EVID-SUCC-6C7BED7710D0",
+        "EVID-SUCC-6CF22915C4C0",
+        "EVID-SUCC-75E365F32966",
+        "EVID-SUCC-845A50607207",
+        "EVID-SUCC-84CFA5A470B5",
+        "EVID-SUCC-94023F8BC4BD",
+        "EVID-SUCC-952896DEE8C8",
+        "EVID-SUCC-9C9C318DDD72",
+        "EVID-SUCC-9E11FDF65916",
+        "EVID-SUCC-A6A3834D6447",
+        "EVID-SUCC-AA9EE73544FA",
+        "EVID-SUCC-B1635DFA012A",
+        "EVID-SUCC-C3C778E310B6",
+        "EVID-SUCC-C5574E1C16F9",
+        "EVID-SUCC-D4AEDE702C26",
+        "EVID-SUCC-D9A93145EF6D",
+        "EVID-SUCC-DE73345B2471",
+        "EVID-SUCC-DF908E661EE0",
+        "EVID-SUCC-E3D5C7B57087",
+        "EVID-SUCC-F51DF774CACF"
+      ],
+      "authored_rationale": "Hébert/Ronsin/Vincent and Billaud/Collot routes retrieve factional positions and changes; RobespierreIndulgents267–268 and Danton269 the broken moderation alliance. Fabre/Indies273 and trial274 distinguish proven fraud from politically widened allegations and poorly documented motives. Hébert249→250 newspaper clause is preserved as a source-binding referral, with actual useful249 and explicit250 access.",
+      "required_facets_reviewed": [
+        "legacy:TASK-29637EA07D89",
+        "legacy:TASK-89FF49A4F508",
+        "legacy:TASK-2DC65F6C7A18"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    }
+  ],
+  "treatment_judgments": [
+    {
+      "treatment_id": "TREAT-01DCA9B0EC36",
+      "subject_id": "SUBJ-SUCC-5D6AEE98EDA3",
+      "document_page": 270,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-C6A406EC57AC"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-0457D0C49E50",
+      "subject_id": "SUBJ-SUCC-488D7D90E0DF",
+      "document_page": 268,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-665154271D0D"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-0CEAE07061C5",
+      "subject_id": "SUBJ-SUCC-30CDC3924594",
+      "document_page": 264,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-26A9F88BE76C"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-114BAB3C50E1",
+      "subject_id": "SUBJ-SUCC-4E4FFDBB28E9",
+      "document_page": 267,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-75E365F32966"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-148DF6352742",
+      "subject_id": "SUBJ-SUCC-B4528BB49F19",
+      "document_page": 258,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-505A2B28F9EA"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-14DB4AF8BD0A",
+      "subject_id": "SUBJ-SUCC-72A1D9C70157",
+      "document_page": 263,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-38FB8D50EB80"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-15526986AB6C",
+      "subject_id": "SUBJ-SUCC-488D7D90E0DF",
+      "document_page": 274,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-68AA69FBF4F0"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-15B8AF09497D",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 246,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-DD9663273277"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-1D1B53EFD8F5",
+      "subject_id": "SUBJ-SUCC-35DD2729C31D",
+      "document_page": 250,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-9E11FDF65916"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-1F3A0A7B9087",
+      "subject_id": "SUBJ-SUCC-6B6553ED0407",
+      "document_page": 271,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-5AC79DCF092F"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-208195FF3950",
+      "subject_id": "SUBJ-SUCC-AF9995D451BE",
+      "document_page": 249,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B027DCEF1F11"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-21A5EBC408F0",
+      "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+      "document_page": 268,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-33354A93D432"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-21FF98C41E50",
+      "subject_id": "SUBJ-SUCC-5DD90C556A55",
+      "document_page": 265,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-70FC701758F9"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-23E0041D8AE1",
+      "subject_id": "SUBJ-SUCC-B537E54F3566",
+      "document_page": 270,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-800372456690"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-2789C29B706F",
+      "subject_id": "SUBJ-SUCC-5DD90C556A55",
+      "document_page": 266,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-A1450A32EF2E"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-2803D95165D2",
+      "subject_id": "SUBJ-SUCC-72A1D9C70157",
+      "document_page": 262,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-2A84A50F9763",
+        "EVID-SUCC-6908CEFA7F61"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-2BC685EFF739",
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "document_page": 268,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B1635DFA012A"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-2CDD562C2161",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 262,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-3175C1BB8C39"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-2EF1ED3A0F6E",
+      "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+      "document_page": 252,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-374AF03EFB9D"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-2EFF77D0D501",
+      "subject_id": "SUBJ-SUCC-0853ED267EBF",
+      "document_page": 271,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-048E739997EA"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-30DB059389EF",
+      "subject_id": "SUBJ-SUCC-7A343F73BC1F",
+      "document_page": 251,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-E3EB13479C2C"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-31E128046B7A",
+      "subject_id": "SUBJ-SUCC-034398CDB346",
+      "document_page": 259,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-71E6E97569B1"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-32F91A44E04D",
+      "subject_id": "SUBJ-SUCC-AF9995D451BE",
+      "document_page": 270,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-77EA7FE8E411"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-384FFB9519EB",
+      "subject_id": "SUBJ-SUCC-35DD2729C31D",
+      "document_page": 263,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-517482085D67"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-38A6E50B904A",
+      "subject_id": "SUBJ-SUCC-6B6553ED0407",
+      "document_page": 251,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-78F52785D438"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-3A08A946BDA5",
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "document_page": 248,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-72EACF886CE9"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-3B5BB8D3E5BA",
+      "subject_id": "SUBJ-SUCC-6B6553ED0407",
+      "document_page": 269,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-08BFBE3D0EE7"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-3D197F2CA04D",
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "document_page": 249,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-952896DEE8C8"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-3D2E7B1620C0",
+      "subject_id": "SUBJ-SUCC-35DD2729C31D",
+      "document_page": 269,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-DF908E661EE0"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-40FA9A3F0C56",
+      "subject_id": "SUBJ-SUCC-034398CDB346",
+      "document_page": 254,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-8521DCC98168"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-4282503A5ACB",
+      "subject_id": "SUBJ-SUCC-0853ED267EBF",
+      "document_page": 267,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-E189ED8A6925"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-442B3E0EC9A7",
+      "subject_id": "SUBJ-SUCC-45B1958906B7",
+      "document_page": 255,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B0ED67581291"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-47D447CD6527",
+      "subject_id": "SUBJ-SUCC-034398CDB346",
+      "document_page": 260,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-E94433FC360A"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-49C526E42FC4",
+      "subject_id": "SUBJ-SUCC-30CDC3924594",
+      "document_page": 258,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B00D17B560C5"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-516791677D28",
+      "subject_id": "SUBJ-SUCC-AF9995D451BE",
+      "document_page": 250,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-DE3283500C3C"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-52604ADD923E",
+      "subject_id": "SUBJ-SUCC-4E4FFDBB28E9",
+      "document_page": 268,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-DE73345B2471"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-577A939EF6DF",
+      "subject_id": "SUBJ-SUCC-AF783FF68D90",
+      "document_page": 258,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-41DE11EBB654"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-58CBC27A601E",
+      "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+      "document_page": 263,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-74C214138AAD"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-5C0656481512",
+      "subject_id": "SUBJ-SUCC-6B6553ED0407",
+      "document_page": 260,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B423EE9972F1"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-5D52569903C7",
+      "subject_id": "SUBJ-SUCC-35DD2729C31D",
+      "document_page": 268,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-845A50607207"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-66098FAD0796",
+      "subject_id": "SUBJ-SUCC-B4528BB49F19",
+      "document_page": 257,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-04737E5668DE"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-6696D0B570FB",
+      "subject_id": "SUBJ-SUCC-0853ED267EBF",
+      "document_page": 247,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-8871609445AF"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-66EECF9403A7",
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "document_page": 267,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-AA9EE73544FA"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-675C7AD0BBBA",
+      "subject_id": "SUBJ-SUCC-0853ED267EBF",
+      "document_page": 266,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-D1F3450D98E3"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-6CD0AF3BE9A5",
+      "subject_id": "SUBJ-SUCC-488D7D90E0DF",
+      "document_page": 267,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-9C9C318DDD72",
+        "EVID-SUCC-E3D5C7B57087"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-6CDC1F962D30",
+      "subject_id": "SUBJ-SUCC-72A1D9C70157",
+      "document_page": 257,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-1B7D81B3C1A2"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-6F01DAD67BC0",
+      "subject_id": "SUBJ-SUCC-C946EBBA6629",
+      "document_page": 252,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-2D21AEA93472"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-735556E510A2",
+      "subject_id": "SUBJ-SUCC-488D7D90E0DF",
+      "document_page": 275,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-B1DB1C794B89"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-7359C79F5C19",
+      "subject_id": "SUBJ-SUCC-6B6553ED0407",
+      "document_page": 261,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-2C6B21659111"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-73FB282D5170",
+      "subject_id": "SUBJ-SUCC-5D6AEE98EDA3",
+      "document_page": 252,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-A411681704C1"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-776386DD9A91",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 268,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-05EC1D5631D5"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-777F704199EB",
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "document_page": 253,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-4D1980849387"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-784E6AE192B9",
+      "subject_id": "SUBJ-SUCC-AF9995D451BE",
+      "document_page": 251,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-D886B13300E6"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-7B0D96B06C76",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 276,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-84B16565EB5E"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-7C04682E4732",
+      "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+      "document_page": 271,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-6B32C9F4E8C4"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-7E647CA89AAF",
+      "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+      "document_page": 258,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-D81450C5FC7B"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-7F8085B575A2",
+      "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+      "document_page": 247,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-26E7675BF8E0"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-834AFE7D1C73",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 280,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-71B001CE7970"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-85F4BD1C199E",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 273,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-4A989785A14E"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-86F3E997FBC0",
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "document_page": 269,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-547CEBB69221"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-87FDF0EB2D81",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 275,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-93F1D4EA4564"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-8CC95D72640B",
+      "subject_id": "SUBJ-SUCC-488D7D90E0DF",
+      "document_page": 251,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-B8C849001722"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-8F7E7C474AD1",
+      "subject_id": "SUBJ-SUCC-35DD2729C31D",
+      "document_page": 254,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-941113AB4309"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-935FDFD8A5FE",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 281,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-C3630E33C414"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-9449FC167064",
+      "subject_id": "SUBJ-SUCC-45B1958906B7",
+      "document_page": 253,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-9846267452DB"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-9686DA6C1EAD",
+      "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+      "document_page": 264,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-344E67A5005A"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-986E274CF173",
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "document_page": 249,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-2C88BD126EBC"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-9AC4421FE663",
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "document_page": 270,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-6CF22915C4C0",
+        "EVID-SUCC-C5574E1C16F9"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-9D2B5AD9916B",
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "document_page": 250,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-A6A3834D6447"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-9D432805F046",
+      "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+      "document_page": 253,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-347FB3B538B0",
+        "EVID-SUCC-71D89D45E5F1"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-9FAE363BB6BD",
+      "subject_id": "SUBJ-SUCC-72A1D9C70157",
+      "document_page": 259,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F8ED1D540336"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-A026A5AD91AA",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 267,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-D9A93145EF6D"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-A0D47201D8CC",
+      "subject_id": "SUBJ-SUCC-AF9995D451BE",
+      "document_page": 252,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-5F0AAFF987F3"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-A4A08C75B03D",
+      "subject_id": "SUBJ-SUCC-AF783FF68D90",
+      "document_page": 257,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-AAE69E4A7D17"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-A5FA31895BE0",
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "document_page": 249,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-07CDFD0A4092",
+        "EVID-SUCC-EBE311B277FB"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-A98FED555A26",
+      "subject_id": "SUBJ-SUCC-0853ED267EBF",
+      "document_page": 251,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F48F4511FDC6"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-A9CB1066B2CE",
+      "subject_id": "SUBJ-SUCC-45B1958906B7",
+      "document_page": 259,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-13464FAF6D9D"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-AA31A222DDEE",
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "document_page": 264,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-FEE8CF7E030E"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-AAE946948714",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 277,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-09CB276ACF79"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-AC1329A974E3",
+      "subject_id": "SUBJ-SUCC-45B1958906B7",
+      "document_page": 258,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-9193494FE51C",
+        "EVID-SUCC-DCC94819F6D8"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-B0CBC6CAE945",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 272,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-350A2B1D7A6D"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-B2C214A71F36",
+      "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+      "document_page": 254,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-C2F95ECB3CDE"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-B3E2EA3E9811",
+      "subject_id": "SUBJ-SUCC-5D6AEE98EDA3",
+      "document_page": 266,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-C14BA562AE06"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-B5A73CB3C208",
+      "subject_id": "SUBJ-SUCC-C946EBBA6629",
+      "document_page": 251,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-69A2255A4604"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-B5C6943C3E4C",
+      "subject_id": "SUBJ-SUCC-C946EBBA6629",
+      "document_page": 270,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-E6B4A5F32338"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-B7438CC5ABF5",
+      "subject_id": "SUBJ-SUCC-7A343F73BC1F",
+      "document_page": 269,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-6B6826BABD30"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-BA063C5700BE",
+      "subject_id": "SUBJ-SUCC-72A1D9C70157",
+      "document_page": 263,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-F488545404E4"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-BA690FE0E215",
+      "subject_id": "SUBJ-SUCC-B4528BB49F19",
+      "document_page": 255,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-ECC1C2A581BE"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-BAA8907F41B6",
+      "subject_id": "SUBJ-SUCC-7754A8D39F3E",
+      "document_page": 251,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-BA922FE744AD"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-BB6726B0F1E8",
+      "subject_id": "SUBJ-SUCC-B537E54F3566",
+      "document_page": 251,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-46F08ABE15B1"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-BB703FD36C5E",
+      "subject_id": "SUBJ-SUCC-C946EBBA6629",
+      "document_page": 253,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-5BFACE5A0A78"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-BD636C8411BB",
+      "subject_id": "SUBJ-SUCC-30CDC3924594",
+      "document_page": 255,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-AAA26E7A9256"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C1582612D9FF",
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "document_page": 255,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-DF05792E339A"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C299A8553188",
+      "subject_id": "SUBJ-SUCC-72A1D9C70157",
+      "document_page": 261,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-1033558EC4B6"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C33C7C951A28",
+      "subject_id": "SUBJ-SUCC-54D178FEEEA6",
+      "document_page": 260,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-1B90E74CB7ED"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C454B534735A",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 274,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-47BD03A41F00"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C58D7C2C07D2",
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "document_page": 252,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-D4AEDE702C26"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C5F943F3E851",
+      "subject_id": "SUBJ-SUCC-7A343F73BC1F",
+      "document_page": 258,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-914092B93165"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C888BB169068",
+      "subject_id": "SUBJ-SUCC-AF783FF68D90",
+      "document_page": 259,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-E5779B3DBE25"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-CA7F0F2DF685",
+      "subject_id": "SUBJ-SUCC-35DD2729C31D",
+      "document_page": 251,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-02C3BCEF9665"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-CC1420DAB673",
+      "subject_id": "SUBJ-SUCC-AF783FF68D90",
+      "document_page": 253,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-0E907F4D6036"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-CD7A1853F4FC",
+      "subject_id": "SUBJ-SUCC-0853ED267EBF",
+      "document_page": 258,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-0B90D42519BC"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-D5A22B6CF5FC",
+      "subject_id": "SUBJ-SUCC-488D7D90E0DF",
+      "document_page": 264,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-E2F2AC2D4A9D"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-D77B3E3A048B",
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "document_page": 255,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-76CF4621ABF2"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-DDA06BD7DD0F",
+      "subject_id": "SUBJ-SUCC-488D7D90E0DF",
+      "document_page": 273,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-94023F8BC4BD"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-DEDCF5829812",
+      "subject_id": "SUBJ-SUCC-72A1D9C70157",
+      "document_page": 260,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-D96A19309B26"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-DFCEE1A8B4A5",
+      "subject_id": "SUBJ-SUCC-C8838C6F47C7",
+      "document_page": 254,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-E4F960D6BDCC"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-E0CA9F32C79B",
+      "subject_id": "SUBJ-SUCC-45B1958906B7",
+      "document_page": 264,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-08A9126B1222",
+        "EVID-SUCC-ABDF2EC22261"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-E0D75F6797C2",
+      "subject_id": "SUBJ-SUCC-7A343F73BC1F",
+      "document_page": 263,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-3DF521B77D04"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-E91ACD958B0C",
+      "subject_id": "SUBJ-SUCC-AF9995D451BE",
+      "document_page": 271,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-9BC3E1BB10EE"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-EC83FE39B267",
+      "subject_id": "SUBJ-SUCC-7A343F73BC1F",
+      "document_page": 267,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-1B78D501E19E"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-EED125C1DC8D",
+      "subject_id": "SUBJ-SUCC-488D7D90E0DF",
+      "document_page": 269,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-84CFA5A470B5",
+        "EVID-SUCC-C3C778E310B6"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-EFAD1F724D02",
+      "subject_id": "SUBJ-SUCC-7FD46BD9C318",
+      "document_page": 269,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-6C7BED7710D0"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-F30BCBD56025",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 279,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-19DAF6F0EA20"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-F5E54C4E7D2E",
+      "subject_id": "SUBJ-SUCC-2599FEAE9CC2",
+      "document_page": 248,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-CEC89BCC87DF"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-F867C41E8855",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 270,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F51DF774CACF"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-F9DE6C1CBA4E",
+      "subject_id": "SUBJ-SUCC-45B1958906B7",
+      "document_page": 248,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-0FE9C6319BEB"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-FBF324231E43",
+      "subject_id": "SUBJ-SUCC-94460DC3C7C8",
+      "document_page": 278,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-1DCC998B11AB"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    }
+  ],
+  "reader_task_completion": {
+    "expected": 12,
+    "judged": 12,
+    "unique": true,
+    "complete": true,
+    "semantic_unresolved": 0
+  },
+  "treatment_completion": {
+    "expected": 118,
+    "judged": 118,
+    "unique": true,
+    "complete": true
+  },
+  "completion": {
+    "expected": 23,
+    "judged": 23,
+    "complete": true,
+    "semantic_unresolved": 0
+  }
+}

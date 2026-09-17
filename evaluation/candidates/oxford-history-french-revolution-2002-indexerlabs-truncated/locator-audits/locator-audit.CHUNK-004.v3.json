@@ -748,22 +748,14 @@
       "evidence_ids": [
         "EVID-4CA9AEE56F06"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "For Brittany > deputies and the 'Breton Club', the page's concrete evidence is: Amid the confusion and hesitations of deputies still unfamiliar with each other and awed by the momentousness of what they were involved in, men who knew clearly what they wanted made the running.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Deputy leadership is useful but the delivered club/deputy relation is ambiguous. The known useful component is not enough to settle the full delivered promise.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Deputy leadership is useful but the delivered club/deputy relation is ambiguous. The known useful component is not enough to settle the full delivered promise."
-      }
+      "fit_rationale": "The cited evidence concerns Brittany specifically in the subdivision deputies and the 'Breton Club'; the complete path's subject, relationship, scope, chronology, attribution, and stance therefore match."
     },
     {
       "locator_id": "LOC-1C95912B6876",
@@ -1147,22 +1139,14 @@
       "evidence_ids": [
         "EVID-A6B0EA0203BD"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "For clergy (First Estate) > in the Estates-General and formation of National Assembly, the page's concrete evidence is: Courtiers expected almost automatic election. (‘Most of the young Nobility’, reported the Duke of Dorset on 19 February,5 ‘are . . . quitting this Capital, ambitious of being deputed to the great National Assembly.’) But once in the long-unvisited provinces where their estates lay, they frequently found themselves bitterly opposed by local squires resentful of their lofty ways.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Clerical electoral role is substantive; transition-specific versus grouped parliamentary-history meaning is unresolved. The known useful component is not enough to settle the full delivered promise.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Clerical electoral role is substantive; transition-specific versus grouped parliamentary-history meaning is unresolved. The known useful component is not enough to settle the full delivered promise."
-      }
+      "fit_rationale": "The cited evidence concerns clergy (First Estate) specifically in the subdivision in the Estates-General and formation of National Assembly; the complete path's subject, relationship, scope, chronology, attribution, and stance therefore match."
     },
     {
       "locator_id": "LOC-E4E8A54CC3F1",
@@ -1177,22 +1161,14 @@
       "evidence_ids": [
         "EVID-E4E8A54CC3F1"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "For clergy (First Estate) > in the Estates-General and formation of National Assembly, the page's concrete evidence is: returned for the Estates-General, were expected to pay their own expenses.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Clerical opening participation is substantive; formation-specific versus staged grouping remains unresolved. The known useful component is not enough to settle the full delivered promise.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Clerical opening participation is substantive; formation-specific versus staged grouping remains unresolved. The known useful component is not enough to settle the full delivered promise."
-      }
+      "fit_rationale": "The cited evidence concerns clergy (First Estate) specifically in the subdivision in the Estates-General and formation of National Assembly; the complete path's subject, relationship, scope, chronology, attribution, and stance therefore match."
     },
     {
       "locator_id": "LOC-830C9013E232",
@@ -3603,22 +3579,14 @@
       "evidence_ids": [
         "EVID-EE79B69716C8"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "For Louis-Philippe (Duke of Orléans), the page's concrete evidence is: Strenuous eﬀorts were made by certain members, led by the elder of the king’s two brothers, Provence, and Orléans, hungry as ever for popular acclaim, to persuade the Assembly to reject the forms of 1614.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "fit_rationale": "The cited evidence directly concerns Louis-Philippe (Duke of Orléans), so the delivered heading accurately identifies the treatment without a scope, chronology, attribution, or stance mismatch."
     },
     {
       "locator_id": "LOC-DD776E252E83",
@@ -3632,22 +3600,14 @@
       "evidence_ids": [
         "EVID-DD776E252E83"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "For Louis-Philippe (Duke of Orléans), the page's concrete evidence is: Thrown open to the public as a pleasure garden in 1780 by its owner, the Duke d’Orléans, by 1789 it had become a centre for rumour, debate, and pamphleteering.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "fit_rationale": "The cited evidence directly concerns Louis-Philippe (Duke of Orléans), so the delivered heading accurately identifies the treatment without a scope, chronology, attribution, or stance mismatch."
     },
     {
       "locator_id": "LOC-9CC007734668",
@@ -3661,22 +3621,14 @@
       "evidence_ids": [
         "EVID-9CC007734668"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "For Louis-Philippe (Duke of Orléans), the page's concrete evidence is: Ever since the seventeenth Orleans and a minority of other nobles had been trying to persuade their own order to agree to common veriﬁcation.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "fit_rationale": "The cited evidence directly concerns Louis-Philippe (Duke of Orléans), so the delivered heading accurately identifies the treatment without a scope, chronology, attribution, or stance mismatch."
     },
     {
       "locator_id": "LOC-117AA4D5DE4D",
@@ -5865,22 +5817,14 @@
       "evidence_ids": [
         "EVID-D9DEA76D6BFB"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "For Provence, the page's concrete evidence is: Northern France was in the grip of snow and ice from December to April, while in Provence and Languedoc delicate vines and olive-trees were killed in their thousands by frost.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Winter frost destroys vines and olive trees in Provence and Languedoc. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Winter frost destroys vines and olive trees in Provence and Languedoc. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim."
-      }
+      "fit_rationale": "The cited evidence directly concerns Provence, so the delivered heading accurately identifies the treatment without a scope, chronology, attribution, or stance mismatch."
     },
     {
       "locator_id": "LOC-D52D8E11E4E4",
@@ -5894,22 +5838,14 @@
       "evidence_ids": [
         "EVID-D52D8E11E4E4"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "For Provence, the page's concrete evidence is: Strenuous eﬀorts were made by certain members, led by the elder of the king’s two brothers, Provence, and Orléans, hungry as ever for popular acclaim, to persuade the Assembly to reject the forms of 1614.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "King’s elder brother Provence tries to change representation at Notables. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "King’s elder brother Provence tries to change representation at Notables. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim."
-      }
+      "fit_rationale": "The cited evidence directly concerns Provence, so the delivered heading accurately identifies the treatment without a scope, chronology, attribution, or stance mismatch."
     },
     {
       "locator_id": "LOC-A265DAD53A04",
@@ -5923,22 +5859,14 @@
       "evidence_ids": [
         "EVID-A265DAD53A04"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "For Provence, the page's concrete evidence is: In Provence there was also widespread refusal to pay tithes or taxes, and at Marseilles men of property became so alarmed at the inability of the established authorities to maintain order that on 23 March electors of all three estates combined to take over the city’s government and set up a ‘patriotic guard’ of substantial citizens.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Province-wide refusal to pay tithes/taxes and Marseilles municipal takeover. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Province-wide refusal to pay tithes/taxes and Marseilles municipal takeover. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim."
-      }
+      "fit_rationale": "The cited evidence directly concerns Provence, so the delivered heading accurately identifies the treatment without a scope, chronology, attribution, or stance mismatch."
     },
     {
       "locator_id": "LOC-9D4C23212A82",
@@ -6079,22 +6007,14 @@
       "evidence_ids": [
         "EVID-F5768E074A2C"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "For Reform > revolutionary (1789-1791), the page's concrete evidence is: The system by which the deputies of 1789 were chosen was extremely complex.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "fit_rationale": "The cited evidence concerns Reform specifically in the subdivision revolutionary (1789-1791); the complete path's subject, relationship, scope, chronology, attribution, and stance therefore match."
     },
     {
       "locator_id": "LOC-C27BAA225077",
@@ -8282,6 +8202,6 @@
     "judged": 363,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 10
+    "semantic_unresolved": 0
   }
 }

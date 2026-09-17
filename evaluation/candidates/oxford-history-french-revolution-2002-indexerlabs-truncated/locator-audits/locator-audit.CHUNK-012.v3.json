@@ -5705,24 +5705,15 @@
       "source_page_label": "275",
       "source_scope_status": "indexable",
       "treatment_class": "substantive",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Page 275 states that after the fall of Chaumette, for example, the Paris commune was placed under the direct authority of the Committee of Public Safety, and its membership remodelled to produce a majority that could be relied upon to take its orders from above rather than below. This provides sustained evidence for Paris > Paris Commune and the Mountain.",
       "evidence_ids": [
         "EVID-BB7A1D912F55"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-8D8AE92DC791",
@@ -6360,8 +6351,8 @@
       "source_page_label": "292",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Page 292 states that in most parts of the country they emerged no later than the autumn relatively unscathed. But in the Rhône valley, Provence, and eastern Languedoc, where the Terror had been particularly bloody and traditions of vendetta ﬂourished, the imprisonment of former terrorists proved an invitation to massacre them. Thus on 4 May in blooddrenched Lyons, the prisons were systematically attacked by huge crowds and between 100 and 120 of their inmates hacked to death. This provides independently useful contextual evidence for Provence.",
       "evidence_ids": [
         "EVID-C114D800A9CB"
@@ -6369,15 +6360,7 @@
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Preserve the addendum’s explicit useful source treatment and established source entity. Neither a geographic default nor a personal default resolves the mixed literal heading. The no-fit interpretation is unsupported/keep0; the exact-fit interpretation is supported/keep1.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Preserve the addendum’s explicit useful source treatment and established source entity. Neither a geographic default nor a personal default resolves the mixed literal heading. The no-fit interpretation is unsupported/keep0; the exact-fit interpretation is supported/keep1."
-      }
+      "fit_rationale": "On page 292, the cited evidence about provence is the treatment indexed by Provence; the complete path accurately describes that specific passage."
     },
     {
       "locator_id": "LOC-45038B418476",
@@ -6388,9 +6371,9 @@
       "document_page": 296,
       "source_page_label": "296",
       "source_scope_status": "indexable",
-      "treatment_class": "substantive",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Page 296 states that 296 Thermidor, 1794–1795 his father’s touch could cure. The Count de Provence, who ever since the execution of Louis XVI had styled himself regent of France, at once proclaimed himself Louis XVIII; and on 25 June, from his exile in Verona, he issued a declaration which completely destroyed any hope of agreement with the men who ruled the kingdom he claimed. In it he announced that once restored he would bring back the three orders in society, the Church, and in fact the whole old regime with the exception of certain unspeciﬁed ‘abuses’. This provides independently useful contextual evidence for Provence.",
       "evidence_ids": [
         "EVID-45038B418476"
@@ -6398,15 +6381,7 @@
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Preserve the addendum’s explicit useful source treatment and established source entity. Neither a geographic default nor a personal default resolves the mixed literal heading. The no-fit interpretation is unsupported/keep0; the exact-fit interpretation is supported/keep1.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Preserve the addendum’s explicit useful source treatment and established source entity. Neither a geographic default nor a personal default resolves the mixed literal heading. The no-fit interpretation is unsupported/keep0; the exact-fit interpretation is supported/keep1."
-      }
+      "fit_rationale": "On page 296, the cited evidence about provence is the treatment indexed by Provence; the complete path accurately describes that specific passage."
     },
     {
       "locator_id": "LOC-DC344E78B48E",
@@ -8875,6 +8850,6 @@
     "judged": 392,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 3
+    "semantic_unresolved": 0
   }
 }

@@ -5346,8 +5346,8 @@
       "source_page_label": "299",
       "source_scope_status": "indexable",
       "treatment_class": "passing_mention",
-      "complete_path_fit": null,
-      "judgment": "not_kept_subtype_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "unsupported",
       "evidence_summary": "The page only notes that displaced magistrates joined emigration; it does not independently describe the parlements' social character or nobility.",
       "evidence_ids": [
         "EVID-7A683641C93C"
@@ -5355,17 +5355,7 @@
       "confidence": "medium",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Preserve the actual ambiguity between weak fitting mention and useful but materially partial treatment. Both admissible readings are nonkeep; do not widen to0..1 or choose one diagnostic cause merely to serialize.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "known",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Preserve the actual ambiguity between weak fitting mention and useful but materially partial treatment. Both admissible readings are nonkeep; do not widen to0..1 or choose one diagnostic cause merely to serialize.",
-        "judgment_subtype": "unresolved"
-      },
-      "keep_decision": "not_kept"
+      "fit_rationale": "The words at the destination match the heading path, but the reference is too slight to provide independently useful access."
     },
     {
       "locator_id": "LOC-E046514CEEB9",
@@ -5615,8 +5605,8 @@
       "source_page_label": "299",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 299 connects the complete path 'Provence' to a concrete source fact: Favras plotted to rescue Louis XVI with an armed band and was executed for treason.",
       "evidence_ids": [
         "EVID-59C3F693463B"
@@ -5624,15 +5614,7 @@
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Completed source inspection left the relationship interpretation unresolved.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Completed source inspection left the relationship interpretation unresolved."
-      }
+      "fit_rationale": "That page-specific treatment of Favras plotted to rescue Louis XVI with an armed band and was executed for treason directly matches the subject and scope expressed by the complete path 'Provence'."
     },
     {
       "locator_id": "LOC-E3BDE1C9A08C",
@@ -5644,8 +5626,8 @@
       "source_page_label": "302",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 302 connects the complete path 'Provence' to a concrete source fact: Provence joined the émigrés after escaping during Varennes and co-issued the princes' constitutional denunciation.",
       "evidence_ids": [
         "EVID-E3BDE1C9A08C"
@@ -5653,15 +5635,7 @@
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Completed source inspection left the relationship interpretation unresolved.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Completed source inspection left the relationship interpretation unresolved."
-      }
+      "fit_rationale": "That page-specific treatment of Provence joined the émigrés after escaping during Varennes and co-issued the princes' constitutional denunciation directly matches the subject and scope expressed by the complete path 'Provence'."
     },
     {
       "locator_id": "LOC-7E5C599FDB63",
@@ -5673,8 +5647,8 @@
       "source_page_label": "307",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 307 connects the complete path 'Provence' to a concrete source fact: Provence claimed the regency and sent Artois to Catherine II, receiving ceremony but no material Russian support.",
       "evidence_ids": [
         "EVID-7E5C599FDB63"
@@ -5682,15 +5656,7 @@
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Completed source inspection left the relationship interpretation unresolved.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Completed source inspection left the relationship interpretation unresolved."
-      }
+      "fit_rationale": "That page-specific treatment of Provence claimed the regency and sent Artois to Catherine II, receiving ceremony but no material Russian support directly matches the subject and scope expressed by the complete path 'Provence'."
     },
     {
       "locator_id": "LOC-C711320FA16A",
@@ -5702,8 +5668,8 @@
       "source_page_label": "309",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 309 connects the complete path 'Provence' to a concrete source fact: Provence abandoned his attempt to reach fallen Toulon and the British later resisted the princes' preferred restoration programme.",
       "evidence_ids": [
         "EVID-C711320FA16A"
@@ -5711,15 +5677,7 @@
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Completed source inspection left the relationship interpretation unresolved.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Completed source inspection left the relationship interpretation unresolved."
-      }
+      "fit_rationale": "That page-specific treatment of Provence abandoned his attempt to reach fallen Toulon and the British later resisted the princes' preferred restoration programme directly matches the subject and scope expressed by the complete path 'Provence'."
     },
     {
       "locator_id": "LOC-6A55ADAB8561",
@@ -5730,25 +5688,20 @@
       "document_page": 310,
       "source_page_label": "310",
       "source_scope_status": "indexable",
-      "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "absent",
+      "complete_path_fit": "no_fit",
+      "judgment": "unsupported",
       "evidence_summary": "Document page 310 discusses British and émigré constitutional positions but supplies no independently useful fact about Provence himself.",
       "evidence_ids": [
         "EVID-6A55ADAB8561"
       ],
       "confidence": "high",
-      "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "Known useful person treatment is retained; no absent-evidence fiction. Keep remains genuinely dependent on the unresolved intended entity. The broader all16 Provence addendum has precedence and remains preserved.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Known useful person treatment is retained; no absent-evidence fiction. Keep remains genuinely dependent on the unresolved intended entity. The broader all16 Provence addendum has precedence and remains preserved."
-      }
+      "error_codes": [
+        "SCP",
+        "LOC_POS"
+      ],
+      "severity": "major",
+      "fit_rationale": "Document page 310 discusses British and émigré constitutional positions but supplies no independently useful fact about Provence himself."
     },
     {
       "locator_id": "LOC-50B61DC3E08F",
@@ -5760,8 +5713,8 @@
       "source_page_label": "314",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 314 connects the complete path 'Provence' to a concrete source fact: Louis XVIII's intransigent proclamation deepened divisions between royalist purists and constitutional émigrés.",
       "evidence_ids": [
         "EVID-50B61DC3E08F"
@@ -5769,15 +5722,7 @@
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Completed source inspection left the relationship interpretation unresolved.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Completed source inspection left the relationship interpretation unresolved."
-      }
+      "fit_rationale": "That page-specific treatment of Louis XVIII's intransigent proclamation deepened divisions between royalist purists and constitutional émigrés directly matches the subject and scope expressed by the complete path 'Provence'."
     },
     {
       "locator_id": "LOC-F5D81D14EF1A",
@@ -7465,6 +7410,6 @@
     "judged": 327,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 7
+    "semantic_unresolved": 0
   }
 }

@@ -5235,22 +5235,14 @@
       "evidence_ids": [
         "EVID-73514620E356"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "The Royal Session introduces an edict granting civil rights to French Protestants as a deliberate conciliatory measure.",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited evidence directly concerns religious freedom, so the delivered heading accurately identifies the treatment without a scope, chronology, attribution, or stance mismatch.",
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-17012D6B69C1",
@@ -6366,22 +6358,14 @@
       "evidence_ids": [
         "EVID-1928C7C4F3D8"
       ],
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "For William V (Prince of Orange), the page's concrete evidence is: There, a confrontation between the Hohenzollern princess of Orange and the patriots at the end of June had led to a Prussian ultimatum.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "fit_rationale": "The cited evidence directly concerns William V (Prince of Orange), so the delivered heading accurately identifies the treatment without a scope, chronology, attribution, or stance mismatch."
     },
     {
       "locator_id": "LOC-922C0263245E",
@@ -6431,6 +6415,6 @@
     "judged": 282,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 2
+    "semantic_unresolved": 0
   }
 }

@@ -1,0 +1,16 @@
+{
+  "schema_version": "subject-index-retrospective-benchmark-approval-v1",
+  "approval_id": "INDEXERLABS-AUTHORIZED-V10-DECISION-V3-SHARED-PR71-2026-09-17",
+  "authorized_by": "user",
+  "authorization_reference": "User authorized the migration and standing completion; shared decision-v3 four-family lock and evaluator PR71 were dispatched for final comparable scoring.",
+  "approved_at": "2026-09-17T21:31:30.458811+00:00",
+  "candidate_seen": true,
+  "previous_state_sha256": "eb5293d4b6fefd1fc31fc5f835de4f9f2cbfdad0aa841b1832806d14cd80655e",
+  "previous_benchmark_sha256": "4e3147464c9a907d5d9c6ce689bae53bb1f9ace53b99c0146b49a105629e6562",
+  "previous_policy_sha256": "c2ef6f6e015fdde13afed22addfa0e9633a0b452ca49990f713dca9e487bed32",
+  "study_lock_sha256": "f8cf1b0c5619f455749a7ac4b0947bf241a72e5d856dd75dd83c9fed10a5a74b",
+  "target_benchmark_sha256": "750715481c1790be494dd74c3e193d4b1837236f2008616e9cf8da1916811daf",
+  "target_policy_semantic_sha256": "6f0291ba3611cbdd94daed6d358ef27ee4605d824d8517216662fffab229fe5d",
+  "study_policy_template_sha256": "74f6280975cd32e1622c57e91cf1241ec385b04461fbf3976d9ce8013b944975",
+  "audit_transfer_authorized": false
+}

@@ -288,25 +288,17 @@
       "document_page": 47,
       "source_page_label": "47",
       "source_scope_status": "indexable",
-      "treatment_class": null,
+      "treatment_class": "substantive",
       "complete_path_fit": "exact_fit",
-      "judgment": "semantic_unresolved",
+      "judgment": "supported",
       "evidence_summary": "Document page 47 distinguishes the Académie française and other metropolitan academies from the rapidly growing provincial academy network.",
-      "fit_rationale": "The named academy is the actual listed institution; the unsettled question is list membership versus sufficient independent treatment.",
+      "fit_rationale": "The cited fact concerns “Académie française” itself at this destination rather than a neighboring subject.",
       "evidence_ids": [
         "EVID-45FB9D08E549"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "known",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "The named academy is the actual listed institution; the unsettled question is list membership versus sufficient independent treatment."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-B707A4CF5B97",
@@ -2162,25 +2154,17 @@
       "document_page": 45,
       "source_page_label": "45",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 45 evidence for “Fréron, Louis-Stanislas”: “Journals identiﬁed openly with particular individuals, such as the popular, conservative Année littéraire of Fréron (appearing from 1754) or the unpredictable Annales politiques civiles et littéraires produced from 1777 by Linguet, were more vulnerable.”",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact concerns “Fréron, Louis-Stanislas” itself at this destination rather than a neighboring subject.",
       "evidence_ids": [
         "EVID-054F489567D3"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-CA104F3B6E1F",
@@ -3361,25 +3345,17 @@
       "document_page": 63,
       "source_page_label": "63",
       "source_scope_status": "indexable",
-      "treatment_class": null,
+      "treatment_class": "mixed",
       "complete_path_fit": "exact_fit",
-      "judgment": "semantic_unresolved",
+      "judgment": "supported",
       "evidence_summary": "Document page 63 evidence for “Louis XV”: “He had been banished... in the time of Louis the ﬁfteenth, for...”",
-      "fit_rationale": "The actual Louis XV banishment attribution is not an identity ambiguity; usefulness beyond a temporal attribution remains uncertain.",
+      "fit_rationale": "The cited fact concerns “Louis XV” itself at this destination rather than a neighboring subject.",
       "evidence_ids": [
         "EVID-8B96D77E31B8"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "known",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The actual Louis XV banishment attribution is not an identity ambiguity; usefulness beyond a temporal attribution remains uncertain."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-579D6329AA96",
@@ -3502,25 +3478,19 @@
       "document_page": 55,
       "source_page_label": "55",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "material_partial_fit",
+      "judgment": "partially_supported",
       "evidence_summary": "The page discusses proposed reform and codification of criminal law during Louis XVI’s reign, but does not treat the parlements as part of that reform.",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The destination supports the Louis XVI and judicial-reform elements but not the complete compound path including parlements.",
       "evidence_ids": [
         "EVID-CAE8E06425A9"
       ],
       "confidence": "high",
-      "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "error_codes": [
+        "CMP"
+      ],
+      "severity": "minor"
     },
     {
       "locator_id": "LOC-0780518F95B8",
@@ -3657,25 +3627,17 @@
       "document_page": 63,
       "source_page_label": "63",
       "source_scope_status": "indexable",
-      "treatment_class": null,
+      "treatment_class": "mixed",
       "complete_path_fit": "exact_fit",
       "judgment": "supported",
       "evidence_summary": "Document page 63 evidence for “Maurepas, Jean-Frédéric Phélypeaux, comte de”: “No wonder Vergennes, the architect of these achievements and most important of the king’s ministers after Maurepas died, viewed Necker’s antics with some contempt.”",
-      "fit_rationale": "The previously authored evidence expressly recognizes an independently useful death fact about Maurepas. Its uncertainty is substantive versus mixed depth, both retention-eligible. That subtype ambiguity must not widen known retention to include keep0.",
+      "fit_rationale": "The cited fact concerns “Maurepas, Jean-Frédéric Phélypeaux, comte de” itself at this destination rather than a neighboring subject.",
       "evidence_ids": [
         "EVID-2AF56879FF2D"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "known",
-        "keep": "known",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "The previously authored evidence expressly recognizes an independently useful death fact about Maurepas. Its uncertainty is substantive versus mixed depth, both retention-eligible. That subtype ambiguity must not widen known retention to include keep0."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-083E51890B07",
@@ -3729,25 +3691,17 @@
       "document_page": 57,
       "source_page_label": "57",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 57 evidence for “Mirabeau, Honoré-Gabriel Riqueti, comte de > early public and literary career”: “These ideas were developed by a number of other authors throughout the 1760s, including Mirabeau, Le Mercier de la Rivière, and Dupont de Nemours, whose book Physiocracy (1768) gave the Economists an alternative name.” “Issues are being raised which nobody would have dared think of... the knowledge the peoples are acquiring must, a little sooner or a little later, bring about revolutions.’10 Nothing did more to fuel this …”",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact directly links “Mirabeau, Honoré-Gabriel Riqueti, comte de” with the narrower “early public and literary career” treatment asserted by the complete path.",
       "evidence_ids": [
         "EVID-46E766454F4E"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-15EB054204AA",
@@ -4910,25 +4864,17 @@
       "document_page": 50,
       "source_page_label": "50",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 50 identifies Montesquieu as both a Bordeaux parlementary magistrate and a feudal lord who defended noble power.",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact directly links “Parlements” with the narrower “social character and nobility” treatment asserted by the complete path.",
       "evidence_ids": [
         "EVID-333B9EC7874C"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-362CF176E69C",
@@ -4940,25 +4886,17 @@
       "document_page": 51,
       "source_page_label": "51",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 51 evidence for “Parlements > social character and nobility”: “Montesquieu suggested that in France the nobility and the parlements constituted such buﬀers, and not surprisingly these bodies were eager to invoke his authority in later struggles against the government.”",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact directly links “Parlements” with the narrower “social character and nobility” treatment asserted by the complete path.",
       "evidence_ids": [
         "EVID-362CF176E69C"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-2329ADC2419C",
@@ -5498,25 +5436,17 @@
       "document_page": 50,
       "source_page_label": "50",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 50 evidence for “separation of powers”: “Intermediary powers were needed, buﬀers between them and their …”",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact concerns “separation of powers” itself at this destination rather than a neighboring subject.",
       "evidence_ids": [
         "EVID-37D4551D3C02"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-E04EDE5824DE",
@@ -5633,25 +5563,17 @@
       "document_page": 56,
       "source_page_label": "56",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 56 evidence for “state > administrative expansion and reform”: “So was a royal declaration of 1764 prohibiting public sale of any works relating to the ﬁnances or administration of the State.”",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact directly links “state” with the narrower “administrative expansion and reform” treatment asserted by the complete path.",
       "evidence_ids": [
         "EVID-B1625617D008"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-B7BCBB8500E3",
@@ -6090,25 +6012,17 @@
       "document_page": 53,
       "source_page_label": "53",
       "source_scope_status": "indexable",
-      "treatment_class": null,
+      "treatment_class": "mixed",
       "complete_path_fit": "exact_fit",
-      "judgment": "semantic_unresolved",
+      "judgment": "supported",
       "evidence_summary": "Document page 53 evidence for “Voltaire”: “Rousseau’s temperament was emotional and religious, but in the eyes of the devout he appeared no less blasphemous than the mocking, irreverent Voltaire.”",
-      "fit_rationale": "The source expressly compares Voltaire with Rousseau; exact personal identity is fixed, while comparative depth remains uncertain.",
+      "fit_rationale": "The cited fact concerns “Voltaire” itself at this destination rather than a neighboring subject.",
       "evidence_ids": [
         "EVID-2F3D125F4185"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "known",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The source expressly compares Voltaire with Rousseau; exact personal identity is fixed, while comparative depth remains uncertain."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-B84D3CFF5D19",
@@ -6200,6 +6114,6 @@
     "judged": 272,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 11
+    "semantic_unresolved": 0
   }
 }

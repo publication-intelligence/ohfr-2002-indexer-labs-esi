@@ -1,7 +1,7 @@
 {
   "schema_version": "missing-access-audit-v2",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
-  "benchmark_sha256": "ec0fbc78e370086ea03d0f6edc766646949c56d1d72177cf6c6f28dbfe2b09c0",
+  "benchmark_sha256": "67da3523812603c5f257d1cda16b8551f60887fa070fa6af20e52516b31272e8",
   "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
   "chunk_id": "CHUNK-013",
   "expected_subject_ids": [
@@ -1848,7 +1848,7 @@
     {
       "subject_id": "SUBJ-SUCC-AB9E2AC4F876",
       "priority": "optional",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "yes",
@@ -1867,7 +1867,7 @@
       "missed_document_pages": [
         299
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "realistic_first_lookup_success": "yes",
       "treatment_recall": {
@@ -1949,7 +1949,8 @@
         "stance_preserved": "known",
         "realistic_first_lookup_success": "known"
       },
-      "semantic_uncertainties": []
+      "semantic_uncertainties": [],
+      "rationale": "Two of three expected treatments are retrievable; supporting page 299 is missing while the principal treatment remains accessible."
     },
     {
       "subject_id": "SUBJ-SUCC-B64ADAA022A3",

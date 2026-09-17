@@ -1,0 +1,92 @@
+{
+  "schema_version": "ohfr-indexerlabs-v10-calibration-support-checkpoint-v1",
+  "created_at": "2026-09-17T18:29:49.836918+00:00",
+  "status": "candidate_evidence_ready_runtime_calibration_hold",
+  "candidate_population": {
+    "subjects": 531,
+    "reader_tasks": 617,
+    "complete_subjects": 528,
+    "partial_subjects": 2,
+    "missing_subjects": 1,
+    "successful_tasks": 613
+  },
+  "candidate_readjudications": {
+    "schema_version": "ohfr-indexerlabs-candidate-readjudication-checkpoint-v1",
+    "created_at": "2026-09-17T18:29:14.635609+00:00",
+    "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+    "benchmark_sha256": "ec0fbc78e370086ea03d0f6edc766646949c56d1d72177cf6c6f28dbfe2b09c0",
+    "status": "candidate_evidence_complete_runtime_scoring_held",
+    "corrected_complete_subjects": [
+      "SUBJ-SUCC-5193E3F37320",
+      "SUBJ-SUCC-7B3E1AAE16C8",
+      "SUBJ-SUCC-9998092EF3FD",
+      "SUBJ-SUCC-99A2AEA8AD04",
+      "SUBJ-SUCC-9E6D9535AA17",
+      "SUBJ-SUCC-A7CE991FCCA3"
+    ],
+    "corrected_partial_subjects": [
+      "SUBJ-SUCC-1D98349B5A7B",
+      "SUBJ-SUCC-AB9E2AC4F876"
+    ],
+    "localized_optional_omission": {
+      "subject_id": "SUBJ-SUCC-9DA29F300357",
+      "coverage": "missing",
+      "severity": "minor",
+      "document_page": 225
+    },
+    "corrected_reader_task": {
+      "task_id": "TASK-SUCC-1B1C05390422",
+      "result": "succeeds",
+      "matched_path_ids": [
+        "PATH-59F34776B0E9"
+      ]
+    },
+    "provence_subject_path_added": "PATH-59F34776B0E9",
+    "audit_directory": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits-decision-v3-checkpoint",
+    "access_review": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-access-review.decision-v3-checkpoint.json",
+    "runtime_hold": "Do not derive or publish a PR64 score until the evaluator calibration/validation correction is installed and adopted."
+  },
+  "material_structure_summary": {
+    "material_component_findings": 135,
+    "conceptual_major": 76,
+    "conceptual_critical": 1,
+    "findability_major": 58
+  },
+  "runtime_requirements": [
+    {
+      "requirement": "node_to_defect_conservation",
+      "evidence": "135 material node-component findings: 76 conceptual major, 1 conceptual critical, 58 findability major."
+    },
+    {
+      "requirement": "path_binding",
+      "evidence": "All 58 material findability findings and every successful subject/task checkpoint judgment bind valid PATH IDs."
+    },
+    {
+      "requirement": "coverage_treatment_consistency",
+      "evidence": "Complete coverage cannot coexist with missed treatments; two records are corrected to partial."
+    },
+    {
+      "requirement": "optional_severity_applicability",
+      "evidence": "The page-225 caption/map omission is localized optional minor; severity must drive applicability without automatic escalation."
+    },
+    {
+      "requirement": "contradiction_validation",
+      "evidence": "The Provence task previously said fails/critical while its rationale and exact route proved success; structured contradictions must block scoring."
+    },
+    {
+      "requirement": "four_family_denominator_reconciliation",
+      "evidence": "The preserved source benchmark has 531 subjects, 617 tasks, 2385 treatments, and 3533 weighted access obligations."
+    },
+    {
+      "requirement": "separate_gates_from_score",
+      "evidence": "Evidence-contract failures must invalidate publication without imposing an overall numerical ceiling."
+    }
+  ],
+  "held_actions": [
+    "authoritative scoring",
+    "commit",
+    "push",
+    "pull request",
+    "merge"
+  ]
+}

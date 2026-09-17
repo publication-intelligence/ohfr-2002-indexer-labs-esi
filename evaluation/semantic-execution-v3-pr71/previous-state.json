@@ -1,0 +1,1005 @@
+{
+  "schema_version": "subject-index-evaluation-state-v9",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "created_at": "2026-09-14T01:45:45Z",
+  "updated_at": "2026-09-17T19:10:24Z",
+  "source": {
+    "title": "The Oxford History of the French Revolution",
+    "edition": "2002",
+    "filename": "Oxford_History_of_the_French_Revolution--source.pdf",
+    "sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "document_page_span": [
+      1,
+      425
+    ],
+    "document_page_basis": "one_based_inclusive"
+  },
+  "candidate": {
+    "candidate_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+    "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+    "schema_version": "candidate-index-v2",
+    "normalized_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-index.v2.json",
+    "normalized_sha256": "48c489e56077e886c6cd50e000fa293ed0d11eccdc461ed3b63817b42a9735e4",
+    "item_inventory_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/item-inventory.v2.json",
+    "benchmark_path": "evaluation/migration-v10-v3-pr67/selected-benchmark.json",
+    "benchmark_sha256": "80669e255b6e0e997984694532cbc0a27d2aa06987c2f73cbfa5878b49cdc20d"
+  },
+  "configuration": {
+    "audit_mode": "full",
+    "index_type": "subject_index",
+    "intended_readership": "scholarly",
+    "readership_provenance": {
+      "basis": "user_supplied",
+      "confidence": "high",
+      "rationale": "The intended readership was previously supplied as scholarly for this exact source identity; it is reused as configuration, not reinterpreted as a V8 judgment."
+    },
+    "output_format": "json",
+    "storage_mode": "local",
+    "policy_profile": "subject-index-standard-policy-v10",
+    "rubric_version": "subject-index-rubric-v10",
+    "scoring_identity": {
+      "rubric_version": "subject-index-rubric-v10",
+      "dimension_calculation_profile": "subject-index-dimension-calculation-v9"
+    }
+  },
+  "stages": {
+    "initialize": {
+      "status": "completed",
+      "updated_at": "2026-09-14T01:45:45Z",
+      "notes": []
+    },
+    "page_mapping": {
+      "status": "completed",
+      "updated_at": "2026-09-14T01:46:00Z",
+      "notes": [
+        "Re-expanded under evaluate-subject-index 66b63bc; byte-identical source identity and previously approved one-to-one labels 1-425."
+      ]
+    },
+    "chunk_definition": {
+      "status": "completed",
+      "updated_at": "2026-09-14T01:46:01Z",
+      "notes": [
+        "Revalidated the previously user-approved 17 chapter boundaries for the exact matching source and page map."
+      ]
+    },
+    "define_policy": {
+      "status": "completed",
+      "updated_at": "2026-09-14T01:46:01Z",
+      "notes": [
+        "Fresh standard V8 policy built for the current evaluator before any source discovery.",
+        "V8.1 standard policy mechanically frozen 2026-09-16T16:32:43Z from original source/audience/density inputs. The policy builder reads no candidate. This migration coordinator has seen the candidate; no new candidate-blind editorial review is claimed. Original freeze bytes remain at b9c2fa4.",
+        "V8.2 native retrospective policy explicitly records candidate_seen=true; original candidate-blind freeze and review/release evidence preserved separately."
+      ]
+    },
+    "source_chunk_preparation": {
+      "status": "completed",
+      "updated_at": "2026-09-14T01:46:46Z",
+      "notes": [
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output.",
+        "Registered current V8 source packet output."
+      ]
+    },
+    "source_subject_discovery": {
+      "status": "completed",
+      "updated_at": "2026-09-17T19:10:24Z",
+      "notes": [
+        "Selected preserved reviewed release retrospectively with candidate visible; no discovery, synthesis, review or historical freeze rerun."
+      ]
+    },
+    "benchmark_synthesis": {
+      "status": "completed",
+      "updated_at": "2026-09-17T19:10:24Z",
+      "notes": [
+        "Selected preserved reviewed release retrospectively with candidate visible; no discovery, synthesis, review or historical freeze rerun."
+      ]
+    },
+    "benchmark_review": {
+      "status": "completed",
+      "updated_at": "2026-09-17T19:10:24Z",
+      "notes": [
+        "Selected preserved reviewed release retrospectively with candidate visible; no discovery, synthesis, review or historical freeze rerun."
+      ]
+    },
+    "benchmark_freeze": {
+      "status": "completed",
+      "updated_at": "2026-09-17T19:10:24Z",
+      "notes": [
+        "Selected preserved reviewed release retrospectively with candidate visible; no discovery, synthesis, review or historical freeze rerun."
+      ]
+    },
+    "candidate_normalization": {
+      "status": "completed",
+      "updated_at": "2026-09-16T16:33:26Z",
+      "notes": [
+        "Validated and registered directly from local preparation outputs."
+      ]
+    },
+    "locator_chunk_preparation": {
+      "status": "not_started",
+      "updated_at": "2026-09-17T19:10:24Z",
+      "notes": [
+        "Retrospective study binding invalidated downstream registration; prior files remain preserved. Audit reuse requires its own evidence validation/authorization."
+      ]
+    },
+    "locator_audit": {
+      "status": "not_started",
+      "updated_at": "2026-09-17T19:10:24Z",
+      "notes": [
+        "Retrospective study binding invalidated downstream registration; prior files remain preserved. Audit reuse requires its own evidence validation/authorization."
+      ]
+    },
+    "missing_access_audit": {
+      "status": "not_started",
+      "updated_at": "2026-09-17T19:10:24Z",
+      "notes": [
+        "Retrospective study binding invalidated downstream registration; prior files remain preserved. Audit reuse requires its own evidence validation/authorization."
+      ]
+    },
+    "structure_audit": {
+      "status": "not_started",
+      "updated_at": "2026-09-17T19:10:24Z",
+      "notes": [
+        "Retrospective study binding invalidated downstream registration; prior files remain preserved. Audit reuse requires its own evidence validation/authorization."
+      ]
+    },
+    "scoring": {
+      "status": "not_started",
+      "updated_at": "2026-09-17T19:10:24Z",
+      "notes": [
+        "Retrospective study binding invalidated downstream registration; prior files remain preserved. Audit reuse requires its own evidence validation/authorization."
+      ]
+    },
+    "web_report": {
+      "status": "not_started",
+      "updated_at": "2026-09-17T19:10:24Z",
+      "notes": [
+        "Retrospective study binding invalidated downstream registration; prior files remain preserved. Audit reuse requires its own evidence validation/authorization."
+      ]
+    }
+  },
+  "artifacts": [
+    {
+      "artifact_id": "ART-619B68AD126A",
+      "stage": "candidate_normalization",
+      "artifact_type": "candidate_index",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-index.v2.json",
+      "sha256": "48c489e56077e886c6cd50e000fa293ed0d11eccdc461ed3b63817b42a9735e4",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T16:33:26Z",
+      "schema_version": "candidate-index-v2"
+    },
+    {
+      "artifact_id": "ART-92E264D65777",
+      "stage": "candidate_normalization",
+      "artifact_type": "candidate_layout_extraction",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-layout-extraction.v1.json",
+      "sha256": "2e76bfad544dc3d5cd3677d9fb313ce82e6adcc1631bfc8c6ed3c351e2c5f7ac",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T16:33:26Z",
+      "schema_version": "candidate-layout-extraction-v1"
+    },
+    {
+      "artifact_id": "ART-B8DBCA0F8D5D",
+      "stage": "candidate_normalization",
+      "artifact_type": "item_inventory",
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/item-inventory.v2.json",
+      "sha256": "2c14c47659ae018853ff57acbe2dec45c3c6058e1442f88faa28311014475981",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T16:33:26Z",
+      "schema_version": "subject-index-item-inventory-v2"
+    },
+    {
+      "artifact_id": "ART-F6053902EE6F",
+      "stage": "initialize",
+      "artifact_type": "study_preserved_history",
+      "path": "evaluation-state.before-0ee94c685ded.json",
+      "sha256": "eb5293d4b6fefd1fc31fc5f835de4f9f2cbfdad0aa841b1832806d14cd80655e",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-state-v6",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-8CB106FD9666",
+      "stage": "benchmark_freeze",
+      "artifact_type": "study_comparison_evidence",
+      "path": "evaluation/migration-v10-v3-pr67/approval.json",
+      "sha256": "0ee94c685ded4a8673fd0b1d65f99a399e82dbe9ac4bf869d3530daa4a10beaf",
+      "media_type": "application/json",
+      "schema_version": "subject-index-retrospective-benchmark-approval-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-6CD64037FA1E",
+      "stage": "benchmark_freeze",
+      "artifact_type": "study_comparison_evidence",
+      "path": "evaluation/migration-v10-v3-pr67/previous-policy.json",
+      "sha256": "c8063d6d634b888141164a7015ce79591433b0732b9505c5062b2235cb358267",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-policy-v4",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-BC1AD9BDDDAF",
+      "stage": "benchmark_synthesis",
+      "artifact_type": "historical_release_benchmark",
+      "path": "evaluation/migration-v10-v3-pr67/release-benchmark.json",
+      "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-CB6E05DAF9E1",
+      "stage": "benchmark_freeze",
+      "artifact_type": "study_comparison_evidence",
+      "path": "evaluation/migration-v10-v3-pr67/release-descriptor.json",
+      "sha256": "6723d64081ac52f2895fc506138f379720667533e1b6af700560e76604db2f1d",
+      "media_type": "application/json",
+      "schema_version": "subject-index-successor-release-v3",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-00783EE439CD",
+      "stage": "benchmark_freeze",
+      "artifact_type": "study_comparison_evidence",
+      "path": "evaluation/migration-v10-v3-pr67/release-draft.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-draft-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-05AEFB5D1F25",
+      "stage": "benchmark_freeze",
+      "artifact_type": "study_comparison_evidence",
+      "path": "evaluation/migration-v10-v3-pr67/release-policy.json",
+      "sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-policy-v4",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-A23BC4F8DEB5",
+      "stage": "benchmark_review",
+      "artifact_type": "historical_release_review",
+      "path": "evaluation/migration-v10-v3-pr67/release-review.json",
+      "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-9D9BE333B0DD",
+      "stage": "source_subject_discovery",
+      "artifact_type": "historical_source_freeze_state",
+      "path": "evaluation/migration-v10-v3-pr67/release-state.json",
+      "sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-state-v6",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-287FF7AF9DBD",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark",
+      "path": "evaluation/migration-v10-v3-pr67/selected-benchmark.json",
+      "sha256": "6ed77c12e250935e29182ecfd39750a10ecb0c60a4c084d6af5faa921322f5f6",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-177C88D8DCFD",
+      "stage": "define_policy",
+      "artifact_type": "evaluation_policy",
+      "path": "evaluation/migration-v10-v3-pr67/selected-policy.json",
+      "sha256": "d2507ea98725693982969b0a3def1c3d2110bab4c0a150c75a22a2684dd5c3cd",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-policy-v7",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-D93AC41F28EB",
+      "stage": "benchmark_freeze",
+      "artifact_type": "study_comparison_evidence",
+      "path": "evaluation/migration-v10-v3-pr67/study-benchmark-lock.v1.json",
+      "sha256": "4acb300f81aa244c35b79f1fb2e2890b7ba8def23ec2073be5166255192adda6",
+      "media_type": "application/json",
+      "schema_version": "ohfr-study-benchmark-lock-v3",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-E57CDB7DC02C",
+      "stage": "benchmark_freeze",
+      "artifact_type": "study_comparison_evidence",
+      "path": "evaluation/migration-v10-v3-pr67/study-policy-template.json",
+      "sha256": "c92c67490b92d7dcf721eeda3663db4cdd502f8ae6841a44351bae6aac446802",
+      "media_type": "application/json",
+      "schema_version": "subject-index-study-policy-template-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-C863EBFA20B6",
+      "stage": "benchmark_freeze",
+      "artifact_type": "study_comparison_evidence",
+      "path": "evaluation/migration-v10-v3-pr67/successor/access-amendment/source-correction-v4/author/benchmark-access-overlay.v2.json",
+      "sha256": "f9ae9945aba9dd12447f2a59004e52ce5dc295283308e7cb87a93d69fad2cc29",
+      "media_type": "application/json",
+      "schema_version": "subject-index-benchmark-access-overlay-v10",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-F3F786381B65",
+      "stage": "benchmark_freeze",
+      "artifact_type": "study_comparison_evidence",
+      "path": "evaluation/migration-v10-v3-pr67/successor/access-amendment/source-correction-v4/reviewer/benchmark-access-review.v2.json",
+      "sha256": "0b09b5b09a8caaabe11e1b30608a34b14ada2e1eb68a67192f418db507151046",
+      "media_type": "application/json",
+      "schema_version": "subject-index-benchmark-access-review-v10",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-72DFF305EDC7",
+      "stage": "benchmark_freeze",
+      "artifact_type": "study_comparison_evidence",
+      "path": "evaluation/migration-v10-v3-pr67/validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+      "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562",
+      "media_type": "application/json",
+      "schema_version": "source-density-measurement-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-17T19:10:25Z"
+    },
+    {
+      "artifact_id": "ART-493F1BBD1F10",
+      "stage": "chunk_definition",
+      "artifact_type": "chunk-manifest",
+      "path": "source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:01Z",
+      "schema_version": "chunk-manifest-v1"
+    },
+    {
+      "artifact_id": "ART-ECAB74F40706",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-001.pages.json",
+      "sha256": "c913e8e5f561bd4111b5935a621b4bcf08bc706b786ce90087318b87466688c3",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-3CE256DCFD46",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-001.pdf",
+      "sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:41Z"
+    },
+    {
+      "artifact_id": "ART-4DE5D530B44F",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-002.pages.json",
+      "sha256": "c153687a06887023930f204b5b35ee962c1c13d3bc14e54c137df3b43dc3a731",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-57268EE6264F",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-002.pdf",
+      "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:41Z"
+    },
+    {
+      "artifact_id": "ART-C982A69458FD",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-003.pages.json",
+      "sha256": "d93f8e157f969af31ac2807c9423d25572070d76d9d2f474d4a55fa0a113b871",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-D7D9A2FB86FB",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-003.pdf",
+      "sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:41Z"
+    },
+    {
+      "artifact_id": "ART-91151F8FE40A",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-004.pages.json",
+      "sha256": "623a46e1181a066ad7044afc0786ab263eed5ccd206ab714d47c3ce58fc77aa7",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-C5E3148232E1",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-004.pdf",
+      "sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-3EFD9AE31A35",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-005.pages.json",
+      "sha256": "23a684500e2d197a3fff4d5fbfffacd1f17e22adffa684cc4551573f0ec43788",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-1A5C1D4C43A1",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-005.pdf",
+      "sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-F60CB05C3AFB",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-006.pages.json",
+      "sha256": "c4c6a517c74219fe9bd4d1bdff81e8a2abdd2cb2576e1d2b99ec5faa832779dd",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-C3C871C027B5",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-006.pdf",
+      "sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-11EC77B13055",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-007.pages.json",
+      "sha256": "3cc1168bea4ef216076e040c0097a3f0b2df60c745450b030e525ed6e772ade1",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-E47960FAE5D4",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-007.pdf",
+      "sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-F0AE7AE72D52",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-008.pages.json",
+      "sha256": "6d270ebf00e6782edbec9e7cd3695c267cca18ac92f13435d96f25ee416b1863",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-E252900D2CC3",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-008.pdf",
+      "sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-64989BD0C516",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-009.pages.json",
+      "sha256": "d42e4846d642110a5b626ecea697f518bd614649043cdf7d707f4fb2134230a7",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-E281E4F9F653",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-009.pdf",
+      "sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-C6F166FDAF27",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-010.pages.json",
+      "sha256": "57b511c4ea8f977e972c3473f3f064f991623052ae1d863ff95a7bfeb217a7b8",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-1D3CFF737345",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-010.pdf",
+      "sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:42Z"
+    },
+    {
+      "artifact_id": "ART-4433910F3307",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-011.pages.json",
+      "sha256": "80a7235aa7e7e14d29dd2296c0eacfef58d883320b5f61b38076b38d6dd4e39a",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-65F1FA1F8694",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-011.pdf",
+      "sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-CEC87BFB0DCB",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-012.pages.json",
+      "sha256": "748ac77172ae2ef9b13ad258e5e2ee55fcc18bbd8e61129deebd72b308b22dab",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:45Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-4E0801B668BD",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-012.pdf",
+      "sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-91970D7A206A",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-013.pages.json",
+      "sha256": "546f44c130d675080b2010f90ab97d93ea6cf9fd322e6ce4e7f390d534dd8bd7",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:46Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-1317EA0B6CB2",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-013.pdf",
+      "sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-F543C53DC34C",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-014.pages.json",
+      "sha256": "2c8e0baaafe9e0070f36a34c5563d94d159a945c5106c80bc796ed09aad6dfb2",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:46Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-82F4478817EC",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-014.pdf",
+      "sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-1A1572243419",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-015.pages.json",
+      "sha256": "55f4391bc62b52ac3c01dc3d150431079873718b6cd40d2a2e320e1257ebdec8",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:46Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-2DC4A826EDA6",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-015.pdf",
+      "sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-DF686D5E0E30",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-016.pages.json",
+      "sha256": "a7f8889c72d6bd3c4e430cd72a1cb9698d1a4aee799ca66e824873d047aef95f",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:46Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-25744B24AF7F",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-016.pdf",
+      "sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:43Z"
+    },
+    {
+      "artifact_id": "ART-8189687B6FDE",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-sidecar",
+      "path": "source/chunks/CHUNK-017.pages.json",
+      "sha256": "9b5163a1bf2838421b39fff04b7aff05a0c64b11447d79fa44b70ad62665cbe6",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:46Z",
+      "schema_version": "source-chunk-sidecar-v1"
+    },
+    {
+      "artifact_id": "ART-7ADC198BD4B1",
+      "stage": "source_chunk_preparation",
+      "artifact_type": "source-chunk-pdf",
+      "path": "source/chunks/CHUNK-017.pdf",
+      "sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2",
+      "media_type": "application/pdf",
+      "visibility": "restricted",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:44Z"
+    },
+    {
+      "artifact_id": "ART-9607411ECD7A",
+      "stage": "page_mapping",
+      "artifact_type": "expanded-page-map",
+      "path": "source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-14T01:46:00Z",
+      "schema_version": "page-map-v1"
+    },
+    {
+      "artifact_id": "ART-CB5CF611B7EB",
+      "stage": "initialize",
+      "artifact_type": "study_preserved_history",
+      "path": "source/source-benchmark.v4.json",
+      "sha256": "dfe01ab10a929dfb2944542cf879608057b59acd74a909038e7608a015b0d448",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T16:32:43Z"
+    }
+  ],
+  "blockers": [],
+  "study_comparison": {
+    "candidate_seen": true,
+    "migrated_at": "2026-09-17T19:10:24Z",
+    "semantic_change": true,
+    "policy_semantic_change": true,
+    "audit_transfer_authorized": false,
+    "historical_freeze": {
+      "synthesis_pass_complete": true,
+      "page_coverage_complete": true,
+      "independent_review_complete": true,
+      "candidate_unseen": true,
+      "registration": "Bounded cumulative source correction independently approved. Preserved-c11 typed registration on the new source state remains pending root technical clearance.",
+      "frozen_at": "2026-09-17T11:12:35.630297+00:00",
+      "frozen_at_basis": "Immutable independently approved byte seal time; typed registration has not occurred.",
+      "typed_freeze_performed": false,
+      "prior_full_review_reused_for_unchanged_values": true,
+      "new_source_reinspection_document_pages": [
+        11,
+        12,
+        16,
+        17,
+        19,
+        30,
+        31,
+        32,
+        33,
+        56,
+        57,
+        58,
+        82,
+        83,
+        84,
+        87,
+        90,
+        91,
+        92,
+        93,
+        95,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        107,
+        109,
+        110,
+        111,
+        113,
+        114,
+        120,
+        121,
+        126,
+        128,
+        131,
+        132,
+        133,
+        134,
+        141,
+        142,
+        152,
+        153,
+        154,
+        249,
+        250,
+        263,
+        264,
+        297,
+        303,
+        310
+      ]
+    },
+    "prior_state": {
+      "path": "evaluation-state.before-0ee94c685ded.json",
+      "sha256": "eb5293d4b6fefd1fc31fc5f835de4f9f2cbfdad0aa841b1832806d14cd80655e"
+    },
+    "lock": {
+      "path": "evaluation/migration-v10-v3-pr67/study-benchmark-lock.v1.json",
+      "sha256": "4acb300f81aa244c35b79f1fb2e2890b7ba8def23ec2073be5166255192adda6"
+    },
+    "release_benchmark": {
+      "path": "evaluation/migration-v10-v3-pr67/release-benchmark.json",
+      "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5"
+    },
+    "approval": {
+      "path": "evaluation/migration-v10-v3-pr67/approval.json",
+      "sha256": "0ee94c685ded4a8673fd0b1d65f99a399e82dbe9ac4bf869d3530daa4a10beaf"
+    },
+    "release_review": {
+      "path": "evaluation/migration-v10-v3-pr67/release-review.json",
+      "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850"
+    },
+    "release_descriptor": {
+      "path": "evaluation/migration-v10-v3-pr67/release-descriptor.json",
+      "sha256": "6723d64081ac52f2895fc506138f379720667533e1b6af700560e76604db2f1d"
+    },
+    "release_draft": {
+      "path": "evaluation/migration-v10-v3-pr67/release-draft.json",
+      "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678"
+    },
+    "release_state": {
+      "path": "evaluation/migration-v10-v3-pr67/release-state.json",
+      "sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb"
+    },
+    "release_policy": {
+      "path": "evaluation/migration-v10-v3-pr67/release-policy.json",
+      "sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b"
+    },
+    "methodology_migration": {
+      "source_rubric": "subject-index-rubric-v8.2",
+      "target_rubric": "subject-index-rubric-v10",
+      "source_proof_rewritten": false,
+      "scoring_semantics_changed": true
+    }
+  }
+}

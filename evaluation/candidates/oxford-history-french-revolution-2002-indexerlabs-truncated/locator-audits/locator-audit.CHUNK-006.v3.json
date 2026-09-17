@@ -960,25 +960,16 @@
       "document_page": 155,
       "source_page_label": "155",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "On source page 155, the destination provides independently useful treatment of the complete path “Barnave, Antoine-Pierre > constitutional amendments and veto” within its discussion of constitutional amendments, electoral qualifications, press restrictions, and emigre penalties.",
       "evidence_ids": [
         "EVID-61A1D94FF46C"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "Barnave amendments are attributed, while the veto ambition is attributed to others; full compound promise is unsettled. The known useful component is not enough to settle the full delivered promise.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Barnave amendments are attributed, while the veto ambition is attributed to others; full compound promise is unsettled. The known useful component is not enough to settle the full delivered promise."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-41D6FCE949C3",
@@ -2864,25 +2855,16 @@
       "document_page": 147,
       "source_page_label": "147",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "On source page 147, the destination provides independently useful treatment of the complete path “departments (départements) > military and conscription resistance” within its discussion of emigre organization, army mutiny, and the monarchy's response to religious schism.",
       "evidence_ids": [
         "EVID-7C0653A3521F"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-72B764096D79",
@@ -3472,25 +3454,16 @@
       "document_page": 153,
       "source_page_label": "153",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "On source page 153, the destination provides independently useful treatment of the complete path “Feuillants Club” within its discussion of national alarm after Varennes and division within the Jacobin movement.",
       "evidence_ids": [
         "EVID-01A0258E7F70"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-C6394E9EDDC9",
@@ -3841,9 +3814,9 @@
       "document_page": 158,
       "source_page_label": "158",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "attribution_only",
+      "complete_path_fit": "exact_fit",
+      "judgment": "unsupported",
       "evidence_summary": "Great Britain appears only through an ambassador's quoted prediction about the durability of the French constitution.",
       "evidence_ids": [
         "EVID-CCD0EE1E818F"
@@ -3851,15 +3824,7 @@
       "confidence": "medium",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "fit_rationale": "The attribution is correctly British but supplies no independently useful treatment of Great Britain itself."
     },
     {
       "locator_id": "LOC-6F7EC1C38F96",
@@ -4110,25 +4075,16 @@
       "document_page": 142,
       "source_page_label": "142",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "On source page 142, the destination provides independently useful treatment of the complete path “Jacobins (Jacobin Club) > provincial clubs and 'Federalist' revolts” within its discussion of religious polarization and the rapid growth of Jacobin and provincial political clubs.",
       "evidence_ids": [
         "EVID-A43850910668"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "Provincial clubs are treated; a required club-to-Federalist-revolt relation is not. The known useful component is not enough to settle the full delivered promise.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Provincial clubs are treated; a required club-to-Federalist-revolt relation is not. The known useful component is not enough to settle the full delivered promise."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-C87C86F26B06",
@@ -4140,25 +4096,16 @@
       "document_page": 156,
       "source_page_label": "156",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "On source page 156, the destination provides independently useful treatment of the complete path “Jacobins (Jacobin Club) > provincial clubs and 'Federalist' revolts” within its discussion of officer emigration, army collapse, Feuillant weakness, and the Declaration of Pillnitz.",
       "evidence_ids": [
         "EVID-C87C86F26B06"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "Provincial club allegiance is treated; a required Federalist relation is not. The known useful component is not enough to settle the full delivered promise.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Provincial club allegiance is treated; a required Federalist relation is not. The known useful component is not enough to settle the full delivered promise."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-2A032E61B365",
@@ -4772,25 +4719,16 @@
       "document_page": 146,
       "source_page_label": "146",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "On source page 146, the destination provides independently useful treatment of the complete path “Louis XVI > flight to Varennes” within its discussion of papal opposition, refractory worship, and the first organized counter-revolutionary activity.",
       "evidence_ids": [
         "EVID-F7150D2928DA"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-3F2FDEC524D4",
@@ -6682,25 +6620,16 @@
       "document_page": 145,
       "source_page_label": "145",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "On source page 145, the destination provides independently useful treatment of the complete path “Provence” within its discussion of the geography and social causes of oath-taking and refusal.",
       "evidence_ids": [
         "EVID-BBB4778ADEE7"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "High oath-taking in Provence and Dauphiné. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "High oath-taking in Provence and Dauphiné. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-28D14132FBEB",
@@ -6711,25 +6640,16 @@
       "document_page": 152,
       "source_page_label": "152",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "On source page 152, the destination provides independently useful treatment of the complete path “Provence” within its discussion of the constitutional and republican consequences of the flight to Varennes.",
       "evidence_ids": [
         "EVID-28D14132FBEB"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "King’s brother reaches Austrian Netherlands and circulates intention claims. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "King’s brother reaches Austrian Netherlands and circulates intention claims. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-765B5FB8E2EB",
@@ -7833,25 +7753,16 @@
       "document_page": 150,
       "source_page_label": "150",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "On source page 150, the destination provides independently useful treatment of the complete path “Saint-Domingue” within its discussion of the triumvirate, Robespierre's rise, republicanism, and legislative self-denial.",
       "evidence_ids": [
         "EVID-5110767257A9"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-D50EA71CF6B4",
@@ -8711,6 +8622,6 @@
     "judged": 382,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 10
+    "semantic_unresolved": 0
   }
 }
