@@ -1,0 +1,16 @@
+{
+  "schema_version": "subject-index-retrospective-benchmark-approval-v1",
+  "approval_id": "INDEXERLABS-AUTHORIZED-V10-SUCCESSOR-R2-2026-09-17",
+  "authorized_by": "user",
+  "authorization_reference": "User explicitly authorized the migration; the OHFR benchmark owner then dispatched the official V4/R2 common lock, corrected source release, semantic execution compatibility, and instruction to complete the IndexerLabs evaluation on 2026-09-17.",
+  "approved_at": "2026-09-17T12:00:00+00:00",
+  "candidate_seen": true,
+  "previous_state_sha256": "eb5293d4b6fefd1fc31fc5f835de4f9f2cbfdad0aa841b1832806d14cd80655e",
+  "previous_benchmark_sha256": "4e3147464c9a907d5d9c6ce689bae53bb1f9ace53b99c0146b49a105629e6562",
+  "previous_policy_sha256": "c2ef6f6e015fdde13afed22addfa0e9633a0b452ca49990f713dca9e487bed32",
+  "study_lock_sha256": "fbbf4f1a3f2f964f7a49fdbb3f4e2c64a4dc87b5b2cf6e33c887941df34795f1",
+  "target_benchmark_sha256": "750715481c1790be494dd74c3e193d4b1837236f2008616e9cf8da1916811daf",
+  "target_policy_semantic_sha256": "7fea875a46370351481128234c15825225ac5cdabffb0f0bd22ea7adfb0d2beb",
+  "study_policy_template_sha256": "408bd67a3f6300f240a8768e8e2deec51a14c02ef084f3ef1482777fb7994177",
+  "audit_transfer_authorized": false
+}

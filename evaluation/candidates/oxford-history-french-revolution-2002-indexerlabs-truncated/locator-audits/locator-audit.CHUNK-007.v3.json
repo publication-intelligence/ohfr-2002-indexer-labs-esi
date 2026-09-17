@@ -1,0 +1,4588 @@
+{
+  "schema_version": "locator-audit-v3",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+  "chunk_id": "CHUNK-007",
+  "expected_locator_ids": [
+    "LOC-D1355708CF36",
+    "LOC-C44004229EAE",
+    "LOC-1D29ABFDBD9E",
+    "LOC-2846048F7EB8",
+    "LOC-7C63FDCBE51A",
+    "LOC-307A165970F8",
+    "LOC-EC5B67C356B2",
+    "LOC-E6199424B902",
+    "LOC-6D81DC01E76D",
+    "LOC-90AD2E136E2A",
+    "LOC-089B4F69D6EB",
+    "LOC-A58424646B9F",
+    "LOC-AC05F77D899F",
+    "LOC-6C6EA03AE0E8",
+    "LOC-37D10C6E432B",
+    "LOC-0998E374F513",
+    "LOC-8D546695D1C7",
+    "LOC-70A6579ED261",
+    "LOC-709F3B3134BA",
+    "LOC-8D1A8FAAEB85",
+    "LOC-225010B688AF",
+    "LOC-3CB73CCA8CA6",
+    "LOC-D3D8A42CA778",
+    "LOC-F0E0F751A04C",
+    "LOC-2F166B56C936",
+    "LOC-70B842E8E126",
+    "LOC-B40049BB0055",
+    "LOC-89B68D29355F",
+    "LOC-10EC4F1BE0EF",
+    "LOC-CB6BEBAC453C",
+    "LOC-BCDF0555ECE2",
+    "LOC-3A74E50EB868",
+    "LOC-7DAD1D4C1C10",
+    "LOC-18D069C3EBE5",
+    "LOC-B4E81AF71A33",
+    "LOC-744FE0587B6A",
+    "LOC-7F923DA60631",
+    "LOC-83018F45A2D2",
+    "LOC-301AFEF94AD2",
+    "LOC-D90307A6AE3F",
+    "LOC-CD730518F5E2",
+    "LOC-3AEFCB034799",
+    "LOC-516D7FCA0785",
+    "LOC-EE9BE3A7D683",
+    "LOC-9F1ACF5202E7",
+    "LOC-080428B75FEA",
+    "LOC-A3A1C8A580FF",
+    "LOC-F4702A1A06AD",
+    "LOC-2F4BE777DBAB",
+    "LOC-25CE7A21BA96",
+    "LOC-DD5D96C40F37",
+    "LOC-B74300E26850",
+    "LOC-2BC8D104967E",
+    "LOC-5A30775DFC87",
+    "LOC-8FD784364F7A",
+    "LOC-33348303685C",
+    "LOC-F212C427F7EE",
+    "LOC-C33AAF280B13",
+    "LOC-E7B055D61E79",
+    "LOC-B660BDF531A4",
+    "LOC-8A7CEBAF5F9B",
+    "LOC-527A7A1B0BCF",
+    "LOC-D36E4F03DD57",
+    "LOC-1A3CDDF9E8A8",
+    "LOC-4373B388A19F",
+    "LOC-F67E394E1845",
+    "LOC-C1CACF204C3A",
+    "LOC-56463CA56291",
+    "LOC-68B5342BF93F",
+    "LOC-6EB27770900F",
+    "LOC-D7FEF37BB820",
+    "LOC-268819DF0C15",
+    "LOC-C5FF64C096A3",
+    "LOC-322E830FA6DD",
+    "LOC-B08B04D4AD91",
+    "LOC-F2088DE5DA3B",
+    "LOC-557F510A251E",
+    "LOC-AB2172697EC4",
+    "LOC-6BCD54466DFC",
+    "LOC-D1E58C2C8AFF",
+    "LOC-4E4310102F8B",
+    "LOC-C20EC6FE581B",
+    "LOC-8077888EA7AB",
+    "LOC-0FD9E924A901",
+    "LOC-E50DE8C6C520",
+    "LOC-9781DCEACCA5",
+    "LOC-C7F62FEF09E1",
+    "LOC-99C5FA57E3E1",
+    "LOC-009371A2E9A1",
+    "LOC-00F40E248BA0",
+    "LOC-A5AAEDE00AA1",
+    "LOC-8B71FD467F40",
+    "LOC-F955B83C79FC",
+    "LOC-4BEF543F338B",
+    "LOC-9448E343353E",
+    "LOC-876000B769FA",
+    "LOC-3AF4622F5D64",
+    "LOC-01547C6FB39E",
+    "LOC-E5A4C98198FD",
+    "LOC-6FFBC187F0DB",
+    "LOC-8942E00DA5E9",
+    "LOC-3BACD7D3D7A0",
+    "LOC-7730D481794D",
+    "LOC-135540994080",
+    "LOC-0B7498786FFD",
+    "LOC-21E78797A3B7",
+    "LOC-B5334E2BBB9F",
+    "LOC-7286ABD72EDC",
+    "LOC-7F84935C41D9",
+    "LOC-96241A6DBC2B",
+    "LOC-78141E7659E4",
+    "LOC-0F98E89069C6",
+    "LOC-243064B37C34",
+    "LOC-4673BA2BE648",
+    "LOC-00802329E28A",
+    "LOC-AA1AEEA2BB16",
+    "LOC-2227ACB5B260",
+    "LOC-2A77112CCA6E",
+    "LOC-B7668E04D1A4",
+    "LOC-4C7E9298F8B5",
+    "LOC-D48104F94EDF",
+    "LOC-3056EF7E753B",
+    "LOC-D8A3974C1E1C",
+    "LOC-A4900E76689B",
+    "LOC-4C811D4DCCC3",
+    "LOC-F556DCE327D9",
+    "LOC-BEB9526AE336",
+    "LOC-7B0BBE4BC59A",
+    "LOC-BAA8F49B11B3",
+    "LOC-41665707EA36",
+    "LOC-F5CF32F3F4D6",
+    "LOC-409B3D88D297",
+    "LOC-CE0F218FEDF8",
+    "LOC-52F71AF46FC1",
+    "LOC-A2624DFCD06D",
+    "LOC-AB3B6A375B05",
+    "LOC-22B344946763",
+    "LOC-8FCB205DC121",
+    "LOC-ADA151DAC0F9",
+    "LOC-49108FB9E4EE",
+    "LOC-8AD4C8F3BCC2",
+    "LOC-EA8D7845F062",
+    "LOC-2D4CC37EC89B",
+    "LOC-0AE395737A83",
+    "LOC-5875D3B90404",
+    "LOC-6646F5BDC968",
+    "LOC-B66D49A850FA",
+    "LOC-8D0267A3840A",
+    "LOC-12207E8E0BB7",
+    "LOC-52C7ED93F066",
+    "LOC-F69374C363A5",
+    "LOC-34D924032B83",
+    "LOC-1ED468068559",
+    "LOC-04461B9D8C4A",
+    "LOC-FAE51F2F6151",
+    "LOC-9351DFA4C431",
+    "LOC-E26E5C8AC6EC",
+    "LOC-4BE9607DDB74",
+    "LOC-BBFA35D6E901",
+    "LOC-7BD23ACB646C",
+    "LOC-998D52EAF77D",
+    "LOC-BCA5821FE3AE",
+    "LOC-403DBF50DCA3",
+    "LOC-92C9354935D0",
+    "LOC-2E132CF6E86D",
+    "LOC-FCB10509C9CB",
+    "LOC-5291FCC67F19",
+    "LOC-8A6522F33599",
+    "LOC-2019468DE580",
+    "LOC-B6F3163F680B",
+    "LOC-E310D14897B9",
+    "LOC-F9C701C2DC54",
+    "LOC-1ECE32EB7DF9",
+    "LOC-94F2E343CCC8",
+    "LOC-A6F0C756C074",
+    "LOC-217D2EA3B14B",
+    "LOC-F67516A052A3",
+    "LOC-761D182CF09D",
+    "LOC-9442E9E66786",
+    "LOC-86DDAE0DF624",
+    "LOC-BD8C3EC16800",
+    "LOC-11D85C3B33C5",
+    "LOC-208E9973083E",
+    "LOC-B52F920D32DF",
+    "LOC-1BDBE8AF527C",
+    "LOC-2A1181EB1001",
+    "LOC-4D1E13C8EF85",
+    "LOC-636077BD5727",
+    "LOC-FB1256EEAD4C",
+    "LOC-D2D07E584431",
+    "LOC-E7C22359E952",
+    "LOC-3D93C58B2DCB",
+    "LOC-98F92178D876",
+    "LOC-93678722D2F2",
+    "LOC-9EDE9EBF3980",
+    "LOC-AF6EB4737830",
+    "LOC-9ED6D8C341C9",
+    "LOC-79362EB7DE5A",
+    "LOC-7A0141A9500D",
+    "LOC-6E181FA159C6",
+    "LOC-BAB72BF95E46",
+    "LOC-020D86D8571E",
+    "LOC-F6C1EBD599B4"
+  ],
+  "judgments": [
+    {
+      "locator_id": "LOC-D1355708CF36",
+      "path_id": "PATH-2D07BB9824DA",
+      "complete_heading_path": [
+        "American War of Independence"
+      ],
+      "document_page": 159,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "159",
+      "evidence_summary": "French aid is specifically credited with speeding and securing American independence; this is a useful causal fact, not a bare event name.",
+      "fit_rationale": "French aid is specifically credited with speeding and securing American independence; this is a useful causal fact, not a bare event name.",
+      "evidence_ids": [
+        "EVID-D1355708CF36"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-C44004229EAE",
+      "path_id": "PATH-A094B7A3A1EF",
+      "complete_heading_path": [
+        "Artois, Charles-Philippe, Comte d'",
+        "in exile"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Artois move from Turin to Koblenz and exile court are direct treatment of the subdivision.",
+      "fit_rationale": "Artois move from Turin to Koblenz and exile court are direct treatment of the subdivision.",
+      "evidence_ids": [
+        "EVID-C44004229EAE"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-1D29ABFDBD9E",
+      "path_id": "PATH-1C007839A996",
+      "complete_heading_path": [
+        "Assignats",
+        "origins and land-backing"
+      ],
+      "document_page": 168,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "168",
+      "evidence_summary": "The opening identifies Church-land expropriation as the basis used to launch paper currency; the source then explicitly discusses assignats and their predicted effects.",
+      "fit_rationale": "The opening identifies Church-land expropriation as the basis used to launch paper currency; the source then explicitly discusses assignats and their predicted effects.",
+      "evidence_ids": [
+        "EVID-1D29ABFDBD9E"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2846048F7EB8",
+      "path_id": "PATH-DB44A6FB2868",
+      "complete_heading_path": [
+        "Austria",
+        "Belgian revolution and occupation"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "Austrian authority and garrison defeat in the Belgian Revolution directly fulfill the regional conflict topic.",
+      "fit_rationale": "Austrian authority and garrison defeat in the Belgian Revolution directly fulfill the regional conflict topic.",
+      "evidence_ids": [
+        "EVID-2846048F7EB8"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7C63FDCBE51A",
+      "path_id": "PATH-DB44A6FB2868",
+      "complete_heading_path": [
+        "Austria",
+        "Belgian revolution and occupation"
+      ],
+      "document_page": 163,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "163",
+      "evidence_summary": "Austria remains the external threat to the Belgian revolutionary regime, and the succession changes its policy prospects.",
+      "fit_rationale": "Austria remains the external threat to the Belgian revolutionary regime, and the succession changes its policy prospects.",
+      "evidence_ids": [
+        "EVID-7C63FDCBE51A"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-307A165970F8",
+      "path_id": "PATH-DB44A6FB2868",
+      "complete_heading_path": [
+        "Austria",
+        "Belgian revolution and occupation"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "Austrian reconquest of Belgium is directly narrated after failed negotiation and diplomatic settlement.",
+      "fit_rationale": "Austrian reconquest of Belgium is directly narrated after failed negotiation and diplomatic settlement.",
+      "evidence_ids": [
+        "EVID-307A165970F8"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-EC5B67C356B2",
+      "path_id": "PATH-F1C2E930223D",
+      "complete_heading_path": [
+        "Austria",
+        "Poland, partitions of"
+      ],
+      "document_page": 165,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "165",
+      "evidence_summary": "Austria participation in the first partition and its territorial consequences directly fit.",
+      "fit_rationale": "Austria participation in the first partition and its territorial consequences directly fit.",
+      "evidence_ids": [
+        "EVID-EC5B67C356B2"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-E6199424B902",
+      "path_id": "PATH-B7DA2266F8AD",
+      "complete_heading_path": [
+        "Avignon"
+      ],
+      "document_page": 173,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "173",
+      "evidence_summary": "Avignon annexation without troops is explicitly identified as the final Assembly gesture.",
+      "fit_rationale": "Avignon annexation without troops is explicitly identified as the final Assembly gesture.",
+      "evidence_ids": [
+        "EVID-E6199424B902"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-6D81DC01E76D",
+      "path_id": "PATH-97E0B7981535",
+      "complete_heading_path": [
+        "Belgium"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "Belgium hosts Dutch exiles and mounting resistance to Joseph II church and state reforms.",
+      "fit_rationale": "Belgium hosts Dutch exiles and mounting resistance to Joseph II church and state reforms.",
+      "evidence_ids": [
+        "EVID-6D81DC01E76D"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-90AD2E136E2A",
+      "path_id": "PATH-97E0B7981535",
+      "complete_heading_path": [
+        "Belgium"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "Belgian negotiation, military defeat and international abandonment receive sustained treatment.",
+      "fit_rationale": "Belgian negotiation, military defeat and international abandonment receive sustained treatment.",
+      "evidence_ids": [
+        "EVID-90AD2E136E2A"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-089B4F69D6EB",
+      "path_id": "PATH-97E0B7981535",
+      "complete_heading_path": [
+        "Belgium"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "Belgian political exiles hope for French help and urge international confrontation; this supplies a concrete political relationship.",
+      "fit_rationale": "Belgian political exiles hope for French help and urge international confrontation; this supplies a concrete political relationship.",
+      "evidence_ids": [
+        "EVID-089B4F69D6EB"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A58424646B9F",
+      "path_id": "PATH-08FA4C180199",
+      "complete_heading_path": [
+        "Belgium",
+        "resistance to Joseph II and 'Brabant Revolution' (1787-90)"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "The precise 1787–90 resistance topic is fulfilled by the 1787–89 conflicts and subsequent armed rising.",
+      "fit_rationale": "The precise 1787–90 resistance topic is fulfilled by the 1787–89 conflicts and subsequent armed rising.",
+      "evidence_ids": [
+        "EVID-A58424646B9F"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-AC05F77D899F",
+      "path_id": "PATH-08FA4C180199",
+      "complete_heading_path": [
+        "Belgium",
+        "resistance to Joseph II and 'Brabant Revolution' (1787-90)"
+      ],
+      "document_page": 163,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "163",
+      "evidence_summary": "The Belgian revolutionary outcome and divisions between statists and progressives directly fulfill the dated topic.",
+      "fit_rationale": "The Belgian revolutionary outcome and divisions between statists and progressives directly fulfill the dated topic.",
+      "evidence_ids": [
+        "EVID-AC05F77D899F"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-6C6EA03AE0E8",
+      "path_id": "PATH-10A0CAD425C1",
+      "complete_heading_path": [
+        "Birmingham Riots (1791)"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "The riot cause, participants, targets and magistrates conduct are described.",
+      "fit_rationale": "The riot cause, participants, targets and magistrates conduct are described.",
+      "evidence_ids": [
+        "EVID-6C6EA03AE0E8"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-37D10C6E432B",
+      "path_id": "PATH-BEB10E2D3583",
+      "complete_heading_path": [
+        "Brabant Revolution"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "The Brabant Revolution is explained through charter rights, tax conflict and armed revolt.",
+      "fit_rationale": "The Brabant Revolution is explained through charter rights, tax conflict and armed revolt.",
+      "evidence_ids": [
+        "EVID-37D10C6E432B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0998E374F513",
+      "path_id": "PATH-0760D0F531C7",
+      "complete_heading_path": [
+        "Burke, Edmund"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "Burke reaction to the reform movement and publication of his pamphlet are directly narrated.",
+      "fit_rationale": "Burke reaction to the reform movement and publication of his pamphlet are directly narrated.",
+      "evidence_ids": [
+        "EVID-0998E374F513"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-8D546695D1C7",
+      "path_id": "PATH-0760D0F531C7",
+      "complete_heading_path": [
+        "Burke, Edmund"
+      ],
+      "document_page": 167,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "167",
+      "evidence_summary": "Burke denunciation and argument for inherited institutions receive sustained treatment.",
+      "fit_rationale": "Burke denunciation and argument for inherited institutions receive sustained treatment.",
+      "evidence_ids": [
+        "EVID-8D546695D1C7"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-70A6579ED261",
+      "path_id": "PATH-0760D0F531C7",
+      "complete_heading_path": [
+        "Burke, Edmund"
+      ],
+      "document_page": 168,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "168",
+      "evidence_summary": "Burke conspiratorial explanation, predictions and effects on British debate are sustained treatment.",
+      "fit_rationale": "Burke conspiratorial explanation, predictions and effects on British debate are sustained treatment.",
+      "evidence_ids": [
+        "EVID-70A6579ED261"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-709F3B3134BA",
+      "path_id": "PATH-048271815964",
+      "complete_heading_path": [
+        "Catherine II (the Great)"
+      ],
+      "document_page": 165,
+      "source_scope_status": "indexable",
+      "treatment_class": "absent",
+      "complete_path_fit": "no_fit",
+      "judgment": "unsupported",
+      "source_page_label": "165",
+      "evidence_summary": "The Russian state is discussed, but Catherine personally is not identified until a distinct discussion on 166; retain the original absent decision.",
+      "fit_rationale": "The Russian state is discussed, but Catherine personally is not identified until a distinct discussion on 166; retain the original absent decision.",
+      "evidence_ids": [
+        "EVID-709F3B3134BA"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-8D1A8FAAEB85",
+      "path_id": "PATH-048271815964",
+      "complete_heading_path": [
+        "Catherine II (the Great)"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "Catherine determination to recover Poland and view of its constitution are specified.",
+      "fit_rationale": "Catherine determination to recover Poland and view of its constitution are specified.",
+      "evidence_ids": [
+        "EVID-8D1A8FAAEB85"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-225010B688AF",
+      "path_id": "PATH-048271815964",
+      "complete_heading_path": [
+        "Catherine II (the Great)"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Catherine peace negotiations, Polish priorities and pressure on other monarchs are directly explained.",
+      "fit_rationale": "Catherine peace negotiations, Polish priorities and pressure on other monarchs are directly explained.",
+      "evidence_ids": [
+        "EVID-225010B688AF"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3CB73CCA8CA6",
+      "path_id": "PATH-3B417BA72590",
+      "complete_heading_path": [
+        "Catholic Church",
+        "in Belgium"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "The Belgian Church funding of Pro Aris et Focis is causally linked to Joseph II reforms against it.",
+      "fit_rationale": "The Belgian Church funding of Pro Aris et Focis is causally linked to Joseph II reforms against it.",
+      "evidence_ids": [
+        "EVID-3CB73CCA8CA6"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D3D8A42CA778",
+      "path_id": "PATH-3B417BA72590",
+      "complete_heading_path": [
+        "Catholic Church",
+        "in Belgium"
+      ],
+      "document_page": 163,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "163",
+      "evidence_summary": "Abbots institutional power and Church opposition to Vonck reforms are directly treated.",
+      "fit_rationale": "Abbots institutional power and Church opposition to Vonck reforms are directly treated.",
+      "evidence_ids": [
+        "EVID-D3D8A42CA778"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F0E0F751A04C",
+      "path_id": "PATH-75B1914B5724",
+      "complete_heading_path": [
+        "Catholic Church",
+        "quarrel with the Revolution"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "The timing of European recognition of the church conflict and resulting change in opinion are explicit.",
+      "fit_rationale": "The timing of European recognition of the church conflict and resulting change in opinion are explicit.",
+      "evidence_ids": [
+        "EVID-F0E0F751A04C"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2F166B56C936",
+      "path_id": "PATH-3EDA0E0DCE3E",
+      "complete_heading_path": [
+        "censorship"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Spanish reporting suppression and Inquisition control provide direct censorship treatment.",
+      "fit_rationale": "Spanish reporting suppression and Inquisition control provide direct censorship treatment.",
+      "evidence_ids": [
+        "EVID-2F166B56C936"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-70B842E8E126",
+      "path_id": "PATH-3EDA0E0DCE3E",
+      "complete_heading_path": [
+        "censorship"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "Spanish, Swedish and Russian censorship mechanisms are directly described.",
+      "fit_rationale": "Spanish, Swedish and Russian censorship mechanisms are directly described.",
+      "evidence_ids": [
+        "EVID-70B842E8E126"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-B40049BB0055",
+      "path_id": "PATH-80273749F6C6",
+      "complete_heading_path": [
+        "Clootz, Anacharsis"
+      ],
+      "document_page": 160,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "160",
+      "evidence_summary": "Clootz earlier vow, location when the Bastille fell and return to revolutionary politics are directly described.",
+      "fit_rationale": "Clootz earlier vow, location when the Bastille fell and return to revolutionary politics are directly described.",
+      "evidence_ids": [
+        "EVID-B40049BB0055"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-89B68D29355F",
+      "path_id": "PATH-80273749F6C6",
+      "complete_heading_path": [
+        "Clootz, Anacharsis"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "Clootz delegation, universalist claims and composition are directly described.",
+      "fit_rationale": "Clootz delegation, universalist claims and composition are directly described.",
+      "evidence_ids": [
+        "EVID-89B68D29355F"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-10EC4F1BE0EF",
+      "path_id": "PATH-CDC7C82E2693",
+      "complete_heading_path": [
+        "Condé, Prince de"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Conde receives emigrants in the Mainz electoral territories.",
+      "fit_rationale": "Conde receives emigrants in the Mainz electoral territories.",
+      "evidence_ids": [
+        "EVID-10EC4F1BE0EF"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-CB6BEBAC453C",
+      "path_id": "PATH-F15ABAE3A8F7",
+      "complete_heading_path": [
+        "Constitution of 3 May 1791 (Poland)"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "The constitution enactment, supporters, French echoes and Russian interpretation are directly described.",
+      "fit_rationale": "The constitution enactment, supporters, French echoes and Russian interpretation are directly described.",
+      "evidence_ids": [
+        "EVID-CB6BEBAC453C"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-BCDF0555ECE2",
+      "path_id": "PATH-AD1954BB416C",
+      "complete_heading_path": [
+        "Convention of Reichenbach"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "The convention date, terms and diplomatic purpose are specified.",
+      "fit_rationale": "The convention date, terms and diplomatic purpose are specified.",
+      "evidence_ids": [
+        "EVID-BCDF0555ECE2"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3A74E50EB868",
+      "path_id": "PATH-AD1954BB416C",
+      "complete_heading_path": [
+        "Convention of Reichenbach"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "The Convention of Reichenbach is given a specific consequence: urgency for Polish constitutional reform as Turkish war ended.",
+      "fit_rationale": "The Convention of Reichenbach is given a specific consequence: urgency for Polish constitutional reform as Turkish war ended.",
+      "evidence_ids": [
+        "EVID-3A74E50EB868"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7DAD1D4C1C10",
+      "path_id": "PATH-28356BC66F94",
+      "complete_heading_path": [
+        "Declaration of the Rights of Man and the Citizen",
+        "legacy and global impact"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "The translated Declaration and extensive commentary in Paine book explain its British dissemination and impact.",
+      "fit_rationale": "The translated Declaration and extensive commentary in Paine book explain its British dissemination and impact.",
+      "evidence_ids": [
+        "EVID-7DAD1D4C1C10"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-18D069C3EBE5",
+      "path_id": "PATH-FE15AD7C67F6",
+      "complete_heading_path": [
+        "despotism",
+        "Enlightened theories and parlements"
+      ],
+      "document_page": 167,
+      "judgment": "unsupported",
+      "treatment_class": "substantive",
+      "complete_path_fit": "material_mismatch",
+      "source_scope_status": "indexable",
+      "source_page_label": "167",
+      "evidence_summary": "Burke defence of old institutions and apparent despotism does not address enlightened-despotism theory or parlements. Retain the established narrower-path mismatch.",
+      "fit_rationale": "Burke defence of old institutions and apparent despotism does not address enlightened-despotism theory or parlements. Retain the established narrower-path mismatch.",
+      "evidence_ids": [
+        "EVID-18D069C3EBE5"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "HED"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-B4E81AF71A33",
+      "path_id": "PATH-A1601977012F",
+      "complete_heading_path": [
+        "despotism",
+        "international perspectives"
+      ],
+      "document_page": 159,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "159",
+      "evidence_summary": "Joseph II military despotism and French diplomatic support for foreign rebellion provide explicit international perspectives.",
+      "fit_rationale": "Joseph II military despotism and French diplomatic support for foreign rebellion provide explicit international perspectives.",
+      "evidence_ids": [
+        "EVID-B4E81AF71A33"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-744FE0587B6A",
+      "path_id": "PATH-A1601977012F",
+      "complete_heading_path": [
+        "despotism",
+        "international perspectives"
+      ],
+      "document_page": 160,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "160",
+      "evidence_summary": "European observers explicitly interpret Bastille storming as overthrow of despotism; the international-perspective qualifier is fulfilled.",
+      "fit_rationale": "European observers explicitly interpret Bastille storming as overthrow of despotism; the international-perspective qualifier is fulfilled.",
+      "evidence_ids": [
+        "EVID-744FE0587B6A"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7F923DA60631",
+      "path_id": "PATH-A1601977012F",
+      "complete_heading_path": [
+        "despotism",
+        "international perspectives"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "British celebration of defeating Stuart despotism and viewing France as enslaved tyranny provides international comparison.",
+      "fit_rationale": "British celebration of defeating Stuart despotism and viewing France as enslaved tyranny provides international comparison.",
+      "evidence_ids": [
+        "EVID-7F923DA60631"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-83018F45A2D2",
+      "path_id": "PATH-3B4CC2C0BD3C",
+      "complete_heading_path": [
+        "dissolution of religious orders"
+      ],
+      "document_page": 163,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "163",
+      "evidence_summary": "French monastery dissolution is explicitly one of the reforms distinguishing the Belgian statist regime from France.",
+      "fit_rationale": "French monastery dissolution is explicitly one of the reforms distinguishing the Belgian statist regime from France.",
+      "evidence_ids": [
+        "EVID-83018F45A2D2"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-301AFEF94AD2",
+      "path_id": "PATH-B6EA543F613D",
+      "complete_heading_path": [
+        "Dutch exiles"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "The page supplies Dutch exile numbers, pensions, settlement locations, clubs and Guard organization.",
+      "fit_rationale": "The page supplies Dutch exile numbers, pensions, settlement locations, clubs and Guard organization.",
+      "evidence_ids": [
+        "EVID-301AFEF94AD2"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D90307A6AE3F",
+      "path_id": "PATH-CAC5A2E7838A",
+      "complete_heading_path": [
+        "Dutch Republic",
+        "British and Prussian military interventions"
+      ],
+      "document_page": 159,
+      "judgment": "supported",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "source_scope_status": "indexable",
+      "source_page_label": "159",
+      "evidence_summary": "The plural interventions grouping, already justified by the delivered Dutch hierarchy, is fulfilled by the explicit Prussian invasion. No joint British-Prussian expedition is promised. Retain the calibrated mixed treatment.",
+      "fit_rationale": "The plural interventions grouping, already justified by the delivered Dutch hierarchy, is fulfilled by the explicit Prussian invasion. No joint British-Prussian expedition is promised. Retain the calibrated mixed treatment.",
+      "evidence_ids": [
+        "EVID-D90307A6AE3F"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-CD730518F5E2",
+      "path_id": "PATH-5C6D6D276595",
+      "complete_heading_path": [
+        "Dutch Republic",
+        "Patriot movement and 1787 crisis"
+      ],
+      "document_page": 159,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "159",
+      "evidence_summary": "The Patriot movement and its 1787 defeat are directly described with political and diplomatic context.",
+      "fit_rationale": "The Patriot movement and its 1787 defeat are directly described with political and diplomatic context.",
+      "evidence_ids": [
+        "EVID-CD730518F5E2"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3AEFCB034799",
+      "path_id": "PATH-FF712BFA317F",
+      "complete_heading_path": [
+        "Elections of 1789"
+      ],
+      "document_page": 167,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "167",
+      "evidence_summary": "Burke characterization of those brought to power by the 1789 elections is explicitly treated.",
+      "fit_rationale": "Burke characterization of those brought to power by the 1789 elections is explicitly treated.",
+      "evidence_ids": [
+        "EVID-3AEFCB034799"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-516D7FCA0785",
+      "path_id": "PATH-EDE9FE43A1B3",
+      "complete_heading_path": [
+        "émigrés"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Emigre assembly, financing and host-population friction are described.",
+      "fit_rationale": "Emigre assembly, financing and host-population friction are described.",
+      "evidence_ids": [
+        "EVID-516D7FCA0785"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-EE9BE3A7D683",
+      "path_id": "PATH-EDE9FE43A1B3",
+      "complete_heading_path": [
+        "émigrés"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "French emigres encounter Spanish ignorance of revolutionary events, supplying a specific exile experience.",
+      "fit_rationale": "French emigres encounter Spanish ignorance of revolutionary events, supplying a specific exile experience.",
+      "evidence_ids": [
+        "EVID-EE9BE3A7D683"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9F1ACF5202E7",
+      "path_id": "PATH-EDE9FE43A1B3",
+      "complete_heading_path": [
+        "émigrés"
+      ],
+      "document_page": 173,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "173",
+      "evidence_summary": "Thousands of army officers join the emigres, with a direct consequence for army disintegration.",
+      "fit_rationale": "Thousands of army officers join the emigres, with a direct consequence for army disintegration.",
+      "evidence_ids": [
+        "EVID-9F1ACF5202E7"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-080428B75FEA",
+      "path_id": "PATH-EBD8BD7AF5AF",
+      "complete_heading_path": [
+        "émigrés",
+        "counter-revolutionary activity"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Emigres gather in German refuges and prepare for war with foreign subsidies.",
+      "fit_rationale": "Emigres gather in German refuges and prepare for war with foreign subsidies.",
+      "evidence_ids": [
+        "EVID-080428B75FEA"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A3A1C8A580FF",
+      "path_id": "PATH-89E393279602",
+      "complete_heading_path": [
+        "émigrés",
+        "military organization and campaigns"
+      ],
+      "document_page": 173,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "173",
+      "evidence_summary": "Officer departures to the emigres supply concrete military recruitment and its effect, even without campaign narrative.",
+      "fit_rationale": "Officer departures to the emigres supply concrete military recruitment and its effect, even without campaign narrative.",
+      "evidence_ids": [
+        "EVID-A3A1C8A580FF"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F4702A1A06AD",
+      "path_id": "PATH-0EB37A1BBA54",
+      "complete_heading_path": [
+        "émigrés",
+        "refuges in Europe"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Koblenz and Mainz territories are described as emigre refuges with specific hosts.",
+      "fit_rationale": "Koblenz and Mainz territories are described as emigre refuges with specific hosts.",
+      "evidence_ids": [
+        "EVID-F4702A1A06AD"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2F4BE777DBAB",
+      "path_id": "PATH-0EB37A1BBA54",
+      "complete_heading_path": [
+        "émigrés",
+        "refuges in Europe"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "Emigres discover Spanish villages unaware of the Revolution, a specific observation from the refuge setting.",
+      "fit_rationale": "Emigres discover Spanish villages unaware of the Revolution, a specific observation from the refuge setting.",
+      "evidence_ids": [
+        "EVID-2F4BE777DBAB"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-25CE7A21BA96",
+      "path_id": "PATH-F2F59E9174E2",
+      "complete_heading_path": [
+        "Enlightenment"
+      ],
+      "document_page": 168,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "168",
+      "evidence_summary": "Enlightenment philosophers are the central attributed agents in Burke conspiracy theory.",
+      "fit_rationale": "Enlightenment philosophers are the central attributed agents in Burke conspiracy theory.",
+      "evidence_ids": [
+        "EVID-25CE7A21BA96"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-DD5D96C40F37",
+      "path_id": "PATH-1156838EF60D",
+      "complete_heading_path": [
+        "Estates-General",
+        "legacy and later references"
+      ],
+      "document_page": 167,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "167",
+      "evidence_summary": "Burke retrospective claim that modest adaptation could make the Estates-General representative directly fulfills later-reference access.",
+      "fit_rationale": "Burke retrospective claim that modest adaptation could make the Estates-General representative directly fulfills later-reference access.",
+      "evidence_ids": [
+        "EVID-DD5D96C40F37"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-B74300E26850",
+      "path_id": "PATH-E85B3E5C5243",
+      "complete_heading_path": [
+        "European response to Revolution"
+      ],
+      "document_page": 159,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "159",
+      "evidence_summary": "European surprise and earlier expectations of upheaval are expressly explained, rather than inferred from the chapter title.",
+      "fit_rationale": "European surprise and earlier expectations of upheaval are expressly explained, rather than inferred from the chapter title.",
+      "evidence_ids": [
+        "EVID-B74300E26850"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2BC8D104967E",
+      "path_id": "PATH-E85B3E5C5243",
+      "complete_heading_path": [
+        "European response to Revolution"
+      ],
+      "document_page": 160,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "160",
+      "evidence_summary": "The destination directly explains widespread intellectual and popular European enthusiasm and its circulation.",
+      "fit_rationale": "The destination directly explains widespread intellectual and popular European enthusiasm and its circulation.",
+      "evidence_ids": [
+        "EVID-2BC8D104967E"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-5A30775DFC87",
+      "path_id": "PATH-E85B3E5C5243",
+      "complete_heading_path": [
+        "European response to Revolution"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "British and exile responses are explicitly developed, fulfilling the broad response heading.",
+      "fit_rationale": "British and exile responses are explicitly developed, fulfilling the broad response heading.",
+      "evidence_ids": [
+        "EVID-5A30775DFC87"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-8FD784364F7A",
+      "path_id": "PATH-A71196BFF9CD",
+      "complete_heading_path": [
+        "Family Compact"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "The Family Compact is defined, dated and invoked by Spain for assistance.",
+      "fit_rationale": "The Family Compact is defined, dated and invoked by Spain for assistance.",
+      "evidence_ids": [
+        "EVID-8FD784364F7A"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-33348303685C",
+      "path_id": "PATH-524CA917875B",
+      "complete_heading_path": [
+        "Fersen, Axel von"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Fersen authorization to organize the Varennes flight supplies useful action and agency.",
+      "fit_rationale": "Fersen authorization to organize the Varennes flight supplies useful action and agency.",
+      "evidence_ids": [
+        "EVID-33348303685C"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F212C427F7EE",
+      "path_id": "PATH-5969A52B4960",
+      "complete_heading_path": [
+        "feudalism"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Abolition of feudal rights held by German rulers and its international consequences are explicit.",
+      "fit_rationale": "Abolition of feudal rights held by German rulers and its international consequences are explicit.",
+      "evidence_ids": [
+        "EVID-F212C427F7EE"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-C33AAF280B13",
+      "path_id": "PATH-F85DD13730E2",
+      "complete_heading_path": [
+        "Floridablanca, José Moñino, Count of"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Floridablanca is characterized by his earlier enlightened reputation and authority over the Inquisition response; the following page completes the action.",
+      "fit_rationale": "Floridablanca is characterized by his earlier enlightened reputation and authority over the Inquisition response; the following page completes the action.",
+      "evidence_ids": [
+        "EVID-C33AAF280B13"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-E7B055D61E79",
+      "path_id": "PATH-ABEE93D5E4A9",
+      "complete_heading_path": [
+        "Fox, Charles James"
+      ],
+      "document_page": 160,
+      "source_scope_status": "indexable",
+      "treatment_class": "absent",
+      "complete_path_fit": "no_fit",
+      "judgment": "unsupported",
+      "source_page_label": "160",
+      "evidence_summary": "Fox is absent from this complete page; his distinct introduction occurs on 161, not as a continuous Fox sentence.",
+      "fit_rationale": "Fox is absent from this complete page; his distinct introduction occurs on 161, not as a continuous Fox sentence.",
+      "evidence_ids": [
+        "EVID-E7B055D61E79"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-B660BDF531A4",
+      "path_id": "PATH-ABEE93D5E4A9",
+      "complete_heading_path": [
+        "Fox, Charles James"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "Fox position as Whig opposition leader and his enthusiastic appraisal of the Bastille are explicit.",
+      "fit_rationale": "Fox position as Whig opposition leader and his enthusiastic appraisal of the Bastille are explicit.",
+      "evidence_ids": [
+        "EVID-B660BDF531A4"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-8A7CEBAF5F9B",
+      "path_id": "PATH-033514D8D91F",
+      "complete_heading_path": [
+        "Frederick William II, king of Prussia"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "Frederick William receives Leopold assurances and agrees to stop supporting Habsburg rebels.",
+      "fit_rationale": "Frederick William receives Leopold assurances and agrees to stop supporting Habsburg rebels.",
+      "evidence_ids": [
+        "EVID-8A7CEBAF5F9B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-527A7A1B0BCF",
+      "path_id": "PATH-33D165E7DE32",
+      "complete_heading_path": [
+        "Genevan democrats"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "The Genevan democrats 1782 defeat and hopes of a changed French policy receive direct treatment.",
+      "fit_rationale": "The Genevan democrats 1782 defeat and hopes of a changed French policy receive direct treatment.",
+      "evidence_ids": [
+        "EVID-527A7A1B0BCF"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D36E4F03DD57",
+      "path_id": "PATH-5C00C402374C",
+      "complete_heading_path": [
+        "Gentz, Friedrich"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "Gentz is identified as translator influenced by Burke despite disagreement with the analysis.",
+      "fit_rationale": "Gentz is identified as translator influenced by Burke despite disagreement with the analysis.",
+      "evidence_ids": [
+        "EVID-D36E4F03DD57"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-1A3CDDF9E8A8",
+      "path_id": "PATH-5C00C402374C",
+      "complete_heading_path": [
+        "Gentz, Friedrich"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "absent",
+      "complete_path_fit": "no_fit",
+      "judgment": "unsupported",
+      "source_page_label": "171",
+      "evidence_summary": "Gentz discussion ends on 170; this destination does not continue a Gentz-specific proposition.",
+      "fit_rationale": "Gentz discussion ends on 170; this destination does not continue a Gentz-specific proposition.",
+      "evidence_ids": [
+        "EVID-1A3CDDF9E8A8"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-4373B388A19F",
+      "path_id": "PATH-C3F01EE70627",
+      "complete_heading_path": [
+        "Glorious Revolution (1688)"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "The 1688 settlement and its centenary are explained through parliamentary government, law and British self-understanding.",
+      "fit_rationale": "The 1688 settlement and its centenary are explained through parliamentary government, law and British self-understanding.",
+      "evidence_ids": [
+        "EVID-4373B388A19F"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F67E394E1845",
+      "path_id": "PATH-C3F01EE70627",
+      "complete_heading_path": [
+        "Glorious Revolution (1688)"
+      ],
+      "document_page": 167,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "167",
+      "evidence_summary": "Burke distinction between the 1688 preservation of liberties and French institutional overthrow supplies historical interpretation.",
+      "fit_rationale": "Burke distinction between the 1688 preservation of liberties and French institutional overthrow supplies historical interpretation.",
+      "evidence_ids": [
+        "EVID-F67E394E1845"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-C1CACF204C3A",
+      "path_id": "PATH-8435A9115DFE",
+      "complete_heading_path": [
+        "Goethe, Johann Wolfgang von"
+      ],
+      "document_page": 160,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "160",
+      "evidence_summary": "Goethe is distinguished from enthusiasts as sceptical from the outset while following events avidly.",
+      "fit_rationale": "Goethe is distinguished from enthusiasts as sceptical from the outset while following events avidly.",
+      "evidence_ids": [
+        "EVID-C1CACF204C3A"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-56463CA56291",
+      "path_id": "PATH-DF0FCCCA970C",
+      "complete_heading_path": [
+        "Golden Liberty (Poland)"
+      ],
+      "document_page": 165,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "165",
+      "evidence_summary": "Golden Liberty is directly defined through elective monarchy, individual veto and legalized rebellion.",
+      "fit_rationale": "Golden Liberty is directly defined through elective monarchy, individual veto and legalized rebellion.",
+      "evidence_ids": [
+        "EVID-56463CA56291"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-68B5342BF93F",
+      "path_id": "PATH-A7C7BAB6E07E",
+      "complete_heading_path": [
+        "grain shortages"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "Grain shortages are identified as driving popular support against authority in the low countries and France.",
+      "fit_rationale": "Grain shortages are identified as driving popular support against authority in the low countries and France.",
+      "evidence_ids": [
+        "EVID-68B5342BF93F"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-6EB27770900F",
+      "path_id": "PATH-34ADBD66DF9E",
+      "complete_heading_path": [
+        "Great Britain"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "British mediation in Reichenbach and confrontation with Spain in Nootka Sound are explicit.",
+      "fit_rationale": "British mediation in Reichenbach and confrontation with Spain in Nootka Sound are explicit.",
+      "evidence_ids": [
+        "EVID-6EB27770900F"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D7FEF37BB820",
+      "path_id": "PATH-8FC423BFC5CA",
+      "complete_heading_path": [
+        "Great Britain",
+        "radicalism and reform movement in"
+      ],
+      "document_page": 161,
+      "judgment": "unsupported",
+      "treatment_class": "mixed",
+      "complete_path_fit": "material_mismatch",
+      "source_scope_status": "indexable",
+      "source_page_label": "161",
+      "evidence_summary": "British constitutional self-satisfaction and sympathy for France do not establish a domestic radical or reform movement. Retain material mismatch.",
+      "fit_rationale": "British constitutional self-satisfaction and sympathy for France do not establish a domestic radical or reform movement. Retain material mismatch.",
+      "evidence_ids": [
+        "EVID-D7FEF37BB820"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "HED"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-268819DF0C15",
+      "path_id": "PATH-8FC423BFC5CA",
+      "complete_heading_path": [
+        "Great Britain",
+        "radicalism and reform movement in"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "The British reform movement demands, setbacks and renewed dissenting mobilization directly fulfill the qualified heading.",
+      "fit_rationale": "The British reform movement demands, setbacks and renewed dissenting mobilization directly fulfill the qualified heading.",
+      "evidence_ids": [
+        "EVID-268819DF0C15"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-C5FF64C096A3",
+      "path_id": "PATH-8FC423BFC5CA",
+      "complete_heading_path": [
+        "Great Britain",
+        "radicalism and reform movement in"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "Revived British reform societies distribute Paine and organize commemorations; the movement qualifier is fulfilled.",
+      "fit_rationale": "Revived British reform societies distribute Paine and organize commemorations; the movement qualifier is fulfilled.",
+      "evidence_ids": [
+        "EVID-C5FF64C096A3"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-322E830FA6DD",
+      "path_id": "PATH-A2978CD87E12",
+      "complete_heading_path": [
+        "Gustavus III (king of Sweden)"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Gustavus planned intervention, involvement in Varennes and peace offer are directly described.",
+      "fit_rationale": "Gustavus planned intervention, involvement in Varennes and peace offer are directly described.",
+      "evidence_ids": [
+        "EVID-322E830FA6DD"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-B08B04D4AD91",
+      "path_id": "PATH-5152B50C11EA",
+      "complete_heading_path": [
+        "Habsburg Monarchy"
+      ],
+      "document_page": 159,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "159",
+      "evidence_summary": "Habsburg vulnerability and Joseph II reform-induced unrest constitute useful treatment of the monarchy.",
+      "fit_rationale": "Habsburg vulnerability and Joseph II reform-induced unrest constitute useful treatment of the monarchy.",
+      "evidence_ids": [
+        "EVID-B08B04D4AD91"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F2088DE5DA3B",
+      "path_id": "PATH-5152B50C11EA",
+      "complete_heading_path": [
+        "Habsburg Monarchy"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "The Habsburg reform programme, church opposition and Belgian rebellion provide useful imperial political treatment.",
+      "fit_rationale": "The Habsburg reform programme, church opposition and Belgian rebellion provide useful imperial political treatment.",
+      "evidence_ids": [
+        "EVID-F2088DE5DA3B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-557F510A251E",
+      "path_id": "PATH-ACCB1DEDA666",
+      "complete_heading_path": [
+        "Hardy, Thomas"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "Hardy Scottish shoemaker background and founding action are explicit.",
+      "fit_rationale": "Hardy Scottish shoemaker background and founding action are explicit.",
+      "evidence_ids": [
+        "EVID-557F510A251E"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-AB2172697EC4",
+      "path_id": "PATH-1F68F03A39EC",
+      "complete_heading_path": [
+        "Illuminati"
+      ],
+      "document_page": 168,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "168",
+      "evidence_summary": "The Illuminati plot, published documents and influence on Burke are explicitly explained.",
+      "fit_rationale": "The Illuminati plot, published documents and influence on Burke are explicitly explained.",
+      "evidence_ids": [
+        "EVID-AB2172697EC4"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-6BCD54466DFC",
+      "path_id": "PATH-2A24BB02B12C",
+      "complete_heading_path": [
+        "Ireland"
+      ],
+      "document_page": 159,
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "complete_path_fit": "exact_fit",
+      "judgment": "unsupported",
+      "source_page_label": "159",
+      "evidence_summary": "Ireland occurs only in the opening list of countries defying authority, with no developed Irish event or mechanism. Its treatment requires revision from substantive support.",
+      "fit_rationale": "Ireland occurs only in the opening list of countries defying authority, with no developed Irish event or mechanism. Its treatment requires revision from substantive support.",
+      "evidence_ids": [
+        "EVID-6BCD54466DFC"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-D1E58C2C8AFF",
+      "path_id": "PATH-2A24BB02B12C",
+      "complete_heading_path": [
+        "Ireland"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "Irish paramilitary reform organizations are identified as earlier users of the slogan adopted in Belgium; this is a specific comparative fact.",
+      "fit_rationale": "Irish paramilitary reform organizations are identified as earlier users of the slogan adopted in Belgium; this is a specific comparative fact.",
+      "evidence_ids": [
+        "EVID-D1E58C2C8AFF"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4E4310102F8B",
+      "path_id": "PATH-75977F12E1D5",
+      "complete_heading_path": [
+        "Italian intellectuals"
+      ],
+      "document_page": 160,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "160",
+      "evidence_summary": "Italian intellectuals are given a specific conclusion: successful reform could occur within old European states, not only America.",
+      "fit_rationale": "Italian intellectuals are given a specific conclusion: successful reform could occur within old European states, not only America.",
+      "evidence_ids": [
+        "EVID-4E4310102F8B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-C20EC6FE581B",
+      "path_id": "PATH-5BFE9806F417",
+      "complete_heading_path": [
+        "Italy",
+        "Enlightened opinion and French influence"
+      ],
+      "document_page": 160,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "160",
+      "evidence_summary": "Italian intellectual opinion is directly linked to the French example and its perceived possibilities for reform.",
+      "fit_rationale": "Italian intellectual opinion is directly linked to the French example and its perceived possibilities for reform.",
+      "evidence_ids": [
+        "EVID-C20EC6FE581B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-8077888EA7AB",
+      "path_id": "PATH-3ED071BC6B85",
+      "complete_heading_path": [
+        "Jacobinism",
+        "in Poland"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "Catherine perception of the Polish constitution as Jacobinical is explicitly attributed; the source also qualifies the parallel as superficial.",
+      "fit_rationale": "Catherine perception of the Polish constitution as Jacobinical is explicitly attributed; the source also qualifies the parallel as superficial.",
+      "evidence_ids": [
+        "EVID-8077888EA7AB"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0FD9E924A901",
+      "path_id": "PATH-695582137E37",
+      "complete_heading_path": [
+        "Jacobinism",
+        "monarchs' perceptions of"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Catherine distinguishes combating Jacobinism in Poland from a French crusade, directly supplying a monarch perception.",
+      "fit_rationale": "Catherine distinguishes combating Jacobinism in Poland from a French crusade, directly supplying a monarch perception.",
+      "evidence_ids": [
+        "EVID-0FD9E924A901"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-E50DE8C6C520",
+      "path_id": "PATH-DCAA0C7DE9EB",
+      "complete_heading_path": [
+        "Jacobins (Jacobin Club)",
+        "international impact and European clubs"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "Exchange of fraternal addresses between British radicals and Jacobins directly fulfills the international relationship.",
+      "fit_rationale": "Exchange of fraternal addresses between British radicals and Jacobins directly fulfills the international relationship.",
+      "evidence_ids": [
+        "EVID-E50DE8C6C520"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9781DCEACCA5",
+      "path_id": "PATH-249ABDDCE958",
+      "complete_heading_path": [
+        "Joseph II (Holy Roman Emperor)"
+      ],
+      "document_page": 159,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "159",
+      "evidence_summary": "Joseph II receives an explicit policy characterization and account of turmoil caused by reforms in Hungary and the southern Netherlands.",
+      "fit_rationale": "Joseph II receives an explicit policy characterization and account of turmoil caused by reforms in Hungary and the southern Netherlands.",
+      "evidence_ids": [
+        "EVID-9781DCEACCA5"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-C7F62FEF09E1",
+      "path_id": "PATH-249ABDDCE958",
+      "complete_heading_path": [
+        "Joseph II (Holy Roman Emperor)"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "Belgian resistance is directly attributed to Joseph II rationalizing policies in church and state.",
+      "fit_rationale": "Belgian resistance is directly attributed to Joseph II rationalizing policies in church and state.",
+      "evidence_ids": [
+        "EVID-C7F62FEF09E1"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-99C5FA57E3E1",
+      "path_id": "PATH-249ABDDCE958",
+      "complete_heading_path": [
+        "Joseph II (Holy Roman Emperor)"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "Joseph II demand for unlimited taxation and legislation, dissolution of estates and charter repudiation are described.",
+      "fit_rationale": "Joseph II demand for unlimited taxation and legislation, dissolution of estates and charter repudiation are described.",
+      "evidence_ids": [
+        "EVID-99C5FA57E3E1"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-009371A2E9A1",
+      "path_id": "PATH-249ABDDCE958",
+      "complete_heading_path": [
+        "Joseph II (Holy Roman Emperor)"
+      ],
+      "document_page": 163,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "163",
+      "evidence_summary": "Joseph II death and responsibility for the Belgian revolt are specified.",
+      "fit_rationale": "Joseph II death and responsibility for the Belgian revolt are specified.",
+      "evidence_ids": [
+        "EVID-009371A2E9A1"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-00F40E248BA0",
+      "path_id": "PATH-249ABDDCE958",
+      "complete_heading_path": [
+        "Joseph II (Holy Roman Emperor)"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "Joseph previous high-handed Belgian policy and Turkish war are identified as policies his successor reversed.",
+      "fit_rationale": "Joseph previous high-handed Belgian policy and Turkish war are identified as policies his successor reversed.",
+      "evidence_ids": [
+        "EVID-00F40E248BA0"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A5AAEDE00AA1",
+      "path_id": "PATH-4A2867DBF630",
+      "complete_heading_path": [
+        "Joyous Entry (Brabant)"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "The Joyous Entry is identified as a sworn charter of liberties renounced by Joseph II.",
+      "fit_rationale": "The Joyous Entry is identified as a sworn charter of liberties renounced by Joseph II.",
+      "evidence_ids": [
+        "EVID-A5AAEDE00AA1"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-8B71FD467F40",
+      "path_id": "PATH-4AD5777BCB2F",
+      "complete_heading_path": [
+        "Kant, Immanuel"
+      ],
+      "document_page": 160,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "160",
+      "evidence_summary": "Kant is specifically identified among thinkers enraptured by revolutionary news; the attributed reaction is useful biographical information.",
+      "fit_rationale": "Kant is specifically identified among thinkers enraptured by revolutionary news; the attributed reaction is useful biographical information.",
+      "evidence_ids": [
+        "EVID-8B71FD467F40"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F955B83C79FC",
+      "path_id": "PATH-507E5EC8AA09",
+      "complete_heading_path": [
+        "Koblenz"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Koblenz is the exile court and assembly centre for arriving emigres.",
+      "fit_rationale": "Koblenz is the exile court and assembly centre for arriving emigres.",
+      "evidence_ids": [
+        "EVID-F955B83C79FC"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4BEF543F338B",
+      "path_id": "PATH-49813E35777A",
+      "complete_heading_path": [
+        "Leopold II (Holy Roman Emperor)"
+      ],
+      "document_page": 163,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "163",
+      "evidence_summary": "Leopold succession, Tuscan participatory government and initial welcome for French reform receive direct explanation.",
+      "fit_rationale": "Leopold succession, Tuscan participatory government and initial welcome for French reform receive direct explanation.",
+      "evidence_ids": [
+        "EVID-4BEF543F338B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9448E343353E",
+      "path_id": "PATH-49813E35777A",
+      "complete_heading_path": [
+        "Leopold II (Holy Roman Emperor)"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "Leopold negotiations, Prussian accord and reconquest are directly explained.",
+      "fit_rationale": "Leopold negotiations, Prussian accord and reconquest are directly explained.",
+      "evidence_ids": [
+        "EVID-9448E343353E"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-876000B769FA",
+      "path_id": "PATH-49813E35777A",
+      "complete_heading_path": [
+        "Leopold II (Holy Roman Emperor)"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Leopold treats constitutional acceptance as ending the need to act on Pillnitz.",
+      "fit_rationale": "Leopold treats constitutional acceptance as ending the need to act on Pillnitz.",
+      "evidence_ids": [
+        "EVID-876000B769FA"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3AF4622F5D64",
+      "path_id": "PATH-A02867114BF8",
+      "complete_heading_path": [
+        "Liberty"
+      ],
+      "document_page": 160,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "160",
+      "evidence_summary": "Liberty is interpreted as the meaning of Bastille liberation and as an inspiring model for European reform.",
+      "fit_rationale": "Liberty is interpreted as the meaning of Bastille liberation and as an inspiring model for European reform.",
+      "evidence_ids": [
+        "EVID-3AF4622F5D64"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-01547C6FB39E",
+      "path_id": "PATH-65F05762E126",
+      "complete_heading_path": [
+        "London Corresponding Society"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "Hardy foundation of the London Corresponding Society and its aims are explicit.",
+      "fit_rationale": "Hardy foundation of the London Corresponding Society and its aims are explicit.",
+      "evidence_ids": [
+        "EVID-01547C6FB39E"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-E5A4C98198FD",
+      "path_id": "PATH-56830358E200",
+      "complete_heading_path": [
+        "Louis XVI"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "Louis XVI is credited with residence grants and pensions for approximately 1,500 Dutch refugee families.",
+      "fit_rationale": "Louis XVI is credited with residence grants and pensions for approximately 1,500 Dutch refugee families.",
+      "evidence_ids": [
+        "EVID-E5A4C98198FD"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-6FFBC187F0DB",
+      "path_id": "PATH-56830358E200",
+      "complete_heading_path": [
+        "Louis XVI"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "Louis XVI preference to honour the Spanish alliance, even at risk of war, supplies a concrete political decision.",
+      "fit_rationale": "Louis XVI preference to honour the Spanish alliance, even at risk of war, supplies a concrete political decision.",
+      "evidence_ids": [
+        "EVID-6FFBC187F0DB"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-8942E00DA5E9",
+      "path_id": "PATH-A95A72D42C3E",
+      "complete_heading_path": [
+        "Louis XVI",
+        "flight to Varennes"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "The king flight and ensuing indignities produce explicit international monarchical alarm.",
+      "fit_rationale": "The king flight and ensuing indignities produce explicit international monarchical alarm.",
+      "evidence_ids": [
+        "EVID-8942E00DA5E9"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3BACD7D3D7A0",
+      "path_id": "PATH-9B7C238DF1B2",
+      "complete_heading_path": [
+        "Mainz"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Mainz electoral territories are identified as a destination for emigres around Conde.",
+      "fit_rationale": "Mainz electoral territories are identified as a destination for emigres around Conde.",
+      "evidence_ids": [
+        "EVID-3BACD7D3D7A0"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7730D481794D",
+      "path_id": "PATH-8AF0FFD5A47C",
+      "complete_heading_path": [
+        "Mainz, Elector of"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "The elector territory provides the stated refuge for Conde and incoming emigres.",
+      "fit_rationale": "The elector territory provides the stated refuge for Conde and incoming emigres.",
+      "evidence_ids": [
+        "EVID-7730D481794D"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-135540994080",
+      "path_id": "PATH-08C1AAC1F40D",
+      "complete_heading_path": [
+        "manhood suffrage"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "Manhood suffrage is specifically an objective of the new radical societies.",
+      "fit_rationale": "Manhood suffrage is specifically an objective of the new radical societies.",
+      "evidence_ids": [
+        "EVID-135540994080"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0B7498786FFD",
+      "path_id": "PATH-E8C9CE45243B",
+      "complete_heading_path": [
+        "Marie Antoinette"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "absent",
+      "complete_path_fit": "no_fit",
+      "judgment": "unsupported",
+      "source_page_label": "164",
+      "evidence_summary": "Marie Antoinette does not occur in the complete destination; her distinct mention is on the next page.",
+      "fit_rationale": "Marie Antoinette does not occur in the complete destination; her distinct mention is on the next page.",
+      "evidence_ids": [
+        "EVID-0B7498786FFD"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-21E78797A3B7",
+      "path_id": "PATH-D6736A1D3BA7",
+      "complete_heading_path": [
+        "military dictatorship"
+      ],
+      "document_page": 168,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "168",
+      "evidence_summary": "Burke predicts a popular general acquiring personal military command and political mastery.",
+      "fit_rationale": "Burke predicts a popular general acquiring personal military command and political mastery.",
+      "evidence_ids": [
+        "EVID-21E78797A3B7"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-B5334E2BBB9F",
+      "path_id": "PATH-D7F6C1BBAF22",
+      "complete_heading_path": [
+        "monarchy",
+        "Ancien Régime"
+      ],
+      "document_page": 167,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "167",
+      "evidence_summary": "Burke appraisal of the old French monarchy, clergy, nobles and judiciary is directly supplied.",
+      "fit_rationale": "Burke appraisal of the old French monarchy, clergy, nobles and judiciary is directly supplied.",
+      "evidence_ids": [
+        "EVID-B5334E2BBB9F"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7286ABD72EDC",
+      "path_id": "PATH-66E399EAF7D8",
+      "complete_heading_path": [
+        "monarchy",
+        "constitutional monarchy (1789-92)"
+      ],
+      "document_page": 169,
+      "judgment": "supported",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "source_scope_status": "indexable",
+      "source_page_label": "169",
+      "evidence_summary": "Paine praises the French rational constitution while urging Britain to go further by abolishing monarchy; the current French constitutional regime is specifically evaluated.",
+      "fit_rationale": "Paine praises the French rational constitution while urging Britain to go further by abolishing monarchy; the current French constitutional regime is specifically evaluated.",
+      "evidence_ids": [
+        "EVID-7286ABD72EDC"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7F84935C41D9",
+      "path_id": "PATH-66E399EAF7D8",
+      "complete_heading_path": [
+        "monarchy",
+        "constitutional monarchy (1789-92)"
+      ],
+      "document_page": 172,
+      "source_page_label": "172",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": null,
+      "judgment": "semantic_unresolved",
+      "evidence_summary": "On source page 172, the destination provides independently useful treatment of the complete path “monarchy > constitutional monarchy (1789-92)” within its discussion of European censorship and the international impact of Varennes and French universalism.",
+      "evidence_ids": [
+        "EVID-7F84935C41D9"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none",
+      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
+      "axis_resolution": {
+        "treatment": "known",
+        "complete_path_fit": "unresolved",
+        "keep": "unresolved",
+        "inspection_completed": true,
+        "reason_category": "unresolved_referent",
+        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
+      }
+    },
+    {
+      "locator_id": "LOC-96241A6DBC2B",
+      "path_id": "PATH-F111A9BCD09C",
+      "complete_heading_path": [
+        "monarchy",
+        "historical perspectives and political theory"
+      ],
+      "document_page": 167,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "167",
+      "evidence_summary": "The page develops Burke historical and political-theoretical defence of monarchy.",
+      "fit_rationale": "The page develops Burke historical and political-theoretical defence of monarchy.",
+      "evidence_ids": [
+        "EVID-96241A6DBC2B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-78141E7659E4",
+      "path_id": "PATH-F111A9BCD09C",
+      "complete_heading_path": [
+        "monarchy",
+        "historical perspectives and political theory"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "Paine intergenerational sovereignty and argument for abolition supply direct political theory about monarchy.",
+      "fit_rationale": "Paine intergenerational sovereignty and argument for abolition supply direct political theory about monarchy.",
+      "evidence_ids": [
+        "EVID-78141E7659E4"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0F98E89069C6",
+      "path_id": "PATH-F111A9BCD09C",
+      "complete_heading_path": [
+        "monarchy",
+        "historical perspectives and political theory"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "European monarchs interpretation of the humiliation of monarchy provides historical perspective and political fears.",
+      "fit_rationale": "European monarchs interpretation of the humiliation of monarchy provides historical perspective and political fears.",
+      "evidence_ids": [
+        "EVID-0F98E89069C6"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-243064B37C34",
+      "path_id": "PATH-0E2EF28403D1",
+      "complete_heading_path": [
+        "National Assembly",
+        "foreign affairs and international impact"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "The National Assembly continued subsidies to Dutch exiles while pacific commitments and weakness limited foreign help.",
+      "fit_rationale": "The National Assembly continued subsidies to Dutch exiles while pacific commitments and weakness limited foreign help.",
+      "evidence_ids": [
+        "EVID-243064B37C34"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4673BA2BE648",
+      "path_id": "PATH-0E2EF28403D1",
+      "complete_heading_path": [
+        "National Assembly",
+        "foreign affairs and international impact"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "The Assembly taxation claim is explicitly juxtaposed with the opposite claim by Joseph II, within explanation of the diverging French and Belgian revolutions.",
+      "fit_rationale": "The Assembly taxation claim is explicitly juxtaposed with the opposite claim by Joseph II, within explanation of the diverging French and Belgian revolutions.",
+      "evidence_ids": [
+        "EVID-4673BA2BE648"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-00802329E28A",
+      "path_id": "PATH-0E2EF28403D1",
+      "complete_heading_path": [
+        "National Assembly",
+        "foreign affairs and international impact"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "The Assembly renunciation of offensive war and response to Spanish diplomatic demands supply institutional foreign-policy treatment.",
+      "fit_rationale": "The Assembly renunciation of offensive war and response to Spanish diplomatic demands supply institutional foreign-policy treatment.",
+      "evidence_ids": [
+        "EVID-00802329E28A"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-AA1AEEA2BB16",
+      "path_id": "PATH-0E2EF28403D1",
+      "complete_heading_path": [
+        "National Assembly",
+        "foreign affairs and international impact"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "passing_mention",
+      "complete_path_fit": "exact_fit",
+      "judgment": "unsupported",
+      "source_page_label": "170",
+      "evidence_summary": "Page 170 ends with the Assembly having voted in the; the action depriving German princes of rights is wholly on 171. Prior discussion of German opinion does not identify an Assembly action. The fragment resolves topic but cannot supply useful institutional treatment.",
+      "fit_rationale": "Page 170 ends with the Assembly having voted in the; the action depriving German princes of rights is wholly on 171. Prior discussion of German opinion does not identify an Assembly action. The fragment resolves topic but cannot supply useful institutional treatment.",
+      "evidence_ids": [
+        "EVID-AA1AEEA2BB16"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-2227ACB5B260",
+      "path_id": "PATH-0E2EF28403D1",
+      "complete_heading_path": [
+        "National Assembly",
+        "foreign affairs and international impact"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "The Assembly reception of Clootz international delegation and the exiles aims are explicit.",
+      "fit_rationale": "The Assembly reception of Clootz international delegation and the exiles aims are explicit.",
+      "evidence_ids": [
+        "EVID-2227ACB5B260"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2A77112CCA6E",
+      "path_id": "PATH-7E196168EBD7",
+      "complete_heading_path": [
+        "National Assembly",
+        "historical perspective and evaluation"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "The staged delegation and contrast between actors and genuine exiles supply the historian evaluation of the Assembly event.",
+      "fit_rationale": "The staged delegation and contrast between actors and genuine exiles supply the historian evaluation of the Assembly event.",
+      "evidence_ids": [
+        "EVID-2A77112CCA6E"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-B7668E04D1A4",
+      "path_id": "PATH-34B37908E2E5",
+      "complete_heading_path": [
+        "National Constituent Assembly"
+      ],
+      "document_page": 173,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "173",
+      "evidence_summary": "The Assembly disbelief in easy military revolution and final annexation of Avignon are specific political actions.",
+      "fit_rationale": "The Assembly disbelief in easy military revolution and final annexation of Avignon are specific political actions.",
+      "evidence_ids": [
+        "EVID-B7668E04D1A4"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4C7E9298F8B5",
+      "path_id": "PATH-B09690F1EEBF",
+      "complete_heading_path": [
+        "National Guard"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "Dutch exiles are specifically said to establish National Guard units by 1790, a concrete organizational fact.",
+      "fit_rationale": "Dutch exiles are specifically said to establish National Guard units by 1790, a concrete organizational fact.",
+      "evidence_ids": [
+        "EVID-4C7E9298F8B5"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D48104F94EDF",
+      "path_id": "PATH-7605F99DAB90",
+      "complete_heading_path": [
+        "Netherlands"
+      ],
+      "document_page": 159,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "159",
+      "evidence_summary": "The page supplies political turmoil in the southern Netherlands and extended Dutch political developments, giving useful regional treatment.",
+      "fit_rationale": "The page supplies political turmoil in the southern Netherlands and extended Dutch political developments, giving useful regional treatment.",
+      "evidence_ids": [
+        "EVID-D48104F94EDF"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3056EF7E753B",
+      "path_id": "PATH-7605F99DAB90",
+      "complete_heading_path": [
+        "Netherlands"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "The geographic distribution of Dutch refugees, including Austrian Netherlands and Liege, is useful regional political information.",
+      "fit_rationale": "The geographic distribution of Dutch refugees, including Austrian Netherlands and Liege, is useful regional political information.",
+      "evidence_ids": [
+        "EVID-3056EF7E753B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D8A3974C1E1C",
+      "path_id": "PATH-7605F99DAB90",
+      "complete_heading_path": [
+        "Netherlands"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "Dutch political exiles and their desired return through French assistance are directly identified.",
+      "fit_rationale": "Dutch political exiles and their desired return through French assistance are directly identified.",
+      "evidence_ids": [
+        "EVID-D8A3974C1E1C"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A4900E76689B",
+      "path_id": "PATH-A9BF804C4685",
+      "complete_heading_path": [
+        "nobility",
+        "abolition of"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "Paine urges peoples to follow France in abolishing nobility and titles, supplying a useful interpretation and advocacy of abolition.",
+      "fit_rationale": "Paine urges peoples to follow France in abolishing nobility and titles, supplying a useful interpretation and advocacy of abolition.",
+      "evidence_ids": [
+        "EVID-A4900E76689B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4C811D4DCCC3",
+      "path_id": "PATH-012669D1C7B3",
+      "complete_heading_path": [
+        "nobility",
+        "regional"
+      ],
+      "document_page": 163,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "163",
+      "evidence_summary": "The Belgian estates domination by great nobles and exclusion of petty nobles supplies regional noble differentiation.",
+      "fit_rationale": "The Belgian estates domination by great nobles and exclusion of petty nobles supplies regional noble differentiation.",
+      "evidence_ids": [
+        "EVID-4C811D4DCCC3"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F556DCE327D9",
+      "path_id": "PATH-012669D1C7B3",
+      "complete_heading_path": [
+        "nobility",
+        "regional"
+      ],
+      "document_page": 165,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "165",
+      "evidence_summary": "Polish noble monopoly, resistance to non-noble representation and constitutional privileges supply regional noble treatment.",
+      "fit_rationale": "Polish noble monopoly, resistance to non-noble representation and constitutional privileges supply regional noble treatment.",
+      "evidence_ids": [
+        "EVID-F556DCE327D9"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-BEB9526AE336",
+      "path_id": "PATH-CCB104C5BD2A",
+      "complete_heading_path": [
+        "nobility",
+        "theorists and critics of (Burke, Paine)"
+      ],
+      "document_page": 167,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "167",
+      "evidence_summary": "Burke praise of noble culture and landed interests directly fulfills the theorists category; its parenthetical names identify theorists rather than promise a simultaneous comparison.",
+      "fit_rationale": "Burke praise of noble culture and landed interests directly fulfills the theorists category; its parenthetical names identify theorists rather than promise a simultaneous comparison.",
+      "evidence_ids": [
+        "EVID-BEB9526AE336"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7B0BBE4BC59A",
+      "path_id": "PATH-CCB104C5BD2A",
+      "complete_heading_path": [
+        "nobility",
+        "theorists and critics of (Burke, Paine)"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "Paine call to abolish noble titles and criticism of Burke admiration supply direct critical treatment.",
+      "fit_rationale": "Paine call to abolish noble titles and criticism of Burke admiration supply direct critical treatment.",
+      "evidence_ids": [
+        "EVID-7B0BBE4BC59A"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-BAA8F49B11B3",
+      "path_id": "PATH-ADC82F1656CB",
+      "complete_heading_path": [
+        "Nootka Sound Incident"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "The Nootka Sound confrontation origin and diplomatic consequences are directly explained.",
+      "fit_rationale": "The Nootka Sound confrontation origin and diplomatic consequences are directly explained.",
+      "evidence_ids": [
+        "EVID-BAA8F49B11B3"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-41665707EA36",
+      "path_id": "PATH-4078D9FDECBB",
+      "complete_heading_path": [
+        "October Days"
+      ],
+      "document_page": 167,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "167",
+      "evidence_summary": "Price interpretation of the king surrendering to subjects provides a useful attributed view of the October Days.",
+      "fit_rationale": "Price interpretation of the king surrendering to subjects provides a useful attributed view of the October Days.",
+      "evidence_ids": [
+        "EVID-41665707EA36"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F5CF32F3F4D6",
+      "path_id": "PATH-4078D9FDECBB",
+      "complete_heading_path": [
+        "October Days"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "Paine explanation of the October Days as a rights movement supplies useful attributed interpretation.",
+      "fit_rationale": "Paine explanation of the October Days as a rights movement supplies useful attributed interpretation.",
+      "evidence_ids": [
+        "EVID-F5CF32F3F4D6"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-409B3D88D297",
+      "path_id": "PATH-76F8324260F5",
+      "complete_heading_path": [
+        "Paine, Thomas"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "Paine argument, activities and influence receive sustained treatment.",
+      "fit_rationale": "Paine argument, activities and influence receive sustained treatment.",
+      "evidence_ids": [
+        "EVID-409B3D88D297"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-CE0F218FEDF8",
+      "path_id": "PATH-FCF7D41F4C1C",
+      "complete_heading_path": [
+        "Paris"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "Paris is treated as the new political centre whose regime might reverse the earlier support for Genevan oligarchy, beyond a bare location name.",
+      "fit_rationale": "Paris is treated as the new political centre whose regime might reverse the earlier support for Genevan oligarchy, beyond a bare location name.",
+      "evidence_ids": [
+        "EVID-CE0F218FEDF8"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-52F71AF46FC1",
+      "path_id": "PATH-C5DD4C116A93",
+      "complete_heading_path": [
+        "parliamentary reform (England)"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "Seat redistribution, shorter parliaments and franchise expansion are directly identified as reform demands.",
+      "fit_rationale": "Seat redistribution, shorter parliaments and franchise expansion are directly identified as reform demands.",
+      "evidence_ids": [
+        "EVID-52F71AF46FC1"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A2624DFCD06D",
+      "path_id": "PATH-D27D185AF8F1",
+      "complete_heading_path": [
+        "Partition of Poland"
+      ],
+      "document_page": 165,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "165",
+      "evidence_summary": "The 1772 partition participants and loss of one third of territory and population are specified.",
+      "fit_rationale": "The 1772 partition participants and loss of one third of territory and population are specified.",
+      "evidence_ids": [
+        "EVID-A2624DFCD06D"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-AB3B6A375B05",
+      "path_id": "PATH-E57804506A82",
+      "complete_heading_path": [
+        "Patriots (Dutch Republic)"
+      ],
+      "document_page": 159,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "159",
+      "evidence_summary": "The Patriots aims, French promises, Orangist alliance contest and defeat receive direct explanation.",
+      "fit_rationale": "The Patriots aims, French promises, Orangist alliance contest and defeat receive direct explanation.",
+      "evidence_ids": [
+        "EVID-AB3B6A375B05"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-22B344946763",
+      "path_id": "PATH-E57804506A82",
+      "complete_heading_path": [
+        "Patriots (Dutch Republic)"
+      ],
+      "document_page": 160,
+      "judgment": "unsupported",
+      "treatment_class": "passing_mention",
+      "complete_path_fit": "exact_fit",
+      "source_scope_status": "indexable",
+      "source_page_label": "160",
+      "evidence_summary": "The continuation concerns foreign reaction to French weakness, not a new useful fact about the Dutch Patriot movement. Retain passing treatment and exact referential fit.",
+      "fit_rationale": "The continuation concerns foreign reaction to French weakness, not a new useful fact about the Dutch Patriot movement. Retain passing treatment and exact referential fit.",
+      "evidence_ids": [
+        "EVID-22B344946763"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-8FCB205DC121",
+      "path_id": "PATH-E57804506A82",
+      "complete_heading_path": [
+        "Patriots (Dutch Republic)"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "Patriots in exile receive pensions, form clubs and Guard units, and face limits on French military assistance.",
+      "fit_rationale": "Patriots in exile receive pensions, form clubs and Guard units, and face limits on French military assistance.",
+      "evidence_ids": [
+        "EVID-8FCB205DC121"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-ADA151DAC0F9",
+      "path_id": "PATH-ED9C39BD03D2",
+      "complete_heading_path": [
+        "Peace of Westphalia"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Westphalia guarantees are identified as the rights infringed by revolutionary feudal abolition.",
+      "fit_rationale": "Westphalia guarantees are identified as the rights infringed by revolutionary feudal abolition.",
+      "evidence_ids": [
+        "EVID-ADA151DAC0F9"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-49108FB9E4EE",
+      "path_id": "PATH-E4E57ECB292B",
+      "complete_heading_path": [
+        "Pétion de Villeneuve, Jérôme"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "Petion visit as Paine guest of honour at the Revolution Society is a specific biographical fact.",
+      "fit_rationale": "Petion visit as Paine guest of honour at the Revolution Society is a specific biographical fact.",
+      "evidence_ids": [
+        "EVID-49108FB9E4EE"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-8AD4C8F3BCC2",
+      "path_id": "PATH-F64F7B6A582E",
+      "complete_heading_path": [
+        "Pillnitz, Declaration of"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Pillnitz practical aftermath and lack of monarchical follow-through are explained.",
+      "fit_rationale": "Pillnitz practical aftermath and lack of monarchical follow-through are explained.",
+      "evidence_ids": [
+        "EVID-8AD4C8F3BCC2"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-EA8D7845F062",
+      "path_id": "PATH-DB0CF5B4FB60",
+      "complete_heading_path": [
+        "Pitt, William (the Younger)"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "Pitt failed parliamentary reform bill is identified as a cause of movement decline.",
+      "fit_rationale": "Pitt failed parliamentary reform bill is identified as a cause of movement decline.",
+      "evidence_ids": [
+        "EVID-EA8D7845F062"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2D4CC37EC89B",
+      "path_id": "PATH-DB0CF5B4FB60",
+      "complete_heading_path": [
+        "Pitt, William (the Younger)"
+      ],
+      "document_page": 168,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "168",
+      "evidence_summary": "Pitt 1790 electoral victory is a specific event linked to faltering reform.",
+      "fit_rationale": "Pitt 1790 electoral victory is a specific event linked to faltering reform.",
+      "evidence_ids": [
+        "EVID-2D4CC37EC89B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-0AE395737A83",
+      "path_id": "PATH-9303575171AF",
+      "complete_heading_path": [
+        "Poland"
+      ],
+      "document_page": 165,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "165",
+      "evidence_summary": "Polish independence, noble political monopoly and constitutional conflict receive sustained explanation.",
+      "fit_rationale": "Polish independence, noble political monopoly and constitutional conflict receive sustained explanation.",
+      "evidence_ids": [
+        "EVID-0AE395737A83"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-5875D3B90404",
+      "path_id": "PATH-9303575171AF",
+      "complete_heading_path": [
+        "Poland"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "The Polish constitution passage and Russian response provide direct treatment.",
+      "fit_rationale": "The Polish constitution passage and Russian response provide direct treatment.",
+      "evidence_ids": [
+        "EVID-5875D3B90404"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-6646F5BDC968",
+      "path_id": "PATH-9303575171AF",
+      "complete_heading_path": [
+        "Poland"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Catherine prioritizes restoring control over Poland and redirects international diplomacy accordingly.",
+      "fit_rationale": "Catherine prioritizes restoring control over Poland and redirects international diplomacy accordingly.",
+      "evidence_ids": [
+        "EVID-6646F5BDC968"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-B66D49A850FA",
+      "path_id": "PATH-04EA019CAC73",
+      "complete_heading_path": [
+        "political clubs",
+        "international and foreign societies"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "British societies, their international correspondence and growth receive explicit treatment.",
+      "fit_rationale": "British societies, their international correspondence and growth receive explicit treatment.",
+      "evidence_ids": [
+        "EVID-B66D49A850FA"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-8D0267A3840A",
+      "path_id": "PATH-8E1B67536FED",
+      "complete_heading_path": [
+        "Price, Richard"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "Richard Price is identified as a leading dissenting minister whose intervention prompted Burke; the useful predicate is on this page.",
+      "fit_rationale": "Richard Price is identified as a leading dissenting minister whose intervention prompted Burke; the useful predicate is on this page.",
+      "evidence_ids": [
+        "EVID-8D0267A3840A"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-12207E8E0BB7",
+      "path_id": "PATH-8E1B67536FED",
+      "complete_heading_path": [
+        "Price, Richard"
+      ],
+      "document_page": 167,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "167",
+      "evidence_summary": "Price sermon contrasts French and British liberty and interprets the October Days.",
+      "fit_rationale": "Price sermon contrasts French and British liberty and interprets the October Days.",
+      "evidence_ids": [
+        "EVID-12207E8E0BB7"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-52C7ED93F066",
+      "path_id": "PATH-042E1AE6933C",
+      "complete_heading_path": [
+        "Priestley, Joseph"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "Priestley home is attacked during the Birmingham riot, with his dissenting affiliation specified.",
+      "fit_rationale": "Priestley home is attacked during the Birmingham riot, with his dissenting affiliation specified.",
+      "evidence_ids": [
+        "EVID-52C7ED93F066"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F69374C363A5",
+      "path_id": "PATH-B99CD9720A01",
+      "complete_heading_path": [
+        "Pro Aris et Focis"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "The organization founding, slogan, church funding and armed intervention are directly explained.",
+      "fit_rationale": "The organization founding, slogan, church funding and armed intervention are directly explained.",
+      "evidence_ids": [
+        "EVID-F69374C363A5"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-34D924032B83",
+      "path_id": "PATH-59F34776B0E9",
+      "complete_heading_path": [
+        "Provence"
+      ],
+      "document_page": 171,
+      "source_page_label": "171",
+      "source_scope_status": "indexable",
+      "treatment_class": "mixed",
+      "complete_path_fit": null,
+      "judgment": "semantic_unresolved",
+      "evidence_summary": "On source page 171, the destination provides independently useful treatment of the complete path “Provence” within its discussion of emigre organization in Germany, monarchical policy, and Spanish censorship.",
+      "evidence_ids": [
+        "EVID-34D924032B83"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none",
+      "fit_rationale": "Preserve the addendum’s explicit useful source treatment and established source entity. Neither a geographic default nor a personal default resolves the mixed literal heading. The no-fit interpretation is unsupported/keep0; the exact-fit interpretation is supported/keep1.",
+      "axis_resolution": {
+        "treatment": "known",
+        "complete_path_fit": "unresolved",
+        "keep": "unresolved",
+        "inspection_completed": true,
+        "reason_category": "unresolved_referent",
+        "rationale": "Preserve the addendum’s explicit useful source treatment and established source entity. Neither a geographic default nor a personal default resolves the mixed literal heading. The no-fit interpretation is unsupported/keep0; the exact-fit interpretation is supported/keep1."
+      }
+    },
+    {
+      "locator_id": "LOC-1ED468068559",
+      "path_id": "PATH-48D3B7938E2F",
+      "complete_heading_path": [
+        "Prussia"
+      ],
+      "document_page": 160,
+      "judgment": "unsupported",
+      "treatment_class": "incidental_example",
+      "complete_path_fit": "no_fit",
+      "source_scope_status": "indexable",
+      "source_page_label": "160",
+      "evidence_summary": "Prussia is only Clootz nationality descriptor. Retain the authored country-topic no-fit decision; no useful country treatment is supplied.",
+      "fit_rationale": "Prussia is only Clootz nationality descriptor. Retain the authored country-topic no-fit decision; no useful country treatment is supplied.",
+      "evidence_ids": [
+        "EVID-1ED468068559"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "HED"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-04461B9D8C4A",
+      "path_id": "PATH-D730DCDAA7BF",
+      "complete_heading_path": [
+        "Prussia",
+        "intervention in Dutch Republic (1787)"
+      ],
+      "document_page": 159,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "159",
+      "evidence_summary": "The page identifies the September 1787 Prussian invasion and destruction of the Dutch movement, fulfilling the dated intervention path.",
+      "fit_rationale": "The page identifies the September 1787 Prussian invasion and destruction of the Dutch movement, fulfilling the dated intervention path.",
+      "evidence_ids": [
+        "EVID-04461B9D8C4A"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-FAE51F2F6151",
+      "path_id": "PATH-8AF5308832C0",
+      "complete_heading_path": [
+        "Prussia",
+        "Revolutionary Wars",
+        "Declaration of Pillnitz"
+      ],
+      "document_page": 171,
+      "judgment": "partially_supported",
+      "treatment_class": "mixed",
+      "complete_path_fit": "material_partial_fit",
+      "source_scope_status": "indexable",
+      "source_page_label": "171",
+      "evidence_summary": "Prussia is urged to move against France in the Pillnitz aftermath, but its own specific declaration role is not fully developed. Retain mixed partial fit.",
+      "fit_rationale": "Prussia is urged to move against France in the Pillnitz aftermath, but its own specific declaration role is not fully developed. Retain mixed partial fit.",
+      "evidence_ids": [
+        "EVID-FAE51F2F6151"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "HED"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-9351DFA4C431",
+      "path_id": "PATH-3E377A83B7B2",
+      "complete_heading_path": [
+        "Radischev, Alexander"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "Radischev book, ideas, prosecution and sentence are directly explained.",
+      "fit_rationale": "Radischev book, ideas, prosecution and sentence are directly explained.",
+      "evidence_ids": [
+        "EVID-9351DFA4C431"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-E26E5C8AC6EC",
+      "path_id": "PATH-DAF76B2156A8",
+      "complete_heading_path": [
+        "reading rooms"
+      ],
+      "document_page": 160,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "160",
+      "evidence_summary": "Reading rooms are described as places Europeans crowded for revolutionary news, supplying a concrete social function.",
+      "fit_rationale": "Reading rooms are described as places Europeans crowded for revolutionary news, supplying a concrete social function.",
+      "evidence_ids": [
+        "EVID-E26E5C8AC6EC"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4BE9607DDB74",
+      "path_id": "PATH-67F6FFB32A12",
+      "complete_heading_path": [
+        "Reflections on the Revolution in France (Burke)"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "Publication date, impact and political motivation of the Reflections are supplied.",
+      "fit_rationale": "Publication date, impact and political motivation of the Reflections are supplied.",
+      "evidence_ids": [
+        "EVID-4BE9607DDB74"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-BBFA35D6E901",
+      "path_id": "PATH-67F6FFB32A12",
+      "complete_heading_path": [
+        "Reflections on the Revolution in France (Burke)"
+      ],
+      "document_page": 167,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "167",
+      "evidence_summary": "The pamphlet argument and representative passages are treated in detail.",
+      "fit_rationale": "The pamphlet argument and representative passages are treated in detail.",
+      "evidence_ids": [
+        "EVID-BBFA35D6E901"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-7BD23ACB646C",
+      "path_id": "PATH-67F6FFB32A12",
+      "complete_heading_path": [
+        "Reflections on the Revolution in France (Burke)"
+      ],
+      "document_page": 168,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "168",
+      "evidence_summary": "The Reflections arguments and its effect on reformers receive direct explanation.",
+      "fit_rationale": "The Reflections arguments and its effect on reformers receive direct explanation.",
+      "evidence_ids": [
+        "EVID-7BD23ACB646C"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-998D52EAF77D",
+      "path_id": "PATH-67F6FFB32A12",
+      "complete_heading_path": [
+        "Reflections on the Revolution in France (Burke)"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "Burke book is evaluated through Paine rebuttal and comparative sales figures.",
+      "fit_rationale": "Burke book is evaluated through Paine rebuttal and comparative sales figures.",
+      "evidence_ids": [
+        "EVID-998D52EAF77D"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-BCA5821FE3AE",
+      "path_id": "PATH-8B9B963DEB7A",
+      "complete_heading_path": [
+        "Reform",
+        "international movements and influence"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "The page compares reform goals across France, Belgium and the Dutch movement and identifies diffusion of political examples.",
+      "fit_rationale": "The page compares reform goals across France, Belgium and the Dutch movement and identifies diffusion of political examples.",
+      "evidence_ids": [
+        "EVID-BCA5821FE3AE"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-403DBF50DCA3",
+      "path_id": "PATH-F0574765D19E",
+      "complete_heading_path": [
+        "Revolution of 1789",
+        "international impact and legacy"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "British enthusiasm and renewed hopes among Dutch and Genevan exiles explicitly establish international revolutionary impact.",
+      "fit_rationale": "British enthusiasm and renewed hopes among Dutch and Genevan exiles explicitly establish international revolutionary impact.",
+      "evidence_ids": [
+        "EVID-403DBF50DCA3"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-92C9354935D0",
+      "path_id": "PATH-23189C6DE9EC",
+      "complete_heading_path": [
+        "Revolution Society (Great Britain)"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "The Revolution Society purpose and dissenting support are directly explained.",
+      "fit_rationale": "The Revolution Society purpose and dissenting support are directly explained.",
+      "evidence_ids": [
+        "EVID-92C9354935D0"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2E132CF6E86D",
+      "path_id": "PATH-23189C6DE9EC",
+      "complete_heading_path": [
+        "Revolution Society (Great Britain)"
+      ],
+      "document_page": 167,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "167",
+      "evidence_summary": "The Society sponsorship and date of the influential Price sermon are supplied.",
+      "fit_rationale": "The Society sponsorship and date of the influential Price sermon are supplied.",
+      "evidence_ids": [
+        "EVID-2E132CF6E86D"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-FCB10509C9CB",
+      "path_id": "PATH-23189C6DE9EC",
+      "complete_heading_path": [
+        "Revolution Society (Great Britain)"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "The Society hosts Petion and participates in international radical relations.",
+      "fit_rationale": "The Society hosts Petion and participates in international radical relations.",
+      "evidence_ids": [
+        "EVID-FCB10509C9CB"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-5291FCC67F19",
+      "path_id": "PATH-824D2346AA69",
+      "complete_heading_path": [
+        "revolutionaries"
+      ],
+      "document_page": 165,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "165",
+      "evidence_summary": "French revolutionaries rejection of dynastic diplomacy and fears of foreign conspiracy are explicit political attitudes.",
+      "fit_rationale": "French revolutionaries rejection of dynastic diplomacy and fears of foreign conspiracy are explicit political attitudes.",
+      "evidence_ids": [
+        "EVID-5291FCC67F19"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-8A6522F33599",
+      "path_id": "PATH-1E68EBAAE974",
+      "complete_heading_path": [
+        "Rights of Man (Paine)"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "The book arguments, publication and sales are directly explained.",
+      "fit_rationale": "The book arguments, publication and sales are directly explained.",
+      "evidence_ids": [
+        "EVID-8A6522F33599"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2019468DE580",
+      "path_id": "PATH-1E68EBAAE974",
+      "complete_heading_path": [
+        "Rights of Man (Paine)"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "The second part and its role in organizing corresponding societies are explained.",
+      "fit_rationale": "The second part and its role in organizing corresponding societies are explained.",
+      "evidence_ids": [
+        "EVID-2019468DE580"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-B6F3163F680B",
+      "path_id": "PATH-2E5DE946D742",
+      "complete_heading_path": [
+        "rule of law"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "Rule of law is specifically identified as a result of the British constitutional settlement and a basis for comparing French freedom.",
+      "fit_rationale": "Rule of law is specifically identified as a result of the British constitutional settlement and a basis for comparing French freedom.",
+      "evidence_ids": [
+        "EVID-B6F3163F680B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-E310D14897B9",
+      "path_id": "PATH-F64066EFD844",
+      "complete_heading_path": [
+        "serfdom"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "Criticism of serfdom is identified as a central element of Radischev book provoking repression.",
+      "fit_rationale": "Criticism of serfdom is identified as a central element of Radischev book provoking repression.",
+      "evidence_ids": [
+        "EVID-E310D14897B9"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F9C701C2DC54",
+      "path_id": "PATH-144D6DFD5B67",
+      "complete_heading_path": [
+        "Sheffield Constitutional Society"
+      ],
+      "document_page": 169,
+      "judgment": "unsupported",
+      "treatment_class": "absent",
+      "complete_path_fit": "no_fit",
+      "source_scope_status": "indexable",
+      "source_page_label": "169",
+      "evidence_summary": "Sheffield is not in the complete page; the separate founding sentence on 170 cannot be moved back to generic reform societies on 169.",
+      "fit_rationale": "Sheffield is not in the complete page; the separate founding sentence on 170 cannot be moved back to generic reform societies on 169.",
+      "evidence_ids": [
+        "EVID-F9C701C2DC54"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-1ECE32EB7DF9",
+      "path_id": "PATH-144D6DFD5B67",
+      "complete_heading_path": [
+        "Sheffield Constitutional Society"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "Sheffield society founders, aims and membership growth are directly supplied.",
+      "fit_rationale": "Sheffield society founders, aims and membership growth are directly supplied.",
+      "evidence_ids": [
+        "EVID-1ECE32EB7DF9"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-94F2E343CCC8",
+      "path_id": "PATH-2843F94AD042",
+      "complete_heading_path": [
+        "Spain"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "Spanish territorial claims, naval confrontation and appeal to the Family Compact are described.",
+      "fit_rationale": "Spanish territorial claims, naval confrontation and appeal to the Family Compact are described.",
+      "evidence_ids": [
+        "EVID-94F2E343CCC8"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-A6F0C756C074",
+      "path_id": "PATH-2843F94AD042",
+      "complete_heading_path": [
+        "Spain"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "Spanish censorship, border closure and registration measures are specific state actions.",
+      "fit_rationale": "Spanish censorship, border closure and registration measures are specific state actions.",
+      "evidence_ids": [
+        "EVID-A6F0C756C074"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-217D2EA3B14B",
+      "path_id": "PATH-F9F7B0E39C47",
+      "complete_heading_path": [
+        "Storming of the Bastille",
+        "anniversaries and commemorations"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "British banquets on the second anniversary and their political meaning are directly described.",
+      "fit_rationale": "British banquets on the second anniversary and their political meaning are directly described.",
+      "evidence_ids": [
+        "EVID-217D2EA3B14B"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F67516A052A3",
+      "path_id": "PATH-B6DCA1906BD5",
+      "complete_heading_path": [
+        "Storming of the Bastille",
+        "impact and significance"
+      ],
+      "document_page": 160,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "160",
+      "evidence_summary": "The storming is interpreted as the overthrow of despotism and spark for European enthusiasm.",
+      "fit_rationale": "The storming is interpreted as the overthrow of despotism and spark for European enthusiasm.",
+      "evidence_ids": [
+        "EVID-F67516A052A3"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-761D182CF09D",
+      "path_id": "PATH-B6DCA1906BD5",
+      "complete_heading_path": [
+        "Storming of the Bastille",
+        "impact and significance"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "Fox reaction and British public joy directly explain the international significance of the storming.",
+      "fit_rationale": "Fox reaction and British public joy directly explain the international significance of the storming.",
+      "evidence_ids": [
+        "EVID-761D182CF09D"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9442E9E66786",
+      "path_id": "PATH-B6DCA1906BD5",
+      "complete_heading_path": [
+        "Storming of the Bastille",
+        "impact and significance"
+      ],
+      "document_page": 166,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "166",
+      "evidence_summary": "Initial Bastille enthusiasm is contrasted with later European dismay and weak anniversary interest.",
+      "fit_rationale": "Initial Bastille enthusiasm is contrasted with later European dismay and weak anniversary interest.",
+      "evidence_ids": [
+        "EVID-9442E9E66786"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-86DDAE0DF624",
+      "path_id": "PATH-B6DCA1906BD5",
+      "complete_heading_path": [
+        "Storming of the Bastille",
+        "impact and significance"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "Paine uses the Bastille in a political defence of rights; British anniversary enthusiasm adds international significance.",
+      "fit_rationale": "Paine uses the Bastille in a political defence of rights; British anniversary enthusiasm adds international significance.",
+      "evidence_ids": [
+        "EVID-86DDAE0DF624"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-BD8C3EC16800",
+      "path_id": "PATH-5E9EC41E1A2C",
+      "complete_heading_path": [
+        "Stroganov, Count"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "The continuous quotation identifies Stroganov and his hope to see a similar Russian revolution; the wished-for consequence is on this page.",
+      "fit_rationale": "The continuous quotation identifies Stroganov and his hope to see a similar Russian revolution; the wished-for consequence is on this page.",
+      "evidence_ids": [
+        "EVID-BD8C3EC16800"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-11D85C3B33C5",
+      "path_id": "PATH-1F53C3D3ED33",
+      "complete_heading_path": [
+        "taxation",
+        "in occupied territories"
+      ],
+      "document_page": 162,
+      "judgment": "unsupported",
+      "treatment_class": "substantive",
+      "complete_path_fit": "material_mismatch",
+      "source_scope_status": "indexable",
+      "source_page_label": "162",
+      "evidence_summary": "Joseph II taxes as established sovereign, rather than military occupier. The occupied-territory qualifier remains materially mismatched.",
+      "fit_rationale": "Joseph II taxes as established sovereign, rather than military occupier. The occupied-territory qualifier remains materially mismatched.",
+      "evidence_ids": [
+        "EVID-11D85C3B33C5"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "HED"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-208E9973083E",
+      "path_id": "PATH-76C4FBF7221B",
+      "complete_heading_path": [
+        "Third Estate"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "The Third Estate proclamation as National Assembly and exclusive taxing claim are stated as a specific constitutional act.",
+      "fit_rationale": "The Third Estate proclamation as National Assembly and exclusive taxing claim are stated as a specific constitutional act.",
+      "evidence_ids": [
+        "EVID-208E9973083E"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-B52F920D32DF",
+      "path_id": "PATH-91B40D02741F",
+      "complete_heading_path": [
+        "Tone, Theobald Wolfe"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "Tone visit and observation about Belfast political reading are directly supplied.",
+      "fit_rationale": "Tone visit and observation about Belfast political reading are directly supplied.",
+      "evidence_ids": [
+        "EVID-B52F920D32DF"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-1BDBE8AF527C",
+      "path_id": "PATH-BC4FB0CF93A8",
+      "complete_heading_path": [
+        "Trier, Elector of"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "The Trier prince-archbishop relation to Artois and his capital role as exile refuge are supplied.",
+      "fit_rationale": "The Trier prince-archbishop relation to Artois and his capital role as exile refuge are supplied.",
+      "evidence_ids": [
+        "EVID-1BDBE8AF527C"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-2A1181EB1001",
+      "path_id": "PATH-080BDC7DCA40",
+      "complete_heading_path": [
+        "Turin"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Turin is identified as the previous location of Artois exile court, moved in January 1791.",
+      "fit_rationale": "Turin is identified as the previous location of Artois exile court, moved in January 1791.",
+      "evidence_ids": [
+        "EVID-2A1181EB1001"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-4D1E13C8EF85",
+      "path_id": "PATH-3491117363AD",
+      "complete_heading_path": [
+        "Tuscany"
+      ],
+      "document_page": 163,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "163",
+      "evidence_summary": "Leopold rule of Tuscany since 1765 is characterized by cooperation and participation of his subjects.",
+      "fit_rationale": "Leopold rule of Tuscany since 1765 is characterized by cooperation and participation of his subjects.",
+      "evidence_ids": [
+        "EVID-4D1E13C8EF85"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-636077BD5727",
+      "path_id": "PATH-E00F4FE6A458",
+      "complete_heading_path": [
+        "Ulster"
+      ],
+      "document_page": 169,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "169",
+      "evidence_summary": "Tone report of the Rights of Man popularity in Belfast supplies a concrete regional reception fact.",
+      "fit_rationale": "Tone report of the Rights of Man popularity in Belfast supplies a concrete regional reception fact.",
+      "evidence_ids": [
+        "EVID-636077BD5727"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-FB1256EEAD4C",
+      "path_id": "PATH-6D33CAD8FC2E",
+      "complete_heading_path": [
+        "United States of Belgium"
+      ],
+      "document_page": 163,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "163",
+      "evidence_summary": "The United States of Belgium declaration, provincial structure and internal political contest are explained.",
+      "fit_rationale": "The United States of Belgium declaration, provincial structure and internal political contest are explained.",
+      "evidence_ids": [
+        "EVID-FB1256EEAD4C"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-D2D07E584431",
+      "path_id": "PATH-6D33CAD8FC2E",
+      "complete_heading_path": [
+        "United States of Belgium"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "The state military defeat and duration of less than a year are directly stated.",
+      "fit_rationale": "The state military defeat and duration of less than a year are directly stated.",
+      "evidence_ids": [
+        "EVID-D2D07E584431"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-E7C22359E952",
+      "path_id": "PATH-4CD5578102F0",
+      "complete_heading_path": [
+        "Van der Noot, Henri"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "Van der Noot leadership, exile, foreign lobbying and eventual invasion are directly described.",
+      "fit_rationale": "Van der Noot leadership, exile, foreign lobbying and eventual invasion are directly described.",
+      "evidence_ids": [
+        "EVID-E7C22359E952"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-3D93C58B2DCB",
+      "path_id": "PATH-4CD5578102F0",
+      "complete_heading_path": [
+        "Van der Noot, Henri"
+      ],
+      "document_page": 163,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "163",
+      "evidence_summary": "Van der Noot is described as first minister defending established clerical and noble power against French reforms.",
+      "fit_rationale": "Van der Noot is described as first minister defending established clerical and noble power against French reforms.",
+      "evidence_ids": [
+        "EVID-3D93C58B2DCB"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-98F92178D876",
+      "path_id": "PATH-4CD5578102F0",
+      "complete_heading_path": [
+        "Van der Noot, Henri"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "Van der Noot flight to Holland and failure to attract French sympathy are specific facts.",
+      "fit_rationale": "Van der Noot flight to Holland and failure to attract French sympathy are specific facts.",
+      "evidence_ids": [
+        "EVID-98F92178D876"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-93678722D2F2",
+      "path_id": "PATH-EB02DA5B5EDC",
+      "complete_heading_path": [
+        "Varennes, Flight to"
+      ],
+      "document_page": 170,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "170",
+      "evidence_summary": "Varennes is linked to British royalist sentiment and popularity of God Save the King, an explicit consequence.",
+      "fit_rationale": "Varennes is linked to British royalist sentiment and popularity of God Save the King, an explicit consequence.",
+      "evidence_ids": [
+        "EVID-93678722D2F2"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9EDE9EBF3980",
+      "path_id": "PATH-EB02DA5B5EDC",
+      "complete_heading_path": [
+        "Varennes, Flight to"
+      ],
+      "document_page": 171,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "171",
+      "evidence_summary": "Varennes triggers emigration and directly involves Gustavus and Fersen diplomacy.",
+      "fit_rationale": "Varennes triggers emigration and directly involves Gustavus and Fersen diplomacy.",
+      "evidence_ids": [
+        "EVID-9EDE9EBF3980"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-AF6EB4737830",
+      "path_id": "PATH-EB02DA5B5EDC",
+      "complete_heading_path": [
+        "Varennes, Flight to"
+      ],
+      "document_page": 172,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "172",
+      "evidence_summary": "The flight consequences for European alarm and radical exiles are explained.",
+      "fit_rationale": "The flight consequences for European alarm and radical exiles are explained.",
+      "evidence_ids": [
+        "EVID-AF6EB4737830"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9ED6D8C341C9",
+      "path_id": "PATH-B022FC9C85D2",
+      "complete_heading_path": [
+        "Vergennes, Charles Gravier, comte de"
+      ],
+      "document_page": 159,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "159",
+      "evidence_summary": "Vergennes is contrasted as a supporter of foreign rebels and authoritarian at home; his death and subsequent French crisis are specified.",
+      "fit_rationale": "Vergennes is contrasted as a supporter of foreign rebels and authoritarian at home; his death and subsequent French crisis are specified.",
+      "evidence_ids": [
+        "EVID-9ED6D8C341C9"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-79362EB7DE5A",
+      "path_id": "PATH-75451FDD1AA1",
+      "complete_heading_path": [
+        "Versailles"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "incidental_example",
+      "complete_path_fit": "exact_fit",
+      "judgment": "unsupported",
+      "source_page_label": "162",
+      "evidence_summary": "Versailles only locates the Third Estate proclamation. The page does not provide a useful fact about Versailles itself; the prior substantive treatment cannot be reused unchanged.",
+      "fit_rationale": "Versailles only locates the Third Estate proclamation. The page does not provide a useful fact about Versailles itself; the prior substantive treatment cannot be reused unchanged.",
+      "evidence_ids": [
+        "EVID-79362EB7DE5A"
+      ],
+      "confidence": "high",
+      "error_codes": [
+        "LOC_POS"
+      ],
+      "severity": "minor"
+    },
+    {
+      "locator_id": "LOC-7A0141A9500D",
+      "path_id": "PATH-87BA5625A4F4",
+      "complete_heading_path": [
+        "Vonck, Jan Frans"
+      ],
+      "document_page": 162,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "162",
+      "evidence_summary": "Vonck is identified as founder of Pro Aris et Focis and organizer with Van der Noot of the October invasion.",
+      "fit_rationale": "Vonck is identified as founder of Pro Aris et Focis and organizer with Van der Noot of the October invasion.",
+      "evidence_ids": [
+        "EVID-7A0141A9500D"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-6E181FA159C6",
+      "path_id": "PATH-87BA5625A4F4",
+      "complete_heading_path": [
+        "Vonck, Jan Frans"
+      ],
+      "document_page": 163,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "163",
+      "evidence_summary": "Vonck constitutional programme, persecution and flight are directly described.",
+      "fit_rationale": "Vonck constitutional programme, persecution and flight are directly described.",
+      "evidence_ids": [
+        "EVID-6E181FA159C6"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-BAB72BF95E46",
+      "path_id": "PATH-87BA5625A4F4",
+      "complete_heading_path": [
+        "Vonck, Jan Frans"
+      ],
+      "document_page": 164,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "164",
+      "evidence_summary": "Vonck negotiations with Leopold and their collapse under French radicalizing influence are described.",
+      "fit_rationale": "Vonck negotiations with Leopold and their collapse under French radicalizing influence are described.",
+      "evidence_ids": [
+        "EVID-BAB72BF95E46"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-020D86D8571E",
+      "path_id": "PATH-8226A4F957DE",
+      "complete_heading_path": [
+        "Warsaw"
+      ],
+      "document_page": 165,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "165",
+      "evidence_summary": "Warsaw news-sheets are specifically the medium flooding educated Poles with French revolutionary news.",
+      "fit_rationale": "Warsaw news-sheets are specifically the medium flooding educated Poles with French revolutionary news.",
+      "evidence_ids": [
+        "EVID-020D86D8571E"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    },
+    {
+      "locator_id": "LOC-F6C1EBD599B4",
+      "path_id": "PATH-C0896A935205",
+      "complete_heading_path": [
+        "William V (Prince of Orange)"
+      ],
+      "document_page": 161,
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "source_page_label": "161",
+      "evidence_summary": "The Orangist defeat and repression of Dutch patriots supply information about the Prince of Orange political order, with the referent resolved by adjacent context.",
+      "fit_rationale": "The Orangist defeat and repression of Dutch patriots supply information about the Prince of Orange political order, with the referent resolved by adjacent context.",
+      "evidence_ids": [
+        "EVID-F6C1EBD599B4"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
+    }
+  ],
+  "completion": {
+    "expected": 203,
+    "judged": 203,
+    "unique": true,
+    "complete": true,
+    "semantic_unresolved": 2
+  }
+}

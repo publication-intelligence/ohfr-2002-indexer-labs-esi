@@ -1,0 +1,4930 @@
+{
+  "schema_version": "missing-access-audit-v2",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "benchmark_sha256": "ec0fbc78e370086ea03d0f6edc766646949c56d1d72177cf6c6f28dbfe2b09c0",
+  "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+  "chunk_id": "CHUNK-012",
+  "expected_subject_ids": [
+    "SUBJ-SUCC-0BEECB354226",
+    "SUBJ-SUCC-13AF8F136719",
+    "SUBJ-SUCC-1D98349B5A7B",
+    "SUBJ-SUCC-25B078097C6D",
+    "SUBJ-SUCC-260AA907209B",
+    "SUBJ-SUCC-3CA26E8D160A",
+    "SUBJ-SUCC-42A647BF0FDD",
+    "SUBJ-SUCC-4DE3CD0B6897",
+    "SUBJ-SUCC-655205C566BE",
+    "SUBJ-SUCC-6CADAB0E6D01",
+    "SUBJ-SUCC-75493DD9F6D7",
+    "SUBJ-SUCC-7EF3772773F2",
+    "SUBJ-SUCC-7F47E72FC411",
+    "SUBJ-SUCC-8B56E1AC3D55",
+    "SUBJ-SUCC-9465F7AFB297",
+    "SUBJ-SUCC-9B51E63EF68F",
+    "SUBJ-SUCC-9DC759EBDD0D",
+    "SUBJ-SUCC-BE019F6D22CE",
+    "SUBJ-SUCC-CC730DB406A0",
+    "SUBJ-SUCC-D0BE47FBF36D",
+    "SUBJ-SUCC-ED09FB8A7BAE",
+    "SUBJ-SUCC-F2315DAA8A43",
+    "SUBJ-SUCC-F3A79D2249F5",
+    "SUBJ-SUCC-F539754012D5",
+    "SUBJ-SUCC-FDB170E87280"
+  ],
+  "expected_reader_task_ids": [
+    "TASK-SUCC-0D804F998A7B",
+    "TASK-SUCC-195A7CBBA89C",
+    "TASK-SUCC-69A8E0793321",
+    "TASK-SUCC-6AFB143F39DE",
+    "TASK-SUCC-6F5D9399E324",
+    "TASK-SUCC-8012C36B851D",
+    "TASK-SUCC-81AEFB30D474",
+    "TASK-SUCC-822FD108A319",
+    "TASK-SUCC-C0F0C1C88764",
+    "TASK-SUCC-CD100AF00FE3",
+    "TASK-SUCC-D08507913B4C",
+    "TASK-SUCC-F1C65C86B3A1",
+    "TASK-SUCC-F9402BF176EE",
+    "TASK-SUCC-PROP-84AA1A064536",
+    "TASK-SUCC-PROP-EF2613B9F6E1"
+  ],
+  "expected_treatment_ids": [
+    "TREAT-01D9BC99BD32",
+    "TREAT-05994851E470",
+    "TREAT-0687FB9D73D7",
+    "TREAT-084E5898B7BE",
+    "TREAT-09F46C02A1F0",
+    "TREAT-0AD506F55C18",
+    "TREAT-0C4FDF73EFD1",
+    "TREAT-0C607216759A",
+    "TREAT-0D19B313DE05",
+    "TREAT-0DB33DAD85DC",
+    "TREAT-15DDB9AFED53",
+    "TREAT-1929C5352F23",
+    "TREAT-1CB00940A5D4",
+    "TREAT-1CD0EE080C32",
+    "TREAT-231AE4EE3ECC",
+    "TREAT-279E110DD998",
+    "TREAT-28B633CE165B",
+    "TREAT-2918CC2CA1D4",
+    "TREAT-2B448759F61A",
+    "TREAT-2DEC4A51F3E4",
+    "TREAT-2F43C493B07E",
+    "TREAT-31F195692977",
+    "TREAT-32E3436EBBE9",
+    "TREAT-344AB4ED24D4",
+    "TREAT-369C435601AB",
+    "TREAT-371A450A3CBE",
+    "TREAT-3C57E477CA0A",
+    "TREAT-3EC7D737AB50",
+    "TREAT-45BC6F5577B9",
+    "TREAT-47AE8CF79309",
+    "TREAT-4976AEAC8C4A",
+    "TREAT-4CA9E1E9578F",
+    "TREAT-52919FF22FF9",
+    "TREAT-536E059B9C66",
+    "TREAT-53D4895362D9",
+    "TREAT-53DD10B3382A",
+    "TREAT-541E77B8FC8B",
+    "TREAT-54B47AA3B2D4",
+    "TREAT-54CAA6566B4C",
+    "TREAT-591F580B8497",
+    "TREAT-5A1CBF45FF0D",
+    "TREAT-5AABD6E130FD",
+    "TREAT-5B841C2B3961",
+    "TREAT-5FC61C327601",
+    "TREAT-6368F07F40CD",
+    "TREAT-68C1C4F6E918",
+    "TREAT-6AFC5FD44A6F",
+    "TREAT-71C6DDA49E3F",
+    "TREAT-73A0A84A7043",
+    "TREAT-74002DFA9D3D",
+    "TREAT-7A9C4F809B80",
+    "TREAT-7B0AD56256EF",
+    "TREAT-7B412B240F23",
+    "TREAT-7C4B72076681",
+    "TREAT-7FED498BE483",
+    "TREAT-846C258817AF",
+    "TREAT-8667DBCCAE7C",
+    "TREAT-8F998B20622B",
+    "TREAT-903573269EFF",
+    "TREAT-906B26AD8A8A",
+    "TREAT-9AB0543ECABF",
+    "TREAT-9D52B543F0C8",
+    "TREAT-9EA67C9EE05C",
+    "TREAT-A040924FA8AB",
+    "TREAT-AA4FAF5733F3",
+    "TREAT-AA875692E0B5",
+    "TREAT-AB8F2B90C971",
+    "TREAT-AD10FA59DF29",
+    "TREAT-B2CDC1340659",
+    "TREAT-B62DE4AD8AF2",
+    "TREAT-B64980177B20",
+    "TREAT-C2CB38149CEF",
+    "TREAT-C47008654278",
+    "TREAT-C64A19F71075",
+    "TREAT-C7828DF5E2E7",
+    "TREAT-C916F530265E",
+    "TREAT-CF05184624E5",
+    "TREAT-D72C2A20CFD6",
+    "TREAT-D77A91C5DCE4",
+    "TREAT-DB9CA56C57DB",
+    "TREAT-DC89DE9BF68D",
+    "TREAT-DE8B9FF370D8",
+    "TREAT-E0EB9F4F04BB",
+    "TREAT-E326D3B86C80",
+    "TREAT-E47A1B409EBE",
+    "TREAT-E81E792A304B",
+    "TREAT-E91E7FBC9C7F",
+    "TREAT-EA286C898584",
+    "TREAT-EAAFABFC3D3C",
+    "TREAT-EF0FC053F29D",
+    "TREAT-EF9BD90495A6",
+    "TREAT-F5226BC263DF",
+    "TREAT-F5CAA6DE1C35",
+    "TREAT-F61E95F3D74E",
+    "TREAT-F69E11C4113C",
+    "TREAT-F8335AFFFA69",
+    "TREAT-FAE65991511F",
+    "TREAT-FDF889FBF435",
+    "TREAT-FE222954CED6"
+  ],
+  "subject_judgments": [
+    {
+      "subject_id": "SUBJ-SUCC-0BEECB354226",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-453753449706",
+        "PATH-484874E7423E",
+        "PATH-542D81C64617",
+        "PATH-9B741D9BDF09"
+      ],
+      "expected_document_pages": [
+        290,
+        293
+      ],
+      "found_document_pages": [
+        290,
+        293
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            290,
+            293
+          ],
+          "found_document_pages": [
+            290,
+            293
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-8ED02D699347",
+            "EVID-SUCC-FF91019B2DA5"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-8ED02D699347",
+        "EVID-SUCC-FF91019B2DA5"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Women points to both290 and293, and the Paris food/uprising subdivisions identify the relevant events. Test whether this combined architecture distinguishes women's initiating role from incidental crowd participation; the flat women entry alone does not advertise the protest facet. Current individually authored locator evidence confirms women290 petitioning and293 initiating pressure. The paired Paris uprising and food entries identify the events; the women entry’s13atomic locators/11display strings is not independent evidence of material scanning impairment. Complete access, no SUB finding.",
+      "tested_path_ids": [
+        "PATH-453753449706",
+        "PATH-484874E7423E",
+        "PATH-542D81C64617",
+        "PATH-9B741D9BDF09"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-13AF8F136719",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-16BACEC20952",
+        "PATH-3C3BE8055B13",
+        "PATH-95F6BD419CAF",
+        "PATH-A4DCDE5F8AD7",
+        "PATH-D07C40F100E2",
+        "PATH-E64AE183E436"
+      ],
+      "expected_document_pages": [
+        277,
+        278,
+        279
+      ],
+      "found_document_pages": [
+        277,
+        278,
+        279
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            277,
+            278,
+            279
+          ],
+          "found_document_pages": [
+            277,
+            278,
+            279
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-67EE3A3F6D3C",
+            "EVID-SUCC-8A5C9840706F",
+            "EVID-SUCC-FCFD649E2DE7"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-67EE3A3F6D3C",
+        "EVID-SUCC-8A5C9840706F",
+        "EVID-SUCC-FCFD649E2DE7"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "The CPS internal-divisions/fall subheading and General Security entry provide the institutional rivalry route. Barere279 and the Prairial law277/278 supplement truce, immunity and defensive-coalition details without treating feared purge as established dictatorship. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-16BACEC20952",
+        "PATH-3C3BE8055B13",
+        "PATH-95F6BD419CAF",
+        "PATH-A4DCDE5F8AD7",
+        "PATH-D07C40F100E2",
+        "PATH-E64AE183E436"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-1A46D8F1378F",
+        "PATH-2808CD626340",
+        "PATH-6FFF0168B74B",
+        "PATH-A094B7A3A1EF",
+        "PATH-A3522E3AB6A9"
+      ],
+      "expected_document_pages": [
+        295,
+        296,
+        302,
+        306,
+        307,
+        309,
+        313,
+        314,
+        315,
+        317
+      ],
+      "found_document_pages": [
+        295,
+        296,
+        302,
+        306,
+        307,
+        309,
+        313,
+        314,
+        315
+      ],
+      "missed_document_pages": [
+        317
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            295,
+            296,
+            307,
+            314
+          ],
+          "found_document_pages": [
+            295,
+            296,
+            307,
+            314
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            295,
+            302,
+            306,
+            307,
+            309,
+            313,
+            315
+          ],
+          "found_document_pages": [
+            295,
+            302,
+            306,
+            307,
+            309,
+            313,
+            315
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            296,
+            307,
+            317
+          ],
+          "found_document_pages": [
+            296,
+            307
+          ],
+          "missed_document_pages": [
+            317
+          ],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 10,
+        "found": 9,
+        "missed": 1,
+        "rate": 0.9
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-010C1C54793E",
+            "EVID-SUCC-0386DC869DB5",
+            "EVID-SUCC-1BF838A59F26",
+            "EVID-SUCC-1F97CAB8D4A1",
+            "EVID-SUCC-2F786138EA55",
+            "EVID-SUCC-3D4BDF988F34",
+            "EVID-SUCC-4F6B2A8D5D3D",
+            "EVID-SUCC-7157AE8EBC24",
+            "EVID-SUCC-AC0CE15123B4",
+            "EVID-SUCC-B1E597B429BD",
+            "EVID-SUCC-B85D6B4713F8",
+            "EVID-SUCC-C67912C03BF7",
+            "EVID-SUCC-ED256AA9E069",
+            "EVID-SUCC-F263BB04A9C5",
+            "EVID-SUCC-F5B3CDC979D5"
+          ]
+        }
+      ],
+      "missed_treatments": [
+        {
+          "document_page": 317,
+          "locator_class": "synthesis_or_conclusion",
+          "reason_code": "authored_missing_treatment",
+          "evidence_ids": [
+            "EVID-SUCC-7157AE8EBC24"
+          ]
+        }
+      ],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-010C1C54793E",
+        "EVID-SUCC-0386DC869DB5",
+        "EVID-SUCC-1BF838A59F26",
+        "EVID-SUCC-1F97CAB8D4A1",
+        "EVID-SUCC-2F786138EA55",
+        "EVID-SUCC-3D4BDF988F34",
+        "EVID-SUCC-4F6B2A8D5D3D",
+        "EVID-SUCC-7157AE8EBC24",
+        "EVID-SUCC-AC0CE15123B4",
+        "EVID-SUCC-B1E597B429BD",
+        "EVID-SUCC-B85D6B4713F8",
+        "EVID-SUCC-C67912C03BF7",
+        "EVID-SUCC-ED256AA9E069",
+        "EVID-SUCC-F263BB04A9C5",
+        "EVID-SUCC-F5B3CDC979D5"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "LouisXVIII296/307/313–315 offers the explicit ruler/program route. Regency and constitutional rejection require checking302/306/309/317 separately; the unqualified Provence entry has a known province/prince mixture and cannot silently resolve person identity. Do not treat national lands as settled by Verona. LouisXVIII296 and other explicit dynastic/restoration routes supply the succession and policy facts. Do not rely on the disputed geographic-only Provence296 judgment; unqualified Provence is a mixed-entity entry. Artois exile302 and Toulon309 give bounded contextual alternatives; missing317 personal route does not erase the independently retrieved programme.",
+      "tested_path_ids": [
+        "PATH-1A46D8F1378F",
+        "PATH-2808CD626340",
+        "PATH-59F34776B0E9",
+        "PATH-6FFF0168B74B",
+        "PATH-A094B7A3A1EF",
+        "PATH-A3522E3AB6A9"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-25B078097C6D",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-6E11416272DF",
+        "PATH-9556E0C0D594",
+        "PATH-9EF2ED7A2D6E",
+        "PATH-E2DD006900A5",
+        "PATH-EDD1650AE19F"
+      ],
+      "expected_document_pages": [
+        283,
+        284,
+        285,
+        287
+      ],
+      "found_document_pages": [
+        283,
+        284,
+        285,
+        287
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            283
+          ],
+          "found_document_pages": [
+            283
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            284,
+            287
+          ],
+          "found_document_pages": [
+            284,
+            287
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            285
+          ],
+          "found_document_pages": [
+            285
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 4,
+        "found": 4,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-07FE05AFEC55",
+            "EVID-SUCC-2B8DB6D26BAF",
+            "EVID-SUCC-3E8ED6ECC174",
+            "EVID-SUCC-82E809097CEC"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-07FE05AFEC55",
+        "EVID-SUCC-2B8DB6D26BAF",
+        "EVID-SUCC-3E8ED6ECC174",
+        "EVID-SUCC-82E809097CEC"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Carrier283–285 reaches investigation/trial and collective-responsibility argument; Carnot284 and committee leaders' impeachment entries retrieve the protection-to-prosecution change. These neutral personal/institutional headings do not exculpate the Convention or attribute every atrocity personally to Carrier. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-6E11416272DF",
+        "PATH-9556E0C0D594",
+        "PATH-9EF2ED7A2D6E",
+        "PATH-E2DD006900A5",
+        "PATH-EDD1650AE19F"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-260AA907209B",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-288031039572",
+        "PATH-802A8EE01774"
+      ],
+      "expected_document_pages": [
+        276,
+        277,
+        288
+      ],
+      "found_document_pages": [
+        276,
+        277,
+        288
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            276,
+            277,
+            288
+          ],
+          "found_document_pages": [
+            276,
+            277,
+            288
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-B239BA8AE0A3",
+            "EVID-SUCC-C1ACA7D35972",
+            "EVID-SUCC-F038A22E7567"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-B239BA8AE0A3",
+        "EVID-SUCC-C1ACA7D35972",
+        "EVID-SUCC-F038A22E7567"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "The exact Cult entry276/277/288 and Paris festival276/277 directly distinguish civic religion, festival prominence and termination of state recognition; no Christian-restoration or settled Whitsunday motive is asserted. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-288031039572",
+        "PATH-802A8EE01774"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-872A9DC14B03",
+        "PATH-9B741D9BDF09",
+        "PATH-D6FF5A55F914",
+        "PATH-E109A8752CF2",
+        "PATH-E99A38667BF9",
+        "PATH-ED68FCC9B189"
+      ],
+      "expected_document_pages": [
+        281,
+        282,
+        283,
+        284,
+        285,
+        292,
+        293,
+        294
+      ],
+      "found_document_pages": [
+        281,
+        282,
+        283,
+        284,
+        285,
+        292,
+        293,
+        294
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            281,
+            282,
+            284
+          ],
+          "found_document_pages": [
+            281,
+            282,
+            284
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            283,
+            285,
+            294
+          ],
+          "found_document_pages": [
+            283,
+            285,
+            294
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            282,
+            285,
+            292,
+            293
+          ],
+          "found_document_pages": [
+            282,
+            285,
+            292,
+            293
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 8,
+        "found": 8,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-24FD1BA9E838",
+            "EVID-SUCC-2B8AC075063F",
+            "EVID-SUCC-2CE016BEFFE8",
+            "EVID-SUCC-40C898883EC1",
+            "EVID-SUCC-4B98FEA44F2C",
+            "EVID-SUCC-4FF93C94B8D0",
+            "EVID-SUCC-7BCC79304D12",
+            "EVID-SUCC-87BBFE29FE46",
+            "EVID-SUCC-90D87F192C93",
+            "EVID-SUCC-A4A17F38C01A",
+            "EVID-SUCC-B852C8D25C63",
+            "EVID-SUCC-CDDC54E18B29",
+            "EVID-SUCC-DA25A62FD279"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-24FD1BA9E838",
+        "EVID-SUCC-2B8AC075063F",
+        "EVID-SUCC-2CE016BEFFE8",
+        "EVID-SUCC-40C898883EC1",
+        "EVID-SUCC-4B98FEA44F2C",
+        "EVID-SUCC-4FF93C94B8D0",
+        "EVID-SUCC-7BCC79304D12",
+        "EVID-SUCC-87BBFE29FE46",
+        "EVID-SUCC-90D87F192C93",
+        "EVID-SUCC-A4A17F38C01A",
+        "EVID-SUCC-B852C8D25C63",
+        "EVID-SUCC-CDDC54E18B29",
+        "EVID-SUCC-DA25A62FD279"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "CPS post-Thermidorian decline and Convention Thermidorian Reaction explicitly retrieve institutional dismantling, supplemented by Tribunal and Fouquier entries. Distinguish central repeal from provincial reversal and subsequent punitive courts rather than reducing Thermidor to removal of Robespierre. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-872A9DC14B03",
+        "PATH-9B741D9BDF09",
+        "PATH-D6FF5A55F914",
+        "PATH-E109A8752CF2",
+        "PATH-E99A38667BF9",
+        "PATH-ED68FCC9B189"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-42A647BF0FDD",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-16BACEC20952",
+        "PATH-24DA1E8D3317",
+        "PATH-3C3BE8055B13",
+        "PATH-872A9DC14B03",
+        "PATH-943B9E017CB4",
+        "PATH-B6F9204A845E",
+        "PATH-F019E55CCBF7"
+      ],
+      "expected_document_pages": [
+        274,
+        275,
+        278,
+        282
+      ],
+      "found_document_pages": [
+        274,
+        275,
+        278,
+        282
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            274,
+            275,
+            278,
+            282
+          ],
+          "found_document_pages": [
+            274,
+            275,
+            278,
+            282
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 4,
+        "found": 4,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-1543485C9D06",
+            "EVID-SUCC-3B60CAF203B0",
+            "EVID-SUCC-6728ECC7EC44",
+            "EVID-SUCC-9ED83C395E32"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-1543485C9D06",
+        "EVID-SUCC-3B60CAF203B0",
+        "EVID-SUCC-6728ECC7EC44",
+        "EVID-SUCC-9ED83C395E32"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Test broad Terror, Prairial law, Tribunal and Republic-of-Virtue routes for preventive punishment and heightened elite victimization. Noble economic impact275 and bourgeois resistance275 may reach facts but do not themselves articulate the comparative social-discrimination claim; do not upgrade merely from page overlap. Virtue274 directly retrieves preventive punishment against an unattainable moral ideal; Republic of Virtue275 supplies socially skewed executions and Robespierre fall278 supplies fear despite military victory. Reject noble economic275 as an unrelated mismatch.",
+      "tested_path_ids": [
+        "PATH-16BACEC20952",
+        "PATH-24DA1E8D3317",
+        "PATH-3C3BE8055B13",
+        "PATH-7B4FCA38AF2C",
+        "PATH-872A9DC14B03",
+        "PATH-943B9E017CB4",
+        "PATH-9E4C6405ACB3",
+        "PATH-B6F9204A845E",
+        "PATH-F019E55CCBF7"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-4DE3CD0B6897",
+      "priority": "optional",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-29B8B04526FF",
+        "PATH-A55622493B71"
+      ],
+      "expected_document_pages": [
+        287
+      ],
+      "found_document_pages": [
+        287
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            287
+          ],
+          "found_document_pages": [
+            287
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            287
+          ],
+          "found_document_pages": [
+            287
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-847CFD714ADE",
+            "EVID-SUCC-9AD8982D567F"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-847CFD714ADE",
+        "EVID-SUCC-9AD8982D567F"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Emigres amnesty/return287 and laws287 explicitly retrieve conditional relaxation; Convention Thermidorian287 supplies Federalists' return. Federalist suppression headings must not be mistaken for the later readmission claim. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-29B8B04526FF",
+        "PATH-A55622493B71",
+        "PATH-C9C4F3F0A4DE"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-655205C566BE",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-542D81C64617",
+        "PATH-9B741D9BDF09",
+        "PATH-9E86C24CDE99",
+        "PATH-A37478274ECE"
+      ],
+      "expected_document_pages": [
+        286,
+        287,
+        290,
+        293,
+        294
+      ],
+      "found_document_pages": [
+        286,
+        287,
+        290,
+        293,
+        294
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            286,
+            290,
+            293
+          ],
+          "found_document_pages": [
+            286,
+            290,
+            293
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            287
+          ],
+          "found_document_pages": [
+            287
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            294
+          ],
+          "found_document_pages": [
+            294
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 5,
+        "found": 5,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-4E42DF415C54",
+            "EVID-SUCC-53814ACC1225",
+            "EVID-SUCC-92F9D4E457CF",
+            "EVID-SUCC-A3CC9CB2EA57",
+            "EVID-SUCC-F15B83C9966D"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-4E42DF415C54",
+        "EVID-SUCC-53814ACC1225",
+        "EVID-SUCC-92F9D4E457CF",
+        "EVID-SUCC-A3CC9CB2EA57",
+        "EVID-SUCC-F15B83C9966D"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Winter286 directly discusses frost, transport breakdown, bread rationing and assignat collapse as added hardship. Its last sentence says the issue in May1795 was approaching;287 immediately completes double the previous year and value8percent. This is the same explicit fiscal amplification of winter hardship, not the later cultural campaign or unrelated National Convention entry. Other previously authored meaning, facet and stance findings remain. Whole required meaning is accessible through the reviewed targeted routes; this is not a count-based upgrade.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-542D81C64617",
+        "PATH-9B741D9BDF09",
+        "PATH-9E86C24CDE99",
+        "PATH-A37478274ECE"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-6CADAB0E6D01",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-2808CD626340",
+        "PATH-9EF2ED7A2D6E",
+        "PATH-B56CA719882B",
+        "PATH-E109A8752CF2"
+      ],
+      "expected_document_pages": [
+        292
+      ],
+      "found_document_pages": [
+        292
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            292
+          ],
+          "found_document_pages": [
+            292
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            292
+          ],
+          "found_document_pages": [
+            292
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-20FC75AF7AB4",
+            "EVID-SUCC-686EA411266A",
+            "EVID-SUCC-C74AF6073EC4"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-20FC75AF7AB4",
+        "EVID-SUCC-686EA411266A",
+        "EVID-SUCC-C74AF6073EC4"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "WhiteTerror292, Marseilles WhiteTerror292 and Toulon292 retrieve local connivance and the separate armed repression of the Toulon workers. Check differentiated agency: these routes must not imply a single national royalist plan or make every Guard action private revenge. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-2808CD626340",
+        "PATH-9EF2ED7A2D6E",
+        "PATH-B56CA719882B",
+        "PATH-E109A8752CF2"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-75493DD9F6D7",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-14194DAECA07",
+        "PATH-9EF2ED7A2D6E",
+        "PATH-B56CA719882B",
+        "PATH-E109A8752CF2"
+      ],
+      "expected_document_pages": [
+        291,
+        292,
+        293,
+        327
+      ],
+      "found_document_pages": [
+        291,
+        292,
+        293,
+        327
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            291,
+            292,
+            293,
+            327
+          ],
+          "found_document_pages": [
+            291,
+            292,
+            293,
+            327
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 4,
+        "found": 4,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-45BDF464314D",
+            "EVID-SUCC-5AD38F30CD36",
+            "EVID-SUCC-B23353A6E3C4",
+            "EVID-SUCC-CD9AADA46620"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-45BDF464314D",
+        "EVID-SUCC-5AD38F30CD36",
+        "EVID-SUCC-B23353A6E3C4",
+        "EVID-SUCC-CD9AADA46620"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "WhiteTerror291–293/327 is an explicit common route for the original massacres and later fragmented violence. Royalists WhiteTerror helps one component but must remain subordinate to the broader, locally varied vengeance account, not replace it. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-14194DAECA07",
+        "PATH-9EF2ED7A2D6E",
+        "PATH-B56CA719882B",
+        "PATH-E109A8752CF2"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7EF3772773F2",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-47D15065A414",
+        "PATH-9EF2ED7A2D6E",
+        "PATH-A1671706098A",
+        "PATH-D9B69935259A"
+      ],
+      "expected_document_pages": [
+        283,
+        284,
+        287
+      ],
+      "found_document_pages": [
+        283,
+        284,
+        287
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            283
+          ],
+          "found_document_pages": [
+            283
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            284,
+            287
+          ],
+          "found_document_pages": [
+            284,
+            287
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-250EF6C43903",
+            "EVID-SUCC-514685DCE97B",
+            "EVID-SUCC-CA39163D2C22"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-250EF6C43903",
+        "EVID-SUCC-514685DCE97B",
+        "EVID-SUCC-CA39163D2C22"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Thermidorians283/284, Tallien283/284 and Freron283/287 retrieve the improvised coalition and journalism. Check whether the specific press-freedom/rumour/pamphlet argument is findable beyond personal names; the earlier Robespierre press-freedom155 is unrelated. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-47D15065A414",
+        "PATH-9EF2ED7A2D6E",
+        "PATH-A1671706098A",
+        "PATH-D9B69935259A"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-7F47E72FC411",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-FF4BD0B64D83"
+      ],
+      "expected_document_pages": [
+        285,
+        290
+      ],
+      "found_document_pages": [
+        285,
+        290
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            285
+          ],
+          "found_document_pages": [
+            285
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            290
+          ],
+          "found_document_pages": [
+            290
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-A948F46BF1B4",
+            "EVID-SUCC-D7B785D3DBF0"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-A948F46BF1B4",
+        "EVID-SUCC-D7B785D3DBF0"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Girondins285/290 and Convention Thermidorian285/290 retrieve readmission and continued vengefulness. The faction entry has no rehabilitation subdivision, so distinguish treatment reach from targeted navigation; no heading itself asserts reconciliation. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-FF4BD0B64D83"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-8B56E1AC3D55",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-4086A94400BC",
+        "PATH-5958E43F6835",
+        "PATH-595EB3C0C568",
+        "PATH-A254A6CC29F8",
+        "PATH-E1BB675F2C3D"
+      ],
+      "expected_document_pages": [
+        288,
+        289,
+        290,
+        312
+      ],
+      "found_document_pages": [
+        288,
+        289,
+        290,
+        312
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            288,
+            289,
+            290,
+            312
+          ],
+          "found_document_pages": [
+            288,
+            289,
+            290,
+            312
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 4,
+        "found": 4,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-089C273859A4",
+            "EVID-SUCC-6E84B4876D32",
+            "EVID-SUCC-B1AC9BD99031",
+            "EVID-SUCC-B84D122EC43D"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-089C273859A4",
+        "EVID-SUCC-6E84B4876D32",
+        "EVID-SUCC-B1AC9BD99031",
+        "EVID-SUCC-B84D122EC43D"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "LaMabilais289/290/312 provides a specific treaty route spanning both frozen facets; Hoche289/312 and Charette289/290 add differing motives, while western Counter-Revolution312 adds the strategic truces. Religious concessions do not imply monarchy restored or identical rebel intentions. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-4086A94400BC",
+        "PATH-5958E43F6835",
+        "PATH-595EB3C0C568",
+        "PATH-841BDD9DAA4C",
+        "PATH-A254A6CC29F8",
+        "PATH-E1BB675F2C3D"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9465F7AFB297",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-3C3BE8055B13",
+        "PATH-A4DCDE5F8AD7",
+        "PATH-DB6D0D6866F1"
+      ],
+      "expected_document_pages": [
+        279,
+        280,
+        281
+      ],
+      "found_document_pages": [
+        279,
+        280,
+        281
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            279,
+            280
+          ],
+          "found_document_pages": [
+            279,
+            280
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            281
+          ],
+          "found_document_pages": [
+            281
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-07AAB9A6F7E6",
+            "EVID-SUCC-26CF38D687D1",
+            "EVID-SUCC-B33BFCC0BC2E",
+            "EVID-SUCC-C40F233BB7BE",
+            "EVID-SUCC-EFB3B2F94B5E"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-07AAB9A6F7E6",
+        "EVID-SUCC-26CF38D687D1",
+        "EVID-SUCC-B33BFCC0BC2E",
+        "EVID-SUCC-C40F233BB7BE",
+        "EVID-SUCC-EFB3B2F94B5E"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Thermidor279/281, Robespierre arrest/fall278–280 and committee fall279/280 give direct access to parliamentary attack and failed rescue, with Convention281 and Thermidor281 for institutional significance. The neutral chronological headings preserve uncertainty over exact calendar sequence and dictatorship accusations. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-3C3BE8055B13",
+        "PATH-A4DCDE5F8AD7",
+        "PATH-DB6D0D6866F1"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9B51E63EF68F",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED",
+        "PATH-139D5C8E19F4",
+        "PATH-17279898E888",
+        "PATH-2E609D05687C",
+        "PATH-64D7893D7626",
+        "PATH-806891680426",
+        "PATH-9B741D9BDF09"
+      ],
+      "expected_document_pages": [
+        276,
+        291,
+        294,
+        295
+      ],
+      "found_document_pages": [
+        276,
+        291,
+        294,
+        295
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            276,
+            294,
+            295
+          ],
+          "found_document_pages": [
+            276,
+            294,
+            295
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            291,
+            295
+          ],
+          "found_document_pages": [
+            291,
+            295
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 4,
+        "found": 4,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-110D89196DC6",
+            "EVID-SUCC-3EF751E66D6F",
+            "EVID-SUCC-820030776F84",
+            "EVID-SUCC-C49C53B025C2",
+            "EVID-SUCC-E6B2E5157E14"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-110D89196DC6",
+        "EVID-SUCC-3EF751E66D6F",
+        "EVID-SUCC-820030776F84",
+        "EVID-SUCC-C49C53B025C2",
+        "EVID-SUCC-E6B2E5157E14"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Sansculottes decline/repression291/294/295, Prairial295 and SaintAntoine294/295 focus on institutional destruction and final defeat. Distinguish earlier276 weakening, uprising endorsement, unjustified planning charge and later military repression. Paris Commune276 and sections276 directly retrieve harassment into dissolution and incorporation into government. These supply the earlier dismantling mechanism that explains later organizational incapacity; no adjacent-page transfer.",
+      "tested_path_ids": [
+        "PATH-0C63FACA6CED",
+        "PATH-139D5C8E19F4",
+        "PATH-17279898E888",
+        "PATH-2E609D05687C",
+        "PATH-64D7893D7626",
+        "PATH-806891680426",
+        "PATH-9B741D9BDF09"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-9DC759EBDD0D",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-288031039572",
+        "PATH-29ED73731631",
+        "PATH-595EB3C0C568",
+        "PATH-B978269CC447",
+        "PATH-BB06C05AE7D3",
+        "PATH-E681E2D95186"
+      ],
+      "expected_document_pages": [
+        288,
+        289
+      ],
+      "found_document_pages": [
+        288,
+        289
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            288
+          ],
+          "found_document_pages": [
+            288
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            289
+          ],
+          "found_document_pages": [
+            289
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-0B2E9EEDD32A",
+            "EVID-SUCC-35D14998C1A6",
+            "EVID-SUCC-F327D408E1C5"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-0B2E9EEDD32A",
+        "EVID-SUCC-35D14998C1A6",
+        "EVID-SUCC-F327D408E1C5"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Jacobinism Church/State separation288 and refractory clergy post-Thermidorian recovery/separation288 provide explicit architecture for privatized worship, complemented by religious freedom288/289 and cult288. This separates withdrawal of finance from abolition of belief and connects western peace guarantees289. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-288031039572",
+        "PATH-29ED73731631",
+        "PATH-595EB3C0C568",
+        "PATH-B978269CC447",
+        "PATH-BB06C05AE7D3",
+        "PATH-E681E2D95186"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-BE019F6D22CE",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-13C111D05758",
+        "PATH-21F53D43C75B",
+        "PATH-DE7823CDCDA9",
+        "PATH-E76604284643",
+        "PATH-FF4DB30C8548"
+      ],
+      "expected_document_pages": [
+        285,
+        287
+      ],
+      "found_document_pages": [
+        285,
+        287
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            287
+          ],
+          "found_document_pages": [
+            287
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            285
+          ],
+          "found_document_pages": [
+            285
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            287
+          ],
+          "found_document_pages": [
+            287
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-28EAD8A96EA0",
+            "EVID-SUCC-A541786F9E55",
+            "EVID-SUCC-D70B8D6D6DD1"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-28EAD8A96EA0",
+        "EVID-SUCC-A541786F9E55",
+        "EVID-SUCC-D70B8D6D6DD1"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Jacobin suppression/reaction284 supplies the closure and then the provincial reversal discussion, ending when Paris turned against former terrorists. The sentence continues285 with provincials taking the hint; the immediately following sailor-slogan example concretizes the same anti-Jacobin public-symbol reversal before the separate Carrier episode. The targeted reaction route supports this cultural illustration without an invented285 posting. Other previously authored meaning, facet and stance findings remain. Whole required meaning is accessible through the reviewed targeted routes; this is not a count-based upgrade.",
+      "tested_path_ids": [
+        "PATH-13C111D05758",
+        "PATH-21F53D43C75B",
+        "PATH-DE7823CDCDA9",
+        "PATH-E76604284643",
+        "PATH-FF4DB30C8548"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-CC730DB406A0",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-17279898E888",
+        "PATH-484874E7423E",
+        "PATH-9B741D9BDF09",
+        "PATH-A34404758FD3",
+        "PATH-BCB2595D6CA7"
+      ],
+      "expected_document_pages": [
+        293,
+        294
+      ],
+      "found_document_pages": [
+        293,
+        294
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            293,
+            294
+          ],
+          "found_document_pages": [
+            293,
+            294
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            294
+          ],
+          "found_document_pages": [
+            294
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            294
+          ],
+          "found_document_pages": [
+            294
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 2,
+        "found": 2,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-3D22B3F79DA6",
+            "EVID-SUCC-B08B87FFB7E1",
+            "EVID-SUCC-B0DA70825BF2",
+            "EVID-SUCC-E2EC7735E043"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-3D22B3F79DA6",
+        "EVID-SUCC-B08B87FFB7E1",
+        "EVID-SUCC-B0DA70825BF2",
+        "EVID-SUCC-E2EC7735E043"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Prairial293 and NationalGuard Prairial293/294, the insurrection pamphlet293 and Constitution standard-of-rebellion294 retrieve programme, armed mobilization, Convention reversal and dispersal. Combined focused routes cover294 even though the simple uprising entry skips it; planning by Montagnards is not asserted. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-17279898E888",
+        "PATH-484874E7423E",
+        "PATH-9B741D9BDF09",
+        "PATH-A34404758FD3",
+        "PATH-BCB2595D6CA7"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-D0BE47FBF36D",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-484874E7423E",
+        "PATH-542D81C64617",
+        "PATH-819AB3AFF837",
+        "PATH-9556E0C0D594",
+        "PATH-9EBB02800FBD",
+        "PATH-A34404758FD3",
+        "PATH-E109A8752CF2"
+      ],
+      "expected_document_pages": [
+        290,
+        291,
+        292
+      ],
+      "found_document_pages": [
+        290,
+        291,
+        292
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            290,
+            291,
+            292
+          ],
+          "found_document_pages": [
+            290,
+            291,
+            292
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-41446F8EA7B3",
+            "EVID-SUCC-ABB900C64AEF",
+            "EVID-SUCC-B0BB8352E963"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-41446F8EA7B3",
+        "EVID-SUCC-ABB900C64AEF",
+        "EVID-SUCC-B0BB8352E963"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Germinal291 and Paris combined uprising291 lead to the failed occupation; bread290 and committee-leader deportation291 extend causal and punitive phases. WhiteTerror292 accesses the detention aftermath while preserving the distinction between demonstration and subsequent general purge. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-484874E7423E",
+        "PATH-542D81C64617",
+        "PATH-819AB3AFF837",
+        "PATH-9556E0C0D594",
+        "PATH-9EBB02800FBD",
+        "PATH-A34404758FD3",
+        "PATH-E109A8752CF2"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-ED09FB8A7BAE",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-47D15065A414",
+        "PATH-81002488CDEF",
+        "PATH-DE7823CDCDA9",
+        "PATH-F1D0A5326D3A",
+        "PATH-FF4DB30C8548"
+      ],
+      "expected_document_pages": [
+        282,
+        283,
+        284,
+        285,
+        287,
+        290
+      ],
+      "found_document_pages": [
+        282,
+        283,
+        284,
+        285,
+        287,
+        290
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            282,
+            283,
+            284
+          ],
+          "found_document_pages": [
+            282,
+            283,
+            284
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            287,
+            290
+          ],
+          "found_document_pages": [
+            287,
+            290
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            285
+          ],
+          "found_document_pages": [
+            285
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 6,
+        "found": 6,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-1C0399F5FC1F",
+            "EVID-SUCC-37026ACED3BD",
+            "EVID-SUCC-48AD2BA57A83",
+            "EVID-SUCC-67BD26946036",
+            "EVID-SUCC-68CFFC7D7A6A",
+            "EVID-SUCC-EB14069B90DA"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-1C0399F5FC1F",
+        "EVID-SUCC-37026ACED3BD",
+        "EVID-SUCC-48AD2BA57A83",
+        "EVID-SUCC-67BD26946036",
+        "EVID-SUCC-68CFFC7D7A6A",
+        "EVID-SUCC-EB14069B90DA"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "The actual Jacobin suppression/reaction284 route reaches national-network destruction and the provincial reversal paragraph. Its sentence crosses to285 and immediately gives the sailor slogan reversal showing that public Jacobin identification was forbidden. This is uninterrupted reaction discussion, so the specific285 illustration is found through284. Other previously authored meaning, facet and stance findings remain. Whole required meaning is accessible through the reviewed targeted routes; this is not a count-based upgrade.",
+      "tested_path_ids": [
+        "PATH-47D15065A414",
+        "PATH-81002488CDEF",
+        "PATH-DE7823CDCDA9",
+        "PATH-F1D0A5326D3A",
+        "PATH-FF4DB30C8548"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F2315DAA8A43",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-16BACEC20952",
+        "PATH-3C3BE8055B13",
+        "PATH-CD403F8E4303"
+      ],
+      "expected_document_pages": [
+        278
+      ],
+      "found_document_pages": [
+        278
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            278
+          ],
+          "found_document_pages": [
+            278
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 1,
+        "found": 1,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-24BA71AC6F84",
+            "EVID-SUCC-7DD382062191"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-24BA71AC6F84",
+        "EVID-SUCC-7DD382062191"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Fleurus278 is a specific event route at the page relating victories to Terror's declining justification. Nearby Thermidor/law routes must preserve causal qualification: military success weakens perceived necessity without itself ending violence. Holland286 is incidental context and not a required treatment. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-16BACEC20952",
+        "PATH-3C3BE8055B13",
+        "PATH-943B9E017CB4",
+        "PATH-CD403F8E4303"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F3A79D2249F5",
+      "priority": "essential",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-16BACEC20952",
+        "PATH-20706105D21E",
+        "PATH-872A9DC14B03",
+        "PATH-D6FF5A55F914"
+      ],
+      "expected_document_pages": [
+        275,
+        277,
+        278,
+        282
+      ],
+      "found_document_pages": [
+        275,
+        277,
+        278,
+        282
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            275
+          ],
+          "found_document_pages": [
+            275
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            277,
+            278
+          ],
+          "found_document_pages": [
+            277,
+            278
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [
+            282
+          ],
+          "found_document_pages": [
+            282
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 4,
+        "found": 4,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-242E39D2471B",
+            "EVID-SUCC-2E32D48DEBF1",
+            "EVID-SUCC-7EBC5AF704A4",
+            "EVID-SUCC-F826EF0C8A4C"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-242E39D2471B",
+        "EVID-SUCC-2E32D48DEBF1",
+        "EVID-SUCC-7EBC5AF704A4",
+        "EVID-SUCC-F826EF0C8A4C"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "PrairialLaw275/277/278 supplies procedure and immunity fears; Tribunal282 and committee dismantling282 supply repeal. These routes do not claim acquittal abolished or invert law and execution surge. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-16BACEC20952",
+        "PATH-20706105D21E",
+        "PATH-872A9DC14B03",
+        "PATH-D6FF5A55F914"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-F539754012D5",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-64D7893D7626",
+        "PATH-F1D0A5326D3A"
+      ],
+      "expected_document_pages": [
+        282,
+        284,
+        295
+      ],
+      "found_document_pages": [
+        282,
+        284,
+        295
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            282,
+            284
+          ],
+          "found_document_pages": [
+            282,
+            284
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            295
+          ],
+          "found_document_pages": [
+            295
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-6D515580AB72",
+            "EVID-SUCC-A1A4C2115E64",
+            "EVID-SUCC-A4EBA5D6D5D4"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-6D515580AB72",
+        "EVID-SUCC-A1A4C2115E64",
+        "EVID-SUCC-A4EBA5D6D5D4"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Convention Thermidorian282/284/295 and GildedYouth282 reach releases and reversal of victim/persecutor roles. Sansculottes repression295 supplies later arrests. A broad reaction heading may give factual reach while a dedicated prisoners-release route is absent; assess specific retrieval rather than automatic equivalence. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-64D7893D7626",
+        "PATH-E109A8752CF2",
+        "PATH-F1D0A5326D3A"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "subject_id": "SUBJ-SUCC-FDB170E87280",
+      "priority": "major",
+      "coverage": "complete",
+      "direct_access": true,
+      "cross_reference_access": false,
+      "stance_preserved": "yes",
+      "matched_path_ids": [
+        "PATH-819AB3AFF837",
+        "PATH-84B3439B64EA",
+        "PATH-A34404758FD3",
+        "PATH-B0C46E82C42C"
+      ],
+      "expected_document_pages": [
+        287,
+        291,
+        294
+      ],
+      "found_document_pages": [
+        287,
+        291,
+        294
+      ],
+      "missed_document_pages": [],
+      "severity": "none",
+      "confidence": "high",
+      "realistic_first_lookup_success": "yes",
+      "treatment_recall": {
+        "principal": {
+          "expected_document_pages": [
+            287
+          ],
+          "found_document_pages": [
+            287
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "supporting": {
+          "expected_document_pages": [
+            291,
+            294
+          ],
+          "found_document_pages": [
+            291,
+            294
+          ],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        },
+        "synthesis_or_conclusion": {
+          "expected_document_pages": [],
+          "found_document_pages": [],
+          "missed_document_pages": [],
+          "uninspectable_document_pages": []
+        }
+      },
+      "locator_recall": {
+        "expected": 3,
+        "found": 3,
+        "missed": 0,
+        "rate": 1.0
+      },
+      "missing_routes": [
+        {
+          "route_type": "cross_reference",
+          "reason_code": "authored_cross_reference_route_absent",
+          "evidence_ids": [
+            "EVID-SUCC-748FADE5555F",
+            "EVID-SUCC-D3BA2D7D3CF8",
+            "EVID-SUCC-FDBE201FF8A3"
+          ]
+        }
+      ],
+      "missed_treatments": [],
+      "error_codes": [],
+      "evidence_ids": [
+        "EVID-SUCC-748FADE5555F",
+        "EVID-SUCC-D3BA2D7D3CF8",
+        "EVID-SUCC-FDBE201FF8A3"
+      ],
+      "uncertainty": {
+        "status": "none"
+      },
+      "authored_rationale": "Babeuf democratic-journalist287 directly retrieves his constitutional appeal; Constitution standard-of-rebellion291/294 retrieves its later recurrence. Keep the1795 appeal separate from the later Equals coup rather than crediting only a conspiracy entry. Current worker07 completed source/path facts were individually read against this parent’s treatment, scope and qualifications; selected matching facts substantiate the named mechanisms described above.",
+      "tested_path_ids": [
+        "PATH-819AB3AFF837",
+        "PATH-84B3439B64EA",
+        "PATH-9B741D9BDF09",
+        "PATH-A34404758FD3",
+        "PATH-B0C46E82C42C"
+      ],
+      "factual_review_mode": "Fresh whole benchmark requirement and delivered complete path review; compatible prior direct source inspection reused transparently, plus separately logged fresh source pages. No former benchmark access judgment transferred.",
+      "structure_finding_ids": [],
+      "axis_resolution": {
+        "coverage": "known",
+        "stance_preserved": "known",
+        "realistic_first_lookup_success": "known"
+      },
+      "semantic_uncertainties": []
+    }
+  ],
+  "reader_task_results": [
+    {
+      "task_id": "TASK-SUCC-0D804F998A7B",
+      "subject_ids": [
+        "SUBJ-SUCC-ED09FB8A7BAE"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-47D15065A414",
+        "PATH-81002488CDEF",
+        "PATH-DE7823CDCDA9",
+        "PATH-F1D0A5326D3A",
+        "PATH-FF4DB30C8548"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-1C0399F5FC1F",
+        "EVID-SUCC-37026ACED3BD",
+        "EVID-SUCC-48AD2BA57A83",
+        "EVID-SUCC-67BD26946036",
+        "EVID-SUCC-68CFFC7D7A6A",
+        "EVID-SUCC-EB14069B90DA"
+      ],
+      "authored_rationale": "Jacobin suppression and club closures283/284 directly retrieve dismantling and the contemporaneous pejorative change; street and official action remain distinct. No exact universal first abusive use is inferred. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [],
+      "required_facets_reviewed": [
+        "legacy:TASK-0666C84526DE",
+        "legacy:TASK-A2AAD06DCB5F",
+        "legacy:TASK-5CF3FD2E4D37"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-195A7CBBA89C",
+      "subject_ids": [
+        "SUBJ-SUCC-75493DD9F6D7",
+        "SUBJ-SUCC-6CADAB0E6D01",
+        "SUBJ-SUCC-D0BE47FBF36D"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-14194DAECA07",
+        "PATH-2808CD626340",
+        "PATH-484874E7423E",
+        "PATH-542D81C64617",
+        "PATH-819AB3AFF837",
+        "PATH-9556E0C0D594",
+        "PATH-9EBB02800FBD",
+        "PATH-9EF2ED7A2D6E",
+        "PATH-A34404758FD3",
+        "PATH-B56CA719882B",
+        "PATH-E109A8752CF2"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-20FC75AF7AB4",
+        "EVID-SUCC-41446F8EA7B3",
+        "EVID-SUCC-45BDF464314D",
+        "EVID-SUCC-5AD38F30CD36",
+        "EVID-SUCC-686EA411266A",
+        "EVID-SUCC-ABB900C64AEF",
+        "EVID-SUCC-B0BB8352E963",
+        "EVID-SUCC-B23353A6E3C4",
+        "EVID-SUCC-C74AF6073EC4",
+        "EVID-SUCC-CD9AADA46620"
+      ],
+      "authored_rationale": "WhiteTerror291–293/327 plus Toulon292 and Germinal291 provide causes, local geography, organizations, prison massacres, official enabling and separate worker resistance. Assess the full combination, not RoyalistsWhiteTerror alone. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [],
+      "required_facets_reviewed": [
+        "legacy:TASK-D4F94BDFC6EF",
+        "legacy:TASK-38E69206FAC3",
+        "legacy:TASK-14D4DF20CE83",
+        "legacy:TASK-C484716AB93F",
+        "legacy:TASK-8DE0A073F80F",
+        "legacy:TASK-EB517FEDD521",
+        "legacy:TASK-F6C309426663",
+        "legacy:TASK-970F905C66A2"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-69A8E0793321",
+      "subject_ids": [
+        "SUBJ-SUCC-F2315DAA8A43",
+        "SUBJ-SUCC-42A647BF0FDD",
+        "SUBJ-SUCC-F3A79D2249F5",
+        "SUBJ-SUCC-E801BA395EE8"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-16BACEC20952",
+        "PATH-20706105D21E",
+        "PATH-24DA1E8D3317",
+        "PATH-2808CD626340",
+        "PATH-3C3BE8055B13",
+        "PATH-59C394F9D0F6",
+        "PATH-872A9DC14B03",
+        "PATH-943B9E017CB4",
+        "PATH-B6F9204A845E",
+        "PATH-CD403F8E4303",
+        "PATH-D6FF5A55F914",
+        "PATH-E6110F373B0E",
+        "PATH-F019E55CCBF7",
+        "PATH-F42F817D5AC7"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-0662B7CBABBA",
+        "EVID-SUCC-1543485C9D06",
+        "EVID-SUCC-242E39D2471B",
+        "EVID-SUCC-24BA71AC6F84",
+        "EVID-SUCC-2E32D48DEBF1",
+        "EVID-SUCC-3B60CAF203B0",
+        "EVID-SUCC-6728ECC7EC44",
+        "EVID-SUCC-6F936018F049",
+        "EVID-SUCC-7DD382062191",
+        "EVID-SUCC-7EBC5AF704A4",
+        "EVID-SUCC-9ED83C395E32",
+        "EVID-SUCC-A09DA82909F4",
+        "EVID-SUCC-F826EF0C8A4C"
+      ],
+      "authored_rationale": "Fleurus278 provides the explicit weakened-emergency-rationale link; Prairial275/277/278 preserves continued coercion and military campaign routes206/207 establish recovery. Earlier victories do not automatically terminate Terror. Wider campaign bindings depend on worker07 compatible locator facts. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [
+        "SUBJ-SUCC-E801BA395EE8"
+      ],
+      "required_facets_reviewed": [
+        "legacy:TASK-E0EB307EF5BA",
+        "legacy:TASK-D0753E3552F4"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-6AFB143F39DE",
+      "subject_ids": [
+        "SUBJ-SUCC-F539754012D5",
+        "SUBJ-SUCC-ED09FB8A7BAE",
+        "SUBJ-SUCC-7EF3772773F2"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-47D15065A414",
+        "PATH-64D7893D7626",
+        "PATH-81002488CDEF",
+        "PATH-9EF2ED7A2D6E",
+        "PATH-A1671706098A",
+        "PATH-D9B69935259A",
+        "PATH-DE7823CDCDA9",
+        "PATH-F1D0A5326D3A",
+        "PATH-FF4DB30C8548"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-1C0399F5FC1F",
+        "EVID-SUCC-250EF6C43903",
+        "EVID-SUCC-37026ACED3BD",
+        "EVID-SUCC-48AD2BA57A83",
+        "EVID-SUCC-514685DCE97B",
+        "EVID-SUCC-67BD26946036",
+        "EVID-SUCC-68CFFC7D7A6A",
+        "EVID-SUCC-6D515580AB72",
+        "EVID-SUCC-A1A4C2115E64",
+        "EVID-SUCC-A4EBA5D6D5D4",
+        "EVID-SUCC-CA39163D2C22",
+        "EVID-SUCC-EB14069B90DA"
+      ],
+      "authored_rationale": "Release282, street violence283/284 and press283/284/287 must be retrieved together; GildedYouth/Muscadins routes preserve changing composition, while named politicians alone may obscure the press-politics demand. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [],
+      "required_facets_reviewed": [
+        "legacy:TASK-EBE0235FEBFE",
+        "legacy:TASK-464B23C5A66B",
+        "legacy:TASK-7FA629512BE6",
+        "legacy:TASK-3FCA4D424E98",
+        "legacy:TASK-4B1C74B33F36",
+        "legacy:TASK-11077F4E08A8"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-6F5D9399E324",
+      "subject_ids": [
+        "SUBJ-SUCC-7F47E72FC411",
+        "SUBJ-SUCC-4DE3CD0B6897",
+        "SUBJ-SUCC-3CA26E8D160A"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-29B8B04526FF",
+        "PATH-872A9DC14B03",
+        "PATH-9B741D9BDF09",
+        "PATH-A55622493B71",
+        "PATH-D6FF5A55F914",
+        "PATH-E109A8752CF2",
+        "PATH-E99A38667BF9",
+        "PATH-ED68FCC9B189",
+        "PATH-FF4BD0B64D83"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-24FD1BA9E838",
+        "EVID-SUCC-2B8AC075063F",
+        "EVID-SUCC-2CE016BEFFE8",
+        "EVID-SUCC-40C898883EC1",
+        "EVID-SUCC-4B98FEA44F2C",
+        "EVID-SUCC-4FF93C94B8D0",
+        "EVID-SUCC-7BCC79304D12",
+        "EVID-SUCC-847CFD714ADE",
+        "EVID-SUCC-87BBFE29FE46",
+        "EVID-SUCC-90D87F192C93",
+        "EVID-SUCC-9AD8982D567F",
+        "EVID-SUCC-A4A17F38C01A",
+        "EVID-SUCC-A948F46BF1B4",
+        "EVID-SUCC-B852C8D25C63",
+        "EVID-SUCC-CDDC54E18B29",
+        "EVID-SUCC-D7B785D3DBF0",
+        "EVID-SUCC-DA25A62FD279"
+      ],
+      "authored_rationale": "Girondins285/290 and emigre-return287 access distinct legal readmission histories with ConventionThermidorian context. Federalist rehabilitation cannot be inferred from Girondin reinstatement or earlier Federalist suppression. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [],
+      "required_facets_reviewed": [
+        "legacy:TASK-C3A19E9E54A1",
+        "legacy:TASK-A43FF6727CC1",
+        "legacy:TASK-B8D7B614B873",
+        "legacy:TASK-600A9A234260"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-8012C36B851D",
+      "subject_ids": [
+        "SUBJ-SUCC-25B078097C6D",
+        "SUBJ-SUCC-3CA26E8D160A",
+        "SUBJ-SUCC-D0BE47FBF36D"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-484874E7423E",
+        "PATH-542D81C64617",
+        "PATH-6E11416272DF",
+        "PATH-819AB3AFF837",
+        "PATH-872A9DC14B03",
+        "PATH-9556E0C0D594",
+        "PATH-9B741D9BDF09",
+        "PATH-9EBB02800FBD",
+        "PATH-9EF2ED7A2D6E",
+        "PATH-A34404758FD3",
+        "PATH-D6FF5A55F914",
+        "PATH-E109A8752CF2",
+        "PATH-E2DD006900A5",
+        "PATH-E99A38667BF9",
+        "PATH-ED68FCC9B189",
+        "PATH-EDD1650AE19F"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-07FE05AFEC55",
+        "EVID-SUCC-24FD1BA9E838",
+        "EVID-SUCC-2B8AC075063F",
+        "EVID-SUCC-2B8DB6D26BAF",
+        "EVID-SUCC-2CE016BEFFE8",
+        "EVID-SUCC-3E8ED6ECC174",
+        "EVID-SUCC-40C898883EC1",
+        "EVID-SUCC-41446F8EA7B3",
+        "EVID-SUCC-4B98FEA44F2C",
+        "EVID-SUCC-4FF93C94B8D0",
+        "EVID-SUCC-7BCC79304D12",
+        "EVID-SUCC-82E809097CEC",
+        "EVID-SUCC-87BBFE29FE46",
+        "EVID-SUCC-90D87F192C93",
+        "EVID-SUCC-A4A17F38C01A",
+        "EVID-SUCC-ABB900C64AEF",
+        "EVID-SUCC-B0BB8352E963",
+        "EVID-SUCC-B852C8D25C63",
+        "EVID-SUCC-CDDC54E18B29",
+        "EVID-SUCC-DA25A62FD279"
+      ],
+      "authored_rationale": "Carrier283–285, Carnot284, committee impeachment/deportation283/284/287/291 and Convention reaction support responsibility and selective scapegoating, distinct from innocence or later Prairial punishment. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [],
+      "required_facets_reviewed": [
+        "legacy:TASK-EC3E2C9EA71D",
+        "legacy:TASK-4AD8AF3AA98D",
+        "legacy:TASK-E6C32E27BF22",
+        "legacy:TASK-37B56218FCA3",
+        "legacy:TASK-BC69188E9408",
+        "legacy:TASK-D32BC3E1BE58"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-81AEFB30D474",
+      "subject_ids": [
+        "SUBJ-SUCC-9B51E63EF68F",
+        "SUBJ-SUCC-CC730DB406A0"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED",
+        "PATH-139D5C8E19F4",
+        "PATH-17279898E888",
+        "PATH-2E609D05687C",
+        "PATH-484874E7423E",
+        "PATH-64D7893D7626",
+        "PATH-806891680426",
+        "PATH-9B741D9BDF09",
+        "PATH-A34404758FD3",
+        "PATH-BCB2595D6CA7"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-110D89196DC6",
+        "EVID-SUCC-3D22B3F79DA6",
+        "EVID-SUCC-3EF751E66D6F",
+        "EVID-SUCC-820030776F84",
+        "EVID-SUCC-B08B87FFB7E1",
+        "EVID-SUCC-B0DA70825BF2",
+        "EVID-SUCC-C49C53B025C2",
+        "EVID-SUCC-E2EC7735E043",
+        "EVID-SUCC-E6B2E5157E14"
+      ],
+      "authored_rationale": "Sansculotte decline291/294/295 and Prairial/sectional disarmament recover repression. Need specifically verify earlier institutional destruction276 rather than shifting it afterPrairial; absence of that route would make the two-phase task partial. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [],
+      "required_facets_reviewed": [
+        "legacy:TASK-47E4E599C7A7",
+        "legacy:TASK-68CB44EBBAEE",
+        "legacy:TASK-3B99321ED179",
+        "legacy:TASK-359566270808",
+        "legacy:TASK-02455F7032C6",
+        "legacy:TASK-D2D0D6509129"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-822FD108A319",
+      "subject_ids": [
+        "SUBJ-SUCC-D0BE47FBF36D",
+        "SUBJ-SUCC-CC730DB406A0",
+        "SUBJ-SUCC-655205C566BE",
+        "SUBJ-SUCC-0BEECB354226",
+        "SUBJ-SUCC-E57AD92C0E46",
+        "SUBJ-SUCC-9B51E63EF68F"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-0C63FACA6CED",
+        "PATH-139D5C8E19F4",
+        "PATH-17279898E888",
+        "PATH-2E609D05687C",
+        "PATH-453753449706",
+        "PATH-484874E7423E",
+        "PATH-542D81C64617",
+        "PATH-64D7893D7626",
+        "PATH-806891680426",
+        "PATH-819AB3AFF837",
+        "PATH-9556E0C0D594",
+        "PATH-9B741D9BDF09",
+        "PATH-9E86C24CDE99",
+        "PATH-9EBB02800FBD",
+        "PATH-A34404758FD3",
+        "PATH-A37478274ECE",
+        "PATH-BCB2595D6CA7",
+        "PATH-E109A8752CF2"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-110D89196DC6",
+        "EVID-SUCC-3D22B3F79DA6",
+        "EVID-SUCC-3EF751E66D6F",
+        "EVID-SUCC-41446F8EA7B3",
+        "EVID-SUCC-4E42DF415C54",
+        "EVID-SUCC-53814ACC1225",
+        "EVID-SUCC-820030776F84",
+        "EVID-SUCC-8ED02D699347",
+        "EVID-SUCC-92F9D4E457CF",
+        "EVID-SUCC-A035689F92ED",
+        "EVID-SUCC-A3CC9CB2EA57",
+        "EVID-SUCC-ABB900C64AEF",
+        "EVID-SUCC-B08B87FFB7E1",
+        "EVID-SUCC-B0BB8352E963",
+        "EVID-SUCC-B0DA70825BF2",
+        "EVID-SUCC-C49C53B025C2",
+        "EVID-SUCC-E2EC7735E043",
+        "EVID-SUCC-E6B2E5157E14",
+        "EVID-SUCC-E867A23B371B",
+        "EVID-SUCC-F15B83C9966D",
+        "EVID-SUCC-FF91019B2DA5"
+      ],
+      "authored_rationale": "Germinal/Prairial event entries plus bread, women, constitutional rebellion and sansculotte repression provide the comparison across290–295. Each demand, women mobilization and final295 outcome must be verified, not inferred from the shared uprising label. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [
+        "SUBJ-SUCC-E57AD92C0E46"
+      ],
+      "required_facets_reviewed": [
+        "legacy:TASK-FC5617CE32B4",
+        "legacy:TASK-1D17908498C0",
+        "legacy:TASK-C404343D53B2",
+        "legacy:TASK-76C9774C786A",
+        "legacy:TASK-BDA491BA543A",
+        "legacy:TASK-44DB0A1C5E1D",
+        "legacy:TASK-BE5877A671A2",
+        "legacy:TASK-E82E3FCF4FB7",
+        "legacy:TASK-6D1DF247FC2B",
+        "legacy:TASK-EF40609B72A3",
+        "legacy:TASK-1BE727E4EDBC",
+        "legacy:TASK-276B5121DFD0",
+        "legacy:TASK-A33C9A538C67",
+        "legacy:TASK-120A7740313B",
+        "legacy:TASK-E481B79C7C89"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-C0F0C1C88764",
+      "subject_ids": [
+        "SUBJ-SUCC-8B56E1AC3D55",
+        "SUBJ-SUCC-9DC759EBDD0D"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-288031039572",
+        "PATH-29ED73731631",
+        "PATH-4086A94400BC",
+        "PATH-5958E43F6835",
+        "PATH-595EB3C0C568",
+        "PATH-A254A6CC29F8",
+        "PATH-B978269CC447",
+        "PATH-BB06C05AE7D3",
+        "PATH-E1BB675F2C3D",
+        "PATH-E681E2D95186"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-089C273859A4",
+        "EVID-SUCC-0B2E9EEDD32A",
+        "EVID-SUCC-35D14998C1A6",
+        "EVID-SUCC-6E84B4876D32",
+        "EVID-SUCC-B1AC9BD99031",
+        "EVID-SUCC-B84D122EC43D",
+        "EVID-SUCC-F327D408E1C5"
+      ],
+      "authored_rationale": "LaMabilais289/290/312 with religious freedom288/289 and Hoche/Charette retrieve terms and strategic limits; agreements need not imply sincere restoration or identical motives. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [],
+      "required_facets_reviewed": [
+        "legacy:TASK-605143F25AE1",
+        "legacy:TASK-A77FAD1F4DCC",
+        "legacy:TASK-BABD89A80AE9",
+        "legacy:TASK-3BFE18B92B88",
+        "legacy:TASK-0F1A43D4C1CD",
+        "legacy:TASK-9D06A030D5FC",
+        "legacy:TASK-0C1A8ABB9285",
+        "legacy:TASK-5542F2C53C78"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-CD100AF00FE3",
+      "subject_ids": [
+        "SUBJ-SUCC-9DC759EBDD0D",
+        "SUBJ-SUCC-260AA907209B",
+        "SUBJ-SUCC-72A1D9C70157"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-223F6ED75353",
+        "PATH-288031039572",
+        "PATH-29ED73731631",
+        "PATH-3C51B1C8889A",
+        "PATH-595EB3C0C568",
+        "PATH-634A4CB6BC5B",
+        "PATH-802A8EE01774",
+        "PATH-9204A2CBB769",
+        "PATH-AD6548568F82",
+        "PATH-B978269CC447",
+        "PATH-BB06C05AE7D3",
+        "PATH-E681E2D95186",
+        "PATH-E93FDACD1D14"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-0B2E9EEDD32A",
+        "EVID-SUCC-2A84A50F9763",
+        "EVID-SUCC-35D14998C1A6",
+        "EVID-SUCC-38FB8D50EB80",
+        "EVID-SUCC-6908CEFA7F61",
+        "EVID-SUCC-B239BA8AE0A3",
+        "EVID-SUCC-C1ACA7D35972",
+        "EVID-SUCC-F038A22E7567",
+        "EVID-SUCC-F327D408E1C5",
+        "EVID-SUCC-F488545404E4"
+      ],
+      "authored_rationale": "Separation288, worship288/289 and SupremeBeing276/277/288 must be contrasted with actual dechristianization261/262 routes; distinguish private finance, civic religion and coercive closure, not mere successive labels. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [
+        "SUBJ-SUCC-72A1D9C70157"
+      ],
+      "required_facets_reviewed": [
+        "legacy:TASK-055C9E615903",
+        "legacy:TASK-7F4634F67618",
+        "legacy:TASK-A7D324695596",
+        "legacy:TASK-0449CA211D82",
+        "legacy:TASK-1FCD82575EDC"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-D08507913B4C",
+      "subject_ids": [
+        "SUBJ-SUCC-13AF8F136719",
+        "SUBJ-SUCC-9465F7AFB297",
+        "SUBJ-SUCC-94460DC3C7C8",
+        "SUBJ-SUCC-F3A79D2249F5"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-00AD56D897B5",
+        "PATH-139D5C8E19F4",
+        "PATH-16BACEC20952",
+        "PATH-20706105D21E",
+        "PATH-288031039572",
+        "PATH-3C3BE8055B13",
+        "PATH-872A9DC14B03",
+        "PATH-95E1A492F3C6",
+        "PATH-95F6BD419CAF",
+        "PATH-9E4C6405ACB3",
+        "PATH-A4DCDE5F8AD7",
+        "PATH-B6F9204A845E",
+        "PATH-D07C40F100E2",
+        "PATH-D6FF5A55F914",
+        "PATH-DB6D0D6866F1",
+        "PATH-E64AE183E436"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-07AAB9A6F7E6",
+        "EVID-SUCC-09CB276ACF79",
+        "EVID-SUCC-19DAF6F0EA20",
+        "EVID-SUCC-1DCC998B11AB",
+        "EVID-SUCC-242E39D2471B",
+        "EVID-SUCC-26CF38D687D1",
+        "EVID-SUCC-2E32D48DEBF1",
+        "EVID-SUCC-350A2B1D7A6D",
+        "EVID-SUCC-67EE3A3F6D3C",
+        "EVID-SUCC-71B001CE7970",
+        "EVID-SUCC-7EBC5AF704A4",
+        "EVID-SUCC-84B16565EB5E",
+        "EVID-SUCC-8A5C9840706F",
+        "EVID-SUCC-93F1D4EA4564",
+        "EVID-SUCC-B33BFCC0BC2E",
+        "EVID-SUCC-C40F233BB7BE",
+        "EVID-SUCC-EFB3B2F94B5E",
+        "EVID-SUCC-F826EF0C8A4C",
+        "EVID-SUCC-FCFD649E2DE7"
+      ],
+      "authored_rationale": "CPS internal divisions277/279/280 and Robespierre fall278–280 retrieve speech, police conflict, truce and overthrow. The dictatorship-denial interpretation281 and actual-vs-alleged assassination evidence277 need their own supported access; do not let heading political prominence imply proven dictatorship. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [
+        "SUBJ-SUCC-94460DC3C7C8"
+      ],
+      "required_facets_reviewed": [
+        "legacy:TASK-FEDDB14C59D3",
+        "legacy:TASK-527398CEBEF4",
+        "legacy:TASK-00096DD390AC",
+        "legacy:TASK-CD897986C578",
+        "legacy:TASK-A8865EEC36ED",
+        "legacy:TASK-1DE13D5BD90F",
+        "legacy:TASK-FA1C33F9D5CE",
+        "legacy:TASK-4C43947F5FD3",
+        "legacy:TASK-A71206DAF885",
+        "legacy:TASK-61FC304808C0",
+        "legacy:TASK-1D5481FB31C0",
+        "legacy:TASK-B7913F3CB70C",
+        "legacy:TASK-52A32A7A4D55",
+        "legacy:TASK-DFB8A78C4088",
+        "legacy:TASK-0F1188932FA4",
+        "legacy:TASK-9C51A414E4AA",
+        "legacy:TASK-7CA816248026"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-F1C65C86B3A1",
+      "subject_ids": [
+        "SUBJ-SUCC-FDB170E87280",
+        "SUBJ-SUCC-032D51EDEC22",
+        "SUBJ-SUCC-E57AD92C0E46"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-11AB710C5EB0",
+        "PATH-705F0E10D455",
+        "PATH-819AB3AFF837",
+        "PATH-84B3439B64EA",
+        "PATH-A34404758FD3",
+        "PATH-B0C46E82C42C",
+        "PATH-E40C18C277F9",
+        "PATH-F04A3EF07CC8"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-021A86228D36",
+        "EVID-SUCC-3D26CC39063E",
+        "EVID-SUCC-6DF15D3CB0BB",
+        "EVID-SUCC-748FADE5555F",
+        "EVID-SUCC-A035689F92ED",
+        "EVID-SUCC-CFBA3F489CC1",
+        "EVID-SUCC-D3BA2D7D3CF8",
+        "EVID-SUCC-E867A23B371B",
+        "EVID-SUCC-FDBE201FF8A3"
+      ],
+      "authored_rationale": "Democratic journalist287/324/325 and Equals325/326 link earlier constitutional appeal with later clandestine programme. EqualityBabeuf324/326 addresses social ideal, while Constitutionrebellion324–326 distinguishes broader immediate demand from ultimate communism. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [
+        "SUBJ-SUCC-E57AD92C0E46"
+      ],
+      "required_facets_reviewed": [
+        "legacy:TASK-2696FBFA7F76",
+        "legacy:TASK-24BFA82D5E03"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-F9402BF176EE",
+      "subject_ids": [
+        "SUBJ-SUCC-3CA26E8D160A",
+        "SUBJ-SUCC-9465F7AFB297"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-139D5C8E19F4",
+        "PATH-3C3BE8055B13",
+        "PATH-872A9DC14B03",
+        "PATH-9B741D9BDF09",
+        "PATH-A4DCDE5F8AD7",
+        "PATH-D6FF5A55F914",
+        "PATH-DB6D0D6866F1",
+        "PATH-E109A8752CF2",
+        "PATH-E99A38667BF9",
+        "PATH-ED68FCC9B189"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-07AAB9A6F7E6",
+        "EVID-SUCC-24FD1BA9E838",
+        "EVID-SUCC-26CF38D687D1",
+        "EVID-SUCC-2B8AC075063F",
+        "EVID-SUCC-2CE016BEFFE8",
+        "EVID-SUCC-40C898883EC1",
+        "EVID-SUCC-4B98FEA44F2C",
+        "EVID-SUCC-4FF93C94B8D0",
+        "EVID-SUCC-7BCC79304D12",
+        "EVID-SUCC-87BBFE29FE46",
+        "EVID-SUCC-90D87F192C93",
+        "EVID-SUCC-A4A17F38C01A",
+        "EVID-SUCC-B33BFCC0BC2E",
+        "EVID-SUCC-B852C8D25C63",
+        "EVID-SUCC-C40F233BB7BE",
+        "EVID-SUCC-CDDC54E18B29",
+        "EVID-SUCC-DA25A62FD279",
+        "EVID-SUCC-EFB3B2F94B5E"
+      ],
+      "authored_rationale": "CPS postThermidor281/282, Conventionreaction281/282/284 and Thermidor281 make governing-system rejection visible alongside Robespierre personal fall; central repeal and provincial change remain separate. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [],
+      "required_facets_reviewed": [
+        "legacy:TASK-297AD9AEAFE3",
+        "legacy:TASK-C43D1B9C0D60",
+        "legacy:TASK-370C16683B5F",
+        "legacy:TASK-A661E1AC724F",
+        "legacy:TASK-AA0ED81122B3"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-PROP-84AA1A064536",
+      "subject_ids": [
+        "SUBJ-SUCC-42A647BF0FDD",
+        "SUBJ-SUCC-AF783FF68D90",
+        "SUBJ-SUCC-F3A79D2249F5"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-07B10977D069",
+        "PATH-139D5C8E19F4",
+        "PATH-16BACEC20952",
+        "PATH-20706105D21E",
+        "PATH-24DA1E8D3317",
+        "PATH-3C3BE8055B13",
+        "PATH-594FA35F32F3",
+        "PATH-872A9DC14B03",
+        "PATH-943B9E017CB4",
+        "PATH-B6F9204A845E",
+        "PATH-D6FF5A55F914",
+        "PATH-E2DD006900A5",
+        "PATH-F019E55CCBF7"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-1543485C9D06",
+        "EVID-SUCC-242E39D2471B",
+        "EVID-SUCC-2E32D48DEBF1",
+        "EVID-SUCC-3B60CAF203B0",
+        "EVID-SUCC-6728ECC7EC44",
+        "EVID-SUCC-7EBC5AF704A4",
+        "EVID-SUCC-9ED83C395E32",
+        "EVID-SUCC-AAE69E4A7D17",
+        "EVID-SUCC-E5779B3DBE25",
+        "EVID-SUCC-F826EF0C8A4C"
+      ],
+      "authored_rationale": "SpecificGreatTerror preventive logic274/275 and laterlaw/repeal must be compared with broad victim totals257–259. GeneralReignofTerror does not by itself distinguish periods or denominators. Check the lack of victim-statistics subdivision before claiming navigation success. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [
+        "SUBJ-SUCC-AF783FF68D90"
+      ],
+      "required_facets_reviewed": [
+        "legacy:TASK-1DB3676BF8A3",
+        "legacy:TASK-90380DD3A93F",
+        "legacy:TASK-A774DF30ABAA",
+        "legacy:TASK-5B36B77F7CD8"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    },
+    {
+      "task_id": "TASK-SUCC-PROP-EF2613B9F6E1",
+      "subject_ids": [
+        "SUBJ-SUCC-260AA907209B",
+        "SUBJ-SUCC-94460DC3C7C8",
+        "SUBJ-SUCC-72A1D9C70157"
+      ],
+      "result": "succeeds",
+      "access_mode": "direct",
+      "matched_path_ids": [
+        "PATH-223F6ED75353",
+        "PATH-288031039572",
+        "PATH-3C3BE8055B13",
+        "PATH-3C51B1C8889A",
+        "PATH-634A4CB6BC5B",
+        "PATH-802A8EE01774",
+        "PATH-9204A2CBB769",
+        "PATH-95E1A492F3C6",
+        "PATH-9E4C6405ACB3",
+        "PATH-A4DCDE5F8AD7",
+        "PATH-AD6548568F82",
+        "PATH-B6F9204A845E",
+        "PATH-B978269CC447",
+        "PATH-E64AE183E436",
+        "PATH-E93FDACD1D14"
+      ],
+      "severity": "none",
+      "confidence": "high",
+      "evidence_ids": [
+        "EVID-SUCC-09CB276ACF79",
+        "EVID-SUCC-19DAF6F0EA20",
+        "EVID-SUCC-1DCC998B11AB",
+        "EVID-SUCC-2A84A50F9763",
+        "EVID-SUCC-350A2B1D7A6D",
+        "EVID-SUCC-38FB8D50EB80",
+        "EVID-SUCC-6908CEFA7F61",
+        "EVID-SUCC-71B001CE7970",
+        "EVID-SUCC-84B16565EB5E",
+        "EVID-SUCC-93F1D4EA4564",
+        "EVID-SUCC-B239BA8AE0A3",
+        "EVID-SUCC-C1ACA7D35972",
+        "EVID-SUCC-F038A22E7567",
+        "EVID-SUCC-F488545404E4"
+      ],
+      "authored_rationale": "CultSupremeBeing276/277/288 and Parisfestival276/277 explicitly retrieve beliefs, spectacle and funding termination. Dechristianization and Robespierre routes supply contrast and perceived mastery without proof of dictatorship or settledWhitsundayintent. Current task-specific review preserves the stated qualifications and distinctions through the cited routes. The result is authored for this complete question, not mechanically inherited from parent coverage or old task judgments.",
+      "external_context_review_ids": [
+        "SUBJ-SUCC-94460DC3C7C8",
+        "SUBJ-SUCC-72A1D9C70157"
+      ],
+      "required_facets_reviewed": [
+        "legacy:TASK-D4E202BC0230",
+        "legacy:TASK-83919095FE68",
+        "legacy:TASK-5E3DA9FC93F1"
+      ],
+      "axis_resolution": {
+        "result": "known"
+      },
+      "semantic_uncertainties": []
+    }
+  ],
+  "treatment_judgments": [
+    {
+      "treatment_id": "TREAT-01D9BC99BD32",
+      "subject_id": "SUBJ-SUCC-13AF8F136719",
+      "document_page": 279,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-8A5C9840706F"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-05994851E470",
+      "subject_id": "SUBJ-SUCC-F539754012D5",
+      "document_page": 295,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-A1A4C2115E64"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-0687FB9D73D7",
+      "subject_id": "SUBJ-SUCC-9B51E63EF68F",
+      "document_page": 294,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-820030776F84"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-084E5898B7BE",
+      "subject_id": "SUBJ-SUCC-25B078097C6D",
+      "document_page": 283,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-2B8DB6D26BAF"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-09F46C02A1F0",
+      "subject_id": "SUBJ-SUCC-655205C566BE",
+      "document_page": 293,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-4E42DF415C54"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-0AD506F55C18",
+      "subject_id": "SUBJ-SUCC-BE019F6D22CE",
+      "document_page": 287,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-28EAD8A96EA0"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-0C4FDF73EFD1",
+      "subject_id": "SUBJ-SUCC-CC730DB406A0",
+      "document_page": 294,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-3D22B3F79DA6"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-0C607216759A",
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "document_page": 285,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-2B8AC075063F"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-0D19B313DE05",
+      "subject_id": "SUBJ-SUCC-9465F7AFB297",
+      "document_page": 280,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-C40F233BB7BE",
+        "EVID-SUCC-EFB3B2F94B5E"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-0DB33DAD85DC",
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "document_page": 282,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-24FD1BA9E838"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-15DDB9AFED53",
+      "subject_id": "SUBJ-SUCC-8B56E1AC3D55",
+      "document_page": 288,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-089C273859A4"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-1929C5352F23",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 313,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-F5B3CDC979D5"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-1CB00940A5D4",
+      "subject_id": "SUBJ-SUCC-FDB170E87280",
+      "document_page": 291,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-748FADE5555F"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-1CD0EE080C32",
+      "subject_id": "SUBJ-SUCC-CC730DB406A0",
+      "document_page": 294,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-E2EC7735E043"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-231AE4EE3ECC",
+      "subject_id": "SUBJ-SUCC-7F47E72FC411",
+      "document_page": 290,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-D7B785D3DBF0"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-279E110DD998",
+      "subject_id": "SUBJ-SUCC-75493DD9F6D7",
+      "document_page": 293,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-CD9AADA46620"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-28B633CE165B",
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "document_page": 282,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-4FF93C94B8D0",
+        "EVID-SUCC-A4A17F38C01A",
+        "EVID-SUCC-DA25A62FD279"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 3,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-2918CC2CA1D4",
+      "subject_id": "SUBJ-SUCC-ED09FB8A7BAE",
+      "document_page": 287,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-48AD2BA57A83"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-2B448759F61A",
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "document_page": 284,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-7BCC79304D12",
+        "EVID-SUCC-90D87F192C93"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-2DEC4A51F3E4",
+      "subject_id": "SUBJ-SUCC-7EF3772773F2",
+      "document_page": 284,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-250EF6C43903"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-2F43C493B07E",
+      "subject_id": "SUBJ-SUCC-9B51E63EF68F",
+      "document_page": 295,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-3EF751E66D6F"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-31F195692977",
+      "subject_id": "SUBJ-SUCC-7F47E72FC411",
+      "document_page": 285,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-A948F46BF1B4"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-32E3436EBBE9",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 302,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-C67912C03BF7"
+      ],
+      "source_evidence_ids": [
+        "EVID-1B37955E5408"
+      ],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-344AB4ED24D4",
+      "subject_id": "SUBJ-SUCC-75493DD9F6D7",
+      "document_page": 292,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B23353A6E3C4"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-369C435601AB",
+      "subject_id": "SUBJ-SUCC-ED09FB8A7BAE",
+      "document_page": 283,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-68CFFC7D7A6A"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-371A450A3CBE",
+      "subject_id": "SUBJ-SUCC-42A647BF0FDD",
+      "document_page": 282,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-1543485C9D06"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-3C57E477CA0A",
+      "subject_id": "SUBJ-SUCC-25B078097C6D",
+      "document_page": 285,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-3E8ED6ECC174"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-3EC7D737AB50",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 295,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-B85D6B4713F8"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-45BC6F5577B9",
+      "subject_id": "SUBJ-SUCC-260AA907209B",
+      "document_page": 288,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B239BA8AE0A3"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-47AE8CF79309",
+      "subject_id": "SUBJ-SUCC-42A647BF0FDD",
+      "document_page": 275,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-6728ECC7EC44"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-4976AEAC8C4A",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 314,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B1E597B429BD"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-4CA9E1E9578F",
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "document_page": 285,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-87BBFE29FE46"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-52919FF22FF9",
+      "subject_id": "SUBJ-SUCC-F3A79D2249F5",
+      "document_page": 277,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-F826EF0C8A4C"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-536E059B9C66",
+      "subject_id": "SUBJ-SUCC-D0BE47FBF36D",
+      "document_page": 290,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-ABB900C64AEF"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-53D4895362D9",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 315,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-4F6B2A8D5D3D"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-53DD10B3382A",
+      "subject_id": "SUBJ-SUCC-4DE3CD0B6897",
+      "document_page": 287,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-9AD8982D567F"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-541E77B8FC8B",
+      "subject_id": "SUBJ-SUCC-42A647BF0FDD",
+      "document_page": 278,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-3B60CAF203B0"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-54B47AA3B2D4",
+      "subject_id": "SUBJ-SUCC-ED09FB8A7BAE",
+      "document_page": 282,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-37026ACED3BD"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-54CAA6566B4C",
+      "subject_id": "SUBJ-SUCC-9465F7AFB297",
+      "document_page": 281,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-26CF38D687D1",
+        "EVID-SUCC-B33BFCC0BC2E"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-591F580B8497",
+      "subject_id": "SUBJ-SUCC-F3A79D2249F5",
+      "document_page": 278,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-2E32D48DEBF1"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-5A1CBF45FF0D",
+      "subject_id": "SUBJ-SUCC-4DE3CD0B6897",
+      "document_page": 287,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-847CFD714ADE"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-5AABD6E130FD",
+      "subject_id": "SUBJ-SUCC-655205C566BE",
+      "document_page": 294,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-92F9D4E457CF"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-5B841C2B3961",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 306,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-1F97CAB8D4A1",
+        "EVID-SUCC-ED256AA9E069"
+      ],
+      "source_evidence_ids": [
+        "EVID-698B46C53AE8"
+      ],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-5FC61C327601",
+      "subject_id": "SUBJ-SUCC-9DC759EBDD0D",
+      "document_page": 289,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-F327D408E1C5"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-6368F07F40CD",
+      "subject_id": "SUBJ-SUCC-7EF3772773F2",
+      "document_page": 287,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-CA39163D2C22"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-68C1C4F6E918",
+      "subject_id": "SUBJ-SUCC-0BEECB354226",
+      "document_page": 293,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-FF91019B2DA5"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-6AFC5FD44A6F",
+      "subject_id": "SUBJ-SUCC-FDB170E87280",
+      "document_page": 287,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-FDBE201FF8A3"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-71C6DDA49E3F",
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "document_page": 293,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-CDDC54E18B29"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-73A0A84A7043",
+      "subject_id": "SUBJ-SUCC-9B51E63EF68F",
+      "document_page": 276,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-110D89196DC6"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-74002DFA9D3D",
+      "subject_id": "SUBJ-SUCC-F539754012D5",
+      "document_page": 282,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-6D515580AB72"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-7A9C4F809B80",
+      "subject_id": "SUBJ-SUCC-75493DD9F6D7",
+      "document_page": 327,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-5AD38F30CD36"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-7B0AD56256EF",
+      "subject_id": "SUBJ-SUCC-CC730DB406A0",
+      "document_page": 294,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B0DA70825BF2"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-7B412B240F23",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 309,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-010C1C54793E"
+      ],
+      "source_evidence_ids": [
+        "EVID-A4B9344990C3"
+      ],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-7C4B72076681",
+      "subject_id": "SUBJ-SUCC-9DC759EBDD0D",
+      "document_page": 288,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-0B2E9EEDD32A",
+        "EVID-SUCC-35D14998C1A6"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-7FED498BE483",
+      "subject_id": "SUBJ-SUCC-ED09FB8A7BAE",
+      "document_page": 285,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-EB14069B90DA"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-846C258817AF",
+      "subject_id": "SUBJ-SUCC-7EF3772773F2",
+      "document_page": 283,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-514685DCE97B"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-8667DBCCAE7C",
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "document_page": 292,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-40C898883EC1"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-8F998B20622B",
+      "subject_id": "SUBJ-SUCC-CC730DB406A0",
+      "document_page": 293,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B08B87FFB7E1"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-903573269EFF",
+      "subject_id": "SUBJ-SUCC-F539754012D5",
+      "document_page": 284,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-A4EBA5D6D5D4"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-906B26AD8A8A",
+      "subject_id": "SUBJ-SUCC-9465F7AFB297",
+      "document_page": 279,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-07AAB9A6F7E6"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-9AB0543ECABF",
+      "subject_id": "SUBJ-SUCC-F3A79D2249F5",
+      "document_page": 275,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-7EBC5AF704A4"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-9D52B543F0C8",
+      "subject_id": "SUBJ-SUCC-F3A79D2249F5",
+      "document_page": 282,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-242E39D2471B"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-9EA67C9EE05C",
+      "subject_id": "SUBJ-SUCC-260AA907209B",
+      "document_page": 277,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F038A22E7567"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-A040924FA8AB",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 296,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-0386DC869DB5"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-AA4FAF5733F3",
+      "subject_id": "SUBJ-SUCC-42A647BF0FDD",
+      "document_page": 274,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-9ED83C395E32"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-AA875692E0B5",
+      "subject_id": "SUBJ-SUCC-75493DD9F6D7",
+      "document_page": 291,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-45BDF464314D"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-AB8F2B90C971",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 307,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-1BF838A59F26"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-AD10FA59DF29",
+      "subject_id": "SUBJ-SUCC-655205C566BE",
+      "document_page": 290,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-A3CC9CB2EA57"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-B2CDC1340659",
+      "subject_id": "SUBJ-SUCC-8B56E1AC3D55",
+      "document_page": 289,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B84D122EC43D"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-B62DE4AD8AF2",
+      "subject_id": "SUBJ-SUCC-655205C566BE",
+      "document_page": 286,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F15B83C9966D"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-B64980177B20",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 307,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-3D4BDF988F34"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C2CB38149CEF",
+      "subject_id": "SUBJ-SUCC-BE019F6D22CE",
+      "document_page": 285,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-A541786F9E55"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C47008654278",
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "document_page": 294,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-4B98FEA44F2C"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C64A19F71075",
+      "subject_id": "SUBJ-SUCC-13AF8F136719",
+      "document_page": 278,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-FCFD649E2DE7"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C7828DF5E2E7",
+      "subject_id": "SUBJ-SUCC-25B078097C6D",
+      "document_page": 287,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-82E809097CEC"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-C916F530265E",
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "document_page": 281,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B852C8D25C63"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-CF05184624E5",
+      "subject_id": "SUBJ-SUCC-ED09FB8A7BAE",
+      "document_page": 284,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-67BD26946036"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-D72C2A20CFD6",
+      "subject_id": "SUBJ-SUCC-F2315DAA8A43",
+      "document_page": 278,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-24BA71AC6F84"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-D77A91C5DCE4",
+      "subject_id": "SUBJ-SUCC-8B56E1AC3D55",
+      "document_page": 290,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-6E84B4876D32"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-DB9CA56C57DB",
+      "subject_id": "SUBJ-SUCC-13AF8F136719",
+      "document_page": 277,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-67EE3A3F6D3C"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-DC89DE9BF68D",
+      "subject_id": "SUBJ-SUCC-3CA26E8D160A",
+      "document_page": 283,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-2CE016BEFFE8"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-DE8B9FF370D8",
+      "subject_id": "SUBJ-SUCC-655205C566BE",
+      "document_page": 287,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-53814ACC1225"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-E0EB9F4F04BB",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 295,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-F263BB04A9C5"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-E326D3B86C80",
+      "subject_id": "SUBJ-SUCC-260AA907209B",
+      "document_page": 276,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-C1ACA7D35972"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-E47A1B409EBE",
+      "subject_id": "SUBJ-SUCC-BE019F6D22CE",
+      "document_page": 287,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-D70B8D6D6DD1"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-E81E792A304B",
+      "subject_id": "SUBJ-SUCC-0BEECB354226",
+      "document_page": 290,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-8ED02D699347"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-E91E7FBC9C7F",
+      "subject_id": "SUBJ-SUCC-9B51E63EF68F",
+      "document_page": 295,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-C49C53B025C2"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-EA286C898584",
+      "subject_id": "SUBJ-SUCC-6CADAB0E6D01",
+      "document_page": 292,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-686EA411266A"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-EAAFABFC3D3C",
+      "subject_id": "SUBJ-SUCC-D0BE47FBF36D",
+      "document_page": 291,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B0BB8352E963"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-EF0FC053F29D",
+      "subject_id": "SUBJ-SUCC-25B078097C6D",
+      "document_page": 284,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-07FE05AFEC55"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-EF9BD90495A6",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 317,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-7157AE8EBC24"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "missed"
+    },
+    {
+      "treatment_id": "TREAT-F5226BC263DF",
+      "subject_id": "SUBJ-SUCC-9B51E63EF68F",
+      "document_page": 291,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-E6B2E5157E14"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-F5CAA6DE1C35",
+      "subject_id": "SUBJ-SUCC-ED09FB8A7BAE",
+      "document_page": 290,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-1C0399F5FC1F"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-F61E95F3D74E",
+      "subject_id": "SUBJ-SUCC-D0BE47FBF36D",
+      "document_page": 292,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-41446F8EA7B3"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-F69E11C4113C",
+      "subject_id": "SUBJ-SUCC-6CADAB0E6D01",
+      "document_page": 292,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-20FC75AF7AB4",
+        "EVID-SUCC-C74AF6073EC4"
+      ],
+      "source_evidence_ids": [
+        "EVID-6211511D2256"
+      ],
+      "evidence_count": 2,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-F8335AFFFA69",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 296,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-AC0CE15123B4"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-FAE65991511F",
+      "subject_id": "SUBJ-SUCC-8B56E1AC3D55",
+      "document_page": 312,
+      "locator_class": "principal",
+      "evidence_ids": [
+        "EVID-SUCC-B1AC9BD99031"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-FDF889FBF435",
+      "subject_id": "SUBJ-SUCC-FDB170E87280",
+      "document_page": 294,
+      "locator_class": "supporting",
+      "evidence_ids": [
+        "EVID-SUCC-D3BA2D7D3CF8"
+      ],
+      "source_evidence_ids": [],
+      "evidence_count": 1,
+      "status": "found"
+    },
+    {
+      "treatment_id": "TREAT-FE222954CED6",
+      "subject_id": "SUBJ-SUCC-1D98349B5A7B",
+      "document_page": 307,
+      "locator_class": "synthesis_or_conclusion",
+      "evidence_ids": [
+        "EVID-SUCC-2F786138EA55"
+      ],
+      "source_evidence_ids": [
+        "EVID-C512B50CE6A7"
+      ],
+      "evidence_count": 1,
+      "status": "found"
+    }
+  ],
+  "reader_task_completion": {
+    "expected": 15,
+    "judged": 15,
+    "unique": true,
+    "complete": true,
+    "semantic_unresolved": 0
+  },
+  "treatment_completion": {
+    "expected": 99,
+    "judged": 99,
+    "unique": true,
+    "complete": true
+  },
+  "completion": {
+    "expected": 25,
+    "judged": 25,
+    "complete": true,
+    "semantic_unresolved": 0
+  }
+}

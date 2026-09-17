@@ -1,0 +1,159 @@
+{
+  "schema_version": "subject-index-dimension-calculation-input-v5",
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "audit_mode": "full",
+  "inputs": {
+    "policy": {
+      "path": "../migration-v10-r2/selected-policy.json",
+      "sha256": "c37c3d9d1912b060b8f1a4c5305039e7c06fe7506b247042f377fdc64390e823"
+    },
+    "chunk_manifest": {
+      "path": "../source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    "locator_audits": [
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-001.v3.json",
+        "sha256": "f4e5c45f9b64528c510e896fc4d3a34c4ff26d1e51186f8a02782e3a7e5ae064"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-002.v3.json",
+        "sha256": "fce58395d2b4a37be5b222651f9ebf476380337ea05e01e208f9f4d829ce9aff"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-003.v3.json",
+        "sha256": "b620be287ec27b4c0c4d269a8a1b498756f362439fd727143107a4f1de53886d"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-004.v3.json",
+        "sha256": "e3911f4259d643c16c8e720960f4377fd68370ad8e2bc348422f4bf97f27e00a"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-005.v3.json",
+        "sha256": "dd0f6581189c3c747175074bcf7ff24663e63be0e2c0cfb0c0db3a2449ea0a7d"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-006.v3.json",
+        "sha256": "95528e9c0332b433095924ffacf56dafd114d056096e8edd30ee12698fa3165e"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-007.v3.json",
+        "sha256": "4d30aa33cb6e3fbe041e8a911f7c3a43f5770d1f4dc6aa52b668f9dd8c699676"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-008.v3.json",
+        "sha256": "e9714e7b915705071665ec218f0cf1c4883031b34979b75450a4e57726500212"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-009.v3.json",
+        "sha256": "9b3f7ad2804dbf0e885e12c4621c162553ae329cad3157cff1a6056f5f2faf3c"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-010.v3.json",
+        "sha256": "beb1bd71137942a6434c640a76a21c9f4c0d15f27f0fb2de01c73a1b4be8ae9c"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-011.v3.json",
+        "sha256": "c9f8e182b5d08822f886addfef2e05e082761efbdff841d3db2749fed3e43f3d"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-012.v3.json",
+        "sha256": "1d5a99c1007b34bcdec5ba1c99cfc54bd66b4d2c5c07d8fe303b47e4eba2b97a"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-013.v3.json",
+        "sha256": "5cace462efbed0c1f8d752c1d9a1eae31e5dea3b17a27e4a9f4e07bd450d3e11"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-014.v3.json",
+        "sha256": "aee9f451c6ce85694405d8d41f4729e38a67e17bcfa4dd70e18fee5f2c925809"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-015.v3.json",
+        "sha256": "44728079241fb0c3cec5a24b39982fc76d45401a57a3a4273088f42c363090c4"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-016.v3.json",
+        "sha256": "dac3daee861ff3a1627222ae5f0a8ef9bc751d1e548b871afef0482746d19583"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-017.v3.json",
+        "sha256": "0c032b14f118426f87e546cf3c7a56436452a9103ca3686cc99f2f05ad4f03ad"
+      }
+    ],
+    "missing_access_audits": [
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-001.v2.json",
+        "sha256": "64a50a09215d6db4d03dc402e87796fca66a9f629da3992ee1725b92de3fd1d7"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-002.v2.json",
+        "sha256": "9a3da3589db1939a62a9d338a19869d98de10c975705a96c30ec71c437e106ee"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-003.v2.json",
+        "sha256": "60e4bf7a9db1921f35116d3140ff716fede31078bdced6a228f1baac11578ff8"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-004.v2.json",
+        "sha256": "df8b83a23a6487cae39464f6e00a57976d0cb9d37442a942be1756ef10cb9b37"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-005.v2.json",
+        "sha256": "30a4878dfbfa613f7af45d7f06de23bbd37150ae5be64b6165424a092159eb6a"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-006.v2.json",
+        "sha256": "c7ec41d523322f8d310e79f7d4abfb69b3b0c069b44c601f623f148164301a7f"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-007.v2.json",
+        "sha256": "b248e454f072af72717270d578e495bf97a966a0f2058272dee50978db06ab51"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-008.v2.json",
+        "sha256": "c41c37265cb42945f50208cfb440b5b6426111bdc32b0a211adc37ec1bd79255"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-009.v2.json",
+        "sha256": "d3d9c71e9b8ea39859dc402de324673f6d47490f00b610f231c5df3d517a1729"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-010.v2.json",
+        "sha256": "6e09269abf11eb00c37b67675d4dba58d395658863eda7ab78e7ec62a80474c5"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-011.v2.json",
+        "sha256": "44fe474ab8784f731f47792b951e15e0427e107af3044d796166885718ef8f9b"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-012.v2.json",
+        "sha256": "5796e9480d5f79e1de5252559f92021bec1829fe1e8a746948c360a8a45d3497"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-013.v2.json",
+        "sha256": "5155f9fa9e4b6996b9d967cf51ce7734f98489fd0c82da8ceb544ddf2826bf39"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-014.v2.json",
+        "sha256": "55ee266041b6302f12f3bbdf654e44f05be94d5a48d59c0fb1924b41cc5ec625"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-015.v2.json",
+        "sha256": "2e8a30bc7284235abe0f4b1edea9b20e8fde2f1daf28c8e1d13cfaab48027785"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-016.v2.json",
+        "sha256": "d32ff7ac7dccfa519d4eac7b798c748a73addf0ab31d9454139d7d2d185ff1cc"
+      },
+      {
+        "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-017.v2.json",
+        "sha256": "68aeeae6a2478ade4d06faa886a6b9cb0930511bf318b836630d6f99d65b1fcb"
+      }
+    ],
+    "structure_audit": {
+      "path": "../candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v10-r2.json",
+      "sha256": "8ebc55082fe711ba03ac36624e987edbc94fb6a819665c9138d5babd7eba1ebb"
+    }
+  }
+}
