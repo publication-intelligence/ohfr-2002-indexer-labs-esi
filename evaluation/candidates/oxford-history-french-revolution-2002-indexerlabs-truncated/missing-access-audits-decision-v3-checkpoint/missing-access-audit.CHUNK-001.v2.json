@@ -1,7 +1,7 @@
 {
   "schema_version": "missing-access-audit-v2",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
-  "benchmark_sha256": "ec0fbc78e370086ea03d0f6edc766646949c56d1d72177cf6c6f28dbfe2b09c0",
+  "benchmark_sha256": "80669e255b6e0e997984694532cbc0a27d2aa06987c2f73cbfa5878b49cdc20d",
   "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
   "chunk_id": "CHUNK-001",
   "expected_subject_ids": [
@@ -3249,7 +3249,7 @@
     {
       "subject_id": "SUBJ-SUCC-824509C32BF5",
       "priority": "essential",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "yes",
@@ -3285,7 +3285,7 @@
       "missed_document_pages": [],
       "severity": "minor",
       "confidence": "high",
-      "rationale": "Law/customary law4, Paris Basin/Brittany/bocage5, Midi/Bordeaux/Massif6 and Alsace9 retrieve all stated treatments and the source comparisons. However the delivered index supplies no France regional-diversity or communications overview route coordinating these accurate individual regions. For a reader starting with comparative regional variation, finding the full synthesis requires choosing and combining specific regions without an overview cue. I therefore retain complete treatment coverage and faithful stance but partly successful first lookup; the localized missing coordination is proposed to root as DEFECT-ACCESS-REGIONAL-OVERVIEW, not a defect in the accuracy of regional names.",
+      "rationale": "Law/customary law4, Paris Basin/Brittany/bocage5, Midi/Bordeaux/Massif6 and Alsace9 retrieve all stated treatments and the source comparisons. However the delivered index supplies no France regional-diversity or communications overview route coordinating these accurate individual regions. For a reader starting with comparative regional variation, finding the full synthesis requires choosing and combining specific regions without an overview cue. I therefore retain complete treatment coverage and faithful stance but partly successful first lookup; the localized missing coordination is proposed to root as DEFECT-ACCESS-REGIONAL-OVERVIEW, not a defect in the accuracy of regional names. Complete treatment recall does not establish complete multi-facet access because realistic first lookup is not fully successful.",
       "evidence_ids": [
         "EVID-SUCC-0397CC314C94",
         "EVID-SUCC-7F3CD6DCEB63",

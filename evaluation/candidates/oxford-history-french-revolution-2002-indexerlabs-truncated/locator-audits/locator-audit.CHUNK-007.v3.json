@@ -2536,24 +2536,15 @@
       "source_page_label": "172",
       "source_scope_status": "indexable",
       "treatment_class": "substantive",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "On source page 172, the destination provides independently useful treatment of the complete path “monarchy > constitutional monarchy (1789-92)” within its discussion of European censorship and the international impact of Varennes and French universalism.",
       "evidence_ids": [
         "EVID-7F84935C41D9"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-96241A6DBC2B",
@@ -3465,25 +3456,16 @@
       "document_page": 171,
       "source_page_label": "171",
       "source_scope_status": "indexable",
-      "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "On source page 171, the destination provides independently useful treatment of the complete path “Provence” within its discussion of emigre organization in Germany, monarchical policy, and Spanish censorship.",
       "evidence_ids": [
         "EVID-34D924032B83"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "Preserve the addendum’s explicit useful source treatment and established source entity. Neither a geographic default nor a personal default resolves the mixed literal heading. The no-fit interpretation is unsupported/keep0; the exact-fit interpretation is supported/keep1.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Preserve the addendum’s explicit useful source treatment and established source entity. Neither a geographic default nor a personal default resolves the mixed literal heading. The no-fit interpretation is unsupported/keep0; the exact-fit interpretation is supported/keep1."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-1ED468068559",
@@ -4583,6 +4565,6 @@
     "judged": 203,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 2
+    "semantic_unresolved": 0
   }
 }

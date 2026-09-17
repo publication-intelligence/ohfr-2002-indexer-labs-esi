@@ -1823,24 +1823,18 @@
       "source_page_label": "174",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "material_partial_fit",
+      "judgment": "partially_supported",
       "evidence_summary": "The page treats elected local offices and Jacobin clubs as sources of deputies' experience, but does not fully develop the delivered combined departmental subdivision.",
       "evidence_ids": [
         "EVID-9D6119C59AC0"
       ],
       "confidence": "medium",
-      "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      "error_codes": [
+        "SUB"
+      ],
+      "severity": "minor",
+      "fit_rationale": "The page treats elected local offices and Jacobin clubs as sources of deputies' experience, but does not fully develop the delivered combined departmental subdivision."
     },
     {
       "locator_id": "LOC-131187F2BBE1",
@@ -3160,24 +3154,18 @@
       "source_page_label": "190",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "material_partial_fit",
+      "judgment": "partially_supported",
       "evidence_summary": "The page treats the guillotine's first political use in August 1792, relevant background but not yet its use during the Terror.",
       "evidence_ids": [
         "EVID-6C3A76952743"
       ],
       "confidence": "medium",
-      "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      "error_codes": [
+        "SUB"
+      ],
+      "severity": "minor",
+      "fit_rationale": "The page treats the guillotine's first political use in August 1792, relevant background but not yet its use during the Terror."
     },
     {
       "locator_id": "LOC-10AF4E9F0170",
@@ -4722,9 +4710,9 @@
       "document_page": 193,
       "source_page_label": "193",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 193 connects the complete path 'Louis-Philippe (Duke of Orléans)' to a concrete source fact: the elections returned leading revolutionaries and foreign friends, including Brissot, Pétion, Robespierre, Danton, Clootz, Orléans, Paine, and Priestley.",
       "evidence_ids": [
         "EVID-168D7C2F5785"
@@ -4732,15 +4720,7 @@
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      "fit_rationale": "That page-specific treatment of the elections returned leading revolutionaries and foreign friends, including Brissot, Pétion, Robespierre, Danton, Clootz, Orléans, Paine, and Priestley directly matches the subject and scope expressed by the complete path 'Louis-Philippe (Duke of Orléans)'."
     },
     {
       "locator_id": "LOC-C8665FF91B3F",
@@ -5676,24 +5656,18 @@
       "source_page_label": "190",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "material_partial_fit",
+      "judgment": "partially_supported",
       "evidence_summary": "Document page 190 treats the Paris Commune's dominance after 10 August but not the Mountain component of the combined path.",
       "evidence_ids": [
         "EVID-C74D2DC5AC6E"
       ],
       "confidence": "high",
-      "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      "error_codes": [
+        "SUB"
+      ],
+      "severity": "minor",
+      "fit_rationale": "Document page 190 treats the Paris Commune's dominance after 10 August but not the Mountain component of the combined path."
     },
     {
       "locator_id": "LOC-F31FFC742181",
@@ -5706,24 +5680,18 @@
       "source_page_label": "191",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "material_partial_fit",
+      "judgment": "partially_supported",
       "evidence_summary": "Document page 191 treats the Paris Commune and its alliance with Robespierre against the Gironde, but does not yet identify the Mountain component of the combined path.",
       "evidence_ids": [
         "EVID-F31FFC742181"
       ],
       "confidence": "high",
-      "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      "error_codes": [
+        "SUB"
+      ],
+      "severity": "minor",
+      "fit_rationale": "Document page 191 treats the Paris Commune and its alliance with Robespierre against the Gironde, but does not yet identify the Mountain component of the combined path."
     },
     {
       "locator_id": "LOC-A0BDA139CA84",
@@ -7276,8 +7244,8 @@
       "source_page_label": "190",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 190 connects the complete path 'sansculottes > role in Terror' to a concrete source fact: sansculotte vigilantes carried out clerical arrests and drove the commune's vengeance against presumed enemies.",
       "evidence_ids": [
         "EVID-BB9D355AEB42"
@@ -7285,15 +7253,7 @@
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      "fit_rationale": "That page-specific treatment of sansculotte vigilantes carried out clerical arrests and drove the commune's vengeance against presumed enemies directly matches the subject and scope expressed by the complete path 'sansculottes > role in Terror'."
     },
     {
       "locator_id": "LOC-F32906C107A2",
@@ -7306,24 +7266,15 @@
       "source_page_label": "191",
       "source_scope_status": "indexable",
       "treatment_class": "substantive",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 191 connects the complete path 'sansculottes > role in Terror' to a concrete source fact: sansculottes began the September Massacres with prison convoys and the Carmelite convent, killing between 1,100 and 1,400 prisoners.",
       "evidence_ids": [
         "EVID-F32906C107A2"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-A657E26FD069",
@@ -7336,8 +7287,8 @@
       "source_page_label": "192",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 192 connects the complete path 'sansculottes > role in Terror' to a concrete source fact: the prison killings were officially rewarded by the commune and made septembriseur a lasting term of political abuse.",
       "evidence_ids": [
         "EVID-A657E26FD069"
@@ -7345,15 +7296,7 @@
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      "fit_rationale": "That page-specific treatment of the prison killings were officially rewarded by the commune and made septembriseur a lasting term of political abuse directly matches the subject and scope expressed by the complete path 'sansculottes > role in Terror'."
     },
     {
       "locator_id": "LOC-D58DB853BA4A",
@@ -8266,6 +8209,6 @@
     "judged": 361,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 8
+    "semantic_unresolved": 0
   }
 }

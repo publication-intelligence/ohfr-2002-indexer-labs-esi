@@ -1,0 +1,16 @@
+{
+  "schema_version": "subject-index-retrospective-benchmark-approval-v1",
+  "approval_id": "INDEXERLABS-AUTHORIZED-V10-DECISION-V3-PR66-2026-09-17",
+  "authorized_by": "user",
+  "authorization_reference": "User authorized the migration and standing completion of the corrected evaluation; evaluator PR66 merged and installed for authoritative rerun.",
+  "approved_at": "2026-09-17T18:58:39.386117+00:00",
+  "candidate_seen": true,
+  "previous_state_sha256": "eb5293d4b6fefd1fc31fc5f835de4f9f2cbfdad0aa841b1832806d14cd80655e",
+  "previous_benchmark_sha256": "4e3147464c9a907d5d9c6ce689bae53bb1f9ace53b99c0146b49a105629e6562",
+  "previous_policy_sha256": "c2ef6f6e015fdde13afed22addfa0e9633a0b452ca49990f713dca9e487bed32",
+  "study_lock_sha256": "1b8bf5e556dcd43952afaa5440801e8bbde40e4b0cb7024f18e2c8a97d29a1ec",
+  "target_benchmark_sha256": "750715481c1790be494dd74c3e193d4b1837236f2008616e9cf8da1916811daf",
+  "target_policy_semantic_sha256": "b7937a47a2a136a138ebedc2a912fc1a62e4241e0fbb0199d140c1644c871c77",
+  "study_policy_template_sha256": "c92c67490b92d7dcf721eeda3663db4cdd502f8ae6841a44351bae6aac446802",
+  "audit_transfer_authorized": false
+}

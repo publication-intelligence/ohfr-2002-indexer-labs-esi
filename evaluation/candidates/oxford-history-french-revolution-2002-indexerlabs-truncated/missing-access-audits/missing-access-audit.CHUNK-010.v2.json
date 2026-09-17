@@ -1,7 +1,7 @@
 {
   "schema_version": "missing-access-audit-v2",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
-  "benchmark_sha256": "ec0fbc78e370086ea03d0f6edc766646949c56d1d72177cf6c6f28dbfe2b09c0",
+  "benchmark_sha256": "80669e255b6e0e997984694532cbc0a27d2aa06987c2f73cbfa5878b49cdc20d",
   "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
   "chunk_id": "CHUNK-010",
   "expected_subject_ids": [
@@ -2125,7 +2125,7 @@
       "coverage": "missing",
       "direct_access": false,
       "cross_reference_access": false,
-      "stance_preserved": "yes",
+      "stance_preserved": "no",
       "realistic_first_lookup_success": "no",
       "matched_path_ids": [],
       "matched_locator_ids": [],
@@ -2201,7 +2201,7 @@
       "uncertainty": {
         "status": "none"
       },
-      "rationale": "The frozen requirement is caption-only map retrieval. The complete supplied candidate locator inventory contains no destination225 and no usable direct route to the captioned map. Nearby prose concerns distinct discussions and supplies no ordinary literal continuation into this separate map; no ineligible internal label is credited. Final authored addendum: The complete requirement is only retrieval of captioned map/theme225. No225 destination or ordinary immediate continuation exists. Related prose cannot satisfy this particular map-caption promise. The omission is localized and optional; it does not establish loss of the excluded map-interior claims.",
+      "rationale": "The optional captioned map/theme on page 225 has no direct or cross-reference route. The omission is complete for this localized optional requirement but does not erase related prose access.",
       "authored_fact_bindings": [
         {
           "path": "/tmp/indexerlabs-v10/access-08-11/review.SUBJ-SUCC-9DA29F300357.json",

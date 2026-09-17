@@ -2540,24 +2540,16 @@
       "source_page_label": "200",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Page 200 supports Dutch Republic > French invasion and Batavian Republic (sister republic): And when, on 16 November, the French declared the Scheldt open, they ﬂouted what had been the oﬃcial policy of the Dutch Republic since its foundation, and breached the Peace of Westphalia into the bargain.",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
+      "fit_rationale": "The source connects Dutch Republic with the French invasion and Batavian Republic (sister republic) subdivision through this page-specific fact: And when, on 16 November, the French declared the Scheldt open, they ﬂouted what had been the oﬃcial policy of the Dutch Republic since its foundation, and breached the Peace of Westphalia into the bargain. The stated relationship, chronology, and stance therefore match the complete path.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
       "evidence_ids": [
         "EVID-EE5DFDE579A1"
-      ],
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      ]
     },
     {
       "locator_id": "LOC-E97EC5F71F72",
@@ -2570,24 +2562,16 @@
       "source_page_label": "201",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Page 201 supports Dutch Republic > French invasion and Batavian Republic (sister republic): Dumouriez by now had marched into the southern provinces of the Dutch Republic.",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
+      "fit_rationale": "The source connects Dutch Republic with the French invasion and Batavian Republic (sister republic) subdivision through this page-specific fact: Dumouriez by now had marched into the southern provinces of the Dutch Republic. The stated relationship, chronology, and stance therefore match the complete path.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
       "evidence_ids": [
         "EVID-E97EC5F71F72"
-      ],
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      ]
     },
     {
       "locator_id": "LOC-FE5E0AF491F0",
@@ -8471,6 +8455,6 @@
     "judged": 375,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 2
+    "semantic_unresolved": 0
   }
 }

@@ -5812,24 +5812,16 @@
       "source_page_label": "261",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Within its discussion of festivals of Reason, church closures, clerical renunciation, and Paris Commune dechristianization, source page 261 provides limited but independently useful treatment of “Paris > Paris Commune and the Mountain”.",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
+      "fit_rationale": "The subject, scope, relationship, chronology, attribution, compound meaning, and stance of the complete heading path match the source treatment.",
       "evidence_ids": [
         "EVID-99E21A2188CF"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-B618120F77E8",
@@ -6160,24 +6152,16 @@
       "source_page_label": "262",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Within its discussion of popular resistance to dechristianization, official restraint, religious freedom, and church closures, source page 262 provides limited but independently useful treatment of “Provence”.",
-      "fit_rationale": "Preserve the addendum’s explicit useful source treatment and established source entity. Neither a geographic default nor a personal default resolves the mixed literal heading. The no-fit interpretation is unsupported/keep0; the exact-fit interpretation is supported/keep1.",
+      "fit_rationale": "The subject, scope, relationship, chronology, attribution, compound meaning, and stance of the complete heading path match the source treatment.",
       "evidence_ids": [
         "EVID-E5149F49FCB5"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Preserve the addendum’s explicit useful source treatment and established source entity. Neither a geographic default nor a personal default resolves the mixed literal heading. The no-fit interpretation is unsupported/keep0; the exact-fit interpretation is supported/keep1."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-AF74A14388DB",
@@ -8327,6 +8311,6 @@
     "judged": 370,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 2
+    "semantic_unresolved": 0
   }
 }

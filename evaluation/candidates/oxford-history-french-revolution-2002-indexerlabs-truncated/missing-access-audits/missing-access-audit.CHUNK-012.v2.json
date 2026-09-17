@@ -1,7 +1,7 @@
 {
   "schema_version": "missing-access-audit-v2",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
-  "benchmark_sha256": "ec0fbc78e370086ea03d0f6edc766646949c56d1d72177cf6c6f28dbfe2b09c0",
+  "benchmark_sha256": "80669e255b6e0e997984694532cbc0a27d2aa06987c2f73cbfa5878b49cdc20d",
   "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
   "chunk_id": "CHUNK-012",
   "expected_subject_ids": [
@@ -347,7 +347,7 @@
     {
       "subject_id": "SUBJ-SUCC-1D98349B5A7B",
       "priority": "major",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "yes",
@@ -384,7 +384,7 @@
       "missed_document_pages": [
         317
       ],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "realistic_first_lookup_success": "yes",
       "treatment_recall": {
@@ -518,7 +518,8 @@
         "stance_preserved": "known",
         "realistic_first_lookup_success": "known"
       },
-      "semantic_uncertainties": []
+      "semantic_uncertainties": [],
+      "rationale": "Nine of ten expected treatments are retrievable, but the page 317 synthesis/conclusion treatment is not represented by a supported candidate route."
     },
     {
       "subject_id": "SUBJ-SUCC-25B078097C6D",

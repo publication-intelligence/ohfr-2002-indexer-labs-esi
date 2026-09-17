@@ -1,7 +1,7 @@
 {
   "schema_version": "missing-access-audit-v2",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
-  "benchmark_sha256": "ec0fbc78e370086ea03d0f6edc766646949c56d1d72177cf6c6f28dbfe2b09c0",
+  "benchmark_sha256": "80669e255b6e0e997984694532cbc0a27d2aa06987c2f73cbfa5878b49cdc20d",
   "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
   "chunk_id": "CHUNK-015",
   "expected_subject_ids": [
@@ -1467,7 +1467,7 @@
     {
       "subject_id": "SUBJ-SUCC-7C338D256927",
       "priority": "major",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "yes",
@@ -1574,7 +1574,8 @@
         "stance_preserved": "known",
         "realistic_first_lookup_success": "known"
       },
-      "semantic_uncertainties": []
+      "semantic_uncertainties": [],
+      "rationale": " Complete treatment recall does not establish complete multi-facet access because realistic first lookup is not fully successful."
     },
     {
       "subject_id": "SUBJ-SUCC-80B9CA82989A",

@@ -1,0 +1,157 @@
+{
+  "schema_version": "ohfr-cross-reference-destination-review-v1",
+  "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+  "cross_reference_count": 10,
+  "complete": true,
+  "supported": 8,
+  "unsupported": 2,
+  "unresolved": 0,
+  "decisions": [
+    {
+      "reference_id": "XREF-09E6F426BD3E",
+      "source_path_id": "PATH-9E3996F45588",
+      "target_display": "Declaration of the Rights of Man and the Citizen",
+      "decision": "supported",
+      "destination_status": "valid_destination",
+      "resolved_path_ids": [
+        "PATH-5F60985E4AE2"
+      ],
+      "evidence_ids": [
+        "EVID-INVENTORY-09E6F426BD3E"
+      ]
+    },
+    {
+      "reference_id": "XREF-15B6ADCE3B38",
+      "source_path_id": "PATH-5F60985E4AE2",
+      "target_display": "Constitution of 1791",
+      "decision": "supported",
+      "destination_status": "valid_destination",
+      "resolved_path_ids": [
+        "PATH-9E3996F45588"
+      ],
+      "evidence_ids": [
+        "EVID-INVENTORY-15B6ADCE3B38"
+      ]
+    },
+    {
+      "reference_id": "XREF-1A6D5852095D",
+      "source_path_id": "PATH-81E032EBF2E5",
+      "target_display": "Jacobins (Jacobin Club)",
+      "decision": "supported",
+      "destination_status": "valid_destination",
+      "resolved_path_ids": [
+        "PATH-259B6C34E666"
+      ],
+      "evidence_ids": [
+        "EVID-INVENTORY-1A6D5852095D"
+      ]
+    },
+    {
+      "reference_id": "XREF-1FB84F43D7ED",
+      "source_path_id": "PATH-1BE5031EECCA",
+      "target_display": "abolition of slavery",
+      "decision": "unsupported",
+      "destination_status": "no_valid_destination",
+      "resolved_path_ids": [],
+      "evidence_ids": [
+        "EVID-9858B3B20B48",
+        "EVID-3EF4119FDF7A",
+        "EVID-FCAE4359F6F7",
+        "EVID-E05D42F97BF4",
+        "EVID-E6EAD5FE3983",
+        "EVID-03597F3EC0D5",
+        "EVID-6CF2552D527B",
+        "EVID-A363CCD370A8",
+        "EVID-8593059C70A4",
+        "EVID-XREF-1FB84F43D7ED"
+      ]
+    },
+    {
+      "reference_id": "XREF-211AFFA2C3E2",
+      "source_path_id": "PATH-A254A6CC29F8",
+      "target_display": "Chouans (Chouannerie)",
+      "decision": "supported",
+      "destination_status": "valid_destination",
+      "resolved_path_ids": [
+        "PATH-88E8C12D1347"
+      ],
+      "evidence_ids": [
+        "EVID-INVENTORY-211AFFA2C3E2"
+      ]
+    },
+    {
+      "reference_id": "XREF-28E112033301",
+      "source_path_id": "PATH-DE1030DD2B27",
+      "target_display": "Girondins",
+      "decision": "supported",
+      "destination_status": "valid_destination",
+      "resolved_path_ids": [
+        "PATH-FF4BD0B64D83"
+      ],
+      "evidence_ids": [
+        "EVID-INVENTORY-28E112033301"
+      ]
+    },
+    {
+      "reference_id": "XREF-48CCAF0AF63F",
+      "source_path_id": "PATH-259B6C34E666",
+      "target_display": "Cordeliers Club",
+      "decision": "supported",
+      "destination_status": "valid_destination",
+      "resolved_path_ids": [
+        "PATH-81E032EBF2E5"
+      ],
+      "evidence_ids": [
+        "EVID-INVENTORY-48CCAF0AF63F"
+      ]
+    },
+    {
+      "reference_id": "XREF-53B4CA7F3982",
+      "source_path_id": "PATH-88E8C12D1347",
+      "target_display": "Vendée",
+      "decision": "supported",
+      "destination_status": "valid_destination",
+      "resolved_path_ids": [
+        "PATH-A254A6CC29F8"
+      ],
+      "evidence_ids": [
+        "EVID-INVENTORY-53B4CA7F3982"
+      ]
+    },
+    {
+      "reference_id": "XREF-80B3F994D3ED",
+      "source_path_id": "PATH-DB6D0D6866F1",
+      "target_display": "9 Thermidor",
+      "decision": "unsupported",
+      "destination_status": "no_valid_destination",
+      "resolved_path_ids": [],
+      "evidence_ids": [
+        "EVID-6AD6343A3595",
+        "EVID-9A6246DC5022",
+        "EVID-55B6DC01C491",
+        "EVID-C7AC27EAC5BA",
+        "EVID-06C39B6DFE6D",
+        "EVID-063FF3608951",
+        "EVID-B20E0CE4952E",
+        "EVID-5B7D20726886",
+        "EVID-951D667E68F0",
+        "EVID-5E127DF3A989",
+        "EVID-XREF-80B3F994D3ED"
+      ]
+    },
+    {
+      "reference_id": "XREF-DA708DF74A2A",
+      "source_path_id": "PATH-FF4BD0B64D83",
+      "target_display": "Brissot, Jacques-Pierre",
+      "decision": "supported",
+      "destination_status": "valid_destination",
+      "resolved_path_ids": [
+        "PATH-DE1030DD2B27"
+      ],
+      "evidence_ids": [
+        "EVID-INVENTORY-DA708DF74A2A"
+      ]
+    }
+  ],
+  "attestation": "Every delivered cross-reference has an explicit destination decision. Null inventory targets remain unsupported and are not inherited from the full-scope default."
+}

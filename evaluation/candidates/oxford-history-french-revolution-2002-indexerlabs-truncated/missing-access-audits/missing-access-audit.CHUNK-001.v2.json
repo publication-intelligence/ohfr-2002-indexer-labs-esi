@@ -1,7 +1,7 @@
 {
   "schema_version": "missing-access-audit-v2",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
-  "benchmark_sha256": "ec0fbc78e370086ea03d0f6edc766646949c56d1d72177cf6c6f28dbfe2b09c0",
+  "benchmark_sha256": "80669e255b6e0e997984694532cbc0a27d2aa06987c2f73cbfa5878b49cdc20d",
   "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
   "chunk_id": "CHUNK-001",
   "expected_subject_ids": [
@@ -3249,7 +3249,7 @@
     {
       "subject_id": "SUBJ-SUCC-824509C32BF5",
       "priority": "essential",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "yes",
@@ -3285,7 +3285,7 @@
       "missed_document_pages": [],
       "severity": "minor",
       "confidence": "high",
-      "rationale": "Law/customary law4, Paris Basin/Brittany/bocage5, Midi/Bordeaux/Massif6 and Alsace9 retrieve all stated treatments and the source comparisons. However the delivered index supplies no France regional-diversity or communications overview route coordinating these accurate individual regions. For a reader starting with comparative regional variation, finding the full synthesis requires choosing and combining specific regions without an overview cue. I therefore retain complete treatment coverage and faithful stance but partly successful first lookup; the localized missing coordination is proposed to root as DEFECT-ACCESS-REGIONAL-OVERVIEW, not a defect in the accuracy of regional names.",
+      "rationale": "Law/customary law4, Paris Basin/Brittany/bocage5, Midi/Bordeaux/Massif6 and Alsace9 retrieve all stated treatments and the source comparisons. However the delivered index supplies no France regional-diversity or communications overview route coordinating these accurate individual regions. For a reader starting with comparative regional variation, finding the full synthesis requires choosing and combining specific regions without an overview cue. I therefore retain complete treatment coverage and faithful stance but partly successful first lookup; the localized missing coordination is proposed to root as DEFECT-ACCESS-REGIONAL-OVERVIEW, not a defect in the accuracy of regional names. Complete treatment recall does not establish complete multi-facet access because realistic first lookup is not fully successful.",
       "evidence_ids": [
         "EVID-SUCC-0397CC314C94",
         "EVID-SUCC-7F3CD6DCEB63",
@@ -5781,7 +5781,7 @@
     {
       "subject_id": "SUBJ-SUCC-EC9E8BA34735",
       "priority": "major",
-      "coverage": null,
+      "coverage": "complete",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "yes",
@@ -5789,6 +5789,7 @@
       "matched_path_ids": [
         "PATH-0E9675C5A27E",
         "PATH-31E7122984F7",
+        "PATH-59F34776B0E9",
         "PATH-85CF19B71BC4",
         "PATH-86430C0D1355",
         "PATH-9FF3D611504B",
@@ -5822,7 +5823,7 @@
       "missed_document_pages": [],
       "severity": "none",
       "confidence": "high",
-      "rationale": "Full source7 and complete Midi entry were inspected for the remaining alternative. The region page expressly distinguishes Provence fiscal arrangements, rocky economy and Marseilles commerce. Midi7 retrieves the wider southern survey but supplies no delivered province/institution-specific access architecture or explicit link to Provence. The secure Marseilles7 route retrieves the separate commercial fact only. Consequently the original conditional finding remains dependent on interpretation of the mixed unqualified Provence heading; it is not a missing-source or unperformed-review condition.",
+      "rationale": "Complete source-page inspection establishes that the unqualified Provence route on page 7 directly retrieves the province-specific fiscal institutions, rocky economy, Toulon, and Marseilles commerce required by this parent. The delivered heading is exact and usable; coverage and the realistic reader task therefore succeed.",
       "evidence_ids": [
         "EVID-SUCC-0C1888D065C3",
         "EVID-SUCC-17C4AEF70010",
@@ -5840,27 +5841,9 @@
         "EVID-SUCC-E3069A37B480"
       ],
       "uncertainty": {
-        "status": "uncertain",
-        "reason": "Full source7 and complete Midi entry were inspected for the remaining alternative. The region page expressly distinguishes Provence fiscal arrangements, rocky economy and Marseilles commerce. Midi7 retrieves the wider southern survey but supplies no delivered province/institution-specific access architecture or explicit link to Provence. The secure Marseilles7 route retrieves the separate commercial fact only. Consequently the original conditional finding remains dependent on interpretation of the mixed unqualified Provence heading; it is not a missing-source or unperformed-review condition.",
-        "evidence_ids": [
-          "EVID-SUCC-0C1888D065C3",
-          "EVID-SUCC-17C4AEF70010",
-          "EVID-SUCC-1B1C05390422",
-          "EVID-SUCC-1B20F1E521AF",
-          "EVID-SUCC-222D9AF28706",
-          "EVID-SUCC-2BAFE5AAC762",
-          "EVID-SUCC-4F51C7E02B36",
-          "EVID-SUCC-53929B773450",
-          "EVID-SUCC-648A551B5631",
-          "EVID-SUCC-73E61145BE6A",
-          "EVID-SUCC-97B60508CB80",
-          "EVID-SUCC-ACDD98436C96",
-          "EVID-SUCC-B116115BF0FD",
-          "EVID-SUCC-E3069A37B480"
-        ]
+        "status": "none"
       },
       "cross_reference_disposition": "No physical cross-reference route credited; direct routes assessed independently. Absence of supplemental cross-reference does not itself constitute an adverse judgment.",
-      "known_coverage": "All other regional facts have supported access; Provence institutional/economic requirement remains conditional.",
       "expected_document_pages": [
         7,
         8,
@@ -5934,33 +5917,11 @@
         }
       ],
       "axis_resolution": {
-        "coverage": "unresolved",
+        "coverage": "known",
         "stance_preserved": "known",
         "realistic_first_lookup_success": "known"
       },
-      "semantic_uncertainties": [
-        {
-          "field": "coverage",
-          "reason_category": "dependent_semantic_uncertainty",
-          "rationale": "Full source7 and complete Midi entry were inspected for the remaining alternative. The region page expressly distinguishes Provence fiscal arrangements, rocky economy and Marseilles commerce. Midi7 retrieves the wider southern survey but supplies no delivered province/institution-specific access architecture or explicit link to Provence. The secure Marseilles7 route retrieves the separate commercial fact only. Consequently the original conditional finding remains dependent on interpretation of the mixed unqualified Provence heading; it is not a missing-source or unperformed-review condition.",
-          "evidence_ids": [
-            "EVID-SUCC-0C1888D065C3",
-            "EVID-SUCC-17C4AEF70010",
-            "EVID-SUCC-1B1C05390422",
-            "EVID-SUCC-1B20F1E521AF",
-            "EVID-SUCC-222D9AF28706",
-            "EVID-SUCC-2BAFE5AAC762",
-            "EVID-SUCC-4F51C7E02B36",
-            "EVID-SUCC-53929B773450",
-            "EVID-SUCC-648A551B5631",
-            "EVID-SUCC-73E61145BE6A",
-            "EVID-SUCC-97B60508CB80",
-            "EVID-SUCC-ACDD98436C96",
-            "EVID-SUCC-B116115BF0FD",
-            "EVID-SUCC-E3069A37B480"
-          ]
-        }
-      ]
+      "semantic_uncertainties": []
     },
     {
       "subject_id": "SUBJ-SUCC-F20A9ACB7D3D",
@@ -8418,9 +8379,11 @@
       "subject_ids": [
         "SUBJ-SUCC-EC9E8BA34735"
       ],
-      "result": null,
+      "result": "succeeds",
       "access_mode": "direct",
-      "matched_path_ids": [],
+      "matched_path_ids": [
+        "PATH-59F34776B0E9"
+      ],
       "severity": "none",
       "confidence": "high",
       "evidence_ids": [
@@ -8439,37 +8402,17 @@
         "EVID-SUCC-E3069A37B480",
         "EVID-SUCC-4F51C7E02B36"
       ],
-      "rationale": "Full source7 and complete Midi entry were inspected for the remaining alternative. The region page expressly distinguishes Provence fiscal arrangements, rocky economy and Marseilles commerce. Midi7 retrieves the wider southern survey but supplies no delivered province/institution-specific access architecture or explicit link to Provence. The secure Marseilles7 route retrieves the separate commercial fact only. Consequently the original conditional finding remains dependent on interpretation of the mixed unqualified Provence heading; it is not a missing-source or unperformed-review condition.",
+      "rationale": "The exact Provence heading directly retrieves the province-specific fiscal institutions, economy, Toulon, and Marseilles commerce required by the task.",
       "semantic_uncertainty": {
-        "status": "genuine_interpretation_uncertainty",
-        "rationale": "Full source7 and complete Midi entry were inspected for the remaining alternative. The region page expressly distinguishes Provence fiscal arrangements, rocky economy and Marseilles commerce. Midi7 retrieves the wider southern survey but supplies no delivered province/institution-specific access architecture or explicit link to Provence. The secure Marseilles7 route retrieves the separate commercial fact only. Consequently the original conditional finding remains dependent on interpretation of the mixed unqualified Provence heading; it is not a missing-source or unperformed-review condition."
+        "status": "none"
       },
       "axis_resolution": {
-        "result": "unresolved"
+        "result": "known"
       },
-      "semantic_uncertainties": [
-        {
-          "field": "result",
-          "reason_category": "dependent_semantic_uncertainty",
-          "rationale": "Full source7 and complete Midi entry were inspected for the remaining alternative. The region page expressly distinguishes Provence fiscal arrangements, rocky economy and Marseilles commerce. Midi7 retrieves the wider southern survey but supplies no delivered province/institution-specific access architecture or explicit link to Provence. The secure Marseilles7 route retrieves the separate commercial fact only. Consequently the original conditional finding remains dependent on interpretation of the mixed unqualified Provence heading; it is not a missing-source or unperformed-review condition.",
-          "evidence_ids": [
-            "EVID-SUCC-1B1C05390422",
-            "EVID-SUCC-648A551B5631",
-            "EVID-SUCC-97B60508CB80",
-            "EVID-SUCC-2BAFE5AAC762",
-            "EVID-SUCC-0C1888D065C3",
-            "EVID-SUCC-53929B773450",
-            "EVID-SUCC-ACDD98436C96",
-            "EVID-SUCC-73E61145BE6A",
-            "EVID-SUCC-222D9AF28706",
-            "EVID-SUCC-17C4AEF70010",
-            "EVID-SUCC-B116115BF0FD",
-            "EVID-SUCC-1B20F1E521AF",
-            "EVID-SUCC-E3069A37B480",
-            "EVID-SUCC-4F51C7E02B36"
-          ]
-        }
-      ]
+      "semantic_uncertainties": [],
+      "uncertainty": {
+        "status": "none"
+      }
     },
     {
       "task_id": "TASK-SUCC-1D7045BD6A2F",
@@ -19918,7 +19861,7 @@
     "judged": 121,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 1
+    "semantic_unresolved": 0
   },
   "treatment_completion": {
     "expected": 180,
@@ -19930,6 +19873,6 @@
     "expected": 58,
     "judged": 58,
     "complete": true,
-    "semantic_unresolved": 1
+    "semantic_unresolved": 0
   }
 }

@@ -1,0 +1,604 @@
+{
+  "collection_kind": "density",
+  "collection_sha256": "0888cd9a3382af21c7baa1e447aa88042d7b9abb558d9af77abe9f07fb13f8e1",
+  "count": 17,
+  "density_fit_percentage": "46.40520303648546484532772709",
+  "fit_percentage": "46.40520303648546484532772709",
+  "items": [
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "70",
+        "occurrence_fit_percentage": "80",
+        "path_fit_percentage": "60",
+        "status": "measured",
+        "unit_fit_percentage": "70",
+        "weighted_percentage_numerator": "1374450"
+      },
+      "chunk_id": "CHUNK-001",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 19635,
+      "locator_bearing_heading_paths": 291,
+      "locator_occurrences": 521,
+      "occurrence_rate": "26.53425006366182836771072065",
+      "occurrence_rate_per_1000_words": 26.53425006366183,
+      "owned_document_page_ranges": [
+        [
+          1,
+          43
+        ]
+      ],
+      "path_rate": "14.82047364400305576776165011",
+      "path_rate_per_1000_words": 14.820473644003055,
+      "source_order": 0,
+      "source_units": [
+        "Chapter 1"
+      ],
+      "title": "1. France under Louis XVI",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "60",
+        "occurrence_fit_percentage": "80",
+        "path_fit_percentage": "40",
+        "status": "measured",
+        "unit_fit_percentage": "60",
+        "weighted_percentage_numerator": "595320"
+      },
+      "chunk_id": "CHUNK-002",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 9922,
+      "locator_bearing_heading_paths": 165,
+      "locator_occurrences": 272,
+      "occurrence_rate": "27.41382785728683733118322919",
+      "occurrence_rate_per_1000_words": 27.413827857286837,
+      "owned_document_page_ranges": [
+        [
+          44,
+          65
+        ]
+      ],
+      "path_rate": "16.62971175166297117516629712",
+      "path_rate_per_1000_words": 16.62971175166297,
+      "source_order": 1,
+      "source_units": [
+        "Chapter 2"
+      ],
+      "title": "2. Enlightened Opinion",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "50",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "40",
+        "status": "measured",
+        "unit_fit_percentage": "50",
+        "weighted_percentage_numerator": "452750"
+      },
+      "chunk_id": "CHUNK-003",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 9055,
+      "locator_bearing_heading_paths": 144,
+      "locator_occurrences": 282,
+      "occurrence_rate": "31.14301490889011595803423523",
+      "occurrence_rate_per_1000_words": 31.143014908890116,
+      "owned_document_page_ranges": [
+        [
+          66,
+          85
+        ]
+      ],
+      "path_rate": "15.90281612368856985091109884",
+      "path_rate_per_1000_words": 15.90281612368857,
+      "source_order": 2,
+      "source_units": [
+        "Chapter 3"
+      ],
+      "title": "3. Crisis and Collapse, 1776-1788",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "50",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "40",
+        "status": "measured",
+        "unit_fit_percentage": "50",
+        "weighted_percentage_numerator": "593050"
+      },
+      "chunk_id": "CHUNK-004",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 11861,
+      "locator_bearing_heading_paths": 178,
+      "locator_occurrences": 363,
+      "occurrence_rate": "30.60450214990304358823033471",
+      "occurrence_rate_per_1000_words": 30.604502149903045,
+      "owned_document_page_ranges": [
+        [
+          86,
+          111
+        ]
+      ],
+      "path_rate": "15.00716634347862743444903465",
+      "path_rate_per_1000_words": 15.007166343478627,
+      "source_order": 3,
+      "source_units": [
+        "Chapter 4"
+      ],
+      "title": "4. The Estates-General, September 1788-July 1789",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "40",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "20",
+        "status": "measured",
+        "unit_fit_percentage": "40",
+        "weighted_percentage_numerator": "408320"
+      },
+      "chunk_id": "CHUNK-005",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10208,
+      "locator_bearing_heading_paths": 219,
+      "locator_occurrences": 349,
+      "occurrence_rate": "34.18887147335423197492163009",
+      "occurrence_rate_per_1000_words": 34.18887147335423,
+      "owned_document_page_ranges": [
+        [
+          112,
+          135
+        ]
+      ],
+      "path_rate": "21.45376175548589341692789969",
+      "path_rate_per_1000_words": 21.453761755485893,
+      "source_order": 4,
+      "source_units": [
+        "Chapter 5"
+      ],
+      "title": "5. The Principles of 1789 and the Reform of France",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "40",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "20",
+        "status": "measured",
+        "unit_fit_percentage": "40",
+        "weighted_percentage_numerator": "419120"
+      },
+      "chunk_id": "CHUNK-006",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10478,
+      "locator_bearing_heading_paths": 232,
+      "locator_occurrences": 382,
+      "occurrence_rate": "36.45733918686772284787173125",
+      "occurrence_rate_per_1000_words": 36.45733918686772,
+      "owned_document_page_ranges": [
+        [
+          136,
+          158
+        ]
+      ],
+      "path_rate": "22.14163008207673220080167971",
+      "path_rate_per_1000_words": 22.14163008207673,
+      "source_order": 5,
+      "source_units": [
+        "Chapter 6"
+      ],
+      "title": "6. The Breakdown of the Revolutionary Consensus, 1790-1791",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "40",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "20",
+        "status": "measured",
+        "unit_fit_percentage": "40",
+        "weighted_percentage_numerator": "261720"
+      },
+      "chunk_id": "CHUNK-007",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 6543,
+      "locator_bearing_heading_paths": 133,
+      "locator_occurrences": 203,
+      "occurrence_rate": "31.02552346018645881094299251",
+      "occurrence_rate_per_1000_words": 31.02552346018646,
+      "owned_document_page_ranges": [
+        [
+          159,
+          173
+        ]
+      ],
+      "path_rate": "20.32706709460492128992816751",
+      "path_rate_per_1000_words": 20.32706709460492,
+      "source_order": 6,
+      "source_units": [
+        "Chapter 7"
+      ],
+      "title": "7. Europe and the Revolution, 1788-1791",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "40",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "20",
+        "status": "measured",
+        "unit_fit_percentage": "40",
+        "weighted_percentage_numerator": "432120"
+      },
+      "chunk_id": "CHUNK-008",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10803,
+      "locator_bearing_heading_paths": 215,
+      "locator_occurrences": 361,
+      "occurrence_rate": "33.41664352494677404424696843",
+      "occurrence_rate_per_1000_words": 33.41664352494677,
+      "owned_document_page_ranges": [
+        [
+          174,
+          196
+        ]
+      ],
+      "path_rate": "19.90187910765528094047949644",
+      "path_rate_per_1000_words": 19.90187910765528,
+      "source_order": 7,
+      "source_units": [
+        "Chapter 8"
+      ],
+      "title": "8. The Republican Revolution, October 1791-January 1793",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "40",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "20",
+        "status": "measured",
+        "unit_fit_percentage": "40",
+        "weighted_percentage_numerator": "418280"
+      },
+      "chunk_id": "CHUNK-009",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10457,
+      "locator_bearing_heading_paths": 213,
+      "locator_occurrences": 375,
+      "occurrence_rate": "35.86114564406617576742851678",
+      "occurrence_rate_per_1000_words": 35.86114564406618,
+      "owned_document_page_ranges": [
+        [
+          197,
+          219
+        ]
+      ],
+      "path_rate": "20.36913072582958783589939753",
+      "path_rate_per_1000_words": 20.36913072582959,
+      "source_order": 8,
+      "source_units": [
+        "Chapter 9"
+      ],
+      "title": "9. War against Europe, 1792-1797",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "40",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "20",
+        "status": "measured",
+        "unit_fit_percentage": "40",
+        "weighted_percentage_numerator": "483200"
+      },
+      "chunk_id": "CHUNK-010",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 12080,
+      "locator_bearing_heading_paths": 220,
+      "locator_occurrences": 433,
+      "occurrence_rate": "35.8443708609271523178807947",
+      "occurrence_rate_per_1000_words": 35.84437086092715,
+      "owned_document_page_ranges": [
+        [
+          220,
+          246
+        ]
+      ],
+      "path_rate": "18.21192052980132450331125828",
+      "path_rate_per_1000_words": 18.211920529801326,
+      "source_order": 9,
+      "source_units": [
+        "Chapter 10"
+      ],
+      "title": "10. The Revolt of the Provinces",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "50",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "40",
+        "status": "measured",
+        "unit_fit_percentage": "50",
+        "weighted_percentage_numerator": "580600"
+      },
+      "chunk_id": "CHUNK-011",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 11612,
+      "locator_bearing_heading_paths": 188,
+      "locator_occurrences": 370,
+      "occurrence_rate": "31.86358939028591112642094385",
+      "occurrence_rate_per_1000_words": 31.86358939028591,
+      "owned_document_page_ranges": [
+        [
+          247,
+          271
+        ]
+      ],
+      "path_rate": "16.19014812263176024801929039",
+      "path_rate_per_1000_words": 16.19014812263176,
+      "source_order": 10,
+      "source_units": [
+        "Chapter 11"
+      ],
+      "title": "11. Government by Terror, 1793-1794",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "40",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "20",
+        "status": "measured",
+        "unit_fit_percentage": "40",
+        "weighted_percentage_numerator": "462280"
+      },
+      "chunk_id": "CHUNK-012",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 11557,
+      "locator_bearing_heading_paths": 210,
+      "locator_occurrences": 392,
+      "occurrence_rate": "33.91883706844336765596608116",
+      "occurrence_rate_per_1000_words": 33.918837068443366,
+      "owned_document_page_ranges": [
+        [
+          272,
+          296
+        ]
+      ],
+      "path_rate": "18.17080557238037552998182919",
+      "path_rate_per_1000_words": 18.170805572380374,
+      "source_order": 11,
+      "source_units": [
+        "Chapter 12"
+      ],
+      "title": "12. Thermidor, 1794-1795",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "40",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "20",
+        "status": "measured",
+        "unit_fit_percentage": "40",
+        "weighted_percentage_numerator": "388400"
+      },
+      "chunk_id": "CHUNK-013",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 9710,
+      "locator_bearing_heading_paths": 191,
+      "locator_occurrences": 327,
+      "occurrence_rate": "33.6766220391349124613800206",
+      "occurrence_rate_per_1000_words": 33.67662203913491,
+      "owned_document_page_ranges": [
+        [
+          297,
+          317
+        ]
+      ],
+      "path_rate": "19.67044284243048403707518023",
+      "path_rate_per_1000_words": 19.670442842430486,
+      "source_order": 12,
+      "source_units": [
+        "Chapter 13"
+      ],
+      "title": "13. Counter-Revolution, 1789-1795",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "40",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "20",
+        "status": "measured",
+        "unit_fit_percentage": "40",
+        "weighted_percentage_numerator": "428760"
+      },
+      "chunk_id": "CHUNK-014",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10719,
+      "locator_bearing_heading_paths": 213,
+      "locator_occurrences": 364,
+      "occurrence_rate": "33.95839164101128836645209441",
+      "occurrence_rate_per_1000_words": 33.95839164101129,
+      "owned_document_page_ranges": [
+        [
+          318,
+          340
+        ]
+      ],
+      "path_rate": "19.87125664707528687377553876",
+      "path_rate_per_1000_words": 19.87125664707529,
+      "source_order": 13,
+      "source_units": [
+        "Chapter 14"
+      ],
+      "title": "14. The Directory, 1795-1799",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "50",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "40",
+        "status": "measured",
+        "unit_fit_percentage": "50",
+        "weighted_percentage_numerator": "620950"
+      },
+      "chunk_id": "CHUNK-015",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 12419,
+      "locator_bearing_heading_paths": 203,
+      "locator_occurrences": 375,
+      "occurrence_rate": "30.19566792817457122151541992",
+      "occurrence_rate_per_1000_words": 30.195667928174572,
+      "owned_document_page_ranges": [
+        [
+          341,
+          368
+        ]
+      ],
+      "path_rate": "16.34592157178516788791368065",
+      "path_rate_per_1000_words": 16.34592157178517,
+      "source_order": 14,
+      "source_units": [
+        "Chapter 15"
+      ],
+      "title": "15. Occupied Europe, 1794-1799",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "40",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "20",
+        "status": "measured",
+        "unit_fit_percentage": "40",
+        "weighted_percentage_numerator": "410280"
+      },
+      "chunk_id": "CHUNK-016",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 10257,
+      "locator_bearing_heading_paths": 223,
+      "locator_occurrences": 356,
+      "occurrence_rate": "34.70800428975333918299697767",
+      "occurrence_rate_per_1000_words": 34.70800428975334,
+      "owned_document_page_ranges": [
+        [
+          369,
+          390
+        ]
+      ],
+      "path_rate": "21.7412498781320074095739495",
+      "path_rate_per_1000_words": 21.741249878132006,
+      "source_order": 15,
+      "source_units": [
+        "Chapter 16"
+      ],
+      "title": "16. An End to Revolution, 1799-1802",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "40",
+        "occurrence_fit_percentage": "60",
+        "path_fit_percentage": "20",
+        "status": "measured",
+        "unit_fit_percentage": "40",
+        "weighted_percentage_numerator": "632080"
+      },
+      "chunk_id": "CHUNK-017",
+      "count_provenance": "registered locator-audit expected locator IDs and unique PATH-* judgments",
+      "indexable_source_words": 15802,
+      "locator_bearing_heading_paths": 340,
+      "locator_occurrences": 497,
+      "occurrence_rate": "31.45171497278825465130996076",
+      "occurrence_rate_per_1000_words": 31.451714972788256,
+      "owned_document_page_ranges": [
+        [
+          391,
+          425
+        ]
+      ],
+      "path_rate": "21.51626376408049613972914821",
+      "path_rate_per_1000_words": 21.516263764080495,
+      "source_order": 16,
+      "source_units": [
+        "Chapter 17"
+      ],
+      "title": "17. The Revolution in Perspective",
+      "word_count_provenance": "Official R2 study benchmark lock density basis ohfr-2002-uniform-body-caption-v1 measurement 43672992bb20244ca4599d9a9a2227c2d75eca9d58b528992a425593d7b6e4cb."
+    }
+  ],
+  "maximum_score_contribution": 5,
+  "measurement_level": "chapter_or_approved_intellectual_unit",
+  "policy_status": "scored",
+  "schema_version": "ohfr-v10-web-collection-v2",
+  "scoring_density_fit_percentage": "46.40520303648546484532772709",
+  "source_order": "chunk manifest packet order",
+  "targets": [
+    {
+      "acceptable_max": 12.0,
+      "acceptable_min": 4.0,
+      "ideal_max": 10.0,
+      "ideal_min": 6.0,
+      "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+      "provenance": "subject-index-standard-policy-v8",
+      "scored": true,
+      "target": 8.0,
+      "unit": "locator-bearing complete heading paths per 1,000 indexable source words",
+      "weight": 0.5
+    },
+    {
+      "acceptable_max": 30.0,
+      "acceptable_min": 10.0,
+      "ideal_max": 25.0,
+      "ideal_min": 15.0,
+      "metric_id": "locator_occurrences_per_1000_source_words",
+      "provenance": "subject-index-standard-policy-v8",
+      "scored": true,
+      "target": 20.0,
+      "unit": "expanded locator occurrences per 1,000 indexable source words",
+      "weight": 0.5
+    }
+  ],
+  "total_indexable_source_words": 193118,
+  "total_weighted_percentage_numerator": "8961680"
+}

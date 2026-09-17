@@ -1,7 +1,7 @@
 {
   "schema_version": "missing-access-audit-v2",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
-  "benchmark_sha256": "ec0fbc78e370086ea03d0f6edc766646949c56d1d72177cf6c6f28dbfe2b09c0",
+  "benchmark_sha256": "80669e255b6e0e997984694532cbc0a27d2aa06987c2f73cbfa5878b49cdc20d",
   "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
   "chunk_id": "CHUNK-005",
   "expected_subject_ids": [
@@ -317,7 +317,7 @@
     {
       "subject_id": "SUBJ-SUCC-05EA4E351A83",
       "priority": "major",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "partly",
@@ -346,7 +346,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "rationale": "Paris > revolt against the Crown (1789)112 retrieves the practical collapse and constrained recognition after July. Municipal revolution113 retrieves provincial displacement; August Decrees > king's refusal to sanction121 explicitly retrieves his delayed, qualified assent; Louis XVI > relocation to Paris122 retrieves forced assent and confinement; Louis XVI > constitutional role and powers123 retrieves the end of open resistance and deliberately weakened executive. Together these supported routes retrieve every treatment. However, the same royal relocation heading falsely supplies112 as an October Days destination, merging the July conciliatory visit with October confinement. This is a material chronological contradiction to the retained distinction, although122 and the alternative Paris112 path independently supply the correct account. Coverage remains complete, while stance preservation and first lookup are partial because this direct royal route is misleading.",
+      "rationale": "Paris > revolt against the Crown (1789)112 retrieves the practical collapse and constrained recognition after July. Municipal revolution113 retrieves provincial displacement; August Decrees > king's refusal to sanction121 explicitly retrieves his delayed, qualified assent; Louis XVI > relocation to Paris122 retrieves forced assent and confinement; Louis XVI > constitutional role and powers123 retrieves the end of open resistance and deliberately weakened executive. Together these supported routes retrieve every treatment. However, the same royal relocation heading falsely supplies112 as an October Days destination, merging the July conciliatory visit with October confinement. This is a material chronological contradiction to the retained distinction, although122 and the alternative Paris112 path independently supply the correct account. Coverage remains complete, while stance preservation and first lookup are partial because this direct royal route is misleading. Complete treatment recall does not establish complete multi-facet access because realistic first lookup is not fully successful.",
       "evidence_ids": [
         "EVID-SUCC-16F9E8134655",
         "EVID-SUCC-4FBA63B43406",
@@ -4068,7 +4068,7 @@
     {
       "subject_id": "SUBJ-SUCC-F538F5819691",
       "priority": "essential",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "partly",
@@ -4097,7 +4097,7 @@
       "missed_document_pages": [],
       "severity": "major",
       "confidence": "high",
-      "rationale": "Declaration > constitutional role and tensions119 retrieves the free-assent/veto dilemma. October Days121–122 retrieves women initiating the march, subsequent men and Guards, rumours alongside scarcity, palace violence and forced assent; August Decrees > king's refusal121 supplies precise resistance. National Assembly > relocation123 retrieves its later move and recurring metropolitan pressure, independently of the earlier royal transfer122. All scored treatments and retained distinctions are directly accessible through supported routes, so coverage is complete and ordinary event first lookup succeeds. Nevertheless, the separate Louis XVI > relocation to Paris (October Days)112 route conflates the July visit with October confinement; this materially impairs preservation of event chronology and is retained as the same source-linked heading-fit defect already identified for royal authority, rather than a coverage omission. Full119,121–123 inspected;112 also freshly inspected in the linked royal review.",
+      "rationale": "Declaration > constitutional role and tensions119 retrieves the free-assent/veto dilemma. October Days121–122 retrieves women initiating the march, subsequent men and Guards, rumours alongside scarcity, palace violence and forced assent; August Decrees > king's refusal121 supplies precise resistance. National Assembly > relocation123 retrieves its later move and recurring metropolitan pressure, independently of the earlier royal transfer122. All scored treatments and retained distinctions are directly accessible through supported routes, so coverage is complete and ordinary event first lookup succeeds. Nevertheless, the separate Louis XVI > relocation to Paris (October Days)112 route conflates the July visit with October confinement; this materially impairs preservation of event chronology and is retained as the same source-linked heading-fit defect already identified for royal authority, rather than a coverage omission. Full119,121–123 inspected;112 also freshly inspected in the linked royal review. Complete treatment recall does not establish complete multi-facet access when the subject's essential stance is only partly preserved.",
       "evidence_ids": [
         "EVID-SUCC-15086D34B55D",
         "EVID-SUCC-39C32463744D",

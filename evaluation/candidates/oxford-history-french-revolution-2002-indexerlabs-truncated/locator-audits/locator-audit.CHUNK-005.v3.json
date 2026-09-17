@@ -1667,25 +1667,17 @@
       "document_page": 115,
       "source_page_label": "115",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 115 evidence for “Dauphiné > peasant manual attacks”: “began to refuse to pay both tithes and dues, considering themselves so permitted, they said, by the new law to come.’1 In other places they raided barns to repossess what had already been paid, …” “The attackers made for the symbols of feudalism— dovecotes, seigneurial ovens and wine-presses, weather-vanes.”",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact directly links “Dauphiné” with the narrower “peasant manual attacks” treatment asserted by the complete path.",
       "evidence_ids": [
         "EVID-023D1B32BCF9"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-EF8A5EEF313C",
@@ -2023,25 +2015,17 @@
       "document_page": 128,
       "source_page_label": "128",
       "source_scope_status": "indexable",
-      "treatment_class": null,
+      "treatment_class": "mixed",
       "complete_path_fit": "exact_fit",
-      "judgment": "semantic_unresolved",
+      "judgment": "supported",
       "evidence_summary": "Document page 128 evidence for “Duport, Adrien”: “For every patriotic noble like Lafayette, Mirabeau, Duport, the Lameth brothers, or Talleyrand, who as bishop of Autun celebrated mass at the Feast of the Federation, there were many more who deplored the turn …”",
-      "fit_rationale": "The actual Duport is placed among patriotic nobles; uncertainty concerns whether the classification earns retention, not personal identity or topical mismatch.",
+      "fit_rationale": "The cited fact concerns “Duport, Adrien” itself at this destination rather than a neighboring subject.",
       "evidence_ids": [
         "EVID-C44B37E183A9"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "known",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The actual Duport is placed among patriotic nobles; uncertainty concerns whether the classification earns retention, not personal identity or topical mismatch."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-73206C6B922C",
@@ -2094,25 +2078,17 @@
       "document_page": 124,
       "source_page_label": "124",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 124 evidence for “Electoral system (1789)”: “They were to be elected indirectly, and by far from universal suﬀrage.”",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact concerns “Electoral system (1789)” itself at this destination rather than a neighboring subject.",
       "evidence_ids": [
         "EVID-4A0BEAB963FD"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-96D4DDEABC8D",
@@ -3242,25 +3218,17 @@
       "document_page": 128,
       "source_page_label": "128",
       "source_scope_status": "indexable",
-      "treatment_class": null,
+      "treatment_class": "mixed",
       "complete_path_fit": "exact_fit",
-      "judgment": "semantic_unresolved",
+      "judgment": "supported",
       "evidence_summary": "Document page 128 evidence for “Lameth brothers”: “For every patriotic noble like Lafayette, Mirabeau, Duport, the Lameth brothers, or Talleyrand, who as bishop of Autun celebrated mass at the Feast of the Federation, there were many more who deplored the turn …”",
-      "fit_rationale": "The actual Lameth brothers are classified among patriotic nobles; uncertainty is the usefulness of that classification, not identity.",
+      "fit_rationale": "The cited fact concerns “Lameth brothers” itself at this destination rather than a neighboring subject.",
       "evidence_ids": [
         "EVID-F8053C152AE4"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "known",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The actual Lameth brothers are classified among patriotic nobles; uncertainty is the usefulness of that classification, not identity."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-01A02A880B59",
@@ -3530,25 +3498,19 @@
       "document_page": 117,
       "source_page_label": "117",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "material_partial_fit",
+      "judgment": "partially_supported",
       "evidence_summary": "The page records Louis XVI’s new title, “Restorer of French Liberty,” but does not discuss his constitutional powers.",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The constitutional-role element is present while the powers element remains untreated.",
       "evidence_ids": [
         "EVID-C681CF00BC03"
       ],
       "confidence": "high",
-      "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "error_codes": [
+        "HED"
+      ],
+      "severity": "minor"
     },
     {
       "locator_id": "LOC-9881F1BE8112",
@@ -3884,25 +3846,17 @@
       "document_page": 128,
       "source_page_label": "128",
       "source_scope_status": "indexable",
-      "treatment_class": null,
+      "treatment_class": "mixed",
       "complete_path_fit": "exact_fit",
-      "judgment": "semantic_unresolved",
+      "judgment": "supported",
       "evidence_summary": "Document page 128 evidence for “Mirabeau, Honoré-Gabriel Riqueti, comte de”: “For every patriotic noble like Lafayette, Mirabeau, Duport, the Lameth brothers, or Talleyrand, who as bishop of Autun celebrated mass at the Feast of the Federation, there were many more who deplored the turn …”",
-      "fit_rationale": "The actual Mirabeau is classified among patriotic nobles; the unresolved issue is treatment usefulness rather than personal identity.",
+      "fit_rationale": "The cited fact concerns “Mirabeau, Honoré-Gabriel Riqueti, comte de” itself at this destination rather than a neighboring subject.",
       "evidence_ids": [
         "EVID-C69C3F1DE8AF"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "known",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The actual Mirabeau is classified among patriotic nobles; the unresolved issue is treatment usefulness rather than personal identity."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-4D52A6BC05EC",
@@ -3958,25 +3912,19 @@
       "document_page": 131,
       "source_page_label": "131",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "material_partial_fit",
+      "judgment": "partially_supported",
       "evidence_summary": "The page records Mirabeau’s insistence that the national debt be honored, but does not yet treat his ecclesiastical reforms.",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The financial element is supported while the ecclesiastical-reform component begins on page 132.",
       "evidence_ids": [
         "EVID-1355AAF67F74"
       ],
       "confidence": "high",
-      "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "error_codes": [
+        "CMP"
+      ],
+      "severity": "minor"
     },
     {
       "locator_id": "LOC-3161C53BB3D3",
@@ -4201,25 +4149,19 @@
       "document_page": 123,
       "source_page_label": "123",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "material_partial_fit",
+      "judgment": "partially_supported",
       "evidence_summary": "The page introduces the Assembly’s transformation of France and its constitutional design, but does not substantively treat administrative and civil reforms.",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The general reform context is relevant, while the narrower administrative-and-civil subdivision is not developed on this page.",
       "evidence_ids": [
         "EVID-8489FE05864C"
       ],
       "confidence": "high",
-      "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "error_codes": [
+        "HED"
+      ],
+      "severity": "minor"
     },
     {
       "locator_id": "LOC-8CFA65D85A87",
@@ -5287,25 +5229,17 @@
       "document_page": 112,
       "source_page_label": "112",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 112 evidence for “Orléans, Louis Philippe Joseph, Duke d'”: “Nobody could misread the signs of that in the days following Louis XVI’s decision to pull back his troops.”",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact concerns “Orléans, Louis Philippe Joseph, Duke d'” itself at this destination rather than a neighboring subject.",
       "evidence_ids": [
         "EVID-D64E8A462005"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-912AC3398101",
@@ -6348,25 +6282,17 @@
       "document_page": 135,
       "source_page_label": "135",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 135 evidence for “Revolution of 1789 > breakdown of consensus”: “The work of the Revolution’s ﬁrst twelve months, in fact, had the support of a broad national consensus.”",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact directly links “Revolution of 1789” with the narrower “breakdown of consensus” treatment asserted by the complete path.",
       "evidence_ids": [
         "EVID-DD2858F503AF"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-119D1EBC23FE",
@@ -6971,25 +6897,17 @@
       "document_page": 123,
       "source_page_label": "123",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 123 evidence for “state > administrative expansion and reform”: “The central authorities of the regenerate French State were now at the mercy of Paris, and time and time again over the next ﬁve years Parisians would intervene in national politics in the role …” “All open attempts on the king’s part to resist the reform of France now came to an end.”",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact directly links “state” with the narrower “administrative expansion and reform” treatment asserted by the complete path.",
       "evidence_ids": [
         "EVID-DB2765162B2A"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-8F110D0A3690",
@@ -7875,25 +7793,17 @@
       "document_page": 121,
       "source_page_label": "121",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Document page 121 evidence for “Versailles > Revolutionary events (1789) > October Days and royal departure”: “Alarmed at persistent rumours of being taken by force to Paris, on 14 September the king summoned the notoriously welldisciplined Flanders Regiment from the north-east frontier to Versailles.” “Then on 4 October he voiced reservations about the Declaration of Rights.”",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The cited fact directly links “Versailles” with the narrower “October Days and royal departure” treatment asserted by the complete path.",
       "evidence_ids": [
         "EVID-9C642D36955D"
       ],
       "confidence": "medium",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-AFA55D0A9755",
@@ -8032,6 +7942,6 @@
     "judged": 349,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 12
+    "semantic_unresolved": 0
   }
 }

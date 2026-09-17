@@ -2288,25 +2288,17 @@
       "document_page": 246,
       "source_page_label": "246",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Page 246 supports Delacroix, Charles: Delacroix proposed just this on the eleventh.",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
+      "fit_rationale": "The evidence is independently useful under Delacroix, Charles: Delacroix proposed just this on the eleventh. Its subject, chronology, and stance match the heading on page 246.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
       "evidence_ids": [
         "EVID-C702892B7F45"
-      ],
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      ]
     },
     {
       "locator_id": "LOC-682C2707F584",
@@ -6742,24 +6734,16 @@
       "source_page_label": "220",
       "source_scope_status": "indexable",
       "treatment_class": "mixed",
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Page 220 supports National Guard > decline and abolition of Parisian organization: All available troops in 1792 and 1793 were occupied at the front, and the Paris National Guard was no longer the force that had shot down republican petitioners on the Champ de Mars.",
-      "fit_rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain.",
+      "fit_rationale": "The source connects National Guard with the decline and abolition of Parisian organization subdivision through this page-specific fact: All available troops in 1792 and 1793 were occupied at the front, and the Paris National Guard was no longer the force that had shot down republican petitioners on the Champ de Mars. The stated relationship, chronology, and stance therefore match the complete path.",
       "confidence": "high",
       "error_codes": [],
       "severity": "none",
       "evidence_ids": [
         "EVID-437374322386"
-      ],
-      "axis_resolution": {
-        "treatment": "known",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "The effective authored record retains an exact-fit interpretation and a materially incomplete or identity-mismatched interpretation. Preserve each known source/treatment axis and leave fit-dependent retention unresolved. A material_partial_fit interpretation forces partially_supported/keep0; a no_fit interpretation forces unsupported/keep0. No known negative judgment is widened solely because its diagnostic subtype is uncertain."
-      }
+      ]
     },
     {
       "locator_id": "LOC-C66E36460A77",
@@ -9837,6 +9821,6 @@
     "judged": 433,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 2
+    "semantic_unresolved": 0
   }
 }

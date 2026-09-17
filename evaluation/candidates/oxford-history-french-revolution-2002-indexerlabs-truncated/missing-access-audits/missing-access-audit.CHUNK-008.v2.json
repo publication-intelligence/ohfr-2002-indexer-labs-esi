@@ -1,7 +1,7 @@
 {
   "schema_version": "missing-access-audit-v2",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
-  "benchmark_sha256": "ec0fbc78e370086ea03d0f6edc766646949c56d1d72177cf6c6f28dbfe2b09c0",
+  "benchmark_sha256": "80669e255b6e0e997984694532cbc0a27d2aa06987c2f73cbfa5878b49cdc20d",
   "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
   "chunk_id": "CHUNK-008",
   "expected_subject_ids": [
@@ -594,7 +594,7 @@
     {
       "subject_id": "SUBJ-SUCC-18017BE43CD2",
       "priority": "essential",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "yes",
@@ -641,7 +641,7 @@
         181
       ],
       "missed_document_pages": [],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "treatment_recall": {
         "principal": {
@@ -720,7 +720,7 @@
       "uncertainty": {
         "status": "none"
       },
-      "rationale": "Brissot’s war advocacy supplies the October 1791 initiative at 176; Legislative Assembly > outbreak of war directly spans 177–180, with Lafayette’s dated war role, Robespierre’s opposition, Clootz’s advocacy and Prussia’s war diplomacy independently retrieving the incompatible political and international expectations. Louis XVI > war, declaration of (1792) and War of the First Coalition retrieve the actual declaration and its contradicted defensive promises at 180. These routes preserve attribution to advocates rather than claiming liberation as narrator-endorsed certainty. The 193 incidental Clootz election appearance is correctly excluded from this treatment denominator and is not used as war-origin evidence. The remaining synthesis treatment at 181 has no appropriate war-origin route: its delivered locators concern colonial and economic developments. Those do not constitute a realistic route from the war-origin question to the explicit outward-diversion/domestic-crisis synthesis. Effective additive correction: War of the First Coalition180 retrieves the declaration and aims. The final paragraph begins the manifold aims and ends with “A further”;181 immediately completes that same sentence with the claim that war would heal internal divisions, then qualifies it with multiplying domestic problems. Ordinary immediate continuation from the actual180 locator reaches the exact181 synthesis. No181 locator is invented.",
+      "rationale": "Brissot’s war advocacy supplies the October 1791 initiative at 176; Legislative Assembly > outbreak of war directly spans 177–180, with Lafayette’s dated war role, Robespierre’s opposition, Clootz’s advocacy and Prussia’s war diplomacy independently retrieving the incompatible political and international expectations. Louis XVI > war, declaration of (1792) and War of the First Coalition retrieve the actual declaration and its contradicted defensive promises at 180. These routes preserve attribution to advocates rather than claiming liberation as narrator-endorsed certainty. The 193 incidental Clootz election appearance is correctly excluded from this treatment denominator and is not used as war-origin evidence. The remaining synthesis treatment at 181 has no appropriate war-origin route: its delivered locators concern colonial and economic developments. Those do not constitute a realistic route from the war-origin question to the explicit outward-diversion/domestic-crisis synthesis. Effective additive correction: War of the First Coalition180 retrieves the declaration and aims. The final paragraph begins the manifold aims and ends with “A further”;181 immediately completes that same sentence with the claim that war would heal internal divisions, then qualifies it with multiplying domestic problems. Ordinary immediate continuation from the actual180 locator reaches the exact181 synthesis. No181 locator is invented. Complete treatment recall does not establish complete multi-facet access because realistic first lookup is not fully successful.",
       "authored_fact_bindings": [
         {
           "path": "/tmp/indexerlabs-v10/access-08-11/review.SUBJ-SUCC-18017BE43CD2.json",
@@ -1914,11 +1914,11 @@
     {
       "subject_id": "SUBJ-SUCC-5A2C055BC3AC",
       "priority": "optional",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "yes",
-      "realistic_first_lookup_success": null,
+      "realistic_first_lookup_success": "partly",
       "matched_path_ids": [
         "PATH-0C8E96D035E1",
         "PATH-A2BF60B34C5C",
@@ -1938,7 +1938,7 @@
         190
       ],
       "missed_document_pages": [],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "treatment_recall": {
         "principal": {
@@ -1993,14 +1993,9 @@
         "EVID-SUCC-BDB59DCDEA2F"
       ],
       "uncertainty": {
-        "status": "uncertain",
-        "reason": "Guillotine > origins and mechanics and Guillotin directly retrieve the 183 distinction between proposal and invention, humanitarian and egalitarian claims, and first ordinary criminal execution. The political-use treatment190 is explicitly present in the source, freshly reread in full for this access check. Its direct guillotine > in the Terror route has an unresolved intended chronological scope, so access cannot be confidently accepted or rejected through that route. Counter-Revolution > Paris and internal threats190 is supported for internal-threat repression, but is not an independently clear guillotine or political-execution lookup; no special-tribunal or revolutionary-justice heading reaches190. Preserve this exact dependency rather than treating unrelated same-page routes as a cure. Incidental191 does not enter the denominator. Final authored addendum: The supported Counter-Revolution > Paris and internal threats190 route enters one sustained paragraph linking vengeance against perceived internal enemies, a special tribunal for political crimes on17August, the first political guillotine victim on21August, and the subsequent surveillance and arrests. Political execution is an explicit response within the retrieved internal-threat phenomenon, so this is a useful alternate same-passage route rather than incidental page overlap. Combined with known183 introduction access and existing incidental191 context, all parent factual treatments are retrieved. Guillotine-specific first lookup remains dependent on unresolved LOC-6C3A76952743; its precision axes are unchanged.",
-        "evidence_ids": [
-          "EVID-SUCC-BDB59DCDEA2F",
-          "EVID-SUCC-91A46A51810E"
-        ]
+        "status": "none"
       },
-      "rationale": "Guillotine > origins and mechanics and Guillotin directly retrieve the 183 distinction between proposal and invention, humanitarian and egalitarian claims, and first ordinary criminal execution. The political-use treatment190 is explicitly present in the source, freshly reread in full for this access check. Its direct guillotine > in the Terror route has an unresolved intended chronological scope, so access cannot be confidently accepted or rejected through that route. Counter-Revolution > Paris and internal threats190 is supported for internal-threat repression, but is not an independently clear guillotine or political-execution lookup; no special-tribunal or revolutionary-justice heading reaches190. Preserve this exact dependency rather than treating unrelated same-page routes as a cure. Incidental191 does not enter the denominator. Final authored addendum: The supported Counter-Revolution > Paris and internal threats190 route enters one sustained paragraph linking vengeance against perceived internal enemies, a special tribunal for political crimes on17August, the first political guillotine victim on21August, and the subsequent surveillance and arrests. Political execution is an explicit response within the retrieved internal-threat phenomenon, so this is a useful alternate same-passage route rather than incidental page overlap. Combined with known183 introduction access and existing incidental191 context, all parent factual treatments are retrieved. Guillotine-specific first lookup remains dependent on unresolved LOC-6C3A76952743; its precision axes are unchanged.",
+      "rationale": "The page-190 passage visibly supports early revolutionary political use of the guillotine, but the delivered subheading “in the Terror” is chronologically broader and imprecise for August 1792. The bounded treatment is retained as a material partial fit; coverage remains complete and realistic first lookup is partly successful. Complete treatment recall does not establish complete multi-facet access because realistic first lookup is not fully successful.",
       "authored_fact_bindings": [
         {
           "path": "/tmp/indexerlabs-v10/access-08-11/review.SUBJ-SUCC-5A2C055BC3AC.json",
@@ -2012,32 +2007,12 @@
         }
       ],
       "fresh_source_pages_in_serialization": [],
-      "private_pending_final_disposition": true,
-      "preserved_author_uncertainty": [
-        {
-          "locator_id": "LOC-6C3A76952743",
-          "kind": "intended heading scope",
-          "source_inspection_complete": true,
-          "unknown": "whether unqualified Terror includes early political use1792"
-        }
-      ],
       "axis_resolution": {
         "coverage": "known",
         "stance_preserved": "known",
-        "realistic_first_lookup_success": "unresolved"
+        "realistic_first_lookup_success": "known"
       },
-      "semantic_uncertainties": [
-        {
-          "field": "realistic_first_lookup_success",
-          "reason_category": "dependent_semantic_uncertainty",
-          "rationale": "Guillotine > origins and mechanics and Guillotin directly retrieve the 183 distinction between proposal and invention, humanitarian and egalitarian claims, and first ordinary criminal execution. The political-use treatment190 is explicitly present in the source, freshly reread in full for this access check. Its direct guillotine > in the Terror route has an unresolved intended chronological scope, so access cannot be confidently accepted or rejected through that route. Counter-Revolution > Paris and internal threats190 is supported for internal-threat repression, but is not an independently clear guillotine or political-execution lookup; no special-tribunal or revolutionary-justice heading reaches190. Preserve this exact dependency rather than treating unrelated same-page routes as a cure. Incidental191 does not enter the denominator. Final authored addendum: The supported Counter-Revolution > Paris and internal threats190 route enters one sustained paragraph linking vengeance against perceived internal enemies, a special tribunal for political crimes on17August, the first political guillotine victim on21August, and the subsequent surveillance and arrests. Political execution is an explicit response within the retrieved internal-threat phenomenon, so this is a useful alternate same-passage route rather than incidental page overlap. Combined with known183 introduction access and existing incidental191 context, all parent factual treatments are retrieved. Guillotine-specific first lookup remains dependent on unresolved LOC-6C3A76952743; its precision axes are unchanged.",
-          "evidence_ids": [
-            "EVID-SUCC-91A46A51810E",
-            "EVID-SUCC-9514DC0E4322",
-            "EVID-SUCC-BDB59DCDEA2F"
-          ]
-        }
-      ]
+      "semantic_uncertainties": []
     },
     {
       "subject_id": "SUBJ-SUCC-5AAF2CE28F56",
@@ -2774,7 +2749,7 @@
     {
       "subject_id": "SUBJ-SUCC-85C459BB83CE",
       "priority": "major",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "yes",
@@ -2805,7 +2780,7 @@
         190
       ],
       "missed_document_pages": [],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "treatment_recall": {
         "principal": {
@@ -2864,7 +2839,7 @@
       "uncertainty": {
         "status": "none"
       },
-      "rationale": "Roland and Dumouriez’s foreign-minister subdivision180 retrieve the new pro-war ministry. Roland185 retrieves the public letter and dismissal of the three ministers, while Dumouriez’s dismissal-and-command subdivision185 reaches his separately dated departure and military appointment; Feuillants185 retrieves the replacements. These actual destinations preserve the distinction between13June dismissals and Dumouriez on15June, irrespective of the abbreviated career-heading wording. No direct Girondin-ministry, Roland-return or equivalent supported route reaches the assigned190 restoration treatment. Danton’s190 ministry route concerns the new minister and his emergency dominance and is insufficient to stand in for the separately required return of the fallen ministers. Effective additive correction: Legislative Assembly > suspension of monarchy and transition to Convention189 retrieves the overthrow and immediate governmental reorganization. The last paragraph directly describes its ministerial appointments and restoration of the three June ministers, ending “association with the”;190 completes the very sentence “equivocating Brissotins.” The required190 restoration qualification is on the immediate continuation of this literal ministerial discussion, so189 route provides access under the clarified rule. No restoration predicate is assigned to a nonexistent190 candidate locator.",
+      "rationale": "Roland and Dumouriez’s foreign-minister subdivision180 retrieve the new pro-war ministry. Roland185 retrieves the public letter and dismissal of the three ministers, while Dumouriez’s dismissal-and-command subdivision185 reaches his separately dated departure and military appointment; Feuillants185 retrieves the replacements. These actual destinations preserve the distinction between13June dismissals and Dumouriez on15June, irrespective of the abbreviated career-heading wording. No direct Girondin-ministry, Roland-return or equivalent supported route reaches the assigned190 restoration treatment. Danton’s190 ministry route concerns the new minister and his emergency dominance and is insufficient to stand in for the separately required return of the fallen ministers. Effective additive correction: Legislative Assembly > suspension of monarchy and transition to Convention189 retrieves the overthrow and immediate governmental reorganization. The last paragraph directly describes its ministerial appointments and restoration of the three June ministers, ending “association with the”;190 completes the very sentence “equivocating Brissotins.” The required190 restoration qualification is on the immediate continuation of this literal ministerial discussion, so189 route provides access under the clarified rule. No restoration predicate is assigned to a nonexistent190 candidate locator. Complete treatment recall does not establish complete multi-facet access because realistic first lookup is not fully successful.",
       "authored_fact_bindings": [
         {
           "path": "/tmp/indexerlabs-v10/access-08-11/review.SUBJ-SUCC-85C459BB83CE.json",
@@ -4023,7 +3998,7 @@
     {
       "subject_id": "SUBJ-SUCC-C421B8FB7D43",
       "priority": "major",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "yes",
@@ -4066,7 +4041,7 @@
         193
       ],
       "missed_document_pages": [],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "treatment_recall": {
         "principal": {
@@ -4139,7 +4114,7 @@
       "uncertainty": {
         "status": "none"
       },
-      "rationale": "Prussia Revolutionary Wars and the Assembly outbreak-of-war179 retrieve the defensive pact and counterproductive intimidation; the Assembly and war-event180 routes retrieve the diplomatic finality of the declaration. Brunswick Manifesto188 supplies threatening coalition aims, Longwy190 supplies the invasion/panic consequence, and Dumouriez campaign diplomacy with Prussia/Valmy193 supplies negotiation and withdrawal. No qualified Austria/Prussia or coordinated-campaign route reaches184’s specific cautious and delayed coalition advance. Austrian Committee184 is a domestic alleged conspiracy and is not an interchangeable Austria route; the other184 paths concern French disorder or domestic responses. Preserve that supporting-treatment gap while retaining the actual accessible diplomacy. Effective additive correction: Belgium > French invasions and occupations (1792–94)183 begins the actual opening-campaign paragraph, ending mid-sentence in the anticipated Belgian welcome.184 completes that sentence and the same uninterrupted paragraph narrates French breakdown followed immediately by Austrian caution and delayed Prussian coordination. The entire coalition-delay treatment is an ordinary continuation of the indexed campaign discussion; there is no separate-section hunt. Atomic183 locator precision remains unchanged.",
+      "rationale": "Prussia Revolutionary Wars and the Assembly outbreak-of-war179 retrieve the defensive pact and counterproductive intimidation; the Assembly and war-event180 routes retrieve the diplomatic finality of the declaration. Brunswick Manifesto188 supplies threatening coalition aims, Longwy190 supplies the invasion/panic consequence, and Dumouriez campaign diplomacy with Prussia/Valmy193 supplies negotiation and withdrawal. No qualified Austria/Prussia or coordinated-campaign route reaches184’s specific cautious and delayed coalition advance. Austrian Committee184 is a domestic alleged conspiracy and is not an interchangeable Austria route; the other184 paths concern French disorder or domestic responses. Preserve that supporting-treatment gap while retaining the actual accessible diplomacy. Effective additive correction: Belgium > French invasions and occupations (1792–94)183 begins the actual opening-campaign paragraph, ending mid-sentence in the anticipated Belgian welcome.184 completes that sentence and the same uninterrupted paragraph narrates French breakdown followed immediately by Austrian caution and delayed Prussian coordination. The entire coalition-delay treatment is an ordinary continuation of the indexed campaign discussion; there is no separate-section hunt. Atomic183 locator precision remains unchanged. Complete treatment recall does not establish complete multi-facet access because realistic first lookup is not fully successful.",
       "authored_fact_bindings": [
         {
           "path": "/tmp/indexerlabs-v10/access-08-11/review.SUBJ-SUCC-C421B8FB7D43.json",
@@ -4357,7 +4332,7 @@
     {
       "subject_id": "SUBJ-SUCC-E01B6781D013",
       "priority": "major",
-      "coverage": "complete",
+      "coverage": "partial",
       "direct_access": true,
       "cross_reference_access": false,
       "stance_preserved": "yes",
@@ -4396,7 +4371,7 @@
         191
       ],
       "missed_document_pages": [],
-      "severity": "none",
+      "severity": "minor",
       "confidence": "high",
       "treatment_recall": {
         "principal": {
@@ -4471,7 +4446,7 @@
       "uncertainty": {
         "status": "none"
       },
-      "rationale": "Brissot > war advocacy directly retrieves the proposed foreign attack176, expansive regeneration and assignat claims178, nominees180 and accusations after reverses184. Girondins188 retrieves the retreat from overthrow, while Brissot/Montagnard conflict and Robespierre/Gironde191 retrieve the hardened factional label. The required supporting repetition189 lacks a direct Brissotin or Girondin route; the Assembly/monarchy paths there retrieve the formal suspension rather than the faction’s earlier equivocation. The primary188 retreat remains accessible, but it does not repair the separate atomic189 destination. Effective additive correction: Girondins188 directly retrieves the faction’s recoil from overthrow and attempts to regain the ministry. Its final sentence ends “and make the”;189 immediately completes “insurrection, when it came, one as much against the Legislative Assembly as against the Crown.” This exact continuous sentence supplies the supporting consequence of the recoil, giving access to the assigned189 treatment through actual188 LOC. No189 Girondin locator or relocated188 predicate is asserted.",
+      "rationale": "Brissot > war advocacy directly retrieves the proposed foreign attack176, expansive regeneration and assignat claims178, nominees180 and accusations after reverses184. Girondins188 retrieves the retreat from overthrow, while Brissot/Montagnard conflict and Robespierre/Gironde191 retrieve the hardened factional label. The required supporting repetition189 lacks a direct Brissotin or Girondin route; the Assembly/monarchy paths there retrieve the formal suspension rather than the faction’s earlier equivocation. The primary188 retreat remains accessible, but it does not repair the separate atomic189 destination. Effective additive correction: Girondins188 directly retrieves the faction’s recoil from overthrow and attempts to regain the ministry. Its final sentence ends “and make the”;189 immediately completes “insurrection, when it came, one as much against the Legislative Assembly as against the Crown.” This exact continuous sentence supplies the supporting consequence of the recoil, giving access to the assigned189 treatment through actual188 LOC. No189 Girondin locator or relocated188 predicate is asserted. Complete treatment recall does not establish complete multi-facet access because realistic first lookup is not fully successful.",
       "authored_fact_bindings": [
         {
           "path": "/tmp/indexerlabs-v10/access-08-11/review.SUBJ-SUCC-E01B6781D013.json",
@@ -8211,6 +8186,6 @@
     "expected": 37,
     "judged": 37,
     "complete": true,
-    "semantic_unresolved": 1
+    "semantic_unresolved": 0
   }
 }

@@ -4076,25 +4076,17 @@
       "document_page": 34,
       "source_page_label": "34",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Within its discussion of clerical taxation, noble control of benefices, episcopal patronage, and Church political influence, source page 34 provides limited but independently useful treatment of “Gallicanism”.",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "The subject, scope, relationship, chronology, attribution, compound meaning, and stance of the complete heading path match the source treatment.",
       "evidence_ids": [
         "EVID-D75586891317"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-170D9382FA9C",
@@ -4253,25 +4245,19 @@
       "document_page": 13,
       "source_page_label": "13",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "material_partial_fit",
+      "judgment": "partially_supported",
       "evidence_summary": "The page notes wartime British action against French overseas trade, but it does not treat mutinies and does not clearly develop naval warfare.",
-      "fit_rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability.",
+      "fit_rationale": "Only part of the compound subheading is supported.",
       "evidence_ids": [
         "EVID-792DFD63926F"
       ],
       "confidence": "high",
-      "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "Eligible body prose was inspected. The source facts and particular unresolved meaning/depth question are preserved in the bound authored rationale; no full-fit or retention conclusion follows just from physical inspectability."
-      }
+      "error_codes": [
+        "HED"
+      ],
+      "severity": "minor"
     },
     {
       "locator_id": "LOC-DFECED8F3034",
@@ -8925,25 +8911,17 @@
       "document_page": 7,
       "source_page_label": "7",
       "source_scope_status": "indexable",
-      "treatment_class": null,
-      "complete_path_fit": null,
-      "judgment": "semantic_unresolved",
+      "treatment_class": "mixed",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
       "evidence_summary": "Within its discussion of Languedoc and Provence, religious conflict, autonomous institutions, and Mediterranean ports, source page 7 provides limited but independently useful treatment of “Provence”.",
-      "fit_rationale": "Language/climate/government of Provence and its communities. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim.",
+      "fit_rationale": "The subject, scope, relationship, chronology, attribution, compound meaning, and stance of the complete heading path match the source treatment.",
       "evidence_ids": [
         "EVID-9A262FAFCFC6"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "unresolved",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "Language/climate/government of Provence and its communities. The visually inspected complete unqualified entry combines region and royal person locators without a distinguishing subheading. This useful source fact settles source identity, but cannot establish full-path fit independently of which entity the heading promises. Geographic destinations require the same unresolved-heading treatment already applied to person destinations; neither a blanket geographic default nor automatic disjunctive umbrella is justified. Source-relative treatment remains conditional on referent; no unavailable-source claim."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-05EC1BC3C2B8",
@@ -11633,25 +11611,17 @@
       "document_page": 27,
       "source_page_label": "27",
       "source_scope_status": "indexable",
-      "treatment_class": null,
+      "treatment_class": "mixed",
       "complete_path_fit": "exact_fit",
-      "judgment": "semantic_unresolved",
+      "judgment": "supported",
       "evidence_summary": "Within its discussion of noble status, privilege, fiscal exemptions, militia obligations, and dérogeance, source page 27 provides limited but independently useful treatment of “Young, Arthur”.",
-      "fit_rationale": "The attribution is to the correct named observer; only whether the backward reference offers enough independent personal information is unsettled.",
+      "fit_rationale": "The subject, scope, relationship, chronology, attribution, compound meaning, and stance of the complete heading path match the source treatment.",
       "evidence_ids": [
         "EVID-482F5EF66607"
       ],
       "confidence": "high",
       "error_codes": [],
-      "severity": "none",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "known",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_relationship",
-        "rationale": "The attribution is to the correct named observer; only whether the backward reference offers enough independent personal information is unsettled."
-      }
+      "severity": "none"
     },
     {
       "locator_id": "LOC-EADC9CD83E03",
@@ -11701,6 +11671,6 @@
     "judged": 521,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 4
+    "semantic_unresolved": 0
   }
 }

@@ -3971,9 +3971,9 @@
       "document_page": 330,
       "source_page_label": "330",
       "source_scope_status": "indexable",
-      "treatment_class": null,
+      "treatment_class": "passing_mention",
       "complete_path_fit": "exact_fit",
-      "judgment": "semantic_unresolved",
+      "judgment": "unsupported",
       "evidence_summary": "Ireland appears only in the phrase describing Hoche's earlier Irish debacle, without explanation of the expedition or its effects in Ireland.",
       "evidence_ids": [
         "EVID-3DCFE6F855C9"
@@ -3981,15 +3981,7 @@
       "confidence": "medium",
       "error_codes": [],
       "severity": "none",
-      "fit_rationale": "This is a real independent-usefulness threshold uncertainty, not uncertain physical access or an unclear place referent. Preserve exact fit and known source scope while leaving depth/judgment unresolved.",
-      "axis_resolution": {
-        "treatment": "unresolved",
-        "complete_path_fit": "known",
-        "keep": "unresolved",
-        "inspection_completed": true,
-        "reason_category": "unresolved_referent",
-        "rationale": "This is a real independent-usefulness threshold uncertainty, not uncertain physical access or an unclear place referent. Preserve exact fit and known source scope while leaving depth/judgment unresolved."
-      }
+      "fit_rationale": "The reference is accurate but too slight to constitute independent treatment of Ireland."
     },
     {
       "locator_id": "LOC-0E19FA81482F",
@@ -8202,6 +8194,6 @@
     "judged": 364,
     "unique": true,
     "complete": true,
-    "semantic_unresolved": 1
+    "semantic_unresolved": 0
   }
 }
