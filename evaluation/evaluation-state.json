@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v9",
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "created_at": "2026-09-14T01:45:45Z",
-  "updated_at": "2026-09-17T20:38:06Z",
+  "updated_at": "2026-09-17T21:51:23Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "2002",
@@ -21,8 +21,8 @@
     "normalized_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-index.v2.json",
     "normalized_sha256": "48c489e56077e886c6cd50e000fa293ed0d11eccdc461ed3b63817b42a9735e4",
     "item_inventory_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/item-inventory.v2.json",
-    "benchmark_path": "evaluation/migration-v10-v3-pr67/selected-benchmark.json",
-    "benchmark_sha256": "80669e255b6e0e997984694532cbc0a27d2aa06987c2f73cbfa5878b49cdc20d"
+    "benchmark_path": "migration-v10-decision-v3-shared-pr71/selected-benchmark.json",
+    "benchmark_sha256": "67da3523812603c5f257d1cda16b8551f60887fa070fa6af20e52516b31272e8"
   },
   "configuration": {
     "audit_mode": "full",
@@ -96,28 +96,28 @@
     },
     "source_subject_discovery": {
       "status": "completed",
-      "updated_at": "2026-09-17T19:10:24Z",
+      "updated_at": "2026-09-17T21:32:11Z",
       "notes": [
         "Selected preserved reviewed release retrospectively with candidate visible; no discovery, synthesis, review or historical freeze rerun."
       ]
     },
     "benchmark_synthesis": {
       "status": "completed",
-      "updated_at": "2026-09-17T19:10:24Z",
+      "updated_at": "2026-09-17T21:32:11Z",
       "notes": [
         "Selected preserved reviewed release retrospectively with candidate visible; no discovery, synthesis, review or historical freeze rerun."
       ]
     },
     "benchmark_review": {
       "status": "completed",
-      "updated_at": "2026-09-17T19:10:24Z",
+      "updated_at": "2026-09-17T21:32:11Z",
       "notes": [
         "Selected preserved reviewed release retrospectively with candidate visible; no discovery, synthesis, review or historical freeze rerun."
       ]
     },
     "benchmark_freeze": {
       "status": "completed",
-      "updated_at": "2026-09-17T19:10:24Z",
+      "updated_at": "2026-09-17T21:32:11Z",
       "notes": [
         "Selected preserved reviewed release retrospectively with candidate visible; no discovery, synthesis, review or historical freeze rerun."
       ]
@@ -131,42 +131,42 @@
     },
     "locator_chunk_preparation": {
       "status": "completed",
-      "updated_at": "2026-09-17T20:20:32Z",
+      "updated_at": "2026-09-17T21:40:26Z",
       "notes": [
         "Registered 17 frozen locator packets with complete exact-once routing."
       ]
     },
     "locator_audit": {
       "status": "completed",
-      "updated_at": "2026-09-17T20:21:42Z",
+      "updated_at": "2026-09-17T21:41:46Z",
       "notes": [
         "Replaced the complete locator audit batch for all 17 frozen chunks."
       ]
     },
     "missing_access_audit": {
       "status": "completed",
-      "updated_at": "2026-09-17T20:29:46Z",
+      "updated_at": "2026-09-17T21:43:13Z",
       "notes": [
         "Replaced the complete missing_access audit batch for all 17 frozen chunks."
       ]
     },
     "structure_audit": {
       "status": "completed",
-      "updated_at": "2026-09-17T20:31:46Z",
+      "updated_at": "2026-09-17T21:45:12Z",
       "notes": [
         "Validated and registered the native V8 structure audit atomically."
       ]
     },
     "scoring": {
       "status": "completed",
-      "updated_at": "2026-09-17T20:35:29Z",
+      "updated_at": "2026-09-17T21:48:52Z",
       "notes": [
         "Calculated V10 percentages and registered the validated V14 result atomically."
       ]
     },
     "web_report": {
       "status": "completed",
-      "updated_at": "2026-09-17T20:38:06Z",
+      "updated_at": "2026-09-17T21:51:23Z",
       "notes": [
         "Built and registered web-report.v12 and the V10 public projection bundle atomically."
       ]
@@ -174,17 +174,17 @@
   },
   "artifacts": [
     {
-      "artifact_id": "ART-3AFEA00A3C7D",
+      "artifact_id": "ART-1DF183EB52D0",
       "stage": "missing_access_audit",
       "artifact_type": "candidate_benchmark_access_review",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-access-review.decision-v3-pr69.json",
-      "sha256": "2e712db310fbcd211b98bce27784fef940ad9a4accf5f4fe4c0b00a272115a3b",
+      "sha256": "5d057f37d53d6ecc89152bc3655727f82811c41da4f8a626612cdadc5bd3b900",
       "media_type": "application/json",
       "schema_version": "subject-index-v10-candidate-access-review-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:31:03Z"
+      "recorded_at": "2026-09-17T21:44:27Z"
     },
     {
       "artifact_id": "ART-619B68AD126A",
@@ -235,7 +235,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -248,7 +248,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -261,7 +261,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -274,7 +274,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -287,7 +287,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -300,7 +300,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -313,7 +313,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -326,7 +326,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -339,7 +339,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -352,7 +352,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -365,7 +365,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -378,7 +378,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -391,7 +391,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -404,7 +404,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -417,7 +417,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -430,7 +430,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -443,7 +443,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:21:42Z",
+      "recorded_at": "2026-09-17T21:41:46Z",
       "schema_version": "locator-audit-v3"
     },
     {
@@ -457,7 +457,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-5FFF10149F4D",
@@ -470,7 +470,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-D992C8D74C51",
@@ -483,7 +483,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-44D737056DFC",
@@ -496,7 +496,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-C225945E26A8",
@@ -509,7 +509,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-CE9DD75ABFBF",
@@ -522,7 +522,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-4D05D254BE48",
@@ -535,7 +535,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-269D957B913A",
@@ -548,7 +548,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-C0C5BB51EFCD",
@@ -561,7 +561,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-95A205F1AA2D",
@@ -574,7 +574,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-45A83659F8FE",
@@ -587,7 +587,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-886CBD20B525",
@@ -600,7 +600,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-D40F0FD52333",
@@ -613,7 +613,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-A5642AC64772",
@@ -626,7 +626,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-00523C682BB0",
@@ -639,7 +639,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-B98D95B9DE52",
@@ -652,7 +652,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
       "artifact_id": "ART-013A982B7384",
@@ -665,227 +665,227 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:20:32Z"
+      "recorded_at": "2026-09-17T21:40:26Z"
     },
     {
-      "artifact_id": "ART-507268230A2C",
+      "artifact_id": "ART-E77EDE309260",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-001.v2.json",
-      "sha256": "ca6efbe526d2dcaea0c55c49a0d21ec8c048ac335d8a5945921f32260d2b5d17",
+      "sha256": "17f9b0f338d24916a994951271b25612a80dffce8ac2298480d357871de4a228",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-BED9EA74512A",
+      "artifact_id": "ART-BF98060C673D",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-002.v2.json",
-      "sha256": "001e90012a922568a1bf318883584e700af9dcb04ac3fe3df87a8552c854a55b",
+      "sha256": "0332a15b83c7fe4131a973c543bc091ec235669b1fe742f27bc35a62e00dfe6b",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-616F4BFE876A",
+      "artifact_id": "ART-40EA26CAD2BB",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-003.v2.json",
-      "sha256": "c7222901280b3888811db29553a90c5cae6326131f118de7af1b8ceb2077d11b",
+      "sha256": "3d655a5483ff58ba0c1f3305f2343fbe10fa2cac346180842e8fd7f09af0d82e",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-189D6C95F213",
+      "artifact_id": "ART-22617AA49DDE",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-004.v2.json",
-      "sha256": "e9530eacb993146341cc04c6d5f490a27189204e63b75c05cc6d73a543376432",
+      "sha256": "bc016e16419317b9da7980dbd5cc07d8a7b5dc5b0ddd8a22a2edf4ff9056d44a",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-7093FC79CBD3",
+      "artifact_id": "ART-6D2F2B7B74E6",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-005.v2.json",
-      "sha256": "757bbcfef33232c2714b7219849869ea47a8de84f077cb11c9f31b7830bda20f",
+      "sha256": "7f78333c86895cac037f667fccd24c3fefd273e8146c5a4a54d4cec815fd3e90",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-5C71F554F0DB",
+      "artifact_id": "ART-821498FC60F6",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-006.v2.json",
-      "sha256": "1524e83d7a8ea97cc6586d743c73978c02edfa3f59e944331c54ed562090386e",
+      "sha256": "5f5e95539c4e1c783dfd1972d36c0b6465e2d343c3cb6a57290660165ecbecd8",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-F5D236AD3E4A",
+      "artifact_id": "ART-03000D630EE0",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-007.v2.json",
-      "sha256": "7f93ee127957eb536eced1eddf680ba182ab8ed8bfcc3bf624ad4dfbf4da7ee6",
+      "sha256": "5ed522f6e4f29268154688eccc1486d4bbed2afac66b298d5adaf1aded0a8659",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-887D2EC40FC5",
+      "artifact_id": "ART-B61F84C6874A",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-008.v2.json",
-      "sha256": "90e54017aaae800644478fc98d1e6928fbc3c628e5877b16e4a7a933b79d32cb",
+      "sha256": "c565c0deab121f84ed06471dc0b4cd5af99145cff71e8157cc026ae736cbb2cd",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-454D0BFFA004",
+      "artifact_id": "ART-6AD09110FA9F",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-009.v2.json",
-      "sha256": "8f88cf2c2359e0848469a916604dc52fcf1d7427a5e514fbf9bde018d5ca1064",
+      "sha256": "538503d3cb9e3d142a841d28889e466b2d9877d18f44d013ca769492aa062708",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-A1E79C5265D9",
+      "artifact_id": "ART-77A632D6DDC0",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-010.v2.json",
-      "sha256": "a094219d54f97aa99d4335d37b83b280961577be9a1187d65fb2e84d62c407d2",
+      "sha256": "0a784467c19320b945d863a423e22d604b254522584c280c0203a752bee8c590",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-7FCF2673BB2D",
+      "artifact_id": "ART-734C9D206EE1",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-011.v2.json",
-      "sha256": "26d6cafc706e0698de5e189f92bf18ca3d37d95d48c6635c0e939b73716ddc0a",
+      "sha256": "f4852c4a09a7b345e2d27b841d2d6ee917e93911871fa04da2d1bb0097ad882e",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-29D2F7F0BF80",
+      "artifact_id": "ART-E45CCD590C98",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-012.v2.json",
-      "sha256": "bed4aa2ba090f463e18c17a08f9d1ff1783bc6976976969b12b619e1edd22f52",
+      "sha256": "aaefba64c0a769e96738736e5a23cac44b57d9c70a7d5713192a6ed2e6253618",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-8E946F73328A",
+      "artifact_id": "ART-25E52E563F4F",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-013.v2.json",
-      "sha256": "ee5bf7861649753a57f6640a8a303c5be875050dcfa554c4a12f2ae793f7b40a",
+      "sha256": "b79eb86f7ade555fd81144905ade1728f4822b68623bad56b0020fd9efc8357f",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-39CB2B6B804B",
+      "artifact_id": "ART-36F5BD0EA5CC",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-014.v2.json",
-      "sha256": "936c6f597e46296f52987f0866cbc97ab92e609d9ff6367428661e14ef38576c",
+      "sha256": "8c4284cebce4ce50be9dc435bde25a49343a2f8745d128d437f9085a929a170a",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-8C9AE1215948",
+      "artifact_id": "ART-58F4DDF41A9A",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-015.v2.json",
-      "sha256": "bd17b3998652b39c5f997d1fcfa55c61c15ff80f481c4d11ac60f1f68da61971",
+      "sha256": "93cb2c2696a034fe7f63f2a9cc79a5e2a26731c3f7f9d59454205e6ef2150cc8",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-F1AFCDDEF5B8",
+      "artifact_id": "ART-BB0DF7B1A6E9",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-016.v2.json",
-      "sha256": "2af08bf6649d23125ded49bdc87cd7daafbae817ec9969407f8c81eb34372939",
+      "sha256": "d8113c1cca9ce9c50f5b67212f43e08549a813583376bc6727ae9e7b0db127e4",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
-      "artifact_id": "ART-A8EA9F489AA4",
+      "artifact_id": "ART-148A2558B4B1",
       "stage": "missing_access_audit",
       "artifact_type": "missing_access_audit",
       "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-017.v2.json",
-      "sha256": "302c23bd45dcd3d8f0bcfbe49590a2172b009fabc26205d6a8e9845ab9fb47aa",
+      "sha256": "30d9293db625866e618ac01ef4f5c8907980c01ed1d92e968109bef7fc7bad81",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:29:46Z",
+      "recorded_at": "2026-09-17T21:43:13Z",
       "schema_version": "missing-access-audit-v2"
     },
     {
@@ -899,519 +899,506 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:31:46Z",
+      "recorded_at": "2026-09-17T21:45:12Z",
       "input_sha256": [
         "2c14c47659ae018853ff57acbe2dec45c3c6058e1442f88faa28311014475981",
         "48c489e56077e886c6cd50e000fa293ed0d11eccdc461ed3b63817b42a9735e4"
       ]
     },
     {
-      "artifact_id": "ART-F6053902EE6F",
+      "artifact_id": "ART-B0DBBB81F9FC",
       "stage": "initialize",
       "artifact_type": "study_preserved_history",
-      "path": "evaluation-state.before-0ee94c685ded.json",
+      "path": "evaluation-state.before-118230460d28.json",
       "sha256": "eb5293d4b6fefd1fc31fc5f835de4f9f2cbfdad0aa841b1832806d14cd80655e",
       "media_type": "application/json",
       "schema_version": "subject-index-evaluation-state-v6",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-8CB106FD9666",
+      "artifact_id": "ART-DC594434CF41",
       "stage": "benchmark_freeze",
       "artifact_type": "study_comparison_evidence",
-      "path": "evaluation/migration-v10-v3-pr67/approval.json",
-      "sha256": "0ee94c685ded4a8673fd0b1d65f99a399e82dbe9ac4bf869d3530daa4a10beaf",
+      "path": "migration-v10-decision-v3-shared-pr71/approval.json",
+      "sha256": "118230460d28508db77c6f15611d3117ac78b038480f8fbac95f901ca0696ff2",
       "media_type": "application/json",
       "schema_version": "subject-index-retrospective-benchmark-approval-v1",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-6CD64037FA1E",
+      "artifact_id": "ART-AAE69D9AA656",
       "stage": "benchmark_freeze",
       "artifact_type": "study_comparison_evidence",
-      "path": "evaluation/migration-v10-v3-pr67/previous-policy.json",
+      "path": "migration-v10-decision-v3-shared-pr71/previous-policy.json",
       "sha256": "c8063d6d634b888141164a7015ce79591433b0732b9505c5062b2235cb358267",
       "media_type": "application/json",
       "schema_version": "subject-index-evaluation-policy-v4",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-BC1AD9BDDDAF",
+      "artifact_id": "ART-2DD4E1C7E8F1",
       "stage": "benchmark_synthesis",
       "artifact_type": "historical_release_benchmark",
-      "path": "evaluation/migration-v10-v3-pr67/release-benchmark.json",
+      "path": "migration-v10-decision-v3-shared-pr71/release-benchmark.json",
       "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5",
       "media_type": "application/json",
       "schema_version": "source-subject-benchmark-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-CB6E05DAF9E1",
+      "artifact_id": "ART-D81792955ED2",
       "stage": "benchmark_freeze",
       "artifact_type": "study_comparison_evidence",
-      "path": "evaluation/migration-v10-v3-pr67/release-descriptor.json",
-      "sha256": "6723d64081ac52f2895fc506138f379720667533e1b6af700560e76604db2f1d",
-      "media_type": "application/json",
-      "schema_version": "subject-index-successor-release-v3",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
-    },
-    {
-      "artifact_id": "ART-00783EE439CD",
-      "stage": "benchmark_freeze",
-      "artifact_type": "study_comparison_evidence",
-      "path": "evaluation/migration-v10-v3-pr67/release-draft.json",
+      "path": "migration-v10-decision-v3-shared-pr71/release-draft.json",
       "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678",
       "media_type": "application/json",
       "schema_version": "source-subject-benchmark-draft-v1",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-05AEFB5D1F25",
+      "artifact_id": "ART-45256DCB2E58",
       "stage": "benchmark_freeze",
       "artifact_type": "study_comparison_evidence",
-      "path": "evaluation/migration-v10-v3-pr67/release-policy.json",
+      "path": "migration-v10-decision-v3-shared-pr71/release-policy.json",
       "sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b",
       "media_type": "application/json",
       "schema_version": "subject-index-evaluation-policy-v4",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-A23BC4F8DEB5",
+      "artifact_id": "ART-624A73EC2844",
       "stage": "benchmark_review",
       "artifact_type": "historical_release_review",
-      "path": "evaluation/migration-v10-v3-pr67/release-review.json",
+      "path": "migration-v10-decision-v3-shared-pr71/release-review.json",
       "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850",
       "media_type": "application/json",
       "schema_version": "source-benchmark-review-v1",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-9D9BE333B0DD",
+      "artifact_id": "ART-C180F9A59D07",
       "stage": "source_subject_discovery",
       "artifact_type": "historical_source_freeze_state",
-      "path": "evaluation/migration-v10-v3-pr67/release-state.json",
+      "path": "migration-v10-decision-v3-shared-pr71/release-state.json",
       "sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb",
       "media_type": "application/json",
       "schema_version": "subject-index-evaluation-state-v6",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-287FF7AF9DBD",
+      "artifact_id": "ART-1039C013C401",
       "stage": "benchmark_freeze",
       "artifact_type": "source_benchmark",
-      "path": "evaluation/migration-v10-v3-pr67/selected-benchmark.json",
-      "sha256": "6ed77c12e250935e29182ecfd39750a10ecb0c60a4c084d6af5faa921322f5f6",
+      "path": "migration-v10-decision-v3-shared-pr71/selected-benchmark.json",
+      "sha256": "0361361c8b9dc6bdc8021541ac508aa619ca4311670ba45589a0195c727ecd5f",
       "media_type": "application/json",
       "schema_version": "source-subject-benchmark-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-177C88D8DCFD",
+      "artifact_id": "ART-0D3762AFFA1C",
       "stage": "define_policy",
       "artifact_type": "evaluation_policy",
-      "path": "evaluation/migration-v10-v3-pr67/selected-policy.json",
-      "sha256": "d2507ea98725693982969b0a3def1c3d2110bab4c0a150c75a22a2684dd5c3cd",
+      "path": "migration-v10-decision-v3-shared-pr71/selected-policy.json",
+      "sha256": "b78eb2648354c01dadebc312985002544f2a32874be402b5bb3a4bf98f76b8ae",
       "media_type": "application/json",
-      "schema_version": "subject-index-evaluation-policy-v7",
+      "schema_version": "subject-index-evaluation-policy-v6",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-D93AC41F28EB",
+      "artifact_id": "ART-9E2D47908070",
       "stage": "benchmark_freeze",
       "artifact_type": "study_comparison_evidence",
-      "path": "evaluation/migration-v10-v3-pr67/study-benchmark-lock.v1.json",
-      "sha256": "4acb300f81aa244c35b79f1fb2e2890b7ba8def23ec2073be5166255192adda6",
+      "path": "migration-v10-decision-v3-shared-pr71/study-benchmark-lock.v1.json",
+      "sha256": "2883989706071128bb173568decc85c223e696cf0505f749fdccc9b850bef80a",
       "media_type": "application/json",
       "schema_version": "ohfr-study-benchmark-lock-v3",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-E57CDB7DC02C",
+      "artifact_id": "ART-1DB6406776DC",
       "stage": "benchmark_freeze",
       "artifact_type": "study_comparison_evidence",
-      "path": "evaluation/migration-v10-v3-pr67/study-policy-template.json",
-      "sha256": "c92c67490b92d7dcf721eeda3663db4cdd502f8ae6841a44351bae6aac446802",
+      "path": "migration-v10-decision-v3-shared-pr71/study-policy-template.json",
+      "sha256": "74f6280975cd32e1622c57e91cf1241ec385b04461fbf3976d9ce8013b944975",
       "media_type": "application/json",
       "schema_version": "subject-index-study-policy-template-v1",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-C863EBFA20B6",
+      "artifact_id": "ART-80CC20BDB389",
       "stage": "benchmark_freeze",
       "artifact_type": "study_comparison_evidence",
-      "path": "evaluation/migration-v10-v3-pr67/successor/access-amendment/source-correction-v4/author/benchmark-access-overlay.v2.json",
-      "sha256": "f9ae9945aba9dd12447f2a59004e52ce5dc295283308e7cb87a93d69fad2cc29",
+      "path": "migration-v10-decision-v3-shared-pr71/successor/access-amendment/source-correction-v4/author/benchmark-access-overlay.v1.json",
+      "sha256": "1ce6844a2abd0a052a8621100c86dc8c8bd3cf164b79e98cbaf4e9ea516bf1f9",
       "media_type": "application/json",
       "schema_version": "subject-index-benchmark-access-overlay-v10",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-F3F786381B65",
+      "artifact_id": "ART-0A5B62B9D6C1",
       "stage": "benchmark_freeze",
       "artifact_type": "study_comparison_evidence",
-      "path": "evaluation/migration-v10-v3-pr67/successor/access-amendment/source-correction-v4/reviewer/benchmark-access-review.v2.json",
-      "sha256": "0b09b5b09a8caaabe11e1b30608a34b14ada2e1eb68a67192f418db507151046",
+      "path": "migration-v10-decision-v3-shared-pr71/successor/access-amendment/source-correction-v4/reviewer/benchmark-access-review.v1.json",
+      "sha256": "bb50c3b36f5c38c38999fa5759df7a620570db398b00e0669c9758acfd9b129a",
       "media_type": "application/json",
       "schema_version": "subject-index-benchmark-access-review-v10",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-72DFF305EDC7",
+      "artifact_id": "ART-C21C80504B72",
       "stage": "benchmark_freeze",
       "artifact_type": "study_comparison_evidence",
-      "path": "evaluation/migration-v10-v3-pr67/validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
+      "path": "migration-v10-decision-v3-shared-pr71/validation/reconciliation/source-review/source-density-measurement.scope-corrected.v2.json",
       "sha256": "f45df372d88988958d94bfee727db1da0cffd06388f55925e42c2e51929fa562",
       "media_type": "application/json",
       "schema_version": "source-density-measurement-v1",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T19:10:25Z"
+      "recorded_at": "2026-09-17T21:32:11Z"
     },
     {
-      "artifact_id": "ART-2A7DAF821347",
+      "artifact_id": "ART-9B8393FCBCB1",
       "stage": "web_report",
       "artifact_type": "web_density",
-      "path": "scoring-v10-decision-v3-pr71-final/canonical-projection/data/density.v1.json",
+      "path": "scoring-v10-decision-v3-shared-pr71-final/canonical-projection/data/density.v1.json",
       "sha256": "a7bcbf75c83526ae6aa0957ea0b60a71bf493aac7f29d672838349da2b6c346e",
       "media_type": "application/json",
       "schema_version": "ohfr-v10-web-collection-v2",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:38:06Z",
+      "recorded_at": "2026-09-17T21:51:23Z",
       "input_sha256": [
-        "0485c7d62478809ab953eafef0a759fda3654ee7cc471b7874096fc03705c5f7",
-        "6a83d1bf7e672c0463bbc6d0bdf2f2d3342cd7875b38823120ab96e4caf2b218"
+        "74f0aa0d1ab5615d072b3bf401bd5ec24542abe80a12999bb50e83413971413b",
+        "bfdf7a2afeb6cf4d81f5acfe3daa3ef14235ef1b36aa43a358e0dea96060736e"
       ]
     },
     {
-      "artifact_id": "ART-55DB41FBE497",
+      "artifact_id": "ART-BFA0D9951BF5",
       "stage": "web_report",
       "artifact_type": "web_index_records",
-      "path": "scoring-v10-decision-v3-pr71-final/canonical-projection/data/index-records.v1.json",
+      "path": "scoring-v10-decision-v3-shared-pr71-final/canonical-projection/data/index-records.v1.json",
       "sha256": "c5e24be2b1801e756fce9cd7c46c9dd846e97b24d505191f8c40643cfb8f8aa1",
       "media_type": "application/json",
       "schema_version": "ohfr-v10-web-collection-v2",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:38:06Z",
+      "recorded_at": "2026-09-17T21:51:23Z",
       "input_sha256": [
-        "0485c7d62478809ab953eafef0a759fda3654ee7cc471b7874096fc03705c5f7",
-        "6a83d1bf7e672c0463bbc6d0bdf2f2d3342cd7875b38823120ab96e4caf2b218"
+        "74f0aa0d1ab5615d072b3bf401bd5ec24542abe80a12999bb50e83413971413b",
+        "bfdf7a2afeb6cf4d81f5acfe3daa3ef14235ef1b36aa43a358e0dea96060736e"
       ]
     },
     {
-      "artifact_id": "ART-90A5872EC7FE",
+      "artifact_id": "ART-368DBED6F0E8",
       "stage": "web_report",
       "artifact_type": "web_source_subjects",
-      "path": "scoring-v10-decision-v3-pr71-final/canonical-projection/data/source-subjects.v1.json",
+      "path": "scoring-v10-decision-v3-shared-pr71-final/canonical-projection/data/source-subjects.v1.json",
       "sha256": "34991c69eab96eebf9e45db343d89fba7c9ed7eea66658fae69db7e11964e738",
       "media_type": "application/json",
       "schema_version": "ohfr-v10-web-collection-v2",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:38:06Z",
+      "recorded_at": "2026-09-17T21:51:23Z",
       "input_sha256": [
-        "0485c7d62478809ab953eafef0a759fda3654ee7cc471b7874096fc03705c5f7",
-        "6a83d1bf7e672c0463bbc6d0bdf2f2d3342cd7875b38823120ab96e4caf2b218"
+        "74f0aa0d1ab5615d072b3bf401bd5ec24542abe80a12999bb50e83413971413b",
+        "bfdf7a2afeb6cf4d81f5acfe3daa3ef14235ef1b36aa43a358e0dea96060736e"
       ]
     },
     {
-      "artifact_id": "ART-5405658680A4",
+      "artifact_id": "ART-4C02E6947C74",
       "stage": "web_report",
       "artifact_type": "web_projection",
-      "path": "scoring-v10-decision-v3-pr71-final/canonical-projection/projection.v1.json",
-      "sha256": "7f37e1c648b7ef2b99d2751962b3975325610ab165790e55c908f3e3992f2896",
+      "path": "scoring-v10-decision-v3-shared-pr71-final/canonical-projection/projection.v1.json",
+      "sha256": "4a5ff2b62cc2cfeb4a5239bbf55def1845a9d844b7726f1c11ce36b31f11bab1",
       "media_type": "application/json",
       "schema_version": "ohfr-v10-canonical-web-projection-v2",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:38:06Z",
+      "recorded_at": "2026-09-17T21:51:23Z",
       "input_sha256": [
-        "0485c7d62478809ab953eafef0a759fda3654ee7cc471b7874096fc03705c5f7",
-        "6a83d1bf7e672c0463bbc6d0bdf2f2d3342cd7875b38823120ab96e4caf2b218"
+        "74f0aa0d1ab5615d072b3bf401bd5ec24542abe80a12999bb50e83413971413b",
+        "bfdf7a2afeb6cf4d81f5acfe3daa3ef14235ef1b36aa43a358e0dea96060736e"
       ]
     },
     {
-      "artifact_id": "ART-AC3B33E9F9FA",
+      "artifact_id": "ART-4D0A5C6A1DF6",
       "stage": "scoring",
       "artifact_type": "dimension_calculation_input",
-      "path": "scoring-v10-decision-v3-pr71-final/dimension-calculation-input.v5.json",
-      "sha256": "eed67a9c753a5f30ee7c60f645d5275b081d86adb25daaf81c2be30b715ddc98",
+      "path": "scoring-v10-decision-v3-shared-pr71-final/dimension-calculation-input.v5.json",
+      "sha256": "dbe4bbc3eec69f8efb0e3d6c22ea30602fc3eba59b57d1081a99f019a101fd47",
       "media_type": "application/json",
       "schema_version": "subject-index-dimension-calculation-input-v5",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:35:29Z",
+      "recorded_at": "2026-09-17T21:48:52Z",
       "input_sha256": [
-        "001e90012a922568a1bf318883584e700af9dcb04ac3fe3df87a8552c854a55b",
+        "0332a15b83c7fe4131a973c543bc091ec235669b1fe742f27bc35a62e00dfe6b",
+        "0a784467c19320b945d863a423e22d604b254522584c280c0203a752bee8c590",
         "0c032b14f118426f87e546cf3c7a56436452a9103ca3686cc99f2f05ad4f03ad",
-        "1524e83d7a8ea97cc6586d743c73978c02edfa3f59e944331c54ed562090386e",
+        "17f9b0f338d24916a994951271b25612a80dffce8ac2298480d357871de4a228",
         "23809bb05bde9dacd50fb66e1e345fbfb3771b1fc1807f628323f54a808aec6d",
-        "26d6cafc706e0698de5e189f92bf18ca3d37d95d48c6635c0e939b73716ddc0a",
-        "2af08bf6649d23125ded49bdc87cd7daafbae817ec9969407f8c81eb34372939",
-        "2e712db310fbcd211b98bce27784fef940ad9a4accf5f4fe4c0b00a272115a3b",
-        "302c23bd45dcd3d8f0bcfbe49590a2172b009fabc26205d6a8e9845ab9fb47aa",
+        "30d9293db625866e618ac01ef4f5c8907980c01ed1d92e968109bef7fc7bad81",
         "33e2c007a5590d0c7447e8ad130ef7269fdb86a199583296c7e0549cec01140e",
         "36c949034b9645ec3c4a411fac1d932b8a7d105ef2498301e8ad76f5e6c4003f",
         "379fa92b9e5c639c810bc1fb28547553e2fcba92f306ac3aaca8910ea33b0935",
+        "3d655a5483ff58ba0c1f3305f2343fbe10fa2cac346180842e8fd7f09af0d82e",
         "44728079241fb0c3cec5a24b39982fc76d45401a57a3a4273088f42c363090c4",
         "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+        "538503d3cb9e3d142a841d28889e466b2d9877d18f44d013ca769492aa062708",
+        "5d057f37d53d6ecc89152bc3655727f82811c41da4f8a626612cdadc5bd3b900",
+        "5ed522f6e4f29268154688eccc1486d4bbed2afac66b298d5adaf1aded0a8659",
         "5f2959a42b02322248c1ebeff53d59e6a01abf405adc60671cf7d2a2864c5032",
+        "5f5e95539c4e1c783dfd1972d36c0b6465e2d343c3cb6a57290660165ecbecd8",
         "6f091ba8e4cf2e7ac48041ef7c13f097c6f9cd6af65c284e49d6be246cc46b4c",
-        "757bbcfef33232c2714b7219849869ea47a8de84f077cb11c9f31b7830bda20f",
         "79f329d60ff4776d18ca63f92123f7d93bcfb9094ee50d7fbe24212e56512b50",
         "7dce81a4d8be8a336ba1bed47b500f27756b3a9f3120599af76ebd4c6f247305",
+        "7f78333c86895cac037f667fccd24c3fefd273e8146c5a4a54d4cec815fd3e90",
         "7f8c091b9c49c2c018abd50db912d5e3245f41ccf94122ddf601d963d9183d7f",
-        "7f93ee127957eb536eced1eddf680ba182ab8ed8bfcc3bf624ad4dfbf4da7ee6",
         "86ac331df88646d429d3d676ee2bd550c2722f91b14ea6f1eb1ad9898c6d6824",
-        "8f88cf2c2359e0848469a916604dc52fcf1d7427a5e514fbf9bde018d5ca1064",
-        "90e54017aaae800644478fc98d1e6928fbc3c628e5877b16e4a7a933b79d32cb",
-        "936c6f597e46296f52987f0866cbc97ab92e609d9ff6367428661e14ef38576c",
-        "a094219d54f97aa99d4335d37b83b280961577be9a1187d65fb2e84d62c407d2",
+        "8c4284cebce4ce50be9dc435bde25a49343a2f8745d128d437f9085a929a170a",
+        "93cb2c2696a034fe7f63f2a9cc79a5e2a26731c3f7f9d59454205e6ef2150cc8",
+        "aaefba64c0a769e96738736e5a23cac44b57d9c70a7d5713192a6ed2e6253618",
         "ae74232c0d5291b8f75aa98bc29118bc1ed84caa95de9ad4a3e68dab8354131a",
-        "bd17b3998652b39c5f997d1fcfa55c61c15ff80f481c4d11ac60f1f68da61971",
-        "bed4aa2ba090f463e18c17a08f9d1ff1783bc6976976969b12b619e1edd22f52",
-        "c7222901280b3888811db29553a90c5cae6326131f118de7af1b8ceb2077d11b",
-        "ca6efbe526d2dcaea0c55c49a0d21ec8c048ac335d8a5945921f32260d2b5d17",
-        "d2507ea98725693982969b0a3def1c3d2110bab4c0a150c75a22a2684dd5c3cd",
+        "b78eb2648354c01dadebc312985002544f2a32874be402b5bb3a4bf98f76b8ae",
+        "b79eb86f7ade555fd81144905ade1728f4822b68623bad56b0020fd9efc8357f",
+        "bc016e16419317b9da7980dbd5cc07d8a7b5dc5b0ddd8a22a2edf4ff9056d44a",
+        "c565c0deab121f84ed06471dc0b4cd5af99145cff71e8157cc026ae736cbb2cd",
+        "d8113c1cca9ce9c50f5b67212f43e08549a813583376bc6727ae9e7b0db127e4",
         "d82be6275a130c2ddbfb0b4f5dada487811b3e5519c04e8511351e60ee9cec7a",
         "dac3daee861ff3a1627222ae5f0a8ef9bc751d1e548b871afef0482746d19583",
         "de7a6bc59ef7834bd1e6662b90d9be0ff3305808e280c917e668122ca27299d8",
-        "e9530eacb993146341cc04c6d5f490a27189204e63b75c05cc6d73a543376432",
         "e99649a4610fdc9fbf11cd257f154bda80ea5f75539c5af7b04f891dbe885943",
-        "ee5bf7861649753a57f6640a8a303c5be875050dcfa554c4a12f2ae793f7b40a",
+        "f4852c4a09a7b345e2d27b841d2d6ee917e93911871fa04da2d1bb0097ad882e",
         "fa02ed3c28851516bf7f72151b05e067e6ed53e7cf5e32c980532b457b3b4df1"
       ]
     },
     {
-      "artifact_id": "ART-D95A78084DC3",
+      "artifact_id": "ART-312E4A1F4587",
       "stage": "scoring",
       "artifact_type": "dimension_calculations",
-      "path": "scoring-v10-decision-v3-pr71-final/dimension-calculations.v9.json",
-      "sha256": "b5b218d714346cd410cea9359336edea2fceb9318b23c65184edd05c56b4b6b3",
+      "path": "scoring-v10-decision-v3-shared-pr71-final/dimension-calculations.v9.json",
+      "sha256": "45432cc43266fe9f2ac8e81d99dbc548b0a3957a8e184d79128023a7cd9bb824",
       "media_type": "application/json",
       "schema_version": "subject-index-dimension-calculations-v9",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:35:29Z",
+      "recorded_at": "2026-09-17T21:48:52Z",
       "input_sha256": [
-        "001e90012a922568a1bf318883584e700af9dcb04ac3fe3df87a8552c854a55b",
+        "0332a15b83c7fe4131a973c543bc091ec235669b1fe742f27bc35a62e00dfe6b",
+        "0a784467c19320b945d863a423e22d604b254522584c280c0203a752bee8c590",
         "0c032b14f118426f87e546cf3c7a56436452a9103ca3686cc99f2f05ad4f03ad",
-        "1524e83d7a8ea97cc6586d743c73978c02edfa3f59e944331c54ed562090386e",
+        "17f9b0f338d24916a994951271b25612a80dffce8ac2298480d357871de4a228",
         "23809bb05bde9dacd50fb66e1e345fbfb3771b1fc1807f628323f54a808aec6d",
-        "26d6cafc706e0698de5e189f92bf18ca3d37d95d48c6635c0e939b73716ddc0a",
-        "2af08bf6649d23125ded49bdc87cd7daafbae817ec9969407f8c81eb34372939",
-        "2e712db310fbcd211b98bce27784fef940ad9a4accf5f4fe4c0b00a272115a3b",
-        "302c23bd45dcd3d8f0bcfbe49590a2172b009fabc26205d6a8e9845ab9fb47aa",
+        "30d9293db625866e618ac01ef4f5c8907980c01ed1d92e968109bef7fc7bad81",
         "33e2c007a5590d0c7447e8ad130ef7269fdb86a199583296c7e0549cec01140e",
         "36c949034b9645ec3c4a411fac1d932b8a7d105ef2498301e8ad76f5e6c4003f",
         "379fa92b9e5c639c810bc1fb28547553e2fcba92f306ac3aaca8910ea33b0935",
+        "3d655a5483ff58ba0c1f3305f2343fbe10fa2cac346180842e8fd7f09af0d82e",
         "44728079241fb0c3cec5a24b39982fc76d45401a57a3a4273088f42c363090c4",
         "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+        "538503d3cb9e3d142a841d28889e466b2d9877d18f44d013ca769492aa062708",
+        "5d057f37d53d6ecc89152bc3655727f82811c41da4f8a626612cdadc5bd3b900",
+        "5ed522f6e4f29268154688eccc1486d4bbed2afac66b298d5adaf1aded0a8659",
         "5f2959a42b02322248c1ebeff53d59e6a01abf405adc60671cf7d2a2864c5032",
+        "5f5e95539c4e1c783dfd1972d36c0b6465e2d343c3cb6a57290660165ecbecd8",
         "6f091ba8e4cf2e7ac48041ef7c13f097c6f9cd6af65c284e49d6be246cc46b4c",
-        "757bbcfef33232c2714b7219849869ea47a8de84f077cb11c9f31b7830bda20f",
         "79f329d60ff4776d18ca63f92123f7d93bcfb9094ee50d7fbe24212e56512b50",
         "7dce81a4d8be8a336ba1bed47b500f27756b3a9f3120599af76ebd4c6f247305",
+        "7f78333c86895cac037f667fccd24c3fefd273e8146c5a4a54d4cec815fd3e90",
         "7f8c091b9c49c2c018abd50db912d5e3245f41ccf94122ddf601d963d9183d7f",
-        "7f93ee127957eb536eced1eddf680ba182ab8ed8bfcc3bf624ad4dfbf4da7ee6",
         "86ac331df88646d429d3d676ee2bd550c2722f91b14ea6f1eb1ad9898c6d6824",
-        "8f88cf2c2359e0848469a916604dc52fcf1d7427a5e514fbf9bde018d5ca1064",
-        "90e54017aaae800644478fc98d1e6928fbc3c628e5877b16e4a7a933b79d32cb",
-        "936c6f597e46296f52987f0866cbc97ab92e609d9ff6367428661e14ef38576c",
-        "a094219d54f97aa99d4335d37b83b280961577be9a1187d65fb2e84d62c407d2",
+        "8c4284cebce4ce50be9dc435bde25a49343a2f8745d128d437f9085a929a170a",
+        "93cb2c2696a034fe7f63f2a9cc79a5e2a26731c3f7f9d59454205e6ef2150cc8",
+        "aaefba64c0a769e96738736e5a23cac44b57d9c70a7d5713192a6ed2e6253618",
         "ae74232c0d5291b8f75aa98bc29118bc1ed84caa95de9ad4a3e68dab8354131a",
-        "bd17b3998652b39c5f997d1fcfa55c61c15ff80f481c4d11ac60f1f68da61971",
-        "bed4aa2ba090f463e18c17a08f9d1ff1783bc6976976969b12b619e1edd22f52",
-        "c7222901280b3888811db29553a90c5cae6326131f118de7af1b8ceb2077d11b",
-        "ca6efbe526d2dcaea0c55c49a0d21ec8c048ac335d8a5945921f32260d2b5d17",
-        "d2507ea98725693982969b0a3def1c3d2110bab4c0a150c75a22a2684dd5c3cd",
+        "b78eb2648354c01dadebc312985002544f2a32874be402b5bb3a4bf98f76b8ae",
+        "b79eb86f7ade555fd81144905ade1728f4822b68623bad56b0020fd9efc8357f",
+        "bc016e16419317b9da7980dbd5cc07d8a7b5dc5b0ddd8a22a2edf4ff9056d44a",
+        "c565c0deab121f84ed06471dc0b4cd5af99145cff71e8157cc026ae736cbb2cd",
+        "d8113c1cca9ce9c50f5b67212f43e08549a813583376bc6727ae9e7b0db127e4",
         "d82be6275a130c2ddbfb0b4f5dada487811b3e5519c04e8511351e60ee9cec7a",
         "dac3daee861ff3a1627222ae5f0a8ef9bc751d1e548b871afef0482746d19583",
         "de7a6bc59ef7834bd1e6662b90d9be0ff3305808e280c917e668122ca27299d8",
-        "e9530eacb993146341cc04c6d5f490a27189204e63b75c05cc6d73a543376432",
         "e99649a4610fdc9fbf11cd257f154bda80ea5f75539c5af7b04f891dbe885943",
-        "ee5bf7861649753a57f6640a8a303c5be875050dcfa554c4a12f2ae793f7b40a",
+        "f4852c4a09a7b345e2d27b841d2d6ee917e93911871fa04da2d1bb0097ad882e",
         "fa02ed3c28851516bf7f72151b05e067e6ed53e7cf5e32c980532b457b3b4df1"
       ]
     },
     {
-      "artifact_id": "ART-831CF897B20A",
+      "artifact_id": "ART-FCD747A55420",
       "stage": "scoring",
       "artifact_type": "evaluation_result",
-      "path": "scoring-v10-decision-v3-pr71-final/evaluation-result.v15.json",
-      "sha256": "6a83d1bf7e672c0463bbc6d0bdf2f2d3342cd7875b38823120ab96e4caf2b218",
+      "path": "scoring-v10-decision-v3-shared-pr71-final/evaluation-result.v15.json",
+      "sha256": "bfdf7a2afeb6cf4d81f5acfe3daa3ef14235ef1b36aa43a358e0dea96060736e",
       "media_type": "application/json",
       "schema_version": "subject-index-evaluation-result-v15",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:35:29Z",
+      "recorded_at": "2026-09-17T21:48:52Z",
       "input_sha256": [
-        "47d54bea3532f78c9c179468560afff7311bf3e0f59177214a29840422ce039a",
-        "b5b218d714346cd410cea9359336edea2fceb9318b23c65184edd05c56b4b6b3",
-        "d18b52b13f65310069e13a576a6e405d6f052798f44ae3f5454e8bf9b67ac0ac",
+        "0bb82b16659a20913d10fd0a13105f81374ace6b1bf32cafe8d9b983ccdd7c1d",
+        "1a7eda189248ff5508adfa197384c5bceadf5eb89cfd1e79e6de4c7a1f0719cd",
+        "45432cc43266fe9f2ac8e81d99dbc548b0a3957a8e184d79128023a7cd9bb824",
         "d82be6275a130c2ddbfb0b4f5dada487811b3e5519c04e8511351e60ee9cec7a"
       ]
     },
     {
-      "artifact_id": "ART-E1CCC328CB5F",
+      "artifact_id": "ART-06F9846063A2",
       "stage": "scoring",
       "artifact_type": "item_assessments",
-      "path": "scoring-v10-decision-v3-pr71-final/item-assessments.v10.json",
-      "sha256": "47d54bea3532f78c9c179468560afff7311bf3e0f59177214a29840422ce039a",
+      "path": "scoring-v10-decision-v3-shared-pr71-final/item-assessments.v10.json",
+      "sha256": "0bb82b16659a20913d10fd0a13105f81374ace6b1bf32cafe8d9b983ccdd7c1d",
       "media_type": "application/json",
       "schema_version": "subject-index-item-assessments-v10",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:35:29Z",
+      "recorded_at": "2026-09-17T21:48:52Z",
       "input_sha256": [
         "2c14c47659ae018853ff57acbe2dec45c3c6058e1442f88faa28311014475981",
-        "b5b218d714346cd410cea9359336edea2fceb9318b23c65184edd05c56b4b6b3",
+        "45432cc43266fe9f2ac8e81d99dbc548b0a3957a8e184d79128023a7cd9bb824",
         "d82be6275a130c2ddbfb0b4f5dada487811b3e5519c04e8511351e60ee9cec7a"
       ]
     },
     {
-      "artifact_id": "ART-024BFC608343",
+      "artifact_id": "ART-A287478E3C2C",
       "stage": "scoring",
       "artifact_type": "projection_metadata",
-      "path": "scoring-v10-decision-v3-pr71-final/projection-metadata.v10-semantic-v2.json",
-      "sha256": "d18b52b13f65310069e13a576a6e405d6f052798f44ae3f5454e8bf9b67ac0ac",
+      "path": "scoring-v10-decision-v3-shared-pr71-final/projection-metadata.v10-semantic-v2.json",
+      "sha256": "1a7eda189248ff5508adfa197384c5bceadf5eb89cfd1e79e6de4c7a1f0719cd",
       "media_type": "application/json",
       "schema_version": "subject-index-v10-projection-metadata-v2",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:35:29Z",
+      "recorded_at": "2026-09-17T21:48:52Z",
       "input_sha256": [
-        "b5b218d714346cd410cea9359336edea2fceb9318b23c65184edd05c56b4b6b3",
+        "45432cc43266fe9f2ac8e81d99dbc548b0a3957a8e184d79128023a7cd9bb824",
         "d82be6275a130c2ddbfb0b4f5dada487811b3e5519c04e8511351e60ee9cec7a"
       ]
     },
     {
-      "artifact_id": "ART-F5E947BAD102",
+      "artifact_id": "ART-479412860879",
       "stage": "web_report",
       "artifact_type": "web_report",
-      "path": "scoring-v10-decision-v3-pr71-final/web-report.v13.json",
-      "sha256": "0485c7d62478809ab953eafef0a759fda3654ee7cc471b7874096fc03705c5f7",
+      "path": "scoring-v10-decision-v3-shared-pr71-final/web-report.v13.json",
+      "sha256": "74f0aa0d1ab5615d072b3bf401bd5ec24542abe80a12999bb50e83413971413b",
       "media_type": "application/json",
       "schema_version": "subject-index-web-report-v13",
       "visibility": "public",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:38:06Z",
+      "recorded_at": "2026-09-17T21:51:23Z",
       "input_sha256": [
-        "47d54bea3532f78c9c179468560afff7311bf3e0f59177214a29840422ce039a",
-        "6a83d1bf7e672c0463bbc6d0bdf2f2d3342cd7875b38823120ab96e4caf2b218",
-        "b5b218d714346cd410cea9359336edea2fceb9318b23c65184edd05c56b4b6b3",
-        "d18b52b13f65310069e13a576a6e405d6f052798f44ae3f5454e8bf9b67ac0ac",
+        "0bb82b16659a20913d10fd0a13105f81374ace6b1bf32cafe8d9b983ccdd7c1d",
+        "1a7eda189248ff5508adfa197384c5bceadf5eb89cfd1e79e6de4c7a1f0719cd",
+        "45432cc43266fe9f2ac8e81d99dbc548b0a3957a8e184d79128023a7cd9bb824",
+        "bfdf7a2afeb6cf4d81f5acfe3daa3ef14235ef1b36aa43a358e0dea96060736e",
         "d82be6275a130c2ddbfb0b4f5dada487811b3e5519c04e8511351e60ee9cec7a"
       ]
     },
     {
-      "artifact_id": "ART-2441B35E4CDF",
+      "artifact_id": "ART-6EFB60A217CA",
       "stage": "initialize",
       "artifact_type": "study_execution_compatibility",
-      "path": "semantic-execution-v3-pr71/compatibility.json",
-      "sha256": "40dd78aa187577026a419338830bee420b6bc6a2ded53194670d9fbdded82bec",
+      "path": "semantic-execution-v3-pr71-shared-final/compatibility.json",
+      "sha256": "1612c8aa79cd17ad11bf5a7db612016b14bb1de66d0ecf50450b339209624411",
       "media_type": "application/json",
       "schema_version": "subject-index-v10-execution-compatibility-v1",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:19:54Z"
+      "recorded_at": "2026-09-17T21:33:55Z"
     },
     {
-      "artifact_id": "ART-580C7F2BEA50",
+      "artifact_id": "ART-88AEF9A72538",
       "stage": "initialize",
       "artifact_type": "study_execution_compatibility",
-      "path": "semantic-execution-v3-pr71/previous-state.json",
-      "sha256": "00f9b9a42d3c566e727be18898f40e49de73bf022ee6df1c609a2214a19e11a4",
+      "path": "semantic-execution-v3-pr71-shared-final/previous-state.json",
+      "sha256": "3d959b37dc6b53da9a9b5be9803aa5f1c301d935be5c03577c0dc26530e0bb82",
       "media_type": "application/json",
       "schema_version": "subject-index-evaluation-state-v9",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:19:54Z"
+      "recorded_at": "2026-09-17T21:33:55Z"
     },
     {
-      "artifact_id": "ART-AFB089CC7698",
+      "artifact_id": "ART-A83EEB5C2415",
       "stage": "initialize",
       "artifact_type": "study_execution_compatibility",
-      "path": "semantic-execution-v3-pr71/requirement-inventory-provenance.json",
+      "path": "semantic-execution-v3-pr71-shared-final/requirement-inventory-provenance.json",
       "sha256": "a054c74034baf724dc9e5980b995274a58a350516e840c77764af34e88309be6",
       "media_type": "application/json",
       "schema_version": "study-evidence-v1",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:19:54Z"
+      "recorded_at": "2026-09-17T21:33:55Z"
     },
     {
-      "artifact_id": "ART-517168CAA040",
+      "artifact_id": "ART-097FFAE77E11",
       "stage": "initialize",
       "artifact_type": "study_execution_compatibility",
-      "path": "semantic-execution-v3-pr71/source-release.json",
-      "sha256": "5f063a69a58561ae89d0efb6c12d662c1911fc7554658e219558c6859d03c3f9",
+      "path": "semantic-execution-v3-pr71-shared-final/source-release.json",
+      "sha256": "441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94",
       "media_type": "application/json",
       "schema_version": "subject-index-successor-release-v3",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-17T20:19:54Z"
+      "recorded_at": "2026-09-17T21:33:55Z"
     },
     {
       "artifact_id": "ART-493F1BBD1F10",
@@ -1881,7 +1868,7 @@
   "blockers": [],
   "study_comparison": {
     "candidate_seen": true,
-    "migrated_at": "2026-09-17T19:10:24Z",
+    "migrated_at": "2026-09-17T21:32:11Z",
     "semantic_change": true,
     "policy_semantic_change": true,
     "audit_transfer_authorized": false,
@@ -1953,39 +1940,35 @@
       ]
     },
     "prior_state": {
-      "path": "evaluation-state.before-0ee94c685ded.json",
+      "path": "evaluation-state.before-118230460d28.json",
       "sha256": "eb5293d4b6fefd1fc31fc5f835de4f9f2cbfdad0aa841b1832806d14cd80655e"
     },
     "lock": {
-      "path": "evaluation/migration-v10-v3-pr67/study-benchmark-lock.v1.json",
-      "sha256": "4acb300f81aa244c35b79f1fb2e2890b7ba8def23ec2073be5166255192adda6"
+      "path": "migration-v10-decision-v3-shared-pr71/study-benchmark-lock.v1.json",
+      "sha256": "2883989706071128bb173568decc85c223e696cf0505f749fdccc9b850bef80a"
     },
     "release_benchmark": {
-      "path": "evaluation/migration-v10-v3-pr67/release-benchmark.json",
+      "path": "migration-v10-decision-v3-shared-pr71/release-benchmark.json",
       "sha256": "cf6ab230f9cf6698f5eab9ff1192e23c6bf00ce7b278e8f7a371eddf4e0e79f5"
     },
     "approval": {
-      "path": "evaluation/migration-v10-v3-pr67/approval.json",
-      "sha256": "0ee94c685ded4a8673fd0b1d65f99a399e82dbe9ac4bf869d3530daa4a10beaf"
+      "path": "migration-v10-decision-v3-shared-pr71/approval.json",
+      "sha256": "118230460d28508db77c6f15611d3117ac78b038480f8fbac95f901ca0696ff2"
     },
     "release_review": {
-      "path": "evaluation/migration-v10-v3-pr67/release-review.json",
+      "path": "migration-v10-decision-v3-shared-pr71/release-review.json",
       "sha256": "7fcead451e0622b0f6300426b8713d8a31fa450b88b06df57300b053ef366850"
     },
-    "release_descriptor": {
-      "path": "evaluation/migration-v10-v3-pr67/release-descriptor.json",
-      "sha256": "6723d64081ac52f2895fc506138f379720667533e1b6af700560e76604db2f1d"
-    },
     "release_draft": {
-      "path": "evaluation/migration-v10-v3-pr67/release-draft.json",
+      "path": "migration-v10-decision-v3-shared-pr71/release-draft.json",
       "sha256": "c614e709cbe049bde88a5c1f77c27dd77334b2932bb0bbf0593f2ed08b742678"
     },
     "release_state": {
-      "path": "evaluation/migration-v10-v3-pr67/release-state.json",
+      "path": "migration-v10-decision-v3-shared-pr71/release-state.json",
       "sha256": "457dc7c6f7cf7de4a9df5410a25dd63ae6c92a962c08a4c89b15474f6868c0bb"
     },
     "release_policy": {
-      "path": "evaluation/migration-v10-v3-pr67/release-policy.json",
+      "path": "migration-v10-decision-v3-shared-pr71/release-policy.json",
       "sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b"
     },
     "methodology_migration": {
@@ -1997,19 +1980,19 @@
   },
   "execution_compatibility": {
     "approval": {
-      "path": "semantic-execution-v3-pr71/compatibility.json",
-      "sha256": "40dd78aa187577026a419338830bee420b6bc6a2ded53194670d9fbdded82bec"
+      "path": "semantic-execution-v3-pr71-shared-final/compatibility.json",
+      "sha256": "1612c8aa79cd17ad11bf5a7db612016b14bb1de66d0ecf50450b339209624411"
     },
     "source_release": {
-      "path": "semantic-execution-v3-pr71/source-release.json",
-      "sha256": "5f063a69a58561ae89d0efb6c12d662c1911fc7554658e219558c6859d03c3f9"
+      "path": "semantic-execution-v3-pr71-shared-final/source-release.json",
+      "sha256": "441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94"
     },
     "previous_state": {
-      "path": "semantic-execution-v3-pr71/previous-state.json",
-      "sha256": "00f9b9a42d3c566e727be18898f40e49de73bf022ee6df1c609a2214a19e11a4"
+      "path": "semantic-execution-v3-pr71-shared-final/previous-state.json",
+      "sha256": "3d959b37dc6b53da9a9b5be9803aa5f1c301d935be5c03577c0dc26530e0bb82"
     },
     "requirement_inventory": {
-      "path": "semantic-execution-v3-pr71/requirement-inventory-provenance.json",
+      "path": "semantic-execution-v3-pr71-shared-final/requirement-inventory-provenance.json",
       "sha256": "a054c74034baf724dc9e5980b995274a58a350516e840c77764af34e88309be6"
     }
   }
