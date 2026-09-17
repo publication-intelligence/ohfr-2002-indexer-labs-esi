@@ -1,0 +1,5036 @@
+{
+  "schema_version": "ohfr-indexerlabs-material-structure-findings-checkpoint-v1",
+  "created_at": "2026-09-17T18:29:31.030215+00:00",
+  "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+  "source_structure_audit": {
+    "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v10-r2.json",
+    "sha256": "8ebc55082fe711ba03ac36624e987edbc94fb6a819665c9138d5babd7eba1ebb"
+  },
+  "conservation_rule": "Every major_issues or fails node component must produce one material defect record before scoring.",
+  "summary": {
+    "material_component_findings": 135,
+    "conceptual_major": 76,
+    "conceptual_critical": 1,
+    "findability_major": 58
+  },
+  "findings": [
+    {
+      "finding_id": "MAT-94C5A64F0B69",
+      "node_id": "NODE-E06F04B5625A",
+      "heading_path": [
+        "Antraigues, Emmanuel-Henri-Louis Alexandre de Launay, Comte d'"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-E06F04B5625A",
+        "PATH-894242A1BFF0"
+      ],
+      "path_ids": [
+        "PATH-894242A1BFF0"
+      ],
+      "evidence_ids": [
+        "EVID-DF477F4E30C8"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-2C6B2CC2A577",
+      "node_id": "NODE-CCC1BB58336D",
+      "heading_path": [
+        "Artois, Charles-Philippe, Comte d'",
+        "counter-revolutionary activities"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-CCC1BB58336D",
+        "PATH-9F3FA748B991"
+      ],
+      "path_ids": [
+        "PATH-9F3FA748B991"
+      ],
+      "evidence_ids": [
+        "EVID-5BFC7C783E05"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-B61D73331A60",
+      "node_id": "NODE-10FAE6FD7558",
+      "heading_path": [
+        "Austria",
+        "internal administration and unrest"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-10FAE6FD7558",
+        "PATH-42651A5A06F0"
+      ],
+      "path_ids": [
+        "PATH-42651A5A06F0"
+      ],
+      "evidence_ids": [
+        "EVID-F707ED343CD1"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-AC90F2644F07",
+      "node_id": "NODE-10FAE6FD7558",
+      "heading_path": [
+        "Austria",
+        "internal administration and unrest"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-10FAE6FD7558",
+        "PATH-42651A5A06F0"
+      ],
+      "path_ids": [
+        "PATH-42651A5A06F0"
+      ],
+      "evidence_ids": [
+        "EVID-F707ED343CD1"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000008",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-F707ED343CD1",
+            "PATH-42651A5A06F0"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-F707ED343CD1"
+          ],
+          "summary": "Locator LOC-F707ED343CD1 records complete-path heading-fit friction: The parent country is treated, but the evidence belongs to external military policy rather than the internal-administration subdivision."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-730223C7C77E",
+      "node_id": "NODE-7F89E9516797",
+      "heading_path": [
+        "Austria",
+        "military campaigns and coalitions"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-7F89E9516797",
+        "PATH-F42F817D5AC7"
+      ],
+      "path_ids": [
+        "PATH-F42F817D5AC7"
+      ],
+      "evidence_ids": [
+        "EVID-4CF3829E2CD7"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-8CAD098A3CB7",
+      "node_id": "NODE-7F89E9516797",
+      "heading_path": [
+        "Austria",
+        "military campaigns and coalitions"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-7F89E9516797",
+        "PATH-F42F817D5AC7"
+      ],
+      "path_ids": [
+        "PATH-F42F817D5AC7"
+      ],
+      "evidence_ids": [
+        "EVID-686932ABDF64",
+        "EVID-185C434262D4",
+        "EVID-2AC8110A2EF0",
+        "EVID-36B5178DAD39",
+        "EVID-70710588302E",
+        "EVID-BF790B72D563",
+        "EVID-D62D9A6CE7FA",
+        "EVID-01576A6698C1",
+        "EVID-136666C13FBE",
+        "EVID-3EF11E03CF9F",
+        "EVID-42D2AA23575B",
+        "EVID-786AC843423F",
+        "EVID-79D135FE68D6",
+        "EVID-84B010958E85",
+        "EVID-C5CC78F8B2B2",
+        "EVID-DE9B5464FC70",
+        "EVID-E3DDCAA317DF",
+        "EVID-42B17D2A7F6B",
+        "EVID-483939215D55",
+        "EVID-AF14FAF12F62",
+        "EVID-EE7CBBF606BE",
+        "EVID-00C4D48DC6D7",
+        "EVID-0CB8849D6049",
+        "EVID-53568FDBA7B0",
+        "EVID-7BEF512E44E7",
+        "EVID-93F2B79282F1",
+        "EVID-296DEF4A6653",
+        "EVID-662D4E329CAB",
+        "EVID-D77649AF0760"
+      ],
+      "summary": "Targeted V8.1 review retains independent delivered heading-fit findings; supplemental benchmark-route omissions remain ordinary minor access friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000009",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-686932ABDF64",
+            "PATH-F42F817D5AC7"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-686932ABDF64"
+          ],
+          "summary": "Locator LOC-686932ABDF64 records complete-path heading-fit friction: The atomic range member contains no treatment of Austrian campaigns or coalitions."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-A0E6618A8F5C",
+      "node_id": "NODE-9226A713A42F",
+      "heading_path": [
+        "Babeuf, François-Noël (Gracchus)",
+        "legacy and influence"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-9226A713A42F",
+        "PATH-84B3439B64EA"
+      ],
+      "path_ids": [
+        "PATH-84B3439B64EA"
+      ],
+      "evidence_ids": [
+        "EVID-EF22612930BD"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000015",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-EF22612930BD",
+            "PATH-84B3439B64EA"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-EF22612930BD"
+          ],
+          "summary": "Locator LOC-EF22612930BD records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-6CE07403BE9A",
+      "node_id": "NODE-AA07C2329F65",
+      "heading_path": [
+        "Barras, Paul-François-Jean-Nicolas, vicomte de"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-AA07C2329F65",
+        "PATH-E60A5E43C706"
+      ],
+      "path_ids": [
+        "PATH-E60A5E43C706"
+      ],
+      "evidence_ids": [
+        "EVID-BB9E8E899721"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000016",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-BB9E8E899721",
+            "PATH-E60A5E43C706"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-BB9E8E899721"
+          ],
+          "summary": "Locator LOC-BB9E8E899721 records complete-path heading-fit friction: This range member has no destination-level treatment of the person heading."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-89D199BEC1FD",
+      "node_id": "NODE-C8F07E7B6321",
+      "heading_path": [
+        "Barère, Bertrand",
+        "Committee of Public Safety"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-C8F07E7B6321",
+        "PATH-95F6BD419CAF"
+      ],
+      "path_ids": [
+        "PATH-95F6BD419CAF"
+      ],
+      "evidence_ids": [
+        "EVID-927FCEF07ADE"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-2DAEF88DFB74",
+      "node_id": "NODE-BA698FDA689D",
+      "heading_path": [
+        "Basle, Treaties of"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-BA698FDA689D",
+        "PATH-E9A4D74125B6"
+      ],
+      "path_ids": [
+        "PATH-E9A4D74125B6"
+      ],
+      "evidence_ids": [
+        "EVID-5CBA66901852"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-B00C5F7B8218",
+      "node_id": "NODE-F9744135DD3D",
+      "heading_path": [
+        "Bordeaux",
+        "Revolutionary politics and Federalism"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-F9744135DD3D",
+        "PATH-32C6708ACB6B"
+      ],
+      "path_ids": [
+        "PATH-32C6708ACB6B"
+      ],
+      "evidence_ids": [
+        "EVID-12DD149C485E",
+        "EVID-D5FAF9BA45A6"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000028",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-12DD149C485E",
+            "PATH-32C6708ACB6B"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-12DD149C485E"
+          ],
+          "summary": "Locator LOC-12DD149C485E records complete-path heading-fit friction: The destination identifies Bordeaux deputies as advocates of war but supplies no treatment of Bordeaux federalism."
+        },
+        {
+          "finding_id": "HAF-000029",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-D5FAF9BA45A6",
+            "PATH-32C6708ACB6B"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-D5FAF9BA45A6"
+          ],
+          "summary": "Locator LOC-D5FAF9BA45A6 records complete-path heading-fit friction: The page discusses Bordeaux's commercial ties to slavery, not its revolutionary politics or Federalism."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-AC6C727EF4EB",
+      "node_id": "NODE-0C84CD1F1702",
+      "heading_path": [
+        "Brissot, Jacques-Pierre",
+        "conflict with Montagnards"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-0C84CD1F1702",
+        "PATH-DAAE62865B21"
+      ],
+      "path_ids": [
+        "PATH-DAAE62865B21"
+      ],
+      "evidence_ids": [
+        "EVID-E2AD8A9F5973"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-D777D8127799",
+      "node_id": "NODE-0C84CD1F1702",
+      "heading_path": [
+        "Brissot, Jacques-Pierre",
+        "conflict with Montagnards"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-0C84CD1F1702",
+        "PATH-DAAE62865B21"
+      ],
+      "path_ids": [
+        "PATH-DAAE62865B21"
+      ],
+      "evidence_ids": [
+        "EVID-DB9E2CAC8156"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000030",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-DB9E2CAC8156",
+            "PATH-DAAE62865B21"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-DB9E2CAC8156"
+          ],
+          "summary": "Locator LOC-DB9E2CAC8156 records complete-path heading-fit friction: Document page 193 lists Brissot and future opponents among Convention deputies but does not treat Brissot's conflict with the Montagnards."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-777CE450B756",
+      "node_id": "NODE-79099A8F36B4",
+      "heading_path": [
+        "Brittany",
+        "rural and anti-seigneurial violence"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-79099A8F36B4",
+        "PATH-BC4026C6499C"
+      ],
+      "path_ids": [
+        "PATH-BC4026C6499C"
+      ],
+      "evidence_ids": [
+        "EVID-A1BFB5EBD49A"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-64E97383D592",
+      "node_id": "NODE-412F2E877464",
+      "heading_path": [
+        "Broglie, Victor-François, duc de"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-412F2E877464",
+        "PATH-EF4E7FDEB578"
+      ],
+      "path_ids": [
+        "PATH-EF4E7FDEB578"
+      ],
+      "evidence_ids": [
+        "EVID-8CF1012EB6E0"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000033",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-8CF1012EB6E0",
+            "PATH-EF4E7FDEB578"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-8CF1012EB6E0"
+          ],
+          "summary": "Locator LOC-8CF1012EB6E0 records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-B3F9A1B9D558",
+      "node_id": "NODE-34C801592065",
+      "heading_path": [
+        "Brumaire, Coup of"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-34C801592065",
+        "PATH-9D7E555371C1"
+      ],
+      "path_ids": [
+        "PATH-9D7E555371C1"
+      ],
+      "evidence_ids": [
+        "EVID-F151A8A07EC5"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000034",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-F151A8A07EC5",
+            "PATH-9D7E555371C1"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-F151A8A07EC5"
+          ],
+          "summary": "Locator LOC-F151A8A07EC5 records complete-path heading-fit friction: The destination is unrelated to the complete heading path."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-2995186CB1BD",
+      "node_id": "NODE-891DE44FDFA9",
+      "heading_path": [
+        "Buzot, François"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-891DE44FDFA9",
+        "PATH-1B7472BD2C10"
+      ],
+      "path_ids": [
+        "PATH-1B7472BD2C10"
+      ],
+      "evidence_ids": [
+        "EVID-2E3FDD78122B"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-79ECAC372D5F",
+      "node_id": "NODE-4C3B95D1E74E",
+      "heading_path": [
+        "Calonne, Charles-Alexandre de"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-4C3B95D1E74E",
+        "PATH-C6D3C15539C3"
+      ],
+      "path_ids": [
+        "PATH-C6D3C15539C3"
+      ],
+      "evidence_ids": [
+        "EVID-1A997CF5E177"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000035",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-1A997CF5E177",
+            "PATH-C6D3C15539C3"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-1A997CF5E177"
+          ],
+          "summary": "Locator LOC-1A997CF5E177 records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-7B4F23CEEC59",
+      "node_id": "NODE-7F9266FCE843",
+      "heading_path": [
+        "Calvados"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-7F9266FCE843",
+        "PATH-421DB806F9D5"
+      ],
+      "path_ids": [
+        "PATH-421DB806F9D5"
+      ],
+      "evidence_ids": [
+        "EVID-FA17D1D4DF98"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-C0CC70457BC2",
+      "node_id": "NODE-D7B728DBD73A",
+      "heading_path": [
+        "Catholic Army of the Midi"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-D7B728DBD73A",
+        "PATH-985B5AC9222B"
+      ],
+      "path_ids": [
+        "PATH-985B5AC9222B"
+      ],
+      "evidence_ids": [
+        "EVID-E0BD7BEF10E7"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-A95649D55C6A",
+      "node_id": "NODE-2DBFA85AFC61",
+      "heading_path": [
+        "Couthon, Georges"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-2DBFA85AFC61",
+        "PATH-EF532D84D2D4"
+      ],
+      "path_ids": [
+        "PATH-EF532D84D2D4"
+      ],
+      "evidence_ids": [
+        "EVID-BF8D54853D9A"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-1E2BEE9995BC",
+      "node_id": "NODE-DBBC94F68538",
+      "heading_path": [
+        "Danton, Georges-Jacques",
+        "Montagnard leadership and Girondin conflict"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-DBBC94F68538",
+        "PATH-386F35138EBA"
+      ],
+      "path_ids": [
+        "PATH-386F35138EBA"
+      ],
+      "evidence_ids": [
+        "EVID-C8DA644B2AC8"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-6E3D775F5DDF",
+      "node_id": "NODE-49C16D680C80",
+      "heading_path": [
+        "Danton, Georges-Jacques",
+        "campaign for 'Indulgence' and opposition to Terror"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-49C16D680C80",
+        "PATH-E590CE5FFCD3"
+      ],
+      "path_ids": [
+        "PATH-E590CE5FFCD3"
+      ],
+      "evidence_ids": [
+        "EVID-05E86A83B010"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000063",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-05E86A83B010",
+            "PATH-E590CE5FFCD3"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-05E86A83B010"
+          ],
+          "summary": "Locator LOC-05E86A83B010 records complete-path heading-fit friction: The person is present in a different context, so the complete path materially mismatches the destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-D88C65DBC864",
+      "node_id": "NODE-5CCD8465C0AA",
+      "heading_path": [
+        "Danton, Georges-Jacques",
+        "foreign policy and war involvement"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-5CCD8465C0AA",
+        "PATH-475DDD4EAFF6"
+      ],
+      "path_ids": [
+        "PATH-475DDD4EAFF6"
+      ],
+      "evidence_ids": [
+        "EVID-C3F940854FC0"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-DEC5F576EDD7",
+      "node_id": "NODE-8569733C23CA",
+      "heading_path": [
+        "Dauphiné",
+        "Estates of (restoration and model)"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-8569733C23CA",
+        "PATH-E5911A39D125"
+      ],
+      "path_ids": [
+        "PATH-E5911A39D125"
+      ],
+      "evidence_ids": [
+        "EVID-875CF34E5250"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-E34CC06037A9",
+      "node_id": "NODE-8569733C23CA",
+      "heading_path": [
+        "Dauphiné",
+        "Estates of (restoration and model)"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-8569733C23CA",
+        "PATH-E5911A39D125"
+      ],
+      "path_ids": [
+        "PATH-E5911A39D125"
+      ],
+      "evidence_ids": [
+        "EVID-875CF34E5250"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000066",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-875CF34E5250",
+            "PATH-E5911A39D125"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-875CF34E5250"
+          ],
+          "summary": "Locator LOC-875CF34E5250 records complete-path heading-fit friction: A geographic attribution to three deputies does not fit the complete subdivision concerning the restored Estates of Dauphine and their model."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-D8D13DD1649C",
+      "node_id": "NODE-0F25329EB310",
+      "heading_path": [
+        "Ducos, Roger"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-0F25329EB310",
+        "PATH-6F49AC02609E"
+      ],
+      "path_ids": [
+        "PATH-6F49AC02609E"
+      ],
+      "evidence_ids": [
+        "EVID-A3CEE755D1E3"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000068",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-A3CEE755D1E3",
+            "PATH-6F49AC02609E"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-A3CEE755D1E3"
+          ],
+          "summary": "Locator LOC-A3CEE755D1E3 records complete-path heading-fit friction: The complete heading path has no fit because its full subject is not treated at the assigned atomic destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-807511856495",
+      "node_id": "NODE-8CE56F506B57",
+      "heading_path": [
+        "Dumouriez, Charles-François",
+        "military campaigns and occupations"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-8CE56F506B57",
+        "PATH-596F056A7A5E"
+      ],
+      "path_ids": [
+        "PATH-596F056A7A5E"
+      ],
+      "evidence_ids": [
+        "EVID-3C41CD5600FB"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-425AFA5BE80F",
+      "node_id": "NODE-A6C4100739F7",
+      "heading_path": [
+        "Duport, Adrien"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-A6C4100739F7",
+        "PATH-7F3CB8596CBA"
+      ],
+      "path_ids": [
+        "PATH-7F3CB8596CBA"
+      ],
+      "evidence_ids": [
+        "EVID-0F7868E5D012"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000071",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-0F7868E5D012",
+            "PATH-7F3CB8596CBA"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-0F7868E5D012"
+          ],
+          "summary": "Locator LOC-0F7868E5D012 records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-2739BC268E61",
+      "node_id": "NODE-6C4740FD739F",
+      "heading_path": [
+        "Ecclesiastical committee"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-6C4740FD739F",
+        "PATH-2BC6D56BE131"
+      ],
+      "path_ids": [
+        "PATH-2BC6D56BE131"
+      ],
+      "evidence_ids": [
+        "EVID-1E11CBEC74FA"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000074",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-1E11CBEC74FA",
+            "PATH-2BC6D56BE131"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-1E11CBEC74FA"
+          ],
+          "summary": "Locator LOC-1E11CBEC74FA records complete-path heading-fit friction: The heading identifies an institution that is not treated at the destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-A36FC7B4C72E",
+      "node_id": "NODE-21C556B36F4B",
+      "heading_path": [
+        "Electoral system (1789)"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-21C556B36F4B",
+        "PATH-D246C55F37ED"
+      ],
+      "path_ids": [
+        "PATH-D246C55F37ED"
+      ],
+      "evidence_ids": [
+        "EVID-03EA68042870"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-238960914928",
+      "node_id": "NODE-5FF7DC49BABF",
+      "heading_path": [
+        "Estates-General",
+        "composition and forms (1614 vs. doubling)"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-5FF7DC49BABF",
+        "PATH-B4FC9510BA4E"
+      ],
+      "path_ids": [
+        "PATH-B4FC9510BA4E"
+      ],
+      "evidence_ids": [
+        "EVID-60938A8ABE5C"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-B0B884956656",
+      "node_id": "NODE-5FF7DC49BABF",
+      "heading_path": [
+        "Estates-General",
+        "composition and forms (1614 vs. doubling)"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-5FF7DC49BABF",
+        "PATH-B4FC9510BA4E"
+      ],
+      "path_ids": [
+        "PATH-B4FC9510BA4E"
+      ],
+      "evidence_ids": [
+        "EVID-60938A8ABE5C"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000076",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-60938A8ABE5C",
+            "PATH-B4FC9510BA4E"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-60938A8ABE5C"
+          ],
+          "summary": "Locator LOC-60938A8ABE5C records complete-path heading-fit friction: The destination mentions the parent subject but does not treat the composition-and-forms subdivision, so the complete path materially overstates the evidence."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-BF398F35AAFD",
+      "node_id": "NODE-4504FC48F03A",
+      "heading_path": [
+        "Federalist Revolt",
+        "nature and origins"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-4504FC48F03A",
+        "PATH-50D680F33CB3"
+      ],
+      "path_ids": [
+        "PATH-50D680F33CB3"
+      ],
+      "evidence_ids": [
+        "EVID-2B02458E664C"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000080",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-2B02458E664C",
+            "PATH-50D680F33CB3"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-2B02458E664C"
+          ],
+          "summary": "Locator LOC-2B02458E664C records complete-path heading-fit friction: The complete analytical subheading is not treated at the destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-0DCAF53C1617",
+      "node_id": "NODE-970265C38970",
+      "heading_path": [
+        "Financiers"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-970265C38970",
+        "PATH-DEFCCDB1C347"
+      ],
+      "path_ids": [
+        "PATH-DEFCCDB1C347"
+      ],
+      "evidence_ids": [
+        "EVID-87CE20A497D0"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000081",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-87CE20A497D0",
+            "PATH-DEFCCDB1C347"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-87CE20A497D0"
+          ],
+          "summary": "Locator LOC-87CE20A497D0 records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-3EBFAA29B259",
+      "node_id": "NODE-6904D123E800",
+      "heading_path": [
+        "Froment, François"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-6904D123E800",
+        "PATH-F2683060812E"
+      ],
+      "path_ids": [
+        "PATH-F2683060812E"
+      ],
+      "evidence_ids": [
+        "EVID-E239FA63B5A4"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-01A893A10442",
+      "node_id": "NODE-044346A07E0E",
+      "heading_path": [
+        "Fréron, Louis-Stanislas"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-044346A07E0E",
+        "PATH-47D15065A414"
+      ],
+      "path_ids": [
+        "PATH-47D15065A414"
+      ],
+      "evidence_ids": [
+        "EVID-BA825056DE87"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000088",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-BA825056DE87",
+            "PATH-47D15065A414"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-BA825056DE87"
+          ],
+          "summary": "Locator LOC-BA825056DE87 records complete-path heading-fit friction: The atomic page assignment has no treatment of the person heading."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-B89F4D36EE13",
+      "node_id": "NODE-DF34CB4DE6EC",
+      "heading_path": [
+        "Fréteau, Emmanuel"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-DF34CB4DE6EC",
+        "PATH-FCF93B328692"
+      ],
+      "path_ids": [
+        "PATH-FCF93B328692"
+      ],
+      "evidence_ids": [
+        "EVID-91E560CF75DB"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000089",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-91E560CF75DB",
+            "PATH-FCF93B328692"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-91E560CF75DB"
+          ],
+          "summary": "Locator LOC-91E560CF75DB records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-6B7E17E2BB08",
+      "node_id": "NODE-16FCBF5C3759",
+      "heading_path": [
+        "Gard"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-16FCBF5C3759",
+        "PATH-42EB676464CD"
+      ],
+      "path_ids": [
+        "PATH-42EB676464CD"
+      ],
+      "evidence_ids": [
+        "EVID-4DEAFD068BC3"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-64B25E08BF60",
+      "node_id": "NODE-808373B3D57C",
+      "heading_path": [
+        "Goethe, Johann Wolfgang von"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-808373B3D57C",
+        "PATH-8435A9115DFE"
+      ],
+      "path_ids": [
+        "PATH-8435A9115DFE"
+      ],
+      "evidence_ids": [
+        "EVID-5F97ABFC52F4"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-1E99DC6EB5D3",
+      "node_id": "NODE-AB58E8864A81",
+      "heading_path": [
+        "Granville, Siege of"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-AB58E8864A81",
+        "PATH-3C3B5C08BA55"
+      ],
+      "path_ids": [
+        "PATH-3C3B5C08BA55"
+      ],
+      "evidence_ids": [
+        "EVID-5A363918778A"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-23317926BA94",
+      "node_id": "NODE-C95B72F1F3BA",
+      "heading_path": [
+        "Great Britain",
+        "Ireland and internal subversion"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-C95B72F1F3BA",
+        "PATH-7F72321CFD7B"
+      ],
+      "path_ids": [
+        "PATH-7F72321CFD7B"
+      ],
+      "evidence_ids": [
+        "EVID-11F2B63600D4"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-BA42EA5355C4",
+      "node_id": "NODE-6080EBEA9C5C",
+      "heading_path": [
+        "Great Britain",
+        "counter-revolution, support for"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-6080EBEA9C5C",
+        "PATH-FC6E8B3A3D02"
+      ],
+      "path_ids": [
+        "PATH-FC6E8B3A3D02"
+      ],
+      "evidence_ids": [
+        "EVID-CDA9BE9F9ED2"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-465385EE869E",
+      "node_id": "NODE-F5813F8F00B8",
+      "heading_path": [
+        "Great Britain",
+        "peace negotiations and treaties"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-F5813F8F00B8",
+        "PATH-FB0FEC68E357"
+      ],
+      "path_ids": [
+        "PATH-FB0FEC68E357"
+      ],
+      "evidence_ids": [
+        "EVID-383B41EF0CC5"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-093359612A37",
+      "node_id": "NODE-DCBF99388E92",
+      "heading_path": [
+        "Great Britain",
+        "radicalism and reform movement in"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-DCBF99388E92",
+        "PATH-8FC423BFC5CA"
+      ],
+      "path_ids": [
+        "PATH-8FC423BFC5CA"
+      ],
+      "evidence_ids": [
+        "EVID-6F7EC1C38F96"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-FEC992C835A3",
+      "node_id": "NODE-DCBF99388E92",
+      "heading_path": [
+        "Great Britain",
+        "radicalism and reform movement in"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-DCBF99388E92",
+        "PATH-8FC423BFC5CA"
+      ],
+      "path_ids": [
+        "PATH-8FC423BFC5CA"
+      ],
+      "evidence_ids": [
+        "EVID-6F7EC1C38F96"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000102",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-6F7EC1C38F96",
+            "PATH-8FC423BFC5CA"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-6F7EC1C38F96"
+          ],
+          "summary": "Locator LOC-6F7EC1C38F96 records complete-path heading-fit friction: The country-and-reform path is not treated by diplomatic observations about politics inside France."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-1D2EA0392E2B",
+      "node_id": "NODE-4E69A52F97F6",
+      "heading_path": [
+        "Intendants",
+        "reform and abolition"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-4E69A52F97F6",
+        "PATH-552FFC480AAB"
+      ],
+      "path_ids": [
+        "PATH-552FFC480AAB"
+      ],
+      "evidence_ids": [
+        "EVID-57C878911022"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000105",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-57C878911022",
+            "PATH-552FFC480AAB"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-57C878911022"
+          ],
+          "summary": "Locator LOC-57C878911022 records complete-path heading-fit friction: The office-holder mention does not fit the complete reform-and-abolition subdivision."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-9A514CCD5D28",
+      "node_id": "NODE-0758582F5EE9",
+      "heading_path": [
+        "Italy",
+        "occupation and sister republics"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-0758582F5EE9",
+        "PATH-667695511060"
+      ],
+      "path_ids": [
+        "PATH-667695511060"
+      ],
+      "evidence_ids": [
+        "EVID-D7BC7997ECAF"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000107",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-D7BC7997ECAF",
+            "PATH-667695511060"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-D7BC7997ECAF"
+          ],
+          "summary": "Locator LOC-D7BC7997ECAF records complete-path heading-fit friction: The destination lacks both defining components of the complete path."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-31747C792792",
+      "node_id": "NODE-AA87CC38163B",
+      "heading_path": [
+        "Jacobins (Jacobin Club)",
+        "role in war and government by terror"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-AA87CC38163B",
+        "PATH-DAF35033C507"
+      ],
+      "path_ids": [
+        "PATH-DAF35033C507"
+      ],
+      "evidence_ids": [
+        "EVID-2A2DA4655DB3"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-8DE710EE397C",
+      "node_id": "NODE-AA87CC38163B",
+      "heading_path": [
+        "Jacobins (Jacobin Club)",
+        "role in war and government by terror"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-AA87CC38163B",
+        "PATH-DAF35033C507"
+      ],
+      "path_ids": [
+        "PATH-DAF35033C507"
+      ],
+      "evidence_ids": [
+        "EVID-3B4ABA2F7E51",
+        "EVID-2072C42CC1E3",
+        "EVID-81E855A49ABA",
+        "EVID-2CEB131BAB85",
+        "EVID-A114E6BA0C42"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000114",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-3B4ABA2F7E51",
+            "PATH-DAF35033C507"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "minor",
+          "evidence_ids": [
+            "EVID-3B4ABA2F7E51"
+          ],
+          "summary": "Locator LOC-3B4ABA2F7E51 records complete-path heading-fit friction: The page treats Jacobin debate and symbolism in the drive to war, but not the later government-by-terror component of the combined subdivision."
+        },
+        {
+          "finding_id": "HAF-000115",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-2072C42CC1E3",
+            "PATH-DAF35033C507"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-2072C42CC1E3"
+          ],
+          "summary": "Locator LOC-2072C42CC1E3 records complete-path heading-fit friction: A moderate Jacobin is quoted describing wartime panic, but the page does not treat the Club's role in war or government by terror."
+        },
+        {
+          "finding_id": "HAF-000116",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-81E855A49ABA",
+            "PATH-DAF35033C507"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "minor",
+          "evidence_ids": [
+            "EVID-81E855A49ABA"
+          ],
+          "summary": "Locator LOC-81E855A49ABA records complete-path heading-fit friction: The page treats Lafayette's attack on the Jacobins during the wartime ministerial crisis, but not their later government-by-terror role."
+        },
+        {
+          "finding_id": "HAF-000117",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-2CEB131BAB85",
+            "PATH-DAF35033C507"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "minor",
+          "evidence_ids": [
+            "EVID-2CEB131BAB85"
+          ],
+          "summary": "Locator LOC-2CEB131BAB85 records complete-path heading-fit friction: The page treats Jacobin work with the fédérés during the war crisis, but not the government-by-terror component of the combined subdivision."
+        },
+        {
+          "finding_id": "HAF-000118",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-A114E6BA0C42",
+            "PATH-DAF35033C507"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "minor",
+          "evidence_ids": [
+            "EVID-A114E6BA0C42"
+          ],
+          "summary": "Locator LOC-A114E6BA0C42 records complete-path heading-fit friction: The page treats Jacobin support for insurrection during the war crisis, but not government by terror."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-2405ECAA5BA2",
+      "node_id": "NODE-00C3A3662F38",
+      "heading_path": [
+        "Jacobins (Jacobin Club)",
+        "suppression and reactionary periods"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-00C3A3662F38",
+        "PATH-FF4DB30C8548"
+      ],
+      "path_ids": [
+        "PATH-FF4DB30C8548"
+      ],
+      "evidence_ids": [
+        "EVID-1C4A9F35DAF1",
+        "EVID-07CC1F2449AE"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000119",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-1C4A9F35DAF1",
+            "PATH-FF4DB30C8548"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-1C4A9F35DAF1"
+          ],
+          "summary": "Locator LOC-1C4A9F35DAF1 records complete-path heading-fit friction: The page does not treat Jacobin suppression or a reactionary period; the only nearby Jacobin reference begins on the following page and concerns émigré hostility."
+        },
+        {
+          "finding_id": "HAF-000120",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-07CC1F2449AE",
+            "PATH-FF4DB30C8548"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-07CC1F2449AE"
+          ],
+          "summary": "Locator LOC-07CC1F2449AE records complete-path heading-fit friction: The page says émigrés hated Jacobins and demagogues, but does not treat suppression of the Club or a reactionary period."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-1BCDC663DB1E",
+      "node_id": "NODE-90A7A7931E92",
+      "heading_path": [
+        "Journée of 31 May 1793"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-90A7A7931E92",
+        "PATH-134882F6C9E2"
+      ],
+      "path_ids": [
+        "PATH-134882F6C9E2"
+      ],
+      "evidence_ids": [
+        "EVID-7F97340E1950"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-F3D917B0DB00",
+      "node_id": "NODE-77D7EAE91DEA",
+      "heading_path": [
+        "La Revellière-Lépeaux, Louis-Marie de"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-77D7EAE91DEA",
+        "PATH-EFBDB3021EDC"
+      ],
+      "path_ids": [
+        "PATH-EFBDB3021EDC"
+      ],
+      "evidence_ids": [
+        "EVID-9F21A6CDB914"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000123",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-9F21A6CDB914",
+            "PATH-EFBDB3021EDC"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-9F21A6CDB914"
+          ],
+          "summary": "Locator LOC-9F21A6CDB914 records complete-path heading-fit friction: The complete heading path has no fit because its full subject is not treated at the assigned atomic destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-CD61F074E2E5",
+      "node_id": "NODE-FBE3DE6C94B0",
+      "heading_path": [
+        "Languedoc"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-FBE3DE6C94B0",
+        "PATH-826396E5DE0A"
+      ],
+      "path_ids": [
+        "PATH-826396E5DE0A"
+      ],
+      "evidence_ids": [
+        "EVID-39C165B3C593"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000124",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-39C165B3C593",
+            "PATH-826396E5DE0A"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-39C165B3C593"
+          ],
+          "summary": "Locator LOC-39C165B3C593 records complete-path heading-fit friction: The complete path has no destination-level treatment on this atomic page assignment."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-0369AC0FEDDD",
+      "node_id": "NODE-8B89C8921F7E",
+      "heading_path": [
+        "Lanjuinais, Jean-Denis"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-8B89C8921F7E",
+        "PATH-F91F3BA985CE"
+      ],
+      "path_ids": [
+        "PATH-F91F3BA985CE"
+      ],
+      "evidence_ids": [
+        "EVID-4BFB6F7D505F"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-146F0853F532",
+      "node_id": "NODE-76E13D7452D6",
+      "heading_path": [
+        "Legislative Assembly",
+        "composition and character"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-76E13D7452D6",
+        "PATH-B236F65DD439"
+      ],
+      "path_ids": [
+        "PATH-B236F65DD439"
+      ],
+      "evidence_ids": [
+        "EVID-5437607A05D5"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-0C1B2CC16DC6",
+      "node_id": "NODE-07E3BE1027F4",
+      "heading_path": [
+        "Legislative Assembly",
+        "internal politics and factions"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-07E3BE1027F4",
+        "PATH-18FF80B20A68"
+      ],
+      "path_ids": [
+        "PATH-18FF80B20A68"
+      ],
+      "evidence_ids": [
+        "EVID-897015B2D9C9"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-368E8801B986",
+      "node_id": "NODE-0BE7D6C7ED47",
+      "heading_path": [
+        "Liberty",
+        "definitions and rights"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-0BE7D6C7ED47",
+        "PATH-70F63BCE017E"
+      ],
+      "path_ids": [
+        "PATH-70F63BCE017E"
+      ],
+      "evidence_ids": [
+        "EVID-77BD8DF34603"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000127",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-77BD8DF34603",
+            "PATH-70F63BCE017E"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-77BD8DF34603"
+          ],
+          "summary": "Locator LOC-77BD8DF34603 records complete-path heading-fit friction: The page only reports defence counsel's claim that the king had given liberty; it does not define liberty or treat associated rights."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-90ED8422AED9",
+      "node_id": "NODE-56E7E443052A",
+      "heading_path": [
+        "Louis XVI",
+        "and Church reform"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-56E7E443052A",
+        "PATH-0988DD013D75"
+      ],
+      "path_ids": [
+        "PATH-0988DD013D75"
+      ],
+      "evidence_ids": [
+        "EVID-4A8894D6401D"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000130",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-4A8894D6401D",
+            "PATH-0988DD013D75"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-4A8894D6401D"
+          ],
+          "summary": "Locator LOC-4A8894D6401D records complete-path heading-fit friction: The parent-child relationship asserted by the complete path is not present."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-33039C078E66",
+      "node_id": "NODE-32DA30F07618",
+      "heading_path": [
+        "Louis XVI",
+        "economic and financial crisis"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-32DA30F07618",
+        "PATH-5240DB247D9E"
+      ],
+      "path_ids": [
+        "PATH-5240DB247D9E"
+      ],
+      "evidence_ids": [
+        "EVID-C532099DF13D"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000133",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-C532099DF13D",
+            "PATH-5240DB247D9E"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-C532099DF13D"
+          ],
+          "summary": "Locator LOC-C532099DF13D records complete-path heading-fit friction: The complete heading path has no fit because its full subject is not treated at the assigned atomic destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-CAD73FFBDCF8",
+      "node_id": "NODE-8A4BC7DFEF76",
+      "heading_path": [
+        "Louis XVI",
+        "relocation to Paris (October Days)"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-8A4BC7DFEF76",
+        "PATH-810DD7F62E39"
+      ],
+      "path_ids": [
+        "PATH-810DD7F62E39"
+      ],
+      "evidence_ids": [
+        "EVID-DFB9F1637047"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-72314667AC00",
+      "node_id": "NODE-9EB6E3DB1F31",
+      "heading_path": [
+        "Louis XVI",
+        "trial and execution"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-9EB6E3DB1F31",
+        "PATH-7B01388C6D7E"
+      ],
+      "path_ids": [
+        "PATH-7B01388C6D7E"
+      ],
+      "evidence_ids": [
+        "EVID-0CE9DB481B09"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-B21C6E8C738A",
+      "node_id": "NODE-F75D1E458901",
+      "heading_path": [
+        "Marengo, Battle of"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-F75D1E458901",
+        "PATH-0B60B65248D8"
+      ],
+      "path_ids": [
+        "PATH-0B60B65248D8"
+      ],
+      "evidence_ids": [
+        "EVID-F404EA568752"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000138",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-F404EA568752",
+            "PATH-0B60B65248D8"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-F404EA568752"
+          ],
+          "summary": "Locator LOC-F404EA568752 records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-8B8D469A2905",
+      "node_id": "NODE-E76C675AEA8D",
+      "heading_path": [
+        "Milan"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-E76C675AEA8D",
+        "PATH-42775D903A8F"
+      ],
+      "path_ids": [
+        "PATH-42775D903A8F"
+      ],
+      "evidence_ids": [
+        "EVID-9E78912F47A5"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000140",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-9E78912F47A5",
+            "PATH-42775D903A8F"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-9E78912F47A5"
+          ],
+          "summary": "Locator LOC-9E78912F47A5 records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-F3E488C7BE0D",
+      "node_id": "NODE-0310D47B1DA2",
+      "heading_path": [
+        "Montagnards (The Mountain)",
+        "governance and exercise of power (1793-94)"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-0310D47B1DA2",
+        "PATH-8F1303473B9A"
+      ],
+      "path_ids": [
+        "PATH-8F1303473B9A"
+      ],
+      "evidence_ids": [
+        "EVID-9C6A9BE30E36",
+        "EVID-9DADA4F927B5"
+      ],
+      "summary": "2 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-8DF11F582249",
+      "node_id": "NODE-B4D777846BBC",
+      "heading_path": [
+        "Montagnards (The Mountain)",
+        "opposition to and revolts against"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-B4D777846BBC",
+        "PATH-06ABD72A02FC"
+      ],
+      "path_ids": [
+        "PATH-06ABD72A02FC"
+      ],
+      "evidence_ids": [
+        "EVID-E45C0D0F296C"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-6B2B62A8A28B",
+      "node_id": "NODE-53045FE36F90",
+      "heading_path": [
+        "Moulin, Jean-François Auguste"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-53045FE36F90",
+        "PATH-06E01D24A436"
+      ],
+      "path_ids": [
+        "PATH-06E01D24A436"
+      ],
+      "evidence_ids": [
+        "EVID-213BD0B90BEC"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000142",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-213BD0B90BEC",
+            "PATH-06E01D24A436"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-213BD0B90BEC"
+          ],
+          "summary": "Locator LOC-213BD0B90BEC records complete-path heading-fit friction: The complete heading path has no fit because its full subject is not treated at the assigned atomic destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-477D96A4E3D0",
+      "node_id": "NODE-8E5325B15841",
+      "heading_path": [
+        "National Assembly",
+        "historical perspective and evaluation"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-8E5325B15841",
+        "PATH-7E196168EBD7"
+      ],
+      "path_ids": [
+        "PATH-7E196168EBD7"
+      ],
+      "evidence_ids": [
+        "EVID-CA39508FF9C5"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000146",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-CA39508FF9C5",
+            "PATH-7E196168EBD7"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-CA39508FF9C5"
+          ],
+          "summary": "Locator LOC-CA39508FF9C5 records complete-path heading-fit friction: A bare institutional mention does not fit the evaluative subdivision."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-6F0311ACC9AC",
+      "node_id": "NODE-D664B8429A48",
+      "heading_path": [
+        "National Convention",
+        "Federalist revolts and 1793 purges"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-D664B8429A48",
+        "PATH-C7F26EA24A3A"
+      ],
+      "path_ids": [
+        "PATH-C7F26EA24A3A"
+      ],
+      "evidence_ids": [
+        "EVID-777707749AD4"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-1DDF03E3AAF0",
+      "node_id": "NODE-26CC364A9A39",
+      "heading_path": [
+        "National Convention",
+        "Revolutionary Government and Terror"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-26CC364A9A39",
+        "PATH-1876B66467DD"
+      ],
+      "path_ids": [
+        "PATH-1876B66467DD"
+      ],
+      "evidence_ids": [
+        "EVID-DAB3C9BCBDC6"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-E724DB63AFC6",
+      "node_id": "NODE-6A48572061A8",
+      "heading_path": [
+        "National Convention",
+        "Thermidorian Reaction and dissolution"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "fails",
+      "required_defect_severity": "critical",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-6A48572061A8",
+        "PATH-139D5C8E19F4"
+      ],
+      "path_ids": [
+        "PATH-139D5C8E19F4"
+      ],
+      "evidence_ids": [
+        "EVID-306ECD1B5D0B"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-EC65C13760E7",
+      "node_id": "NODE-6A48572061A8",
+      "heading_path": [
+        "National Convention",
+        "Thermidorian Reaction and dissolution"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-6A48572061A8",
+        "PATH-139D5C8E19F4"
+      ],
+      "path_ids": [
+        "PATH-139D5C8E19F4"
+      ],
+      "evidence_ids": [
+        "EVID-68F56DF9DB25",
+        "EVID-188B9452417E",
+        "EVID-6B10AF567D10",
+        "EVID-018B650DFE8C",
+        "EVID-0BE673EB4378",
+        "EVID-13F506EEB319",
+        "EVID-2022268CE6E8",
+        "EVID-7928D2139804",
+        "EVID-8D8AE92DC791",
+        "EVID-C600AC4A2F35",
+        "EVID-E498CB724D2D"
+      ],
+      "summary": "Targeted V8.1 review retains independent delivered heading-fit findings; supplemental benchmark-route omissions remain ordinary minor access friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000148",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-68F56DF9DB25",
+            "PATH-139D5C8E19F4"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-68F56DF9DB25"
+          ],
+          "summary": "Locator LOC-68F56DF9DB25 records complete-path heading-fit friction: The apparent word overlap belongs to a different institution and event."
+        },
+        {
+          "finding_id": "HAF-000149",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-188B9452417E",
+            "PATH-139D5C8E19F4"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-188B9452417E"
+          ],
+          "summary": "Locator LOC-188B9452417E records complete-path heading-fit friction: The page concerns western and Federalist resistance in 1793, not the Thermidorian Reaction or dissolution of the Convention."
+        },
+        {
+          "finding_id": "HAF-000150",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-6B10AF567D10",
+            "PATH-139D5C8E19F4"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-6B10AF567D10"
+          ],
+          "summary": "Locator LOC-6B10AF567D10 records complete-path heading-fit friction: The Convention appears only as the authority feared by Toulon; the destination does not treat Thermidorian reaction or dissolution."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-F26A3C9324A2",
+      "node_id": "NODE-3A44BFF656BC",
+      "heading_path": [
+        "Necker, Jacques",
+        "recalls and resignations"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-3A44BFF656BC",
+        "PATH-87404616D14A"
+      ],
+      "path_ids": [
+        "PATH-87404616D14A"
+      ],
+      "evidence_ids": [
+        "EVID-1B8D35F10EB9",
+        "EVID-F3177CFEA1B6",
+        "EVID-E4B790593AF8"
+      ],
+      "summary": "3 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-4D8E621C31FF",
+      "node_id": "NODE-3A44BFF656BC",
+      "heading_path": [
+        "Necker, Jacques",
+        "recalls and resignations"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-3A44BFF656BC",
+        "PATH-87404616D14A"
+      ],
+      "path_ids": [
+        "PATH-87404616D14A"
+      ],
+      "evidence_ids": [
+        "EVID-1B8D35F10EB9",
+        "EVID-F3177CFEA1B6",
+        "EVID-E4B790593AF8"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000158",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-1B8D35F10EB9",
+            "PATH-87404616D14A"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-1B8D35F10EB9"
+          ],
+          "summary": "Locator LOC-1B8D35F10EB9 records complete-path heading-fit friction: The subject is present, but the complete path assigns an initial appointment to the distinct recalls-and-resignations subdivision."
+        },
+        {
+          "finding_id": "HAF-000159",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-F3177CFEA1B6",
+            "PATH-87404616D14A"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-F3177CFEA1B6"
+          ],
+          "summary": "Locator LOC-F3177CFEA1B6 records complete-path heading-fit friction: The evidence concerns Necker but not the relationship asserted by the recalls-and-resignations subdivision."
+        },
+        {
+          "finding_id": "HAF-000160",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-E4B790593AF8",
+            "PATH-87404616D14A"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-E4B790593AF8"
+          ],
+          "summary": "Locator LOC-E4B790593AF8 records complete-path heading-fit friction: The passing reference does not fit the delivered recalls-and-resignations subdivision."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-612A776AE224",
+      "node_id": "NODE-6813B8417891",
+      "heading_path": [
+        "Neerwinden, Battle of"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-6813B8417891",
+        "PATH-2D11D0AEAF56"
+      ],
+      "path_ids": [
+        "PATH-2D11D0AEAF56"
+      ],
+      "evidence_ids": [
+        "EVID-16080D05FC85"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-E57007D54169",
+      "node_id": "NODE-87B16CE17CD0",
+      "heading_path": [
+        "Nice"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-87B16CE17CD0",
+        "PATH-65F98D43DF7E"
+      ],
+      "path_ids": [
+        "PATH-65F98D43DF7E"
+      ],
+      "evidence_ids": [
+        "EVID-0CA9C3C37D44"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-FE6627BF5A58",
+      "node_id": "NODE-A7FFB3553185",
+      "heading_path": [
+        "Nonjurors (Belgian)"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-A7FFB3553185",
+        "PATH-8C271D1A5B81"
+      ],
+      "path_ids": [
+        "PATH-8C271D1A5B81"
+      ],
+      "evidence_ids": [
+        "EVID-1248259445A9"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-B46B64E4F52E",
+      "node_id": "NODE-3A84CE1BF28F",
+      "heading_path": [
+        "Orléans, Louis Philippe Joseph, Duke d'"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-3A84CE1BF28F",
+        "PATH-CE71675DC0C2"
+      ],
+      "path_ids": [
+        "PATH-CE71675DC0C2"
+      ],
+      "evidence_ids": [
+        "EVID-4FEE040FDBE1"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000162",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-4FEE040FDBE1",
+            "PATH-CE71675DC0C2"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-4FEE040FDBE1"
+          ],
+          "summary": "Locator LOC-4FEE040FDBE1 records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-CB20A42FC7F2",
+      "node_id": "NODE-6337B451B818",
+      "heading_path": [
+        "Paine, Thomas"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-6337B451B818",
+        "PATH-76F8324260F5"
+      ],
+      "path_ids": [
+        "PATH-76F8324260F5"
+      ],
+      "evidence_ids": [
+        "EVID-4A9EF4D274AE"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-1CF801357842",
+      "node_id": "NODE-369FFF1D0FEC",
+      "heading_path": [
+        "Paris",
+        "Paris Commune and the Mountain"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-369FFF1D0FEC",
+        "PATH-DD6CCD24593B"
+      ],
+      "path_ids": [
+        "PATH-DD6CCD24593B"
+      ],
+      "evidence_ids": [
+        "EVID-02D07BB4645B"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-2F0714BFD342",
+      "node_id": "NODE-14C9271BD977",
+      "heading_path": [
+        "Paris",
+        "Terror and reaction (1792-95)"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-14C9271BD977",
+        "PATH-34E901179349",
+        "PATH-37F92867531F",
+        "PATH-484874E7423E",
+        "PATH-802A8EE01774"
+      ],
+      "path_ids": [
+        "PATH-34E901179349",
+        "PATH-37F92867531F",
+        "PATH-484874E7423E",
+        "PATH-802A8EE01774"
+      ],
+      "evidence_ids": [
+        "EVID-F3D2E3EE4C76",
+        "EVID-A984D02CAFA8",
+        "EVID-AC78C23DB1C9"
+      ],
+      "summary": "3 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-D6C6AFF84E30",
+      "node_id": "NODE-14C9271BD977",
+      "heading_path": [
+        "Paris",
+        "Terror and reaction (1792-95)"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-14C9271BD977",
+        "PATH-34E901179349"
+      ],
+      "path_ids": [
+        "PATH-34E901179349"
+      ],
+      "evidence_ids": [
+        "EVID-C222A41EA4CE",
+        "EVID-DF574A4AA64F",
+        "EVID-018B650DFE8C",
+        "EVID-0BE673EB4378",
+        "EVID-13F506EEB319",
+        "EVID-2022268CE6E8",
+        "EVID-7928D2139804",
+        "EVID-8D8AE92DC791",
+        "EVID-C600AC4A2F35",
+        "EVID-E498CB724D2D"
+      ],
+      "summary": "Targeted V8.1 review retains independent delivered heading-fit findings; supplemental benchmark-route omissions remain ordinary minor access friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000165",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-C222A41EA4CE",
+            "PATH-34E901179349"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-C222A41EA4CE"
+          ],
+          "summary": "Locator LOC-C222A41EA4CE records complete-path heading-fit friction: The page concerns the early Legislative Assembly, émigré policy, and the royal veto, not the Paris Terror and reaction subdivision."
+        },
+        {
+          "finding_id": "HAF-000166",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-DF574A4AA64F",
+            "PATH-34E901179349"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-DF574A4AA64F"
+          ],
+          "summary": "Locator LOC-DF574A4AA64F records complete-path heading-fit friction: The destination treats the 20 June demonstration and its immediate political aftermath, not Parisian Terror and reaction."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-446DE38B6EAF",
+      "node_id": "NODE-7C50300E909D",
+      "heading_path": [
+        "Paris",
+        "bread prices and subsistence riots"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-7C50300E909D",
+        "PATH-542D81C64617"
+      ],
+      "path_ids": [
+        "PATH-542D81C64617"
+      ],
+      "evidence_ids": [
+        "EVID-AEA7D4F55BA2"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-613F6217F12E",
+      "node_id": "NODE-AB9A5C65E120",
+      "heading_path": [
+        "Parlements",
+        "Enlightenment and public opinion",
+        "advocacy for Estates-General"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-AB9A5C65E120",
+        "PATH-97B7448C5E8E"
+      ],
+      "path_ids": [
+        "PATH-97B7448C5E8E"
+      ],
+      "evidence_ids": [
+        "EVID-AA3F650BDFB3"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000171",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-AA3F650BDFB3",
+            "PATH-97B7448C5E8E"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-AA3F650BDFB3"
+          ],
+          "summary": "Locator LOC-AA3F650BDFB3 records complete-path heading-fit friction: Causal contribution is materially different from advocacy, so the relationship in the complete path is misleading."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-83B64BBE7EAD",
+      "node_id": "NODE-2CEF9C76C0D1",
+      "heading_path": [
+        "Parlements",
+        "overview and jurisdiction"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-2CEF9C76C0D1",
+        "PATH-958F36F77F4E"
+      ],
+      "path_ids": [
+        "PATH-958F36F77F4E"
+      ],
+      "evidence_ids": [
+        "EVID-C4A2800B0A24"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000173",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-C4A2800B0A24",
+            "PATH-958F36F77F4E"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-C4A2800B0A24"
+          ],
+          "summary": "Locator LOC-C4A2800B0A24 records complete-path heading-fit friction: The institutional subject is present, but the delivered subdivision materially misstates the treatment."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-B9AA6E1B80CA",
+      "node_id": "NODE-125A8BEFB809",
+      "heading_path": [
+        "Pichegru, Jean-Charles"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-125A8BEFB809",
+        "PATH-4E614F6D4750"
+      ],
+      "path_ids": [
+        "PATH-4E614F6D4750"
+      ],
+      "evidence_ids": [
+        "EVID-F4E39D4FD0F4"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-91311341D502",
+      "node_id": "NODE-81658B35C198",
+      "heading_path": [
+        "Pitt, William (the Younger)"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-81658B35C198",
+        "PATH-DB0CF5B4FB60"
+      ],
+      "path_ids": [
+        "PATH-DB0CF5B4FB60"
+      ],
+      "evidence_ids": [
+        "EVID-70217F4DA4EE"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-5C8D21F72131",
+      "node_id": "NODE-B71C30A7C556",
+      "heading_path": [
+        "Priestley, Joseph"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-B71C30A7C556",
+        "PATH-042E1AE6933C"
+      ],
+      "path_ids": [
+        "PATH-042E1AE6933C"
+      ],
+      "evidence_ids": [
+        "EVID-B648C3653B39"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-5C3DE785BA9E",
+      "node_id": "NODE-2D923995EDC0",
+      "heading_path": [
+        "Provence"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-2D923995EDC0",
+        "PATH-59F34776B0E9"
+      ],
+      "path_ids": [
+        "PATH-59F34776B0E9"
+      ],
+      "evidence_ids": [
+        "EVID-6A55ADAB8561"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-8BD437D28868",
+      "node_id": "NODE-DA729E85A829",
+      "heading_path": [
+        "Puisaye, Joseph, Comte de"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-DA729E85A829",
+        "PATH-24A8C199F0EA"
+      ],
+      "path_ids": [
+        "PATH-24A8C199F0EA"
+      ],
+      "evidence_ids": [
+        "EVID-93C783AEAA35",
+        "EVID-98A012BE1009"
+      ],
+      "summary": "2 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-EA8E030C3034",
+      "node_id": "NODE-FDA6F7ADEE0C",
+      "heading_path": [
+        "Reform",
+        "revolutionary (1789-1791)"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-FDA6F7ADEE0C",
+        "PATH-19BC2EF21831",
+        "PATH-2CDAB6250E6E",
+        "PATH-CD1254BD40C3",
+        "PATH-E16731ADEE61"
+      ],
+      "path_ids": [
+        "PATH-19BC2EF21831",
+        "PATH-2CDAB6250E6E",
+        "PATH-CD1254BD40C3",
+        "PATH-E16731ADEE61"
+      ],
+      "evidence_ids": [
+        "EVID-AE054BF6A318"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-07150054853C",
+      "node_id": "NODE-FDA6F7ADEE0C",
+      "heading_path": [
+        "Reform",
+        "revolutionary (1789-1791)"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-FDA6F7ADEE0C",
+        "PATH-E16731ADEE61"
+      ],
+      "path_ids": [
+        "PATH-E16731ADEE61"
+      ],
+      "evidence_ids": [
+        "EVID-AE054BF6A318"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000185",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-AE054BF6A318",
+            "PATH-E16731ADEE61"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-AE054BF6A318"
+          ],
+          "summary": "Locator LOC-AE054BF6A318 records complete-path heading-fit friction: The page says that the political crisis would eventually be resolved by revolution, but it does not treat revolutionary reform in 1789-1791; the chronological reform subdivision overstates this passing reference."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-538D95831179",
+      "node_id": "NODE-58B1C4C6C1B8",
+      "heading_path": [
+        "Representatives on mission"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-58B1C4C6C1B8",
+        "PATH-6424235D99BA"
+      ],
+      "path_ids": [
+        "PATH-6424235D99BA"
+      ],
+      "evidence_ids": [
+        "EVID-85EAB632BFF1"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-929BDA126D90",
+      "node_id": "NODE-6CEDA209B0E5",
+      "heading_path": [
+        "Revolutionary Government"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-6CEDA209B0E5",
+        "PATH-ED68FCC9B189"
+      ],
+      "path_ids": [
+        "PATH-ED68FCC9B189"
+      ],
+      "evidence_ids": [
+        "EVID-D00D2D48CDA2",
+        "EVID-D13E4F99E86F"
+      ],
+      "summary": "2 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-73CC739AE098",
+      "node_id": "NODE-A64F4E688852",
+      "heading_path": [
+        "Robespierre, Maximilien"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-A64F4E688852",
+        "PATH-00AD56D897B5",
+        "PATH-20A3330D7C6A",
+        "PATH-223F6ED75353",
+        "PATH-3C3BE8055B13",
+        "PATH-4660303F145C",
+        "PATH-4E8F0BF0C1D6",
+        "PATH-57D498248702",
+        "PATH-5C4AA21B25E7",
+        "PATH-95E1A492F3C6",
+        "PATH-9E4C6405ACB3",
+        "PATH-AA32B34D38AD",
+        "PATH-DDDF80D380F2",
+        "PATH-EF51AD8FE246",
+        "PATH-FECDAEB4AFDA"
+      ],
+      "path_ids": [
+        "PATH-00AD56D897B5",
+        "PATH-20A3330D7C6A",
+        "PATH-223F6ED75353",
+        "PATH-3C3BE8055B13",
+        "PATH-4660303F145C",
+        "PATH-4E8F0BF0C1D6",
+        "PATH-57D498248702",
+        "PATH-5C4AA21B25E7",
+        "PATH-95E1A492F3C6",
+        "PATH-9E4C6405ACB3",
+        "PATH-AA32B34D38AD",
+        "PATH-DDDF80D380F2",
+        "PATH-EF51AD8FE246",
+        "PATH-FECDAEB4AFDA"
+      ],
+      "evidence_ids": [
+        "EVID-2992A7890394"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-BC13C9FF76E5",
+      "node_id": "NODE-57B8565815B5",
+      "heading_path": [
+        "Robespierre, Maximilien",
+        "and the Jacobin Club"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-57B8565815B5",
+        "PATH-4E8F0BF0C1D6"
+      ],
+      "path_ids": [
+        "PATH-4E8F0BF0C1D6"
+      ],
+      "evidence_ids": [
+        "EVID-5B8502BE05AD"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-77B748E3C3C4",
+      "node_id": "NODE-8B76D2E69AC5",
+      "heading_path": [
+        "Robespierre, Maximilien",
+        "on war and the military"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-8B76D2E69AC5",
+        "PATH-FECDAEB4AFDA"
+      ],
+      "path_ids": [
+        "PATH-FECDAEB4AFDA"
+      ],
+      "evidence_ids": [
+        "EVID-21E392E360B0",
+        "EVID-F65F04255344"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000190",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-21E392E360B0",
+            "PATH-FECDAEB4AFDA"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-21E392E360B0"
+          ],
+          "summary": "Locator LOC-21E392E360B0 records complete-path heading-fit friction: Document page 180 reports Robespierre's objection to Dumouriez's theatrical liberty cap, not Robespierre's views on war or the military."
+        },
+        {
+          "finding_id": "HAF-000191",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-F65F04255344",
+            "PATH-FECDAEB4AFDA"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-F65F04255344"
+          ],
+          "summary": "Locator LOC-F65F04255344 records complete-path heading-fit friction: The page treats factional accusations over the September Massacres, not Robespierre's views on war or the military."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-3C462FC09280",
+      "node_id": "NODE-DE7CBB9EDD8F",
+      "heading_path": [
+        "Royalists",
+        "armed resistance and insurgency"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-DE7CBB9EDD8F",
+        "PATH-9E753ECAA4CA"
+      ],
+      "path_ids": [
+        "PATH-9E753ECAA4CA"
+      ],
+      "evidence_ids": [
+        "EVID-5832968360AD"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-919250AB8E14",
+      "node_id": "NODE-7309A231BE7D",
+      "heading_path": [
+        "Royalists",
+        "religious affiliation and policy"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-7309A231BE7D",
+        "PATH-C2F6AA3332FB"
+      ],
+      "path_ids": [
+        "PATH-C2F6AA3332FB"
+      ],
+      "evidence_ids": [
+        "EVID-BD03899C3B5C"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-C9A855136DDA",
+      "node_id": "NODE-8E58FA95FDAE",
+      "heading_path": [
+        "Stofflet, Jean-Nicolas"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-8E58FA95FDAE",
+        "PATH-1E26146B4093"
+      ],
+      "path_ids": [
+        "PATH-1E26146B4093"
+      ],
+      "evidence_ids": [
+        "EVID-68C27C2BA654"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-578E21734922",
+      "node_id": "NODE-BEF14DD85E0B",
+      "heading_path": [
+        "Terray, Joseph Marie"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-BEF14DD85E0B",
+        "PATH-CB361A3F090C"
+      ],
+      "path_ids": [
+        "PATH-CB361A3F090C"
+      ],
+      "evidence_ids": [
+        "EVID-0AECEBB0B4B2"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000197",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-0AECEBB0B4B2",
+            "PATH-CB361A3F090C"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-0AECEBB0B4B2"
+          ],
+          "summary": "Locator LOC-0AECEBB0B4B2 records complete-path heading-fit friction: This atomic page assignment does not fit the person heading."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-C8BD205CE544",
+      "node_id": "NODE-6A03003883E3",
+      "heading_path": [
+        "United Irishmen"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-6A03003883E3",
+        "PATH-702F7061CD03"
+      ],
+      "path_ids": [
+        "PATH-702F7061CD03"
+      ],
+      "evidence_ids": [
+        "EVID-F3FB8BE9CFC9"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-6CEA1794B278",
+      "node_id": "NODE-A7C0D48474B6",
+      "heading_path": [
+        "Versailles",
+        "Revolutionary events (1789)",
+        "October Days and royal departure"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-A7C0D48474B6",
+        "PATH-4A72B1752FDC"
+      ],
+      "path_ids": [
+        "PATH-4A72B1752FDC"
+      ],
+      "evidence_ids": [
+        "EVID-3AE248167E8A"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-0544B68D1FD2",
+      "node_id": "NODE-AE724DCA6BFD",
+      "heading_path": [
+        "West Indies, Caribbean theater of war"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-AE724DCA6BFD",
+        "PATH-5A5368DFFEAE"
+      ],
+      "path_ids": [
+        "PATH-5A5368DFFEAE"
+      ],
+      "evidence_ids": [
+        "EVID-4B10DB7908D3"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-EB8F29966A8A",
+      "node_id": "NODE-3008372BA946",
+      "heading_path": [
+        "bocage"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-3008372BA946",
+        "PATH-779BEFD900AB"
+      ],
+      "path_ids": [
+        "PATH-779BEFD900AB"
+      ],
+      "evidence_ids": [
+        "EVID-FFF913D6A79B"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-E9E8ED6D5C11",
+      "node_id": "NODE-A65775AD8296",
+      "heading_path": [
+        "charitable workshops"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-A65775AD8296",
+        "PATH-3039838F4039"
+      ],
+      "path_ids": [
+        "PATH-3039838F4039"
+      ],
+      "evidence_ids": [
+        "EVID-8A56748413C8"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000220",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-8A56748413C8",
+            "PATH-3039838F4039"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-8A56748413C8"
+          ],
+          "summary": "Locator LOC-8A56748413C8 records complete-path heading-fit friction: The complete path has no treatment on this atomic member of the displayed range."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-9A036FEB208C",
+      "node_id": "NODE-7926C623E609",
+      "heading_path": [
+        "customs barriers"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-7926C623E609",
+        "PATH-367CE72CA963"
+      ],
+      "path_ids": [
+        "PATH-367CE72CA963"
+      ],
+      "evidence_ids": [
+        "EVID-0C8E16CD9A9F"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000222",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-0C8E16CD9A9F",
+            "PATH-367CE72CA963"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-0C8E16CD9A9F"
+          ],
+          "summary": "Locator LOC-0C8E16CD9A9F records complete-path heading-fit friction: The destination does not fit the complete heading path."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-8B16BAAB8D39",
+      "node_id": "NODE-C606919A86F9",
+      "heading_path": [
+        "departments (départements)",
+        "annexed territories"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-C606919A86F9",
+        "PATH-9179863DA642"
+      ],
+      "path_ids": [
+        "PATH-9179863DA642"
+      ],
+      "evidence_ids": [
+        "EVID-BC57C00C8392"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-DC156C26D729",
+      "node_id": "NODE-C606919A86F9",
+      "heading_path": [
+        "departments (départements)",
+        "annexed territories"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-C606919A86F9",
+        "PATH-9179863DA642"
+      ],
+      "path_ids": [
+        "PATH-9179863DA642"
+      ],
+      "evidence_ids": [
+        "EVID-BC57C00C8392"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000223",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-BC57C00C8392",
+            "PATH-9179863DA642"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-BC57C00C8392"
+          ],
+          "summary": "Locator LOC-BC57C00C8392 records complete-path heading-fit friction: Neither the departmental status nor the annexed-territory scope asserted by the complete path is established."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-22A084BA19A9",
+      "node_id": "NODE-9E1330CB08D5",
+      "heading_path": [
+        "departments (départements)",
+        "church and religious affairs in"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-9E1330CB08D5",
+        "PATH-63BE04A82235"
+      ],
+      "path_ids": [
+        "PATH-63BE04A82235"
+      ],
+      "evidence_ids": [
+        "EVID-7F6070D7B0C4"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-714CA75879E7",
+      "node_id": "NODE-4CFDBE66634A",
+      "heading_path": [
+        "departments (départements)",
+        "military and conscription resistance"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-4CFDBE66634A",
+        "PATH-F6151BE628B4"
+      ],
+      "path_ids": [
+        "PATH-F6151BE628B4"
+      ],
+      "evidence_ids": [
+        "EVID-74E2C673581D"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-61BFE5D36FD4",
+      "node_id": "NODE-212EF7EBFF3B",
+      "heading_path": [
+        "desertion"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-212EF7EBFF3B",
+        "PATH-59F5E7ABBF3F"
+      ],
+      "path_ids": [
+        "PATH-59F5E7ABBF3F"
+      ],
+      "evidence_ids": [
+        "EVID-CF2AEE605855",
+        "EVID-B14B981A33AB",
+        "EVID-B81DE0D921EB"
+      ],
+      "summary": "Targeted V8.1 review retains independent delivered heading-fit findings; supplemental benchmark-route omissions remain ordinary minor access friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000225",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-CF2AEE605855",
+            "PATH-59F5E7ABBF3F"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-CF2AEE605855"
+          ],
+          "summary": "Locator LOC-CF2AEE605855 records complete-path heading-fit friction: The atomic page assignment has no treatment of the complete path."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-A49208F2F8D5",
+      "node_id": "NODE-CE4EC94D0F3E",
+      "heading_path": [
+        "despotism",
+        "Enlightened theories and parlements"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-CE4EC94D0F3E",
+        "PATH-FE15AD7C67F6"
+      ],
+      "path_ids": [
+        "PATH-FE15AD7C67F6"
+      ],
+      "evidence_ids": [
+        "EVID-18D069C3EBE5"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-4A9CB7820633",
+      "node_id": "NODE-CE4EC94D0F3E",
+      "heading_path": [
+        "despotism",
+        "Enlightened theories and parlements"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-CE4EC94D0F3E",
+        "PATH-FE15AD7C67F6"
+      ],
+      "path_ids": [
+        "PATH-FE15AD7C67F6"
+      ],
+      "evidence_ids": [
+        "EVID-18D069C3EBE5"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000227",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-18D069C3EBE5",
+            "PATH-FE15AD7C67F6"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-18D069C3EBE5"
+          ],
+          "summary": "Locator LOC-18D069C3EBE5 records complete-path heading-fit friction: Substantive discussion of despotism is present, but its theoretical and institutional scope materially differs from the complete path."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-F613EB62E8FE",
+      "node_id": "NODE-EE91B813A2A8",
+      "heading_path": [
+        "directory",
+        "coups d'état and political instability"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-EE91B813A2A8",
+        "PATH-8EC081DE5228"
+      ],
+      "path_ids": [
+        "PATH-8EC081DE5228"
+      ],
+      "evidence_ids": [
+        "EVID-FCBE05B1FFC9"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000228",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-FCBE05B1FFC9",
+            "PATH-8EC081DE5228"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-FCBE05B1FFC9"
+          ],
+          "summary": "Locator LOC-FCBE05B1FFC9 records complete-path heading-fit friction: The destination concerns occupation policy and Italian politics, not the complete Directory subdivision."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-BFB8F37D3E74",
+      "node_id": "NODE-B3C64AD452F4",
+      "heading_path": [
+        "directory",
+        "religious and social policies"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-B3C64AD452F4",
+        "PATH-B1D783FE7E5E"
+      ],
+      "path_ids": [
+        "PATH-B1D783FE7E5E"
+      ],
+      "evidence_ids": [
+        "EVID-4F2731417855",
+        "EVID-EFF8DF3BE8A6"
+      ],
+      "summary": "2 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-08DC420BE613",
+      "node_id": "NODE-B3C64AD452F4",
+      "heading_path": [
+        "directory",
+        "religious and social policies"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-B3C64AD452F4",
+        "PATH-B1D783FE7E5E"
+      ],
+      "path_ids": [
+        "PATH-B1D783FE7E5E"
+      ],
+      "evidence_ids": [
+        "EVID-4F2731417855",
+        "EVID-EFF8DF3BE8A6"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000231",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-4F2731417855",
+            "PATH-B1D783FE7E5E"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-4F2731417855"
+          ],
+          "summary": "Locator LOC-4F2731417855 records complete-path heading-fit friction: Material discussion of the Directory is present, but it belongs to political collapse and security policy rather than the specified religious-and-social subdivision."
+        },
+        {
+          "finding_id": "HAF-000232",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-EFF8DF3BE8A6",
+            "PATH-B1D783FE7E5E"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-EFF8DF3BE8A6"
+          ],
+          "summary": "Locator LOC-EFF8DF3BE8A6 records complete-path heading-fit friction: The page substantively treats the Consulate's Concordat settlement, not the Directory's religious and social policies; the regime and chronology in the complete path are wrong for this destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-741DCBC6042A",
+      "node_id": "NODE-469387EB13F4",
+      "heading_path": [
+        "economic crisis"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-469387EB13F4",
+        "PATH-04E3803D4425"
+      ],
+      "path_ids": [
+        "PATH-04E3803D4425"
+      ],
+      "evidence_ids": [
+        "EVID-51FAE95BDC53"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000233",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-51FAE95BDC53",
+            "PATH-04E3803D4425"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-51FAE95BDC53"
+          ],
+          "summary": "Locator LOC-51FAE95BDC53 records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-F0881B3F079D",
+      "node_id": "NODE-6B423C33D3CE",
+      "heading_path": [
+        "equality",
+        "civil and legal"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-6B423C33D3CE",
+        "PATH-ADABD810984A"
+      ],
+      "path_ids": [
+        "PATH-ADABD810984A"
+      ],
+      "evidence_ids": [
+        "EVID-6CB0B40CE361"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000234",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-6CB0B40CE361",
+            "PATH-ADABD810984A"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-6CB0B40CE361"
+          ],
+          "summary": "Locator LOC-6CB0B40CE361 records complete-path heading-fit friction: A political slogan does not fit the narrower civil-and-legal subdivision."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-FB53B0C91C69",
+      "node_id": "NODE-D1BC8048EF51",
+      "heading_path": [
+        "feudalism"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-D1BC8048EF51",
+        "PATH-5969A52B4960"
+      ],
+      "path_ids": [
+        "PATH-5969A52B4960"
+      ],
+      "evidence_ids": [
+        "EVID-C8CF741DE2A2",
+        "EVID-C0C117D8108F",
+        "EVID-A61B08BB1D63",
+        "EVID-8D9D54888177",
+        "EVID-791D40132D20",
+        "EVID-60261A82A1C6",
+        "EVID-DB975F207495",
+        "EVID-200A48D03380",
+        "EVID-2EB14DDB7CA8",
+        "EVID-5D8B594619F9",
+        "EVID-57C8CD3C1C9B",
+        "EVID-F212C427F7EE",
+        "EVID-CFDD66480380",
+        "EVID-44A2EDCFE88E",
+        "EVID-17888C699634",
+        "EVID-D1A74D5FB43C",
+        "EVID-72349A11B62C",
+        "EVID-FD2150AD2C09",
+        "EVID-DAAE5C6BB19E",
+        "EVID-0CE47AE36161",
+        "EVID-136B9382F37C",
+        "EVID-F4591C31F24F",
+        "EVID-6C8FF529EB34",
+        "EVID-B93AAC32719A",
+        "EVID-1111855A080F",
+        "EVID-C239D5A2AE19",
+        "EVID-046489DC9683"
+      ],
+      "summary": "The undivided feudalism path combines the old regime, criticism, abolition, redemption, peasant resistance, and later interpretation across nine intellectual units.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000236",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-C8CF741DE2A2",
+            "PATH-5969A52B4960"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-C8CF741DE2A2"
+          ],
+          "summary": "Locator LOC-C8CF741DE2A2 records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        },
+        {
+          "finding_id": "HAF-000237",
+          "kind": "confirmed_subdivision_architecture",
+          "source_ids": [
+            "ARCHREV-5969A52B4960",
+            "PATH-5969A52B4960"
+          ],
+          "reason_codes": [
+            "conceptual_treatments_distinguishable",
+            "useful_subdivision_available",
+            "material_retrieval_impairment",
+            "subdivision_nontrivial"
+          ],
+          "severity": "minor",
+          "evidence_ids": [
+            "EVID-C0C117D8108F",
+            "EVID-C8CF741DE2A2",
+            "EVID-A61B08BB1D63",
+            "EVID-8D9D54888177",
+            "EVID-791D40132D20",
+            "EVID-60261A82A1C6",
+            "EVID-DB975F207495",
+            "EVID-200A48D03380",
+            "EVID-2EB14DDB7CA8",
+            "EVID-5D8B594619F9",
+            "EVID-57C8CD3C1C9B",
+            "EVID-F212C427F7EE",
+            "EVID-CFDD66480380",
+            "EVID-44A2EDCFE88E",
+            "EVID-17888C699634",
+            "EVID-D1A74D5FB43C",
+            "EVID-72349A11B62C",
+            "EVID-FD2150AD2C09",
+            "EVID-DAAE5C6BB19E",
+            "EVID-0CE47AE36161",
+            "EVID-136B9382F37C",
+            "EVID-F4591C31F24F",
+            "EVID-6C8FF529EB34",
+            "EVID-B93AAC32719A",
+            "EVID-1111855A080F",
+            "EVID-C239D5A2AE19",
+            "EVID-046489DC9683"
+          ],
+          "summary": "The undivided feudalism path combines the old regime, criticism, abolition, redemption, peasant resistance, and later interpretation across nine intellectual units."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-549859DB5E8C",
+      "node_id": "NODE-84B090737A01",
+      "heading_path": [
+        "guillotine",
+        "in the Terror"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-84B090737A01",
+        "PATH-07B10977D069"
+      ],
+      "path_ids": [
+        "PATH-07B10977D069"
+      ],
+      "evidence_ids": [
+        "EVID-509D26ECB9FE"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-15DF172F4C9E",
+      "node_id": "NODE-A8693A8A1562",
+      "heading_path": [
+        "lawyers"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-A8693A8A1562",
+        "PATH-0B0190D8E668"
+      ],
+      "path_ids": [
+        "PATH-0B0190D8E668"
+      ],
+      "evidence_ids": [
+        "EVID-9EE3CCC10839"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-4776C4703D93",
+      "node_id": "NODE-B8DE8E346F80",
+      "heading_path": [
+        "monarchy",
+        "restoration efforts and royalism"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-B8DE8E346F80",
+        "PATH-A3522E3AB6A9"
+      ],
+      "path_ids": [
+        "PATH-A3522E3AB6A9"
+      ],
+      "evidence_ids": [
+        "EVID-C06C20362316"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000243",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-C06C20362316",
+            "PATH-A3522E3AB6A9"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-C06C20362316"
+          ],
+          "summary": "Locator LOC-C06C20362316 records complete-path heading-fit friction: The source’s reactionary policy context materially differs from the restoration-and-royalism subdivision."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-2779B0B05D4A",
+      "node_id": "NODE-486535C02768",
+      "heading_path": [
+        "nobility",
+        "and municipal revolutions/uprisings"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-486535C02768",
+        "PATH-69307AF41D4D"
+      ],
+      "path_ids": [
+        "PATH-69307AF41D4D"
+      ],
+      "evidence_ids": [
+        "EVID-13A916CE4492"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-A367F9B6C834",
+      "node_id": "NODE-902A9D7E54FD",
+      "heading_path": [
+        "nobility",
+        "cultural life and education"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-902A9D7E54FD",
+        "PATH-7C26D42F2C08"
+      ],
+      "path_ids": [
+        "PATH-7C26D42F2C08"
+      ],
+      "evidence_ids": [
+        "EVID-33EB1CA87AC0",
+        "EVID-F77DDE53D6FE"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000244",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-33EB1CA87AC0",
+            "PATH-7C26D42F2C08"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "minor",
+          "evidence_ids": [
+            "EVID-33EB1CA87AC0"
+          ],
+          "summary": "Locator LOC-33EB1CA87AC0 records complete-path heading-fit friction: The cultural-life element is present, while the nobility-specific relationship is not established on page 47."
+        },
+        {
+          "finding_id": "HAF-000245",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-F77DDE53D6FE",
+            "PATH-7C26D42F2C08"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-F77DDE53D6FE"
+          ],
+          "summary": "Locator LOC-F77DDE53D6FE records complete-path heading-fit friction: The source treatment concerns political and hereditary privilege, so the delivered subdivision materially misstates its subject."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-F4B248A84FC9",
+      "node_id": "NODE-62ADC0366ADB",
+      "heading_path": [
+        "peasantry",
+        "resistance to the Republic",
+        "conscription and recruiting"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-62ADC0366ADB",
+        "PATH-8F91A4E2C7E7"
+      ],
+      "path_ids": [
+        "PATH-8F91A4E2C7E7"
+      ],
+      "evidence_ids": [
+        "EVID-9A67EC166752"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-3C2E40AD9807",
+      "node_id": "NODE-62ADC0366ADB",
+      "heading_path": [
+        "peasantry",
+        "resistance to the Republic",
+        "conscription and recruiting"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-62ADC0366ADB",
+        "PATH-8F91A4E2C7E7"
+      ],
+      "path_ids": [
+        "PATH-8F91A4E2C7E7"
+      ],
+      "evidence_ids": [
+        "EVID-9A67EC166752"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000256",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-9A67EC166752",
+            "PATH-8F91A4E2C7E7"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-9A67EC166752"
+          ],
+          "summary": "Locator LOC-9A67EC166752 records complete-path heading-fit friction: The complete path imposes the wrong political and chronological scope."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-87C3DFF133A8",
+      "node_id": "NODE-145790DEF4A8",
+      "heading_path": [
+        "sansculottes",
+        "legacy and influence on democracy"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-145790DEF4A8",
+        "PATH-0F893E970892"
+      ],
+      "path_ids": [
+        "PATH-0F893E970892"
+      ],
+      "evidence_ids": [
+        "EVID-032C968C5666"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-D8EAA91A099E",
+      "node_id": "NODE-98A0BBFCC00E",
+      "heading_path": [
+        "sansculottes",
+        "morality and economic policy"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-98A0BBFCC00E",
+        "PATH-48DD322EB12F"
+      ],
+      "path_ids": [
+        "PATH-48DD322EB12F"
+      ],
+      "evidence_ids": [
+        "EVID-CDC13FC48D77",
+        "EVID-69A12B352624"
+      ],
+      "summary": "2 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-A46E1FC4DB19",
+      "node_id": "NODE-98A0BBFCC00E",
+      "heading_path": [
+        "sansculottes",
+        "morality and economic policy"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-98A0BBFCC00E",
+        "PATH-48DD322EB12F"
+      ],
+      "path_ids": [
+        "PATH-48DD322EB12F"
+      ],
+      "evidence_ids": [
+        "EVID-69A12B352624"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000260",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-69A12B352624",
+            "PATH-48DD322EB12F"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-69A12B352624"
+          ],
+          "summary": "Locator LOC-69A12B352624 records complete-path heading-fit friction: Substantive radical economic treatment is present, but the actor and scope asserted by the complete path do not fit."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-20A999DBEE89",
+      "node_id": "NODE-1D1D99ED826A",
+      "heading_path": [
+        "weather"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-1D1D99ED826A",
+        "PATH-14E19F086FBA"
+      ],
+      "path_ids": [
+        "PATH-14E19F086FBA"
+      ],
+      "evidence_ids": [
+        "EVID-4830D1943B45"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000264",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-4830D1943B45",
+            "PATH-14E19F086FBA"
+          ],
+          "reason_codes": [
+            "HED"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-4830D1943B45"
+          ],
+          "summary": "Locator LOC-4830D1943B45 records complete-path heading-fit friction: The complete heading path has no evidentiary fit because its subject is not treated at the assigned destination."
+        }
+      ]
+    },
+    {
+      "finding_id": "MAT-1033F13AD4E1",
+      "node_id": "NODE-3A39838FA3F1",
+      "heading_path": [
+        "women"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-3A39838FA3F1",
+        "PATH-453753449706"
+      ],
+      "path_ids": [
+        "PATH-453753449706"
+      ],
+      "evidence_ids": [
+        "EVID-19DF790209C0"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-4856FB255453",
+      "node_id": "NODE-177270A57133",
+      "heading_path": [
+        "émigrés",
+        "counter-revolutionary activity"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-177270A57133",
+        "PATH-EBD8BD7AF5AF"
+      ],
+      "path_ids": [
+        "PATH-EBD8BD7AF5AF"
+      ],
+      "evidence_ids": [
+        "EVID-250F6F6A634E"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-494E639317D2",
+      "node_id": "NODE-1B037D45D14A",
+      "heading_path": [
+        "émigrés",
+        "in Britain"
+      ],
+      "component": "conceptual_stance_fidelity",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "CON",
+      "required_dimension_owner": "conceptual_stance_fidelity",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-1B037D45D14A",
+        "PATH-F41AD2FA210E"
+      ],
+      "path_ids": [
+        "PATH-F41AD2FA210E"
+      ],
+      "evidence_ids": [
+        "EVID-531F07CFDE2B"
+      ],
+      "summary": "1 direct locator judgment(s) identify a scope, stance, relationship, or compound-heading mismatch on this complete path.",
+      "causal_findings": []
+    },
+    {
+      "finding_id": "MAT-A74B1180F9AC",
+      "node_id": "NODE-F159B6EA8CDA",
+      "heading_path": [
+        "émigrés",
+        "internal divisions ('pures' vs. 'constitutionals')"
+      ],
+      "component": "heading_access_architecture",
+      "audit_status": "major_issues",
+      "required_defect_severity": "major",
+      "required_defect_code": "HED",
+      "required_dimension_owner": "findability_navigation",
+      "retrieval_consequence": "misleads",
+      "severity_basis": "materially_misleading",
+      "affected_item_ids": [
+        "NODE-F159B6EA8CDA",
+        "PATH-C671861EDCFA"
+      ],
+      "path_ids": [
+        "PATH-C671861EDCFA"
+      ],
+      "evidence_ids": [
+        "EVID-EDB9A0592E45",
+        "EVID-8C080223A18B",
+        "EVID-979D5301AF53"
+      ],
+      "summary": "Registered heading-fit, benchmark-access, or cross-reference evidence identifies retrieval friction.",
+      "causal_findings": [
+        {
+          "finding_id": "HAF-000271",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-EDB9A0592E45",
+            "PATH-C671861EDCFA"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "minor",
+          "evidence_ids": [
+            "EVID-EDB9A0592E45"
+          ],
+          "summary": "Locator LOC-EDB9A0592E45 records complete-path heading-fit friction: Document page 303 contrasts early and late émigrés and their scrutiny of lineage and political record, but does not fully establish the delivered 'pures' versus 'constitutionals' division."
+        },
+        {
+          "finding_id": "HAF-000272",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-8C080223A18B",
+            "PATH-C671861EDCFA"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "major",
+          "evidence_ids": [
+            "EVID-8C080223A18B"
+          ],
+          "summary": "Locator LOC-8C080223A18B records complete-path heading-fit friction: The destination does not yet distinguish 'pures' from constitutional émigrés; that analysis occurs later in the chapter."
+        },
+        {
+          "finding_id": "HAF-000273",
+          "kind": "heading_fit",
+          "source_ids": [
+            "LOC-979D5301AF53",
+            "PATH-C671861EDCFA"
+          ],
+          "reason_codes": [
+            "SUB"
+          ],
+          "severity": "minor",
+          "evidence_ids": [
+            "EVID-979D5301AF53"
+          ],
+          "summary": "Locator LOC-979D5301AF53 records complete-path heading-fit friction: Document page 306 distinguishes émigré hostility toward Feuillants and other constitutional moderates, but does not fully develop the delivered 'pures' versus 'constitutionals' division."
+        }
+      ]
+    }
+  ],
+  "runtime_hold": "Severity-to-cap calibration remains owned by the corrected evaluator runtime; this ledger preserves candidate findings and path evidence only."
+}

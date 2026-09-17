@@ -1,0 +1,36 @@
+{
+  "schema_version": "ohfr-indexerlabs-candidate-readjudication-checkpoint-v1",
+  "created_at": "2026-09-17T18:29:14.635609+00:00",
+  "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+  "benchmark_sha256": "ec0fbc78e370086ea03d0f6edc766646949c56d1d72177cf6c6f28dbfe2b09c0",
+  "status": "candidate_evidence_complete_runtime_scoring_held",
+  "corrected_complete_subjects": [
+    "SUBJ-SUCC-5193E3F37320",
+    "SUBJ-SUCC-7B3E1AAE16C8",
+    "SUBJ-SUCC-9998092EF3FD",
+    "SUBJ-SUCC-99A2AEA8AD04",
+    "SUBJ-SUCC-9E6D9535AA17",
+    "SUBJ-SUCC-A7CE991FCCA3"
+  ],
+  "corrected_partial_subjects": [
+    "SUBJ-SUCC-1D98349B5A7B",
+    "SUBJ-SUCC-AB9E2AC4F876"
+  ],
+  "localized_optional_omission": {
+    "subject_id": "SUBJ-SUCC-9DA29F300357",
+    "coverage": "missing",
+    "severity": "minor",
+    "document_page": 225
+  },
+  "corrected_reader_task": {
+    "task_id": "TASK-SUCC-1B1C05390422",
+    "result": "succeeds",
+    "matched_path_ids": [
+      "PATH-59F34776B0E9"
+    ]
+  },
+  "provence_subject_path_added": "PATH-59F34776B0E9",
+  "audit_directory": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits-decision-v3-checkpoint",
+  "access_review": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-access-review.decision-v3-checkpoint.json",
+  "runtime_hold": "Do not derive or publish a PR64 score until the evaluator calibration/validation correction is installed and adopted."
+}
