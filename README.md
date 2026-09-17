@@ -1,102 +1,88 @@
 # Subject Index Evaluation: IndexerLabs / The Oxford History of the French Revolution (2002)
 
-Candidate-specific evaluation artifacts for the IndexerLabs subject index to William Doyle's *The Oxford History of the French Revolution*, 2002 edition.
+The current evaluation uses **V8.2** and scores **85.12%**, unchanged from the
+corrected V8.1 checkpoint. Evaluation validity is valid; publication readiness
+is **not ready**. Two direct gates identify 140 confirmed wrong locators and two
+broken cross-references. Assessment remains indeterminate for 970 explicitly
+identified uncertain locators. These gaps are not additional candidate defects.
+Both 90% dimension ceilings remain non-binding. The final runtime is reviewed
+revision `c11c6ccb16000fe79646af16b7be01f6cbeeac78`.
+Website deployment and evaluation PR merge require user approval.
 
-## V8.1 migration review
+## Current artifacts
 
-The [targeted migration review](evaluation/migration-v8.1/REPORT.md) preserves the
-finished V8 artifacts and withholds an authoritative V8.1 replacement. The
-delivered entry “Senez, see of, 143” was normalized as a broken redirect; that
-does not establish a delivered substitutive-see publication gate. The report
-records supported consequence changes, exact hashes, diagnostic arithmetic,
-validation, and the narrow missing evidence. The 83.74% policy-only diagnostic
-is not a revised evaluation score; the historical V8 result below remains 77.40%.
+- [Final scoped-uncertainty migration](evaluation/migration-v8.2-final/REPORT.md)
+- [Final validation and invariance receipt](evaluation/migration-v8.2-final/validation-receipt.json)
+- [Interim V8.2 migration and provenance](evaluation/migration-v8.2/REPORT.md)
+- [V8.2 migration ledger](evaluation/migration-v8.2/migration-ledger.json)
+- [Canonical state](evaluation/evaluation-state.json)
+- [Correction and migration report](evaluation/migration-v8.1/CORRECTION.md)
+- [Detailed correction ledger](evaluation/migration-v8.1/correction-ledger.json)
+- [Validation results](evaluation/migration-v8.1/correction-validation.json)
+- [Evaluation result](evaluation/scoring-v82-final/evaluation-result.v12.json)
+- [Web report](evaluation/scoring-v82-final/web-report.v10.json)
+- [Canonical public projection](evaluation/scoring-v82-final/v8-canonical-projection/projection.v1.json)
 
-## Current V8 run
-
-[`evaluation/evaluation-state.json`](evaluation/evaluation-state.json) is the only
-canonical control file. All V8 stages are complete: candidate preparation,
-locator auditing, missing-access auditing, global structure auditing, scoring,
-and web-report generation.
-
-The exact 425-page source identity, previously approved one-to-one page labels,
-and previously approved 17 chapter boundaries were revalidated under the current
-schemas. A fresh standard V8 policy was frozen before source discovery. The
-restricted source PDF and derived chapter PDFs remain local and are excluded by
-`.gitignore`; the registered page map, chunk manifest, policy, and chunk sidecars
-live under [`evaluation/source/`](evaluation/source/).
-
-The candidate-blind frozen benchmark was not rebuilt. It was imported from
-[`publication-intelligence/ohfr-2002-esi-benchmark`](https://github.com/publication-intelligence/ohfr-2002-esi-benchmark)
-at freeze `98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab` after exact source, page-map,
-chunk, and benchmark-identity checks plus a separate V8 compatibility review.
-The import provenance and approval are under [`evaluation/validation/`](evaluation/validation/).
-
-[`completed-evaluation.portable.zip`](evaluation/checkpoints/completed-evaluation.portable.zip)
-is the final portable recovery checkpoint. It contains 92 registered artifacts
-and intentionally omits the 17 restricted source packet PDFs.
-
-## Result
-
-The independently reproduced V8 overall score is **77.40%**.
-
-| Dimension | Score |
+| Dimension | V8.2 score |
 | --- | ---: |
 | Meaningful Coverage | 80.04% |
-| Editorial Selectivity | 65.17% |
+| Editorial Selectivity | 64.98% |
 | Conceptual/Stance Fidelity | 97.63% |
-| Page-reference Reliability | 80.00% |
-| Findability/Navigation | 60.00% |
-| Mechanics/Consistency | 99.99% |
+| Page-reference Reliability | 89.34% |
+| Findability/Navigation | 86.93% |
+| Mechanics/Consistency | 100.00% |
 
-The locator audit covers 6,221 atomic assignments: 5,914 supported, 71 partially
-supported, and 236 unsupported. Missing-access auditing covers 1,366 subjects,
-1,026 reader tasks, and 3,210 treatments; 2,705 treatments were found and 505
-were missed. The published score triggers the see-substitution, cross-reference,
-and clutter gates. See [`evaluation-result.v12.json`](evaluation/scoring/evaluation-result.v12.json)
-and [`web-report.v10.json`](evaluation/scoring/web-report.v10.json) for the exact
-calculation and report projection.
+The delivered entry “Senez, see of, 143” is now faithfully represented as a
+heading and supported locator. All 6,221 original locator judgments are unchanged;
+one targeted source check adds the recovered locator, giving 6,222 assignments.
+All benchmark content and missing-access judgments are preserved. The targeted
+structure review retains supplemental-route deductions and yellow signals while
+removing their unsupported classification as destroyed access. Independent major
+heading-fit findings remain.
 
-Density uses the 17 candidate-blind source-discovery unit counts frozen in the
-benchmark repository at `98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab`.
-They total 194,718 indexable source words; the resulting density fit is
-47.6866545466% before display rounding.
+The source has 425 mapped pages and 17 approved chunks. The frozen candidate-blind
+benchmark release remains `98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab`; only its active
+policy binding and content hash changed. No new discovery or independent review
+was performed. Restricted source and candidate PDFs are excluded from Git.
 
-## Contents
+## Validation and reporting
 
-As the evaluation advances, this repository will contain:
+Run `python3 -m unittest discover -s tests -v` for historical projection and
+current correction regression checks. The current runtime's registered `score`
+and `build-report` commands produce the canonical outputs. Between those two
+commands, `python3 scripts/project_v81_review_signals.py` projects the native
+supplemental-route findings into score-free yellow report signals. The installed
+runtime currently derives that particular signal only from structured defects.
+This supplement changes no arithmetic, caps, gates, or audit judgments.
 
-- normalized candidate-index data;
-- locator routing packets and exception ledgers;
-- complete locator audits;
-- missing-access and hierarchy audits;
-- density and navigation analysis;
-- scores and report-ready JSON.
+The current report supplies all six dimension denominators. Existing completed
+outputs require explicit invalidation/replacement; do not run the historical
+V8 builder against current V8.2 evidence. No website deployment has been made.
 
-It excludes source PDFs, chapter packet PDFs, extracted source text, and candidate PDF files.
+## Preserved history
 
-## Candidate conversion
+The independent Senez repair and targeted V8.1 correction remain at
+`48bb67b434335cd90002f7bf2078a8a176e2a525`, with their exact scoring/report bytes
+under `evaluation/scoring-v81/`. The V8.2 migration reuses that 85.12% checkpoint.
+It records actual candidate visibility and preserves the original candidate-blind
+freeze separately. All six dimensions, numeric components, deductions and caps
+are invariant; only version identities, evidence bindings and publication gates
+change. No source discovery, normalization or substantive audits were rerun.
 
-The supplied candidate is
-`/home/john/Downloads/IndexerLabs_Oxford.pdf` with SHA-256
-`7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1`.
-The standalone evaluator utility converts it to
-[`candidate-layout-extraction.v1.json`](candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-layout-extraction.v1.json).
 
-The converter's repeated-furniture fix now reproduces the checked-in layout
-artifact byte-for-byte: 2,211 extracted lines, 49 excluded running-header lines,
-and 2,162 retained index lines. Mechanical normalization has also produced the
-registered candidate-index V2 and item-inventory V2 artifacts under
-[`evaluation/candidates/`](evaluation/candidates/), with 1,644 normalized paths,
-5,055 displayed locators, and 6,221 atomic assignments. Normalization completed
-with no unresolved issues or locator-routing exceptions.
+The original V8 evaluation scores **77.40%** and is preserved at
+`11a3710435a4f870378929652cbc3f7c7e5f459b`. Its original scoring/report files remain
+under `evaluation/scoring/`, and its public projection under
+`web/v8-canonical-projection/`; these are historical, not the current output.
+Use the complete original Git tree to reproduce its input hashes.
 
-## Next stage
-
-No evaluation stage remains. Use the final checkpoint for resume or transfer,
-and regenerate deterministic scoring/report artifacts only after an approved
-change to a registered input.
+The [bounded migration review](evaluation/migration-v8.1/REPORT.md) and its
+83.74% policy-only diagnostic are preserved as the earlier checkpoint, superseded
+by the authorized correction documented above. Run
+`python3 scripts/check_v81_migration_boundary.py` to verify that historical
+review against its Git snapshots.
 
 ## Rights
 
-Derived analytical artifacts may refer to headings and locators needed to explain audit findings. Source and candidate PDFs must be obtained separately from their authorized sources.
+Derived analytical artifacts may refer to headings and locators needed to explain
+findings. Source and candidate PDFs must be obtained from authorized sources.

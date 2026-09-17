@@ -1,0 +1,4871 @@
+{
+  "schema_version": "subject-index-v10-projection-metadata-v2",
+  "candidate_label": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "inclusion_policy": "Preserved V8.2 source scope with independently reviewed V10 benchmark access amendment.",
+  "uncertainty_policy": "Record uncertainty explicitly; adjudicate every critical, major, and uncertain item; exclude uninspectable locators from precision denominators and disclose them.",
+  "critical_gates": [
+    {
+      "gate_id": "GATE-WRONG-LOCATOR",
+      "description": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [],
+      "affected_evidence_ids": [
+        "LOC-03597F3EC0D5",
+        "LOC-052A1F866CA9",
+        "LOC-05683BD2EEE7",
+        "LOC-0AECEBB0B4B2",
+        "LOC-0B7498786FFD",
+        "LOC-0C366584073A",
+        "LOC-0C8E16CD9A9F",
+        "LOC-0CA9C3C37D44",
+        "LOC-0E2B33127C64",
+        "LOC-11F2B63600D4",
+        "LOC-1219942EF75C",
+        "LOC-1248259445A9",
+        "LOC-16080D05FC85",
+        "LOC-1765477C6D39",
+        "LOC-188B9452417E",
+        "LOC-190AE73BD558",
+        "LOC-1A3CDDF9E8A8",
+        "LOC-1A997CF5E177",
+        "LOC-1B12CAAFF12D",
+        "LOC-1C4A9F35DAF1",
+        "LOC-1CF7B93E3489",
+        "LOC-1D3C6D6F5338",
+        "LOC-1D7BE2268993",
+        "LOC-1E11CBEC74FA",
+        "LOC-1EB0672119FB",
+        "LOC-1ED468068559",
+        "LOC-2072C42CC1E3",
+        "LOC-213BD0B90BEC",
+        "LOC-2945A2B5F17F",
+        "LOC-2992A7890394",
+        "LOC-2A46CD99575D",
+        "LOC-2B02458E664C",
+        "LOC-2E3FDD78122B",
+        "LOC-383B41EF0CC5",
+        "LOC-39C165B3C593",
+        "LOC-3F790684685D",
+        "LOC-4292366F9CC4",
+        "LOC-4830D1943B45",
+        "LOC-4A208AA37400",
+        "LOC-4A8894D6401D",
+        "LOC-4A9EF4D274AE",
+        "LOC-4B10DB7908D3",
+        "LOC-4BA6DA629A25",
+        "LOC-4BFB6F7D505F",
+        "LOC-4DEAFD068BC3",
+        "LOC-51D18B70EF0D",
+        "LOC-51FAE95BDC53",
+        "LOC-55B6DC01C491",
+        "LOC-56F929350893",
+        "LOC-57B0273B86BA",
+        "LOC-57C878911022",
+        "LOC-5A363918778A",
+        "LOC-5B7D20726886",
+        "LOC-5B906EB6C96F",
+        "LOC-5CBA66901852",
+        "LOC-5F97ABFC52F4",
+        "LOC-68C27C2BA654",
+        "LOC-68F56DF9DB25",
+        "LOC-6C4CBF298672",
+        "LOC-6F7EC1C38F96",
+        "LOC-70217F4DA4EE",
+        "LOC-709F3B3134BA",
+        "LOC-742C048C6DC3",
+        "LOC-7476E46985A4",
+        "LOC-75E7D7BBF894",
+        "LOC-77BD8DF34603",
+        "LOC-7B57EE76141D",
+        "LOC-7F6070D7B0C4",
+        "LOC-85159BE6445F",
+        "LOC-87CE20A497D0",
+        "LOC-8A56748413C8",
+        "LOC-8B9B4AD5C557",
+        "LOC-8C080223A18B",
+        "LOC-8CF1012EB6E0",
+        "LOC-91A6EEDBEAA4",
+        "LOC-91CF2580289D",
+        "LOC-9292D0FD720E",
+        "LOC-93C783AEAA35",
+        "LOC-962D6C9AA375",
+        "LOC-98A012BE1009",
+        "LOC-9A6246DC5022",
+        "LOC-9E78912F47A5",
+        "LOC-9EE3CCC10839",
+        "LOC-9F21A6CDB914",
+        "LOC-A1BFB5EBD49A",
+        "LOC-A20EDEB77405",
+        "LOC-A3CEE755D1E3",
+        "LOC-A5DE80A3394F",
+        "LOC-A674E35FB204",
+        "LOC-A984D02CAFA8",
+        "LOC-AC78C23DB1C9",
+        "LOC-AFC40E5E7490",
+        "LOC-B648C3653B39",
+        "LOC-BA4DF918D5A6",
+        "LOC-BB223E50083F",
+        "LOC-BB9E8E899721",
+        "LOC-BC57C00C8392",
+        "LOC-BCF9F70212CD",
+        "LOC-BF8D54853D9A",
+        "LOC-C167B1F42E9C",
+        "LOC-C222A41EA4CE",
+        "LOC-C3F940854FC0",
+        "LOC-C532099DF13D",
+        "LOC-C7AC27EAC5BA",
+        "LOC-C7C3C17988FC",
+        "LOC-C8CF741DE2A2",
+        "LOC-C9E712B7AF63",
+        "LOC-CA39508FF9C5",
+        "LOC-CD55914D3055",
+        "LOC-CF2AEE605855",
+        "LOC-D00D2D48CDA2",
+        "LOC-D13E4F99E86F",
+        "LOC-D3D84625E3A3",
+        "LOC-D7BC7997ECAF",
+        "LOC-DF477F4E30C8",
+        "LOC-DF574A4AA64F",
+        "LOC-E0BD7BEF10E7",
+        "LOC-E239FA63B5A4",
+        "LOC-E4FF24ACC837",
+        "LOC-E7B055D61E79",
+        "LOC-E929C7B21DF9",
+        "LOC-ED1A13286795",
+        "LOC-EDF6BB788563",
+        "LOC-EF22612930BD",
+        "LOC-F018D5406D0D",
+        "LOC-F151A8A07EC5",
+        "LOC-F3688DFA2845",
+        "LOC-F3D2E3EE4C76",
+        "LOC-F404EA568752",
+        "LOC-F4E39D4FD0F4",
+        "LOC-F9C701C2DC54",
+        "LOC-FC2FBF14B2DE",
+        "LOC-FEF511B2BC8A",
+        "LOC-FFF913D6A79B"
+      ],
+      "threshold": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [
+        {
+          "locator_id": "LOC-03597F3EC0D5",
+          "path_id": "PATH-1BE5031EECCA",
+          "complete_heading_path": [
+            "slavery"
+          ],
+          "document_page": 410,
+          "source_page_label": "410",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-03597F3EC0D5"
+          ]
+        },
+        {
+          "locator_id": "LOC-052A1F866CA9",
+          "path_id": "PATH-9D73F3946E1A",
+          "complete_heading_path": [
+            "nobility",
+            "legislative and political activity"
+          ],
+          "document_page": 149,
+          "source_page_label": "149",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-052A1F866CA9"
+          ]
+        },
+        {
+          "locator_id": "LOC-05683BD2EEE7",
+          "path_id": "PATH-57A189C62E1A",
+          "complete_heading_path": [
+            "Necker, Jacques",
+            "financial management and reforms",
+            "opposition to nationalization and assignats"
+          ],
+          "document_page": 131,
+          "source_page_label": "131",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-05683BD2EEE7"
+          ]
+        },
+        {
+          "locator_id": "LOC-0AECEBB0B4B2",
+          "path_id": "PATH-CB361A3F090C",
+          "complete_heading_path": [
+            "Terray, Joseph Marie"
+          ],
+          "document_page": 34,
+          "source_page_label": "34",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0AECEBB0B4B2"
+          ]
+        },
+        {
+          "locator_id": "LOC-0B7498786FFD",
+          "path_id": "PATH-E8C9CE45243B",
+          "complete_heading_path": [
+            "Marie Antoinette"
+          ],
+          "document_page": 164,
+          "source_page_label": "164",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0B7498786FFD"
+          ]
+        },
+        {
+          "locator_id": "LOC-0C366584073A",
+          "path_id": "PATH-9510F8C0F5DC",
+          "complete_heading_path": [
+            "Society of the Friends of the Constitution"
+          ],
+          "document_page": 227,
+          "source_page_label": "227",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0C366584073A"
+          ]
+        },
+        {
+          "locator_id": "LOC-0C8E16CD9A9F",
+          "path_id": "PATH-367CE72CA963",
+          "complete_heading_path": [
+            "customs barriers"
+          ],
+          "document_page": 14,
+          "source_page_label": "14",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0C8E16CD9A9F"
+          ]
+        },
+        {
+          "locator_id": "LOC-0CA9C3C37D44",
+          "path_id": "PATH-65F98D43DF7E",
+          "complete_heading_path": [
+            "Nice"
+          ],
+          "document_page": 199,
+          "source_page_label": "199",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0CA9C3C37D44"
+          ]
+        },
+        {
+          "locator_id": "LOC-0E2B33127C64",
+          "path_id": "PATH-29E786F6417B",
+          "complete_heading_path": [
+            "Cahiers de doléances"
+          ],
+          "document_page": 406,
+          "source_page_label": "406",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0E2B33127C64"
+          ]
+        },
+        {
+          "locator_id": "LOC-11F2B63600D4",
+          "path_id": "PATH-7F72321CFD7B",
+          "complete_heading_path": [
+            "Great Britain",
+            "Ireland and internal subversion"
+          ],
+          "document_page": 215,
+          "source_page_label": "215",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-11F2B63600D4"
+          ]
+        },
+        {
+          "locator_id": "LOC-1219942EF75C",
+          "path_id": "PATH-4A6CEBE3A61C",
+          "complete_heading_path": [
+            "Comtat Venaissin"
+          ],
+          "document_page": 141,
+          "source_page_label": "141",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1219942EF75C"
+          ]
+        },
+        {
+          "locator_id": "LOC-1248259445A9",
+          "path_id": "PATH-8C271D1A5B81",
+          "complete_heading_path": [
+            "Nonjurors (Belgian)"
+          ],
+          "document_page": 190,
+          "source_page_label": "190",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1248259445A9"
+          ]
+        },
+        {
+          "locator_id": "LOC-16080D05FC85",
+          "path_id": "PATH-2D11D0AEAF56",
+          "complete_heading_path": [
+            "Neerwinden, Battle of"
+          ],
+          "document_page": 201,
+          "source_page_label": "201",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-16080D05FC85"
+          ]
+        },
+        {
+          "locator_id": "LOC-1765477C6D39",
+          "path_id": "PATH-EFBDB3021EDC",
+          "complete_heading_path": [
+            "La Revellière-Lépeaux, Louis-Marie de"
+          ],
+          "document_page": 334,
+          "source_page_label": "334",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1765477C6D39"
+          ]
+        },
+        {
+          "locator_id": "LOC-188B9452417E",
+          "path_id": "PATH-139D5C8E19F4",
+          "complete_heading_path": [
+            "National Convention",
+            "Thermidorian Reaction and dissolution"
+          ],
+          "document_page": 308,
+          "source_page_label": "308",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-188B9452417E"
+          ]
+        },
+        {
+          "locator_id": "LOC-190AE73BD558",
+          "path_id": "PATH-D87D7181A4AE",
+          "complete_heading_path": [
+            "Parlement of Paris",
+            "Maupeou's coup and restoration"
+          ],
+          "document_page": 73,
+          "source_page_label": "73",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-190AE73BD558"
+          ]
+        },
+        {
+          "locator_id": "LOC-1A3CDDF9E8A8",
+          "path_id": "PATH-5C00C402374C",
+          "complete_heading_path": [
+            "Gentz, Friedrich"
+          ],
+          "document_page": 171,
+          "source_page_label": "171",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1A3CDDF9E8A8"
+          ]
+        },
+        {
+          "locator_id": "LOC-1A997CF5E177",
+          "path_id": "PATH-C6D3C15539C3",
+          "complete_heading_path": [
+            "Calonne, Charles-Alexandre de"
+          ],
+          "document_page": 67,
+          "source_page_label": "67",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1A997CF5E177"
+          ]
+        },
+        {
+          "locator_id": "LOC-1B12CAAFF12D",
+          "path_id": "PATH-6FFF0168B74B",
+          "complete_heading_path": [
+            "Louis XVIII"
+          ],
+          "document_page": 327,
+          "source_page_label": "327",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1B12CAAFF12D"
+          ]
+        },
+        {
+          "locator_id": "LOC-1C4A9F35DAF1",
+          "path_id": "PATH-FF4DB30C8548",
+          "complete_heading_path": [
+            "Jacobins (Jacobin Club)",
+            "suppression and reactionary periods"
+          ],
+          "document_page": 305,
+          "source_page_label": "305",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1C4A9F35DAF1"
+          ]
+        },
+        {
+          "locator_id": "LOC-1CF7B93E3489",
+          "path_id": "PATH-B0A9363BA4F4",
+          "complete_heading_path": [
+            "Italy",
+            "Jacobinism and nationalism"
+          ],
+          "document_page": 337,
+          "source_page_label": "337",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1CF7B93E3489"
+          ]
+        },
+        {
+          "locator_id": "LOC-1D3C6D6F5338",
+          "path_id": "PATH-75451FDD1AA1",
+          "complete_heading_path": [
+            "Versailles"
+          ],
+          "document_page": 58,
+          "source_page_label": "58",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1D3C6D6F5338"
+          ]
+        },
+        {
+          "locator_id": "LOC-1D7BE2268993",
+          "path_id": "PATH-EA780CC6C76E",
+          "complete_heading_path": [
+            "French Republican Calendar"
+          ],
+          "document_page": 418,
+          "source_page_label": "418",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1D7BE2268993"
+          ]
+        },
+        {
+          "locator_id": "LOC-1E11CBEC74FA",
+          "path_id": "PATH-2BC6D56BE131",
+          "complete_heading_path": [
+            "Ecclesiastical committee"
+          ],
+          "document_page": 35,
+          "source_page_label": "35",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1E11CBEC74FA"
+          ]
+        },
+        {
+          "locator_id": "LOC-1EB0672119FB",
+          "path_id": "PATH-B2FF1AA12A17",
+          "complete_heading_path": [
+            "Philanthropic Institute"
+          ],
+          "document_page": 327,
+          "source_page_label": "327",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1EB0672119FB"
+          ]
+        },
+        {
+          "locator_id": "LOC-1ED468068559",
+          "path_id": "PATH-48D3B7938E2F",
+          "complete_heading_path": [
+            "Prussia"
+          ],
+          "document_page": 160,
+          "source_page_label": "160",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "incidental_example",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1ED468068559"
+          ]
+        },
+        {
+          "locator_id": "LOC-2072C42CC1E3",
+          "path_id": "PATH-DAF35033C507",
+          "complete_heading_path": [
+            "Jacobins (Jacobin Club)",
+            "role in war and government by terror"
+          ],
+          "document_page": 184,
+          "source_page_label": "184",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2072C42CC1E3"
+          ]
+        },
+        {
+          "locator_id": "LOC-213BD0B90BEC",
+          "path_id": "PATH-06E01D24A436",
+          "complete_heading_path": [
+            "Moulin, Jean-François Auguste"
+          ],
+          "document_page": 370,
+          "source_page_label": "370",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-213BD0B90BEC"
+          ]
+        },
+        {
+          "locator_id": "LOC-2945A2B5F17F",
+          "path_id": "PATH-CAA7D5BA2ABB",
+          "complete_heading_path": [
+            "Savenay, Battle of"
+          ],
+          "document_page": 289,
+          "source_page_label": "289",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2945A2B5F17F"
+          ]
+        },
+        {
+          "locator_id": "LOC-2992A7890394",
+          "path_id": "PATH-57D498248702",
+          "complete_heading_path": [
+            "Robespierre, Maximilien"
+          ],
+          "document_page": 187,
+          "source_page_label": "187",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2992A7890394"
+          ]
+        },
+        {
+          "locator_id": "LOC-2A46CD99575D",
+          "path_id": "PATH-DDEF46FFF996",
+          "complete_heading_path": [
+            "Triumvirate (Barnave, Duport, Lameth)"
+          ],
+          "document_page": 119,
+          "source_page_label": "119",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2A46CD99575D"
+          ]
+        },
+        {
+          "locator_id": "LOC-2B02458E664C",
+          "path_id": "PATH-50D680F33CB3",
+          "complete_heading_path": [
+            "Federalist Revolt",
+            "nature and origins"
+          ],
+          "document_page": 266,
+          "source_page_label": "266",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2B02458E664C"
+          ]
+        },
+        {
+          "locator_id": "LOC-2E3FDD78122B",
+          "path_id": "PATH-1B7472BD2C10",
+          "complete_heading_path": [
+            "Buzot, François"
+          ],
+          "document_page": 240,
+          "source_page_label": "240",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2E3FDD78122B"
+          ]
+        },
+        {
+          "locator_id": "LOC-383B41EF0CC5",
+          "path_id": "PATH-FB0FEC68E357",
+          "complete_heading_path": [
+            "Great Britain",
+            "peace negotiations and treaties"
+          ],
+          "document_page": 210,
+          "source_page_label": "210",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-383B41EF0CC5"
+          ]
+        },
+        {
+          "locator_id": "LOC-39C165B3C593",
+          "path_id": "PATH-826396E5DE0A",
+          "complete_heading_path": [
+            "Languedoc"
+          ],
+          "document_page": 6,
+          "source_page_label": "6",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-39C165B3C593"
+          ]
+        },
+        {
+          "locator_id": "LOC-3F790684685D",
+          "path_id": "PATH-958F36F77F4E",
+          "complete_heading_path": [
+            "Parlements",
+            "overview and jurisdiction"
+          ],
+          "document_page": 3,
+          "source_page_label": "3",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "excluded",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-3F790684685D"
+          ]
+        },
+        {
+          "locator_id": "LOC-4292366F9CC4",
+          "path_id": "PATH-9303575171AF",
+          "complete_heading_path": [
+            "Poland"
+          ],
+          "document_page": 413,
+          "source_page_label": "413",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4292366F9CC4"
+          ]
+        },
+        {
+          "locator_id": "LOC-4830D1943B45",
+          "path_id": "PATH-14E19F086FBA",
+          "complete_heading_path": [
+            "weather"
+          ],
+          "document_page": 97,
+          "source_page_label": "97",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4830D1943B45"
+          ]
+        },
+        {
+          "locator_id": "LOC-4A208AA37400",
+          "path_id": "PATH-67869BB9C00D",
+          "complete_heading_path": [
+            "Ventôse, Laws of"
+          ],
+          "document_page": 324,
+          "source_page_label": "324",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4A208AA37400"
+          ]
+        },
+        {
+          "locator_id": "LOC-4A8894D6401D",
+          "path_id": "PATH-0988DD013D75",
+          "complete_heading_path": [
+            "Louis XVI",
+            "and Church reform"
+          ],
+          "document_page": 34,
+          "source_page_label": "34",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4A8894D6401D"
+          ]
+        },
+        {
+          "locator_id": "LOC-4A9EF4D274AE",
+          "path_id": "PATH-76F8324260F5",
+          "complete_heading_path": [
+            "Paine, Thomas"
+          ],
+          "document_page": 193,
+          "source_page_label": "193",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4A9EF4D274AE"
+          ]
+        },
+        {
+          "locator_id": "LOC-4B10DB7908D3",
+          "path_id": "PATH-5A5368DFFEAE",
+          "complete_heading_path": [
+            "West Indies, Caribbean theater of war"
+          ],
+          "document_page": 203,
+          "source_page_label": "203",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4B10DB7908D3"
+          ]
+        },
+        {
+          "locator_id": "LOC-4BA6DA629A25",
+          "path_id": "PATH-A5D253F3CE24",
+          "complete_heading_path": [
+            "free coloureds"
+          ],
+          "document_page": 150,
+          "source_page_label": "150",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4BA6DA629A25"
+          ]
+        },
+        {
+          "locator_id": "LOC-4BFB6F7D505F",
+          "path_id": "PATH-F91F3BA985CE",
+          "complete_heading_path": [
+            "Lanjuinais, Jean-Denis"
+          ],
+          "document_page": 241,
+          "source_page_label": "241",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4BFB6F7D505F"
+          ]
+        },
+        {
+          "locator_id": "LOC-4DEAFD068BC3",
+          "path_id": "PATH-42EB676464CD",
+          "complete_heading_path": [
+            "Gard"
+          ],
+          "document_page": 304,
+          "source_page_label": "304",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4DEAFD068BC3"
+          ]
+        },
+        {
+          "locator_id": "LOC-51D18B70EF0D",
+          "path_id": "PATH-6B12A9D69DB6",
+          "complete_heading_path": [
+            "Lunéville, Treaty of"
+          ],
+          "document_page": 413,
+          "source_page_label": "413",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-51D18B70EF0D"
+          ]
+        },
+        {
+          "locator_id": "LOC-51FAE95BDC53",
+          "path_id": "PATH-04E3803D4425",
+          "complete_heading_path": [
+            "economic crisis"
+          ],
+          "document_page": 97,
+          "source_page_label": "97",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-51FAE95BDC53"
+          ]
+        },
+        {
+          "locator_id": "LOC-55B6DC01C491",
+          "path_id": "PATH-DB6D0D6866F1",
+          "complete_heading_path": [
+            "Thermidor"
+          ],
+          "document_page": 274,
+          "source_page_label": "274",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-55B6DC01C491"
+          ]
+        },
+        {
+          "locator_id": "LOC-56F929350893",
+          "path_id": "PATH-32C8C4C89982",
+          "complete_heading_path": [
+            "Nine Sisters Lodge"
+          ],
+          "document_page": 64,
+          "source_page_label": "64",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-56F929350893"
+          ]
+        },
+        {
+          "locator_id": "LOC-57B0273B86BA",
+          "path_id": "PATH-7A4EAB657A4D",
+          "complete_heading_path": [
+            "indirect taxes"
+          ],
+          "document_page": 333,
+          "source_page_label": "333",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-57B0273B86BA"
+          ]
+        },
+        {
+          "locator_id": "LOC-57C878911022",
+          "path_id": "PATH-552FFC480AAB",
+          "complete_heading_path": [
+            "Intendants",
+            "reform and abolition"
+          ],
+          "document_page": 112,
+          "source_page_label": "112",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "passing_mention",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-57C878911022"
+          ]
+        },
+        {
+          "locator_id": "LOC-5A363918778A",
+          "path_id": "PATH-3C3B5C08BA55",
+          "complete_heading_path": [
+            "Granville, Siege of"
+          ],
+          "document_page": 308,
+          "source_page_label": "308",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5A363918778A"
+          ]
+        },
+        {
+          "locator_id": "LOC-5B7D20726886",
+          "path_id": "PATH-DB6D0D6866F1",
+          "complete_heading_path": [
+            "Thermidor"
+          ],
+          "document_page": 296,
+          "source_page_label": "296",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5B7D20726886"
+          ]
+        },
+        {
+          "locator_id": "LOC-5B906EB6C96F",
+          "path_id": "PATH-482017AACECD",
+          "complete_heading_path": [
+            "bankruptcy"
+          ],
+          "document_page": 58,
+          "source_page_label": "58",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5B906EB6C96F"
+          ]
+        },
+        {
+          "locator_id": "LOC-5CBA66901852",
+          "path_id": "PATH-E9A4D74125B6",
+          "complete_heading_path": [
+            "Basle, Treaties of"
+          ],
+          "document_page": 208,
+          "source_page_label": "208",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5CBA66901852"
+          ]
+        },
+        {
+          "locator_id": "LOC-5F97ABFC52F4",
+          "path_id": "PATH-8435A9115DFE",
+          "complete_heading_path": [
+            "Goethe, Johann Wolfgang von"
+          ],
+          "document_page": 192,
+          "source_page_label": "192",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5F97ABFC52F4"
+          ]
+        },
+        {
+          "locator_id": "LOC-68C27C2BA654",
+          "path_id": "PATH-1E26146B4093",
+          "complete_heading_path": [
+            "Stofflet, Jean-Nicolas"
+          ],
+          "document_page": 224,
+          "source_page_label": "224",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-68C27C2BA654"
+          ]
+        },
+        {
+          "locator_id": "LOC-68F56DF9DB25",
+          "path_id": "PATH-139D5C8E19F4",
+          "complete_heading_path": [
+            "National Convention",
+            "Thermidorian Reaction and dissolution"
+          ],
+          "document_page": 248,
+          "source_page_label": "248",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-68F56DF9DB25"
+          ]
+        },
+        {
+          "locator_id": "LOC-6C4CBF298672",
+          "path_id": "PATH-CAA31EF56A97",
+          "complete_heading_path": [
+            "Venice"
+          ],
+          "document_page": 385,
+          "source_page_label": "385",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-6C4CBF298672"
+          ]
+        },
+        {
+          "locator_id": "LOC-6F7EC1C38F96",
+          "path_id": "PATH-8FC423BFC5CA",
+          "complete_heading_path": [
+            "Great Britain",
+            "radicalism and reform movement in"
+          ],
+          "document_page": 150,
+          "source_page_label": "150",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-6F7EC1C38F96"
+          ]
+        },
+        {
+          "locator_id": "LOC-70217F4DA4EE",
+          "path_id": "PATH-DB0CF5B4FB60",
+          "complete_heading_path": [
+            "Pitt, William (the Younger)"
+          ],
+          "document_page": 203,
+          "source_page_label": "203",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-70217F4DA4EE"
+          ]
+        },
+        {
+          "locator_id": "LOC-709F3B3134BA",
+          "path_id": "PATH-048271815964",
+          "complete_heading_path": [
+            "Catherine II (the Great)"
+          ],
+          "document_page": 165,
+          "source_page_label": "165",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-709F3B3134BA"
+          ]
+        },
+        {
+          "locator_id": "LOC-742C048C6DC3",
+          "path_id": "PATH-CACBC77879A6",
+          "complete_heading_path": [
+            "Bouillé, François Claude de"
+          ],
+          "document_page": 152,
+          "source_page_label": "152",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-742C048C6DC3"
+          ]
+        },
+        {
+          "locator_id": "LOC-7476E46985A4",
+          "path_id": "PATH-F412CCA22C7A",
+          "complete_heading_path": [
+            "Reubell, Jean-François"
+          ],
+          "document_page": 410,
+          "source_page_label": "410",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-7476E46985A4"
+          ]
+        },
+        {
+          "locator_id": "LOC-75E7D7BBF894",
+          "path_id": "PATH-7238568F832D",
+          "complete_heading_path": [
+            "tricolour cockade"
+          ],
+          "document_page": 392,
+          "source_page_label": "392",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-75E7D7BBF894"
+          ]
+        },
+        {
+          "locator_id": "LOC-77BD8DF34603",
+          "path_id": "PATH-70F63BCE017E",
+          "complete_heading_path": [
+            "Liberty",
+            "definitions and rights"
+          ],
+          "document_page": 195,
+          "source_page_label": "195",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-77BD8DF34603"
+          ]
+        },
+        {
+          "locator_id": "LOC-7B57EE76141D",
+          "path_id": "PATH-783DF4E6CE45",
+          "complete_heading_path": [
+            "taxation",
+            "war and extraordinary measures"
+          ],
+          "document_page": 156,
+          "source_page_label": "156",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-7B57EE76141D"
+          ]
+        },
+        {
+          "locator_id": "LOC-7F6070D7B0C4",
+          "path_id": "PATH-63BE04A82235",
+          "complete_heading_path": [
+            "departments (départements)",
+            "church and religious affairs in"
+          ],
+          "document_page": 239,
+          "source_page_label": "239",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-7F6070D7B0C4"
+          ]
+        },
+        {
+          "locator_id": "LOC-85159BE6445F",
+          "path_id": "PATH-6ADACF488B48",
+          "complete_heading_path": [
+            "Tolentino, Treaty of"
+          ],
+          "document_page": 359,
+          "source_page_label": "359",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-85159BE6445F"
+          ]
+        },
+        {
+          "locator_id": "LOC-87CE20A497D0",
+          "path_id": "PATH-DEFCCDB1C347",
+          "complete_heading_path": [
+            "Financiers"
+          ],
+          "document_page": 68,
+          "source_page_label": "68",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-87CE20A497D0"
+          ]
+        },
+        {
+          "locator_id": "LOC-8A56748413C8",
+          "path_id": "PATH-3039838F4039",
+          "complete_heading_path": [
+            "charitable workshops"
+          ],
+          "document_page": 14,
+          "source_page_label": "14",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-8A56748413C8"
+          ]
+        },
+        {
+          "locator_id": "LOC-8B9B4AD5C557",
+          "path_id": "PATH-56BA96D25421",
+          "complete_heading_path": [
+            "law",
+            "rule of law and 'general will'"
+          ],
+          "document_page": 115,
+          "source_page_label": "115",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-8B9B4AD5C557"
+          ]
+        },
+        {
+          "locator_id": "LOC-8C080223A18B",
+          "path_id": "PATH-C671861EDCFA",
+          "complete_heading_path": [
+            "émigrés",
+            "internal divisions ('pures' vs. 'constitutionals')"
+          ],
+          "document_page": 305,
+          "source_page_label": "305",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-8C080223A18B"
+          ]
+        },
+        {
+          "locator_id": "LOC-8CF1012EB6E0",
+          "path_id": "PATH-EF4E7FDEB578",
+          "complete_heading_path": [
+            "Broglie, Victor-François, duc de"
+          ],
+          "document_page": 106,
+          "source_page_label": "106",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-8CF1012EB6E0"
+          ]
+        },
+        {
+          "locator_id": "LOC-91A6EEDBEAA4",
+          "path_id": "PATH-2790D38E0BC2",
+          "complete_heading_path": [
+            "Palais Royal"
+          ],
+          "document_page": 391,
+          "source_page_label": "391",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-91A6EEDBEAA4"
+          ]
+        },
+        {
+          "locator_id": "LOC-91CF2580289D",
+          "path_id": "PATH-7FC776603AC0",
+          "complete_heading_path": [
+            "Danton, Georges-Jacques",
+            "Minister of Justice and September Massacres"
+          ],
+          "document_page": 189,
+          "source_page_label": "189",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-91CF2580289D"
+          ]
+        },
+        {
+          "locator_id": "LOC-9292D0FD720E",
+          "path_id": "PATH-266C22EBDCC8",
+          "complete_heading_path": [
+            "Vingtième"
+          ],
+          "document_page": 130,
+          "source_page_label": "130",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-9292D0FD720E"
+          ]
+        },
+        {
+          "locator_id": "LOC-93C783AEAA35",
+          "path_id": "PATH-24A8C199F0EA",
+          "complete_heading_path": [
+            "Puisaye, Joseph, Comte de"
+          ],
+          "document_page": 310,
+          "source_page_label": "310",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-93C783AEAA35"
+          ]
+        },
+        {
+          "locator_id": "LOC-962D6C9AA375",
+          "path_id": "PATH-89F8671E4140",
+          "complete_heading_path": [
+            "wage maximum"
+          ],
+          "document_page": 275,
+          "source_page_label": "275",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-962D6C9AA375"
+          ]
+        },
+        {
+          "locator_id": "LOC-98A012BE1009",
+          "path_id": "PATH-24A8C199F0EA",
+          "complete_heading_path": [
+            "Puisaye, Joseph, Comte de"
+          ],
+          "document_page": 313,
+          "source_page_label": "313",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-98A012BE1009"
+          ]
+        },
+        {
+          "locator_id": "LOC-9A6246DC5022",
+          "path_id": "PATH-DB6D0D6866F1",
+          "complete_heading_path": [
+            "Thermidor"
+          ],
+          "document_page": 273,
+          "source_page_label": "273",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-9A6246DC5022"
+          ]
+        },
+        {
+          "locator_id": "LOC-9E78912F47A5",
+          "path_id": "PATH-42775D903A8F",
+          "complete_heading_path": [
+            "Milan"
+          ],
+          "document_page": 385,
+          "source_page_label": "385",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-9E78912F47A5"
+          ]
+        },
+        {
+          "locator_id": "LOC-9EE3CCC10839",
+          "path_id": "PATH-0B0190D8E668",
+          "complete_heading_path": [
+            "lawyers"
+          ],
+          "document_page": 193,
+          "source_page_label": "193",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-9EE3CCC10839"
+          ]
+        },
+        {
+          "locator_id": "LOC-9F21A6CDB914",
+          "path_id": "PATH-EFBDB3021EDC",
+          "complete_heading_path": [
+            "La Revellière-Lépeaux, Louis-Marie de"
+          ],
+          "document_page": 370,
+          "source_page_label": "370",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-9F21A6CDB914"
+          ]
+        },
+        {
+          "locator_id": "LOC-A1BFB5EBD49A",
+          "path_id": "PATH-BC4026C6499C",
+          "complete_heading_path": [
+            "Brittany",
+            "rural and anti-seigneurial violence"
+          ],
+          "document_page": 115,
+          "source_page_label": "115",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "passing_mention",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A1BFB5EBD49A"
+          ]
+        },
+        {
+          "locator_id": "LOC-A20EDEB77405",
+          "path_id": "PATH-2E303AAD0A2E",
+          "complete_heading_path": [
+            "Montagnards (The Mountain)",
+            "persecution of Jews"
+          ],
+          "document_page": 410,
+          "source_page_label": "410",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A20EDEB77405"
+          ]
+        },
+        {
+          "locator_id": "LOC-A3CEE755D1E3",
+          "path_id": "PATH-6F49AC02609E",
+          "complete_heading_path": [
+            "Ducos, Roger"
+          ],
+          "document_page": 370,
+          "source_page_label": "370",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A3CEE755D1E3"
+          ]
+        },
+        {
+          "locator_id": "LOC-A5DE80A3394F",
+          "path_id": "PATH-32C62304D941",
+          "complete_heading_path": [
+            "Constitution of 1791",
+            "franchise and 'active citizens'"
+          ],
+          "document_page": 123,
+          "source_page_label": "123",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A5DE80A3394F"
+          ]
+        },
+        {
+          "locator_id": "LOC-A674E35FB204",
+          "path_id": "PATH-051733545F21",
+          "complete_heading_path": [
+            "Geneva"
+          ],
+          "document_page": 51,
+          "source_page_label": "51",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A674E35FB204"
+          ]
+        },
+        {
+          "locator_id": "LOC-A984D02CAFA8",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 153,
+          "source_page_label": "153",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A984D02CAFA8"
+          ]
+        },
+        {
+          "locator_id": "LOC-AC78C23DB1C9",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 154,
+          "source_page_label": "154",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-AC78C23DB1C9"
+          ]
+        },
+        {
+          "locator_id": "LOC-AFC40E5E7490",
+          "path_id": "PATH-2790D38E0BC2",
+          "complete_heading_path": [
+            "Palais Royal"
+          ],
+          "document_page": 129,
+          "source_page_label": "129",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "excluded",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-AFC40E5E7490"
+          ]
+        },
+        {
+          "locator_id": "LOC-B648C3653B39",
+          "path_id": "PATH-042E1AE6933C",
+          "complete_heading_path": [
+            "Priestley, Joseph"
+          ],
+          "document_page": 193,
+          "source_page_label": "193",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-B648C3653B39"
+          ]
+        },
+        {
+          "locator_id": "LOC-BA4DF918D5A6",
+          "path_id": "PATH-0B5669B43B77",
+          "complete_heading_path": [
+            "Harvest",
+            "failures and shortfalls"
+          ],
+          "document_page": 285,
+          "source_page_label": "285",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BA4DF918D5A6"
+          ]
+        },
+        {
+          "locator_id": "LOC-BB223E50083F",
+          "path_id": "PATH-72BCE3E8BD59",
+          "complete_heading_path": [
+            "regicide"
+          ],
+          "document_page": 337,
+          "source_page_label": "337",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BB223E50083F"
+          ]
+        },
+        {
+          "locator_id": "LOC-BB9E8E899721",
+          "path_id": "PATH-E60A5E43C706",
+          "complete_heading_path": [
+            "Barras, Paul-François-Jean-Nicolas, vicomte de"
+          ],
+          "document_page": 254,
+          "source_page_label": "254",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BB9E8E899721"
+          ]
+        },
+        {
+          "locator_id": "LOC-BC57C00C8392",
+          "path_id": "PATH-9179863DA642",
+          "complete_heading_path": [
+            "departments (départements)",
+            "annexed territories"
+          ],
+          "document_page": 142,
+          "source_page_label": "142",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BC57C00C8392"
+          ]
+        },
+        {
+          "locator_id": "LOC-BCF9F70212CD",
+          "path_id": "PATH-0EA112585FCF",
+          "complete_heading_path": [
+            "Paris",
+            "revolt against the Crown (1789)",
+            "October Days (march to Versailles)"
+          ],
+          "document_page": 299,
+          "source_page_label": "299",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BCF9F70212CD"
+          ]
+        },
+        {
+          "locator_id": "LOC-BF8D54853D9A",
+          "path_id": "PATH-EF532D84D2D4",
+          "complete_heading_path": [
+            "Couthon, Georges"
+          ],
+          "document_page": 174,
+          "source_page_label": "174",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BF8D54853D9A"
+          ]
+        },
+        {
+          "locator_id": "LOC-C167B1F42E9C",
+          "path_id": "PATH-506801E7F3C8",
+          "complete_heading_path": [
+            "Ligurian Republic"
+          ],
+          "document_page": 361,
+          "source_page_label": "361",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C167B1F42E9C"
+          ]
+        },
+        {
+          "locator_id": "LOC-C222A41EA4CE",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 176,
+          "source_page_label": "176",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C222A41EA4CE"
+          ]
+        },
+        {
+          "locator_id": "LOC-C3F940854FC0",
+          "path_id": "PATH-475DDD4EAFF6",
+          "complete_heading_path": [
+            "Danton, Georges-Jacques",
+            "foreign policy and war involvement"
+          ],
+          "document_page": 199,
+          "source_page_label": "199",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C3F940854FC0"
+          ]
+        },
+        {
+          "locator_id": "LOC-C532099DF13D",
+          "path_id": "PATH-5240DB247D9E",
+          "complete_heading_path": [
+            "Louis XVI",
+            "economic and financial crisis"
+          ],
+          "document_page": 93,
+          "source_page_label": "93",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C532099DF13D"
+          ]
+        },
+        {
+          "locator_id": "LOC-C7AC27EAC5BA",
+          "path_id": "PATH-DB6D0D6866F1",
+          "complete_heading_path": [
+            "Thermidor"
+          ],
+          "document_page": 275,
+          "source_page_label": "275",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C7AC27EAC5BA"
+          ]
+        },
+        {
+          "locator_id": "LOC-C7C3C17988FC",
+          "path_id": "PATH-682E711B051D",
+          "complete_heading_path": [
+            "Necker, Jacques",
+            "financial management and reforms"
+          ],
+          "document_page": 63,
+          "source_page_label": "63",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C7C3C17988FC"
+          ]
+        },
+        {
+          "locator_id": "LOC-C8CF741DE2A2",
+          "path_id": "PATH-5969A52B4960",
+          "complete_heading_path": [
+            "feudalism"
+          ],
+          "document_page": 105,
+          "source_page_label": "105",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C8CF741DE2A2"
+          ]
+        },
+        {
+          "locator_id": "LOC-C9E712B7AF63",
+          "path_id": "PATH-B509F716E731",
+          "complete_heading_path": [
+            "political clubs",
+            "international and foreign societies",
+            "in Italy"
+          ],
+          "document_page": 360,
+          "source_page_label": "360",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C9E712B7AF63"
+          ]
+        },
+        {
+          "locator_id": "LOC-CA39508FF9C5",
+          "path_id": "PATH-7E196168EBD7",
+          "complete_heading_path": [
+            "National Assembly",
+            "historical perspective and evaluation"
+          ],
+          "document_page": 113,
+          "source_page_label": "113",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "passing_mention",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CA39508FF9C5"
+          ]
+        },
+        {
+          "locator_id": "LOC-CD55914D3055",
+          "path_id": "PATH-2790D38E0BC2",
+          "complete_heading_path": [
+            "Palais Royal"
+          ],
+          "document_page": 106,
+          "source_page_label": "106",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CD55914D3055"
+          ]
+        },
+        {
+          "locator_id": "LOC-CF2AEE605855",
+          "path_id": "PATH-59F5E7ABBF3F",
+          "complete_heading_path": [
+            "desertion"
+          ],
+          "document_page": 30,
+          "source_page_label": "30",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CF2AEE605855"
+          ]
+        },
+        {
+          "locator_id": "LOC-D00D2D48CDA2",
+          "path_id": "PATH-ED68FCC9B189",
+          "complete_heading_path": [
+            "Revolutionary Government"
+          ],
+          "document_page": 213,
+          "source_page_label": "213",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D00D2D48CDA2"
+          ]
+        },
+        {
+          "locator_id": "LOC-D13E4F99E86F",
+          "path_id": "PATH-ED68FCC9B189",
+          "complete_heading_path": [
+            "Revolutionary Government"
+          ],
+          "document_page": 215,
+          "source_page_label": "215",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D13E4F99E86F"
+          ]
+        },
+        {
+          "locator_id": "LOC-D3D84625E3A3",
+          "path_id": "PATH-F57E374BDE52",
+          "complete_heading_path": [
+            "taxation"
+          ],
+          "document_page": 118,
+          "source_page_label": "118",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D3D84625E3A3"
+          ]
+        },
+        {
+          "locator_id": "LOC-D7BC7997ECAF",
+          "path_id": "PATH-667695511060",
+          "complete_heading_path": [
+            "Italy",
+            "occupation and sister republics"
+          ],
+          "document_page": 332,
+          "source_page_label": "332",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D7BC7997ECAF"
+          ]
+        },
+        {
+          "locator_id": "LOC-DF477F4E30C8",
+          "path_id": "PATH-894242A1BFF0",
+          "complete_heading_path": [
+            "Antraigues, Emmanuel-Henri-Louis Alexandre de Launay, Comte d'"
+          ],
+          "document_page": 313,
+          "source_page_label": "313",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-DF477F4E30C8"
+          ]
+        },
+        {
+          "locator_id": "LOC-DF574A4AA64F",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 186,
+          "source_page_label": "186",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-DF574A4AA64F"
+          ]
+        },
+        {
+          "locator_id": "LOC-E0BD7BEF10E7",
+          "path_id": "PATH-985B5AC9222B",
+          "complete_heading_path": [
+            "Catholic Army of the Midi"
+          ],
+          "document_page": 304,
+          "source_page_label": "304",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E0BD7BEF10E7"
+          ]
+        },
+        {
+          "locator_id": "LOC-E239FA63B5A4",
+          "path_id": "PATH-F2683060812E",
+          "complete_heading_path": [
+            "Froment, François"
+          ],
+          "document_page": 304,
+          "source_page_label": "304",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E239FA63B5A4"
+          ]
+        },
+        {
+          "locator_id": "LOC-E4FF24ACC837",
+          "path_id": "PATH-4F64EB8947EB",
+          "complete_heading_path": [
+            "Invalides"
+          ],
+          "document_page": 129,
+          "source_page_label": "129",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "excluded",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E4FF24ACC837"
+          ]
+        },
+        {
+          "locator_id": "LOC-E7B055D61E79",
+          "path_id": "PATH-ABEE93D5E4A9",
+          "complete_heading_path": [
+            "Fox, Charles James"
+          ],
+          "document_page": 160,
+          "source_page_label": "160",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E7B055D61E79"
+          ]
+        },
+        {
+          "locator_id": "LOC-E929C7B21DF9",
+          "path_id": "PATH-5A5368DFFEAE",
+          "complete_heading_path": [
+            "West Indies, Caribbean theater of war"
+          ],
+          "document_page": 6,
+          "source_page_label": "6",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E929C7B21DF9"
+          ]
+        },
+        {
+          "locator_id": "LOC-ED1A13286795",
+          "path_id": "PATH-17F0DA6B6177",
+          "complete_heading_path": [
+            "Ochs, Peter"
+          ],
+          "document_page": 356,
+          "source_page_label": "356",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-ED1A13286795"
+          ]
+        },
+        {
+          "locator_id": "LOC-EDF6BB788563",
+          "path_id": "PATH-BA06E1DE1BDE",
+          "complete_heading_path": [
+            "Versailles",
+            "post-revolutionary decline"
+          ],
+          "document_page": 391,
+          "source_page_label": "391",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-EDF6BB788563"
+          ]
+        },
+        {
+          "locator_id": "LOC-EF22612930BD",
+          "path_id": "PATH-84B3439B64EA",
+          "complete_heading_path": [
+            "Babeuf, François-Noël (Gracchus)",
+            "legacy and influence"
+          ],
+          "document_page": 383,
+          "source_page_label": "383",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-EF22612930BD"
+          ]
+        },
+        {
+          "locator_id": "LOC-F018D5406D0D",
+          "path_id": "PATH-5031D0D81CB5",
+          "complete_heading_path": [
+            "Theophilanthropy"
+          ],
+          "document_page": 334,
+          "source_page_label": "334",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F018D5406D0D"
+          ]
+        },
+        {
+          "locator_id": "LOC-F151A8A07EC5",
+          "path_id": "PATH-9D7E555371C1",
+          "complete_heading_path": [
+            "Brumaire, Coup of"
+          ],
+          "document_page": 18,
+          "source_page_label": "18",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F151A8A07EC5"
+          ]
+        },
+        {
+          "locator_id": "LOC-F3688DFA2845",
+          "path_id": "PATH-B377F4F34CAA",
+          "complete_heading_path": [
+            "Dutch Republic",
+            "territorial changes and long-term impact"
+          ],
+          "document_page": 413,
+          "source_page_label": "413",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F3688DFA2845"
+          ]
+        },
+        {
+          "locator_id": "LOC-F3D2E3EE4C76",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 151,
+          "source_page_label": "151",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F3D2E3EE4C76"
+          ]
+        },
+        {
+          "locator_id": "LOC-F404EA568752",
+          "path_id": "PATH-0B60B65248D8",
+          "complete_heading_path": [
+            "Marengo, Battle of"
+          ],
+          "document_page": 385,
+          "source_page_label": "385",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F404EA568752"
+          ]
+        },
+        {
+          "locator_id": "LOC-F4E39D4FD0F4",
+          "path_id": "PATH-4E614F6D4750",
+          "complete_heading_path": [
+            "Pichegru, Jean-Charles"
+          ],
+          "document_page": 316,
+          "source_page_label": "316",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F4E39D4FD0F4"
+          ]
+        },
+        {
+          "locator_id": "LOC-F9C701C2DC54",
+          "path_id": "PATH-144D6DFD5B67",
+          "complete_heading_path": [
+            "Sheffield Constitutional Society"
+          ],
+          "document_page": 169,
+          "source_page_label": "169",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F9C701C2DC54"
+          ]
+        },
+        {
+          "locator_id": "LOC-FC2FBF14B2DE",
+          "path_id": "PATH-29E786F6417B",
+          "complete_heading_path": [
+            "Cahiers de doléances"
+          ],
+          "document_page": 401,
+          "source_page_label": "401",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-FC2FBF14B2DE"
+          ]
+        },
+        {
+          "locator_id": "LOC-FEF511B2BC8A",
+          "path_id": "PATH-B2B7111BBD98",
+          "complete_heading_path": [
+            "Jacobins (Jacobin Club)",
+            "revival under the Directory"
+          ],
+          "document_page": 334,
+          "source_page_label": "334",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-FEF511B2BC8A"
+          ]
+        },
+        {
+          "locator_id": "LOC-FFF913D6A79B",
+          "path_id": "PATH-779BEFD900AB",
+          "complete_heading_path": [
+            "bocage"
+          ],
+          "document_page": 224,
+          "source_page_label": "224",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-FFF913D6A79B"
+          ]
+        }
+      ],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "Qualifying structured V10 evidence under the recorded predicate and ownership order."
+    },
+    {
+      "gate_id": "GATE-BROKEN-REFERENCE",
+      "description": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [],
+      "affected_evidence_ids": [
+        "XREF-1FB84F43D7ED",
+        "XREF-80B3F994D3ED"
+      ],
+      "threshold": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [
+        {
+          "reference_id": "XREF-1FB84F43D7ED",
+          "judgment": "unsupported",
+          "reference_type": "see also",
+          "target_display": "abolition of slavery",
+          "target_resolution": "no_valid_destination",
+          "resolved_path_ids": [],
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-03597F3EC0D5",
+            "EVID-3EF4119FDF7A",
+            "EVID-6CF2552D527B",
+            "EVID-8593059C70A4",
+            "EVID-9858B3B20B48",
+            "EVID-A363CCD370A8",
+            "EVID-E05D42F97BF4",
+            "EVID-E6EAD5FE3983",
+            "EVID-FCAE4359F6F7",
+            "EVID-XREF-1FB84F43D7ED"
+          ]
+        },
+        {
+          "reference_id": "XREF-80B3F994D3ED",
+          "judgment": "unsupported",
+          "reference_type": "see also",
+          "target_display": "9 Thermidor",
+          "target_resolution": "no_valid_destination",
+          "resolved_path_ids": [],
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-063FF3608951",
+            "EVID-06C39B6DFE6D",
+            "EVID-55B6DC01C491",
+            "EVID-5B7D20726886",
+            "EVID-5E127DF3A989",
+            "EVID-6AD6343A3595",
+            "EVID-951D667E68F0",
+            "EVID-9A6246DC5022",
+            "EVID-B20E0CE4952E",
+            "EVID-C7AC27EAC5BA",
+            "EVID-XREF-80B3F994D3ED"
+          ]
+        }
+      ],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "Qualifying structured V10 evidence under the recorded predicate and ownership order."
+    },
+    {
+      "gate_id": "GATE-SCOPE-LOCATOR",
+      "description": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+      "description": "Delivered severe/no-fit locator pattern: >=10 distinct items, >=5% of denominator, >=2 sections spanning >=25% of source or structure",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-CENTRAL-OMISSION",
+      "description": "Critical central omission or major omission demonstrably destroying high-priority access",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Critical central omission or major omission demonstrably destroying high-priority access",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-STANCE",
+      "description": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-COMPOUND",
+      "description": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-SEE-SUBSTITUTION",
+      "description": "Major/critical delivered substitutive see blocks warranted substantive access",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Major/critical delivered substitutive see blocks warranted substantive access",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-CROSS-REFERENCE",
+      "description": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-CLUTTER",
+      "description": "One clutter root cause: >=10 distinct items, >=5% of applicable population, >=2 sections spanning >=25% of source or structure",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-GROUNDING",
+      "description": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    },
+    {
+      "gate_id": "GATE-STRUCTURE",
+      "description": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+      "standard": true,
+      "triggered": false,
+      "defect_ids": [],
+      "affected_evidence_ids": [],
+      "threshold": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "No independently qualifying evidence crosses this threshold."
+    }
+  ],
+  "gate_assessment": {
+    "status": "indeterminate",
+    "blockers": [
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-01A0258E7F70",
+          "PATH-C8B64E8B526C"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-023D1B32BCF9",
+          "PATH-5968AC21F71C"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-054F489567D3",
+          "PATH-47D15065A414"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-1355AAF67F74",
+          "PATH-5417C443C1DF"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-168D7C2F5785",
+          "PATH-413AE26F8588"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-1928C7C4F3D8",
+          "PATH-C0896A935205"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-28D14132FBEB",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-2AF56879FF2D",
+          "PATH-3D1077B701DF"
+        ],
+        "semantic_unknown_axes": [
+          "treatment"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-2F3D125F4185",
+          "PATH-69E5028D79C1"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-333B9EC7874C",
+          "PATH-E7E33BA7191C"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-34D924032B83",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-362CF176E69C",
+          "PATH-E7E33BA7191C"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-37D4551D3C02",
+          "PATH-AB053AD29A6C"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-3DCFE6F855C9",
+          "PATH-2A24BB02B12C"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-437374322386",
+          "PATH-0D800E5C2685"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-45038B418476",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-45FB9D08E549",
+          "PATH-B4AF61ECF621"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-46E766454F4E",
+          "PATH-1F2A06AF475D"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-482F5EF66607",
+          "PATH-6F12B7971E4E"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-4A0BEAB963FD",
+          "PATH-D246C55F37ED"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-4CA9AEE56F06",
+          "PATH-1599C3DC4838"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-50B61DC3E08F",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-5110767257A9",
+          "PATH-381C838838CA"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-59C3F693463B",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-61A1D94FF46C",
+          "PATH-AEBBEB91FBD4"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-6A55ADAB8561",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-6C3A76952743",
+          "PATH-07B10977D069"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-73514620E356",
+          "PATH-B978269CC447"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-792DFD63926F",
+          "PATH-F16C491F5AC4"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-7A683641C93C",
+          "PATH-E7E33BA7191C"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "judgment_subtype"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-7C0653A3521F",
+          "PATH-F6151BE628B4"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-7E5C599FDB63",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-7F84935C41D9",
+          "PATH-66E399EAF7D8"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-8489FE05864C",
+          "PATH-CA18F25D3B5E"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-8B96D77E31B8",
+          "PATH-FACE8095CA3D"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-99E21A2188CF",
+          "PATH-DD6CCD24593B"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-9A262FAFCFC6",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-9C642D36955D",
+          "PATH-4A72B1752FDC"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-9CC007734668",
+          "PATH-413AE26F8588"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-9D6119C59AC0",
+          "PATH-380E9E67FB82"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-A265DAD53A04",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-A43850910668",
+          "PATH-9F0FC2FA6352"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-A657E26FD069",
+          "PATH-0092ED9380B0"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-A6B0EA0203BD",
+          "PATH-4C9BFD8BD165"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-B1625617D008",
+          "PATH-5290BA7D244D"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-BB7A1D912F55",
+          "PATH-DD6CCD24593B"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-BB9D355AEB42",
+          "PATH-0092ED9380B0"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-BBB4778ADEE7",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-C114D800A9CB",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-C44B37E183A9",
+          "PATH-7F3CB8596CBA"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-C681CF00BC03",
+          "PATH-B8EDB25F6FFE"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-C69C3F1DE8AF",
+          "PATH-9CFCE2ABF1C9"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-C702892B7F45",
+          "PATH-D4B525DD2C8C"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-C711320FA16A",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-C74D2DC5AC6E",
+          "PATH-DD6CCD24593B"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-C87C86F26B06",
+          "PATH-9F0FC2FA6352"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-CAE8E06425A9",
+          "PATH-18AC5D6E9C80"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-CCD0EE1E818F",
+          "PATH-34ADBD66DF9E"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-D52D8E11E4E4",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-D64E8A462005",
+          "PATH-CE71675DC0C2"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-D75586891317",
+          "PATH-081C2930008B"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-D9DEA76D6BFB",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-DB2765162B2A",
+          "PATH-5290BA7D244D"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-DD2858F503AF",
+          "PATH-C7A1770E45F5"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-DD776E252E83",
+          "PATH-413AE26F8588"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-E3BDE1C9A08C",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-E4E8A54CC3F1",
+          "PATH-4C9BFD8BD165"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-E5149F49FCB5",
+          "PATH-59F34776B0E9"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-E97EC5F71F72",
+          "PATH-CD1A39C78817"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-EE5DFDE579A1",
+          "PATH-CD1A39C78817"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-EE79B69716C8",
+          "PATH-413AE26F8588"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-F31FFC742181",
+          "PATH-DD6CCD24593B"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-F32906C107A2",
+          "PATH-0092ED9380B0"
+        ],
+        "semantic_unknown_axes": [
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-F5768E074A2C",
+          "PATH-E16731ADEE61"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-F7150D2928DA",
+          "PATH-A95A72D42C3E"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "complete_path_fit",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-LOCATOR-UNCERTAIN",
+        "affected_item_ids": [
+          "LOC-F8053C152AE4",
+          "PATH-3DEF7CEAC904"
+        ],
+        "semantic_unknown_axes": [
+          "treatment",
+          "keep"
+        ],
+        "dependent_reference_ids": [],
+        "reason": "Semantically unresolved after inspection; only predicates needing an unresolved axis are withheld."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "TASK-SUCC-1B1C05390422"
+        ],
+        "reason": "Unresolved factual review of facet legacy:TASK-DE183DF5EA06 under TASK-SUCC-1B1C05390422; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "NODE-8A4BC7DFEF76",
+          "PATH-246171893E3D",
+          "PATH-41016214E2AD",
+          "PATH-7D232FF92002",
+          "PATH-810DD7F62E39",
+          "PATH-B8EDB25F6FFE",
+          "SUBJ-SUCC-05EA4E351A83"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C005-S001 under SUBJ-SUCC-05EA4E351A83; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "NODE-8A4BC7DFEF76",
+          "PATH-246171893E3D",
+          "PATH-41016214E2AD",
+          "PATH-7D232FF92002",
+          "PATH-810DD7F62E39",
+          "PATH-B8EDB25F6FFE",
+          "SUBJ-SUCC-05EA4E351A83"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S001 under SUBJ-SUCC-05EA4E351A83; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "NODE-8A4BC7DFEF76",
+          "PATH-246171893E3D",
+          "PATH-41016214E2AD",
+          "PATH-7D232FF92002",
+          "PATH-810DD7F62E39",
+          "PATH-B8EDB25F6FFE",
+          "SUBJ-SUCC-05EA4E351A83"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S002 under SUBJ-SUCC-05EA4E351A83; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "NODE-8A4BC7DFEF76",
+          "PATH-246171893E3D",
+          "PATH-41016214E2AD",
+          "PATH-7D232FF92002",
+          "PATH-810DD7F62E39",
+          "PATH-B8EDB25F6FFE",
+          "SUBJ-SUCC-05EA4E351A83"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-05EA4E351A83; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-1ABFD55043E9",
+          "PATH-325A4BBBE8D9",
+          "PATH-5788FE012816",
+          "PATH-7B5A6CE39A0D",
+          "PATH-80273749F6C6",
+          "PATH-83FC5B97630C",
+          "PATH-C32DF0E0D240",
+          "PATH-FECDAEB4AFDA",
+          "SUBJ-SUCC-18017BE43CD2"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C008-S003 under SUBJ-SUCC-18017BE43CD2; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-1ABFD55043E9",
+          "PATH-325A4BBBE8D9",
+          "PATH-5788FE012816",
+          "PATH-7B5A6CE39A0D",
+          "PATH-80273749F6C6",
+          "PATH-83FC5B97630C",
+          "PATH-C32DF0E0D240",
+          "PATH-FECDAEB4AFDA",
+          "SUBJ-SUCC-18017BE43CD2"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-18017BE43CD2; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-3513334DB41B",
+          "PATH-453753449706",
+          "PATH-4571AD3D5E06",
+          "PATH-4DABA7E744E3",
+          "SUBJ-SUCC-38F9D4ACE8D4"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C006-S035 under SUBJ-SUCC-38F9D4ACE8D4; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-3513334DB41B",
+          "PATH-453753449706",
+          "PATH-4571AD3D5E06",
+          "PATH-4DABA7E744E3",
+          "SUBJ-SUCC-38F9D4ACE8D4"
+        ],
+        "reason": "Unresolved factual review of retained_distinction CHUNK-006-SUBJ-033 under SUBJ-SUCC-38F9D4ACE8D4; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-3513334DB41B",
+          "PATH-453753449706",
+          "PATH-4571AD3D5E06",
+          "PATH-4DABA7E744E3",
+          "SUBJ-SUCC-38F9D4ACE8D4"
+        ],
+        "reason": "Unresolved factual review of retained_distinction CHUNK-006-SUBJ-063 under SUBJ-SUCC-38F9D4ACE8D4; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-3513334DB41B",
+          "PATH-453753449706",
+          "PATH-4571AD3D5E06",
+          "PATH-4DABA7E744E3",
+          "SUBJ-SUCC-38F9D4ACE8D4"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-38F9D4ACE8D4; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C005-S030 under SUBJ-SUCC-5193E3F37320; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C012-S019 under SUBJ-SUCC-5193E3F37320; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C014-S015A under SUBJ-SUCC-5193E3F37320; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C017-S013 under SUBJ-SUCC-5193E3F37320; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S028 under SUBJ-SUCC-5193E3F37320; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S080 under SUBJ-SUCC-5193E3F37320; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S081 under SUBJ-SUCC-5193E3F37320; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S082 under SUBJ-SUCC-5193E3F37320; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S083 under SUBJ-SUCC-5193E3F37320; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-5193E3F37320"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-5193E3F37320; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0C8E96D035E1",
+          "PATH-A2BF60B34C5C",
+          "PATH-ED09CAF692E3",
+          "SUBJ-SUCC-5A2C055BC3AC"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C008-S038 under SUBJ-SUCC-5A2C055BC3AC; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0C8E96D035E1",
+          "PATH-A2BF60B34C5C",
+          "PATH-ED09CAF692E3",
+          "SUBJ-SUCC-5A2C055BC3AC"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-5A2C055BC3AC; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-08FA4C180199",
+          "PATH-49813E35777A",
+          "PATH-97E0B7981535",
+          "SUBJ-SUCC-7922496FA528"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C007-S011 under SUBJ-SUCC-7922496FA528; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-08FA4C180199",
+          "PATH-49813E35777A",
+          "PATH-97E0B7981535",
+          "SUBJ-SUCC-7922496FA528"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-7922496FA528; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-7B3E1AAE16C8"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C005-S013 under SUBJ-SUCC-7B3E1AAE16C8; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-7B3E1AAE16C8"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S042 under SUBJ-SUCC-7B3E1AAE16C8; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-7B3E1AAE16C8"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S043 under SUBJ-SUCC-7B3E1AAE16C8; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-7B3E1AAE16C8"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S089 under SUBJ-SUCC-7B3E1AAE16C8; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-7B3E1AAE16C8"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-7B3E1AAE16C8; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0DA7FA9C723C",
+          "PATH-269D23D68BD4",
+          "PATH-27294677A0B2",
+          "PATH-2A24BB02B12C",
+          "PATH-65CD008C34BC",
+          "PATH-702F7061CD03",
+          "PATH-CAFDF5785378",
+          "SUBJ-SUCC-7C338D256927"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C015-S007 under SUBJ-SUCC-7C338D256927; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0DA7FA9C723C",
+          "PATH-269D23D68BD4",
+          "PATH-27294677A0B2",
+          "PATH-2A24BB02B12C",
+          "PATH-65CD008C34BC",
+          "PATH-702F7061CD03",
+          "PATH-CAFDF5785378",
+          "SUBJ-SUCC-7C338D256927"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-7C338D256927; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-20C775E8FCC8",
+          "PATH-44162159B6A8",
+          "PATH-7014B6AD02F2",
+          "PATH-7C3B0E28DCA8",
+          "PATH-C8B64E8B526C",
+          "SUBJ-SUCC-85C459BB83CE"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C008-S024 under SUBJ-SUCC-85C459BB83CE; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-20C775E8FCC8",
+          "PATH-44162159B6A8",
+          "PATH-7014B6AD02F2",
+          "PATH-7C3B0E28DCA8",
+          "PATH-C8B64E8B526C",
+          "SUBJ-SUCC-85C459BB83CE"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-85C459BB83CE; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C005-S027 under SUBJ-SUCC-9998092EF3FD; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S020 under SUBJ-SUCC-9998092EF3FD; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S029 under SUBJ-SUCC-9998092EF3FD; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S070 under SUBJ-SUCC-9998092EF3FD; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S071 under SUBJ-SUCC-9998092EF3FD; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S072 under SUBJ-SUCC-9998092EF3FD; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9998092EF3FD"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-9998092EF3FD; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-99A2AEA8AD04"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C005-S026 under SUBJ-SUCC-99A2AEA8AD04; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-99A2AEA8AD04"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S068 under SUBJ-SUCC-99A2AEA8AD04; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-99A2AEA8AD04"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S069 under SUBJ-SUCC-99A2AEA8AD04; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-99A2AEA8AD04"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-99A2AEA8AD04; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9DA29F300357"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C010-S040 under SUBJ-SUCC-9DA29F300357; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9DA29F300357"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-9DA29F300357; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C005-S019 under SUBJ-SUCC-9E6D9535AA17; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S020 under SUBJ-SUCC-9E6D9535AA17; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S028 under SUBJ-SUCC-9E6D9535AA17; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S036 under SUBJ-SUCC-9E6D9535AA17; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S053 under SUBJ-SUCC-9E6D9535AA17; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S054 under SUBJ-SUCC-9E6D9535AA17; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S055 under SUBJ-SUCC-9E6D9535AA17; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S056 under SUBJ-SUCC-9E6D9535AA17; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S083 under SUBJ-SUCC-9E6D9535AA17; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-9E6D9535AA17"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-9E6D9535AA17; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-A7CE991FCCA3"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C005-S004 under SUBJ-SUCC-A7CE991FCCA3; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-A7CE991FCCA3"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S009 under SUBJ-SUCC-A7CE991FCCA3; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-A7CE991FCCA3"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S010 under SUBJ-SUCC-A7CE991FCCA3; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-A7CE991FCCA3"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S011 under SUBJ-SUCC-A7CE991FCCA3; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-A7CE991FCCA3"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S012 under SUBJ-SUCC-A7CE991FCCA3; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-A7CE991FCCA3"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S013 under SUBJ-SUCC-A7CE991FCCA3; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "SUBJ-SUCC-A7CE991FCCA3"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-A7CE991FCCA3; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-325A4BBBE8D9",
+          "PATH-389FF85E65B2",
+          "PATH-5788FE012816",
+          "PATH-596F056A7A5E",
+          "PATH-83FC5B97630C",
+          "PATH-AB2542A8B5DB",
+          "PATH-F2C2805C7CE4",
+          "PATH-FBE8EAC84366",
+          "SUBJ-SUCC-C421B8FB7D43"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C008-S019 under SUBJ-SUCC-C421B8FB7D43; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-325A4BBBE8D9",
+          "PATH-389FF85E65B2",
+          "PATH-5788FE012816",
+          "PATH-596F056A7A5E",
+          "PATH-83FC5B97630C",
+          "PATH-AB2542A8B5DB",
+          "PATH-F2C2805C7CE4",
+          "PATH-FBE8EAC84366",
+          "SUBJ-SUCC-C421B8FB7D43"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-C421B8FB7D43; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-4660303F145C",
+          "PATH-C32DF0E0D240",
+          "PATH-DAAE62865B21",
+          "PATH-FF4BD0B64D83",
+          "SUBJ-SUCC-E01B6781D013"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C008-S016 under SUBJ-SUCC-E01B6781D013; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-4660303F145C",
+          "PATH-C32DF0E0D240",
+          "PATH-DAAE62865B21",
+          "PATH-FF4BD0B64D83",
+          "SUBJ-SUCC-E01B6781D013"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-E01B6781D013; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "SUBJ-SUCC-EC9E8BA34735"
+        ],
+        "reason": "Unresolved factual review of facet FACET-SUCC-C001-S010 under SUBJ-SUCC-EC9E8BA34735; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "SUBJ-SUCC-EC9E8BA34735"
+        ],
+        "reason": "Unresolved factual review of retained_distinction CHUNK-001-V2-S017 under SUBJ-SUCC-EC9E8BA34735; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "SUBJ-SUCC-EC9E8BA34735"
+        ],
+        "reason": "Unresolved factual review of retained_distinction CHUNK-001-V2-S018 under SUBJ-SUCC-EC9E8BA34735; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "SUBJ-SUCC-EC9E8BA34735"
+        ],
+        "reason": "Unresolved factual review of retained_distinction CHUNK-001-V2-S019 under SUBJ-SUCC-EC9E8BA34735; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "SUBJ-SUCC-EC9E8BA34735"
+        ],
+        "reason": "Unresolved factual review of retained_distinction CHUNK-001-V2-S020 under SUBJ-SUCC-EC9E8BA34735; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "SUBJ-SUCC-EC9E8BA34735"
+        ],
+        "reason": "Unresolved factual review of retained_distinction CHUNK-001-V2-S021 under SUBJ-SUCC-EC9E8BA34735; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "SUBJ-SUCC-EC9E8BA34735"
+        ],
+        "reason": "Unresolved factual review of retained_distinction CHUNK-001-V2-S022 under SUBJ-SUCC-EC9E8BA34735; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "SUBJ-SUCC-EC9E8BA34735"
+        ],
+        "reason": "Unresolved factual review of retained_distinction CHUNK-001-V2-S023 under SUBJ-SUCC-EC9E8BA34735; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "SUBJ-SUCC-EC9E8BA34735"
+        ],
+        "reason": "Unresolved factual review of retained_distinction CHUNK-001-V2-S024 under SUBJ-SUCC-EC9E8BA34735; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "SUBJ-SUCC-EC9E8BA34735"
+        ],
+        "reason": "Unresolved factual review of retained_distinction CHUNK-001-V2-S025 under SUBJ-SUCC-EC9E8BA34735; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-0E9675C5A27E",
+          "PATH-31E7122984F7",
+          "PATH-85CF19B71BC4",
+          "PATH-86430C0D1355",
+          "PATH-9FF3D611504B",
+          "PATH-ABCAF845147D",
+          "PATH-C48233FB6F4C",
+          "PATH-CFADFE4F14D0",
+          "PATH-DABDFB92953D",
+          "PATH-F64066EFD844",
+          "PATH-F7DC757B78EB",
+          "SUBJ-SUCC-EC9E8BA34735"
+        ],
+        "reason": "Unresolved factual review of scope_rule SCOPE under SUBJ-SUCC-EC9E8BA34735; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-1B9B3830CD6E",
+          "PATH-246171893E3D",
+          "PATH-4078D9FDECBB",
+          "PATH-810DD7F62E39",
+          "PATH-B0E11A978A1B",
+          "SUBJ-SUCC-F538F5819691"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S037 under SUBJ-SUCC-F538F5819691; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-REVIEW",
+        "affected_item_ids": [
+          "PATH-1B9B3830CD6E",
+          "PATH-246171893E3D",
+          "PATH-4078D9FDECBB",
+          "PATH-810DD7F62E39",
+          "PATH-B0E11A978A1B",
+          "SUBJ-SUCC-F538F5819691"
+        ],
+        "reason": "Unresolved factual review of retained_distinction C005-S046 under SUBJ-SUCC-F538F5819691; private review rationale retained in the bound receipt."
+      },
+      {
+        "blocker_id": "GATE-ASSESSMENT-ACCESS-PARENT-UNCERTAIN",
+        "affected_item_ids": [
+          "SUBJ-SUCC-5A2C055BC3AC",
+          "SUBJ-SUCC-EC9E8BA34735",
+          "TASK-SUCC-1B1C05390422"
+        ],
+        "semantic_unknown_axes": [
+          "coverage",
+          "realistic_first_lookup_success",
+          "result"
+        ],
+        "reason": "Inspected parent access depends on an unresolved semantic premise; no resolved access outcome is inferred."
+      }
+    ]
+  },
+  "evaluation_validity": {
+    "status": "valid",
+    "blockers": [],
+    "used_as_publication_gate": false
+  },
+  "review_signals": [
+    {
+      "signal_id": "REVIEW-PARTIAL-FIT",
+      "color": "yellow",
+      "affected_evidence_ids": [
+        "LOC-00A591984FFE",
+        "LOC-0318DAE891BE",
+        "LOC-0A8D714F1166",
+        "LOC-0AA18CD659F3",
+        "LOC-0C09FF5372AF",
+        "LOC-0D3344688D78",
+        "LOC-0F6214F2A488",
+        "LOC-13A916CE4492",
+        "LOC-145CDD0595ED",
+        "LOC-1845BF085A7B",
+        "LOC-1A5282F5A1E9",
+        "LOC-1CD7E1A3CFB4",
+        "LOC-1D5D6319C569",
+        "LOC-1DE450362061",
+        "LOC-28E6F323ADA4",
+        "LOC-2E774BB224BE",
+        "LOC-30F0C33D070B",
+        "LOC-31BA7BD6C39C",
+        "LOC-31FAADBDF4F9",
+        "LOC-32AD666C71CD",
+        "LOC-36641F4EA206",
+        "LOC-378DB2FE0A5E",
+        "LOC-39B3F7CDC7BE",
+        "LOC-4442281F8070",
+        "LOC-4802CE4A48C0",
+        "LOC-4885238F40A6",
+        "LOC-5134BDFF52FD",
+        "LOC-517CAE69CC10",
+        "LOC-59630A3014CA",
+        "LOC-5BFC7C783E05",
+        "LOC-5E8C0E970E29",
+        "LOC-642242900424",
+        "LOC-6793B09BD95D",
+        "LOC-693BAA20477D",
+        "LOC-6BC6951DC5A9",
+        "LOC-6C8D6653F70C",
+        "LOC-703DA83F9055",
+        "LOC-710578E0561B",
+        "LOC-790BBE658FCF",
+        "LOC-792DD14F37B4",
+        "LOC-7B55E6E4FB8B",
+        "LOC-7F51DEDC074D",
+        "LOC-81CEEEF72984",
+        "LOC-89C708AB69E5",
+        "LOC-8B0656C6F903",
+        "LOC-8C02C0AACA79",
+        "LOC-9317B97EEB3F",
+        "LOC-9398E42E0524",
+        "LOC-979D5301AF53",
+        "LOC-A0DF7E64C56E",
+        "LOC-A1C7DFCDA94C",
+        "LOC-AD85A2D9A7EB",
+        "LOC-AE1F739D16A2",
+        "LOC-B30FD4F793CA",
+        "LOC-B9C915D26B29",
+        "LOC-C239B79924E1",
+        "LOC-CAFEFD5F062E",
+        "LOC-CB442895EB2D",
+        "LOC-CB53C741BF5A",
+        "LOC-CD022FEF5329",
+        "LOC-D3BD54C7D961",
+        "LOC-E8FA5CDF1874",
+        "LOC-E9246E9F8E02",
+        "LOC-EB0E27A249CD",
+        "LOC-ED86C786DBB3",
+        "LOC-EDB9A0592E45",
+        "LOC-F74E0FD98302",
+        "LOC-FA48D0397DB6",
+        "LOC-FAE51F2F6151",
+        "LOC-FBA5BFC474F6",
+        "LOC-FCBE05B1FFC9"
+      ],
+      "count": 71,
+      "reason": "Partial fits retain ordinary diagnostic and rating consequences; no cap or gate.",
+      "individually_caps_or_gates": false
+    },
+    {
+      "signal_id": "REVIEW-HEADING-DEPTH",
+      "color": "yellow",
+      "affected_evidence_ids": [
+        "NODE-1191397E9EB1",
+        "NODE-16129A683B89",
+        "NODE-1B08A15A1C3F",
+        "NODE-1BA45F0A7134",
+        "NODE-1E34556283CC",
+        "NODE-1E63438B0AD6",
+        "NODE-1ECC12F245C7",
+        "NODE-2C48EB3C2124",
+        "NODE-306E0BB4F3DA",
+        "NODE-369199BC8F4B",
+        "NODE-3787102685F4",
+        "NODE-4A3142A7AA68",
+        "NODE-4AA649CA0037",
+        "NODE-4BDFFAA5353F",
+        "NODE-53185142F438",
+        "NODE-55415D2A17D5",
+        "NODE-62552B731581",
+        "NODE-62ADC0366ADB",
+        "NODE-62C03E45EB1E",
+        "NODE-6305DC524EEF",
+        "NODE-68A591A13D47",
+        "NODE-6BDB16C19EE8",
+        "NODE-6CB3EFA9FE43",
+        "NODE-6E05DB5753EA",
+        "NODE-76C320CFEADE",
+        "NODE-7B675A5967A8",
+        "NODE-7C8370D24BEA",
+        "NODE-9A4C65054083",
+        "NODE-9EEA4EFFC27A",
+        "NODE-A7C0D48474B6",
+        "NODE-AB2C62FD68FE",
+        "NODE-AB9A5C65E120",
+        "NODE-B20C4A797637",
+        "NODE-B293C24EF17B",
+        "NODE-BB2A9687E9A3",
+        "NODE-C0B380D19B5F",
+        "NODE-C1643D90135B",
+        "NODE-C26C2FF15CFD",
+        "NODE-C978A73AC01D",
+        "NODE-D26E8416ED3B",
+        "NODE-D3A6332B04CD",
+        "NODE-D629B6F439AD",
+        "NODE-D821FAF322E9",
+        "NODE-DCA89F097FCD",
+        "NODE-E7057E5104AC",
+        "NODE-E7F9D5EE1145",
+        "NODE-E8A3991C0A52",
+        "NODE-E8A770B81BF2",
+        "NODE-E97C2BDC93DD",
+        "NODE-F2DE015F77F0"
+      ],
+      "count": 50,
+      "reason": "Third-level headings prompt review only.",
+      "individually_caps_or_gates": false
+    }
+  ],
+  "report_id": "oxford-history-french-revolution-2002-indexerlabs-truncated-v10",
+  "headline": "Subject-index evaluation",
+  "summary": "V10 percentage evaluation from validated registered artifacts and independently reviewed benchmark access proof.",
+  "interpretation": "Semantically unresolved after inspection; no overall percentage is established.",
+  "defect_counts": {
+    "minor": 2
+  },
+  "strengths": [
+    {
+      "strength_id": "STRENGTH-STRUCT-001",
+      "summary": "All 1644 delivered paths resolve through 1644 stable nodes in a complete hierarchy of 1056 main headings and 588 subheadings, with maximum depth 3.",
+      "affected_item_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [
+        "GLOBAL-STRUCTURE-SCOPE"
+      ]
+    },
+    {
+      "strength_id": "STRENGTH-STRUCT-002",
+      "summary": "Cross-chapter coherence is strong: 925 complete paths retrieve treatment in more than one approved intellectual unit while retaining stable path identities.",
+      "affected_item_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [
+        "GLOBAL-STRUCTURE-SCOPE"
+      ]
+    },
+    {
+      "strength_id": "STRENGTH-STRUCT-003",
+      "summary": "Registered locator review supports 5915 of 6222 atomic assignments, and exact displayed-to-atomic ownership reconstructs all 5056 delivered locator displays.",
+      "affected_item_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [
+        "GLOBAL-STRUCTURE-SCOPE"
+      ]
+    },
+    {
+      "strength_id": "STRENGTH-STRUCT-004",
+      "summary": "Eight of ten delivered cross-references resolve to substantive target heading trees; reciprocal see-also pairs remain supplementary rather than circular substitutive chains.",
+      "affected_item_ids": [
+        "XREF-09E6F426BD3E",
+        "XREF-15B6ADCE3B38",
+        "XREF-1A6D5852095D",
+        "XREF-211AFFA2C3E2",
+        "XREF-28E112033301",
+        "XREF-48CCAF0AF63F",
+        "XREF-53B4CA7F3982",
+        "XREF-DA708DF74A2A"
+      ],
+      "evidence_ids": [
+        "XREF-09E6F426BD3E",
+        "XREF-15B6ADCE3B38",
+        "XREF-1A6D5852095D",
+        "XREF-211AFFA2C3E2",
+        "XREF-28E112033301",
+        "XREF-48CCAF0AF63F",
+        "XREF-53B4CA7F3982",
+        "XREF-DA708DF74A2A"
+      ]
+    }
+  ],
+  "defects": [
+    {
+      "defect_id": "DEFECT-STRUCT-SUBDIVISION-001",
+      "code": "SUB",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "clutter_pattern",
+      "affected_item_ids": [
+        "PATH-0C63FACA6CED",
+        "PATH-21F68C2B2947",
+        "PATH-2808CD626340",
+        "PATH-5969A52B4960",
+        "PATH-59F34776B0E9",
+        "PATH-7605F99DAB90",
+        "PATH-A254A6CC29F8",
+        "PATH-C48233FB6F4C",
+        "PATH-FF4BD0B64D83"
+      ],
+      "affected_source_sections": [],
+      "affected_structural_sections": [
+        "NODE-01D53B19F597",
+        "NODE-107554BF00D1",
+        "NODE-2D923995EDC0",
+        "NODE-39E9DC639883",
+        "NODE-6252CE8AED62",
+        "NODE-AA1D707267CB",
+        "NODE-D1BC8048EF51",
+        "NODE-D6EB1563ED92",
+        "NODE-D99501165F63"
+      ],
+      "root_cause_family": "undifferentiated_multi_phase_or_multi_role_treatments_impair_scanning",
+      "affected_count": 9,
+      "applicable_count": 1644,
+      "affected_rate": "0.005474",
+      "source_section_denominator": 17,
+      "source_section_rate": "0",
+      "structural_section_denominator": 1056,
+      "structural_section_rate": "0.008523",
+      "high_priority_access_destroyed": false
+    },
+    {
+      "defect_id": "DEFECT-STRUCT-XREF-SUPPLEMENTARY-001",
+      "code": "XRF",
+      "dimension_owner": "findability_navigation",
+      "severity": "minor",
+      "severity_basis": "localized_repairable_friction",
+      "retrieval_consequence": "slows",
+      "defect_kind": "unsupported_reference",
+      "affected_item_ids": [
+        "XREF-1FB84F43D7ED",
+        "XREF-80B3F994D3ED"
+      ],
+      "affected_source_sections": [],
+      "affected_structural_sections": [
+        "NODE-66A9F1D61D8A",
+        "NODE-8768AD925301"
+      ],
+      "root_cause_family": "supplementary_cross_reference_targets_absent_from_complete_inventory",
+      "affected_count": 2,
+      "applicable_count": 10,
+      "affected_rate": "0.2",
+      "source_section_denominator": 17,
+      "source_section_rate": "0",
+      "structural_section_denominator": 1056,
+      "structural_section_rate": "0.001894",
+      "high_priority_access_destroyed": false
+    }
+  ],
+  "examples": [],
+  "limitations": [],
+  "canonical_calculation": {
+    "schema_version": "subject-index-dimension-calculations-v9",
+    "execution_contract": {
+      "execution_contract_id": "subject-index-v10-semantic-execution-v1",
+      "contract_constituents": {
+        "subject-index-evaluation-v10-decision-v1": "f812eae0d09b60a4c1e74b1b6b9e6dd5850e088f9f9bb583152e9559f6ee07a9",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v1": "e0f0e91a23274a94e292409b17df53d1b403bd0a52b26e6e7ae84809430c5f76",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v2": "fea2a5b87f9e063d28135895fdb7d3637dfe4d2edd294fb7a50fd3aff7009277",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v3": "4031abef00cb37508f30c8c89ec5e12592ce89369f144c1473ebc43bf9503a7d",
+        "subject-index-evaluation-v10-semantic-uncertainty-addendum-v4": "b5d51033cb03093ca242841f8d9a5aac510915cfedad800614078e5199220a64"
+      },
+      "successor_runtime_commit": "fdb4bd8c0254804d115f6072f37efc980e10e59d",
+      "runtime_payload_sha256": "accfb04682705fbd3a5835036f5538c18e36f3819f99ad063fd94d32364a3256",
+      "compatibility_sha256": "033d06d9234872fa7b9ad895c6b77ea58c9090d954474729b76746fabc23874b",
+      "source_release_file_sha256": "6723d64081ac52f2895fc506138f379720667533e1b6af700560e76604db2f1d"
+    },
+    "artifact_path": "scoring-v10-r2-final/dimension-calculations.v9.json",
+    "sha256": "b27d16ba12c61726209ce041c8d4c383c4aba78f33b1f38038229f2f5639ef49",
+    "calculation_sha256": "eb2c422156eee72201e6f36c14cc7964a12294562c7dfa0bc8170b4bc136ece7",
+    "rubric_version": "subject-index-rubric-v10",
+    "calculation_profile": "subject-index-dimension-calculation-v9"
+  },
+  "canonical_structure_audit": {
+    "schema_version": "structure-audit-v6",
+    "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v10-r2.json",
+    "sha256": "8ebc55082fe711ba03ac36624e987edbc94fb6a819665c9138d5babd7eba1ebb"
+  },
+  "canonical_heading_access_source": {
+    "role": "heading_access_causal_source",
+    "schema_version": "structure-audit-v6",
+    "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v10-r2.json",
+    "sha256": "8ebc55082fe711ba03ac36624e987edbc94fb6a819665c9138d5babd7eba1ebb"
+  },
+  "projection_metadata_sha256": "a2d33f5abc72b8c284033394d796fa6c6e1906d6a756d6c07a40ab391489e475"
+}

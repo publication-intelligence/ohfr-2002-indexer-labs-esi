@@ -1096,6 +1096,10 @@ def main(argv: list[str] | None = None) -> int:
     output_directory = (repository_root / args.output_directory).resolve()
     contract_directory = (repository_root / args.contract_directory).resolve()
     try:
+        if args.command == "build":
+            state = load_json(evaluation_root / "evaluation-state.json")
+            require(state["configuration"]["rubric_version"] == "subject-index-rubric-v8",
+                    "This historical builder requires frozen V8 inputs. Use the registered V8.1 build-report command for the current evaluation.")
         copy_contracts(contract_directory, output_directory)
         if args.command == "build":
             projection = build_projection(repository_root, evaluation_root, output_directory)

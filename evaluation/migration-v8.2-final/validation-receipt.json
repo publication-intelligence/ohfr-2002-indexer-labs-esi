@@ -1,0 +1,43 @@
+{
+  "schema_version": "indexerlabs-v82-final-validation-v1",
+  "methodology_revision": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "installation_receipt_sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204",
+  "runtime_files_verified": 111,
+  "project_tests_passed": 16,
+  "methodology_tests_passed": 180,
+  "bundle_validation": {
+    "ok": true,
+    "current_source_bindings_checked": 26,
+    "collections": 3
+  },
+  "state_validation": {
+    "command": "validate",
+    "ok": true,
+    "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+    "errors": [],
+    "warnings": []
+  },
+  "numeric_invariance": {
+    "baseline_commit": "48bb67b434335cd90002f7bf2078a8a176e2a525",
+    "overall_before": 85.12,
+    "overall_after": 85.12,
+    "all_dimension_fields_equal_except": [
+      "formula_id",
+      "input_artifacts"
+    ],
+    "components_caps_deductions_diagnostics_unchanged": true
+  },
+  "evaluation_validity": {
+    "status": "valid",
+    "blockers": [],
+    "used_as_publication_gate": false
+  },
+  "gate_counts": {
+    "GATE-WRONG-LOCATOR": 140,
+    "GATE-BROKEN-REFERENCE": 2
+  },
+  "assessment_status": "indeterminate",
+  "assessment_gaps": 970,
+  "readiness": "not_publication_ready",
+  "frozen_judgments_and_original_uncertainties": "unchanged"
+}

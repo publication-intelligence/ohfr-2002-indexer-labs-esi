@@ -5170,6 +5170,21 @@
       "reference_ids": []
     },
     {
+      "path_id": "PATH-2A45CA2A2AAA",
+      "record_id": "REC-95178351D043",
+      "record_type": "page_bearing",
+      "heading_path": [
+        "Senez, see of"
+      ],
+      "node_ids": [
+        "NODE-482818A463B9"
+      ],
+      "locator_ids": [
+        "LOC-9FE249AA2E90"
+      ],
+      "reference_ids": []
+    },
+    {
       "path_id": "PATH-2A563A8C98C9",
       "record_id": "REC-5B4F23A25BE2",
       "record_type": "page_bearing",
@@ -24274,21 +24289,6 @@
         "LOC-6F76F1EB1A5E"
       ],
       "reference_ids": []
-    },
-    {
-      "path_id": "PATH-CC40877BD826",
-      "record_id": "REC-95178351D043",
-      "record_type": "cross_reference",
-      "heading_path": [
-        "Senez"
-      ],
-      "node_ids": [
-        "NODE-1EEBFD219FEB"
-      ],
-      "locator_ids": [],
-      "reference_ids": [
-        "XREF-39A88974E771"
-      ]
     },
     {
       "path_id": "PATH-CCB104C5BD2A",
@@ -53359,22 +53359,22 @@
       ]
     },
     {
-      "node_id": "NODE-1EEBFD219FEB",
+      "node_id": "NODE-482818A463B9",
       "level": 1,
       "role": "main_heading",
-      "label": "Senez",
+      "label": "Senez, see of",
       "heading_path": [
-        "Senez"
+        "Senez, see of"
       ],
       "parent_node_id": null,
       "path_ids": [
-        "PATH-CC40877BD826"
+        "PATH-2A45CA2A2AAA"
       ],
       "record_ids": [
         "REC-95178351D043"
       ],
       "direct_path_ids": [
-        "PATH-CC40877BD826"
+        "PATH-2A45CA2A2AAA"
       ]
     },
     {
@@ -104164,6 +104164,16 @@
       "mapping_status": "resolved"
     },
     {
+      "locator_id": "LOC-9FE249AA2E90",
+      "path_id": "PATH-2A45CA2A2AAA",
+      "node_ids": [
+        "NODE-482818A463B9"
+      ],
+      "source_page_label": "143",
+      "document_page": 143,
+      "mapping_status": "resolved"
+    },
+    {
       "locator_id": "LOC-9FE3B0F0C669",
       "path_id": "PATH-7ED832C2B4E7",
       "node_ids": [
@@ -128422,15 +128432,6 @@
       "target_path_id": "PATH-FF4BD0B64D83"
     },
     {
-      "reference_id": "XREF-39A88974E771",
-      "record_id": "REC-95178351D043",
-      "source_path_id": "PATH-CC40877BD826",
-      "source_node_id": "NODE-1EEBFD219FEB",
-      "reference_type": "see",
-      "target_display": "of, 143",
-      "target_path_id": null
-    },
-    {
       "reference_id": "XREF-48CCAF0AF63F",
       "record_id": "REC-EACC17C7759B",
       "source_path_id": "PATH-259B6C34E666",
@@ -128470,7 +128471,7 @@
   "counts": {
     "paths": 1644,
     "heading_nodes": 1644,
-    "locators": 6221,
-    "cross_references": 11
+    "locators": 6222,
+    "cross_references": 10
   }
 }

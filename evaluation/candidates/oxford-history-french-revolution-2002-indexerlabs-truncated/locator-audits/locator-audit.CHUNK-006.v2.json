@@ -385,7 +385,8 @@
     "LOC-5EFCBB681BDC",
     "LOC-C25329BE331B",
     "LOC-A602E7321EF8",
-    "LOC-BCC4DBA41B91"
+    "LOC-BCC4DBA41B91",
+    "LOC-9FE249AA2E90"
   ],
   "judgments": [
     {
@@ -8211,22 +8212,43 @@
       "confidence": "high",
       "error_codes": [],
       "severity": "none"
+    },
+    {
+      "locator_id": "LOC-9FE249AA2E90",
+      "path_id": "PATH-2A45CA2A2AAA",
+      "complete_heading_path": [
+        "Senez, see of"
+      ],
+      "document_page": 143,
+      "source_page_label": "143",
+      "source_scope_status": "indexable",
+      "treatment_class": "substantive",
+      "complete_path_fit": "exact_fit",
+      "judgment": "supported",
+      "evidence_summary": "Source page 143 explains resistance to the suppression of episcopal sees and gives a sustained example of the incumbent of Senez defending his bond with his church and flock. This substantively supports the delivered heading Senez, see of and its locator 143.",
+      "fit_rationale": "The complete heading denotes the ecclesiastical see, not a redirect. The destination discusses its threatened suppression and the incumbent response.",
+      "evidence_ids": [
+        "EVID-9FE249AA2E90"
+      ],
+      "confidence": "high",
+      "error_codes": [],
+      "severity": "none"
     }
   ],
   "completion": {
-    "expected": 381,
-    "judged": 381,
+    "expected": 382,
+    "judged": 382,
     "unique": true,
     "complete": true,
     "uninspectable": 0,
     "status_counts": {
-      "supported": 371,
+      "supported": 372,
       "partially_supported": 0,
       "unsupported": 10,
       "uninspectable": 0
     },
     "severity_counts": {
-      "none": 372,
+      "none": 373,
       "cosmetic": 0,
       "minor": 4,
       "major": 5,

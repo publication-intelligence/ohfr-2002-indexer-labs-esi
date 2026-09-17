@@ -1,0 +1,4408 @@
+{
+  "schema_version": "indexerlabs-v82-migration-ledger-v1",
+  "status": "interim_validated_pending_gate_assessor_patch",
+  "baseline_commit": "48bb67b434335cd90002f7bf2078a8a176e2a525",
+  "original_commit": "11a3710435a4f870378929652cbc3f7c7e5f459b",
+  "repair_checkpoint": "Senez repair completed independently at baseline_commit, not rerun or discarded. The migration baseline is its exact 85.12% V8.1 output.",
+  "methodology_revision": "adeb69171a3278893e8b7ebb3c664ee5bd428efe",
+  "identities": {
+    "rubric_version": "subject-index-rubric-v8.2",
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v7"
+  },
+  "policy_profile": "subject-index-standard-policy-v8.2",
+  "migration_freeze": {
+    "frozen_at": "2026-09-16T17:17:58.244815+00:00",
+    "candidate_seen": true
+  },
+  "authorization": {
+    "authorized_by": "user via coordinating task",
+    "reference": "Coordinator dispatch in this task, 2026-09-16: proceed with the user-authorized combined V8.2 gate-policy and native retrospective-provenance migration."
+  },
+  "changes": [
+    "Native retrospective provenance and V8.2 direct-gate identities",
+    "Exactly two typed target resolutions encode frozen complete-inventory findings, without changing judgment/severity",
+    "Active benchmark/packet hashes rebound; canonical registered scoring and reporting rebuilt"
+  ],
+  "rerun_substantive_stages": [],
+  "structured_reference_changes": [
+    {
+      "reference_id": "XREF-1FB84F43D7ED",
+      "before": {
+        "reference_id": "XREF-1FB84F43D7ED",
+        "judgment": "unsupported",
+        "summary": "The supplementary target 'abolition of slavery' has no target PATH-* in the complete inventory; the source slavery entry retains its own locators, so direct access survives.",
+        "severity": "minor",
+        "confidence": "high",
+        "evidence_ids": [
+          "EVID-9858B3B20B48",
+          "EVID-3EF4119FDF7A",
+          "EVID-FCAE4359F6F7",
+          "EVID-E05D42F97BF4",
+          "EVID-E6EAD5FE3983",
+          "EVID-03597F3EC0D5",
+          "EVID-6CF2552D527B",
+          "EVID-A363CCD370A8",
+          "EVID-8593059C70A4",
+          "EVID-XREF-1FB84F43D7ED"
+        ]
+      },
+      "after": {
+        "reference_id": "XREF-1FB84F43D7ED",
+        "judgment": "unsupported",
+        "summary": "The supplementary target 'abolition of slavery' has no target PATH-* in the complete inventory; the source slavery entry retains its own locators, so direct access survives.",
+        "severity": "minor",
+        "confidence": "high",
+        "evidence_ids": [
+          "EVID-9858B3B20B48",
+          "EVID-3EF4119FDF7A",
+          "EVID-FCAE4359F6F7",
+          "EVID-E05D42F97BF4",
+          "EVID-E6EAD5FE3983",
+          "EVID-03597F3EC0D5",
+          "EVID-6CF2552D527B",
+          "EVID-A363CCD370A8",
+          "EVID-8593059C70A4",
+          "EVID-XREF-1FB84F43D7ED"
+        ],
+        "target_resolution": {
+          "status": "no_valid_destination",
+          "reference_type": "see also",
+          "target_display": "abolition of slavery",
+          "resolved_path_ids": [],
+          "evidence_ids": [
+            "EVID-9858B3B20B48",
+            "EVID-3EF4119FDF7A",
+            "EVID-FCAE4359F6F7",
+            "EVID-E05D42F97BF4",
+            "EVID-E6EAD5FE3983",
+            "EVID-03597F3EC0D5",
+            "EVID-6CF2552D527B",
+            "EVID-A363CCD370A8",
+            "EVID-8593059C70A4",
+            "EVID-XREF-1FB84F43D7ED"
+          ],
+          "rationale": "The frozen exception explicitly records absence of this delivered target in the complete candidate inventory. The originating heading retains direct locators, but those do not supply the absent target. This encodes the existing complete-inventory finding, not an inference from null normalization metadata."
+        }
+      }
+    },
+    {
+      "reference_id": "XREF-80B3F994D3ED",
+      "before": {
+        "reference_id": "XREF-80B3F994D3ED",
+        "judgment": "unsupported",
+        "summary": "The supplementary target '9 Thermidor' has no target PATH-* in the complete inventory; the source Thermidor entry retains direct locators to the event.",
+        "severity": "minor",
+        "confidence": "high",
+        "evidence_ids": [
+          "EVID-6AD6343A3595",
+          "EVID-9A6246DC5022",
+          "EVID-55B6DC01C491",
+          "EVID-C7AC27EAC5BA",
+          "EVID-06C39B6DFE6D",
+          "EVID-063FF3608951",
+          "EVID-B20E0CE4952E",
+          "EVID-5B7D20726886",
+          "EVID-951D667E68F0",
+          "EVID-5E127DF3A989",
+          "EVID-XREF-80B3F994D3ED"
+        ]
+      },
+      "after": {
+        "reference_id": "XREF-80B3F994D3ED",
+        "judgment": "unsupported",
+        "summary": "The supplementary target '9 Thermidor' has no target PATH-* in the complete inventory; the source Thermidor entry retains direct locators to the event.",
+        "severity": "minor",
+        "confidence": "high",
+        "evidence_ids": [
+          "EVID-6AD6343A3595",
+          "EVID-9A6246DC5022",
+          "EVID-55B6DC01C491",
+          "EVID-C7AC27EAC5BA",
+          "EVID-06C39B6DFE6D",
+          "EVID-063FF3608951",
+          "EVID-B20E0CE4952E",
+          "EVID-5B7D20726886",
+          "EVID-951D667E68F0",
+          "EVID-5E127DF3A989",
+          "EVID-XREF-80B3F994D3ED"
+        ],
+        "target_resolution": {
+          "status": "no_valid_destination",
+          "reference_type": "see also",
+          "target_display": "9 Thermidor",
+          "resolved_path_ids": [],
+          "evidence_ids": [
+            "EVID-6AD6343A3595",
+            "EVID-9A6246DC5022",
+            "EVID-55B6DC01C491",
+            "EVID-C7AC27EAC5BA",
+            "EVID-06C39B6DFE6D",
+            "EVID-063FF3608951",
+            "EVID-B20E0CE4952E",
+            "EVID-5B7D20726886",
+            "EVID-951D667E68F0",
+            "EVID-5E127DF3A989",
+            "EVID-XREF-80B3F994D3ED"
+          ],
+          "rationale": "The frozen exception explicitly records absence of this delivered target in the complete candidate inventory. The originating heading retains direct locators, but those do not supply the absent target. This encodes the existing complete-inventory finding, not an inference from null normalization metadata."
+        }
+      }
+    }
+  ],
+  "score_comparison": {
+    "before": 85.12,
+    "after": 85.12,
+    "all_numeric_dimension_fields_equal": true,
+    "only_dimension_field_differences": [
+      "formula_id",
+      "input_artifacts"
+    ],
+    "dimensions": [
+      {
+        "dimension_id": "meaningful_coverage",
+        "before": "80.04284184219921456622634773",
+        "after": "80.04284184219921456622634773",
+        "cap_evaluations": [
+          {
+            "cap_id": "coverage.essential_miss_rate",
+            "maximum_percentage": 90,
+            "triggered": true,
+            "threshold": {
+              "table": "essential_miss_rate_v1",
+              "band": "above_0_through_5_percent"
+            },
+            "observed": {
+              "missing": 3,
+              "essential_denominator": 155,
+              "rate": "0.01935483870967741935483870968",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Essential subject access is absent."
+              ],
+              "threshold_reason": "Essential subject access is absent. Observed evidence satisfies {\"band\":\"above_0_through_5_percent\",\"table\":\"essential_miss_rate_v1\"}"
+            },
+            "affected_evidence_ids": [
+              "SUBJ-47AD430EBABE",
+              "SUBJ-77B87F55CDDF",
+              "SUBJ-BE2B454984A0"
+            ]
+          },
+          {
+            "cap_id": "coverage.critical_central_omission",
+            "maximum_percentage": 40,
+            "triggered": false,
+            "threshold": {
+              "severity": "critical",
+              "defect_kind": "central_omission"
+            },
+            "observed": {
+              "defect_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Essential subject access is absent."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          }
+        ]
+      },
+      {
+        "dimension_id": "editorial_selectivity",
+        "before": "64.98347263302706989539506653",
+        "after": "64.98347263302706989539506653",
+        "cap_evaluations": [
+          {
+            "cap_id": "selectivity.systemic_zero_credit",
+            "maximum_percentage": 100,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "minimum_source_unit_rate": "0.25",
+              "rate_table": "systemic_zero_credit_v1",
+              "band": "below_5_percent_or_not_systemic"
+            },
+            "observed": {
+              "zero_credit_count": 55,
+              "applicable_count": 6085,
+              "zero_credit_rate": "0.009038619556285949055053410025",
+              "affected_source_units": 16,
+              "source_unit_denominator": 17,
+              "source_unit_rate": "0.9411764705882352941176470588",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Systemic contentless entries dilute useful retrieval."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "LOC-02B716F1C134",
+              "LOC-053C45812D63",
+              "LOC-07CC1F2449AE",
+              "LOC-10902B8ECA8F",
+              "LOC-13569C8D4EF4",
+              "LOC-1582850AFE8D",
+              "LOC-1ED468068559",
+              "LOC-2153A420FE82",
+              "LOC-22B344946763",
+              "LOC-250F6F6A634E",
+              "LOC-267F4CD01442",
+              "LOC-3DCFE6F855C9",
+              "LOC-472588B832F0",
+              "LOC-4BF017B4FAA6",
+              "LOC-4EED8DE840C8",
+              "LOC-5059E54293B3",
+              "LOC-57C878911022",
+              "LOC-60938A8ABE5C",
+              "LOC-6429C149B0DA",
+              "LOC-64ACD9D70EC7",
+              "LOC-6B10AF567D10",
+              "LOC-718E07C1CD9E",
+              "LOC-7A683641C93C",
+              "LOC-7BDF91478A6E",
+              "LOC-813CE185F6CC",
+              "LOC-875CF34E5250",
+              "LOC-8AA96C83FC7D",
+              "LOC-8C389310B39F",
+              "LOC-96326DBD43D0",
+              "LOC-96EFC18DB266",
+              "LOC-979FB11D127F",
+              "LOC-9EC6F451AE31",
+              "LOC-A1BFB5EBD49A",
+              "LOC-A7E15EDB681B",
+              "LOC-AC3A40D73F8B",
+              "LOC-AE054BF6A318",
+              "LOC-B3789F7E4834",
+              "LOC-B3EA48DEDB94",
+              "LOC-B8151909F772",
+              "LOC-B9AB76AC792B",
+              "LOC-BC667A5F8AE2",
+              "LOC-C8DA644B2AC8",
+              "LOC-CA39508FF9C5",
+              "LOC-CBE35B5F0682",
+              "LOC-CCD0EE1E818F",
+              "LOC-CD8C889ABFA3",
+              "LOC-CDA9BE9F9ED2",
+              "LOC-D1F27DDA0A74",
+              "LOC-D79DAE1590F4",
+              "LOC-E4B790593AF8",
+              "LOC-EB3D8C51471B",
+              "LOC-EE2C2B0BA923",
+              "LOC-EFB5911F3C8D",
+              "LOC-F426D8AE6A27",
+              "LOC-F5D81D14EF1A"
+            ]
+          }
+        ]
+      },
+      {
+        "dimension_id": "conceptual_stance_fidelity",
+        "before": "97.63077858880778588807785888",
+        "after": "97.63077858880778588807785888",
+        "cap_evaluations": [
+          {
+            "cap_id": "concept.critical_defect",
+            "maximum_percentage": 40,
+            "triggered": false,
+            "threshold": {
+              "severity": "critical",
+              "codes": [
+                "CMP",
+                "CON",
+                "STA"
+              ]
+            },
+            "observed": {
+              "defect_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material heading meaning or source stance is misrepresented."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "concept.localized_major_defect",
+            "maximum_percentage": 90,
+            "triggered": false,
+            "threshold": {
+              "severity": "major",
+              "codes": [
+                "CMP",
+                "CON",
+                "STA"
+              ]
+            },
+            "observed": {
+              "defect_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material heading meaning or source stance is misrepresented."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "concept.major_stance_or_relationship",
+            "maximum_percentage": 80,
+            "triggered": false,
+            "threshold": {
+              "severity": "major",
+              "defect_kinds": [
+                "stance_reversal",
+                "misleading_relationship"
+              ]
+            },
+            "observed": {
+              "defect_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material heading meaning or source stance is misrepresented."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "concept.prevalence_at_least_0.05",
+            "maximum_percentage": 70,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.05"
+            },
+            "observed": {
+              "affected_count": 77,
+              "applicable_count": 1644,
+              "rate": "0.04683698296836982968369829684",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material heading meaning or source stance is misrepresented."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "NODE-0310D47B1DA2",
+              "NODE-07E3BE1027F4",
+              "NODE-0C84CD1F1702",
+              "NODE-10FAE6FD7558",
+              "NODE-125A8BEFB809",
+              "NODE-145790DEF4A8",
+              "NODE-14C9271BD977",
+              "NODE-16FCBF5C3759",
+              "NODE-177270A57133",
+              "NODE-1B037D45D14A",
+              "NODE-21C556B36F4B",
+              "NODE-26CC364A9A39",
+              "NODE-2D923995EDC0",
+              "NODE-2DBFA85AFC61",
+              "NODE-3008372BA946",
+              "NODE-369FFF1D0FEC",
+              "NODE-3A39838FA3F1",
+              "NODE-3A44BFF656BC",
+              "NODE-486535C02768",
+              "NODE-4CFDBE66634A",
+              "NODE-57B8565815B5",
+              "NODE-58B1C4C6C1B8",
+              "NODE-5CCD8465C0AA",
+              "NODE-5FF7DC49BABF",
+              "NODE-6080EBEA9C5C",
+              "NODE-62ADC0366ADB",
+              "NODE-6337B451B818",
+              "NODE-6813B8417891",
+              "NODE-6904D123E800",
+              "NODE-6A03003883E3",
+              "NODE-6A48572061A8",
+              "NODE-6CEDA209B0E5",
+              "NODE-7309A231BE7D",
+              "NODE-76E13D7452D6",
+              "NODE-79099A8F36B4",
+              "NODE-7C50300E909D",
+              "NODE-7F89E9516797",
+              "NODE-7F9266FCE843",
+              "NODE-808373B3D57C",
+              "NODE-81658B35C198",
+              "NODE-84B090737A01",
+              "NODE-8569733C23CA",
+              "NODE-87B16CE17CD0",
+              "NODE-891DE44FDFA9",
+              "NODE-8A4BC7DFEF76",
+              "NODE-8B89C8921F7E",
+              "NODE-8CE56F506B57",
+              "NODE-8E58FA95FDAE",
+              "NODE-90A7A7931E92",
+              "NODE-98A0BBFCC00E",
+              "NODE-9E1330CB08D5",
+              "NODE-9EB6E3DB1F31",
+              "NODE-A64F4E688852",
+              "NODE-A7C0D48474B6",
+              "NODE-A7FFB3553185",
+              "NODE-A8693A8A1562",
+              "NODE-AA87CC38163B",
+              "NODE-AB58E8864A81",
+              "NODE-AE724DCA6BFD",
+              "NODE-B3C64AD452F4",
+              "NODE-B4D777846BBC",
+              "NODE-B71C30A7C556",
+              "NODE-BA698FDA689D",
+              "NODE-C606919A86F9",
+              "NODE-C8F07E7B6321",
+              "NODE-C95B72F1F3BA",
+              "NODE-CCC1BB58336D",
+              "NODE-CE4EC94D0F3E",
+              "NODE-D664B8429A48",
+              "NODE-D7B728DBD73A",
+              "NODE-DA729E85A829",
+              "NODE-DBBC94F68538",
+              "NODE-DCBF99388E92",
+              "NODE-DE7CBB9EDD8F",
+              "NODE-E06F04B5625A",
+              "NODE-F5813F8F00B8",
+              "NODE-FDA6F7ADEE0C"
+            ]
+          },
+          {
+            "cap_id": "concept.prevalence_at_least_0.15",
+            "maximum_percentage": 50,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.15"
+            },
+            "observed": {
+              "affected_count": 77,
+              "applicable_count": 1644,
+              "rate": "0.04683698296836982968369829684",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material heading meaning or source stance is misrepresented."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "NODE-0310D47B1DA2",
+              "NODE-07E3BE1027F4",
+              "NODE-0C84CD1F1702",
+              "NODE-10FAE6FD7558",
+              "NODE-125A8BEFB809",
+              "NODE-145790DEF4A8",
+              "NODE-14C9271BD977",
+              "NODE-16FCBF5C3759",
+              "NODE-177270A57133",
+              "NODE-1B037D45D14A",
+              "NODE-21C556B36F4B",
+              "NODE-26CC364A9A39",
+              "NODE-2D923995EDC0",
+              "NODE-2DBFA85AFC61",
+              "NODE-3008372BA946",
+              "NODE-369FFF1D0FEC",
+              "NODE-3A39838FA3F1",
+              "NODE-3A44BFF656BC",
+              "NODE-486535C02768",
+              "NODE-4CFDBE66634A",
+              "NODE-57B8565815B5",
+              "NODE-58B1C4C6C1B8",
+              "NODE-5CCD8465C0AA",
+              "NODE-5FF7DC49BABF",
+              "NODE-6080EBEA9C5C",
+              "NODE-62ADC0366ADB",
+              "NODE-6337B451B818",
+              "NODE-6813B8417891",
+              "NODE-6904D123E800",
+              "NODE-6A03003883E3",
+              "NODE-6A48572061A8",
+              "NODE-6CEDA209B0E5",
+              "NODE-7309A231BE7D",
+              "NODE-76E13D7452D6",
+              "NODE-79099A8F36B4",
+              "NODE-7C50300E909D",
+              "NODE-7F89E9516797",
+              "NODE-7F9266FCE843",
+              "NODE-808373B3D57C",
+              "NODE-81658B35C198",
+              "NODE-84B090737A01",
+              "NODE-8569733C23CA",
+              "NODE-87B16CE17CD0",
+              "NODE-891DE44FDFA9",
+              "NODE-8A4BC7DFEF76",
+              "NODE-8B89C8921F7E",
+              "NODE-8CE56F506B57",
+              "NODE-8E58FA95FDAE",
+              "NODE-90A7A7931E92",
+              "NODE-98A0BBFCC00E",
+              "NODE-9E1330CB08D5",
+              "NODE-9EB6E3DB1F31",
+              "NODE-A64F4E688852",
+              "NODE-A7C0D48474B6",
+              "NODE-A7FFB3553185",
+              "NODE-A8693A8A1562",
+              "NODE-AA87CC38163B",
+              "NODE-AB58E8864A81",
+              "NODE-AE724DCA6BFD",
+              "NODE-B3C64AD452F4",
+              "NODE-B4D777846BBC",
+              "NODE-B71C30A7C556",
+              "NODE-BA698FDA689D",
+              "NODE-C606919A86F9",
+              "NODE-C8F07E7B6321",
+              "NODE-C95B72F1F3BA",
+              "NODE-CCC1BB58336D",
+              "NODE-CE4EC94D0F3E",
+              "NODE-D664B8429A48",
+              "NODE-D7B728DBD73A",
+              "NODE-DA729E85A829",
+              "NODE-DBBC94F68538",
+              "NODE-DCBF99388E92",
+              "NODE-DE7CBB9EDD8F",
+              "NODE-E06F04B5625A",
+              "NODE-F5813F8F00B8",
+              "NODE-FDA6F7ADEE0C"
+            ]
+          },
+          {
+            "cap_id": "concept.prevalence_at_least_0.3",
+            "maximum_percentage": 30,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.3"
+            },
+            "observed": {
+              "affected_count": 77,
+              "applicable_count": 1644,
+              "rate": "0.04683698296836982968369829684",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material heading meaning or source stance is misrepresented."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "NODE-0310D47B1DA2",
+              "NODE-07E3BE1027F4",
+              "NODE-0C84CD1F1702",
+              "NODE-10FAE6FD7558",
+              "NODE-125A8BEFB809",
+              "NODE-145790DEF4A8",
+              "NODE-14C9271BD977",
+              "NODE-16FCBF5C3759",
+              "NODE-177270A57133",
+              "NODE-1B037D45D14A",
+              "NODE-21C556B36F4B",
+              "NODE-26CC364A9A39",
+              "NODE-2D923995EDC0",
+              "NODE-2DBFA85AFC61",
+              "NODE-3008372BA946",
+              "NODE-369FFF1D0FEC",
+              "NODE-3A39838FA3F1",
+              "NODE-3A44BFF656BC",
+              "NODE-486535C02768",
+              "NODE-4CFDBE66634A",
+              "NODE-57B8565815B5",
+              "NODE-58B1C4C6C1B8",
+              "NODE-5CCD8465C0AA",
+              "NODE-5FF7DC49BABF",
+              "NODE-6080EBEA9C5C",
+              "NODE-62ADC0366ADB",
+              "NODE-6337B451B818",
+              "NODE-6813B8417891",
+              "NODE-6904D123E800",
+              "NODE-6A03003883E3",
+              "NODE-6A48572061A8",
+              "NODE-6CEDA209B0E5",
+              "NODE-7309A231BE7D",
+              "NODE-76E13D7452D6",
+              "NODE-79099A8F36B4",
+              "NODE-7C50300E909D",
+              "NODE-7F89E9516797",
+              "NODE-7F9266FCE843",
+              "NODE-808373B3D57C",
+              "NODE-81658B35C198",
+              "NODE-84B090737A01",
+              "NODE-8569733C23CA",
+              "NODE-87B16CE17CD0",
+              "NODE-891DE44FDFA9",
+              "NODE-8A4BC7DFEF76",
+              "NODE-8B89C8921F7E",
+              "NODE-8CE56F506B57",
+              "NODE-8E58FA95FDAE",
+              "NODE-90A7A7931E92",
+              "NODE-98A0BBFCC00E",
+              "NODE-9E1330CB08D5",
+              "NODE-9EB6E3DB1F31",
+              "NODE-A64F4E688852",
+              "NODE-A7C0D48474B6",
+              "NODE-A7FFB3553185",
+              "NODE-A8693A8A1562",
+              "NODE-AA87CC38163B",
+              "NODE-AB58E8864A81",
+              "NODE-AE724DCA6BFD",
+              "NODE-B3C64AD452F4",
+              "NODE-B4D777846BBC",
+              "NODE-B71C30A7C556",
+              "NODE-BA698FDA689D",
+              "NODE-C606919A86F9",
+              "NODE-C8F07E7B6321",
+              "NODE-C95B72F1F3BA",
+              "NODE-CCC1BB58336D",
+              "NODE-CE4EC94D0F3E",
+              "NODE-D664B8429A48",
+              "NODE-D7B728DBD73A",
+              "NODE-DA729E85A829",
+              "NODE-DBBC94F68538",
+              "NODE-DCBF99388E92",
+              "NODE-DE7CBB9EDD8F",
+              "NODE-E06F04B5625A",
+              "NODE-F5813F8F00B8",
+              "NODE-FDA6F7ADEE0C"
+            ]
+          }
+        ]
+      },
+      {
+        "dimension_id": "page_reference_reliability",
+        "before": "89.34182188339495098228080783",
+        "after": "89.34182188339495098228080783",
+        "cap_evaluations": [
+          {
+            "cap_id": "reliability.major_delivered_no_fit",
+            "maximum_percentage": 80,
+            "triggered": false,
+            "threshold": {
+              "severity": [
+                "major",
+                "critical"
+              ],
+              "fit": [
+                "severe_mismatch",
+                "no_fit"
+              ],
+              "consequence": [
+                "blocks",
+                "misleads"
+              ]
+            },
+            "observed": {
+              "defect_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered severe/no-fit locators materially mislead retrieval."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "reliability.critical_locator",
+            "maximum_percentage": 40,
+            "triggered": false,
+            "threshold": {
+              "severity": "critical",
+              "defect_kinds": [
+                "fabricated_locator",
+                "nonexistent_locator",
+                "out_of_scope_locator"
+              ]
+            },
+            "observed": {
+              "defect_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered severe/no-fit locators materially mislead retrieval."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "reliability.high_value_treatment_recall",
+            "maximum_percentage": 80,
+            "triggered": false,
+            "threshold": {
+              "rule": "V8.1 recall omissions receive ordinary score deductions only",
+              "band": "75_to_below_90_percent"
+            },
+            "observed": {
+              "found": 2109,
+              "expected": 2434,
+              "rate": "0.8664749383730484798685291701",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered severe/no-fit locators materially mislead retrieval."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "TREAT-0008717E6070",
+              "TREAT-0136984DB2A5",
+              "TREAT-0171D5ED0AF8",
+              "TREAT-02C62963A237",
+              "TREAT-02C8C1DC028C",
+              "TREAT-062E0E127DF5",
+              "TREAT-0654F8C6FA4E",
+              "TREAT-0823A4C2E1D3",
+              "TREAT-08900B2E5EE4",
+              "TREAT-08EB2EA5A57B",
+              "TREAT-09385550ABC9",
+              "TREAT-094B90CBAE47",
+              "TREAT-0A6BC67E5A4C",
+              "TREAT-0AF2DB55A753",
+              "TREAT-0AF4132D5A5F",
+              "TREAT-0B154B16D37F",
+              "TREAT-0D16168D475A",
+              "TREAT-0E3D7631F8FF",
+              "TREAT-0E3EC335ECF8",
+              "TREAT-0E66D44EE2B6",
+              "TREAT-108BC6AD18B6",
+              "TREAT-11977D9EE15E",
+              "TREAT-11BF0149F958",
+              "TREAT-12163B32F72E",
+              "TREAT-1232432300B9",
+              "TREAT-127A3D7B89B6",
+              "TREAT-13578CD37FB3",
+              "TREAT-13B09B2B65CF",
+              "TREAT-13D75836A991",
+              "TREAT-1528B803A261",
+              "TREAT-1552730AF480",
+              "TREAT-1641EE3B59E4",
+              "TREAT-181BDD1CCFFE",
+              "TREAT-186FA6B6E4A8",
+              "TREAT-188677E60C26",
+              "TREAT-18B0B8147AFE",
+              "TREAT-18E63B6119DC",
+              "TREAT-19354CC9127F",
+              "TREAT-19B4592F179B",
+              "TREAT-1A783A39DC74",
+              "TREAT-1AB1A841FB27",
+              "TREAT-1AC82602C81D",
+              "TREAT-1AFA473B6096",
+              "TREAT-1BFDDE80C386",
+              "TREAT-1D6F4DCC0109",
+              "TREAT-1DF62851F8B3",
+              "TREAT-1F8215BB3BA2",
+              "TREAT-206DD7DD4BD5",
+              "TREAT-21E193C1F700",
+              "TREAT-222006423467",
+              "TREAT-22534D260217",
+              "TREAT-2285009CE92B",
+              "TREAT-22E312601D66",
+              "TREAT-239A172DB5E3",
+              "TREAT-2539DB08FD08",
+              "TREAT-2754771C945A",
+              "TREAT-279C960637E6",
+              "TREAT-27E3FFA736D4",
+              "TREAT-27ED85EDADF9",
+              "TREAT-2803E7B07354",
+              "TREAT-288FE6B74961",
+              "TREAT-28FE42C2AEEB",
+              "TREAT-2A31C1CCFE34",
+              "TREAT-2AC6E8F653BE",
+              "TREAT-2BE5B83C7B0B",
+              "TREAT-2D15A9DE691F",
+              "TREAT-2E4C40757D5C",
+              "TREAT-2EB606FEBF70",
+              "TREAT-2F2730381558",
+              "TREAT-3017D4E16D03",
+              "TREAT-30426F5EE240",
+              "TREAT-305E086D5F8A",
+              "TREAT-3094FA9BF389",
+              "TREAT-30FE67FBB9F3",
+              "TREAT-315DD9675921",
+              "TREAT-32C8790FC129",
+              "TREAT-3567FBF9F93D",
+              "TREAT-356E2D86C7C2",
+              "TREAT-35A0DFF14EC7",
+              "TREAT-369DF5C7D0B4",
+              "TREAT-36EE96D82F42",
+              "TREAT-38D484236244",
+              "TREAT-39CADA200975",
+              "TREAT-39FF762C703A",
+              "TREAT-3AC52BB80D92",
+              "TREAT-3AF4E7E34353",
+              "TREAT-3B8ABF8E460E",
+              "TREAT-3C093AFC4869",
+              "TREAT-3C9AD22435B0",
+              "TREAT-3D1B49F21EA5",
+              "TREAT-3D1BC7D62E0E",
+              "TREAT-3F1D9798FD48",
+              "TREAT-41B41CEB2841",
+              "TREAT-41CFC95AA830",
+              "TREAT-4209DF7D460E",
+              "TREAT-44F0B2FFA76C",
+              "TREAT-45FD360D636C",
+              "TREAT-470D01361E92",
+              "TREAT-473A5B672DA5",
+              "TREAT-4750EFBEBD65",
+              "TREAT-475BAD24B27B",
+              "TREAT-4AAB7D11D5B9",
+              "TREAT-4C553945F104",
+              "TREAT-4CFD93CC14EC",
+              "TREAT-4D7A0DF58D63",
+              "TREAT-4DE6ED5659D4",
+              "TREAT-4EB56B9D1A4F",
+              "TREAT-50332C9E50AC",
+              "TREAT-51BA9E953DD7",
+              "TREAT-51CF17E6D0AD",
+              "TREAT-53482B6117BA",
+              "TREAT-55A24A6AFAF3",
+              "TREAT-55B743441F31",
+              "TREAT-55FC72986126",
+              "TREAT-567EE6D76DB8",
+              "TREAT-57133BA5ECC8",
+              "TREAT-572F9CB886B3",
+              "TREAT-582CADDA23A4",
+              "TREAT-583774F118E2",
+              "TREAT-58DDDD30C592",
+              "TREAT-5B8FB90812B4",
+              "TREAT-5C1B0B5DF63E",
+              "TREAT-5C7D5BE962DB",
+              "TREAT-5CA002DEEB48",
+              "TREAT-5D62B7FC2EA7",
+              "TREAT-5DEA5377DF51",
+              "TREAT-5EA56A57A4C9",
+              "TREAT-5F11DFC9184C",
+              "TREAT-5F49EF347EE0",
+              "TREAT-60F458C0A9D7",
+              "TREAT-61A218E71C6C",
+              "TREAT-628D2D347E03",
+              "TREAT-63CFDB2551D6",
+              "TREAT-65FCA0FFA50D",
+              "TREAT-6736B92F74B8",
+              "TREAT-6832EDFF107E",
+              "TREAT-6842834E3776",
+              "TREAT-69862601DF32",
+              "TREAT-6A5A9A3ABE24",
+              "TREAT-6B5E55EDE940",
+              "TREAT-6BA4AAF2D17E",
+              "TREAT-6D31A1F8B0FC",
+              "TREAT-6FE5940EDB0C",
+              "TREAT-702420887BCB",
+              "TREAT-74112D0C6C36",
+              "TREAT-7428CC8C332D",
+              "TREAT-74E69F4EAD41",
+              "TREAT-74F01C2779C8",
+              "TREAT-75403BF6B1F8",
+              "TREAT-76057EBCA065",
+              "TREAT-771952DE6AD1",
+              "TREAT-77464F5AA36A",
+              "TREAT-789297E60E8D",
+              "TREAT-78A1290EFBBE",
+              "TREAT-7975CFFB1AEE",
+              "TREAT-79BB5FE60978",
+              "TREAT-79BC2787CD11",
+              "TREAT-7A1437959F8A",
+              "TREAT-7A584F526CA9",
+              "TREAT-7AEAF0E3260E",
+              "TREAT-7B3D553B2C0B",
+              "TREAT-7DA0FB49E574",
+              "TREAT-7E3A1AC5D629",
+              "TREAT-7EBBD997C056",
+              "TREAT-7F79F244AC7B",
+              "TREAT-80002B9EF70C",
+              "TREAT-8075EEC230E2",
+              "TREAT-80CDFA36C18A",
+              "TREAT-80EFB0A98F2F",
+              "TREAT-81C0881CE8D6",
+              "TREAT-81C55B227FCF",
+              "TREAT-82FEE44D9921",
+              "TREAT-83257BFA87C9",
+              "TREAT-849096C2BF89",
+              "TREAT-8524FCE8D059",
+              "TREAT-86A5EC874578",
+              "TREAT-876CBD5124EA",
+              "TREAT-877E96336D23",
+              "TREAT-895EA89B9E6D",
+              "TREAT-89AB0E2CB2DE",
+              "TREAT-8A91D9B98496",
+              "TREAT-8AC1F2B117D0",
+              "TREAT-8C3B5FDED9A1",
+              "TREAT-8CD69FBC9194",
+              "TREAT-8D0202EC2041",
+              "TREAT-8D17C57BE074",
+              "TREAT-8E1EF73729F4",
+              "TREAT-8EC2F14A5D45",
+              "TREAT-8EE4B424A164",
+              "TREAT-8F954DA5910F",
+              "TREAT-91EFABCDD525",
+              "TREAT-92F0CE3D8705",
+              "TREAT-943C8D670213",
+              "TREAT-9546158447FD",
+              "TREAT-95910A05E518",
+              "TREAT-95BDB0D20C80",
+              "TREAT-986512CCE4C9",
+              "TREAT-98EEB58A93AA",
+              "TREAT-9AAD78C312DC",
+              "TREAT-9D52BE25F26A",
+              "TREAT-9E107AC57AD8",
+              "TREAT-9E5E4F173FA5",
+              "TREAT-9F66EDE9DF3B",
+              "TREAT-9FDE8325AEBD",
+              "TREAT-A010B3396098",
+              "TREAT-A0E4D8419ABD",
+              "TREAT-A2288E96C3CF",
+              "TREAT-A63B99A81B42",
+              "TREAT-A68D6D06A6FE",
+              "TREAT-A804EF3A20A8",
+              "TREAT-A80A7BC8AF7D",
+              "TREAT-A9077FC1C758",
+              "TREAT-A957EEDD3408",
+              "TREAT-A988A5AAABA6",
+              "TREAT-AA19B88327D1",
+              "TREAT-AB4E73B13DF3",
+              "TREAT-AC79C4387DA5",
+              "TREAT-ACF136EE1D31",
+              "TREAT-ACF8449471B2",
+              "TREAT-AD284CF5FCEC",
+              "TREAT-AE01FBFAF0D4",
+              "TREAT-AE83DC5C64A6",
+              "TREAT-AF3A43DA3478",
+              "TREAT-AF8EBB0DEE3A",
+              "TREAT-B07B8C4CE005",
+              "TREAT-B088F10B2EBD",
+              "TREAT-B149BFEBE169",
+              "TREAT-B2254B11DEE0",
+              "TREAT-B26845FB2DE4",
+              "TREAT-B2D9B0A75B31",
+              "TREAT-B42F2C4FE934",
+              "TREAT-B437D758F879",
+              "TREAT-B5A4DF16C6D3",
+              "TREAT-B5AC12C84C58",
+              "TREAT-B66D65AE1397",
+              "TREAT-B7756A9E9175",
+              "TREAT-B8535F517C7C",
+              "TREAT-B933D41F3BA8",
+              "TREAT-BAA30D34B682",
+              "TREAT-BCBAC40B3304",
+              "TREAT-BCF733C1E5A9",
+              "TREAT-BDA30C574AD7",
+              "TREAT-BDA4975522B1",
+              "TREAT-BEBEE58FD982",
+              "TREAT-BFFBB82B0BA9",
+              "TREAT-C05238B81637",
+              "TREAT-C09C137B881F",
+              "TREAT-C12B4EAC33B6",
+              "TREAT-C139301527AB",
+              "TREAT-C2780E2CE65B",
+              "TREAT-C3170E20A1CE",
+              "TREAT-C33B3720674D",
+              "TREAT-C3A968C20C54",
+              "TREAT-C51F295FD096",
+              "TREAT-C661FE676DFD",
+              "TREAT-C6CA52C58034",
+              "TREAT-C6DB6597EF56",
+              "TREAT-C9442DC91526",
+              "TREAT-CB56A96BF682",
+              "TREAT-CC12B1C1C3AE",
+              "TREAT-CF3A855E2520",
+              "TREAT-CF470767C737",
+              "TREAT-CF6E13025FB7",
+              "TREAT-CFC9485EB0F2",
+              "TREAT-CFD6C60C78DD",
+              "TREAT-D012930A4F1C",
+              "TREAT-D0EB2ACE0C92",
+              "TREAT-D1C13AD98BB9",
+              "TREAT-D216EACC8E74",
+              "TREAT-D27B3F221CBD",
+              "TREAT-D3D7E93F4A31",
+              "TREAT-D3F699E99763",
+              "TREAT-D5FB7C6DF224",
+              "TREAT-D6A780A5FB45",
+              "TREAT-D6DAD27AEB1C",
+              "TREAT-D6F54A4FAE5E",
+              "TREAT-D837A30BCD4B",
+              "TREAT-D911CBB4E60F",
+              "TREAT-DA69ABD9E162",
+              "TREAT-DC54B64B220A",
+              "TREAT-DCF15AD4B9D4",
+              "TREAT-DDB7BFDAAE6D",
+              "TREAT-DDD6A267E2F2",
+              "TREAT-DDDC9C2A915D",
+              "TREAT-DE7415BD4ADE",
+              "TREAT-DE7496494F52",
+              "TREAT-DF0A61C634C8",
+              "TREAT-DF2396FBF41B",
+              "TREAT-E072CACABA9D",
+              "TREAT-E0CFD6CE00CD",
+              "TREAT-E0DFC2960D1B",
+              "TREAT-E1E7EADAFE35",
+              "TREAT-E39D162366AC",
+              "TREAT-E3ABC4E7E498",
+              "TREAT-E48896818D29",
+              "TREAT-E4ED37C2E0D1",
+              "TREAT-E6777C1E6B80",
+              "TREAT-E6C3F726C9DD",
+              "TREAT-EA04F6A4A994",
+              "TREAT-EFB1C8D69232",
+              "TREAT-F076CDFA9993",
+              "TREAT-F25354CBE481",
+              "TREAT-F2BCF4713174",
+              "TREAT-F54581FD743F",
+              "TREAT-F5D9B703A265",
+              "TREAT-F606D733C1FD",
+              "TREAT-F6259080EC09",
+              "TREAT-F62CDEDEFD81",
+              "TREAT-F63FDE38A45C",
+              "TREAT-F72A3523E64D",
+              "TREAT-F80A3098BB6F",
+              "TREAT-F8C6A07F14DD",
+              "TREAT-F93A63F5FB13",
+              "TREAT-F94FCA70EE2B",
+              "TREAT-FB3EC517D907",
+              "TREAT-FC102E69412B",
+              "TREAT-FC17FEBB8552",
+              "TREAT-FC5C9039631F",
+              "TREAT-FC80BE2B4BD0",
+              "TREAT-FE11B687B6C4",
+              "TREAT-FE400AE39D4C",
+              "TREAT-FE9C8BBDD9B1",
+              "TREAT-FEAAD96945D1",
+              "TREAT-FEDDA7684093",
+              "TREAT-FFB83C67790F"
+            ]
+          },
+          {
+            "cap_id": "reliability.distributed_unsupported_pattern",
+            "maximum_percentage": 90,
+            "triggered": true,
+            "threshold": {
+              "minimum_count": 3,
+              "fit": [
+                "severe_mismatch",
+                "no_fit"
+              ],
+              "minimum_source_unit_rate": "0.25",
+              "rate_table": "reliability_owned_unsupported_v1",
+              "band": "1_to_below_3_percent"
+            },
+            "observed": {
+              "unsupported_count": 125,
+              "assessable_locator_denominator": 6222,
+              "rate": "0.02009000321440051430408228865",
+              "affected_source_units": 15,
+              "source_unit_denominator": 17,
+              "source_unit_rate": "0.8823529411764705882352941176",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered severe/no-fit locators materially mislead retrieval."
+              ],
+              "threshold_reason": "Delivered severe/no-fit locators materially mislead retrieval. Observed evidence satisfies {\"band\":\"1_to_below_3_percent\",\"fit\":[\"severe_mismatch\",\"no_fit\"],\"minimum_count\":3,\"minimum_source_unit_rate\":\"0.25\",\"rate_table\":\"reliability_owned_unsupported_v1\"}"
+            },
+            "affected_evidence_ids": [
+              "LOC-02D07BB4645B",
+              "LOC-03EA68042870",
+              "LOC-05683BD2EEE7",
+              "LOC-0AECEBB0B4B2",
+              "LOC-0B7498786FFD",
+              "LOC-0C8E16CD9A9F",
+              "LOC-0CA9C3C37D44",
+              "LOC-0F7868E5D012",
+              "LOC-11F2B63600D4",
+              "LOC-1219942EF75C",
+              "LOC-1248259445A9",
+              "LOC-16080D05FC85",
+              "LOC-1765477C6D39",
+              "LOC-19DF790209C0",
+              "LOC-1A3CDDF9E8A8",
+              "LOC-1A997CF5E177",
+              "LOC-1B12CAAFF12D",
+              "LOC-1B8D35F10EB9",
+              "LOC-1CF7B93E3489",
+              "LOC-1D3C6D6F5338",
+              "LOC-1E11CBEC74FA",
+              "LOC-1EB0672119FB",
+              "LOC-213BD0B90BEC",
+              "LOC-2992A7890394",
+              "LOC-2A46CD99575D",
+              "LOC-2B02458E664C",
+              "LOC-2E3FDD78122B",
+              "LOC-306ECD1B5D0B",
+              "LOC-383B41EF0CC5",
+              "LOC-39C165B3C593",
+              "LOC-3AE248167E8A",
+              "LOC-42C81EFBB74D",
+              "LOC-4830D1943B45",
+              "LOC-4A208AA37400",
+              "LOC-4A8894D6401D",
+              "LOC-4A9EF4D274AE",
+              "LOC-4B10DB7908D3",
+              "LOC-4BA6DA629A25",
+              "LOC-4BFB6F7D505F",
+              "LOC-4DEAFD068BC3",
+              "LOC-4F2731417855",
+              "LOC-4FEE040FDBE1",
+              "LOC-51FAE95BDC53",
+              "LOC-5437607A05D5",
+              "LOC-56F929350893",
+              "LOC-57B0273B86BA",
+              "LOC-57C878911022",
+              "LOC-5A363918778A",
+              "LOC-5B906EB6C96F",
+              "LOC-5BFC7C783E05",
+              "LOC-5CBA66901852",
+              "LOC-5F97ABFC52F4",
+              "LOC-60938A8ABE5C",
+              "LOC-686932ABDF64",
+              "LOC-68C27C2BA654",
+              "LOC-68F56DF9DB25",
+              "LOC-6A55ADAB8561",
+              "LOC-6F7EC1C38F96",
+              "LOC-70217F4DA4EE",
+              "LOC-709F3B3134BA",
+              "LOC-7B57EE76141D",
+              "LOC-7F6070D7B0C4",
+              "LOC-7F97340E1950",
+              "LOC-84368651301F",
+              "LOC-85159BE6445F",
+              "LOC-85EAB632BFF1",
+              "LOC-875CF34E5250",
+              "LOC-87CE20A497D0",
+              "LOC-8A56748413C8",
+              "LOC-8B9B4AD5C557",
+              "LOC-8CF1012EB6E0",
+              "LOC-91E560CF75DB",
+              "LOC-9292D0FD720E",
+              "LOC-93C783AEAA35",
+              "LOC-979E34190F43",
+              "LOC-98A012BE1009",
+              "LOC-9A67EC166752",
+              "LOC-9E78912F47A5",
+              "LOC-9EE3CCC10839",
+              "LOC-9F21A6CDB914",
+              "LOC-A1BFB5EBD49A",
+              "LOC-A3CEE755D1E3",
+              "LOC-A5DE80A3394F",
+              "LOC-A674E35FB204",
+              "LOC-A984D02CAFA8",
+              "LOC-AC78C23DB1C9",
+              "LOC-AEA7D4F55BA2",
+              "LOC-B648C3653B39",
+              "LOC-B707A4CF5B97",
+              "LOC-B7E6F7CD33A4",
+              "LOC-BA825056DE87",
+              "LOC-BB9E8E899721",
+              "LOC-BC57C00C8392",
+              "LOC-BF8D54853D9A",
+              "LOC-C3F940854FC0",
+              "LOC-C532099DF13D",
+              "LOC-C7C3C17988FC",
+              "LOC-C8CF741DE2A2",
+              "LOC-CA39508FF9C5",
+              "LOC-CF2AEE605855",
+              "LOC-D00D2D48CDA2",
+              "LOC-D13E4F99E86F",
+              "LOC-D3D84625E3A3",
+              "LOC-D7BC7997ECAF",
+              "LOC-DE8D16C7E894",
+              "LOC-DF477F4E30C8",
+              "LOC-DFB9F1637047",
+              "LOC-E0BD7BEF10E7",
+              "LOC-E239FA63B5A4",
+              "LOC-E2AD8A9F5973",
+              "LOC-E4B790593AF8",
+              "LOC-E7B055D61E79",
+              "LOC-ED1A13286795",
+              "LOC-EF22612930BD",
+              "LOC-EFF8DF3BE8A6",
+              "LOC-F018D5406D0D",
+              "LOC-F151A8A07EC5",
+              "LOC-F3177CFEA1B6",
+              "LOC-F3D2E3EE4C76",
+              "LOC-F3FB8BE9CFC9",
+              "LOC-F404EA568752",
+              "LOC-F4E39D4FD0F4",
+              "LOC-F707ED343CD1",
+              "LOC-FA17D1D4DF98",
+              "LOC-FFF913D6A79B"
+            ]
+          }
+        ]
+      },
+      {
+        "dimension_id": "findability_navigation",
+        "before": "86.93284073232021060189063061",
+        "after": "86.93284073232021060189063061",
+        "cap_evaluations": [
+          {
+            "cap_id": "findability.critical_navigation",
+            "maximum_percentage": 40,
+            "triggered": false,
+            "threshold": {
+              "severity": "critical"
+            },
+            "observed": {
+              "defect_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "findability.localized_major_navigation",
+            "maximum_percentage": 90,
+            "triggered": false,
+            "threshold": {
+              "severity": "major",
+              "consequence": "delivered misleading/destructive route or destroyed high-priority access"
+            },
+            "observed": {
+              "defect_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "findability.destructive_access_route",
+            "maximum_percentage": 70,
+            "triggered": false,
+            "threshold": {
+              "severity": "major",
+              "high_priority_access_destroyed": true
+            },
+            "observed": {
+              "defect_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "findability.systemic_access_failure",
+            "maximum_percentage": 80,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "minimum_rate": "0.05",
+              "minimum_sections": 2,
+              "minimum_section_rate": "0.25"
+            },
+            "observed": {
+              "groups": [],
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "findability.task_failure_10_percent",
+            "maximum_percentage": 80,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.10"
+            },
+            "observed": {
+              "failures": 0,
+              "eligible_tasks": 915,
+              "rate": "0",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "findability.task_failure_25_percent",
+            "maximum_percentage": 60,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.25"
+            },
+            "observed": {
+              "failures": 0,
+              "eligible_tasks": 915,
+              "rate": "0",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "findability.task_failure_50_percent",
+            "maximum_percentage": 40,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.50"
+            },
+            "observed": {
+              "failures": 0,
+              "eligible_tasks": 915,
+              "rate": "0",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "findability.architecture.prevalence_at_least_0.05",
+            "maximum_percentage": 80,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.05"
+            },
+            "observed": {
+              "affected_count": 58,
+              "applicable_count": 1644,
+              "rate": "0.03527980535279805352798053528",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "NODE-00C3A3662F38",
+              "NODE-044346A07E0E",
+              "NODE-0758582F5EE9",
+              "NODE-0BE7D6C7ED47",
+              "NODE-0C84CD1F1702",
+              "NODE-0F25329EB310",
+              "NODE-10FAE6FD7558",
+              "NODE-14C9271BD977",
+              "NODE-1D1D99ED826A",
+              "NODE-212EF7EBFF3B",
+              "NODE-2CEF9C76C0D1",
+              "NODE-32DA30F07618",
+              "NODE-34C801592065",
+              "NODE-3A44BFF656BC",
+              "NODE-3A84CE1BF28F",
+              "NODE-412F2E877464",
+              "NODE-4504FC48F03A",
+              "NODE-469387EB13F4",
+              "NODE-49C16D680C80",
+              "NODE-4C3B95D1E74E",
+              "NODE-4E69A52F97F6",
+              "NODE-53045FE36F90",
+              "NODE-56E7E443052A",
+              "NODE-5FF7DC49BABF",
+              "NODE-62ADC0366ADB",
+              "NODE-6A48572061A8",
+              "NODE-6B423C33D3CE",
+              "NODE-6C4740FD739F",
+              "NODE-77D7EAE91DEA",
+              "NODE-7926C623E609",
+              "NODE-7F89E9516797",
+              "NODE-8569733C23CA",
+              "NODE-8B76D2E69AC5",
+              "NODE-8E5325B15841",
+              "NODE-902A9D7E54FD",
+              "NODE-9226A713A42F",
+              "NODE-970265C38970",
+              "NODE-98A0BBFCC00E",
+              "NODE-A65775AD8296",
+              "NODE-A6C4100739F7",
+              "NODE-AA07C2329F65",
+              "NODE-AA87CC38163B",
+              "NODE-AB9A5C65E120",
+              "NODE-B3C64AD452F4",
+              "NODE-B8DE8E346F80",
+              "NODE-BEF14DD85E0B",
+              "NODE-C606919A86F9",
+              "NODE-CE4EC94D0F3E",
+              "NODE-D1BC8048EF51",
+              "NODE-DCBF99388E92",
+              "NODE-DF34CB4DE6EC",
+              "NODE-E76C675AEA8D",
+              "NODE-EE91B813A2A8",
+              "NODE-F159B6EA8CDA",
+              "NODE-F75D1E458901",
+              "NODE-F9744135DD3D",
+              "NODE-FBE3DE6C94B0",
+              "NODE-FDA6F7ADEE0C"
+            ]
+          },
+          {
+            "cap_id": "findability.architecture.prevalence_at_least_0.15",
+            "maximum_percentage": 60,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.15"
+            },
+            "observed": {
+              "affected_count": 58,
+              "applicable_count": 1644,
+              "rate": "0.03527980535279805352798053528",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "NODE-00C3A3662F38",
+              "NODE-044346A07E0E",
+              "NODE-0758582F5EE9",
+              "NODE-0BE7D6C7ED47",
+              "NODE-0C84CD1F1702",
+              "NODE-0F25329EB310",
+              "NODE-10FAE6FD7558",
+              "NODE-14C9271BD977",
+              "NODE-1D1D99ED826A",
+              "NODE-212EF7EBFF3B",
+              "NODE-2CEF9C76C0D1",
+              "NODE-32DA30F07618",
+              "NODE-34C801592065",
+              "NODE-3A44BFF656BC",
+              "NODE-3A84CE1BF28F",
+              "NODE-412F2E877464",
+              "NODE-4504FC48F03A",
+              "NODE-469387EB13F4",
+              "NODE-49C16D680C80",
+              "NODE-4C3B95D1E74E",
+              "NODE-4E69A52F97F6",
+              "NODE-53045FE36F90",
+              "NODE-56E7E443052A",
+              "NODE-5FF7DC49BABF",
+              "NODE-62ADC0366ADB",
+              "NODE-6A48572061A8",
+              "NODE-6B423C33D3CE",
+              "NODE-6C4740FD739F",
+              "NODE-77D7EAE91DEA",
+              "NODE-7926C623E609",
+              "NODE-7F89E9516797",
+              "NODE-8569733C23CA",
+              "NODE-8B76D2E69AC5",
+              "NODE-8E5325B15841",
+              "NODE-902A9D7E54FD",
+              "NODE-9226A713A42F",
+              "NODE-970265C38970",
+              "NODE-98A0BBFCC00E",
+              "NODE-A65775AD8296",
+              "NODE-A6C4100739F7",
+              "NODE-AA07C2329F65",
+              "NODE-AA87CC38163B",
+              "NODE-AB9A5C65E120",
+              "NODE-B3C64AD452F4",
+              "NODE-B8DE8E346F80",
+              "NODE-BEF14DD85E0B",
+              "NODE-C606919A86F9",
+              "NODE-CE4EC94D0F3E",
+              "NODE-D1BC8048EF51",
+              "NODE-DCBF99388E92",
+              "NODE-DF34CB4DE6EC",
+              "NODE-E76C675AEA8D",
+              "NODE-EE91B813A2A8",
+              "NODE-F159B6EA8CDA",
+              "NODE-F75D1E458901",
+              "NODE-F9744135DD3D",
+              "NODE-FBE3DE6C94B0",
+              "NODE-FDA6F7ADEE0C"
+            ]
+          },
+          {
+            "cap_id": "findability.architecture.prevalence_at_least_0.3",
+            "maximum_percentage": 40,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.3"
+            },
+            "observed": {
+              "affected_count": 58,
+              "applicable_count": 1644,
+              "rate": "0.03527980535279805352798053528",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "NODE-00C3A3662F38",
+              "NODE-044346A07E0E",
+              "NODE-0758582F5EE9",
+              "NODE-0BE7D6C7ED47",
+              "NODE-0C84CD1F1702",
+              "NODE-0F25329EB310",
+              "NODE-10FAE6FD7558",
+              "NODE-14C9271BD977",
+              "NODE-1D1D99ED826A",
+              "NODE-212EF7EBFF3B",
+              "NODE-2CEF9C76C0D1",
+              "NODE-32DA30F07618",
+              "NODE-34C801592065",
+              "NODE-3A44BFF656BC",
+              "NODE-3A84CE1BF28F",
+              "NODE-412F2E877464",
+              "NODE-4504FC48F03A",
+              "NODE-469387EB13F4",
+              "NODE-49C16D680C80",
+              "NODE-4C3B95D1E74E",
+              "NODE-4E69A52F97F6",
+              "NODE-53045FE36F90",
+              "NODE-56E7E443052A",
+              "NODE-5FF7DC49BABF",
+              "NODE-62ADC0366ADB",
+              "NODE-6A48572061A8",
+              "NODE-6B423C33D3CE",
+              "NODE-6C4740FD739F",
+              "NODE-77D7EAE91DEA",
+              "NODE-7926C623E609",
+              "NODE-7F89E9516797",
+              "NODE-8569733C23CA",
+              "NODE-8B76D2E69AC5",
+              "NODE-8E5325B15841",
+              "NODE-902A9D7E54FD",
+              "NODE-9226A713A42F",
+              "NODE-970265C38970",
+              "NODE-98A0BBFCC00E",
+              "NODE-A65775AD8296",
+              "NODE-A6C4100739F7",
+              "NODE-AA07C2329F65",
+              "NODE-AA87CC38163B",
+              "NODE-AB9A5C65E120",
+              "NODE-B3C64AD452F4",
+              "NODE-B8DE8E346F80",
+              "NODE-BEF14DD85E0B",
+              "NODE-C606919A86F9",
+              "NODE-CE4EC94D0F3E",
+              "NODE-D1BC8048EF51",
+              "NODE-DCBF99388E92",
+              "NODE-DF34CB4DE6EC",
+              "NODE-E76C675AEA8D",
+              "NODE-EE91B813A2A8",
+              "NODE-F159B6EA8CDA",
+              "NODE-F75D1E458901",
+              "NODE-F9744135DD3D",
+              "NODE-FBE3DE6C94B0",
+              "NODE-FDA6F7ADEE0C"
+            ]
+          },
+          {
+            "cap_id": "findability.reference_unsupported_10_percent",
+            "maximum_percentage": 80,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.10"
+            },
+            "observed": {
+              "unsupported": 2,
+              "denominator": 10,
+              "rate": "0.2",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "XREF-1FB84F43D7ED",
+              "XREF-80B3F994D3ED"
+            ]
+          },
+          {
+            "cap_id": "findability.reference_unsupported_25_percent",
+            "maximum_percentage": 60,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.25"
+            },
+            "observed": {
+              "unsupported": 2,
+              "denominator": 10,
+              "rate": "0.2",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "XREF-1FB84F43D7ED",
+              "XREF-80B3F994D3ED"
+            ]
+          },
+          {
+            "cap_id": "findability.reference_unsupported_50_percent",
+            "maximum_percentage": 40,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 10,
+              "operator": ">=",
+              "rate": "0.50"
+            },
+            "observed": {
+              "unsupported": 2,
+              "denominator": 10,
+              "rate": "0.2",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Delivered routes mislead or block retrieval, high-priority access is destroyed, or the frozen aggregate access threshold is met."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "XREF-1FB84F43D7ED",
+              "XREF-80B3F994D3ED"
+            ]
+          }
+        ]
+      },
+      {
+        "dimension_id": "mechanics_consistency",
+        "before": "100",
+        "after": "100",
+        "cap_evaluations": [
+          {
+            "cap_id": "mechanics.structurally_incomplete_or_unparseable",
+            "maximum_percentage": 0,
+            "triggered": false,
+            "threshold": {
+              "candidate_attempt_status": [
+                "structurally_incomplete",
+                "unparseable"
+              ]
+            },
+            "observed": {
+              "candidate_attempt_status": "meaningful_attempt",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material structural failure or frozen aggregate mechanical friction impairs navigation."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": [
+              "GLOBAL-STRUCTURE-SCOPE"
+            ]
+          },
+          {
+            "cap_id": "mechanics.critical_defect",
+            "maximum_percentage": 40,
+            "triggered": false,
+            "threshold": {
+              "severity": "critical"
+            },
+            "observed": {
+              "defect_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material structural failure or frozen aggregate mechanical friction impairs navigation."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "mechanics.localized_major",
+            "maximum_percentage": 90,
+            "triggered": false,
+            "threshold": {
+              "severity": "major"
+            },
+            "observed": {
+              "defect_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material structural failure or frozen aggregate mechanical friction impairs navigation."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "mechanics.recurrent_major.none",
+            "maximum_percentage": 80,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 3,
+              "any_of": [
+                {
+                  "item_rate": ">=0.01"
+                },
+                {
+                  "structural_sections": ">=2"
+                }
+              ]
+            },
+            "observed": {
+              "root_cause_family_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material structural failure or frozen aggregate mechanical friction impairs navigation."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "mechanics.systematic_major.none",
+            "maximum_percentage": 60,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 3,
+              "any_of": [
+                {
+                  "item_rate": ">=0.10"
+                },
+                {
+                  "structural_section_rate": ">=0.50"
+                }
+              ]
+            },
+            "observed": {
+              "root_cause_family_count": 0,
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material structural failure or frozen aggregate mechanical friction impairs navigation."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "mechanics.aggregate_cosmetic_minor_5_percent",
+            "maximum_percentage": 90,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 3,
+              "operator": ">=",
+              "rate": "0.05"
+            },
+            "observed": {
+              "affected_count": 0,
+              "node_denominator": 1644,
+              "rate": "0",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material structural failure or frozen aggregate mechanical friction impairs navigation."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          },
+          {
+            "cap_id": "mechanics.aggregate_cosmetic_minor_20_percent",
+            "maximum_percentage": 80,
+            "triggered": false,
+            "threshold": {
+              "minimum_count": 3,
+              "operator": ">=",
+              "rate": "0.20"
+            },
+            "observed": {
+              "affected_count": 0,
+              "node_denominator": 1644,
+              "rate": "0",
+              "consequence_evidence": [],
+              "qualifying_locator_evidence": [],
+              "severity_basis": [
+                "frozen_quantitative_threshold"
+              ],
+              "retrieval_consequence": [
+                "Material structural failure or frozen aggregate mechanical friction impairs navigation."
+              ],
+              "threshold_reason": "Threshold not met."
+            },
+            "affected_evidence_ids": []
+          }
+        ]
+      }
+    ]
+  },
+  "triggered_gates": [
+    {
+      "gate_id": "GATE-WRONG-LOCATOR",
+      "description": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [],
+      "affected_evidence_ids": [
+        "LOC-02D07BB4645B",
+        "LOC-03597F3EC0D5",
+        "LOC-0CA9C3C37D44",
+        "LOC-0E2B33127C64",
+        "LOC-11F2B63600D4",
+        "LOC-1219942EF75C",
+        "LOC-12DD149C485E",
+        "LOC-16080D05FC85",
+        "LOC-1765477C6D39",
+        "LOC-19DF790209C0",
+        "LOC-1A3CDDF9E8A8",
+        "LOC-1A997CF5E177",
+        "LOC-1C4A9F35DAF1",
+        "LOC-1E11CBEC74FA",
+        "LOC-1EB0672119FB",
+        "LOC-2072C42CC1E3",
+        "LOC-213BD0B90BEC",
+        "LOC-21E392E360B0",
+        "LOC-2945A2B5F17F",
+        "LOC-2A46CD99575D",
+        "LOC-2B02458E664C",
+        "LOC-2E3FDD78122B",
+        "LOC-383B41EF0CC5",
+        "LOC-3CF21D769AE5",
+        "LOC-4292366F9CC4",
+        "LOC-4830D1943B45",
+        "LOC-4A208AA37400",
+        "LOC-4A8894D6401D",
+        "LOC-4B10DB7908D3",
+        "LOC-4BA6DA629A25",
+        "LOC-4BFB6F7D505F",
+        "LOC-4DEAFD068BC3",
+        "LOC-51D18B70EF0D",
+        "LOC-5A363918778A",
+        "LOC-5CBA66901852",
+        "LOC-5F97ABFC52F4",
+        "LOC-5FC23020204E",
+        "LOC-68C27C2BA654",
+        "LOC-6A55ADAB8561",
+        "LOC-6F7EC1C38F96",
+        "LOC-70217F4DA4EE",
+        "LOC-709F3B3134BA",
+        "LOC-7B57EE76141D",
+        "LOC-7F97340E1950",
+        "LOC-84368651301F",
+        "LOC-8A56748413C8",
+        "LOC-8C080223A18B",
+        "LOC-8CF1012EB6E0",
+        "LOC-91E560CF75DB",
+        "LOC-93C783AEAA35",
+        "LOC-962D6C9AA375",
+        "LOC-98A012BE1009",
+        "LOC-9F21A6CDB914",
+        "LOC-A196033446AF",
+        "LOC-A3CEE755D1E3",
+        "LOC-A984D02CAFA8",
+        "LOC-AC78C23DB1C9",
+        "LOC-B648C3653B39",
+        "LOC-B7E6F7CD33A4",
+        "LOC-BA4DF918D5A6",
+        "LOC-BB9E8E899721",
+        "LOC-BF8D54853D9A",
+        "LOC-C222A41EA4CE",
+        "LOC-C3F940854FC0",
+        "LOC-CA39508FF9C5",
+        "LOC-CF2AEE605855",
+        "LOC-D00D2D48CDA2",
+        "LOC-D13E4F99E86F",
+        "LOC-D5FAF9BA45A6",
+        "LOC-DB9E2CAC8156",
+        "LOC-DF477F4E30C8",
+        "LOC-DF574A4AA64F",
+        "LOC-E0BD7BEF10E7",
+        "LOC-E239FA63B5A4",
+        "LOC-E2AD8A9F5973",
+        "LOC-E7B055D61E79",
+        "LOC-EDF6BB788563",
+        "LOC-EF22612930BD",
+        "LOC-F018D5406D0D",
+        "LOC-F151A8A07EC5",
+        "LOC-F3D2E3EE4C76",
+        "LOC-F404EA568752",
+        "LOC-F4E39D4FD0F4",
+        "LOC-F65F04255344",
+        "LOC-FA17D1D4DF98",
+        "LOC-FC2FBF14B2DE",
+        "LOC-FFF913D6A79B"
+      ],
+      "threshold": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [
+        {
+          "locator_id": "LOC-02D07BB4645B",
+          "path_id": "PATH-DD6CCD24593B",
+          "complete_heading_path": [
+            "Paris",
+            "Paris Commune and the Mountain"
+          ],
+          "document_page": 199,
+          "source_page_label": "199",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-02D07BB4645B"
+          ]
+        },
+        {
+          "locator_id": "LOC-03597F3EC0D5",
+          "path_id": "PATH-1BE5031EECCA",
+          "complete_heading_path": [
+            "slavery"
+          ],
+          "document_page": 410,
+          "source_page_label": "410",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-03597F3EC0D5"
+          ]
+        },
+        {
+          "locator_id": "LOC-0CA9C3C37D44",
+          "path_id": "PATH-65F98D43DF7E",
+          "complete_heading_path": [
+            "Nice"
+          ],
+          "document_page": 199,
+          "source_page_label": "199",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0CA9C3C37D44"
+          ]
+        },
+        {
+          "locator_id": "LOC-0E2B33127C64",
+          "path_id": "PATH-29E786F6417B",
+          "complete_heading_path": [
+            "Cahiers de doléances"
+          ],
+          "document_page": 406,
+          "source_page_label": "406",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0E2B33127C64"
+          ]
+        },
+        {
+          "locator_id": "LOC-11F2B63600D4",
+          "path_id": "PATH-7F72321CFD7B",
+          "complete_heading_path": [
+            "Great Britain",
+            "Ireland and internal subversion"
+          ],
+          "document_page": 215,
+          "source_page_label": "215",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-11F2B63600D4"
+          ]
+        },
+        {
+          "locator_id": "LOC-1219942EF75C",
+          "path_id": "PATH-4A6CEBE3A61C",
+          "complete_heading_path": [
+            "Comtat Venaissin"
+          ],
+          "document_page": 141,
+          "source_page_label": "141",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1219942EF75C"
+          ]
+        },
+        {
+          "locator_id": "LOC-12DD149C485E",
+          "path_id": "PATH-32C6708ACB6B",
+          "complete_heading_path": [
+            "Bordeaux",
+            "Revolutionary politics and Federalism"
+          ],
+          "document_page": 178,
+          "source_page_label": "178",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-12DD149C485E"
+          ]
+        },
+        {
+          "locator_id": "LOC-16080D05FC85",
+          "path_id": "PATH-2D11D0AEAF56",
+          "complete_heading_path": [
+            "Neerwinden, Battle of"
+          ],
+          "document_page": 201,
+          "source_page_label": "201",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-16080D05FC85"
+          ]
+        },
+        {
+          "locator_id": "LOC-1765477C6D39",
+          "path_id": "PATH-EFBDB3021EDC",
+          "complete_heading_path": [
+            "La Revellière-Lépeaux, Louis-Marie de"
+          ],
+          "document_page": 334,
+          "source_page_label": "334",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1765477C6D39"
+          ]
+        },
+        {
+          "locator_id": "LOC-19DF790209C0",
+          "path_id": "PATH-453753449706",
+          "complete_heading_path": [
+            "women"
+          ],
+          "document_page": 204,
+          "source_page_label": "204",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-19DF790209C0"
+          ]
+        },
+        {
+          "locator_id": "LOC-1A3CDDF9E8A8",
+          "path_id": "PATH-5C00C402374C",
+          "complete_heading_path": [
+            "Gentz, Friedrich"
+          ],
+          "document_page": 171,
+          "source_page_label": "171",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1A3CDDF9E8A8"
+          ]
+        },
+        {
+          "locator_id": "LOC-1A997CF5E177",
+          "path_id": "PATH-C6D3C15539C3",
+          "complete_heading_path": [
+            "Calonne, Charles-Alexandre de"
+          ],
+          "document_page": 67,
+          "source_page_label": "67",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1A997CF5E177"
+          ]
+        },
+        {
+          "locator_id": "LOC-1C4A9F35DAF1",
+          "path_id": "PATH-FF4DB30C8548",
+          "complete_heading_path": [
+            "Jacobins (Jacobin Club)",
+            "suppression and reactionary periods"
+          ],
+          "document_page": 305,
+          "source_page_label": "305",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1C4A9F35DAF1"
+          ]
+        },
+        {
+          "locator_id": "LOC-1E11CBEC74FA",
+          "path_id": "PATH-2BC6D56BE131",
+          "complete_heading_path": [
+            "Ecclesiastical committee"
+          ],
+          "document_page": 35,
+          "source_page_label": "35",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1E11CBEC74FA"
+          ]
+        },
+        {
+          "locator_id": "LOC-1EB0672119FB",
+          "path_id": "PATH-B2FF1AA12A17",
+          "complete_heading_path": [
+            "Philanthropic Institute"
+          ],
+          "document_page": 327,
+          "source_page_label": "327",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1EB0672119FB"
+          ]
+        },
+        {
+          "locator_id": "LOC-2072C42CC1E3",
+          "path_id": "PATH-DAF35033C507",
+          "complete_heading_path": [
+            "Jacobins (Jacobin Club)",
+            "role in war and government by terror"
+          ],
+          "document_page": 184,
+          "source_page_label": "184",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2072C42CC1E3"
+          ]
+        },
+        {
+          "locator_id": "LOC-213BD0B90BEC",
+          "path_id": "PATH-06E01D24A436",
+          "complete_heading_path": [
+            "Moulin, Jean-François Auguste"
+          ],
+          "document_page": 370,
+          "source_page_label": "370",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-213BD0B90BEC"
+          ]
+        },
+        {
+          "locator_id": "LOC-21E392E360B0",
+          "path_id": "PATH-FECDAEB4AFDA",
+          "complete_heading_path": [
+            "Robespierre, Maximilien",
+            "on war and the military"
+          ],
+          "document_page": 180,
+          "source_page_label": "180",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-21E392E360B0"
+          ]
+        },
+        {
+          "locator_id": "LOC-2945A2B5F17F",
+          "path_id": "PATH-CAA7D5BA2ABB",
+          "complete_heading_path": [
+            "Savenay, Battle of"
+          ],
+          "document_page": 289,
+          "source_page_label": "289",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2945A2B5F17F"
+          ]
+        },
+        {
+          "locator_id": "LOC-2A46CD99575D",
+          "path_id": "PATH-DDEF46FFF996",
+          "complete_heading_path": [
+            "Triumvirate (Barnave, Duport, Lameth)"
+          ],
+          "document_page": 119,
+          "source_page_label": "119",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2A46CD99575D"
+          ]
+        },
+        {
+          "locator_id": "LOC-2B02458E664C",
+          "path_id": "PATH-50D680F33CB3",
+          "complete_heading_path": [
+            "Federalist Revolt",
+            "nature and origins"
+          ],
+          "document_page": 266,
+          "source_page_label": "266",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2B02458E664C"
+          ]
+        },
+        {
+          "locator_id": "LOC-2E3FDD78122B",
+          "path_id": "PATH-1B7472BD2C10",
+          "complete_heading_path": [
+            "Buzot, François"
+          ],
+          "document_page": 240,
+          "source_page_label": "240",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2E3FDD78122B"
+          ]
+        },
+        {
+          "locator_id": "LOC-383B41EF0CC5",
+          "path_id": "PATH-FB0FEC68E357",
+          "complete_heading_path": [
+            "Great Britain",
+            "peace negotiations and treaties"
+          ],
+          "document_page": 210,
+          "source_page_label": "210",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-383B41EF0CC5"
+          ]
+        },
+        {
+          "locator_id": "LOC-3CF21D769AE5",
+          "path_id": "PATH-7E57BBF70F3C",
+          "complete_heading_path": [
+            "Liberty",
+            "revolutionary rhetoric and symbolism"
+          ],
+          "document_page": 274,
+          "source_page_label": "274",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-3CF21D769AE5"
+          ]
+        },
+        {
+          "locator_id": "LOC-4292366F9CC4",
+          "path_id": "PATH-9303575171AF",
+          "complete_heading_path": [
+            "Poland"
+          ],
+          "document_page": 413,
+          "source_page_label": "413",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4292366F9CC4"
+          ]
+        },
+        {
+          "locator_id": "LOC-4830D1943B45",
+          "path_id": "PATH-14E19F086FBA",
+          "complete_heading_path": [
+            "weather"
+          ],
+          "document_page": 97,
+          "source_page_label": "97",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4830D1943B45"
+          ]
+        },
+        {
+          "locator_id": "LOC-4A208AA37400",
+          "path_id": "PATH-67869BB9C00D",
+          "complete_heading_path": [
+            "Ventôse, Laws of"
+          ],
+          "document_page": 324,
+          "source_page_label": "324",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4A208AA37400"
+          ]
+        },
+        {
+          "locator_id": "LOC-4A8894D6401D",
+          "path_id": "PATH-0988DD013D75",
+          "complete_heading_path": [
+            "Louis XVI",
+            "and Church reform"
+          ],
+          "document_page": 34,
+          "source_page_label": "34",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4A8894D6401D"
+          ]
+        },
+        {
+          "locator_id": "LOC-4B10DB7908D3",
+          "path_id": "PATH-5A5368DFFEAE",
+          "complete_heading_path": [
+            "West Indies, Caribbean theater of war"
+          ],
+          "document_page": 203,
+          "source_page_label": "203",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4B10DB7908D3"
+          ]
+        },
+        {
+          "locator_id": "LOC-4BA6DA629A25",
+          "path_id": "PATH-A5D253F3CE24",
+          "complete_heading_path": [
+            "free coloureds"
+          ],
+          "document_page": 150,
+          "source_page_label": "150",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4BA6DA629A25"
+          ]
+        },
+        {
+          "locator_id": "LOC-4BFB6F7D505F",
+          "path_id": "PATH-F91F3BA985CE",
+          "complete_heading_path": [
+            "Lanjuinais, Jean-Denis"
+          ],
+          "document_page": 241,
+          "source_page_label": "241",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4BFB6F7D505F"
+          ]
+        },
+        {
+          "locator_id": "LOC-4DEAFD068BC3",
+          "path_id": "PATH-42EB676464CD",
+          "complete_heading_path": [
+            "Gard"
+          ],
+          "document_page": 304,
+          "source_page_label": "304",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4DEAFD068BC3"
+          ]
+        },
+        {
+          "locator_id": "LOC-51D18B70EF0D",
+          "path_id": "PATH-6B12A9D69DB6",
+          "complete_heading_path": [
+            "Lunéville, Treaty of"
+          ],
+          "document_page": 413,
+          "source_page_label": "413",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-51D18B70EF0D"
+          ]
+        },
+        {
+          "locator_id": "LOC-5A363918778A",
+          "path_id": "PATH-3C3B5C08BA55",
+          "complete_heading_path": [
+            "Granville, Siege of"
+          ],
+          "document_page": 308,
+          "source_page_label": "308",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5A363918778A"
+          ]
+        },
+        {
+          "locator_id": "LOC-5CBA66901852",
+          "path_id": "PATH-E9A4D74125B6",
+          "complete_heading_path": [
+            "Basle, Treaties of"
+          ],
+          "document_page": 208,
+          "source_page_label": "208",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5CBA66901852"
+          ]
+        },
+        {
+          "locator_id": "LOC-5F97ABFC52F4",
+          "path_id": "PATH-8435A9115DFE",
+          "complete_heading_path": [
+            "Goethe, Johann Wolfgang von"
+          ],
+          "document_page": 192,
+          "source_page_label": "192",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5F97ABFC52F4"
+          ]
+        },
+        {
+          "locator_id": "LOC-5FC23020204E",
+          "path_id": "PATH-9556E0C0D594",
+          "complete_heading_path": [
+            "Billaud-Varenne, Jacques-Nicolas"
+          ],
+          "document_page": 283,
+          "source_page_label": "283",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5FC23020204E"
+          ]
+        },
+        {
+          "locator_id": "LOC-68C27C2BA654",
+          "path_id": "PATH-1E26146B4093",
+          "complete_heading_path": [
+            "Stofflet, Jean-Nicolas"
+          ],
+          "document_page": 224,
+          "source_page_label": "224",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-68C27C2BA654"
+          ]
+        },
+        {
+          "locator_id": "LOC-6A55ADAB8561",
+          "path_id": "PATH-59F34776B0E9",
+          "complete_heading_path": [
+            "Provence"
+          ],
+          "document_page": 310,
+          "source_page_label": "310",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-6A55ADAB8561"
+          ]
+        },
+        {
+          "locator_id": "LOC-6F7EC1C38F96",
+          "path_id": "PATH-8FC423BFC5CA",
+          "complete_heading_path": [
+            "Great Britain",
+            "radicalism and reform movement in"
+          ],
+          "document_page": 150,
+          "source_page_label": "150",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-6F7EC1C38F96"
+          ]
+        },
+        {
+          "locator_id": "LOC-70217F4DA4EE",
+          "path_id": "PATH-DB0CF5B4FB60",
+          "complete_heading_path": [
+            "Pitt, William (the Younger)"
+          ],
+          "document_page": 203,
+          "source_page_label": "203",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-70217F4DA4EE"
+          ]
+        },
+        {
+          "locator_id": "LOC-709F3B3134BA",
+          "path_id": "PATH-048271815964",
+          "complete_heading_path": [
+            "Catherine II (the Great)"
+          ],
+          "document_page": 165,
+          "source_page_label": "165",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-709F3B3134BA"
+          ]
+        },
+        {
+          "locator_id": "LOC-7B57EE76141D",
+          "path_id": "PATH-783DF4E6CE45",
+          "complete_heading_path": [
+            "taxation",
+            "war and extraordinary measures"
+          ],
+          "document_page": 156,
+          "source_page_label": "156",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-7B57EE76141D"
+          ]
+        },
+        {
+          "locator_id": "LOC-7F97340E1950",
+          "path_id": "PATH-134882F6C9E2",
+          "complete_heading_path": [
+            "Journée of 31 May 1793"
+          ],
+          "document_page": 244,
+          "source_page_label": "244",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-7F97340E1950"
+          ]
+        },
+        {
+          "locator_id": "LOC-84368651301F",
+          "path_id": "PATH-413AE26F8588",
+          "complete_heading_path": [
+            "Louis-Philippe (Duke of Orléans)"
+          ],
+          "document_page": 327,
+          "source_page_label": "327",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-84368651301F"
+          ]
+        },
+        {
+          "locator_id": "LOC-8A56748413C8",
+          "path_id": "PATH-3039838F4039",
+          "complete_heading_path": [
+            "charitable workshops"
+          ],
+          "document_page": 14,
+          "source_page_label": "14",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-8A56748413C8"
+          ]
+        },
+        {
+          "locator_id": "LOC-8C080223A18B",
+          "path_id": "PATH-C671861EDCFA",
+          "complete_heading_path": [
+            "émigrés",
+            "internal divisions ('pures' vs. 'constitutionals')"
+          ],
+          "document_page": 305,
+          "source_page_label": "305",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-8C080223A18B"
+          ]
+        },
+        {
+          "locator_id": "LOC-8CF1012EB6E0",
+          "path_id": "PATH-EF4E7FDEB578",
+          "complete_heading_path": [
+            "Broglie, Victor-François, duc de"
+          ],
+          "document_page": 106,
+          "source_page_label": "106",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-8CF1012EB6E0"
+          ]
+        },
+        {
+          "locator_id": "LOC-91E560CF75DB",
+          "path_id": "PATH-FCF93B328692",
+          "complete_heading_path": [
+            "Fréteau, Emmanuel"
+          ],
+          "document_page": 99,
+          "source_page_label": "99",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-91E560CF75DB"
+          ]
+        },
+        {
+          "locator_id": "LOC-93C783AEAA35",
+          "path_id": "PATH-24A8C199F0EA",
+          "complete_heading_path": [
+            "Puisaye, Joseph, Comte de"
+          ],
+          "document_page": 310,
+          "source_page_label": "310",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-93C783AEAA35"
+          ]
+        },
+        {
+          "locator_id": "LOC-962D6C9AA375",
+          "path_id": "PATH-89F8671E4140",
+          "complete_heading_path": [
+            "wage maximum"
+          ],
+          "document_page": 275,
+          "source_page_label": "275",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-962D6C9AA375"
+          ]
+        },
+        {
+          "locator_id": "LOC-98A012BE1009",
+          "path_id": "PATH-24A8C199F0EA",
+          "complete_heading_path": [
+            "Puisaye, Joseph, Comte de"
+          ],
+          "document_page": 313,
+          "source_page_label": "313",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-98A012BE1009"
+          ]
+        },
+        {
+          "locator_id": "LOC-9F21A6CDB914",
+          "path_id": "PATH-EFBDB3021EDC",
+          "complete_heading_path": [
+            "La Revellière-Lépeaux, Louis-Marie de"
+          ],
+          "document_page": 370,
+          "source_page_label": "370",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-9F21A6CDB914"
+          ]
+        },
+        {
+          "locator_id": "LOC-A196033446AF",
+          "path_id": "PATH-2AF8E095EFCE",
+          "complete_heading_path": [
+            "Antonelli, Leonardo"
+          ],
+          "document_page": 397,
+          "source_page_label": "397",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A196033446AF"
+          ]
+        },
+        {
+          "locator_id": "LOC-A3CEE755D1E3",
+          "path_id": "PATH-6F49AC02609E",
+          "complete_heading_path": [
+            "Ducos, Roger"
+          ],
+          "document_page": 370,
+          "source_page_label": "370",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A3CEE755D1E3"
+          ]
+        },
+        {
+          "locator_id": "LOC-A984D02CAFA8",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 153,
+          "source_page_label": "153",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A984D02CAFA8"
+          ]
+        },
+        {
+          "locator_id": "LOC-AC78C23DB1C9",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 154,
+          "source_page_label": "154",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-AC78C23DB1C9"
+          ]
+        },
+        {
+          "locator_id": "LOC-B648C3653B39",
+          "path_id": "PATH-042E1AE6933C",
+          "complete_heading_path": [
+            "Priestley, Joseph"
+          ],
+          "document_page": 193,
+          "source_page_label": "193",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-B648C3653B39"
+          ]
+        },
+        {
+          "locator_id": "LOC-B7E6F7CD33A4",
+          "path_id": "PATH-AEBBEB91FBD4",
+          "complete_heading_path": [
+            "Barnave, Antoine-Pierre",
+            "constitutional amendments and veto"
+          ],
+          "document_page": 119,
+          "source_page_label": "119",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-B7E6F7CD33A4"
+          ]
+        },
+        {
+          "locator_id": "LOC-BA4DF918D5A6",
+          "path_id": "PATH-0B5669B43B77",
+          "complete_heading_path": [
+            "Harvest",
+            "failures and shortfalls"
+          ],
+          "document_page": 285,
+          "source_page_label": "285",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BA4DF918D5A6"
+          ]
+        },
+        {
+          "locator_id": "LOC-BB9E8E899721",
+          "path_id": "PATH-E60A5E43C706",
+          "complete_heading_path": [
+            "Barras, Paul-François-Jean-Nicolas, vicomte de"
+          ],
+          "document_page": 254,
+          "source_page_label": "254",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BB9E8E899721"
+          ]
+        },
+        {
+          "locator_id": "LOC-BF8D54853D9A",
+          "path_id": "PATH-EF532D84D2D4",
+          "complete_heading_path": [
+            "Couthon, Georges"
+          ],
+          "document_page": 174,
+          "source_page_label": "174",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BF8D54853D9A"
+          ]
+        },
+        {
+          "locator_id": "LOC-C222A41EA4CE",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 176,
+          "source_page_label": "176",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C222A41EA4CE"
+          ]
+        },
+        {
+          "locator_id": "LOC-C3F940854FC0",
+          "path_id": "PATH-475DDD4EAFF6",
+          "complete_heading_path": [
+            "Danton, Georges-Jacques",
+            "foreign policy and war involvement"
+          ],
+          "document_page": 199,
+          "source_page_label": "199",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C3F940854FC0"
+          ]
+        },
+        {
+          "locator_id": "LOC-CA39508FF9C5",
+          "path_id": "PATH-7E196168EBD7",
+          "complete_heading_path": [
+            "National Assembly",
+            "historical perspective and evaluation"
+          ],
+          "document_page": 113,
+          "source_page_label": "113",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "passing_mention",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CA39508FF9C5"
+          ]
+        },
+        {
+          "locator_id": "LOC-CF2AEE605855",
+          "path_id": "PATH-59F5E7ABBF3F",
+          "complete_heading_path": [
+            "desertion"
+          ],
+          "document_page": 30,
+          "source_page_label": "30",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CF2AEE605855"
+          ]
+        },
+        {
+          "locator_id": "LOC-D00D2D48CDA2",
+          "path_id": "PATH-ED68FCC9B189",
+          "complete_heading_path": [
+            "Revolutionary Government"
+          ],
+          "document_page": 213,
+          "source_page_label": "213",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D00D2D48CDA2"
+          ]
+        },
+        {
+          "locator_id": "LOC-D13E4F99E86F",
+          "path_id": "PATH-ED68FCC9B189",
+          "complete_heading_path": [
+            "Revolutionary Government"
+          ],
+          "document_page": 215,
+          "source_page_label": "215",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D13E4F99E86F"
+          ]
+        },
+        {
+          "locator_id": "LOC-D5FAF9BA45A6",
+          "path_id": "PATH-32C6708ACB6B",
+          "complete_heading_path": [
+            "Bordeaux",
+            "Revolutionary politics and Federalism"
+          ],
+          "document_page": 181,
+          "source_page_label": "181",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D5FAF9BA45A6"
+          ]
+        },
+        {
+          "locator_id": "LOC-DB9E2CAC8156",
+          "path_id": "PATH-DAAE62865B21",
+          "complete_heading_path": [
+            "Brissot, Jacques-Pierre",
+            "conflict with Montagnards"
+          ],
+          "document_page": 193,
+          "source_page_label": "193",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-DB9E2CAC8156"
+          ]
+        },
+        {
+          "locator_id": "LOC-DF477F4E30C8",
+          "path_id": "PATH-894242A1BFF0",
+          "complete_heading_path": [
+            "Antraigues, Emmanuel-Henri-Louis Alexandre de Launay, Comte d'"
+          ],
+          "document_page": 313,
+          "source_page_label": "313",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-DF477F4E30C8"
+          ]
+        },
+        {
+          "locator_id": "LOC-DF574A4AA64F",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 186,
+          "source_page_label": "186",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-DF574A4AA64F"
+          ]
+        },
+        {
+          "locator_id": "LOC-E0BD7BEF10E7",
+          "path_id": "PATH-985B5AC9222B",
+          "complete_heading_path": [
+            "Catholic Army of the Midi"
+          ],
+          "document_page": 304,
+          "source_page_label": "304",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E0BD7BEF10E7"
+          ]
+        },
+        {
+          "locator_id": "LOC-E239FA63B5A4",
+          "path_id": "PATH-F2683060812E",
+          "complete_heading_path": [
+            "Froment, François"
+          ],
+          "document_page": 304,
+          "source_page_label": "304",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E239FA63B5A4"
+          ]
+        },
+        {
+          "locator_id": "LOC-E2AD8A9F5973",
+          "path_id": "PATH-DAAE62865B21",
+          "complete_heading_path": [
+            "Brissot, Jacques-Pierre",
+            "conflict with Montagnards"
+          ],
+          "document_page": 200,
+          "source_page_label": "200",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E2AD8A9F5973"
+          ]
+        },
+        {
+          "locator_id": "LOC-E7B055D61E79",
+          "path_id": "PATH-ABEE93D5E4A9",
+          "complete_heading_path": [
+            "Fox, Charles James"
+          ],
+          "document_page": 160,
+          "source_page_label": "160",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E7B055D61E79"
+          ]
+        },
+        {
+          "locator_id": "LOC-EDF6BB788563",
+          "path_id": "PATH-BA06E1DE1BDE",
+          "complete_heading_path": [
+            "Versailles",
+            "post-revolutionary decline"
+          ],
+          "document_page": 391,
+          "source_page_label": "391",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-EDF6BB788563"
+          ]
+        },
+        {
+          "locator_id": "LOC-EF22612930BD",
+          "path_id": "PATH-84B3439B64EA",
+          "complete_heading_path": [
+            "Babeuf, François-Noël (Gracchus)",
+            "legacy and influence"
+          ],
+          "document_page": 383,
+          "source_page_label": "383",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-EF22612930BD"
+          ]
+        },
+        {
+          "locator_id": "LOC-F018D5406D0D",
+          "path_id": "PATH-5031D0D81CB5",
+          "complete_heading_path": [
+            "Theophilanthropy"
+          ],
+          "document_page": 334,
+          "source_page_label": "334",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F018D5406D0D"
+          ]
+        },
+        {
+          "locator_id": "LOC-F151A8A07EC5",
+          "path_id": "PATH-9D7E555371C1",
+          "complete_heading_path": [
+            "Brumaire, Coup of"
+          ],
+          "document_page": 18,
+          "source_page_label": "18",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F151A8A07EC5"
+          ]
+        },
+        {
+          "locator_id": "LOC-F3D2E3EE4C76",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 151,
+          "source_page_label": "151",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F3D2E3EE4C76"
+          ]
+        },
+        {
+          "locator_id": "LOC-F404EA568752",
+          "path_id": "PATH-0B60B65248D8",
+          "complete_heading_path": [
+            "Marengo, Battle of"
+          ],
+          "document_page": 385,
+          "source_page_label": "385",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F404EA568752"
+          ]
+        },
+        {
+          "locator_id": "LOC-F4E39D4FD0F4",
+          "path_id": "PATH-4E614F6D4750",
+          "complete_heading_path": [
+            "Pichegru, Jean-Charles"
+          ],
+          "document_page": 316,
+          "source_page_label": "316",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F4E39D4FD0F4"
+          ]
+        },
+        {
+          "locator_id": "LOC-F65F04255344",
+          "path_id": "PATH-FECDAEB4AFDA",
+          "complete_heading_path": [
+            "Robespierre, Maximilien",
+            "on war and the military"
+          ],
+          "document_page": 192,
+          "source_page_label": "192",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F65F04255344"
+          ]
+        },
+        {
+          "locator_id": "LOC-FA17D1D4DF98",
+          "path_id": "PATH-421DB806F9D5",
+          "complete_heading_path": [
+            "Calvados"
+          ],
+          "document_page": 242,
+          "source_page_label": "242",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-FA17D1D4DF98"
+          ]
+        },
+        {
+          "locator_id": "LOC-FC2FBF14B2DE",
+          "path_id": "PATH-29E786F6417B",
+          "complete_heading_path": [
+            "Cahiers de doléances"
+          ],
+          "document_page": 401,
+          "source_page_label": "401",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-FC2FBF14B2DE"
+          ]
+        },
+        {
+          "locator_id": "LOC-FFF913D6A79B",
+          "path_id": "PATH-779BEFD900AB",
+          "complete_heading_path": [
+            "bocage"
+          ],
+          "document_page": 224,
+          "source_page_label": "224",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-FFF913D6A79B"
+          ]
+        }
+      ],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "Confirmed delivered destination failure from finalized audit evidence; one item is sufficient, independent of severity, defect records, rates, or spread."
+    },
+    {
+      "gate_id": "GATE-BROKEN-REFERENCE",
+      "description": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [],
+      "affected_evidence_ids": [
+        "XREF-1FB84F43D7ED",
+        "XREF-80B3F994D3ED"
+      ],
+      "threshold": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [
+        {
+          "reference_id": "XREF-1FB84F43D7ED",
+          "judgment": "unsupported",
+          "reference_type": "see also",
+          "target_display": "abolition of slavery",
+          "target_resolution": "no_valid_destination",
+          "resolved_path_ids": [],
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-03597F3EC0D5",
+            "EVID-3EF4119FDF7A",
+            "EVID-6CF2552D527B",
+            "EVID-8593059C70A4",
+            "EVID-9858B3B20B48",
+            "EVID-A363CCD370A8",
+            "EVID-E05D42F97BF4",
+            "EVID-E6EAD5FE3983",
+            "EVID-FCAE4359F6F7",
+            "EVID-XREF-1FB84F43D7ED"
+          ]
+        },
+        {
+          "reference_id": "XREF-80B3F994D3ED",
+          "judgment": "unsupported",
+          "reference_type": "see also",
+          "target_display": "9 Thermidor",
+          "target_resolution": "no_valid_destination",
+          "resolved_path_ids": [],
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-063FF3608951",
+            "EVID-06C39B6DFE6D",
+            "EVID-55B6DC01C491",
+            "EVID-5B7D20726886",
+            "EVID-5E127DF3A989",
+            "EVID-6AD6343A3595",
+            "EVID-951D667E68F0",
+            "EVID-9A6246DC5022",
+            "EVID-B20E0CE4952E",
+            "EVID-C7AC27EAC5BA",
+            "EVID-XREF-80B3F994D3ED"
+          ]
+        }
+      ],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "Confirmed delivered destination failure from finalized audit evidence; one item is sufficient, independent of severity, defect records, rates, or spread."
+    }
+  ],
+  "assessment": {
+    "status": "indeterminate",
+    "blocker_count": 2680,
+    "reason": "Preserved structure uncertainties affect locator IDs and complete paths. No frozen uncertainty was cleared; these are assessment gaps, not new candidate defects.",
+    "full_affected_ids_reference": "../scoring-v82/evaluation-result.v12.json#gate_assessment"
+  },
+  "evaluation_validity": {
+    "status": "valid",
+    "blockers": [],
+    "used_as_publication_gate": false
+  },
+  "readiness": "not_publication_ready",
+  "release_limitation": "Provisional gate assessment: methodology owner confirmed path-uncertainty over-expansion in adeb691. Preserve checkpoint; final gates await reviewed patch receipt.",
+  "artifact_hashes": [
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-index.v2.json",
+      "baseline_sha256": "48c489e56077e886c6cd50e000fa293ed0d11eccdc461ed3b63817b42a9735e4",
+      "current_sha256": "48c489e56077e886c6cd50e000fa293ed0d11eccdc461ed3b63817b42a9735e4"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-layout-extraction.v1.json",
+      "baseline_sha256": "2e76bfad544dc3d5cd3677d9fb313ce82e6adcc1631bfc8c6ed3c351e2c5f7ac",
+      "current_sha256": "2e76bfad544dc3d5cd3677d9fb313ce82e6adcc1631bfc8c6ed3c351e2c5f7ac"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/item-inventory.v2.json",
+      "baseline_sha256": "2c14c47659ae018853ff57acbe2dec45c3c6058e1442f88faa28311014475981",
+      "current_sha256": "2c14c47659ae018853ff57acbe2dec45c3c6058e1442f88faa28311014475981"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-001.v2.json",
+      "baseline_sha256": "f9c4c7d3989027b578d9397e52acd7649a4e0861c440c1a9542bee8da7325900",
+      "current_sha256": "f9c4c7d3989027b578d9397e52acd7649a4e0861c440c1a9542bee8da7325900"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-002.v2.json",
+      "baseline_sha256": "518bf87a4e90288021d97e5bf195db5a12bd4608ecf9546e2ce6517bcdf565e7",
+      "current_sha256": "518bf87a4e90288021d97e5bf195db5a12bd4608ecf9546e2ce6517bcdf565e7"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-003.v2.json",
+      "baseline_sha256": "9cd69ce5cfa41869a1ff722d524706ce56e75c6c7fc57ead599c23341cc8df7f",
+      "current_sha256": "9cd69ce5cfa41869a1ff722d524706ce56e75c6c7fc57ead599c23341cc8df7f"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-004.v2.json",
+      "baseline_sha256": "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56",
+      "current_sha256": "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-005.v2.json",
+      "baseline_sha256": "54d58d652bb1bf645eee4f063c5ea853485e595e9c2b79d8bcc2788764661b0d",
+      "current_sha256": "54d58d652bb1bf645eee4f063c5ea853485e595e9c2b79d8bcc2788764661b0d"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-006.v2.json",
+      "baseline_sha256": "029b558ed762c23334e1b80045b8be1d02fa474d52679b603d2ec53aa204a344",
+      "current_sha256": "029b558ed762c23334e1b80045b8be1d02fa474d52679b603d2ec53aa204a344"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-007.v2.json",
+      "baseline_sha256": "2d81b5677d39a3c489369e2a999c2a49e3e4243eb5f91d90a7eabc04d8bc50fe",
+      "current_sha256": "2d81b5677d39a3c489369e2a999c2a49e3e4243eb5f91d90a7eabc04d8bc50fe"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-008.v2.json",
+      "baseline_sha256": "3432848897b957962a53fc8b2323ec57c0a0ca82478ae537652cba77dad27825",
+      "current_sha256": "3432848897b957962a53fc8b2323ec57c0a0ca82478ae537652cba77dad27825"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-009.v2.json",
+      "baseline_sha256": "a4ee72c11852893f85146cec069368f2bde255c2ace70f046d23d1248e8f5d8b",
+      "current_sha256": "a4ee72c11852893f85146cec069368f2bde255c2ace70f046d23d1248e8f5d8b"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-010.v2.json",
+      "baseline_sha256": "6411c4b62b34f1a4429564e6c0c7599a7b991eac5c0614d1ca07ce03636757bf",
+      "current_sha256": "6411c4b62b34f1a4429564e6c0c7599a7b991eac5c0614d1ca07ce03636757bf"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-011.v2.json",
+      "baseline_sha256": "7a07f2d4d36681313261ab91b48b7bc016208699f57b9fef7d7eaf89b01c98fd",
+      "current_sha256": "7a07f2d4d36681313261ab91b48b7bc016208699f57b9fef7d7eaf89b01c98fd"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-012.v2.json",
+      "baseline_sha256": "5416a64bf9262a21a4e9b0bd84f9d3b830aa306f3c93a4bef3c1d2c2af61a14b",
+      "current_sha256": "5416a64bf9262a21a4e9b0bd84f9d3b830aa306f3c93a4bef3c1d2c2af61a14b"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-013.v2.json",
+      "baseline_sha256": "6e1ad5fa517d46d1da16d0b0bd3b58bf05b81b0c103921d7bac371a85b377c0e",
+      "current_sha256": "6e1ad5fa517d46d1da16d0b0bd3b58bf05b81b0c103921d7bac371a85b377c0e"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-014.v2.json",
+      "baseline_sha256": "9ad09c70d739806d60b6453e3dc3a0d5048cc9915e40f7cb6e977950dbeff6b8",
+      "current_sha256": "9ad09c70d739806d60b6453e3dc3a0d5048cc9915e40f7cb6e977950dbeff6b8"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-015.v2.json",
+      "baseline_sha256": "afb0af9865334c0753df1183190ccc7232c29ec35b63179345606a10fc6017cc",
+      "current_sha256": "afb0af9865334c0753df1183190ccc7232c29ec35b63179345606a10fc6017cc"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-016.v2.json",
+      "baseline_sha256": "3c95f0badfff276714c77e540ef7f29107d514ad7574d2e95da22a1e70aca586",
+      "current_sha256": "3c95f0badfff276714c77e540ef7f29107d514ad7574d2e95da22a1e70aca586"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-017.v2.json",
+      "baseline_sha256": "0655cc2944ea21783710ae08ca9a5b12517ff75ed84ea1b618d235c5b5f01de4",
+      "current_sha256": "0655cc2944ea21783710ae08ca9a5b12517ff75ed84ea1b618d235c5b5f01de4"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "baseline_sha256": "405e0f74f749c611335a643ca9eb08f7599c35c77aa51c4af5ed4f4cec89d128",
+      "current_sha256": "d73c75f2867502d9adca482324f50814e8fc8f13ef1436b2d201a9dda6288c1d"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "baseline_sha256": "9ad4a7939f3e9c6057b93df5093622c715e93fdcf9017f3f3ac2ca7d7cc2f071",
+      "current_sha256": "83eeb1331aa812c9a5a12ed61485f9b587bb8e91ea52bab449059deaeee2af04"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "baseline_sha256": "1deb04c1b99af0206e79585df8e9d6128fa0f42dc88dad64d44003facf8fccd4",
+      "current_sha256": "ba6ce1b90fd34aa5dd5138f85f279a57c787ff3ddddb6a69e38c2420905aa0ec"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "baseline_sha256": "a06c81ca9b948d21e02dca4a41deb1d8e35ab6753cecedd73abeaefa5e289c24",
+      "current_sha256": "18befe01f94e56b3d663a9d18a0af633e7f5df4540a136ddd253bf7a0e007d38"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "baseline_sha256": "94cdc17ec095476a335da4aece79c04dc1e2674eafc1af476d14fd166bf4e593",
+      "current_sha256": "7773701bc4538ebd65d4969f35cefbeeeb45ba708f3bc4f4942587bc0fd9982e"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "baseline_sha256": "a04c435ab9279c2fe73ed1d70bdd17c37740a8ce09968d0f8c9139aec9c084c1",
+      "current_sha256": "fa288848bfd0ae1f71edbc7eaab7e98f4d00702de5eacd00092373876f4793b8"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "baseline_sha256": "55012362266790be905c5171fbf28e30015815dcdb81af934691140990479055",
+      "current_sha256": "e35f38c706cc5b2d44d4f0a592f5c10f7173e32c93603bc60193baf814d2765a"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "baseline_sha256": "2a9184eb0d588751f8906a449b17d8e6f2a9709d62be411861a2b4da1130d27b",
+      "current_sha256": "03eb84c5bb7966024511ac39d052e1d17b55980de269fe9af91438b43fe0e4c0"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "baseline_sha256": "3e421853172112fee40c075d879d744fafa0cf11881a8e31a690f16a21723ae4",
+      "current_sha256": "67f9b0f21f4c80e1125d337a19533deeb7ebf0e5dafb52614abd7dc7e8df4cad"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "baseline_sha256": "3af6629e70831c4b006d7fc4711804ddae1fb227dbf4407680ec457a6f522771",
+      "current_sha256": "50d9d469b1ceba8ef7c0ceec807264ef0fd5936e52d94ed42ac8fcf12957c0cf"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "baseline_sha256": "c35256344d6859bca24a918e88ab2395ea3030656e38ec575bcf3cf25f3d2b32",
+      "current_sha256": "f5464f0f87ad8066597c776fc5db3e38dec9ecc9045572f52106194c6156fbf4"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "baseline_sha256": "4c13b0317c71ac58e66af88429c6088aea06c86552d8aac5d829162feb5557c0",
+      "current_sha256": "3c809e62c7c3f39c5f95f2cff75825e8354cc2d71f68526c636bc0df279df3b6"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "baseline_sha256": "6aff9d7e52baae68c7dac7ab363c1c510dde4375bea05b2a76815a2d07326e13",
+      "current_sha256": "325bb7d00fed3508e1808c258122ad90e4a2bf91315f321d6b0b81fafc8bd029"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "baseline_sha256": "3c6f5386b6ea41894978130eb302f12c1163beb42855841dacafc377a4db278b",
+      "current_sha256": "39f3350f92ad23ad04957122063d97307312dbf447e7d7d0749ea7a622985e09"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "baseline_sha256": "6bc6c4c38142f820a4091f3d4e0e3286c3fb012144088f0367c91c4148b20ac2",
+      "current_sha256": "6d0a81786e8f343c2bdfb4663a6ad7d8eb53b10f6693052abdb59c880edf1edf"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "baseline_sha256": "573d736e0460058a28caec8d1079bf1dc30e7a8106b41c89c3c962349bf134d7",
+      "current_sha256": "6958a8dd60a3f027ab24b0d8b6776eee6121ce125af9ff4aa90955202a4167c6"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "baseline_sha256": "0685ba5a499e1f23f6c3c147797f920dedf4a036fe384e272a79018624713db4",
+      "current_sha256": "0c7e76e97123712705cf09f136203fafe14da40686384623aa72d6ebfffd5b5e"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
+      "baseline_sha256": "d44c15128509a590bf9c603f1fa50195c928492d5ed8954194e63c384ea492f6",
+      "current_sha256": "1baacd49677520a9145805f315dcc2e9957ede3e040c8370963def8c83838812"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/evaluation-state.json",
+      "baseline_sha256": "2bd0e712135430afccd5ba9f8dc1e61dc4a8b81cfdfdc7a511f0dc90759171ba",
+      "current_sha256": "2bd0e712135430afccd5ba9f8dc1e61dc4a8b81cfdfdc7a511f0dc90759171ba"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/source/chunk-manifest.json",
+      "baseline_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "current_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/source/evaluation-policy.v2.json",
+      "baseline_sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+      "current_sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/source/page-map.json",
+      "baseline_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "current_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/source/source-benchmark.v3.json",
+      "baseline_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "current_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/validation/source-benchmark-review-inventory.json",
+      "baseline_sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9",
+      "current_sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/validation/source-benchmark-review.v1.json",
+      "baseline_sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+      "current_sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f"
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-001.json",
+      "baseline_sha256": "9e8abda90236ef0f3151a74caaa3c25b92d622b4be017d744a2af03692a804c3",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-002.json",
+      "baseline_sha256": "c77f065694b7d05cd102d4e6db86d703f001b7f847f82bdc955b7e383c3ceea9",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-003.json",
+      "baseline_sha256": "8e3b89063b5f669ee41c26bb9e67ff875ea371959f69770507080bfe75ace3e7",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-004.json",
+      "baseline_sha256": "1d710811343cb25ddb642825c16785674b40d7490305d64bde1ab85551f98459",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-005.json",
+      "baseline_sha256": "7f55f74b7081aa3ad547b1bb527ee22d4d9051ba80abda3ec4018853ddbcd76b",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-006.json",
+      "baseline_sha256": "4dbed5ab6a829c4bb7de01040281e95681c0a89e61820284352928e6e7793b5c",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-007.json",
+      "baseline_sha256": "0d1859826aae85e1f5b22bc30b30ef4b353837a52e3a1cd0c69916b1b7e3f166",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-008.json",
+      "baseline_sha256": "b2f4e06dcd004340594ad0ec3807af57517a16b3ee4806d2dc93ef0e0795396e",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-009.json",
+      "baseline_sha256": "d272965707d6ad2b81d34a46e3799ef659c04faf838b63e3ff85267d3ed9de67",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-010.json",
+      "baseline_sha256": "acd48f322eed453167dff28d776dcc93ffb210a4481d5e728747507477991a38",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-011.json",
+      "baseline_sha256": "eb3c724ea246f764f7f6d64779f5efb23decf6a046fa31972ff160a6487c4f0c",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-012.json",
+      "baseline_sha256": "e754d9db32adf4ac0d2d80fd9dbf3bca63d9318cd8bb4281907bd66c39f8d6c7",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-013.json",
+      "baseline_sha256": "9420b8c27ce896646a97438e88af37a3d3a786b23888fd1acdd580e30fb266e1",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-014.json",
+      "baseline_sha256": "73bcddfd6cb06e582af78134f3af6f72f02f4d2de0c89b90d891382580c1e364",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-015.json",
+      "baseline_sha256": "2e49e45daa6a1741cfe86586de5a38d1f1fb744709500159c943d355aa314356",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-016.json",
+      "baseline_sha256": "48c8e752b0bd4c63f184bff79922f84da850cdefc3f3903c2fba945b99f5dfc4",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v81/candidate-locator-CHUNK-017.json",
+      "baseline_sha256": "0192899bba21d4dd3da59105a41230c46c265c00bb49ca4432eafc827803e9a8",
+      "current_sha256": null
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-001.json",
+      "baseline_sha256": null,
+      "current_sha256": "9e8abda90236ef0f3151a74caaa3c25b92d622b4be017d744a2af03692a804c3"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-002.json",
+      "baseline_sha256": null,
+      "current_sha256": "c77f065694b7d05cd102d4e6db86d703f001b7f847f82bdc955b7e383c3ceea9"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-003.json",
+      "baseline_sha256": null,
+      "current_sha256": "8e3b89063b5f669ee41c26bb9e67ff875ea371959f69770507080bfe75ace3e7"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-004.json",
+      "baseline_sha256": null,
+      "current_sha256": "1d710811343cb25ddb642825c16785674b40d7490305d64bde1ab85551f98459"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-005.json",
+      "baseline_sha256": null,
+      "current_sha256": "7f55f74b7081aa3ad547b1bb527ee22d4d9051ba80abda3ec4018853ddbcd76b"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-006.json",
+      "baseline_sha256": null,
+      "current_sha256": "4dbed5ab6a829c4bb7de01040281e95681c0a89e61820284352928e6e7793b5c"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-007.json",
+      "baseline_sha256": null,
+      "current_sha256": "0d1859826aae85e1f5b22bc30b30ef4b353837a52e3a1cd0c69916b1b7e3f166"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-008.json",
+      "baseline_sha256": null,
+      "current_sha256": "b2f4e06dcd004340594ad0ec3807af57517a16b3ee4806d2dc93ef0e0795396e"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-009.json",
+      "baseline_sha256": null,
+      "current_sha256": "d272965707d6ad2b81d34a46e3799ef659c04faf838b63e3ff85267d3ed9de67"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-010.json",
+      "baseline_sha256": null,
+      "current_sha256": "acd48f322eed453167dff28d776dcc93ffb210a4481d5e728747507477991a38"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-011.json",
+      "baseline_sha256": null,
+      "current_sha256": "eb3c724ea246f764f7f6d64779f5efb23decf6a046fa31972ff160a6487c4f0c"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-012.json",
+      "baseline_sha256": null,
+      "current_sha256": "e754d9db32adf4ac0d2d80fd9dbf3bca63d9318cd8bb4281907bd66c39f8d6c7"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-013.json",
+      "baseline_sha256": null,
+      "current_sha256": "9420b8c27ce896646a97438e88af37a3d3a786b23888fd1acdd580e30fb266e1"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-014.json",
+      "baseline_sha256": null,
+      "current_sha256": "73bcddfd6cb06e582af78134f3af6f72f02f4d2de0c89b90d891382580c1e364"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-015.json",
+      "baseline_sha256": null,
+      "current_sha256": "2e49e45daa6a1741cfe86586de5a38d1f1fb744709500159c943d355aa314356"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-016.json",
+      "baseline_sha256": null,
+      "current_sha256": "48c8e752b0bd4c63f184bff79922f84da850cdefc3f3903c2fba945b99f5dfc4"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-017.json",
+      "baseline_sha256": null,
+      "current_sha256": "0192899bba21d4dd3da59105a41230c46c265c00bb49ca4432eafc827803e9a8"
+    },
+    {
+      "path": "migration-v8.1/correction-ledger.json",
+      "baseline_sha256": "eaec94011ad7b16055733066da316ce8c3b69da40a8244d4750faef0a563415c",
+      "current_sha256": null
+    },
+    {
+      "path": "migration-v8.1/correction-validation.json",
+      "baseline_sha256": "f5cbed52d9c53d6435206185a06e6efc263cc6a57be9d841e08b3d62820438cb",
+      "current_sha256": null
+    },
+    {
+      "path": "scoring-v81/dimension-calculation-input.v2.json",
+      "baseline_sha256": "e536b0aec4086a75fba655283aa61f23d6f1e21fddb4af87aef57baf5bbefbd6",
+      "current_sha256": null
+    },
+    {
+      "path": "scoring-v81/dimension-calculations.v6.json",
+      "baseline_sha256": "cdc33efba793893a617e98484a3e0685db9095a72ff1de27d9eb74c258b112ef",
+      "current_sha256": null
+    },
+    {
+      "path": "scoring-v81/evaluation-result.v12.json",
+      "baseline_sha256": "752ed2077e4f52e6ec5d67408f413cc2bbbcfbd5c37907d9c8a473759249e73b",
+      "current_sha256": null
+    },
+    {
+      "path": "scoring-v81/item-assessments.v7.json",
+      "baseline_sha256": "139ca28c74541ea85ab1ad061795feb997a65f9f2fbc8743435d6dc06949d228",
+      "current_sha256": null
+    },
+    {
+      "path": "scoring-v81/projection-metadata.v2.json",
+      "baseline_sha256": "547588305f480b98da77d7c7c325d719db3cd958beeaec2455e24b9f8922715e",
+      "current_sha256": null
+    },
+    {
+      "path": "scoring-v81/v8-canonical-projection/data/density.v1.json",
+      "baseline_sha256": "033bee392438f8a9c542b6c5b9cb4d14aaacfa9586f7e76724a1a4c796c4f9d8",
+      "current_sha256": null
+    },
+    {
+      "path": "scoring-v81/v8-canonical-projection/data/index-records.v1.json",
+      "baseline_sha256": "0645df5b3167f7ad2aea523222a83d130f89685dfb51ecf8d02d3fd782124e31",
+      "current_sha256": null
+    },
+    {
+      "path": "scoring-v81/v8-canonical-projection/data/source-subjects.v1.json",
+      "baseline_sha256": "a3b79ed768257c5f371127d265d57a97e2064aa100d44ca25fd2dc5210aa89d5",
+      "current_sha256": null
+    },
+    {
+      "path": "scoring-v81/v8-canonical-projection/projection.v1.json",
+      "baseline_sha256": "ab9cfa48bf2e49cc22f6c107214b57c154563e32eb55077bda26f6669271f3cd",
+      "current_sha256": null
+    },
+    {
+      "path": "scoring-v81/web-report.v10.json",
+      "baseline_sha256": "1081ebcb0b8b10c38177c5161656dbcfacb5e7df537d487a34ef058de627acf6",
+      "current_sha256": null
+    },
+    {
+      "path": "scoring-v82/dimension-calculation-input.v2.json",
+      "baseline_sha256": null,
+      "current_sha256": "4250bef12bf765ae901b072631d85855533012f2e3085ed69a3e9e12bf1c6f35"
+    },
+    {
+      "path": "scoring-v82/dimension-calculations.v6.json",
+      "baseline_sha256": null,
+      "current_sha256": "0f5e5bd3e16f7c0c90d84d5219bfd0945e2dcfbfaf65de1e333efc3c7eccf952"
+    },
+    {
+      "path": "scoring-v82/evaluation-result.v12.json",
+      "baseline_sha256": null,
+      "current_sha256": "5d9a4304fdf5553932f7634fdc12d13c39a582ea28b10657d55965582e3f55d3"
+    },
+    {
+      "path": "scoring-v82/item-assessments.v7.json",
+      "baseline_sha256": null,
+      "current_sha256": "ea2e06cbba569f3cd72f032e90ad2f469bcefcbc4e5eae5f4ccac443242e473c"
+    },
+    {
+      "path": "scoring-v82/projection-metadata.v2.json",
+      "baseline_sha256": null,
+      "current_sha256": "064c4e08038b10a009dd1f6e6fb8868ea4f7ccd3c6f3b200600da64237bf5ad9"
+    },
+    {
+      "path": "scoring-v82/v8-canonical-projection/data/density.v1.json",
+      "baseline_sha256": null,
+      "current_sha256": "033bee392438f8a9c542b6c5b9cb4d14aaacfa9586f7e76724a1a4c796c4f9d8"
+    },
+    {
+      "path": "scoring-v82/v8-canonical-projection/data/index-records.v1.json",
+      "baseline_sha256": null,
+      "current_sha256": "0645df5b3167f7ad2aea523222a83d130f89685dfb51ecf8d02d3fd782124e31"
+    },
+    {
+      "path": "scoring-v82/v8-canonical-projection/data/source-subjects.v1.json",
+      "baseline_sha256": null,
+      "current_sha256": "a3b79ed768257c5f371127d265d57a97e2064aa100d44ca25fd2dc5210aa89d5"
+    },
+    {
+      "path": "scoring-v82/v8-canonical-projection/projection.v1.json",
+      "baseline_sha256": null,
+      "current_sha256": "117313f990b29406f15002e38834758d0dffaea134be7142aee945d3c1b8d181"
+    },
+    {
+      "path": "scoring-v82/web-report.v10.json",
+      "baseline_sha256": null,
+      "current_sha256": "a7afd70e491d36f75f75b35e6b6dd1e020f2e894d68265e3730b6e3f745144eb"
+    },
+    {
+      "path": "source/chunk-manifest.json",
+      "baseline_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "current_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    {
+      "path": "source/chunks/CHUNK-001.pages.json",
+      "baseline_sha256": "c913e8e5f561bd4111b5935a621b4bcf08bc706b786ce90087318b87466688c3",
+      "current_sha256": "c913e8e5f561bd4111b5935a621b4bcf08bc706b786ce90087318b87466688c3"
+    },
+    {
+      "path": "source/chunks/CHUNK-001.pdf",
+      "baseline_sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967",
+      "current_sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967"
+    },
+    {
+      "path": "source/chunks/CHUNK-002.pages.json",
+      "baseline_sha256": "c153687a06887023930f204b5b35ee962c1c13d3bc14e54c137df3b43dc3a731",
+      "current_sha256": "c153687a06887023930f204b5b35ee962c1c13d3bc14e54c137df3b43dc3a731"
+    },
+    {
+      "path": "source/chunks/CHUNK-002.pdf",
+      "baseline_sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f",
+      "current_sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f"
+    },
+    {
+      "path": "source/chunks/CHUNK-003.pages.json",
+      "baseline_sha256": "d93f8e157f969af31ac2807c9423d25572070d76d9d2f474d4a55fa0a113b871",
+      "current_sha256": "d93f8e157f969af31ac2807c9423d25572070d76d9d2f474d4a55fa0a113b871"
+    },
+    {
+      "path": "source/chunks/CHUNK-003.pdf",
+      "baseline_sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f",
+      "current_sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f"
+    },
+    {
+      "path": "source/chunks/CHUNK-004.pages.json",
+      "baseline_sha256": "623a46e1181a066ad7044afc0786ab263eed5ccd206ab714d47c3ce58fc77aa7",
+      "current_sha256": "623a46e1181a066ad7044afc0786ab263eed5ccd206ab714d47c3ce58fc77aa7"
+    },
+    {
+      "path": "source/chunks/CHUNK-004.pdf",
+      "baseline_sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe",
+      "current_sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe"
+    },
+    {
+      "path": "source/chunks/CHUNK-005.pages.json",
+      "baseline_sha256": "23a684500e2d197a3fff4d5fbfffacd1f17e22adffa684cc4551573f0ec43788",
+      "current_sha256": "23a684500e2d197a3fff4d5fbfffacd1f17e22adffa684cc4551573f0ec43788"
+    },
+    {
+      "path": "source/chunks/CHUNK-005.pdf",
+      "baseline_sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af",
+      "current_sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af"
+    },
+    {
+      "path": "source/chunks/CHUNK-006.pages.json",
+      "baseline_sha256": "c4c6a517c74219fe9bd4d1bdff81e8a2abdd2cb2576e1d2b99ec5faa832779dd",
+      "current_sha256": "c4c6a517c74219fe9bd4d1bdff81e8a2abdd2cb2576e1d2b99ec5faa832779dd"
+    },
+    {
+      "path": "source/chunks/CHUNK-006.pdf",
+      "baseline_sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306",
+      "current_sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306"
+    },
+    {
+      "path": "source/chunks/CHUNK-007.pages.json",
+      "baseline_sha256": "3cc1168bea4ef216076e040c0097a3f0b2df60c745450b030e525ed6e772ade1",
+      "current_sha256": "3cc1168bea4ef216076e040c0097a3f0b2df60c745450b030e525ed6e772ade1"
+    },
+    {
+      "path": "source/chunks/CHUNK-007.pdf",
+      "baseline_sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c",
+      "current_sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c"
+    },
+    {
+      "path": "source/chunks/CHUNK-008.pages.json",
+      "baseline_sha256": "6d270ebf00e6782edbec9e7cd3695c267cca18ac92f13435d96f25ee416b1863",
+      "current_sha256": "6d270ebf00e6782edbec9e7cd3695c267cca18ac92f13435d96f25ee416b1863"
+    },
+    {
+      "path": "source/chunks/CHUNK-008.pdf",
+      "baseline_sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81",
+      "current_sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81"
+    },
+    {
+      "path": "source/chunks/CHUNK-009.pages.json",
+      "baseline_sha256": "d42e4846d642110a5b626ecea697f518bd614649043cdf7d707f4fb2134230a7",
+      "current_sha256": "d42e4846d642110a5b626ecea697f518bd614649043cdf7d707f4fb2134230a7"
+    },
+    {
+      "path": "source/chunks/CHUNK-009.pdf",
+      "baseline_sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8",
+      "current_sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8"
+    },
+    {
+      "path": "source/chunks/CHUNK-010.pages.json",
+      "baseline_sha256": "57b511c4ea8f977e972c3473f3f064f991623052ae1d863ff95a7bfeb217a7b8",
+      "current_sha256": "57b511c4ea8f977e972c3473f3f064f991623052ae1d863ff95a7bfeb217a7b8"
+    },
+    {
+      "path": "source/chunks/CHUNK-010.pdf",
+      "baseline_sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d",
+      "current_sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d"
+    },
+    {
+      "path": "source/chunks/CHUNK-011.pages.json",
+      "baseline_sha256": "80a7235aa7e7e14d29dd2296c0eacfef58d883320b5f61b38076b38d6dd4e39a",
+      "current_sha256": "80a7235aa7e7e14d29dd2296c0eacfef58d883320b5f61b38076b38d6dd4e39a"
+    },
+    {
+      "path": "source/chunks/CHUNK-011.pdf",
+      "baseline_sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701",
+      "current_sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701"
+    },
+    {
+      "path": "source/chunks/CHUNK-012.pages.json",
+      "baseline_sha256": "748ac77172ae2ef9b13ad258e5e2ee55fcc18bbd8e61129deebd72b308b22dab",
+      "current_sha256": "748ac77172ae2ef9b13ad258e5e2ee55fcc18bbd8e61129deebd72b308b22dab"
+    },
+    {
+      "path": "source/chunks/CHUNK-012.pdf",
+      "baseline_sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d",
+      "current_sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d"
+    },
+    {
+      "path": "source/chunks/CHUNK-013.pages.json",
+      "baseline_sha256": "546f44c130d675080b2010f90ab97d93ea6cf9fd322e6ce4e7f390d534dd8bd7",
+      "current_sha256": "546f44c130d675080b2010f90ab97d93ea6cf9fd322e6ce4e7f390d534dd8bd7"
+    },
+    {
+      "path": "source/chunks/CHUNK-013.pdf",
+      "baseline_sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e",
+      "current_sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e"
+    },
+    {
+      "path": "source/chunks/CHUNK-014.pages.json",
+      "baseline_sha256": "2c8e0baaafe9e0070f36a34c5563d94d159a945c5106c80bc796ed09aad6dfb2",
+      "current_sha256": "2c8e0baaafe9e0070f36a34c5563d94d159a945c5106c80bc796ed09aad6dfb2"
+    },
+    {
+      "path": "source/chunks/CHUNK-014.pdf",
+      "baseline_sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40",
+      "current_sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40"
+    },
+    {
+      "path": "source/chunks/CHUNK-015.pages.json",
+      "baseline_sha256": "55f4391bc62b52ac3c01dc3d150431079873718b6cd40d2a2e320e1257ebdec8",
+      "current_sha256": "55f4391bc62b52ac3c01dc3d150431079873718b6cd40d2a2e320e1257ebdec8"
+    },
+    {
+      "path": "source/chunks/CHUNK-015.pdf",
+      "baseline_sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5",
+      "current_sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5"
+    },
+    {
+      "path": "source/chunks/CHUNK-016.pages.json",
+      "baseline_sha256": "a7f8889c72d6bd3c4e430cd72a1cb9698d1a4aee799ca66e824873d047aef95f",
+      "current_sha256": "a7f8889c72d6bd3c4e430cd72a1cb9698d1a4aee799ca66e824873d047aef95f"
+    },
+    {
+      "path": "source/chunks/CHUNK-016.pdf",
+      "baseline_sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9",
+      "current_sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9"
+    },
+    {
+      "path": "source/chunks/CHUNK-017.pages.json",
+      "baseline_sha256": "9b5163a1bf2838421b39fff04b7aff05a0c64b11447d79fa44b70ad62665cbe6",
+      "current_sha256": "9b5163a1bf2838421b39fff04b7aff05a0c64b11447d79fa44b70ad62665cbe6"
+    },
+    {
+      "path": "source/chunks/CHUNK-017.pdf",
+      "baseline_sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2",
+      "current_sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2"
+    },
+    {
+      "path": "source/evaluation-policy.v4.json",
+      "baseline_sha256": "4bbd117a0ee032c11a23d201ceac0ea58fdae226ca8d1c73a301f51e503cd1ca",
+      "current_sha256": "c8063d6d634b888141164a7015ce79591433b0732b9505c5062b2235cb358267"
+    },
+    {
+      "path": "source/page-map.json",
+      "baseline_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "current_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d"
+    },
+    {
+      "path": "source/source-benchmark.v4.json",
+      "baseline_sha256": "543ea6cb155d5563f5daf0c4b015f950f50b3791d42f53afc43fd0411cda5d3d",
+      "current_sha256": "dfe01ab10a929dfb2944542cf879608057b59acd74a909038e7608a015b0d448"
+    },
+    {
+      "path": "validation/benchmark-compatibility-approval.v1.json",
+      "baseline_sha256": "dae64b15dab9900a2003caad25fc1b0a036c7f447d4460838eb5b30fb9aa4bdf",
+      "current_sha256": "dae64b15dab9900a2003caad25fc1b0a036c7f447d4460838eb5b30fb9aa4bdf"
+    },
+    {
+      "path": "validation/benchmark-compatibility-import-provenance.v1.json",
+      "baseline_sha256": "d1911e876c78f14595ca59163ef82a956a9bd8375db6034a9d5c64fe9cd0048e",
+      "current_sha256": "d1911e876c78f14595ca59163ef82a956a9bd8375db6034a9d5c64fe9cd0048e"
+    }
+  ],
+  "preserved_artifacts": [
+    {
+      "path": "migration-v8.2/preserved/original-policy.v4.json",
+      "sha256": "40206a8f9e2caf39b395fdab91b29ca073aeb544820b770a6974bd85e664f54f"
+    },
+    {
+      "path": "migration-v8.2/preserved/v81-policy.v4.json",
+      "sha256": "4bbd117a0ee032c11a23d201ceac0ea58fdae226ca8d1c73a301f51e503cd1ca"
+    },
+    {
+      "path": "migration-v8.2/preserved/v81-state.json",
+      "sha256": "15f7e4b29e701d90bf68ae80341088302778e5f4cdaa3a75934ebed87c2e5df7"
+    }
+  ],
+  "delivery_file_hashes": [
+    {
+      "path": "README.md",
+      "sha256": "9342e26d48183041109658bbd8598ec715f04487c39981716aaf4df94718e04f"
+    },
+    {
+      "path": "evaluation/migration-v8.2/REPORT.md",
+      "sha256": "e04cc15eabc5fa5657c79d7471bfa04608eef1b1d8aa32ba3894a8199fe42371"
+    },
+    {
+      "path": "evaluation/migration-v8.2/validation-receipt.json",
+      "sha256": "aff248d5189514bdb03b3103d38a8d0cc3b8313de5606da99193d76898db5928"
+    },
+    {
+      "path": "evaluation/migration-v8.2/policy-build-input.json",
+      "sha256": "55204df34aaab706361a441c005af35494d1611d8104fc0ec28c199ce5026c5d"
+    },
+    {
+      "path": "evaluation/migration-v8.2/target-resolution-changes.json",
+      "sha256": "9c5b1dc523f556200ae6ec7d1af7e06d9090c87f2d790d3aeb075174fa48175b"
+    },
+    {
+      "path": "tests/test_v82_migration.py",
+      "sha256": "1cd7e7cf4b33612b190b6ae06391205b142670ad120e16bb6746af620b6f6bf3"
+    },
+    {
+      "path": "tests/test_v81_correction.py",
+      "sha256": "56b157fb53f4afb3da10ff99a6fc58724bf2f2a74d5395ce3ba63a8c6ba68038"
+    }
+  ],
+  "delivery_status": "Local reviewable correction; public push and cross-task private handoff await explicit user approval after automatic approval rejection. No deployment or merge.",
+  "ledger_sha256": "e996af412a7af41914b246d16afb9a1e260759b3230d82a2fdad341d071a5589"
+}

@@ -1,0 +1,5884 @@
+{
+  "schema_version": "candidate-locator-chunk-v1",
+  "candidate_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "candidate_sha256": "7ab2d4d6db349973730e44f40b54365046d205be12c39d54e6dd5f1d9d595af1",
+  "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+  "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+  "chunk_id": "CHUNK-015",
+  "owned_document_pages": [
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368
+  ],
+  "paths": [
+    {
+      "record_id": "REC-EA25493462CF",
+      "path_id": "PATH-D71E83A34180",
+      "heading_path": [
+        "Agency for Trade and Extraction"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-DC1785E2175A",
+          "display_id": "DISPLAY-5378FD2B08FF",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-215DD24BB7D7",
+      "path_id": "PATH-9FF3D611504B",
+      "heading_path": [
+        "Alsace"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C88C8DAB477A",
+          "display_id": "DISPLAY-111217B3D5DE",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-276B9EDB053C",
+      "path_id": "PATH-168CDB156180",
+      "heading_path": [
+        "Anglo-Russian invasion of Holland"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-7C617427EB63",
+          "display_id": "DISPLAY-017D2E36032E",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-8BD5BEF34A85",
+      "path_id": "PATH-BB1179741E9C",
+      "heading_path": [
+        "annexations, French"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-4FD677DA27C5",
+          "display_id": "DISPLAY-048E3623279F",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-1F8C3D253915",
+          "display_id": "DISPLAY-79EE443737A4",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 4
+    },
+    {
+      "record_id": "REC-F628194081EA",
+      "path_id": "PATH-C68FEB56006A",
+      "heading_path": [
+        "Assignats",
+        "in occupied territories"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-F06A4091BD52",
+          "display_id": "DISPLAY-88F19F840E9D",
+          "displayed_locator": "347–348",
+          "source_page_label": "347",
+          "normalized_locator_key": "347",
+          "document_page": 347,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-1C05CE61C3EA"
+        },
+        {
+          "locator_id": "LOC-1F906E774D19",
+          "display_id": "DISPLAY-88F19F840E9D",
+          "displayed_locator": "347–348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-1C05CE61C3EA"
+        },
+        {
+          "locator_id": "LOC-234AD4E6D8CE",
+          "display_id": "DISPLAY-B22B335C318A",
+          "displayed_locator": "352",
+          "source_page_label": "352",
+          "normalized_locator_key": "352",
+          "document_page": 352,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-96F616DCF593",
+      "path_id": "PATH-DB44A6FB2868",
+      "heading_path": [
+        "Austria",
+        "Belgian revolution and occupation"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-BB5F375A3767",
+          "display_id": "DISPLAY-7C000F1C669E",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-7DF79D39897D",
+          "display_id": "DISPLAY-1C1AE59A354A",
+          "displayed_locator": "350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-2DDBED609320",
+      "path_id": "PATH-5EB14F909B60",
+      "heading_path": [
+        "Austria",
+        "Italy, presence and conflict in"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-77D61ECA65C5",
+          "display_id": "DISPLAY-2C5EFA22B3A6",
+          "displayed_locator": "356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-AB1631B496FD",
+          "display_id": "DISPLAY-C9F4942213B2",
+          "displayed_locator": "360–361",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-E2E6DC2A5958"
+        },
+        {
+          "locator_id": "LOC-45F4EB0F2BC3",
+          "display_id": "DISPLAY-C9F4942213B2",
+          "displayed_locator": "360–361",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-E2E6DC2A5958"
+        }
+      ],
+      "other_locator_assignment_count": 9
+    },
+    {
+      "record_id": "REC-FDF686852A6C",
+      "path_id": "PATH-F42F817D5AC7",
+      "heading_path": [
+        "Austria",
+        "military campaigns and coalitions"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C56845B81AC8",
+          "display_id": "DISPLAY-D1C9EF19C752",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 15
+    },
+    {
+      "record_id": "REC-4F29489107C1",
+      "path_id": "PATH-CAC342E976BE",
+      "heading_path": [
+        "Austria",
+        "Switzerland and"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-1DB3D1323A3C",
+          "display_id": "DISPLAY-FDA395DB076B",
+          "displayed_locator": "354–355",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7763197AC648"
+        },
+        {
+          "locator_id": "LOC-244229EE112D",
+          "display_id": "DISPLAY-FDA395DB076B",
+          "displayed_locator": "354–355",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7763197AC648"
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-9F5652CCF268",
+      "path_id": "PATH-F04A3EF07CC8",
+      "heading_path": [
+        "Babeuf, François-Noël (Gracchus)",
+        "Conspiracy of Equals"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-630E916F69E7",
+          "display_id": "DISPLAY-53F8CFA782B1",
+          "displayed_locator": "356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-3155017AC6ED",
+      "path_id": "PATH-015DD926EFE6",
+      "heading_path": [
+        "Ballinamuck, Battle of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-79715E0BC940",
+          "display_id": "DISPLAY-9379B9BBCBC7",
+          "displayed_locator": "342",
+          "source_page_label": "342",
+          "normalized_locator_key": "342",
+          "document_page": 342,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-9EE507A7D196",
+      "path_id": "PATH-CC17832024C4",
+      "heading_path": [
+        "Bantry Bay"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-6F76F1EB1A5E",
+          "display_id": "DISPLAY-4E5109BF9307",
+          "displayed_locator": "342",
+          "source_page_label": "342",
+          "normalized_locator_key": "342",
+          "document_page": 342,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-2A34F5615D2F",
+      "path_id": "PATH-AF8E109F182D",
+      "heading_path": [
+        "Batavian Republic"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-9C699A5F0A8B",
+          "display_id": "DISPLAY-5F54F05BC11D",
+          "displayed_locator": "343–344",
+          "source_page_label": "343",
+          "normalized_locator_key": "343",
+          "document_page": 343,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-B887FC8ED002"
+        },
+        {
+          "locator_id": "LOC-00A5531ABD1B",
+          "display_id": "DISPLAY-5F54F05BC11D",
+          "displayed_locator": "343–344",
+          "source_page_label": "344",
+          "normalized_locator_key": "344",
+          "document_page": 344,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-B887FC8ED002"
+        },
+        {
+          "locator_id": "LOC-F4F2D7CE8A2D",
+          "display_id": "DISPLAY-E44012C98E9F",
+          "displayed_locator": "346–348",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7FAC427E32A8"
+        },
+        {
+          "locator_id": "LOC-54DF939C50BB",
+          "display_id": "DISPLAY-E44012C98E9F",
+          "displayed_locator": "346–348",
+          "source_page_label": "347",
+          "normalized_locator_key": "347",
+          "document_page": 347,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7FAC427E32A8"
+        },
+        {
+          "locator_id": "LOC-246E9C54A5AB",
+          "display_id": "DISPLAY-E44012C98E9F",
+          "displayed_locator": "346–348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7FAC427E32A8"
+        },
+        {
+          "locator_id": "LOC-86E47E277D7E",
+          "display_id": "DISPLAY-5067B5B09902",
+          "displayed_locator": "354–356",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-16206147D49E"
+        },
+        {
+          "locator_id": "LOC-9CAF75F04485",
+          "display_id": "DISPLAY-5067B5B09902",
+          "displayed_locator": "354–356",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-16206147D49E"
+        },
+        {
+          "locator_id": "LOC-05B0AF75626E",
+          "display_id": "DISPLAY-5067B5B09902",
+          "displayed_locator": "354–356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-16206147D49E"
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-C6C58F30ED48",
+      "path_id": "PATH-861F90928D2A",
+      "heading_path": [
+        "Belgian bourgeoisie"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-28940B42EDD0",
+          "display_id": "DISPLAY-97F09A5F750A",
+          "displayed_locator": "350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-45EC68E8B41F",
+      "path_id": "PATH-98BAFDE8F2F8",
+      "heading_path": [
+        "Belgian clergy"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-655502ECCA7B",
+          "display_id": "DISPLAY-BC6270A30058",
+          "displayed_locator": "349–350",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-5475E2004351"
+        },
+        {
+          "locator_id": "LOC-1ECC753671E6",
+          "display_id": "DISPLAY-BC6270A30058",
+          "displayed_locator": "349–350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-5475E2004351"
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-84CD0E0EC650",
+      "path_id": "PATH-97E0B7981535",
+      "heading_path": [
+        "Belgium"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-B9A2B2736B41",
+          "display_id": "DISPLAY-788652575518",
+          "displayed_locator": "353",
+          "source_page_label": "353",
+          "normalized_locator_key": "353",
+          "document_page": 353,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-037A740C4873",
+      "path_id": "PATH-6AB2CD5EAB3F",
+      "heading_path": [
+        "Belgium",
+        "annexation and French rule (after 1795)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-23656BB23EFF",
+          "display_id": "DISPLAY-AF2568D7D0C1",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-61AFB4D27F0B",
+          "display_id": "DISPLAY-DFCC1EAD21D5",
+          "displayed_locator": "350–351",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-C90A67218585"
+        },
+        {
+          "locator_id": "LOC-0CE1BFAE9F14",
+          "display_id": "DISPLAY-DFCC1EAD21D5",
+          "displayed_locator": "350–351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-C90A67218585"
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-6BE6A456D5E9",
+      "path_id": "PATH-94D7EB23DD52",
+      "heading_path": [
+        "Belgium",
+        "annexation and French rule (after 1795)",
+        "peasant revolt (1798-99)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-8FF54DF763D2",
+          "display_id": "DISPLAY-4B3F0853CA3E",
+          "displayed_locator": "350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-10985FC85ECF",
+          "display_id": "DISPLAY-4F794916C85E",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-4B0B6E7B6741",
+      "path_id": "PATH-7AD8B33C3F47",
+      "heading_path": [
+        "Belgium",
+        "annexation and French rule (after 1795)",
+        "religious policy and resistance"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-4A6CF5CD7D05",
+          "display_id": "DISPLAY-A4B1A6100156",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-25646C2E2FC2",
+      "path_id": "PATH-F2C2805C7CE4",
+      "heading_path": [
+        "Belgium",
+        "French invasions and occupations (1792-94)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-90DD4114463A",
+          "display_id": "DISPLAY-085C6F2C351D",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-5C98311E91A2",
+      "path_id": "PATH-BBF874BAD077",
+      "heading_path": [
+        "bishops"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-0731C596C212",
+          "display_id": "DISPLAY-8003A2135ED2",
+          "displayed_locator": "352",
+          "source_page_label": "352",
+          "normalized_locator_key": "352",
+          "document_page": 352,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-86ED61C2C4F9",
+      "path_id": "PATH-A3B5C5CFDB04",
+      "heading_path": [
+        "Bologna"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-F1E04879C63D",
+          "display_id": "DISPLAY-6E51A47D1E35",
+          "displayed_locator": "359",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-D0C19628E2FF",
+      "path_id": "PATH-90C84EAB6D83",
+      "heading_path": [
+        "Bonaparte, Joseph"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-7DC136BC1404",
+          "display_id": "DISPLAY-D42476872FD0",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-D82673AD028D",
+      "path_id": "PATH-D63B16A75B97",
+      "heading_path": [
+        "Bonaparte, Napoleon",
+        "Egyptian expedition"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-6F89E8CC5210",
+          "display_id": "DISPLAY-54E9901D30AB",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-9D292FE6853D",
+      "path_id": "PATH-9652EEF03919",
+      "heading_path": [
+        "Bonaparte, Napoleon",
+        "Italian campaigns and sister republics"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-D5502C1A79B2",
+          "display_id": "DISPLAY-9C373FF6EA9E",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-037C520CE299",
+          "display_id": "DISPLAY-F22EDD67CB44",
+          "displayed_locator": "356–362",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-338F530EFE74"
+        },
+        {
+          "locator_id": "LOC-3127E63448C0",
+          "display_id": "DISPLAY-F22EDD67CB44",
+          "displayed_locator": "356–362",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-338F530EFE74"
+        },
+        {
+          "locator_id": "LOC-4369284AFF37",
+          "display_id": "DISPLAY-F22EDD67CB44",
+          "displayed_locator": "356–362",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-338F530EFE74"
+        },
+        {
+          "locator_id": "LOC-4EF67E24D6F5",
+          "display_id": "DISPLAY-F22EDD67CB44",
+          "displayed_locator": "356–362",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-338F530EFE74"
+        },
+        {
+          "locator_id": "LOC-72FF5770A352",
+          "display_id": "DISPLAY-F22EDD67CB44",
+          "displayed_locator": "356–362",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-338F530EFE74"
+        },
+        {
+          "locator_id": "LOC-EF60B1C0E71B",
+          "display_id": "DISPLAY-F22EDD67CB44",
+          "displayed_locator": "356–362",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-338F530EFE74"
+        },
+        {
+          "locator_id": "LOC-F72FFCDC2D64",
+          "display_id": "DISPLAY-F22EDD67CB44",
+          "displayed_locator": "356–362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-338F530EFE74"
+        },
+        {
+          "locator_id": "LOC-033EDD2B19DE",
+          "display_id": "DISPLAY-6728C038ADE9",
+          "displayed_locator": "364",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-208ECD2B4598",
+      "path_id": "PATH-5669F2BA0F62",
+      "heading_path": [
+        "Brune, Guillaume Marie Anne"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-25A32E4078FB",
+          "display_id": "DISPLAY-66E92875792D",
+          "displayed_locator": "355",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-88545FE6BA63",
+          "display_id": "DISPLAY-A932124259D4",
+          "displayed_locator": "363",
+          "source_page_label": "363",
+          "normalized_locator_key": "363",
+          "document_page": 363,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-D3AD444F86D5",
+      "path_id": "PATH-2E3311FDE555",
+      "heading_path": [
+        "Buonarroti, Filippo"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-183E74D71C1E",
+          "display_id": "DISPLAY-7EAC423554DD",
+          "displayed_locator": "356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-862F97C1EA8A",
+      "path_id": "PATH-84F8CA177020",
+      "heading_path": [
+        "Calabria"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-E28F0D0A6103",
+          "display_id": "DISPLAY-B167ED8A8974",
+          "displayed_locator": "364–365",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-F8CD1EF74429"
+        },
+        {
+          "locator_id": "LOC-1459DFD6A257",
+          "display_id": "DISPLAY-B167ED8A8974",
+          "displayed_locator": "364–365",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-F8CD1EF74429"
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-4A4696DEF61B",
+      "path_id": "PATH-206F95105640",
+      "heading_path": [
+        "Camperdown, Battle of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-250836EE7EF1",
+          "display_id": "DISPLAY-5C1843F97740",
+          "displayed_locator": "344",
+          "source_page_label": "344",
+          "normalized_locator_key": "344",
+          "document_page": 344,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-BAED22E5E38D",
+      "path_id": "PATH-09632DB05BD9",
+      "heading_path": [
+        "Campo Formio, Treaty of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-E89C115CA89B",
+          "display_id": "DISPLAY-E38F765D5AF5",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-145CDD0595ED",
+          "display_id": "DISPLAY-90265E2C7EDD",
+          "displayed_locator": "360–361",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-28AE8E87A96A"
+        },
+        {
+          "locator_id": "LOC-8992CDB25CDF",
+          "display_id": "DISPLAY-90265E2C7EDD",
+          "displayed_locator": "360–361",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-28AE8E87A96A"
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-11C072D92BE2",
+      "path_id": "PATH-230C8E6140EB",
+      "heading_path": [
+        "Carnot, Lazare",
+        "Fructidor coup and removal"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-F355241177C5",
+          "display_id": "DISPLAY-53C38A71E3BE",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-902A5961D9DF",
+      "path_id": "PATH-C1343BB7E0C0",
+      "heading_path": [
+        "Carnot, Lazare",
+        "military organization and strategy"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-44D596FBB46B",
+          "display_id": "DISPLAY-26548DA6BB45",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-601E1B7FB520",
+      "path_id": "PATH-F42E08B66FE7",
+      "heading_path": [
+        "Carnot, Lazare",
+        "natural frontiers, opposition to"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-851D195E3685",
+          "display_id": "DISPLAY-25D953BBC9E9",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-84A75111BC91",
+          "display_id": "DISPLAY-2ED6501D6132",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-9B220097B4CA",
+      "path_id": "PATH-E383EBD7AA36",
+      "heading_path": [
+        "Championnet, Jean Étienne"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-E441A02011C6",
+          "display_id": "DISPLAY-0E6EB5828137",
+          "displayed_locator": "364",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-4F1440752C16",
+      "path_id": "PATH-E9EA0B761953",
+      "heading_path": [
+        "Charles Emmanuel IV, King of Sardinia"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-1102262E2FC9",
+          "display_id": "DISPLAY-335E91A04443",
+          "displayed_locator": "365–366",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-5E54035A0B5C"
+        },
+        {
+          "locator_id": "LOC-E5C07C768BFD",
+          "display_id": "DISPLAY-335E91A04443",
+          "displayed_locator": "365–366",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-5E54035A0B5C"
+        },
+        {
+          "locator_id": "LOC-78C8AFA1AF0B",
+          "display_id": "DISPLAY-B8AE4AA2DBA2",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-85065C3850E9",
+      "path_id": "PATH-D4D484787A28",
+      "heading_path": [
+        "Charles, Archduke"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-BA055FC8B941",
+          "display_id": "DISPLAY-EE021B561BF5",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-082D2DE64948",
+      "path_id": "PATH-88E8C12D1347",
+      "heading_path": [
+        "Chouans (Chouannerie)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C167F26DF3D3",
+          "display_id": "DISPLAY-009622372ABC",
+          "displayed_locator": "366–367",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7EBA36C3628A"
+        },
+        {
+          "locator_id": "LOC-F2DBBA390953",
+          "display_id": "DISPLAY-009622372ABC",
+          "displayed_locator": "366–367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7EBA36C3628A"
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-4B7B3B591CEE",
+      "path_id": "PATH-4E8391484033",
+      "heading_path": [
+        "church property"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-1A1B04606697",
+          "display_id": "DISPLAY-20E3E0A15BF9",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 10
+    },
+    {
+      "record_id": "REC-0EA5B357238B",
+      "path_id": "PATH-61AF4BA9F971",
+      "heading_path": [
+        "Cis-Rhenan Republic"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-EFDC237A0286",
+          "display_id": "DISPLAY-8C3B846001D9",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-895D634C79CF",
+      "path_id": "PATH-957FAE3043AE",
+      "heading_path": [
+        "Cisalpine Republic"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-E18C32C13912",
+          "display_id": "DISPLAY-37F61C1ECBE6",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-2B9F5702D3EB",
+          "display_id": "DISPLAY-CF66C69918DD",
+          "displayed_locator": "360–363",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-9940E37BD050"
+        },
+        {
+          "locator_id": "LOC-3C6EE1BC870D",
+          "display_id": "DISPLAY-CF66C69918DD",
+          "displayed_locator": "360–363",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-9940E37BD050"
+        },
+        {
+          "locator_id": "LOC-8C66EFB4651B",
+          "display_id": "DISPLAY-CF66C69918DD",
+          "displayed_locator": "360–363",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-9940E37BD050"
+        },
+        {
+          "locator_id": "LOC-968D060F6777",
+          "display_id": "DISPLAY-CF66C69918DD",
+          "displayed_locator": "360–363",
+          "source_page_label": "363",
+          "normalized_locator_key": "363",
+          "document_page": 363,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-9940E37BD050"
+        },
+        {
+          "locator_id": "LOC-B3A0497E338E",
+          "display_id": "DISPLAY-509542B98576",
+          "displayed_locator": "366",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-FD80B210C047",
+      "path_id": "PATH-D593333EDDBE",
+      "heading_path": [
+        "Cispadane Republic"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-6CE0A30E7B9F",
+          "display_id": "DISPLAY-591A08607F12",
+          "displayed_locator": "359–360",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-94D367C7A781"
+        },
+        {
+          "locator_id": "LOC-4E903CF568A9",
+          "display_id": "DISPLAY-591A08607F12",
+          "displayed_locator": "359–360",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-94D367C7A781"
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-F64E5F8263AC",
+      "path_id": "PATH-423F4E306A01",
+      "heading_path": [
+        "conscription",
+        "in occupied territories"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-F8C586757325",
+          "display_id": "DISPLAY-6E844A1A6F20",
+          "displayed_locator": "349–350",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-566A989CF245"
+        },
+        {
+          "locator_id": "LOC-DCACB28D31C5",
+          "display_id": "DISPLAY-6E844A1A6F20",
+          "displayed_locator": "349–350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-566A989CF245"
+        },
+        {
+          "locator_id": "LOC-5FAC7614BD9B",
+          "display_id": "DISPLAY-D6F979987220",
+          "displayed_locator": "353",
+          "source_page_label": "353",
+          "normalized_locator_key": "353",
+          "document_page": 353,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-75F5D757670D",
+          "display_id": "DISPLAY-9294E3704C6E",
+          "displayed_locator": "361",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-3622FBD7DD5A",
+      "path_id": "PATH-923F90B47EC3",
+      "heading_path": [
+        "constitutional circles"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-76898042EA9F",
+          "display_id": "DISPLAY-8FDBC15584B0",
+          "displayed_locator": "361",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-AA9C6D3AB32B",
+      "path_id": "PATH-3AFBAFFB0094",
+      "heading_path": [
+        "constitutionalism"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C139DFD173D4",
+          "display_id": "DISPLAY-4F811E4A0833",
+          "displayed_locator": "344",
+          "source_page_label": "344",
+          "normalized_locator_key": "344",
+          "document_page": 344,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-0BB2D42504E8",
+      "path_id": "PATH-317A0DCD8BE9",
+      "heading_path": [
+        "consuls"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-540700071132",
+          "display_id": "DISPLAY-ABE81AED00BD",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-50517D2804C6",
+      "path_id": "PATH-8459B9BF5802",
+      "heading_path": [
+        "Daendels, Herman Willem"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-506577C9DE41",
+          "display_id": "DISPLAY-40AF7BDCDC28",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-7BB66D571F61",
+      "path_id": "PATH-64D875B6955A",
+      "heading_path": [
+        "Dechristianization",
+        "in occupied territories"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-51E764417F5E",
+          "display_id": "DISPLAY-4DC8B356FFC3",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-8B43BF294720",
+          "display_id": "DISPLAY-0AD388D482C5",
+          "displayed_locator": "353",
+          "source_page_label": "353",
+          "normalized_locator_key": "353",
+          "document_page": 353,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-0798879756BF",
+      "path_id": "PATH-0DA7FA9C723C",
+      "heading_path": [
+        "Defenders (Ireland)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-501817363510",
+          "display_id": "DISPLAY-DD962490E5AA",
+          "displayed_locator": "341",
+          "source_page_label": "341",
+          "normalized_locator_key": "341",
+          "document_page": 341,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-851354B84C33",
+      "path_id": "PATH-D4B525DD2C8C",
+      "heading_path": [
+        "Delacroix, Charles"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-734A9120FF0C",
+          "display_id": "DISPLAY-8636B45EE68D",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-BB674818E467",
+      "path_id": "PATH-9179863DA642",
+      "heading_path": [
+        "departments (départements)",
+        "annexed territories"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-DB865E5C7514",
+          "display_id": "DISPLAY-614D5BF61B45",
+          "displayed_locator": "348–349",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-299BDE850E6E"
+        },
+        {
+          "locator_id": "LOC-B2A5AA4F9F70",
+          "display_id": "DISPLAY-614D5BF61B45",
+          "displayed_locator": "348–349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-299BDE850E6E"
+        },
+        {
+          "locator_id": "LOC-004ECC317C1F",
+          "display_id": "DISPLAY-F49D301DA56F",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-63CDF8E8E444",
+      "path_id": "PATH-63BE04A82235",
+      "heading_path": [
+        "departments (départements)",
+        "church and religious affairs in"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-A681E0BE8D02",
+          "display_id": "DISPLAY-4B0A3288129F",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-1438B31299A8",
+      "path_id": "PATH-F6151BE628B4",
+      "heading_path": [
+        "departments (départements)",
+        "military and conscription resistance"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-F9A2E6EC513B",
+          "display_id": "DISPLAY-AAC560C27A95",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-05CAD6ABD464",
+      "path_id": "PATH-8EC081DE5228",
+      "heading_path": [
+        "directory",
+        "coups d'état and political instability"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-FCBE05B1FFC9",
+          "display_id": "DISPLAY-8525311985E0",
+          "displayed_locator": "359",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-E1583AF9FF02",
+          "display_id": "DISPLAY-550190E24D5E",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 8
+    },
+    {
+      "record_id": "REC-8759D0B5DFB4",
+      "path_id": "PATH-C1325AB757AC",
+      "heading_path": [
+        "directory",
+        "foreign policy and conquests"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-63FE314CD1CF",
+          "display_id": "DISPLAY-5225091DA8BC",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-8734B5A16498",
+      "path_id": "PATH-B1D783FE7E5E",
+      "heading_path": [
+        "directory",
+        "religious and social policies"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-7F29AC3E66FD",
+          "display_id": "DISPLAY-B170F17ACFB1",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 10
+    },
+    {
+      "record_id": "REC-BC2AD8C2EC26",
+      "path_id": "PATH-5FC7D608BD65",
+      "heading_path": [
+        "directory",
+        "sister republics"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-EB60216CCB45",
+          "display_id": "DISPLAY-A9ACB74B0F29",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-65323940D715",
+          "display_id": "DISPLAY-2282D11E1C82",
+          "displayed_locator": "354–355",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-F8291F47F300"
+        },
+        {
+          "locator_id": "LOC-0FC13E1CFA74",
+          "display_id": "DISPLAY-2282D11E1C82",
+          "displayed_locator": "354–355",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-F8291F47F300"
+        },
+        {
+          "locator_id": "LOC-6648BFB0E7D2",
+          "display_id": "DISPLAY-90DB7863FD69",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-308ECFE0B73A",
+          "display_id": "DISPLAY-64777E0EC5A0",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-88E06B3A1B89",
+          "display_id": "DISPLAY-3E9A5A228137",
+          "displayed_locator": "364",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-396C7F501714",
+      "path_id": "PATH-3B4CC2C0BD3C",
+      "heading_path": [
+        "dissolution of religious orders"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-0FA3584375E4",
+          "display_id": "DISPLAY-C379DDA47317",
+          "displayed_locator": "363",
+          "source_page_label": "363",
+          "normalized_locator_key": "363",
+          "document_page": 363,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-4E01AB274DDA",
+      "path_id": "PATH-596F056A7A5E",
+      "heading_path": [
+        "Dumouriez, Charles-François",
+        "military campaigns and occupations"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-E75F1C1C2D99",
+          "display_id": "DISPLAY-3AD45CEC028F",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-627B021486DF",
+      "path_id": "PATH-CAC5A2E7838A",
+      "heading_path": [
+        "Dutch Republic",
+        "British and Prussian military interventions"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-929A8DCDE2CF",
+          "display_id": "DISPLAY-5DB05AF56699",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-6DECAB9383C0",
+      "path_id": "PATH-CD1A39C78817",
+      "heading_path": [
+        "Dutch Republic",
+        "French invasion and Batavian Republic (sister republic)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-BE5D983B6A1B",
+          "display_id": "DISPLAY-7393EAB37CE7",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-E10A06C23D3C",
+          "display_id": "DISPLAY-A40C5CF3077E",
+          "displayed_locator": "355",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-47E4952D21D2",
+          "display_id": "DISPLAY-F9C3C12DCCAB",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 4
+    },
+    {
+      "record_id": "REC-CE46ED9FD5F1",
+      "path_id": "PATH-B377F4F34CAA",
+      "heading_path": [
+        "Dutch Republic",
+        "territorial changes and long-term impact"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-CBF0C798F7DA",
+          "display_id": "DISPLAY-D7F00876D013",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 4
+    },
+    {
+      "record_id": "REC-F78305D0A19D",
+      "path_id": "PATH-17DB68CF15A8",
+      "heading_path": [
+        "Egyptian expedition"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-750C84229C41",
+          "display_id": "DISPLAY-287D0F8AA4D5",
+          "displayed_locator": "355",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 4
+    },
+    {
+      "record_id": "REC-AB81D43BD731",
+      "path_id": "PATH-2AE11CBA274C",
+      "heading_path": [
+        "Elections of 1797 (Year V)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-8722F7F4383F",
+          "display_id": "DISPLAY-4C7885D0C533",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-E67A1FF632F6",
+      "path_id": "PATH-F2F59E9174E2",
+      "heading_path": [
+        "Enlightenment"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-D57B97AD3F03",
+          "display_id": "DISPLAY-B85E99907887",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-EBDBE87E9BB3",
+      "path_id": "PATH-ADABD810984A",
+      "heading_path": [
+        "equality",
+        "civil and legal"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-6CB0B40CE361",
+          "display_id": "DISPLAY-24A4A36C4412",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-D80557490A33",
+      "path_id": "PATH-0949418029DE",
+      "heading_path": [
+        "Federalists (Dutch)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C765A18ADCF7",
+          "display_id": "DISPLAY-1CFD644A69F6",
+          "displayed_locator": "344",
+          "source_page_label": "344",
+          "normalized_locator_key": "344",
+          "document_page": 344,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-577CA80DD308",
+      "path_id": "PATH-BDE6C321BD49",
+      "heading_path": [
+        "Ferdinand IV, King of Naples"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-A1635C46C4D0",
+          "display_id": "DISPLAY-2B0969635C95",
+          "displayed_locator": "364",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-EE8CA6AF3851",
+      "path_id": "PATH-942D2DD2A456",
+      "heading_path": [
+        "Ferdinand, Grand Duke of Tuscany"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-95CEA1682B7C",
+          "display_id": "DISPLAY-338F13990734",
+          "displayed_locator": "366",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-2BD68C93B25D",
+      "path_id": "PATH-C52DE780DF82",
+      "heading_path": [
+        "Ferrara"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-D147ECE63175",
+          "display_id": "DISPLAY-8E618489DB43",
+          "displayed_locator": "359",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-2CD5BECF467E",
+      "path_id": "PATH-5969A52B4960",
+      "heading_path": [
+        "feudalism"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-FD2150AD2C09",
+          "display_id": "DISPLAY-E1CEC541F200",
+          "displayed_locator": "353",
+          "source_page_label": "353",
+          "normalized_locator_key": "353",
+          "document_page": 353,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-DAAE5C6BB19E",
+          "display_id": "DISPLAY-DF49ECAADB86",
+          "displayed_locator": "356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-0CE47AE36161",
+          "display_id": "DISPLAY-D96DE4410B13",
+          "displayed_locator": "365–366",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-DEE012552B59"
+        },
+        {
+          "locator_id": "LOC-136B9382F37C",
+          "display_id": "DISPLAY-D96DE4410B13",
+          "displayed_locator": "365–366",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-DEE012552B59"
+        }
+      ],
+      "other_locator_assignment_count": 23
+    },
+    {
+      "record_id": "REC-EF6B18E8AA43",
+      "path_id": "PATH-E78F4DBF0F7D",
+      "heading_path": [
+        "Floréal, Coup of (22 Floréal)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-B798A220F1DF",
+          "display_id": "DISPLAY-DFD9863AD2E2",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 4
+    },
+    {
+      "record_id": "REC-2677EF190309",
+      "path_id": "PATH-4788092E6C9C",
+      "heading_path": [
+        "Florence"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-BBDC42DF72B7",
+          "display_id": "DISPLAY-F18D010E06FC",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-FFD18C7E9255",
+          "display_id": "DISPLAY-3648FB15E182",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-0B3B71082D76",
+      "path_id": "PATH-19CFFD74F6D3",
+      "heading_path": [
+        "French Army",
+        "occupied territories and sister republics"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-5D887E878A0E",
+          "display_id": "DISPLAY-5E559592D12C",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-8E5BAA94ECEA",
+          "display_id": "DISPLAY-DCDB1FE0A6F0",
+          "displayed_locator": "358",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-CF29626B1D35",
+          "display_id": "DISPLAY-BEE755FC59F9",
+          "displayed_locator": "361",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-7EFFBE87EDF2",
+      "path_id": "PATH-5329EF1C8D2D",
+      "heading_path": [
+        "French Army",
+        "organization and recruitment",
+        "volunteering and conscription"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-0ACD50057C0C",
+          "display_id": "DISPLAY-347A45DB9105",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-682277FD1845",
+      "path_id": "PATH-73ED1B50E70F",
+      "heading_path": [
+        "French language"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-FB442B7CB87A",
+          "display_id": "DISPLAY-2AB3E41848DC",
+          "displayed_locator": "350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-D67E25764ED3",
+      "path_id": "PATH-0FD1BC5050EB",
+      "heading_path": [
+        "French Republic",
+        "international expansion and sister republics"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-9177146C00FC",
+          "display_id": "DISPLAY-D86B0382FBF6",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-8811B09AF3A1",
+          "display_id": "DISPLAY-D8D93DE0F280",
+          "displayed_locator": "354",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-094B88B8F53C",
+          "display_id": "DISPLAY-04AB61C1DEC1",
+          "displayed_locator": "363",
+          "source_page_label": "363",
+          "normalized_locator_key": "363",
+          "document_page": 363,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-05A06EA05722",
+          "display_id": "DISPLAY-8E6E4DF873D9",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-F550D6B57A2C",
+      "path_id": "PATH-306D24637658",
+      "heading_path": [
+        "Fructidor, Coup of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-85DF7A1A71F4",
+          "display_id": "DISPLAY-0DE10121122C",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-95D78609C84D",
+          "display_id": "DISPLAY-1FA14DEBAD16",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-4F01E7CAB053",
+      "path_id": "PATH-051733545F21",
+      "heading_path": [
+        "Geneva"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-07F13DBEDE95",
+          "display_id": "DISPLAY-B4C2E6761793",
+          "displayed_locator": "354",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-30958C14BE4C",
+      "path_id": "PATH-23493D7C59E8",
+      "heading_path": [
+        "Genoa"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-41C251D8A21C",
+          "display_id": "DISPLAY-43E87770925B",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-5482863C74E6",
+          "display_id": "DISPLAY-8291A885B521",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-A7D5A826AB82",
+      "path_id": "PATH-CFF71E59374A",
+      "heading_path": [
+        "Great Britain",
+        "commercial treaty (1786) and economic conflict"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-70E9CC1ADA3A",
+          "display_id": "DISPLAY-DDDBC02998B3",
+          "displayed_locator": "347",
+          "source_page_label": "347",
+          "normalized_locator_key": "347",
+          "document_page": 347,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-65E093A69CFC",
+      "path_id": "PATH-6E3AA0978DCA",
+      "heading_path": [
+        "guilds"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-A0F4D5A41344",
+          "display_id": "DISPLAY-D2665483E68B",
+          "displayed_locator": "356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-3CF5767AD31B",
+      "path_id": "PATH-5152B50C11EA",
+      "heading_path": [
+        "Habsburg Monarchy"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-564DCB3A0123",
+          "display_id": "DISPLAY-A2082D64EF6B",
+          "displayed_locator": "361",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-693D896013AA",
+      "path_id": "PATH-08C3404DF87C",
+      "heading_path": [
+        "Hasselt, Battle of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-A56C855E36BF",
+          "display_id": "DISPLAY-4EECCF0245C6",
+          "displayed_locator": "350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-C5E92DE084C8",
+      "path_id": "PATH-8BCF452FC78A",
+      "heading_path": [
+        "Helvetic Republic"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-99805BA585A6",
+          "display_id": "DISPLAY-474A6583E230",
+          "displayed_locator": "355–356",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-1CE626391B2B"
+        },
+        {
+          "locator_id": "LOC-BA7ABCC81FC0",
+          "display_id": "DISPLAY-474A6583E230",
+          "displayed_locator": "355–356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-1CE626391B2B"
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-287754309842",
+      "path_id": "PATH-4086A94400BC",
+      "heading_path": [
+        "Hoche, Lazare"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C25C88A120B8",
+          "display_id": "DISPLAY-2E89B1162498",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 10
+    },
+    {
+      "record_id": "REC-6F897A55BB1B",
+      "path_id": "PATH-E5A7ED3EA6B7",
+      "heading_path": [
+        "Holy Roman Empire"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-822723ADAD97",
+          "display_id": "DISPLAY-D27DCA7A9791",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-28744B7B2F5F",
+      "path_id": "PATH-269D23D68BD4",
+      "heading_path": [
+        "Humbert, Jean Joseph Amable"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-4E006F21182F",
+          "display_id": "DISPLAY-A69A027C5967",
+          "displayed_locator": "342",
+          "source_page_label": "342",
+          "normalized_locator_key": "342",
+          "document_page": 342,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-C7C972786AF4",
+          "display_id": "DISPLAY-AD97D38C2BB7",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-CB1CB7248C7C",
+      "path_id": "PATH-7A4EAB657A4D",
+      "heading_path": [
+        "indirect taxes"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-2DA3F084571A",
+          "display_id": "DISPLAY-CCDE5B843EDA",
+          "displayed_locator": "365",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-6D4ED8C91D23",
+      "path_id": "PATH-2A24BB02B12C",
+      "heading_path": [
+        "Ireland"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-8DC5B64AC720",
+          "display_id": "DISPLAY-4B2D790A1CFE",
+          "displayed_locator": "341–342",
+          "source_page_label": "341",
+          "normalized_locator_key": "341",
+          "document_page": 341,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-A9A4D509C888"
+        },
+        {
+          "locator_id": "LOC-73BA115B123E",
+          "display_id": "DISPLAY-4B2D790A1CFE",
+          "displayed_locator": "341–342",
+          "source_page_label": "342",
+          "normalized_locator_key": "342",
+          "document_page": 342,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-A9A4D509C888"
+        },
+        {
+          "locator_id": "LOC-C151A6BEEC39",
+          "display_id": "DISPLAY-B10918C6930D",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 12
+    },
+    {
+      "record_id": "REC-834AB9E12AD5",
+      "path_id": "PATH-75977F12E1D5",
+      "heading_path": [
+        "Italian intellectuals"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-E69ECE067EEF",
+          "display_id": "DISPLAY-CF6AF88A1ED6",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-6C21338B6B3F",
+      "path_id": "PATH-59BCD3E71F9E",
+      "heading_path": [
+        "Italian Jacobins"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-4F0673D781D1",
+          "display_id": "DISPLAY-10EA9F548C09",
+          "displayed_locator": "357–358",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-6202A647DCCC"
+        },
+        {
+          "locator_id": "LOC-20B9C6AE2928",
+          "display_id": "DISPLAY-10EA9F548C09",
+          "displayed_locator": "357–358",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-6202A647DCCC"
+        },
+        {
+          "locator_id": "LOC-F087D2959102",
+          "display_id": "DISPLAY-B3B1E78A1332",
+          "displayed_locator": "361–365",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-D0D41B14DDE4"
+        },
+        {
+          "locator_id": "LOC-59BA5FEFC7C8",
+          "display_id": "DISPLAY-B3B1E78A1332",
+          "displayed_locator": "361–365",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-D0D41B14DDE4"
+        },
+        {
+          "locator_id": "LOC-2C801EF276B0",
+          "display_id": "DISPLAY-B3B1E78A1332",
+          "displayed_locator": "361–365",
+          "source_page_label": "363",
+          "normalized_locator_key": "363",
+          "document_page": 363,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-D0D41B14DDE4"
+        },
+        {
+          "locator_id": "LOC-830D05FB9F08",
+          "display_id": "DISPLAY-B3B1E78A1332",
+          "displayed_locator": "361–365",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-D0D41B14DDE4"
+        },
+        {
+          "locator_id": "LOC-14085546C9C3",
+          "display_id": "DISPLAY-B3B1E78A1332",
+          "displayed_locator": "361–365",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-D0D41B14DDE4"
+        },
+        {
+          "locator_id": "LOC-7D4DCAADAA71",
+          "display_id": "DISPLAY-DF4F0A7EF358",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-60345CAEBCB8",
+      "path_id": "PATH-7A66864F334E",
+      "heading_path": [
+        "Italian revolts (1798-1799)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-9BC13FD33D3C",
+          "display_id": "DISPLAY-FC9EA9E51C46",
+          "displayed_locator": "365",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-689F99B29441",
+          "display_id": "DISPLAY-06A941CBBE7D",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-114E86BD061A",
+      "path_id": "PATH-1A9F3ACC8C3B",
+      "heading_path": [
+        "Italian tricolour"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-510A33F73D90",
+          "display_id": "DISPLAY-6716B9F663FB",
+          "displayed_locator": "359–360",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-3251CEB832DD"
+        },
+        {
+          "locator_id": "LOC-A506981F7B26",
+          "display_id": "DISPLAY-6716B9F663FB",
+          "displayed_locator": "359–360",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-3251CEB832DD"
+        },
+        {
+          "locator_id": "LOC-C115B4828454",
+          "display_id": "DISPLAY-8C9DD11EF90A",
+          "displayed_locator": "364",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-D34DEDBA1D04",
+      "path_id": "PATH-9CAE6BE4D9DB",
+      "heading_path": [
+        "Italian unity"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-7A4CA5F75421",
+          "display_id": "DISPLAY-8D111DCED60C",
+          "displayed_locator": "358",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-EBBEDBA11F12",
+          "display_id": "DISPLAY-CCD28BF547A0",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-D2189065D426",
+          "display_id": "DISPLAY-C0C52CD92160",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-95ABD49CF96B",
+      "path_id": "PATH-5BFE9806F417",
+      "heading_path": [
+        "Italy",
+        "Enlightened opinion and French influence"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-82F1050717EC",
+          "display_id": "DISPLAY-F24F2571EF0D",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-5C9822803119",
+      "path_id": "PATH-B0A9363BA4F4",
+      "heading_path": [
+        "Italy",
+        "Jacobinism and nationalism"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-68D4447BDF47",
+          "display_id": "DISPLAY-6D34C38F9270",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-F47F3A365933",
+          "display_id": "DISPLAY-90AE9B7861C6",
+          "displayed_locator": "359",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-589B258591A6",
+          "display_id": "DISPLAY-D7D7B37B2D48",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-BDDA694DABF0",
+      "path_id": "PATH-59C394F9D0F6",
+      "heading_path": [
+        "Italy",
+        "military campaigns"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-1E843BA9413C",
+          "display_id": "DISPLAY-05920D70FB73",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-C394256F77FC",
+      "path_id": "PATH-667695511060",
+      "heading_path": [
+        "Italy",
+        "occupation and sister republics"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-A691F28991A8",
+          "display_id": "DISPLAY-B13A6FB52483",
+          "displayed_locator": "354",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-C19BB2ECF4F5",
+          "display_id": "DISPLAY-FACB258B292A",
+          "displayed_locator": "356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-73E55A4EE7D6",
+          "display_id": "DISPLAY-F425BDE86C86",
+          "displayed_locator": "358–359",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-16048BCA192E"
+        },
+        {
+          "locator_id": "LOC-26B376DC1A27",
+          "display_id": "DISPLAY-F425BDE86C86",
+          "displayed_locator": "358–359",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-16048BCA192E"
+        },
+        {
+          "locator_id": "LOC-CF397CD49D20",
+          "display_id": "DISPLAY-267128FF55FA",
+          "displayed_locator": "365",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 4
+    },
+    {
+      "record_id": "REC-5FA3E1AAEE65",
+      "path_id": "PATH-19B7D07CDE0C",
+      "heading_path": [
+        "Italy",
+        "resistance and counter-revolution"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-13F8A652EC03",
+          "display_id": "DISPLAY-15DBC2478985",
+          "displayed_locator": "358",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-3826562C1AE1",
+          "display_id": "DISPLAY-6756598EDA36",
+          "displayed_locator": "365–367",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-155078DC5951"
+        },
+        {
+          "locator_id": "LOC-5EA68F232D17",
+          "display_id": "DISPLAY-6756598EDA36",
+          "displayed_locator": "365–367",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-155078DC5951"
+        },
+        {
+          "locator_id": "LOC-AB72E81D36C5",
+          "display_id": "DISPLAY-6756598EDA36",
+          "displayed_locator": "365–367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-155078DC5951"
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-1ECC7737D114",
+      "path_id": "PATH-4E78E7AC9042",
+      "heading_path": [
+        "Italy, Army of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-980F369471A2",
+          "display_id": "DISPLAY-CE94845A9104",
+          "displayed_locator": "355",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-141875C7E585",
+      "path_id": "PATH-C8F91C14B4D6",
+      "heading_path": [
+        "Jacobinism",
+        "in Italy"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C5B507A54729",
+          "display_id": "DISPLAY-8052878A5AEA",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-9E37B6411DCC",
+          "display_id": "DISPLAY-60465A246A97",
+          "displayed_locator": "365–366",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-D25D45E44841"
+        },
+        {
+          "locator_id": "LOC-28234C403A29",
+          "display_id": "DISPLAY-60465A246A97",
+          "displayed_locator": "365–366",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-D25D45E44841"
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-7CBEA66813EF",
+      "path_id": "PATH-B957D67AAD0E",
+      "heading_path": [
+        "Jacobinism",
+        "in Netherlands (Batavian Republic)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-12B59BFBF9C1",
+          "display_id": "DISPLAY-F242D006DD37",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-4C6AD126E225",
+      "path_id": "PATH-DCAA0C7DE9EB",
+      "heading_path": [
+        "Jacobins (Jacobin Club)",
+        "international impact and European clubs"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-B3475DDCD7CC",
+          "display_id": "DISPLAY-43AE4D408D43",
+          "displayed_locator": "361–367",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-894FAC2B753C"
+        },
+        {
+          "locator_id": "LOC-0F6C476088FC",
+          "display_id": "DISPLAY-43AE4D408D43",
+          "displayed_locator": "361–367",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-894FAC2B753C"
+        },
+        {
+          "locator_id": "LOC-103C4CF53869",
+          "display_id": "DISPLAY-43AE4D408D43",
+          "displayed_locator": "361–367",
+          "source_page_label": "363",
+          "normalized_locator_key": "363",
+          "document_page": 363,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-894FAC2B753C"
+        },
+        {
+          "locator_id": "LOC-53B7F4C83F30",
+          "display_id": "DISPLAY-43AE4D408D43",
+          "displayed_locator": "361–367",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-894FAC2B753C"
+        },
+        {
+          "locator_id": "LOC-861F7222EF60",
+          "display_id": "DISPLAY-43AE4D408D43",
+          "displayed_locator": "361–367",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-894FAC2B753C"
+        },
+        {
+          "locator_id": "LOC-C447A6702977",
+          "display_id": "DISPLAY-43AE4D408D43",
+          "displayed_locator": "361–367",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-894FAC2B753C"
+        },
+        {
+          "locator_id": "LOC-E35819FA8A76",
+          "display_id": "DISPLAY-43AE4D408D43",
+          "displayed_locator": "361–367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-894FAC2B753C"
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-F306654FD8E4",
+      "path_id": "PATH-0734E679592C",
+      "heading_path": [
+        "Jansenism"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-B84252BB1139",
+          "display_id": "DISPLAY-59195E641363",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-9B21353638CB",
+      "path_id": "PATH-D44DD89D53E3",
+      "heading_path": [
+        "Jews"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-08FEECE4038F",
+          "display_id": "DISPLAY-016CE5DE7773",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-8075DBA36D03",
+      "path_id": "PATH-249ABDDCE958",
+      "heading_path": [
+        "Joseph II (Holy Roman Emperor)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-6557E8B7857F",
+          "display_id": "DISPLAY-247DF861419B",
+          "displayed_locator": "350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-7445BA89BADA",
+          "display_id": "DISPLAY-EFACC919803D",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 9
+    },
+    {
+      "record_id": "REC-18566960773B",
+      "path_id": "PATH-2D40493C8B41",
+      "heading_path": [
+        "Joubert, Barthélemy Catherine"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-B07006BF9E28",
+          "display_id": "DISPLAY-01C6C2034DAF",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-DC31D9C390E2",
+      "path_id": "PATH-4E1C5E635822",
+      "heading_path": [
+        "Jourdan Law (conscription)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-0DCB5FF0D0B1",
+          "display_id": "DISPLAY-6FC2CA55B94A",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-6E19E13D0E18",
+      "path_id": "PATH-3EC9415B8BEC",
+      "heading_path": [
+        "Jourdan, Jean-Baptiste"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-2CB2EA8E56C8",
+          "display_id": "DISPLAY-1856CD9F4106",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-209269E9D7CC",
+      "path_id": "PATH-A07C720FFB85",
+      "heading_path": [
+        "La Harpe, Frédéric-César de"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-7E56043C136E",
+          "display_id": "DISPLAY-0EFF30B0E816",
+          "displayed_locator": "354",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-743ABDB82E92",
+      "path_id": "PATH-CB9DB8CE5A2A",
+      "heading_path": [
+        "Langhe district"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-EEC8F0F9356B",
+          "display_id": "DISPLAY-9B02AED94C0B",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-3769FBB8D363",
+      "path_id": "PATH-0B0190D8E668",
+      "heading_path": [
+        "lawyers"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-5D551E0F6B00",
+          "display_id": "DISPLAY-572C14C0BA6E",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 11
+    },
+    {
+      "record_id": "REC-7F50F6FCEB73",
+      "path_id": "PATH-487B9A00C0CC",
+      "heading_path": [
+        "Lazzaroni"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-566A88442DD7",
+          "display_id": "DISPLAY-67446C5A4828",
+          "displayed_locator": "364",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-03E600BC5FE5",
+      "path_id": "PATH-4B3E3EC2DA33",
+      "heading_path": [
+        "Le Peletier de Saint-Fargeau, Louis-Michel"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-9174E0BF7F81",
+          "display_id": "DISPLAY-547A6B61A298",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-2D5ABF9C7664",
+      "path_id": "PATH-C0E87340129C",
+      "heading_path": [
+        "left bank of the Rhine"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-F3ACCEAF0377",
+          "display_id": "DISPLAY-739C96C1E665",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-A2E182F8BABC",
+      "path_id": "PATH-14F67A0F5988",
+      "heading_path": [
+        "Leghorn"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-E244FFC1A097",
+          "display_id": "DISPLAY-95569EEA3B5B",
+          "displayed_locator": "358",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-450104F42411",
+      "path_id": "PATH-E87D288786AA",
+      "heading_path": [
+        "Leman Republic"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C94870FAD766",
+          "display_id": "DISPLAY-BFD5448C5B44",
+          "displayed_locator": "354–355",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7F58D1227185"
+        },
+        {
+          "locator_id": "LOC-65FB2E3187CA",
+          "display_id": "DISPLAY-BFD5448C5B44",
+          "displayed_locator": "354–355",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7F58D1227185"
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-7BDE1744EC8E",
+      "path_id": "PATH-C5B3D7B35CE6",
+      "heading_path": [
+        "Leoben, Preliminaries of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-CC46A36E30AB",
+          "display_id": "DISPLAY-9F2300775E4D",
+          "displayed_locator": "360",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-F40289AC9374",
+      "path_id": "PATH-49813E35777A",
+      "heading_path": [
+        "Leopold II (Holy Roman Emperor)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-0CEE5BC18626",
+          "display_id": "DISPLAY-62BBB014688F",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 8
+    },
+    {
+      "record_id": "REC-B59EA4F7A025",
+      "path_id": "PATH-ACC70E6F6792",
+      "heading_path": [
+        "Liberty",
+        "spread and imposition abroad"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-DEB24610A4A0",
+          "display_id": "DISPLAY-90A8AF2064D1",
+          "displayed_locator": "366",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-339FA9165860",
+      "path_id": "PATH-E76604284643",
+      "heading_path": [
+        "liberty trees"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-A0C443BEE7B7",
+          "display_id": "DISPLAY-1703D55A678B",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-B60EB716A7C3",
+          "display_id": "DISPLAY-A4592A752237",
+          "displayed_locator": "353",
+          "source_page_label": "353",
+          "normalized_locator_key": "353",
+          "document_page": 353,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-BBEAFE90B8D6",
+          "display_id": "DISPLAY-D41CC5950E33",
+          "displayed_locator": "359",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-7C2D2415758D",
+      "path_id": "PATH-506801E7F3C8",
+      "heading_path": [
+        "Ligurian Republic"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C167B1F42E9C",
+          "display_id": "DISPLAY-9481C9915895",
+          "displayed_locator": "361–362",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-9EA01143DDA1"
+        },
+        {
+          "locator_id": "LOC-4199E9F08342",
+          "display_id": "DISPLAY-9481C9915895",
+          "displayed_locator": "361–362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-9EA01143DDA1"
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-66770C24BDF1",
+      "path_id": "PATH-3D3AC052B9CF",
+      "heading_path": [
+        "Lombardy"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-6E8E729FBE94",
+          "display_id": "DISPLAY-FAC3303E604C",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-D51FD9BE3E1C",
+          "display_id": "DISPLAY-23395A7049FE",
+          "displayed_locator": "359–360",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-A16839A7A3D5"
+        },
+        {
+          "locator_id": "LOC-613502E36DFD",
+          "display_id": "DISPLAY-23395A7049FE",
+          "displayed_locator": "359–360",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-A16839A7A3D5"
+        },
+        {
+          "locator_id": "LOC-51FF1AE0DE6E",
+          "display_id": "DISPLAY-CD0D14C7A92B",
+          "displayed_locator": "364",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-0E96C95B72A9",
+      "path_id": "PATH-6FFF0168B74B",
+      "heading_path": [
+        "Louis XVIII"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-FA806D312CD7",
+          "display_id": "DISPLAY-4544A6C1DB56",
+          "displayed_locator": "347",
+          "source_page_label": "347",
+          "normalized_locator_key": "347",
+          "document_page": 347,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 9
+    },
+    {
+      "record_id": "REC-D2FA42496FCB",
+      "path_id": "PATH-29F40EBC038F",
+      "heading_path": [
+        "Luxembourg"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-21822058A8AD",
+          "display_id": "DISPLAY-18213AF34C39",
+          "displayed_locator": "350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-F96DAA561685",
+          "display_id": "DISPLAY-5FEB097E5536",
+          "displayed_locator": "353",
+          "source_page_label": "353",
+          "normalized_locator_key": "353",
+          "document_page": 353,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-16E102B59CE9",
+      "path_id": "PATH-0ADAEFE0953F",
+      "heading_path": [
+        "Marat, Jean-Paul"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-E706ED30D5FF",
+          "display_id": "DISPLAY-50A2493AE990",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-64B2DFE153FA",
+      "path_id": "PATH-450E577DD88A",
+      "heading_path": [
+        "Merlin de Douai"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-98044040F14E",
+          "display_id": "DISPLAY-BC5BE0F297B7",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-49E057BFD9A6",
+      "path_id": "PATH-42775D903A8F",
+      "heading_path": [
+        "Milan"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-591F702C7035",
+          "display_id": "DISPLAY-D394F0DDD59B",
+          "displayed_locator": "357–359",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-315F6D3878B2"
+        },
+        {
+          "locator_id": "LOC-DCBF755A7B6B",
+          "display_id": "DISPLAY-D394F0DDD59B",
+          "displayed_locator": "357–359",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-315F6D3878B2"
+        },
+        {
+          "locator_id": "LOC-C2F213D13DA1",
+          "display_id": "DISPLAY-D394F0DDD59B",
+          "displayed_locator": "357–359",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-315F6D3878B2"
+        },
+        {
+          "locator_id": "LOC-881497AE3FC9",
+          "display_id": "DISPLAY-577A3C140D93",
+          "displayed_locator": "361",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-18062438607E",
+          "display_id": "DISPLAY-6032941D1B9A",
+          "displayed_locator": "363",
+          "source_page_label": "363",
+          "normalized_locator_key": "363",
+          "document_page": 363,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 4
+    },
+    {
+      "record_id": "REC-8F3D2096C698",
+      "path_id": "PATH-4ED403FB863C",
+      "heading_path": [
+        "military requisitions"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-9D936A330BC7",
+          "display_id": "DISPLAY-0252DF5628BA",
+          "displayed_locator": "352",
+          "source_page_label": "352",
+          "normalized_locator_key": "352",
+          "document_page": 352,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-68CA577D331B",
+          "display_id": "DISPLAY-46E478C21F48",
+          "displayed_locator": "356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-DEB46802C4CE",
+          "display_id": "DISPLAY-8E2E911CF0D8",
+          "displayed_locator": "358",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-FFF885B19898",
+      "path_id": "PATH-9B8CDF06D79C",
+      "heading_path": [
+        "militias"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-174B2C8C9163",
+          "display_id": "DISPLAY-EC4DFA4B6D43",
+          "displayed_locator": "355",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-336503154091",
+      "path_id": "PATH-A3522E3AB6A9",
+      "heading_path": [
+        "monarchy",
+        "restoration efforts and royalism"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C06C20362316",
+          "display_id": "DISPLAY-F6B73F48A66A",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-3F10CEF02436",
+          "display_id": "DISPLAY-0DE77967BDD5",
+          "displayed_locator": "365",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 13
+    },
+    {
+      "record_id": "REC-8C5D40874228",
+      "path_id": "PATH-9BE1C108CFD5",
+      "heading_path": [
+        "monasteries"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-5C45CEC94EEC",
+          "display_id": "DISPLAY-AC6BF8483B71",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-3F947AD8C354",
+          "display_id": "DISPLAY-557CC25A3B50",
+          "displayed_locator": "356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 14
+    },
+    {
+      "record_id": "REC-46107B66F97F",
+      "path_id": "PATH-D954CBE00CB3",
+      "heading_path": [
+        "Naples"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-9AF7ABCA7501",
+          "display_id": "DISPLAY-D428E17AFB03",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-11AF1A9B6B7D",
+          "display_id": "DISPLAY-1EC7CFD4FD13",
+          "displayed_locator": "364–365",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-9A894AE06948"
+        },
+        {
+          "locator_id": "LOC-59686FFAA004",
+          "display_id": "DISPLAY-1EC7CFD4FD13",
+          "displayed_locator": "364–365",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-9A894AE06948"
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-6C628F067583",
+      "path_id": "PATH-139D5C8E19F4",
+      "heading_path": [
+        "National Convention",
+        "Thermidorian Reaction and dissolution"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-2E774BB224BE",
+          "display_id": "DISPLAY-5D291B2E9F25",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 23
+    },
+    {
+      "record_id": "REC-B1B540F8A7CF",
+      "path_id": "PATH-359A57B4D0EE",
+      "heading_path": [
+        "natural frontiers"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-D41DA34A76FB",
+          "display_id": "DISPLAY-F87E59ED6CD2",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-DD58D8A1C4B3",
+          "display_id": "DISPLAY-9B36CF9F19E8",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-3EBD56393EAD",
+      "path_id": "PATH-3FCDC12C0512",
+      "heading_path": [
+        "Nelson, Horatio"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-006C74413EB5",
+          "display_id": "DISPLAY-42F94B8E9280",
+          "displayed_locator": "364",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-900ECA173465",
+      "path_id": "PATH-7605F99DAB90",
+      "heading_path": [
+        "Netherlands"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-ABD1E13CE4E2",
+          "display_id": "DISPLAY-B55FBD146F99",
+          "displayed_locator": "343",
+          "source_page_label": "343",
+          "normalized_locator_key": "343",
+          "document_page": 343,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-5F78D70B0480",
+          "display_id": "DISPLAY-829DE05755E4",
+          "displayed_locator": "346–347",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-E48E14391AF7"
+        },
+        {
+          "locator_id": "LOC-070D2D74989B",
+          "display_id": "DISPLAY-829DE05755E4",
+          "displayed_locator": "346–347",
+          "source_page_label": "347",
+          "normalized_locator_key": "347",
+          "document_page": 347,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-E48E14391AF7"
+        },
+        {
+          "locator_id": "LOC-02B716F1C134",
+          "display_id": "DISPLAY-21759B9E756B",
+          "displayed_locator": "352",
+          "source_page_label": "352",
+          "normalized_locator_key": "352",
+          "document_page": 352,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-DBEBD5CEA734",
+          "display_id": "DISPLAY-20FC5191B3B3",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 20
+    },
+    {
+      "record_id": "REC-9840CB3BCAC1",
+      "path_id": "PATH-012669D1C7B3",
+      "heading_path": [
+        "nobility",
+        "regional"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-E7F8CAB7D6B2",
+          "display_id": "DISPLAY-F37F8F465FD8",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-457043B9CED5",
+      "path_id": "PATH-8C271D1A5B81",
+      "heading_path": [
+        "Nonjurors (Belgian)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-6FB1EEEF2793",
+          "display_id": "DISPLAY-779EAE852126",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-80766B99C50A",
+      "path_id": "PATH-C344542F34DC",
+      "heading_path": [
+        "Oath of hatred for royalty"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-31959F42D9D6",
+          "display_id": "DISPLAY-3C63841574F0",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-AB2FA7F9B488",
+      "path_id": "PATH-17F0DA6B6177",
+      "heading_path": [
+        "Ochs, Peter"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-73CF56245828",
+          "display_id": "DISPLAY-147FE08BC10B",
+          "displayed_locator": "354–356",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-1E5D216B5934"
+        },
+        {
+          "locator_id": "LOC-6CFEF626979A",
+          "display_id": "DISPLAY-147FE08BC10B",
+          "displayed_locator": "354–356",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-1E5D216B5934"
+        },
+        {
+          "locator_id": "LOC-ED1A13286795",
+          "display_id": "DISPLAY-147FE08BC10B",
+          "displayed_locator": "354–356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-1E5D216B5934"
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-A7C8903573F5",
+      "path_id": "PATH-634A6B207293",
+      "heading_path": [
+        "Papacy"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-0263D6DBFA76",
+          "display_id": "DISPLAY-B3F86129322D",
+          "displayed_locator": "360",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-09147AD562C2",
+      "path_id": "PATH-21F68C2B2947",
+      "heading_path": [
+        "parish clergy"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-090449657878",
+          "display_id": "DISPLAY-E8994F7A8F5B",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 18
+    },
+    {
+      "record_id": "REC-C2FF1732608C",
+      "path_id": "PATH-90421C144AB0",
+      "heading_path": [
+        "Parthenopean Republic"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-B09F6CE6C19D",
+          "display_id": "DISPLAY-7C19C2721080",
+          "displayed_locator": "364",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-804702FDDC2D",
+      "path_id": "PATH-9AB0AB10C31C",
+      "heading_path": [
+        "Pavia, revolt of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-AE0156897B17",
+          "display_id": "DISPLAY-74F65647794B",
+          "displayed_locator": "358",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-28F0914F9036",
+      "path_id": "PATH-E453843D953D",
+      "heading_path": [
+        "peasant resistance"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-F59C3B05CA5E",
+          "display_id": "DISPLAY-FBE12E11B084",
+          "displayed_locator": "359",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-05096677DD20",
+      "path_id": "PATH-1BCEB9774089",
+      "heading_path": [
+        "Peasant War (Belgium)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-AB5B2A46CC4C",
+          "display_id": "DISPLAY-7809177C0052",
+          "displayed_locator": "349",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-E4BA56E6648A",
+      "path_id": "PATH-E04BA24E6F21",
+      "heading_path": [
+        "peasantry",
+        "land ownership and sales"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-32CC0803E620",
+          "display_id": "DISPLAY-C799C7CD2232",
+          "displayed_locator": "350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-3DED6753CD54",
+      "path_id": "PATH-8BAD0A762394",
+      "heading_path": [
+        "peasantry",
+        "uprisings in occupied territories"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-2BE5A222F05C",
+          "display_id": "DISPLAY-F29C39340CD2",
+          "displayed_locator": "350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-03CFB7171C92",
+          "display_id": "DISPLAY-6DF266F8B930",
+          "displayed_locator": "355",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-E46ABB23CE08",
+          "display_id": "DISPLAY-576DBF7AB7CA",
+          "displayed_locator": "358",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-7B8DD5F235B8",
+          "display_id": "DISPLAY-436D2F717439",
+          "displayed_locator": "365–367",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-77016F93633D"
+        },
+        {
+          "locator_id": "LOC-E9B913F5B93A",
+          "display_id": "DISPLAY-436D2F717439",
+          "displayed_locator": "365–367",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-77016F93633D"
+        },
+        {
+          "locator_id": "LOC-819860F40401",
+          "display_id": "DISPLAY-436D2F717439",
+          "displayed_locator": "365–367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-77016F93633D"
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-ACD58D016848",
+      "path_id": "PATH-71422F717049",
+      "heading_path": [
+        "Piedmont"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-08062B1D691B",
+          "display_id": "DISPLAY-4B5303D832F4",
+          "displayed_locator": "356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-E515862A629C",
+          "display_id": "DISPLAY-34A7ED527B3C",
+          "displayed_locator": "365–366",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-032CFA02FB60"
+        },
+        {
+          "locator_id": "LOC-EDFB86BE7F6A",
+          "display_id": "DISPLAY-34A7ED527B3C",
+          "displayed_locator": "365–366",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-032CFA02FB60"
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-8DCC078C9619",
+      "path_id": "PATH-B509F716E731",
+      "heading_path": [
+        "political clubs",
+        "international and foreign societies",
+        "in Italy"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-4969C4634200",
+          "display_id": "DISPLAY-411399C9A25F",
+          "displayed_locator": "357–362",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-41D27B32C308"
+        },
+        {
+          "locator_id": "LOC-75C2788B81B9",
+          "display_id": "DISPLAY-411399C9A25F",
+          "displayed_locator": "357–362",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-41D27B32C308"
+        },
+        {
+          "locator_id": "LOC-2F2AF00EC532",
+          "display_id": "DISPLAY-411399C9A25F",
+          "displayed_locator": "357–362",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-41D27B32C308"
+        },
+        {
+          "locator_id": "LOC-C9E712B7AF63",
+          "display_id": "DISPLAY-411399C9A25F",
+          "displayed_locator": "357–362",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-41D27B32C308"
+        },
+        {
+          "locator_id": "LOC-1975CAF24871",
+          "display_id": "DISPLAY-411399C9A25F",
+          "displayed_locator": "357–362",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-41D27B32C308"
+        },
+        {
+          "locator_id": "LOC-798E5619E264",
+          "display_id": "DISPLAY-411399C9A25F",
+          "displayed_locator": "357–362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-41D27B32C308"
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-63EC3B063D94",
+      "path_id": "PATH-10A1F455890A",
+      "heading_path": [
+        "poor relief"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-86B1E3FA0CDB",
+          "display_id": "DISPLAY-EB3B162C78EF",
+          "displayed_locator": "347",
+          "source_page_label": "347",
+          "normalized_locator_key": "347",
+          "document_page": 347,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-6D18FBCF9E2E",
+      "path_id": "PATH-65CD008C34BC",
+      "heading_path": [
+        "Protestant Ascendancy"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-2024C7B49D0B",
+          "display_id": "DISPLAY-B7F6AA4D0390",
+          "displayed_locator": "343",
+          "source_page_label": "343",
+          "normalized_locator_key": "343",
+          "document_page": 343,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-3DC0BAD2A9ED",
+      "path_id": "PATH-801536DDFE69",
+      "heading_path": [
+        "Prussia",
+        "treaties and territorial settlements"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-62F02A9FD3FD",
+          "display_id": "DISPLAY-F1D04486DFD6",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-E5531D85B18F",
+      "path_id": "PATH-1C55E67E2D15",
+      "heading_path": [
+        "Rastadt, Congress of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-5DC30E59ADD3",
+          "display_id": "DISPLAY-DF10B8B4DC6B",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-1DD6EC93DCC4",
+      "path_id": "PATH-8B9B963DEB7A",
+      "heading_path": [
+        "Reform",
+        "international movements and influence"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-423C9EED3EC9",
+          "display_id": "DISPLAY-DF89514FF978",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-F14EB4BBD965",
+      "path_id": "PATH-6424235D99BA",
+      "heading_path": [
+        "Representatives on mission"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-3E13BB83D5E4",
+          "display_id": "DISPLAY-4AF1FB241947",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 12
+    },
+    {
+      "record_id": "REC-49FF98877B77",
+      "path_id": "PATH-A42D60869D58",
+      "heading_path": [
+        "republicanism"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-0970DBD38B11",
+          "display_id": "DISPLAY-C0999191A01E",
+          "displayed_locator": "347",
+          "source_page_label": "347",
+          "normalized_locator_key": "347",
+          "document_page": 347,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-1AB10DC82E6A",
+          "display_id": "DISPLAY-AF7E0D57B79A",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-A57670EF0626",
+      "path_id": "PATH-F412CCA22C7A",
+      "heading_path": [
+        "Reubell, Jean-François"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-0D3FE7A0F311",
+          "display_id": "DISPLAY-815A968E07F2",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-12470A83832E",
+          "display_id": "DISPLAY-7E996E9196D5",
+          "displayed_locator": "354",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-854C5C0C804F",
+      "path_id": "PATH-CCF09DDF8FCA",
+      "heading_path": [
+        "Revolutionary Armies"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-9F97F9BD0483",
+          "display_id": "DISPLAY-B8363434C863",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 11
+    },
+    {
+      "record_id": "REC-AFFB50E335C4",
+      "path_id": "PATH-C90DE7B1E84C",
+      "heading_path": [
+        "Rhenish Catholicism"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-DC2593834B92",
+          "display_id": "DISPLAY-42F5DF919A05",
+          "displayed_locator": "353",
+          "source_page_label": "353",
+          "normalized_locator_key": "353",
+          "document_page": 353,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-4910E25D9110",
+      "path_id": "PATH-F814BE3E47FA",
+      "heading_path": [
+        "Rhineland"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-32DEB4CFC80C",
+          "display_id": "DISPLAY-29346B041152",
+          "displayed_locator": "351–353",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-E7A73632AE4E"
+        },
+        {
+          "locator_id": "LOC-9BCCFB620D38",
+          "display_id": "DISPLAY-29346B041152",
+          "displayed_locator": "351–353",
+          "source_page_label": "352",
+          "normalized_locator_key": "352",
+          "document_page": 352,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-E7A73632AE4E"
+        },
+        {
+          "locator_id": "LOC-F8007FA512B3",
+          "display_id": "DISPLAY-29346B041152",
+          "displayed_locator": "351–353",
+          "source_page_label": "353",
+          "normalized_locator_key": "353",
+          "document_page": 353,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-E7A73632AE4E"
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-3FF0C69B5BDC",
+      "path_id": "PATH-957B14FCD024",
+      "heading_path": [
+        "Roman Republic"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-5CA563C8DE57",
+          "display_id": "DISPLAY-84972B4017C3",
+          "displayed_locator": "362–363",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-20F1D1355089"
+        },
+        {
+          "locator_id": "LOC-22F34022C85E",
+          "display_id": "DISPLAY-84972B4017C3",
+          "displayed_locator": "362–363",
+          "source_page_label": "363",
+          "normalized_locator_key": "363",
+          "document_page": 363,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-20F1D1355089"
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-BB86D1E0154F",
+      "path_id": "PATH-021D30530178",
+      "heading_path": [
+        "Roman Vespers"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-B9358FD10944",
+          "display_id": "DISPLAY-2EB92A76E29E",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-743569A777D4",
+      "path_id": "PATH-40C5F3CF6778",
+      "heading_path": [
+        "Rome"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-E0531C13B2BE",
+          "display_id": "DISPLAY-99676EBE535A",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-CF05B2F8B5AB",
+          "display_id": "DISPLAY-F44B0133BED0",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 9
+    },
+    {
+      "record_id": "REC-2AF2F630A3E5",
+      "path_id": "PATH-9E753ECAA4CA",
+      "heading_path": [
+        "Royalists",
+        "armed resistance and insurgency"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-EDB0BB14D20C",
+          "display_id": "DISPLAY-6771225B459D",
+          "displayed_locator": "364",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-F7EBE302A1A7",
+      "path_id": "PATH-BBF4791AFDBA",
+      "heading_path": [
+        "Ruffo, Fabrizio"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-07EC5B0B6704",
+          "display_id": "DISPLAY-D7CDCFC41E40",
+          "displayed_locator": "364–365",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-D7F9F5D6D5C3"
+        },
+        {
+          "locator_id": "LOC-D9EC5B8E62C1",
+          "display_id": "DISPLAY-D7CDCFC41E40",
+          "displayed_locator": "364–365",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-D7F9F5D6D5C3"
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-2B2DD19166B7",
+      "path_id": "PATH-B54E7F7ABAAD",
+      "heading_path": [
+        "Sanfedist movement"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-87D84B3A77DC",
+          "display_id": "DISPLAY-2445F0BC86EA",
+          "displayed_locator": "365",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-863F0E54DEAD",
+      "path_id": "PATH-A3723573116F",
+      "heading_path": [
+        "Scheldt, opening of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-1BBF1D1B49F3",
+          "display_id": "DISPLAY-4094C72E095B",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-D12C3BE1441D",
+      "path_id": "PATH-C4B597A30A6B",
+      "heading_path": [
+        "Second Coalition"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-31C6C5A954C8",
+          "display_id": "DISPLAY-13826B04AD25",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-5FA1435D826D",
+          "display_id": "DISPLAY-A478BF74764D",
+          "displayed_locator": "363",
+          "source_page_label": "363",
+          "normalized_locator_key": "363",
+          "document_page": 363,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-B65CFD492095",
+          "display_id": "DISPLAY-0EBC685CCD0C",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-5F887AB15B8B",
+      "path_id": "PATH-9B8669A4EE99",
+      "heading_path": [
+        "Sister republics"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-2B80BECE661E",
+          "display_id": "DISPLAY-0AA6611DC5D2",
+          "displayed_locator": "347",
+          "source_page_label": "347",
+          "normalized_locator_key": "347",
+          "document_page": 347,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-EDB8E1AE4AD4",
+          "display_id": "DISPLAY-D5931E4CA2F7",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-0A7A5523FC05",
+          "display_id": "DISPLAY-E9C2156C7541",
+          "displayed_locator": "359",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-7B30F2B0FC78",
+          "display_id": "DISPLAY-C03AE7867A96",
+          "displayed_locator": "361–362",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-29BC64F7E90C"
+        },
+        {
+          "locator_id": "LOC-1B1E74732D2F",
+          "display_id": "DISPLAY-C03AE7867A96",
+          "displayed_locator": "361–362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-29BC64F7E90C"
+        },
+        {
+          "locator_id": "LOC-F38B2422ACA0",
+          "display_id": "DISPLAY-DFDFA2962261",
+          "displayed_locator": "364",
+          "source_page_label": "364",
+          "normalized_locator_key": "364",
+          "document_page": 364,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-A3E2EC1FB4BB",
+          "display_id": "DISPLAY-E44EC5AA6E39",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-3D432DE3DDA7",
+      "path_id": "PATH-6E9388D049E0",
+      "heading_path": [
+        "smuggling"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-3D962C43C44E",
+          "display_id": "DISPLAY-F2CC9CBF1333",
+          "displayed_locator": "352",
+          "source_page_label": "352",
+          "normalized_locator_key": "352",
+          "document_page": 352,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-E5E226BBC2C9",
+      "path_id": "PATH-7E35D936DBE8",
+      "heading_path": [
+        "Stockach, Battle of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-BFE7AA38E0DF",
+          "display_id": "DISPLAY-B1A2617B40EC",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-D576FAB86172",
+      "path_id": "PATH-179B19FB135B",
+      "heading_path": [
+        "Suvorov, Alexander"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-5F462E6D2193",
+          "display_id": "DISPLAY-30E4D07673E5",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-AC294C205E33",
+      "path_id": "PATH-5BC712D5B844",
+      "heading_path": [
+        "Swiss Confederation"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-E47E980DF617",
+          "display_id": "DISPLAY-9F8F0878286A",
+          "displayed_locator": "354–356",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-01276237CE72"
+        },
+        {
+          "locator_id": "LOC-868FDBF34484",
+          "display_id": "DISPLAY-9F8F0878286A",
+          "displayed_locator": "354–356",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-01276237CE72"
+        },
+        {
+          "locator_id": "LOC-C26A717C24A9",
+          "display_id": "DISPLAY-9F8F0878286A",
+          "displayed_locator": "354–356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-01276237CE72"
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-FF2FC6256E25",
+      "path_id": "PATH-5BB74B7685C3",
+      "heading_path": [
+        "Swiss Guard"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-D14AE5B3AC90",
+          "display_id": "DISPLAY-2BFB2EEA0416",
+          "displayed_locator": "355–356",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-A0C451F4DCC2"
+        },
+        {
+          "locator_id": "LOC-A757D6E0DF45",
+          "display_id": "DISPLAY-2BFB2EEA0416",
+          "displayed_locator": "355–356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-A0C451F4DCC2"
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-76A7204C81E7",
+      "path_id": "PATH-1F53C3D3ED33",
+      "heading_path": [
+        "taxation",
+        "in occupied territories"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-2874499A2B44",
+          "display_id": "DISPLAY-807569AC6112",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-38118A2D81E6",
+          "display_id": "DISPLAY-97C2B8D23B9B",
+          "displayed_locator": "348",
+          "source_page_label": "348",
+          "normalized_locator_key": "348",
+          "document_page": 348,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-EF23FF73ED3B",
+          "display_id": "DISPLAY-632CE1BE38F3",
+          "displayed_locator": "350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-2C5A7E8B1CF2",
+          "display_id": "DISPLAY-7A61ABB71D31",
+          "displayed_locator": "352",
+          "source_page_label": "352",
+          "normalized_locator_key": "352",
+          "document_page": 352,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-4445D5151A36",
+      "path_id": "PATH-EC8B1F1D8D10",
+      "heading_path": [
+        "territorial mandates"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C27B85CD5103",
+          "display_id": "DISPLAY-DF3F194246C1",
+          "displayed_locator": "358",
+          "source_page_label": "358",
+          "normalized_locator_key": "358",
+          "document_page": 358,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-64634E0F2ACF",
+      "path_id": "PATH-32B890E2DC9A",
+      "heading_path": [
+        "The Hague, Treaty of (1795)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-11FAB253BD4A",
+          "display_id": "DISPLAY-520513E67740",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-51900A73DCD2",
+      "path_id": "PATH-B1D647D8E219",
+      "heading_path": [
+        "tithes",
+        "replacement by rent increases"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-CAEE0DD579F5",
+          "display_id": "DISPLAY-101614AFBC2C",
+          "displayed_locator": "353",
+          "source_page_label": "353",
+          "normalized_locator_key": "353",
+          "document_page": 353,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-7A2BDD7C8A63",
+      "path_id": "PATH-C0645CA798E3",
+      "heading_path": [
+        "tithes",
+        "resistance and abolition"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-035A18011EFD",
+          "display_id": "DISPLAY-FA7A38102870",
+          "displayed_locator": "353",
+          "source_page_label": "353",
+          "normalized_locator_key": "353",
+          "document_page": 353,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-AAEE589D31B7",
+          "display_id": "DISPLAY-E8443A97E697",
+          "displayed_locator": "356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 11
+    },
+    {
+      "record_id": "REC-978F0077A2E7",
+      "path_id": "PATH-6ADACF488B48",
+      "heading_path": [
+        "Tolentino, Treaty of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-85159BE6445F",
+          "display_id": "DISPLAY-8C8C8F7AEEE1",
+          "displayed_locator": "359–360",
+          "source_page_label": "359",
+          "normalized_locator_key": "359",
+          "document_page": 359,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7CF12834D9DC"
+        },
+        {
+          "locator_id": "LOC-6B2BB998AC63",
+          "display_id": "DISPLAY-8C8C8F7AEEE1",
+          "displayed_locator": "359–360",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7CF12834D9DC"
+        },
+        {
+          "locator_id": "LOC-E491986F2D7B",
+          "display_id": "DISPLAY-485C72D5041C",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-7C60DA6BFE36",
+      "path_id": "PATH-91B40D02741F",
+      "heading_path": [
+        "Tone, Theobald Wolfe"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-A3599AB1C1A6",
+          "display_id": "DISPLAY-411333C3DCD6",
+          "displayed_locator": "342",
+          "source_page_label": "342",
+          "normalized_locator_key": "342",
+          "document_page": 342,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-40D8B129D713",
+      "path_id": "PATH-2808CD626340",
+      "heading_path": [
+        "Toulon"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-CBE35B5F0682",
+          "display_id": "DISPLAY-6C223E5DF8AB",
+          "displayed_locator": "355",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 20
+    },
+    {
+      "record_id": "REC-E23B8BCB8373",
+      "path_id": "PATH-E259459C1788",
+      "heading_path": [
+        "Tribunate"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-4C523DEA9063",
+          "display_id": "DISPLAY-2651EB2EEA22",
+          "displayed_locator": "362",
+          "source_page_label": "362",
+          "normalized_locator_key": "362",
+          "document_page": 362,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-6754384FB6F6",
+      "path_id": "PATH-7238568F832D",
+      "heading_path": [
+        "tricolour cockade"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-CAFEFD5F062E",
+          "display_id": "DISPLAY-835CDBE1DD5B",
+          "displayed_locator": "360",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-E2BB4322F2DF",
+      "path_id": "PATH-2E4CEFCB65EE",
+      "heading_path": [
+        "Tuileries Palace",
+        "storming of (10 Aug 1792)",
+        "Swiss Guard massacre"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-D6D8DE11E640",
+          "display_id": "DISPLAY-F3ADA520302A",
+          "displayed_locator": "355–356",
+          "source_page_label": "355",
+          "normalized_locator_key": "355",
+          "document_page": 355,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-016AA0EF2F8F"
+        },
+        {
+          "locator_id": "LOC-CD55A2C9C720",
+          "display_id": "DISPLAY-F3ADA520302A",
+          "displayed_locator": "355–356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-016AA0EF2F8F"
+        }
+      ],
+      "other_locator_assignment_count": 4
+    },
+    {
+      "record_id": "REC-E01A3DEFEB33",
+      "path_id": "PATH-080BDC7DCA40",
+      "heading_path": [
+        "Turin"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-B38D2496D4E8",
+          "display_id": "DISPLAY-D2394FD5A813",
+          "displayed_locator": "365",
+          "source_page_label": "365",
+          "normalized_locator_key": "365",
+          "document_page": 365,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-2D996B0C95DA",
+          "display_id": "DISPLAY-EF50CD793CB5",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 6
+    },
+    {
+      "record_id": "REC-9E3C44FD8963",
+      "path_id": "PATH-3491117363AD",
+      "heading_path": [
+        "Tuscany"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-A738C8FF5C86",
+          "display_id": "DISPLAY-3824D42938F3",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-D6BEB12467FF",
+          "display_id": "DISPLAY-DADB2AD8C4D2",
+          "displayed_locator": "366–367",
+          "source_page_label": "366",
+          "normalized_locator_key": "366",
+          "document_page": 366,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-460F532108E2"
+        },
+        {
+          "locator_id": "LOC-9E68A5EBF4CE",
+          "display_id": "DISPLAY-DADB2AD8C4D2",
+          "displayed_locator": "366–367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-460F532108E2"
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-A386DCAB7534",
+      "path_id": "PATH-E00F4FE6A458",
+      "heading_path": [
+        "Ulster"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-5F85294CB745",
+          "display_id": "DISPLAY-7D673E433AC0",
+          "displayed_locator": "342",
+          "source_page_label": "342",
+          "normalized_locator_key": "342",
+          "document_page": 342,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 1
+    },
+    {
+      "record_id": "REC-46A9F8D4C4F8",
+      "path_id": "PATH-6F13F013FC8F",
+      "heading_path": [
+        "unemployment"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-609C3C625E2E",
+          "display_id": "DISPLAY-CF489E61D28B",
+          "displayed_locator": "347",
+          "source_page_label": "347",
+          "normalized_locator_key": "347",
+          "document_page": 347,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 5
+    },
+    {
+      "record_id": "REC-519B82B80F77",
+      "path_id": "PATH-702F7061CD03",
+      "heading_path": [
+        "United Irishmen"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-752B6064273B",
+          "display_id": "DISPLAY-1980D2D718CD",
+          "displayed_locator": "341",
+          "source_page_label": "341",
+          "normalized_locator_key": "341",
+          "document_page": 341,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 4
+    },
+    {
+      "record_id": "REC-1BE9B8944B31",
+      "path_id": "PATH-228741ED36C8",
+      "heading_path": [
+        "Vaud"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-0553E47710A3",
+          "display_id": "DISPLAY-9B1636D36E2C",
+          "displayed_locator": "354",
+          "source_page_label": "354",
+          "normalized_locator_key": "354",
+          "document_page": 354,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-7115FBAF3E63",
+      "path_id": "PATH-A254A6CC29F8",
+      "heading_path": [
+        "Vendée"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-8492794D73CA",
+          "display_id": "DISPLAY-92DDAC81D041",
+          "displayed_locator": "349–350",
+          "source_page_label": "349",
+          "normalized_locator_key": "349",
+          "document_page": 349,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-90403F49DF31"
+        },
+        {
+          "locator_id": "LOC-89B6E3CD216D",
+          "display_id": "DISPLAY-92DDAC81D041",
+          "displayed_locator": "349–350",
+          "source_page_label": "350",
+          "normalized_locator_key": "350",
+          "document_page": 350,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-90403F49DF31"
+        },
+        {
+          "locator_id": "LOC-137C67BE03CF",
+          "display_id": "DISPLAY-3AD9130E5242",
+          "displayed_locator": "353",
+          "source_page_label": "353",
+          "normalized_locator_key": "353",
+          "document_page": 353,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-6AB9930F1E91",
+          "display_id": "DISPLAY-BCB181667963",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 35
+    },
+    {
+      "record_id": "REC-4BF89F526135",
+      "path_id": "PATH-CAA31EF56A97",
+      "heading_path": [
+        "Venice"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-F58D2648A4E3",
+          "display_id": "DISPLAY-46A4446E0314",
+          "displayed_locator": "360–361",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-8616DC38417E"
+        },
+        {
+          "locator_id": "LOC-67F7E78F7FB0",
+          "display_id": "DISPLAY-46A4446E0314",
+          "displayed_locator": "360–361",
+          "source_page_label": "361",
+          "normalized_locator_key": "361",
+          "document_page": 361,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-8616DC38417E"
+        }
+      ],
+      "other_locator_assignment_count": 7
+    },
+    {
+      "record_id": "REC-38CCF2EC645A",
+      "path_id": "PATH-688E661A2986",
+      "heading_path": [
+        "Verona, massacre in"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-C42537CBBD17",
+          "display_id": "DISPLAY-844B8AC83830",
+          "displayed_locator": "360",
+          "source_page_label": "360",
+          "normalized_locator_key": "360",
+          "document_page": 360,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-5C03070F28EA",
+      "path_id": "PATH-1841270C3DC9",
+      "heading_path": [
+        "Victor Amadeus III (King of Sardinia)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-FEAEDBB8C60D",
+          "display_id": "DISPLAY-9A82FE29E177",
+          "displayed_locator": "356",
+          "source_page_label": "356",
+          "normalized_locator_key": "356",
+          "document_page": 356,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 3
+    },
+    {
+      "record_id": "REC-6CFC6906FF3E",
+      "path_id": "PATH-27294677A0B2",
+      "heading_path": [
+        "Vinegar Hill, Battle of"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-80F72DE6D518",
+          "display_id": "DISPLAY-49981664084F",
+          "displayed_locator": "342",
+          "source_page_label": "342",
+          "normalized_locator_key": "342",
+          "document_page": 342,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-AE6DA854FE96",
+      "path_id": "PATH-7280A8695C0D",
+      "heading_path": [
+        "Vive Maria!"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-957345E2CC6E",
+          "display_id": "DISPLAY-F2BE3C426E61",
+          "displayed_locator": "357",
+          "source_page_label": "357",
+          "normalized_locator_key": "357",
+          "document_page": 357,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-33233F8DD3E4",
+          "display_id": "DISPLAY-C3BAEE1ED410",
+          "displayed_locator": "367",
+          "source_page_label": "367",
+          "normalized_locator_key": "367",
+          "document_page": 367,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-A9F09D9498BE",
+      "path_id": "PATH-9CD9506AE0B1",
+      "heading_path": [
+        "War of the Second Coalition"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-D13B14D34334",
+          "display_id": "DISPLAY-0C74776440D5",
+          "displayed_locator": "351",
+          "source_page_label": "351",
+          "normalized_locator_key": "351",
+          "document_page": 351,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-D9491A9FDD50",
+          "display_id": "DISPLAY-49C80FD3BC6F",
+          "displayed_locator": "363",
+          "source_page_label": "363",
+          "normalized_locator_key": "363",
+          "document_page": 363,
+          "mapping_status": "resolved",
+          "range_id": null
+        },
+        {
+          "locator_id": "LOC-5267700DA5A7",
+          "display_id": "DISPLAY-6DF9C0569720",
+          "displayed_locator": "368",
+          "source_page_label": "368",
+          "normalized_locator_key": "368",
+          "document_page": 368,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    },
+    {
+      "record_id": "REC-DDCD5A20A5BD",
+      "path_id": "PATH-CAFDF5785378",
+      "heading_path": [
+        "Wexford, rebellion in"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-5A465ADB19E2",
+          "display_id": "DISPLAY-76CA42F370ED",
+          "displayed_locator": "342",
+          "source_page_label": "342",
+          "normalized_locator_key": "342",
+          "document_page": 342,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 0
+    },
+    {
+      "record_id": "REC-0A12BF8B8879",
+      "path_id": "PATH-C0896A935205",
+      "heading_path": [
+        "William V (Prince of Orange)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-2001C30E8953",
+          "display_id": "DISPLAY-48A2E59243E0",
+          "displayed_locator": "346–347",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7DBDA39692DD"
+        },
+        {
+          "locator_id": "LOC-C3EAF2106F47",
+          "display_id": "DISPLAY-48A2E59243E0",
+          "displayed_locator": "346–347",
+          "source_page_label": "347",
+          "normalized_locator_key": "347",
+          "document_page": 347,
+          "mapping_status": "resolved",
+          "range_id": "RANGE-7DBDA39692DD"
+        }
+      ],
+      "other_locator_assignment_count": 4
+    },
+    {
+      "record_id": "REC-FEE8E582CD3B",
+      "path_id": "PATH-9E86C24CDE99",
+      "heading_path": [
+        "winter (1794-1795)"
+      ],
+      "locator_assignments": [
+        {
+          "locator_id": "LOC-42F078E0311C",
+          "display_id": "DISPLAY-4279693DEEED",
+          "displayed_locator": "346",
+          "source_page_label": "346",
+          "normalized_locator_key": "346",
+          "document_page": 346,
+          "mapping_status": "resolved",
+          "range_id": null
+        }
+      ],
+      "other_locator_assignment_count": 2
+    }
+  ],
+  "summary": {
+    "path_count": 203,
+    "locator_assignment_count": 375
+  }
+}

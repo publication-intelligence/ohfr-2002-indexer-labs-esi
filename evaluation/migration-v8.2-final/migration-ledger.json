@@ -1,0 +1,3159 @@
+{
+  "schema_version": "indexerlabs-v82-final-ledger-v1",
+  "status": "validated",
+  "repair_checkpoint": "48bb67b434335cd90002f7bf2078a8a176e2a525",
+  "interim_checkpoint": "5a518e81dedef24f071018fe8b91f8bf5235d540",
+  "methodology_revision": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "installation_receipt_sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204",
+  "scope_preparation_sha256": "3b2a128b31e37a283bf5591b4824e202feb1266537fa685e14a9fede771e9e83",
+  "scope_application": "Exact 11 prepared locator_support rows applied; original uncertainty objects unchanged. No audit rerun.",
+  "policy_freeze": {
+    "frozen_at": "2026-09-16T17:17:58.244815+00:00",
+    "candidate_seen": true
+  },
+  "numeric_invariance": {
+    "baseline_commit": "48bb67b434335cd90002f7bf2078a8a176e2a525",
+    "overall_before": 85.12,
+    "overall_after": 85.12,
+    "all_dimension_fields_equal_except": [
+      "formula_id",
+      "input_artifacts"
+    ],
+    "components_caps_deductions_diagnostics_unchanged": true
+  },
+  "dimension_percentages": {
+    "meaningful_coverage": "80.04284184219921456622634773",
+    "editorial_selectivity": "64.98347263302706989539506653",
+    "conceptual_stance_fidelity": "97.63077858880778588807785888",
+    "page_reference_reliability": "89.34182188339495098228080783",
+    "findability_navigation": "86.93284073232021060189063061",
+    "mechanics_consistency": "100"
+  },
+  "gate_counts": {
+    "GATE-WRONG-LOCATOR": 140,
+    "GATE-BROKEN-REFERENCE": 2
+  },
+  "gate_evidence": [
+    {
+      "gate_id": "GATE-WRONG-LOCATOR",
+      "description": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [],
+      "affected_evidence_ids": [
+        "LOC-02D07BB4645B",
+        "LOC-03597F3EC0D5",
+        "LOC-03EA68042870",
+        "LOC-052A1F866CA9",
+        "LOC-05683BD2EEE7",
+        "LOC-0AECEBB0B4B2",
+        "LOC-0B7498786FFD",
+        "LOC-0C8E16CD9A9F",
+        "LOC-0CA9C3C37D44",
+        "LOC-0E2B33127C64",
+        "LOC-0F7868E5D012",
+        "LOC-11F2B63600D4",
+        "LOC-1219942EF75C",
+        "LOC-1248259445A9",
+        "LOC-12DD149C485E",
+        "LOC-16080D05FC85",
+        "LOC-1765477C6D39",
+        "LOC-188B9452417E",
+        "LOC-19DF790209C0",
+        "LOC-1A3CDDF9E8A8",
+        "LOC-1A997CF5E177",
+        "LOC-1B12CAAFF12D",
+        "LOC-1C4A9F35DAF1",
+        "LOC-1CF7B93E3489",
+        "LOC-1D3C6D6F5338",
+        "LOC-1E11CBEC74FA",
+        "LOC-1EB0672119FB",
+        "LOC-2072C42CC1E3",
+        "LOC-213BD0B90BEC",
+        "LOC-21E392E360B0",
+        "LOC-2945A2B5F17F",
+        "LOC-2992A7890394",
+        "LOC-2A46CD99575D",
+        "LOC-2B02458E664C",
+        "LOC-2E3FDD78122B",
+        "LOC-383B41EF0CC5",
+        "LOC-39C165B3C593",
+        "LOC-3CF21D769AE5",
+        "LOC-4292366F9CC4",
+        "LOC-42C81EFBB74D",
+        "LOC-4409A0BEE63F",
+        "LOC-4830D1943B45",
+        "LOC-4A208AA37400",
+        "LOC-4A8894D6401D",
+        "LOC-4A9EF4D274AE",
+        "LOC-4B10DB7908D3",
+        "LOC-4BA6DA629A25",
+        "LOC-4BFB6F7D505F",
+        "LOC-4DEAFD068BC3",
+        "LOC-4FEE040FDBE1",
+        "LOC-51D18B70EF0D",
+        "LOC-51FAE95BDC53",
+        "LOC-56F929350893",
+        "LOC-57B0273B86BA",
+        "LOC-57C878911022",
+        "LOC-5A363918778A",
+        "LOC-5B906EB6C96F",
+        "LOC-5CBA66901852",
+        "LOC-5F97ABFC52F4",
+        "LOC-5FC23020204E",
+        "LOC-63F3B7C8D5D3",
+        "LOC-686932ABDF64",
+        "LOC-68C27C2BA654",
+        "LOC-68F56DF9DB25",
+        "LOC-6A55ADAB8561",
+        "LOC-6F7EC1C38F96",
+        "LOC-70217F4DA4EE",
+        "LOC-709F3B3134BA",
+        "LOC-7476E46985A4",
+        "LOC-75E7D7BBF894",
+        "LOC-77BD8DF34603",
+        "LOC-7B57EE76141D",
+        "LOC-7F6070D7B0C4",
+        "LOC-7F97340E1950",
+        "LOC-84368651301F",
+        "LOC-85159BE6445F",
+        "LOC-85EAB632BFF1",
+        "LOC-87CE20A497D0",
+        "LOC-8A56748413C8",
+        "LOC-8B9B4AD5C557",
+        "LOC-8C080223A18B",
+        "LOC-8CF1012EB6E0",
+        "LOC-91A6EEDBEAA4",
+        "LOC-91E560CF75DB",
+        "LOC-9292D0FD720E",
+        "LOC-93C783AEAA35",
+        "LOC-962D6C9AA375",
+        "LOC-979E34190F43",
+        "LOC-98A012BE1009",
+        "LOC-9E78912F47A5",
+        "LOC-9EE3CCC10839",
+        "LOC-9F21A6CDB914",
+        "LOC-A196033446AF",
+        "LOC-A1BFB5EBD49A",
+        "LOC-A3CEE755D1E3",
+        "LOC-A5DE80A3394F",
+        "LOC-A674E35FB204",
+        "LOC-A984D02CAFA8",
+        "LOC-AC78C23DB1C9",
+        "LOC-B648C3653B39",
+        "LOC-B707A4CF5B97",
+        "LOC-B7E6F7CD33A4",
+        "LOC-BA4DF918D5A6",
+        "LOC-BA825056DE87",
+        "LOC-BB9E8E899721",
+        "LOC-BC57C00C8392",
+        "LOC-BF8D54853D9A",
+        "LOC-C222A41EA4CE",
+        "LOC-C3F940854FC0",
+        "LOC-C532099DF13D",
+        "LOC-C7C3C17988FC",
+        "LOC-C8CF741DE2A2",
+        "LOC-CA39508FF9C5",
+        "LOC-CF2AEE605855",
+        "LOC-D00D2D48CDA2",
+        "LOC-D13E4F99E86F",
+        "LOC-D3D84625E3A3",
+        "LOC-D5FAF9BA45A6",
+        "LOC-D7BC7997ECAF",
+        "LOC-DB9E2CAC8156",
+        "LOC-DE8D16C7E894",
+        "LOC-DF477F4E30C8",
+        "LOC-DF574A4AA64F",
+        "LOC-E0BD7BEF10E7",
+        "LOC-E239FA63B5A4",
+        "LOC-E2AD8A9F5973",
+        "LOC-E7B055D61E79",
+        "LOC-ED1A13286795",
+        "LOC-EDF6BB788563",
+        "LOC-EF22612930BD",
+        "LOC-F018D5406D0D",
+        "LOC-F151A8A07EC5",
+        "LOC-F3D2E3EE4C76",
+        "LOC-F3FB8BE9CFC9",
+        "LOC-F404EA568752",
+        "LOC-F4E39D4FD0F4",
+        "LOC-F65F04255344",
+        "LOC-FA17D1D4DF98",
+        "LOC-FC2FBF14B2DE",
+        "LOC-FFF913D6A79B"
+      ],
+      "threshold": "Any confirmed delivered unsupported no-fit locator; no count, rate, or separate defect threshold",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [
+        {
+          "locator_id": "LOC-02D07BB4645B",
+          "path_id": "PATH-DD6CCD24593B",
+          "complete_heading_path": [
+            "Paris",
+            "Paris Commune and the Mountain"
+          ],
+          "document_page": 199,
+          "source_page_label": "199",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-02D07BB4645B"
+          ]
+        },
+        {
+          "locator_id": "LOC-03597F3EC0D5",
+          "path_id": "PATH-1BE5031EECCA",
+          "complete_heading_path": [
+            "slavery"
+          ],
+          "document_page": 410,
+          "source_page_label": "410",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-03597F3EC0D5"
+          ]
+        },
+        {
+          "locator_id": "LOC-03EA68042870",
+          "path_id": "PATH-D246C55F37ED",
+          "complete_heading_path": [
+            "Electoral system (1789)"
+          ],
+          "document_page": 174,
+          "source_page_label": "174",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-03EA68042870"
+          ]
+        },
+        {
+          "locator_id": "LOC-052A1F866CA9",
+          "path_id": "PATH-9D73F3946E1A",
+          "complete_heading_path": [
+            "nobility",
+            "legislative and political activity"
+          ],
+          "document_page": 149,
+          "source_page_label": "149",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-052A1F866CA9"
+          ]
+        },
+        {
+          "locator_id": "LOC-05683BD2EEE7",
+          "path_id": "PATH-57A189C62E1A",
+          "complete_heading_path": [
+            "Necker, Jacques",
+            "financial management and reforms",
+            "opposition to nationalization and assignats"
+          ],
+          "document_page": 131,
+          "source_page_label": "131",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-05683BD2EEE7"
+          ]
+        },
+        {
+          "locator_id": "LOC-0AECEBB0B4B2",
+          "path_id": "PATH-CB361A3F090C",
+          "complete_heading_path": [
+            "Terray, Joseph Marie"
+          ],
+          "document_page": 34,
+          "source_page_label": "34",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0AECEBB0B4B2"
+          ]
+        },
+        {
+          "locator_id": "LOC-0B7498786FFD",
+          "path_id": "PATH-E8C9CE45243B",
+          "complete_heading_path": [
+            "Marie Antoinette"
+          ],
+          "document_page": 164,
+          "source_page_label": "164",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0B7498786FFD"
+          ]
+        },
+        {
+          "locator_id": "LOC-0C8E16CD9A9F",
+          "path_id": "PATH-367CE72CA963",
+          "complete_heading_path": [
+            "customs barriers"
+          ],
+          "document_page": 14,
+          "source_page_label": "14",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0C8E16CD9A9F"
+          ]
+        },
+        {
+          "locator_id": "LOC-0CA9C3C37D44",
+          "path_id": "PATH-65F98D43DF7E",
+          "complete_heading_path": [
+            "Nice"
+          ],
+          "document_page": 199,
+          "source_page_label": "199",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0CA9C3C37D44"
+          ]
+        },
+        {
+          "locator_id": "LOC-0E2B33127C64",
+          "path_id": "PATH-29E786F6417B",
+          "complete_heading_path": [
+            "Cahiers de doléances"
+          ],
+          "document_page": 406,
+          "source_page_label": "406",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0E2B33127C64"
+          ]
+        },
+        {
+          "locator_id": "LOC-0F7868E5D012",
+          "path_id": "PATH-7F3CB8596CBA",
+          "complete_heading_path": [
+            "Duport, Adrien"
+          ],
+          "document_page": 99,
+          "source_page_label": "99",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-0F7868E5D012"
+          ]
+        },
+        {
+          "locator_id": "LOC-11F2B63600D4",
+          "path_id": "PATH-7F72321CFD7B",
+          "complete_heading_path": [
+            "Great Britain",
+            "Ireland and internal subversion"
+          ],
+          "document_page": 215,
+          "source_page_label": "215",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-11F2B63600D4"
+          ]
+        },
+        {
+          "locator_id": "LOC-1219942EF75C",
+          "path_id": "PATH-4A6CEBE3A61C",
+          "complete_heading_path": [
+            "Comtat Venaissin"
+          ],
+          "document_page": 141,
+          "source_page_label": "141",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1219942EF75C"
+          ]
+        },
+        {
+          "locator_id": "LOC-1248259445A9",
+          "path_id": "PATH-8C271D1A5B81",
+          "complete_heading_path": [
+            "Nonjurors (Belgian)"
+          ],
+          "document_page": 190,
+          "source_page_label": "190",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1248259445A9"
+          ]
+        },
+        {
+          "locator_id": "LOC-12DD149C485E",
+          "path_id": "PATH-32C6708ACB6B",
+          "complete_heading_path": [
+            "Bordeaux",
+            "Revolutionary politics and Federalism"
+          ],
+          "document_page": 178,
+          "source_page_label": "178",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-12DD149C485E"
+          ]
+        },
+        {
+          "locator_id": "LOC-16080D05FC85",
+          "path_id": "PATH-2D11D0AEAF56",
+          "complete_heading_path": [
+            "Neerwinden, Battle of"
+          ],
+          "document_page": 201,
+          "source_page_label": "201",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-16080D05FC85"
+          ]
+        },
+        {
+          "locator_id": "LOC-1765477C6D39",
+          "path_id": "PATH-EFBDB3021EDC",
+          "complete_heading_path": [
+            "La Revellière-Lépeaux, Louis-Marie de"
+          ],
+          "document_page": 334,
+          "source_page_label": "334",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1765477C6D39"
+          ]
+        },
+        {
+          "locator_id": "LOC-188B9452417E",
+          "path_id": "PATH-139D5C8E19F4",
+          "complete_heading_path": [
+            "National Convention",
+            "Thermidorian Reaction and dissolution"
+          ],
+          "document_page": 308,
+          "source_page_label": "308",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-188B9452417E"
+          ]
+        },
+        {
+          "locator_id": "LOC-19DF790209C0",
+          "path_id": "PATH-453753449706",
+          "complete_heading_path": [
+            "women"
+          ],
+          "document_page": 204,
+          "source_page_label": "204",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-19DF790209C0"
+          ]
+        },
+        {
+          "locator_id": "LOC-1A3CDDF9E8A8",
+          "path_id": "PATH-5C00C402374C",
+          "complete_heading_path": [
+            "Gentz, Friedrich"
+          ],
+          "document_page": 171,
+          "source_page_label": "171",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1A3CDDF9E8A8"
+          ]
+        },
+        {
+          "locator_id": "LOC-1A997CF5E177",
+          "path_id": "PATH-C6D3C15539C3",
+          "complete_heading_path": [
+            "Calonne, Charles-Alexandre de"
+          ],
+          "document_page": 67,
+          "source_page_label": "67",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1A997CF5E177"
+          ]
+        },
+        {
+          "locator_id": "LOC-1B12CAAFF12D",
+          "path_id": "PATH-6FFF0168B74B",
+          "complete_heading_path": [
+            "Louis XVIII"
+          ],
+          "document_page": 327,
+          "source_page_label": "327",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1B12CAAFF12D"
+          ]
+        },
+        {
+          "locator_id": "LOC-1C4A9F35DAF1",
+          "path_id": "PATH-FF4DB30C8548",
+          "complete_heading_path": [
+            "Jacobins (Jacobin Club)",
+            "suppression and reactionary periods"
+          ],
+          "document_page": 305,
+          "source_page_label": "305",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1C4A9F35DAF1"
+          ]
+        },
+        {
+          "locator_id": "LOC-1CF7B93E3489",
+          "path_id": "PATH-B0A9363BA4F4",
+          "complete_heading_path": [
+            "Italy",
+            "Jacobinism and nationalism"
+          ],
+          "document_page": 337,
+          "source_page_label": "337",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1CF7B93E3489"
+          ]
+        },
+        {
+          "locator_id": "LOC-1D3C6D6F5338",
+          "path_id": "PATH-75451FDD1AA1",
+          "complete_heading_path": [
+            "Versailles"
+          ],
+          "document_page": 58,
+          "source_page_label": "58",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1D3C6D6F5338"
+          ]
+        },
+        {
+          "locator_id": "LOC-1E11CBEC74FA",
+          "path_id": "PATH-2BC6D56BE131",
+          "complete_heading_path": [
+            "Ecclesiastical committee"
+          ],
+          "document_page": 35,
+          "source_page_label": "35",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1E11CBEC74FA"
+          ]
+        },
+        {
+          "locator_id": "LOC-1EB0672119FB",
+          "path_id": "PATH-B2FF1AA12A17",
+          "complete_heading_path": [
+            "Philanthropic Institute"
+          ],
+          "document_page": 327,
+          "source_page_label": "327",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-1EB0672119FB"
+          ]
+        },
+        {
+          "locator_id": "LOC-2072C42CC1E3",
+          "path_id": "PATH-DAF35033C507",
+          "complete_heading_path": [
+            "Jacobins (Jacobin Club)",
+            "role in war and government by terror"
+          ],
+          "document_page": 184,
+          "source_page_label": "184",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2072C42CC1E3"
+          ]
+        },
+        {
+          "locator_id": "LOC-213BD0B90BEC",
+          "path_id": "PATH-06E01D24A436",
+          "complete_heading_path": [
+            "Moulin, Jean-François Auguste"
+          ],
+          "document_page": 370,
+          "source_page_label": "370",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-213BD0B90BEC"
+          ]
+        },
+        {
+          "locator_id": "LOC-21E392E360B0",
+          "path_id": "PATH-FECDAEB4AFDA",
+          "complete_heading_path": [
+            "Robespierre, Maximilien",
+            "on war and the military"
+          ],
+          "document_page": 180,
+          "source_page_label": "180",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-21E392E360B0"
+          ]
+        },
+        {
+          "locator_id": "LOC-2945A2B5F17F",
+          "path_id": "PATH-CAA7D5BA2ABB",
+          "complete_heading_path": [
+            "Savenay, Battle of"
+          ],
+          "document_page": 289,
+          "source_page_label": "289",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2945A2B5F17F"
+          ]
+        },
+        {
+          "locator_id": "LOC-2992A7890394",
+          "path_id": "PATH-57D498248702",
+          "complete_heading_path": [
+            "Robespierre, Maximilien"
+          ],
+          "document_page": 187,
+          "source_page_label": "187",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2992A7890394"
+          ]
+        },
+        {
+          "locator_id": "LOC-2A46CD99575D",
+          "path_id": "PATH-DDEF46FFF996",
+          "complete_heading_path": [
+            "Triumvirate (Barnave, Duport, Lameth)"
+          ],
+          "document_page": 119,
+          "source_page_label": "119",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2A46CD99575D"
+          ]
+        },
+        {
+          "locator_id": "LOC-2B02458E664C",
+          "path_id": "PATH-50D680F33CB3",
+          "complete_heading_path": [
+            "Federalist Revolt",
+            "nature and origins"
+          ],
+          "document_page": 266,
+          "source_page_label": "266",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2B02458E664C"
+          ]
+        },
+        {
+          "locator_id": "LOC-2E3FDD78122B",
+          "path_id": "PATH-1B7472BD2C10",
+          "complete_heading_path": [
+            "Buzot, François"
+          ],
+          "document_page": 240,
+          "source_page_label": "240",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-2E3FDD78122B"
+          ]
+        },
+        {
+          "locator_id": "LOC-383B41EF0CC5",
+          "path_id": "PATH-FB0FEC68E357",
+          "complete_heading_path": [
+            "Great Britain",
+            "peace negotiations and treaties"
+          ],
+          "document_page": 210,
+          "source_page_label": "210",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-383B41EF0CC5"
+          ]
+        },
+        {
+          "locator_id": "LOC-39C165B3C593",
+          "path_id": "PATH-826396E5DE0A",
+          "complete_heading_path": [
+            "Languedoc"
+          ],
+          "document_page": 6,
+          "source_page_label": "6",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-39C165B3C593"
+          ]
+        },
+        {
+          "locator_id": "LOC-3CF21D769AE5",
+          "path_id": "PATH-7E57BBF70F3C",
+          "complete_heading_path": [
+            "Liberty",
+            "revolutionary rhetoric and symbolism"
+          ],
+          "document_page": 274,
+          "source_page_label": "274",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-3CF21D769AE5"
+          ]
+        },
+        {
+          "locator_id": "LOC-4292366F9CC4",
+          "path_id": "PATH-9303575171AF",
+          "complete_heading_path": [
+            "Poland"
+          ],
+          "document_page": 413,
+          "source_page_label": "413",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4292366F9CC4"
+          ]
+        },
+        {
+          "locator_id": "LOC-42C81EFBB74D",
+          "path_id": "PATH-6E3AA0978DCA",
+          "complete_heading_path": [
+            "guilds"
+          ],
+          "document_page": 46,
+          "source_page_label": "46",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-42C81EFBB74D"
+          ]
+        },
+        {
+          "locator_id": "LOC-4409A0BEE63F",
+          "path_id": "PATH-C48233FB6F4C",
+          "complete_heading_path": [
+            "Lyons"
+          ],
+          "document_page": 285,
+          "source_page_label": "285",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4409A0BEE63F"
+          ]
+        },
+        {
+          "locator_id": "LOC-4830D1943B45",
+          "path_id": "PATH-14E19F086FBA",
+          "complete_heading_path": [
+            "weather"
+          ],
+          "document_page": 97,
+          "source_page_label": "97",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4830D1943B45"
+          ]
+        },
+        {
+          "locator_id": "LOC-4A208AA37400",
+          "path_id": "PATH-67869BB9C00D",
+          "complete_heading_path": [
+            "Ventôse, Laws of"
+          ],
+          "document_page": 324,
+          "source_page_label": "324",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4A208AA37400"
+          ]
+        },
+        {
+          "locator_id": "LOC-4A8894D6401D",
+          "path_id": "PATH-0988DD013D75",
+          "complete_heading_path": [
+            "Louis XVI",
+            "and Church reform"
+          ],
+          "document_page": 34,
+          "source_page_label": "34",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4A8894D6401D"
+          ]
+        },
+        {
+          "locator_id": "LOC-4A9EF4D274AE",
+          "path_id": "PATH-76F8324260F5",
+          "complete_heading_path": [
+            "Paine, Thomas"
+          ],
+          "document_page": 193,
+          "source_page_label": "193",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4A9EF4D274AE"
+          ]
+        },
+        {
+          "locator_id": "LOC-4B10DB7908D3",
+          "path_id": "PATH-5A5368DFFEAE",
+          "complete_heading_path": [
+            "West Indies, Caribbean theater of war"
+          ],
+          "document_page": 203,
+          "source_page_label": "203",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4B10DB7908D3"
+          ]
+        },
+        {
+          "locator_id": "LOC-4BA6DA629A25",
+          "path_id": "PATH-A5D253F3CE24",
+          "complete_heading_path": [
+            "free coloureds"
+          ],
+          "document_page": 150,
+          "source_page_label": "150",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4BA6DA629A25"
+          ]
+        },
+        {
+          "locator_id": "LOC-4BFB6F7D505F",
+          "path_id": "PATH-F91F3BA985CE",
+          "complete_heading_path": [
+            "Lanjuinais, Jean-Denis"
+          ],
+          "document_page": 241,
+          "source_page_label": "241",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4BFB6F7D505F"
+          ]
+        },
+        {
+          "locator_id": "LOC-4DEAFD068BC3",
+          "path_id": "PATH-42EB676464CD",
+          "complete_heading_path": [
+            "Gard"
+          ],
+          "document_page": 304,
+          "source_page_label": "304",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4DEAFD068BC3"
+          ]
+        },
+        {
+          "locator_id": "LOC-4FEE040FDBE1",
+          "path_id": "PATH-CE71675DC0C2",
+          "complete_heading_path": [
+            "Orléans, Louis Philippe Joseph, Duke d'"
+          ],
+          "document_page": 79,
+          "source_page_label": "79",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-4FEE040FDBE1"
+          ]
+        },
+        {
+          "locator_id": "LOC-51D18B70EF0D",
+          "path_id": "PATH-6B12A9D69DB6",
+          "complete_heading_path": [
+            "Lunéville, Treaty of"
+          ],
+          "document_page": 413,
+          "source_page_label": "413",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-51D18B70EF0D"
+          ]
+        },
+        {
+          "locator_id": "LOC-51FAE95BDC53",
+          "path_id": "PATH-04E3803D4425",
+          "complete_heading_path": [
+            "economic crisis"
+          ],
+          "document_page": 97,
+          "source_page_label": "97",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-51FAE95BDC53"
+          ]
+        },
+        {
+          "locator_id": "LOC-56F929350893",
+          "path_id": "PATH-32C8C4C89982",
+          "complete_heading_path": [
+            "Nine Sisters Lodge"
+          ],
+          "document_page": 64,
+          "source_page_label": "64",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-56F929350893"
+          ]
+        },
+        {
+          "locator_id": "LOC-57B0273B86BA",
+          "path_id": "PATH-7A4EAB657A4D",
+          "complete_heading_path": [
+            "indirect taxes"
+          ],
+          "document_page": 333,
+          "source_page_label": "333",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-57B0273B86BA"
+          ]
+        },
+        {
+          "locator_id": "LOC-57C878911022",
+          "path_id": "PATH-552FFC480AAB",
+          "complete_heading_path": [
+            "Intendants",
+            "reform and abolition"
+          ],
+          "document_page": 112,
+          "source_page_label": "112",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "passing_mention",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-57C878911022"
+          ]
+        },
+        {
+          "locator_id": "LOC-5A363918778A",
+          "path_id": "PATH-3C3B5C08BA55",
+          "complete_heading_path": [
+            "Granville, Siege of"
+          ],
+          "document_page": 308,
+          "source_page_label": "308",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5A363918778A"
+          ]
+        },
+        {
+          "locator_id": "LOC-5B906EB6C96F",
+          "path_id": "PATH-482017AACECD",
+          "complete_heading_path": [
+            "bankruptcy"
+          ],
+          "document_page": 58,
+          "source_page_label": "58",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5B906EB6C96F"
+          ]
+        },
+        {
+          "locator_id": "LOC-5CBA66901852",
+          "path_id": "PATH-E9A4D74125B6",
+          "complete_heading_path": [
+            "Basle, Treaties of"
+          ],
+          "document_page": 208,
+          "source_page_label": "208",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5CBA66901852"
+          ]
+        },
+        {
+          "locator_id": "LOC-5F97ABFC52F4",
+          "path_id": "PATH-8435A9115DFE",
+          "complete_heading_path": [
+            "Goethe, Johann Wolfgang von"
+          ],
+          "document_page": 192,
+          "source_page_label": "192",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5F97ABFC52F4"
+          ]
+        },
+        {
+          "locator_id": "LOC-5FC23020204E",
+          "path_id": "PATH-9556E0C0D594",
+          "complete_heading_path": [
+            "Billaud-Varenne, Jacques-Nicolas"
+          ],
+          "document_page": 283,
+          "source_page_label": "283",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-5FC23020204E"
+          ]
+        },
+        {
+          "locator_id": "LOC-63F3B7C8D5D3",
+          "path_id": "PATH-CAA31EF56A97",
+          "complete_heading_path": [
+            "Venice"
+          ],
+          "document_page": 413,
+          "source_page_label": "413",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-63F3B7C8D5D3"
+          ]
+        },
+        {
+          "locator_id": "LOC-686932ABDF64",
+          "path_id": "PATH-F42F817D5AC7",
+          "complete_heading_path": [
+            "Austria",
+            "military campaigns and coalitions"
+          ],
+          "document_page": 267,
+          "source_page_label": "267",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-686932ABDF64"
+          ]
+        },
+        {
+          "locator_id": "LOC-68C27C2BA654",
+          "path_id": "PATH-1E26146B4093",
+          "complete_heading_path": [
+            "Stofflet, Jean-Nicolas"
+          ],
+          "document_page": 224,
+          "source_page_label": "224",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-68C27C2BA654"
+          ]
+        },
+        {
+          "locator_id": "LOC-68F56DF9DB25",
+          "path_id": "PATH-139D5C8E19F4",
+          "complete_heading_path": [
+            "National Convention",
+            "Thermidorian Reaction and dissolution"
+          ],
+          "document_page": 248,
+          "source_page_label": "248",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-68F56DF9DB25"
+          ]
+        },
+        {
+          "locator_id": "LOC-6A55ADAB8561",
+          "path_id": "PATH-59F34776B0E9",
+          "complete_heading_path": [
+            "Provence"
+          ],
+          "document_page": 310,
+          "source_page_label": "310",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-6A55ADAB8561"
+          ]
+        },
+        {
+          "locator_id": "LOC-6F7EC1C38F96",
+          "path_id": "PATH-8FC423BFC5CA",
+          "complete_heading_path": [
+            "Great Britain",
+            "radicalism and reform movement in"
+          ],
+          "document_page": 150,
+          "source_page_label": "150",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-6F7EC1C38F96"
+          ]
+        },
+        {
+          "locator_id": "LOC-70217F4DA4EE",
+          "path_id": "PATH-DB0CF5B4FB60",
+          "complete_heading_path": [
+            "Pitt, William (the Younger)"
+          ],
+          "document_page": 203,
+          "source_page_label": "203",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-70217F4DA4EE"
+          ]
+        },
+        {
+          "locator_id": "LOC-709F3B3134BA",
+          "path_id": "PATH-048271815964",
+          "complete_heading_path": [
+            "Catherine II (the Great)"
+          ],
+          "document_page": 165,
+          "source_page_label": "165",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-709F3B3134BA"
+          ]
+        },
+        {
+          "locator_id": "LOC-7476E46985A4",
+          "path_id": "PATH-F412CCA22C7A",
+          "complete_heading_path": [
+            "Reubell, Jean-François"
+          ],
+          "document_page": 410,
+          "source_page_label": "410",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-7476E46985A4"
+          ]
+        },
+        {
+          "locator_id": "LOC-75E7D7BBF894",
+          "path_id": "PATH-7238568F832D",
+          "complete_heading_path": [
+            "tricolour cockade"
+          ],
+          "document_page": 392,
+          "source_page_label": "392",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-75E7D7BBF894"
+          ]
+        },
+        {
+          "locator_id": "LOC-77BD8DF34603",
+          "path_id": "PATH-70F63BCE017E",
+          "complete_heading_path": [
+            "Liberty",
+            "definitions and rights"
+          ],
+          "document_page": 195,
+          "source_page_label": "195",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-77BD8DF34603"
+          ]
+        },
+        {
+          "locator_id": "LOC-7B57EE76141D",
+          "path_id": "PATH-783DF4E6CE45",
+          "complete_heading_path": [
+            "taxation",
+            "war and extraordinary measures"
+          ],
+          "document_page": 156,
+          "source_page_label": "156",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-7B57EE76141D"
+          ]
+        },
+        {
+          "locator_id": "LOC-7F6070D7B0C4",
+          "path_id": "PATH-63BE04A82235",
+          "complete_heading_path": [
+            "departments (départements)",
+            "church and religious affairs in"
+          ],
+          "document_page": 239,
+          "source_page_label": "239",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-7F6070D7B0C4"
+          ]
+        },
+        {
+          "locator_id": "LOC-7F97340E1950",
+          "path_id": "PATH-134882F6C9E2",
+          "complete_heading_path": [
+            "Journée of 31 May 1793"
+          ],
+          "document_page": 244,
+          "source_page_label": "244",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-7F97340E1950"
+          ]
+        },
+        {
+          "locator_id": "LOC-84368651301F",
+          "path_id": "PATH-413AE26F8588",
+          "complete_heading_path": [
+            "Louis-Philippe (Duke of Orléans)"
+          ],
+          "document_page": 327,
+          "source_page_label": "327",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-84368651301F"
+          ]
+        },
+        {
+          "locator_id": "LOC-85159BE6445F",
+          "path_id": "PATH-6ADACF488B48",
+          "complete_heading_path": [
+            "Tolentino, Treaty of"
+          ],
+          "document_page": 359,
+          "source_page_label": "359",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-85159BE6445F"
+          ]
+        },
+        {
+          "locator_id": "LOC-85EAB632BFF1",
+          "path_id": "PATH-6424235D99BA",
+          "complete_heading_path": [
+            "Representatives on mission"
+          ],
+          "document_page": 242,
+          "source_page_label": "242",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-85EAB632BFF1"
+          ]
+        },
+        {
+          "locator_id": "LOC-87CE20A497D0",
+          "path_id": "PATH-DEFCCDB1C347",
+          "complete_heading_path": [
+            "Financiers"
+          ],
+          "document_page": 68,
+          "source_page_label": "68",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-87CE20A497D0"
+          ]
+        },
+        {
+          "locator_id": "LOC-8A56748413C8",
+          "path_id": "PATH-3039838F4039",
+          "complete_heading_path": [
+            "charitable workshops"
+          ],
+          "document_page": 14,
+          "source_page_label": "14",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-8A56748413C8"
+          ]
+        },
+        {
+          "locator_id": "LOC-8B9B4AD5C557",
+          "path_id": "PATH-56BA96D25421",
+          "complete_heading_path": [
+            "law",
+            "rule of law and 'general will'"
+          ],
+          "document_page": 115,
+          "source_page_label": "115",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-8B9B4AD5C557"
+          ]
+        },
+        {
+          "locator_id": "LOC-8C080223A18B",
+          "path_id": "PATH-C671861EDCFA",
+          "complete_heading_path": [
+            "émigrés",
+            "internal divisions ('pures' vs. 'constitutionals')"
+          ],
+          "document_page": 305,
+          "source_page_label": "305",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-8C080223A18B"
+          ]
+        },
+        {
+          "locator_id": "LOC-8CF1012EB6E0",
+          "path_id": "PATH-EF4E7FDEB578",
+          "complete_heading_path": [
+            "Broglie, Victor-François, duc de"
+          ],
+          "document_page": 106,
+          "source_page_label": "106",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-8CF1012EB6E0"
+          ]
+        },
+        {
+          "locator_id": "LOC-91A6EEDBEAA4",
+          "path_id": "PATH-2790D38E0BC2",
+          "complete_heading_path": [
+            "Palais Royal"
+          ],
+          "document_page": 391,
+          "source_page_label": "391",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-91A6EEDBEAA4"
+          ]
+        },
+        {
+          "locator_id": "LOC-91E560CF75DB",
+          "path_id": "PATH-FCF93B328692",
+          "complete_heading_path": [
+            "Fréteau, Emmanuel"
+          ],
+          "document_page": 99,
+          "source_page_label": "99",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-91E560CF75DB"
+          ]
+        },
+        {
+          "locator_id": "LOC-9292D0FD720E",
+          "path_id": "PATH-266C22EBDCC8",
+          "complete_heading_path": [
+            "Vingtième"
+          ],
+          "document_page": 130,
+          "source_page_label": "130",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-9292D0FD720E"
+          ]
+        },
+        {
+          "locator_id": "LOC-93C783AEAA35",
+          "path_id": "PATH-24A8C199F0EA",
+          "complete_heading_path": [
+            "Puisaye, Joseph, Comte de"
+          ],
+          "document_page": 310,
+          "source_page_label": "310",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-93C783AEAA35"
+          ]
+        },
+        {
+          "locator_id": "LOC-962D6C9AA375",
+          "path_id": "PATH-89F8671E4140",
+          "complete_heading_path": [
+            "wage maximum"
+          ],
+          "document_page": 275,
+          "source_page_label": "275",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-962D6C9AA375"
+          ]
+        },
+        {
+          "locator_id": "LOC-979E34190F43",
+          "path_id": "PATH-1B9B3830CD6E",
+          "complete_heading_path": [
+            "National Assembly",
+            "relocation to Paris (October Days)"
+          ],
+          "document_page": 122,
+          "source_page_label": "122",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-979E34190F43"
+          ]
+        },
+        {
+          "locator_id": "LOC-98A012BE1009",
+          "path_id": "PATH-24A8C199F0EA",
+          "complete_heading_path": [
+            "Puisaye, Joseph, Comte de"
+          ],
+          "document_page": 313,
+          "source_page_label": "313",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-98A012BE1009"
+          ]
+        },
+        {
+          "locator_id": "LOC-9E78912F47A5",
+          "path_id": "PATH-42775D903A8F",
+          "complete_heading_path": [
+            "Milan"
+          ],
+          "document_page": 385,
+          "source_page_label": "385",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-9E78912F47A5"
+          ]
+        },
+        {
+          "locator_id": "LOC-9EE3CCC10839",
+          "path_id": "PATH-0B0190D8E668",
+          "complete_heading_path": [
+            "lawyers"
+          ],
+          "document_page": 193,
+          "source_page_label": "193",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-9EE3CCC10839"
+          ]
+        },
+        {
+          "locator_id": "LOC-9F21A6CDB914",
+          "path_id": "PATH-EFBDB3021EDC",
+          "complete_heading_path": [
+            "La Revellière-Lépeaux, Louis-Marie de"
+          ],
+          "document_page": 370,
+          "source_page_label": "370",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-9F21A6CDB914"
+          ]
+        },
+        {
+          "locator_id": "LOC-A196033446AF",
+          "path_id": "PATH-2AF8E095EFCE",
+          "complete_heading_path": [
+            "Antonelli, Leonardo"
+          ],
+          "document_page": 397,
+          "source_page_label": "397",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A196033446AF"
+          ]
+        },
+        {
+          "locator_id": "LOC-A1BFB5EBD49A",
+          "path_id": "PATH-BC4026C6499C",
+          "complete_heading_path": [
+            "Brittany",
+            "rural and anti-seigneurial violence"
+          ],
+          "document_page": 115,
+          "source_page_label": "115",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "passing_mention",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A1BFB5EBD49A"
+          ]
+        },
+        {
+          "locator_id": "LOC-A3CEE755D1E3",
+          "path_id": "PATH-6F49AC02609E",
+          "complete_heading_path": [
+            "Ducos, Roger"
+          ],
+          "document_page": 370,
+          "source_page_label": "370",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A3CEE755D1E3"
+          ]
+        },
+        {
+          "locator_id": "LOC-A5DE80A3394F",
+          "path_id": "PATH-32C62304D941",
+          "complete_heading_path": [
+            "Constitution of 1791",
+            "franchise and 'active citizens'"
+          ],
+          "document_page": 123,
+          "source_page_label": "123",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A5DE80A3394F"
+          ]
+        },
+        {
+          "locator_id": "LOC-A674E35FB204",
+          "path_id": "PATH-051733545F21",
+          "complete_heading_path": [
+            "Geneva"
+          ],
+          "document_page": 51,
+          "source_page_label": "51",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A674E35FB204"
+          ]
+        },
+        {
+          "locator_id": "LOC-A984D02CAFA8",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 153,
+          "source_page_label": "153",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-A984D02CAFA8"
+          ]
+        },
+        {
+          "locator_id": "LOC-AC78C23DB1C9",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 154,
+          "source_page_label": "154",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-AC78C23DB1C9"
+          ]
+        },
+        {
+          "locator_id": "LOC-B648C3653B39",
+          "path_id": "PATH-042E1AE6933C",
+          "complete_heading_path": [
+            "Priestley, Joseph"
+          ],
+          "document_page": 193,
+          "source_page_label": "193",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-B648C3653B39"
+          ]
+        },
+        {
+          "locator_id": "LOC-B707A4CF5B97",
+          "path_id": "PATH-B4AF61ECF621",
+          "complete_heading_path": [
+            "Académie française"
+          ],
+          "document_page": 49,
+          "source_page_label": "49",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-B707A4CF5B97"
+          ]
+        },
+        {
+          "locator_id": "LOC-B7E6F7CD33A4",
+          "path_id": "PATH-AEBBEB91FBD4",
+          "complete_heading_path": [
+            "Barnave, Antoine-Pierre",
+            "constitutional amendments and veto"
+          ],
+          "document_page": 119,
+          "source_page_label": "119",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-B7E6F7CD33A4"
+          ]
+        },
+        {
+          "locator_id": "LOC-BA4DF918D5A6",
+          "path_id": "PATH-0B5669B43B77",
+          "complete_heading_path": [
+            "Harvest",
+            "failures and shortfalls"
+          ],
+          "document_page": 285,
+          "source_page_label": "285",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BA4DF918D5A6"
+          ]
+        },
+        {
+          "locator_id": "LOC-BA825056DE87",
+          "path_id": "PATH-47D15065A414",
+          "complete_heading_path": [
+            "Fréron, Louis-Stanislas"
+          ],
+          "document_page": 254,
+          "source_page_label": "254",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BA825056DE87"
+          ]
+        },
+        {
+          "locator_id": "LOC-BB9E8E899721",
+          "path_id": "PATH-E60A5E43C706",
+          "complete_heading_path": [
+            "Barras, Paul-François-Jean-Nicolas, vicomte de"
+          ],
+          "document_page": 254,
+          "source_page_label": "254",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BB9E8E899721"
+          ]
+        },
+        {
+          "locator_id": "LOC-BC57C00C8392",
+          "path_id": "PATH-9179863DA642",
+          "complete_heading_path": [
+            "departments (départements)",
+            "annexed territories"
+          ],
+          "document_page": 142,
+          "source_page_label": "142",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BC57C00C8392"
+          ]
+        },
+        {
+          "locator_id": "LOC-BF8D54853D9A",
+          "path_id": "PATH-EF532D84D2D4",
+          "complete_heading_path": [
+            "Couthon, Georges"
+          ],
+          "document_page": 174,
+          "source_page_label": "174",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-BF8D54853D9A"
+          ]
+        },
+        {
+          "locator_id": "LOC-C222A41EA4CE",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 176,
+          "source_page_label": "176",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C222A41EA4CE"
+          ]
+        },
+        {
+          "locator_id": "LOC-C3F940854FC0",
+          "path_id": "PATH-475DDD4EAFF6",
+          "complete_heading_path": [
+            "Danton, Georges-Jacques",
+            "foreign policy and war involvement"
+          ],
+          "document_page": 199,
+          "source_page_label": "199",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C3F940854FC0"
+          ]
+        },
+        {
+          "locator_id": "LOC-C532099DF13D",
+          "path_id": "PATH-5240DB247D9E",
+          "complete_heading_path": [
+            "Louis XVI",
+            "economic and financial crisis"
+          ],
+          "document_page": 93,
+          "source_page_label": "93",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C532099DF13D"
+          ]
+        },
+        {
+          "locator_id": "LOC-C7C3C17988FC",
+          "path_id": "PATH-682E711B051D",
+          "complete_heading_path": [
+            "Necker, Jacques",
+            "financial management and reforms"
+          ],
+          "document_page": 63,
+          "source_page_label": "63",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C7C3C17988FC"
+          ]
+        },
+        {
+          "locator_id": "LOC-C8CF741DE2A2",
+          "path_id": "PATH-5969A52B4960",
+          "complete_heading_path": [
+            "feudalism"
+          ],
+          "document_page": 105,
+          "source_page_label": "105",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-C8CF741DE2A2"
+          ]
+        },
+        {
+          "locator_id": "LOC-CA39508FF9C5",
+          "path_id": "PATH-7E196168EBD7",
+          "complete_heading_path": [
+            "National Assembly",
+            "historical perspective and evaluation"
+          ],
+          "document_page": 113,
+          "source_page_label": "113",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "passing_mention",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CA39508FF9C5"
+          ]
+        },
+        {
+          "locator_id": "LOC-CF2AEE605855",
+          "path_id": "PATH-59F5E7ABBF3F",
+          "complete_heading_path": [
+            "desertion"
+          ],
+          "document_page": 30,
+          "source_page_label": "30",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-CF2AEE605855"
+          ]
+        },
+        {
+          "locator_id": "LOC-D00D2D48CDA2",
+          "path_id": "PATH-ED68FCC9B189",
+          "complete_heading_path": [
+            "Revolutionary Government"
+          ],
+          "document_page": 213,
+          "source_page_label": "213",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D00D2D48CDA2"
+          ]
+        },
+        {
+          "locator_id": "LOC-D13E4F99E86F",
+          "path_id": "PATH-ED68FCC9B189",
+          "complete_heading_path": [
+            "Revolutionary Government"
+          ],
+          "document_page": 215,
+          "source_page_label": "215",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D13E4F99E86F"
+          ]
+        },
+        {
+          "locator_id": "LOC-D3D84625E3A3",
+          "path_id": "PATH-F57E374BDE52",
+          "complete_heading_path": [
+            "taxation"
+          ],
+          "document_page": 118,
+          "source_page_label": "118",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D3D84625E3A3"
+          ]
+        },
+        {
+          "locator_id": "LOC-D5FAF9BA45A6",
+          "path_id": "PATH-32C6708ACB6B",
+          "complete_heading_path": [
+            "Bordeaux",
+            "Revolutionary politics and Federalism"
+          ],
+          "document_page": 181,
+          "source_page_label": "181",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D5FAF9BA45A6"
+          ]
+        },
+        {
+          "locator_id": "LOC-D7BC7997ECAF",
+          "path_id": "PATH-667695511060",
+          "complete_heading_path": [
+            "Italy",
+            "occupation and sister republics"
+          ],
+          "document_page": 332,
+          "source_page_label": "332",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-D7BC7997ECAF"
+          ]
+        },
+        {
+          "locator_id": "LOC-DB9E2CAC8156",
+          "path_id": "PATH-DAAE62865B21",
+          "complete_heading_path": [
+            "Brissot, Jacques-Pierre",
+            "conflict with Montagnards"
+          ],
+          "document_page": 193,
+          "source_page_label": "193",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-DB9E2CAC8156"
+          ]
+        },
+        {
+          "locator_id": "LOC-DE8D16C7E894",
+          "path_id": "PATH-DABDFB92953D",
+          "complete_heading_path": [
+            "Franche Comté"
+          ],
+          "document_page": 114,
+          "source_page_label": "114",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-DE8D16C7E894"
+          ]
+        },
+        {
+          "locator_id": "LOC-DF477F4E30C8",
+          "path_id": "PATH-894242A1BFF0",
+          "complete_heading_path": [
+            "Antraigues, Emmanuel-Henri-Louis Alexandre de Launay, Comte d'"
+          ],
+          "document_page": 313,
+          "source_page_label": "313",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-DF477F4E30C8"
+          ]
+        },
+        {
+          "locator_id": "LOC-DF574A4AA64F",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 186,
+          "source_page_label": "186",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-DF574A4AA64F"
+          ]
+        },
+        {
+          "locator_id": "LOC-E0BD7BEF10E7",
+          "path_id": "PATH-985B5AC9222B",
+          "complete_heading_path": [
+            "Catholic Army of the Midi"
+          ],
+          "document_page": 304,
+          "source_page_label": "304",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E0BD7BEF10E7"
+          ]
+        },
+        {
+          "locator_id": "LOC-E239FA63B5A4",
+          "path_id": "PATH-F2683060812E",
+          "complete_heading_path": [
+            "Froment, François"
+          ],
+          "document_page": 304,
+          "source_page_label": "304",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E239FA63B5A4"
+          ]
+        },
+        {
+          "locator_id": "LOC-E2AD8A9F5973",
+          "path_id": "PATH-DAAE62865B21",
+          "complete_heading_path": [
+            "Brissot, Jacques-Pierre",
+            "conflict with Montagnards"
+          ],
+          "document_page": 200,
+          "source_page_label": "200",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E2AD8A9F5973"
+          ]
+        },
+        {
+          "locator_id": "LOC-E7B055D61E79",
+          "path_id": "PATH-ABEE93D5E4A9",
+          "complete_heading_path": [
+            "Fox, Charles James"
+          ],
+          "document_page": 160,
+          "source_page_label": "160",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-E7B055D61E79"
+          ]
+        },
+        {
+          "locator_id": "LOC-ED1A13286795",
+          "path_id": "PATH-17F0DA6B6177",
+          "complete_heading_path": [
+            "Ochs, Peter"
+          ],
+          "document_page": 356,
+          "source_page_label": "356",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-ED1A13286795"
+          ]
+        },
+        {
+          "locator_id": "LOC-EDF6BB788563",
+          "path_id": "PATH-BA06E1DE1BDE",
+          "complete_heading_path": [
+            "Versailles",
+            "post-revolutionary decline"
+          ],
+          "document_page": 391,
+          "source_page_label": "391",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-EDF6BB788563"
+          ]
+        },
+        {
+          "locator_id": "LOC-EF22612930BD",
+          "path_id": "PATH-84B3439B64EA",
+          "complete_heading_path": [
+            "Babeuf, François-Noël (Gracchus)",
+            "legacy and influence"
+          ],
+          "document_page": 383,
+          "source_page_label": "383",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-EF22612930BD"
+          ]
+        },
+        {
+          "locator_id": "LOC-F018D5406D0D",
+          "path_id": "PATH-5031D0D81CB5",
+          "complete_heading_path": [
+            "Theophilanthropy"
+          ],
+          "document_page": 334,
+          "source_page_label": "334",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F018D5406D0D"
+          ]
+        },
+        {
+          "locator_id": "LOC-F151A8A07EC5",
+          "path_id": "PATH-9D7E555371C1",
+          "complete_heading_path": [
+            "Brumaire, Coup of"
+          ],
+          "document_page": 18,
+          "source_page_label": "18",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F151A8A07EC5"
+          ]
+        },
+        {
+          "locator_id": "LOC-F3D2E3EE4C76",
+          "path_id": "PATH-34E901179349",
+          "complete_heading_path": [
+            "Paris",
+            "Terror and reaction (1792-95)"
+          ],
+          "document_page": 151,
+          "source_page_label": "151",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F3D2E3EE4C76"
+          ]
+        },
+        {
+          "locator_id": "LOC-F3FB8BE9CFC9",
+          "path_id": "PATH-702F7061CD03",
+          "complete_heading_path": [
+            "United Irishmen"
+          ],
+          "document_page": 212,
+          "source_page_label": "212",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F3FB8BE9CFC9"
+          ]
+        },
+        {
+          "locator_id": "LOC-F404EA568752",
+          "path_id": "PATH-0B60B65248D8",
+          "complete_heading_path": [
+            "Marengo, Battle of"
+          ],
+          "document_page": 385,
+          "source_page_label": "385",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F404EA568752"
+          ]
+        },
+        {
+          "locator_id": "LOC-F4E39D4FD0F4",
+          "path_id": "PATH-4E614F6D4750",
+          "complete_heading_path": [
+            "Pichegru, Jean-Charles"
+          ],
+          "document_page": 316,
+          "source_page_label": "316",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F4E39D4FD0F4"
+          ]
+        },
+        {
+          "locator_id": "LOC-F65F04255344",
+          "path_id": "PATH-FECDAEB4AFDA",
+          "complete_heading_path": [
+            "Robespierre, Maximilien",
+            "on war and the military"
+          ],
+          "document_page": 192,
+          "source_page_label": "192",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-F65F04255344"
+          ]
+        },
+        {
+          "locator_id": "LOC-FA17D1D4DF98",
+          "path_id": "PATH-421DB806F9D5",
+          "complete_heading_path": [
+            "Calvados"
+          ],
+          "document_page": 242,
+          "source_page_label": "242",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-FA17D1D4DF98"
+          ]
+        },
+        {
+          "locator_id": "LOC-FC2FBF14B2DE",
+          "path_id": "PATH-29E786F6417B",
+          "complete_heading_path": [
+            "Cahiers de doléances"
+          ],
+          "document_page": 401,
+          "source_page_label": "401",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-FC2FBF14B2DE"
+          ]
+        },
+        {
+          "locator_id": "LOC-FFF913D6A79B",
+          "path_id": "PATH-779BEFD900AB",
+          "complete_heading_path": [
+            "bocage"
+          ],
+          "document_page": 224,
+          "source_page_label": "224",
+          "judgment": "unsupported",
+          "complete_path_fit": "no_fit",
+          "treatment_class": "absent",
+          "source_scope_status": "indexable",
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-FFF913D6A79B"
+          ]
+        }
+      ],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "Confirmed delivered destination failure from finalized audit evidence; one item is sufficient, independent of severity, defect records, rates, or spread."
+    },
+    {
+      "gate_id": "GATE-BROKEN-REFERENCE",
+      "description": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+      "standard": true,
+      "triggered": true,
+      "defect_ids": [],
+      "affected_evidence_ids": [
+        "XREF-1FB84F43D7ED",
+        "XREF-80B3F994D3ED"
+      ],
+      "threshold": "Any confirmed delivered see or see-also reference with no valid destination; no count, rate, or separate defect threshold",
+      "systemic_groups": [],
+      "consequence_evidence": [],
+      "direct_destination_evidence": [
+        {
+          "reference_id": "XREF-1FB84F43D7ED",
+          "judgment": "unsupported",
+          "reference_type": "see also",
+          "target_display": "abolition of slavery",
+          "target_resolution": "no_valid_destination",
+          "resolved_path_ids": [],
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-03597F3EC0D5",
+            "EVID-3EF4119FDF7A",
+            "EVID-6CF2552D527B",
+            "EVID-8593059C70A4",
+            "EVID-9858B3B20B48",
+            "EVID-A363CCD370A8",
+            "EVID-E05D42F97BF4",
+            "EVID-E6EAD5FE3983",
+            "EVID-FCAE4359F6F7",
+            "EVID-XREF-1FB84F43D7ED"
+          ]
+        },
+        {
+          "reference_id": "XREF-80B3F994D3ED",
+          "judgment": "unsupported",
+          "reference_type": "see also",
+          "target_display": "9 Thermidor",
+          "target_resolution": "no_valid_destination",
+          "resolved_path_ids": [],
+          "confidence": "high",
+          "evidence_ids": [
+            "EVID-063FF3608951",
+            "EVID-06C39B6DFE6D",
+            "EVID-55B6DC01C491",
+            "EVID-5B7D20726886",
+            "EVID-5E127DF3A989",
+            "EVID-6AD6343A3595",
+            "EVID-951D667E68F0",
+            "EVID-9A6246DC5022",
+            "EVID-B20E0CE4952E",
+            "EVID-C7AC27EAC5BA",
+            "EVID-XREF-80B3F994D3ED"
+          ]
+        }
+      ],
+      "qualifying_locator_evidence": [],
+      "threshold_reason": "Confirmed delivered destination failure from finalized audit evidence; one item is sufficient, independent of severity, defect records, rates, or spread."
+    }
+  ],
+  "assessment_status": "indeterminate",
+  "assessment_gap_count": 970,
+  "readiness": "not_publication_ready",
+  "registered_artifact_hashes": [
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-index.v2.json",
+      "sha256": "48c489e56077e886c6cd50e000fa293ed0d11eccdc461ed3b63817b42a9735e4"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-layout-extraction.v1.json",
+      "sha256": "2e76bfad544dc3d5cd3677d9fb313ce82e6adcc1631bfc8c6ed3c351e2c5f7ac"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/item-inventory.v2.json",
+      "sha256": "2c14c47659ae018853ff57acbe2dec45c3c6058e1442f88faa28311014475981"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-001.v2.json",
+      "sha256": "f9c4c7d3989027b578d9397e52acd7649a4e0861c440c1a9542bee8da7325900"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-002.v2.json",
+      "sha256": "518bf87a4e90288021d97e5bf195db5a12bd4608ecf9546e2ce6517bcdf565e7"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-003.v2.json",
+      "sha256": "9cd69ce5cfa41869a1ff722d524706ce56e75c6c7fc57ead599c23341cc8df7f"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-004.v2.json",
+      "sha256": "1680d6a763413c6a6906fc0a5a2cc1c2a49bef0203d3bb341c4a5d333ee57d56"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-005.v2.json",
+      "sha256": "54d58d652bb1bf645eee4f063c5ea853485e595e9c2b79d8bcc2788764661b0d"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-006.v2.json",
+      "sha256": "029b558ed762c23334e1b80045b8be1d02fa474d52679b603d2ec53aa204a344"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-007.v2.json",
+      "sha256": "2d81b5677d39a3c489369e2a999c2a49e3e4243eb5f91d90a7eabc04d8bc50fe"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-008.v2.json",
+      "sha256": "3432848897b957962a53fc8b2323ec57c0a0ca82478ae537652cba77dad27825"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-009.v2.json",
+      "sha256": "a4ee72c11852893f85146cec069368f2bde255c2ace70f046d23d1248e8f5d8b"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-010.v2.json",
+      "sha256": "6411c4b62b34f1a4429564e6c0c7599a7b991eac5c0614d1ca07ce03636757bf"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-011.v2.json",
+      "sha256": "7a07f2d4d36681313261ab91b48b7bc016208699f57b9fef7d7eaf89b01c98fd"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-012.v2.json",
+      "sha256": "5416a64bf9262a21a4e9b0bd84f9d3b830aa306f3c93a4bef3c1d2c2af61a14b"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-013.v2.json",
+      "sha256": "6e1ad5fa517d46d1da16d0b0bd3b58bf05b81b0c103921d7bac371a85b377c0e"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-014.v2.json",
+      "sha256": "9ad09c70d739806d60b6453e3dc3a0d5048cc9915e40f7cb6e977950dbeff6b8"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-015.v2.json",
+      "sha256": "afb0af9865334c0753df1183190ccc7232c29ec35b63179345606a10fc6017cc"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-016.v2.json",
+      "sha256": "3c95f0badfff276714c77e540ef7f29107d514ad7574d2e95da22a1e70aca586"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/locator-audits/locator-audit.CHUNK-017.v2.json",
+      "sha256": "0655cc2944ea21783710ae08ca9a5b12517ff75ed84ea1b618d235c5b5f01de4"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "sha256": "d73c75f2867502d9adca482324f50814e8fc8f13ef1436b2d201a9dda6288c1d"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "sha256": "83eeb1331aa812c9a5a12ed61485f9b587bb8e91ea52bab449059deaeee2af04"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "sha256": "ba6ce1b90fd34aa5dd5138f85f279a57c787ff3ddddb6a69e38c2420905aa0ec"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "sha256": "18befe01f94e56b3d663a9d18a0af633e7f5df4540a136ddd253bf7a0e007d38"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "sha256": "7773701bc4538ebd65d4969f35cefbeeeb45ba708f3bc4f4942587bc0fd9982e"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "sha256": "fa288848bfd0ae1f71edbc7eaab7e98f4d00702de5eacd00092373876f4793b8"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "sha256": "e35f38c706cc5b2d44d4f0a592f5c10f7173e32c93603bc60193baf814d2765a"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "sha256": "03eb84c5bb7966024511ac39d052e1d17b55980de269fe9af91438b43fe0e4c0"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "sha256": "67f9b0f21f4c80e1125d337a19533deeb7ebf0e5dafb52614abd7dc7e8df4cad"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "sha256": "50d9d469b1ceba8ef7c0ceec807264ef0fd5936e52d94ed42ac8fcf12957c0cf"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "sha256": "f5464f0f87ad8066597c776fc5db3e38dec9ecc9045572f52106194c6156fbf4"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "sha256": "3c809e62c7c3f39c5f95f2cff75825e8354cc2d71f68526c636bc0df279df3b6"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "sha256": "325bb7d00fed3508e1808c258122ad90e4a2bf91315f321d6b0b81fafc8bd029"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "sha256": "39f3350f92ad23ad04957122063d97307312dbf447e7d7d0749ea7a622985e09"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "sha256": "6d0a81786e8f343c2bdfb4663a6ad7d8eb53b10f6693052abdb59c880edf1edf"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "sha256": "6958a8dd60a3f027ab24b0d8b6776eee6121ce125af9ff4aa90955202a4167c6"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "sha256": "0c7e76e97123712705cf09f136203fafe14da40686384623aa72d6ebfffd5b5e"
+    },
+    {
+      "path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
+      "sha256": "23428a458ddc9ac01688f2ddb10296377559ee19d9710b8884486f17cbc6da8a"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/evaluation-state.json",
+      "sha256": "2bd0e712135430afccd5ba9f8dc1e61dc4a8b81cfdfdc7a511f0dc90759171ba"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/source/evaluation-policy.v2.json",
+      "sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/source/source-benchmark.v3.json",
+      "sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/validation/source-benchmark-review-inventory.json",
+      "sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9"
+    },
+    {
+      "path": "import/legacy-benchmark-v3/validation/source-benchmark-review.v1.json",
+      "sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-001.json",
+      "sha256": "9e8abda90236ef0f3151a74caaa3c25b92d622b4be017d744a2af03692a804c3"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-002.json",
+      "sha256": "c77f065694b7d05cd102d4e6db86d703f001b7f847f82bdc955b7e383c3ceea9"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-003.json",
+      "sha256": "8e3b89063b5f669ee41c26bb9e67ff875ea371959f69770507080bfe75ace3e7"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-004.json",
+      "sha256": "1d710811343cb25ddb642825c16785674b40d7490305d64bde1ab85551f98459"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-005.json",
+      "sha256": "7f55f74b7081aa3ad547b1bb527ee22d4d9051ba80abda3ec4018853ddbcd76b"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-006.json",
+      "sha256": "4dbed5ab6a829c4bb7de01040281e95681c0a89e61820284352928e6e7793b5c"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-007.json",
+      "sha256": "0d1859826aae85e1f5b22bc30b30ef4b353837a52e3a1cd0c69916b1b7e3f166"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-008.json",
+      "sha256": "b2f4e06dcd004340594ad0ec3807af57517a16b3ee4806d2dc93ef0e0795396e"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-009.json",
+      "sha256": "d272965707d6ad2b81d34a46e3799ef659c04faf838b63e3ff85267d3ed9de67"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-010.json",
+      "sha256": "acd48f322eed453167dff28d776dcc93ffb210a4481d5e728747507477991a38"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-011.json",
+      "sha256": "eb3c724ea246f764f7f6d64779f5efb23decf6a046fa31972ff160a6487c4f0c"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-012.json",
+      "sha256": "e754d9db32adf4ac0d2d80fd9dbf3bca63d9318cd8bb4281907bd66c39f8d6c7"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-013.json",
+      "sha256": "9420b8c27ce896646a97438e88af37a3d3a786b23888fd1acdd580e30fb266e1"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-014.json",
+      "sha256": "73bcddfd6cb06e582af78134f3af6f72f02f4d2de0c89b90d891382580c1e364"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-015.json",
+      "sha256": "2e49e45daa6a1741cfe86586de5a38d1f1fb744709500159c943d355aa314356"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-016.json",
+      "sha256": "48c8e752b0bd4c63f184bff79922f84da850cdefc3f3903c2fba945b99f5dfc4"
+    },
+    {
+      "path": "locator-packets-v82/candidate-locator-CHUNK-017.json",
+      "sha256": "0192899bba21d4dd3da59105a41230c46c265c00bb49ca4432eafc827803e9a8"
+    },
+    {
+      "path": "scoring-v82-final/dimension-calculation-input.v2.json",
+      "sha256": "8a8e6fd2650622bc9c70b1024fe760ef20843b9a1af50b0993859238ef1338bf"
+    },
+    {
+      "path": "scoring-v82-final/dimension-calculations.v6.json",
+      "sha256": "217f1c02f042485065c293303d59c12e4f68c44a14e43493dfbb9e066e418d08"
+    },
+    {
+      "path": "scoring-v82-final/evaluation-result.v12.json",
+      "sha256": "f6f94b68f33572f1abfa21eb741fe54c5ecb3406fc4f9629ecbdf609cbdbad55"
+    },
+    {
+      "path": "scoring-v82-final/item-assessments.v7.json",
+      "sha256": "0ef26c10587bcf6b76c8c22e9528fd01d6f41852e78a557cf47161c8c7600b8f"
+    },
+    {
+      "path": "scoring-v82-final/projection-metadata.v2.json",
+      "sha256": "3175f7f75c4a7e2d42aee351449a8008e3356fd93957d4841786d955ab98fa37"
+    },
+    {
+      "path": "scoring-v82-final/v8-canonical-projection/data/density.v1.json",
+      "sha256": "033bee392438f8a9c542b6c5b9cb4d14aaacfa9586f7e76724a1a4c796c4f9d8"
+    },
+    {
+      "path": "scoring-v82-final/v8-canonical-projection/data/index-records.v1.json",
+      "sha256": "0645df5b3167f7ad2aea523222a83d130f89685dfb51ecf8d02d3fd782124e31"
+    },
+    {
+      "path": "scoring-v82-final/v8-canonical-projection/data/source-subjects.v1.json",
+      "sha256": "a3b79ed768257c5f371127d265d57a97e2064aa100d44ca25fd2dc5210aa89d5"
+    },
+    {
+      "path": "scoring-v82-final/v8-canonical-projection/projection.v1.json",
+      "sha256": "c54c0061e1306238588dc8e4cc8f4ce68f0381dbdb436364a447e210337332fd"
+    },
+    {
+      "path": "scoring-v82-final/web-report.v10.json",
+      "sha256": "8c92eba457b926cd2c4e0b00869e569224e95e3317c5a99a3b79b208275184e9"
+    },
+    {
+      "path": "source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+    },
+    {
+      "path": "source/chunks/CHUNK-001.pages.json",
+      "sha256": "c913e8e5f561bd4111b5935a621b4bcf08bc706b786ce90087318b87466688c3"
+    },
+    {
+      "path": "source/chunks/CHUNK-001.pdf",
+      "sha256": "d07984346063e4466b5d5dc6f68e3d20ba3e9fd1adf87a83c88d1bb13782e967"
+    },
+    {
+      "path": "source/chunks/CHUNK-002.pages.json",
+      "sha256": "c153687a06887023930f204b5b35ee962c1c13d3bc14e54c137df3b43dc3a731"
+    },
+    {
+      "path": "source/chunks/CHUNK-002.pdf",
+      "sha256": "221dc48fc9f6d433209232db442e0e5730257e8204d24c7f88a78b76c6c0033f"
+    },
+    {
+      "path": "source/chunks/CHUNK-003.pages.json",
+      "sha256": "d93f8e157f969af31ac2807c9423d25572070d76d9d2f474d4a55fa0a113b871"
+    },
+    {
+      "path": "source/chunks/CHUNK-003.pdf",
+      "sha256": "7f74759390a5ca8c85378649b56f58c161ef091a3ab428a17131ed27db73b00f"
+    },
+    {
+      "path": "source/chunks/CHUNK-004.pages.json",
+      "sha256": "623a46e1181a066ad7044afc0786ab263eed5ccd206ab714d47c3ce58fc77aa7"
+    },
+    {
+      "path": "source/chunks/CHUNK-004.pdf",
+      "sha256": "a38f47cc71bf0f119fa26760d9780b6b3cd6d8885547d6e933f093da4f351cfe"
+    },
+    {
+      "path": "source/chunks/CHUNK-005.pages.json",
+      "sha256": "23a684500e2d197a3fff4d5fbfffacd1f17e22adffa684cc4551573f0ec43788"
+    },
+    {
+      "path": "source/chunks/CHUNK-005.pdf",
+      "sha256": "8ead7b33b569c1fd236d3126ce0868284e9aa4fece95ab16c864e81a94f135af"
+    },
+    {
+      "path": "source/chunks/CHUNK-006.pages.json",
+      "sha256": "c4c6a517c74219fe9bd4d1bdff81e8a2abdd2cb2576e1d2b99ec5faa832779dd"
+    },
+    {
+      "path": "source/chunks/CHUNK-006.pdf",
+      "sha256": "22e6923731c4aeae3940f1aa95f109816eb48b7d53175ee720115ca5ed697306"
+    },
+    {
+      "path": "source/chunks/CHUNK-007.pages.json",
+      "sha256": "3cc1168bea4ef216076e040c0097a3f0b2df60c745450b030e525ed6e772ade1"
+    },
+    {
+      "path": "source/chunks/CHUNK-007.pdf",
+      "sha256": "26ce178444651abe7aa3ed668ab060768fd093bb76ab6556ed9beea11cfbd55c"
+    },
+    {
+      "path": "source/chunks/CHUNK-008.pages.json",
+      "sha256": "6d270ebf00e6782edbec9e7cd3695c267cca18ac92f13435d96f25ee416b1863"
+    },
+    {
+      "path": "source/chunks/CHUNK-008.pdf",
+      "sha256": "9623c8767a2f57eb09e7d6ad4992ac17f78e8781db8ff176c56f474065cc2d81"
+    },
+    {
+      "path": "source/chunks/CHUNK-009.pages.json",
+      "sha256": "d42e4846d642110a5b626ecea697f518bd614649043cdf7d707f4fb2134230a7"
+    },
+    {
+      "path": "source/chunks/CHUNK-009.pdf",
+      "sha256": "889d2ae4c025d67f39454662f6c7a69958e309110eaf097f0affe88f2c750bb8"
+    },
+    {
+      "path": "source/chunks/CHUNK-010.pages.json",
+      "sha256": "57b511c4ea8f977e972c3473f3f064f991623052ae1d863ff95a7bfeb217a7b8"
+    },
+    {
+      "path": "source/chunks/CHUNK-010.pdf",
+      "sha256": "70d05ac8d6cc96da9bcac61000cc95e7901b80f076b11b2239a86bb98b35b03d"
+    },
+    {
+      "path": "source/chunks/CHUNK-011.pages.json",
+      "sha256": "80a7235aa7e7e14d29dd2296c0eacfef58d883320b5f61b38076b38d6dd4e39a"
+    },
+    {
+      "path": "source/chunks/CHUNK-011.pdf",
+      "sha256": "1ccf98d94ddf7179f5a329405289af148e4d969a3471fea8ba06b1bfbfd6e701"
+    },
+    {
+      "path": "source/chunks/CHUNK-012.pages.json",
+      "sha256": "748ac77172ae2ef9b13ad258e5e2ee55fcc18bbd8e61129deebd72b308b22dab"
+    },
+    {
+      "path": "source/chunks/CHUNK-012.pdf",
+      "sha256": "adcc5f3733a4b4eae22148d711efe7799f5ab829b0896e8b61f90e0bd6a5084d"
+    },
+    {
+      "path": "source/chunks/CHUNK-013.pages.json",
+      "sha256": "546f44c130d675080b2010f90ab97d93ea6cf9fd322e6ce4e7f390d534dd8bd7"
+    },
+    {
+      "path": "source/chunks/CHUNK-013.pdf",
+      "sha256": "84e657a01aeee0c9857dbc8a2440d2560bf022489fbc239a6c82c6c11e49db8e"
+    },
+    {
+      "path": "source/chunks/CHUNK-014.pages.json",
+      "sha256": "2c8e0baaafe9e0070f36a34c5563d94d159a945c5106c80bc796ed09aad6dfb2"
+    },
+    {
+      "path": "source/chunks/CHUNK-014.pdf",
+      "sha256": "381e325c2092560623bf8df064bdf1f4c6dea16e296622c17010b9ca49d35c40"
+    },
+    {
+      "path": "source/chunks/CHUNK-015.pages.json",
+      "sha256": "55f4391bc62b52ac3c01dc3d150431079873718b6cd40d2a2e320e1257ebdec8"
+    },
+    {
+      "path": "source/chunks/CHUNK-015.pdf",
+      "sha256": "7c4ed0ce7194d3e6cbc64cb4b2a09dd46872092840da5fe2c7afba446937f1f5"
+    },
+    {
+      "path": "source/chunks/CHUNK-016.pages.json",
+      "sha256": "a7f8889c72d6bd3c4e430cd72a1cb9698d1a4aee799ca66e824873d047aef95f"
+    },
+    {
+      "path": "source/chunks/CHUNK-016.pdf",
+      "sha256": "99e50a197f89a797538286f99cc276cdc32b3237e978d0e815b29146f624cda9"
+    },
+    {
+      "path": "source/chunks/CHUNK-017.pages.json",
+      "sha256": "9b5163a1bf2838421b39fff04b7aff05a0c64b11447d79fa44b70ad62665cbe6"
+    },
+    {
+      "path": "source/chunks/CHUNK-017.pdf",
+      "sha256": "26cc6541447d9175fb9ff8abc63f9e1ed63a6ea3c42f57b8f5e5c53a383071b2"
+    },
+    {
+      "path": "source/evaluation-policy.v4.json",
+      "sha256": "c8063d6d634b888141164a7015ce79591433b0732b9505c5062b2235cb358267"
+    },
+    {
+      "path": "source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d"
+    },
+    {
+      "path": "source/source-benchmark.v4.json",
+      "sha256": "dfe01ab10a929dfb2944542cf879608057b59acd74a909038e7608a015b0d448"
+    },
+    {
+      "path": "validation/benchmark-compatibility-approval.v1.json",
+      "sha256": "dae64b15dab9900a2003caad25fc1b0a036c7f447d4460838eb5b30fb9aa4bdf"
+    },
+    {
+      "path": "validation/benchmark-compatibility-import-provenance.v1.json",
+      "sha256": "d1911e876c78f14595ca59163ef82a956a9bd8375db6034a9d5c64fe9cd0048e"
+    }
+  ],
+  "delivery_file_hashes": [
+    {
+      "path": "README.md",
+      "sha256": "cb26c804325015780517b8223d6348729e855fb8ac7f2365a576af7981fc2c7c"
+    },
+    {
+      "path": "evaluation/migration-v8.2-final/REPORT.md",
+      "sha256": "725f8dc1c023f255b9610dc7ae7d81533a6038535d37011f15b209de686a57d7"
+    },
+    {
+      "path": "evaluation/migration-v8.2-final/validation-receipt.json",
+      "sha256": "68c351ff2774aff4bd6600f3d694ca2ea06b20c9f29f5ff652a8a11a2a00b044"
+    },
+    {
+      "path": "tests/test_v82_migration.py",
+      "sha256": "068f61c787da2bbc0720b422908e9cfb08591fb99dd3c8ecc2c6fe606cb5153f"
+    },
+    {
+      "path": "tests/test_v81_correction.py",
+      "sha256": "56b157fb53f4afb3da10ff99a6fc58724bf2f2a74d5395ce3ba63a8c6ba68038"
+    }
+  ],
+  "website_deployed": false,
+  "evaluation_pr_merged": false,
+  "ledger_sha256": "2006e1670d67acdcae505950ed78a57da2bcbdd95246b35dcef87da1b8c74582"
+}

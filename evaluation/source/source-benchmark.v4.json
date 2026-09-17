@@ -5,7 +5,7 @@
   "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
   "source_title": "William Doyle, The Oxford History of the French Revolution (2002 edition)",
   "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
-  "policy_sha256": "fc1aec7bf1c4a29f146a31d941e11df305944e88dcd214ee7f352acdedc43499",
+  "policy_sha256": "c2ef6f6e015fdde13afed22addfa0e9633a0b452ca49990f713dca9e487bed32",
   "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
   "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
   "candidate_blindness": "preserved",
@@ -229061,7 +229061,7 @@
       "focused_v2_to_v3_corrections"
     ]
   },
-  "benchmark_sha256": "28e3c631cd717266153201f0c0c9450b1b79b91a76a587b0f0eaf2cfa79400b4",
+  "benchmark_sha256": "4e3147464c9a907d5d9c6ce689bae53bb1f9ace53b99c0146b49a105629e6562",
   "compatibility_import": {
     "operation": "reviewed_legacy_benchmark_compatibility_import",
     "approval_id": "oxford-2002-benchmark-v3-v8-compatibility-approval-v1",

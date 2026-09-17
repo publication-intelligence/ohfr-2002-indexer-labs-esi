@@ -1,0 +1,984 @@
+{
+  "collections": [
+    {
+      "artifact_path": "data/index-records.v1.json",
+      "collection_id": "index_records",
+      "content_sha256": "10cc80e73c84caf2649dda85a0ecd843f8506c8edbcae7fcdc2cca208a065dbc",
+      "count": 1644,
+      "file_sha256": "0645df5b3167f7ad2aea523222a83d130f89685dfb51ecf8d02d3fd782124e31"
+    },
+    {
+      "artifact_path": "data/source-subjects.v1.json",
+      "collection_id": "source_subjects",
+      "content_sha256": "b83969725fdec0f787ae1011dbc4a735e6385732191f8ea8a3a6934f4e14a500",
+      "count": 1366,
+      "file_sha256": "a3b79ed768257c5f371127d265d57a97e2064aa100d44ca25fd2dc5210aa89d5"
+    },
+    {
+      "artifact_path": "data/density.v1.json",
+      "collection_id": "density",
+      "content_sha256": "fde03533db4281f050f80642ce3204a69a09fe704288e1f50847c51d42adb259",
+      "count": 17,
+      "file_sha256": "033bee392438f8a9c542b6c5b9cb4d14aaacfa9586f7e76724a1a4c796c4f9d8"
+    }
+  ],
+  "correction_outcomes": {
+    "affected_headings": 0,
+    "applicable": false,
+    "character_replacements": 0,
+    "overlay_included": false,
+    "reason": "No confirmed registered correction overlay applies."
+  },
+  "density_denominator": {
+    "indexable_source_words": 194718,
+    "unit": "words"
+  },
+  "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+  "item_summaries": {
+    "observed": {
+      "cross_references": {
+        "bands": {
+          "excellent": 8,
+          "mixed": 0,
+          "not_measured": 0,
+          "poor": 2,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 10,
+        "not_measured": 0,
+        "total": 10
+      },
+      "heading_nodes": {
+        "bands": {
+          "excellent": 1525,
+          "mixed": 15,
+          "not_measured": 0,
+          "poor": 1,
+          "strong": 103,
+          "weak": 0
+        },
+        "graded": 1644,
+        "not_measured": 0,
+        "total": 1644
+      },
+      "locator_utility_tiers": {
+        "diagnostic_credit": {
+          "0": 141,
+          "0.15": 17,
+          "0.25": 47,
+          "0.35": 32,
+          "0.7": 3071,
+          "1": 2914
+        },
+        "fit": {
+          "exact_fit": 5951,
+          "material_mismatch": 42,
+          "material_partial_fit": 71,
+          "no_fit": 141,
+          "severe_mismatch": 17
+        },
+        "rating_credit": {
+          "0": 307,
+          "1": 5915
+        },
+        "treatment": {
+          "absent": 137,
+          "mixed": 3097,
+          "substantive": 2932,
+          "weak_presence": 56
+        }
+      },
+      "locators": {
+        "bands": {
+          "excellent": 2914,
+          "mixed": 3071,
+          "not_measured": 0,
+          "poor": 237,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 6222,
+        "not_measured": 0,
+        "total": 6222
+      },
+      "paths": {
+        "bands": {
+          "excellent": 0,
+          "mixed": 0,
+          "not_measured": 1644,
+          "poor": 0,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 0,
+        "not_measured": 1644,
+        "total": 1644
+      },
+      "source_subjects": {
+        "bands": {
+          "excellent": 927,
+          "mixed": 0,
+          "not_measured": 0,
+          "poor": 439,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 1366,
+        "not_measured": 0,
+        "total": 1366
+      }
+    }
+  },
+  "limitations": [
+    "The registered CHUNK-001 locator ledger records 2 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-002 locator ledger records 260 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-004 locator ledger records 1 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-005 locator ledger records 321 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-006 locator ledger records 1 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-007 locator ledger records 4 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-008 locator ledger records 3 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-011 locator ledger records 4 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-013 locator ledger records 4 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-014 locator ledger records 7 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "The registered CHUNK-015 locator ledger records 363 medium-confidence source-treatment or complete-path-fit judgments; their explicit judgments remain canonical evidence.",
+    "Aggregate scores come from the authoritative V8 calculation, not reconstructed item grades.",
+    "Source excerpts and private layout evidence are excluded.",
+    "Exact percentage and weighted-contribution strings are authoritative; numeric rating and points aliases exist only for the established generic website adapter."
+  ],
+  "projection_id": "OHFR-V8-WEB-0B23F21FBFBB",
+  "projection_role": "deterministic_public_safe_display_projection",
+  "projection_sha256": "79fb3d4f873bed504cf33a6b3d052be35a58c5da981c32cfe8d9a31a86bfdfab",
+  "provenance": {
+    "benchmark_sha256": "8bac014f723286d4b4ded858bcb1c118246b6bce2a25e56bbabdfae66cc55e4a",
+    "calculation_sha256": "ceafab7b5975aa9545f493d704da83e5f502041e7f9431119c8aa05c4540702d",
+    "correction_overlay_sha256": null,
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v6",
+    "judgment_policy_sha256": "177515184d674aa267cc4eb1f7ad5afb875022f972990f182a36652fb5ece87b",
+    "missing_access_audit_set_sha256": "c11a1834ba63e1fdc8f225dcfc067c2fae9691f6410ce65ddac57c7914b2b1bd",
+    "projection_metadata_sha256": "dba1453719d1a2aef58de21fb1190f3091851a09a16fb524e3a1ac4197f274cf",
+    "rubric_version": "subject-index-rubric-v8.1",
+    "source_artifacts": [
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/candidate-index.v2.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "candidate-index-v2",
+        "sha256": "48c489e56077e886c6cd50e000fa293ed0d11eccdc461ed3b63817b42a9735e4"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/item-inventory.v2.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-item-inventory-v2",
+        "sha256": "2c14c47659ae018853ff57acbe2dec45c3c6058e1442f88faa28311014475981"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "405e0f74f749c611335a643ca9eb08f7599c35c77aa51c4af5ed4f4cec89d128"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "9ad4a7939f3e9c6057b93df5093622c715e93fdcf9017f3f3ac2ca7d7cc2f071"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "1deb04c1b99af0206e79585df8e9d6128fa0f42dc88dad64d44003facf8fccd4"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "a06c81ca9b948d21e02dca4a41deb1d8e35ab6753cecedd73abeaefa5e289c24"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "94cdc17ec095476a335da4aece79c04dc1e2674eafc1af476d14fd166bf4e593"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "a04c435ab9279c2fe73ed1d70bdd17c37740a8ce09968d0f8c9139aec9c084c1"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "55012362266790be905c5171fbf28e30015815dcdb81af934691140990479055"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "2a9184eb0d588751f8906a449b17d8e6f2a9709d62be411861a2b4da1130d27b"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "3e421853172112fee40c075d879d744fafa0cf11881a8e31a690f16a21723ae4"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "3af6629e70831c4b006d7fc4711804ddae1fb227dbf4407680ec457a6f522771"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "c35256344d6859bca24a918e88ab2395ea3030656e38ec575bcf3cf25f3d2b32"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "4c13b0317c71ac58e66af88429c6088aea06c86552d8aac5d829162feb5557c0"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "6aff9d7e52baae68c7dac7ab363c1c510dde4375bea05b2a76815a2d07326e13"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "3c6f5386b6ea41894978130eb302f12c1163beb42855841dacafc377a4db278b"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "6bc6c4c38142f820a4091f3d4e0e3286c3fb012144088f0367c91c4148b20ac2"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "573d736e0460058a28caec8d1079bf1dc30e7a8106b41c89c3c962349bf134d7"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "0685ba5a499e1f23f6c3c147797f920dedf4a036fe384e272a79018624713db4"
+      },
+      {
+        "artifact_path": "candidates/oxford-history-french-revolution-2002-indexerlabs-truncated/structure-audit.v6.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "structure-audit-v6",
+        "sha256": "d44c15128509a590bf9c603f1fa50195c928492d5ed8954194e63c384ea492f6"
+      },
+      {
+        "artifact_path": "scoring-v81/dimension-calculations.v6.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-dimension-calculations-v6",
+        "sha256": "cdc33efba793893a617e98484a3e0685db9095a72ff1de27d9eb74c258b112ef"
+      },
+      {
+        "artifact_path": "scoring-v81/evaluation-result.v12.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-evaluation-result-v12",
+        "sha256": "752ed2077e4f52e6ec5d67408f413cc2bbbcfbd5c37907d9c8a473759249e73b"
+      },
+      {
+        "artifact_path": "scoring-v81/item-assessments.v7.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-item-assessments-v7",
+        "sha256": "139ca28c74541ea85ab1ad061795feb997a65f9f2fbc8743435d6dc06949d228"
+      },
+      {
+        "artifact_path": "scoring-v81/web-report.v10.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-web-report-v10",
+        "sha256": "1081ebcb0b8b10c38177c5161656dbcfacb5e7df537d487a34ef058de627acf6"
+      },
+      {
+        "artifact_path": "source/chunk-manifest.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "chunk-manifest-v1",
+        "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+      },
+      {
+        "artifact_path": "source/source-benchmark.v4.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "source-subject-benchmark-v2",
+        "sha256": "543ea6cb155d5563f5daf0c4b015f950f50b3791d42f53afc43fd0411cda5d3d"
+      }
+    ],
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+  },
+  "public_safety": {
+    "absolute_paths_included": false,
+    "private_layout_evidence_included": false,
+    "restricted_files_included": false,
+    "source_excerpts_included": false,
+    "source_subject_summaries_are_synthesized_not_quoted": true
+  },
+  "review_signals": [
+    {
+      "affected_evidence_ids": [
+        "LOC-0081059F367A",
+        "LOC-0181A9E071B5",
+        "LOC-03D2970468F7",
+        "LOC-0488F8D40C3B",
+        "LOC-058409826CA7",
+        "LOC-05CC0B6737CE",
+        "LOC-0AA18CD659F3",
+        "LOC-0C09FF5372AF",
+        "LOC-11D85C3B33C5",
+        "LOC-1355AAF67F74",
+        "LOC-1845BF085A7B",
+        "LOC-1D5D6319C569",
+        "LOC-28B8DEB4636B",
+        "LOC-2CEB131BAB85",
+        "LOC-2DF8B762632C",
+        "LOC-31BA7BD6C39C",
+        "LOC-33EB1CA87AC0",
+        "LOC-3600EA85EBAF",
+        "LOC-36641F4EA206",
+        "LOC-36832CCF7EDC",
+        "LOC-3759FEA65D02",
+        "LOC-3B4ABA2F7E51",
+        "LOC-45C0D46FFD47",
+        "LOC-4E5D16CBD899",
+        "LOC-517CAE69CC10",
+        "LOC-57E3FC24C6D6",
+        "LOC-5C1AE240C774",
+        "LOC-5DBFA87FB298",
+        "LOC-637A923481BA",
+        "LOC-64A090DE97C4",
+        "LOC-6793B09BD95D",
+        "LOC-693BAA20477D",
+        "LOC-6C3A76952743",
+        "LOC-6C8D6653F70C",
+        "LOC-6D26576E1EEB",
+        "LOC-70E9CC1ADA3A",
+        "LOC-710578E0561B",
+        "LOC-792DFD63926F",
+        "LOC-7A6189F067EE",
+        "LOC-7A822F8E65A6",
+        "LOC-7CAED23FEE5F",
+        "LOC-80463F686619",
+        "LOC-81E855A49ABA",
+        "LOC-8489FE05864C",
+        "LOC-91CF2580289D",
+        "LOC-929A8DCDE2CF",
+        "LOC-979D5301AF53",
+        "LOC-9D6119C59AC0",
+        "LOC-A114E6BA0C42",
+        "LOC-A1C7DFCDA94C",
+        "LOC-AA5D3E03FEBB",
+        "LOC-B2F7355BD5AE",
+        "LOC-C167F26DF3D3",
+        "LOC-C681CF00BC03",
+        "LOC-C74D2DC5AC6E",
+        "LOC-CAE8E06425A9",
+        "LOC-CD55A2C9C720",
+        "LOC-CF02D33D664C",
+        "LOC-D6D8DE11E640",
+        "LOC-DE6A32C0402C",
+        "LOC-DFECED8F3034",
+        "LOC-E5426AA03D57",
+        "LOC-EB89CEAB54B6",
+        "LOC-ED86C786DBB3",
+        "LOC-EDB9A0592E45",
+        "LOC-EFA6B8CF8545",
+        "LOC-F1A5004AB92C",
+        "LOC-F31FFC742181",
+        "LOC-F39EC80C652F",
+        "LOC-F74E0FD98302",
+        "LOC-FBA5BFC474F6"
+      ],
+      "color": "yellow",
+      "count": 71,
+      "individually_caps_or_gates": false,
+      "reason": "Partial fits retain ordinary diagnostic and rating consequences; no cap or gate.",
+      "signal_id": "REVIEW-PARTIAL-FIT"
+    },
+    {
+      "affected_evidence_ids": [
+        "NODE-1191397E9EB1",
+        "NODE-16129A683B89",
+        "NODE-1B08A15A1C3F",
+        "NODE-1BA45F0A7134",
+        "NODE-1E34556283CC",
+        "NODE-1E63438B0AD6",
+        "NODE-1ECC12F245C7",
+        "NODE-2C48EB3C2124",
+        "NODE-306E0BB4F3DA",
+        "NODE-369199BC8F4B",
+        "NODE-3787102685F4",
+        "NODE-4A3142A7AA68",
+        "NODE-4AA649CA0037",
+        "NODE-4BDFFAA5353F",
+        "NODE-53185142F438",
+        "NODE-55415D2A17D5",
+        "NODE-62552B731581",
+        "NODE-62ADC0366ADB",
+        "NODE-62C03E45EB1E",
+        "NODE-6305DC524EEF",
+        "NODE-68A591A13D47",
+        "NODE-6BDB16C19EE8",
+        "NODE-6CB3EFA9FE43",
+        "NODE-6E05DB5753EA",
+        "NODE-76C320CFEADE",
+        "NODE-7B675A5967A8",
+        "NODE-7C8370D24BEA",
+        "NODE-9A4C65054083",
+        "NODE-9EEA4EFFC27A",
+        "NODE-A7C0D48474B6",
+        "NODE-AB2C62FD68FE",
+        "NODE-AB9A5C65E120",
+        "NODE-B20C4A797637",
+        "NODE-B293C24EF17B",
+        "NODE-BB2A9687E9A3",
+        "NODE-C0B380D19B5F",
+        "NODE-C1643D90135B",
+        "NODE-C26C2FF15CFD",
+        "NODE-C978A73AC01D",
+        "NODE-D26E8416ED3B",
+        "NODE-D3A6332B04CD",
+        "NODE-D629B6F439AD",
+        "NODE-D821FAF322E9",
+        "NODE-DCA89F097FCD",
+        "NODE-E7057E5104AC",
+        "NODE-E7F9D5EE1145",
+        "NODE-E8A3991C0A52",
+        "NODE-E8A770B81BF2",
+        "NODE-E97C2BDC93DD",
+        "NODE-F2DE015F77F0"
+      ],
+      "color": "yellow",
+      "count": 50,
+      "individually_caps_or_gates": false,
+      "reason": "Third-level headings prompt review only.",
+      "signal_id": "REVIEW-HEADING-DEPTH"
+    },
+    {
+      "affected_evidence_ids": [
+        "SUBJ-04661509BFF9",
+        "SUBJ-04912A35F163",
+        "SUBJ-0AD8FB5AC200",
+        "SUBJ-0C023E58D3F6",
+        "SUBJ-116222C96360",
+        "SUBJ-14FE5490DEE5",
+        "SUBJ-17CD02843753",
+        "SUBJ-18A7D9381CC6",
+        "SUBJ-18F97BFC5C24",
+        "SUBJ-19C9A400680E",
+        "SUBJ-1D6F8710D6C3",
+        "SUBJ-24DE44207BAD",
+        "SUBJ-27175E5D4B21",
+        "SUBJ-2A4B0EFFABCC",
+        "SUBJ-2BAE531980F4",
+        "SUBJ-2CE967CD931F",
+        "SUBJ-2D5CB0D06DC4",
+        "SUBJ-317469668957",
+        "SUBJ-38CFEA67AC3E",
+        "SUBJ-3A459DF00748",
+        "SUBJ-4118071D0D99",
+        "SUBJ-415E3CD4F39E",
+        "SUBJ-44B0ED2F05CE",
+        "SUBJ-46213BF91F8C",
+        "SUBJ-46F98F28D56F",
+        "SUBJ-5151BEC12A93",
+        "SUBJ-553C9BA889D9",
+        "SUBJ-6D4DD1187342",
+        "SUBJ-6E1413FB4E60",
+        "SUBJ-714D4887EC63",
+        "SUBJ-76CDBCAA158E",
+        "SUBJ-79490E12011D",
+        "SUBJ-7A329106FB11",
+        "SUBJ-7B34EFD537DD",
+        "SUBJ-7B5000EEE5C0",
+        "SUBJ-7BD9B38D4EFE",
+        "SUBJ-7D5145B189E5",
+        "SUBJ-7FCDE290728D",
+        "SUBJ-85D6DBE6C93E",
+        "SUBJ-8BD33A443E4E",
+        "SUBJ-8BE291F64C55",
+        "SUBJ-8CBF3B4ACC2F",
+        "SUBJ-8DC242203EA6",
+        "SUBJ-920B98783486",
+        "SUBJ-988E59B69040",
+        "SUBJ-9922AA14575C",
+        "SUBJ-9990E8A5516A",
+        "SUBJ-9A3FDBBB6B80",
+        "SUBJ-9C3BCF4FE4A6",
+        "SUBJ-A038CCDE96B2",
+        "SUBJ-A2A7299F7165",
+        "SUBJ-A722951A6E72",
+        "SUBJ-A8857B12C90E",
+        "SUBJ-B0A25204040A",
+        "SUBJ-B1C602729F9A",
+        "SUBJ-B3B33F0A5D31",
+        "SUBJ-B3F01DCDCA3E",
+        "SUBJ-B5AE90A5922F",
+        "SUBJ-B6609C314EC7",
+        "SUBJ-B87E80D18C6E",
+        "SUBJ-C9E36CAD201F",
+        "SUBJ-C9FB9A23F9CA",
+        "SUBJ-CAB272FF1322",
+        "SUBJ-D5E266C67F90",
+        "SUBJ-DB8776518E9D",
+        "SUBJ-E35A64A359EE",
+        "SUBJ-E81DCEED5E62",
+        "SUBJ-E8462D7A649A",
+        "SUBJ-EDF252839E2F",
+        "SUBJ-FDF2E2B490EB"
+      ],
+      "color": "yellow",
+      "count": 70,
+      "individually_caps_or_gates": false,
+      "reason": "Source-linked native heading-access findings identify missing supplemental routes despite partial supported access. Coverage and access deductions remain; these findings do not individually cap or gate.",
+      "signal_id": "REVIEW-MISSING-SUPPLEMENTAL-ROUTE"
+    }
+  ],
+  "schema_version": "ohfr-v8-canonical-web-projection-v1",
+  "score_views": {
+    "canonical_source_adjustment_status": "none",
+    "projection_adjustment_status": "not_applicable",
+    "total_delta": 0,
+    "views": [
+      {
+        "critical_gates": [
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+            "gate_id": "GATE-SCOPE-LOCATOR",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical misleading or blocking delivered fabricated, nonexistent, or out-of-scope locator with severe mismatch/no fit",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Delivered severe/no-fit locator pattern: >=10 distinct items, >=5% of denominator, >=2 sections spanning >=25% of source or structure",
+            "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Critical central omission or major omission demonstrably destroying high-priority access",
+            "gate_id": "GATE-CENTRAL-OMISSION",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Critical central omission or major omission demonstrably destroying high-priority access",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+            "gate_id": "GATE-STANCE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical materially misleading reversal or misrepresentation of source stance or relationship",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+            "gate_id": "GATE-COMPOUND",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical misleading or blocking compound heading supported by delivered severe-mismatch/no-fit locator evidence",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical delivered substitutive see blocks warranted substantive access",
+            "gate_id": "GATE-SEE-SUBSTITUTION",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical delivered substitutive see blocks warranted substantive access",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+            "gate_id": "GATE-CROSS-REFERENCE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Delivered broken reference with major/critical blocking or misleading consequence, or frozen systemic threshold; missing warranted routes excluded",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "One clutter root cause: >=10 distinct items, >=5% of applicable population, >=2 sections spanning >=25% of source or structure",
+            "gate_id": "GATE-CLUTTER",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "10 distinct items, >=5% of one denominator, >=2 sections and >=25% source/structural spread",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+            "gate_id": "GATE-GROUNDING",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "Major/critical delivered severe-mismatch/no-fit locator materially misleads or blocks; stance, compound, and invalid destination gates own their specific evidence",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          },
+          {
+            "affected_evidence_ids": [],
+            "consequence_evidence": [],
+            "defect_ids": [],
+            "description": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+            "gate_id": "GATE-STRUCTURE",
+            "qualifying_locator_evidence": [],
+            "standard": true,
+            "systemic_groups": [],
+            "threshold": "True candidate-output structural failure: critical representation/mechanical corruption, or empty, incomplete, unparseable candidate output",
+            "threshold_reason": "No qualifying evidence crosses this threshold.",
+            "triggered": false
+          }
+        ],
+        "dimension_denominators": [
+          {
+            "components": [
+              {
+                "applicable": 1366,
+                "component_id": "priority_weighted_subject_access",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1366,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1366,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "meaningful_coverage"
+          },
+          {
+            "components": [
+              {
+                "applicable": 6085,
+                "component_id": "substantive_selectivity",
+                "defined_zero_rule": null,
+                "excluded": 137,
+                "exclusion_reasons": {
+                  "absent_owned_by_reliability": 137
+                },
+                "genuinely_inapplicable": false,
+                "measured": 6085,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 6222,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 1,
+                "component_id": "density_fit",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "editorial_selectivity"
+          },
+          {
+            "components": [
+              {
+                "applicable": 1644,
+                "component_id": "conceptual_stance_nodes",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1644,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1644,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "conceptual_stance_fidelity"
+          },
+          {
+            "components": [
+              {
+                "applicable": 6222,
+                "component_id": "keep_precision",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 6222,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 6222,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 3210,
+                "component_id": "expected_treatment_recall",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 3210,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 3210,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "page_reference_reliability"
+          },
+          {
+            "components": [
+              {
+                "applicable": 915,
+                "component_id": "coverage_conditioned_reader_tasks",
+                "defined_zero_rule": null,
+                "excluded": 111,
+                "exclusion_reasons": {
+                  "excluded_due_to_missing_access": 111
+                },
+                "genuinely_inapplicable": false,
+                "measured": 915,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1026,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 1644,
+                "component_id": "heading_access_architecture",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1644,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1644,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 10,
+                "component_id": "cross_reference_validity",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 10,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 10,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "findability_navigation"
+          },
+          {
+            "components": [
+              {
+                "applicable": 1644,
+                "component_id": "mechanics_nodes",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1644,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1644,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "mechanics_consistency"
+          }
+        ],
+        "label": "Canonical as delivered",
+        "maximum": 100,
+        "provenance_artifacts": [
+          {
+            "artifact_path": "scoring-v81/evaluation-result.v12.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-evaluation-result-v12",
+            "sha256": "752ed2077e4f52e6ec5d67408f413cc2bbbcfbd5c37907d9c8a473759249e73b"
+          },
+          {
+            "artifact_path": "scoring-v81/web-report.v10.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-web-report-v10",
+            "sha256": "1081ebcb0b8b10c38177c5161656dbcfacb5e7df537d487a34ef058de627acf6"
+          },
+          {
+            "artifact_path": "scoring-v81/dimension-calculations.v6.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-dimension-calculations-v6",
+            "sha256": "cdc33efba793893a617e98484a3e0685db9095a72ff1de27d9eb74c258b112ef"
+          }
+        ],
+        "readiness": {
+          "status": "publication_ready",
+          "triggered_gate_ids": []
+        },
+        "role": "authoritative_primary_observation",
+        "score": 85.12,
+        "scorecard": [
+          {
+            "awarded_points": 16.008568368439843,
+            "dimension_id": "meaningful_coverage",
+            "dimension_percentage": "80.04284184219921456622634773",
+            "formula_id": "subject-index-dimension-calculation-v6:meaningful_coverage",
+            "maximum_points": 20,
+            "rating": 4.002142092109961,
+            "weight": 20,
+            "weighted_contribution": "16.00856836843984291324526955"
+          },
+          {
+            "awarded_points": 9.74752089495406,
+            "dimension_id": "editorial_selectivity",
+            "dimension_percentage": "64.98347263302706989539506653",
+            "formula_id": "subject-index-dimension-calculation-v6:editorial_selectivity",
+            "maximum_points": 15,
+            "rating": 3.2491736316513538,
+            "weight": 15,
+            "weighted_contribution": "9.74752089495406048430925998"
+          },
+          {
+            "awarded_points": 14.644616788321168,
+            "dimension_id": "conceptual_stance_fidelity",
+            "dimension_percentage": "97.63077858880778588807785888",
+            "formula_id": "subject-index-dimension-calculation-v6:conceptual_stance_fidelity",
+            "maximum_points": 15,
+            "rating": 4.8815389294403895,
+            "weight": 15,
+            "weighted_contribution": "14.64461678832116788321167883"
+          },
+          {
+            "awarded_points": 22.33545547084874,
+            "dimension_id": "page_reference_reliability",
+            "dimension_percentage": "89.34182188339495098228080783",
+            "formula_id": "subject-index-dimension-calculation-v6:page_reference_reliability",
+            "maximum_points": 25,
+            "rating": 4.4670910941697475,
+            "weight": 25,
+            "weighted_contribution": "22.33545547084873774557020196"
+          },
+          {
+            "awarded_points": 17.386568146464043,
+            "dimension_id": "findability_navigation",
+            "dimension_percentage": "86.93284073232021060189063061",
+            "formula_id": "subject-index-dimension-calculation-v6:findability_navigation",
+            "maximum_points": 20,
+            "rating": 4.346642036616011,
+            "weight": 20,
+            "weighted_contribution": "17.38656814646404212037812612"
+          },
+          {
+            "awarded_points": 5.0,
+            "dimension_id": "mechanics_consistency",
+            "dimension_percentage": "100",
+            "formula_id": "subject-index-dimension-calculation-v6:mechanics_consistency",
+            "maximum_points": 5,
+            "rating": 5.0,
+            "weight": 5,
+            "weighted_contribution": "5"
+          }
+        ],
+        "view_id": "canonical_as_delivered",
+        "view_kind": "observed"
+      }
+    ]
+  },
+  "view_selection": {
+    "authoritative_view_id": "canonical_as_delivered",
+    "default_display_view_id": "canonical_as_delivered",
+    "display_view_rationale": "The canonical as-delivered result is authoritative.",
+    "primary_view_id": "canonical_as_delivered"
+  }
+}
